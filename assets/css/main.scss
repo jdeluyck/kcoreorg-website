@@ -1,0 +1,59 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+
+@font-face {
+	font-family: "Oswald Stencil";
+	src: url("/assets/fonts/Oswald-Stencil-webfont.woff") format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("/assets/fonts/OpenSans-Regular-webfont.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$footer-text-color: #EEEEEE;
+$footer-background-color: #59554E;
+$background-color: #EFF0EC;
+$link-color: #61928C; 
+$masthead-link-color: #666666;
+
+$type-size-9: 0.350em !default; // ~4px
+
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom CSS crap */
+/* Site Title */
+.site-title {
+/*  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-weight: bold;*/
+  text-transform: uppercase;
+//  z-index: 20;
+  font-family: "Oswald Stencil";
+  font-size: $type-size-2;
+}
+
+/* Site Subtitle */
+.site-subtitle {
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-size: $type-size-9;
+}
+
+/* Footer front color */
+.page__footer {
+  color: $footer-text-color;
+}

@@ -1,0 +1,15 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About Me"
+    url: /about-me/
+  - title: "About kcore.org"
+    url: /about-kcore-org/
+
+site_sidebar:
+  - title: "Categories"
+    type: categories

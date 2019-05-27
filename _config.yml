@@ -1,0 +1,198 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dirt" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site settings
+locale: en
+title: kcore.org
+description: >- # this means to ignore newlines until "baseurl:"
+  ... everything&#039;s just a memory dump away ...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kcore.org" # the base hostname & protocol for your site, e.g. http://example.com
+name: "kcore.org"
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "kcore-org"
+
+search: true
+
+search_full_content: true
+
+twitter:
+  username: "jdeluyck"
+
+facebook:
+  username: "jan.deluyck"
+
+# Author
+#author:
+#  name: "Jan"
+#  avatar: 
+#  bio: "aweseome"
+#  location: "Europe"
+#  email: jan@kcore.org
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: https://twitter.com/jdeluyck
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: https://facebook.com/jan.deluyck
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/jdeluyck
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://linkedin.com/in/jandeluyck
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto: jan@kcore.org"
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/Brussels
+                                                      
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Archives
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true 
+      classes: wide
+      sidebar:
+        nav: "site_sidebar"
+      
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-305756-1"
+    anonymize_ip: true
+
+site_sidebar:
+  - title: "Search"
+    text: foo
+  - title: "Categories"
+    text: bar
+

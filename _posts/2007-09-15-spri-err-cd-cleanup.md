@@ -1,0 +1,21 @@
+---
+id: 144
+title: 'Spri&#8230; err&#8230; cd cleanup!'
+date: 2007-09-15T19:53:54+02:00
+author: Jan
+layout: single
+guid: http://sadevil.org/blog/2007/09/15/spri-err-cd-cleanup/
+permalink: /2007/09/15/spri-err-cd-cleanup/
+categories:
+  - Personal
+tags:
+  - cleanup
+format: gallery
+---
+I&#8217;ve been cleaning up a bit.. and finally decided to check/sort all my empty cd boxes I had lying about.
+
+The grand total: _449_ empty boxes. Argh!  
+<img src="https://i0.wp.com/kcore.org/wp-content/uploads/2007/09/img_3723-sm.jpg?w=920&#038;ssl=1" data-recalc-dims="1" />  
+<img src="https://i0.wp.com/kcore.org/wp-content/uploads/2007/09/img_3724-sm.jpg?w=920&#038;ssl=1" data-recalc-dims="1" /> 
+
+Want one? :)
