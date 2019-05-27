@@ -14,6 +14,6 @@ tags:
 ---
 I&#8217;m changing employers&#8230;
 
-<img border="0" src="https://i2.wp.com/tickers.TickerFactory.com/ezt/d/4;15;7/st/20071001/e/one+month+of+vacationtime/dt/6/k/0473/blk-event.png?w=920" data-recalc-dims="1" /> 
+<img border="0" src="http://tickers.TickerFactory.com/ezt/d/4;15;7/st/20071001/e/one+month+of+vacationtime/dt/6/k/0473/blk-event.png" /> 
 
 And taking a month of vacation in between both ;)

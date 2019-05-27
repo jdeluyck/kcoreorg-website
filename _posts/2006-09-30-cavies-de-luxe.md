@@ -27,11 +27,11 @@ But, they&#8217;re two happy critters again :)
 <table>
   <tr>
     <td>
-      <img src="https://i2.wp.com/kcore.org/wp-content/uploads/2006/09/IMG_2573-sm.jpg?w=920&#038;ssl=1" alt="Macchiatto" data-recalc-dims="1" />
+      <img src="https://kcore.org/wp-content/uploads/2006/09/IMG_2573-sm.jpg" alt="Macchiatto" />
     </td>
     
     <td>
-      <img src="https://i0.wp.com/kcore.org/wp-content/uploads/2006/09/IMG_2575-sm.jpg?w=920&#038;ssl=1" alt="Nero" data-recalc-dims="1" />
+      <img src="https://kcore.org/wp-content/uploads/2006/09/IMG_2575-sm.jpg" alt="Nero" />
     </td>
   </tr>
 </table>

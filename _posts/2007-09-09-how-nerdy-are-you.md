@@ -16,4 +16,4 @@ format: image
 ---
 I&#8217;m teh Cool Nerd King! Bow to me! ;)
 
-<a href="http://www.nerdtests.com/ft_nt2.php" target="_blank"><img src="https://i0.wp.com/kcore.org/wp-content/uploads/2005/11/2aa26bdd9fcdea58.png?w=920&#038;ssl=1" align="middle" data-recalc-dims="1" /></a>
+<a href="http://www.nerdtests.com/ft_nt2.php" target="_blank"><img src="https://kcore.org/wp-content/uploads/2005/11/2aa26bdd9fcdea58.png" align="middle" /></a>

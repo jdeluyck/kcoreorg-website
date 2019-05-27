@@ -12,6 +12,6 @@ tags:
   - Comics
 format: image
 ---
-<img src="https://i0.wp.com/kcore.org/wp-content/uploads/2012/06/itjobs.jpg?w=920&#038;ssl=1" alt="Applying for an IT job..." data-recalc-dims="1" />
+![Applying for an IT job...](https://kcore.org/wp-content/uploads/2012/06/itjobs.jpg)
 
 (© <a href="http://explosm.net" target="_blank">Explosm.net</a>)

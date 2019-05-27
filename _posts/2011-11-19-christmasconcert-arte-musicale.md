@@ -24,7 +24,7 @@ As some of you might (not) know, I&#8217;ve recently joined a choir, called <a h
 On the 26th of december, we&#8217;re giving a christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.
 
 <center>
-  <img src="https://i2.wp.com/kcore.org/wp-content/uploads/2012/03/Affiche-AM-Kerstconcert-1.jpg?w=70%25&#038;ssl=1" alt="Christmas Concert Arte Musicale 2011" data-recalc-dims="1" />
+  <img width="70%" src="https://kcore.org/wp-content/uploads/2012/03/Affiche-AM-Kerstconcert-1.jpg" alt="Christmas Concert Arte Musicale 2011" />
 </center>
 
 Here&#8217;s a handy google maps thingy to help you find us :)  

@@ -16,5 +16,5 @@ tags:
 format: image
 ---
 <center>
-  <img src="https://i1.wp.com/kcore.org/wp-content/uploads/2008/02/apt_get_wife-sm.png?w=90%25&#038;ssl=1" alt="apt-get install wife" data-recalc-dims="1" />
+  <img src="https://kcore.org/wp-content/uploads/2008/02/apt_get_wife-sm.png" alt="apt-get install wife" width="90%" />
 </center>

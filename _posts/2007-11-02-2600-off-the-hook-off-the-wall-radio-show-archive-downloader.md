@@ -9,7 +9,7 @@ permalink: /2007/11/02/2600-off-the-hook-off-the-wall-radio-show-archive-downloa
 categories:
   - Linux / Unix
 tags:
-  - '2600'
+  - 2600
   - archive download
   - off the hook
   - off the wall
@@ -36,5 +36,5 @@ For example: <span class="typewriter">./get_2600_archive otw /tmp/offthewall</sp
 <p class="list">
   <p class="list">
     <a class="download-link filetype-icon filetype-gz"
-   title="Version 1.0" href="https://kcore.org/download/1254/" rel="nofollow"> get_2600_archive.gz (56 downloads) </a>
+   title="Version 1.0" href="https://kcore.org/download/1254/" rel="nofollow"> get_2600_archive.gz (57 downloads) </a>
   </p>

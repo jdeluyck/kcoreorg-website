@@ -18,11 +18,11 @@ In my quest for a prettier theme than the default themes of the Nokia E65, I&#82
 <table>
   <tr>
     <td class="" nowrap="nowrap" width="50%">
-      <img src="https://i0.wp.com/kcore.org/wp-content/uploads/2007/06/dots_theme.jpg?w=920&#038;ssl=1" alt="The old Nokia dots theme" data-recalc-dims="1" /><br /> The old theme, Dots.
+      <img src="https://kcore.org/wp-content/uploads/2007/06/dots_theme.jpg" alt="The old Nokia dots theme" /><br /> The old theme, Dots.
     </td>
     
     <td class="" nowrap="nowrap" width="50%">
-      <img src="https://i0.wp.com/kcore.org/wp-content/uploads/2007/06/reflect_theme.jpg?w=920&#038;ssl=1" alt="The new Reflect theme" data-recalc-dims="1" /><br /> The new theme, Reflect!
+      <img src="https://kcore.org/wp-content/uploads/2007/06/reflect_theme.jpg" alt="The new Reflect theme" /><br /> The new theme, Reflect!
     </td>
   </tr>
 </table>

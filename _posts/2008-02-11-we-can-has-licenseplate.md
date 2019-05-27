@@ -16,7 +16,7 @@ tags:
   - yez
 format: image
 ---
-<img src="https://i2.wp.com/kcore.org/wp-content/uploads/2008/02/plate-sm.jpg?w=920&#038;ssl=1" alt="Licenseplate reads YEZ-" data-recalc-dims="1" />
+![Licenseplate reads YEZ-](https://kcore.org/wp-content/uploads/2008/02/plate-sm.jpg)
 
 Yez! We can! :p
 

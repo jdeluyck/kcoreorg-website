@@ -18,7 +18,7 @@ Also known as Horoscope.. :p
 <table align="center">
   <tr>
     <td align="center" nowrap="nowrap" bgcolor="#f4f4f4" width="1%">
-      <a href="http://www.lets101.com/quizzes/stars_say" target="_blank"><img src="https://i0.wp.com/kcore.org/wp-content/uploads/2007/11/zodiac_leo_txt.gif?w=920&#038;ssl=1" alt="Horrorscope" data-recalc-dims="1" /></a>
+      <a href="http://www.lets101.com/quizzes/stars_say" target="_blank"><img src="https://kcore.org/wp-content/uploads/2007/11/zodiac_leo_txt.gif" alt="Horrorscope" /></a>
     </td>
   </tr>
 </table>

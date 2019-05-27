@@ -23,7 +23,7 @@ tags:
   </div>
   
   <p>
-    <img src="https://i0.wp.com/kcore.org/wp-content/uploads/2008/03/flag-sm.gif?w=920&#038;ssl=1" style="top:5px; position:relative; display:block; width:100px; background-color:332200;" data-recalc-dims="1" />
+    <img src="https://kcore.org/wp-content/uploads/2008/03/flag-sm.gif" style="top:5px; position:relative; display:block; width:100px; background-color:332200;" />
   </p>
   
   <div style="left:110px; top:-60px; width:290px; position:relative; text-align: justify;">

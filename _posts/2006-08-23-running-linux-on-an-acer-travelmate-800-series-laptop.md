@@ -15,8 +15,6 @@ tags:
   - linux
   - tm800
   - tm803
-toc: true
-classes: normal
 ---
 This page documents my attempts (and successes!) to get Linux fully working on an Acer Travelmate 800 series laptop.
 

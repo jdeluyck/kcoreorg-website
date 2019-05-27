@@ -16,4 +16,4 @@ format: image
 ---
 &#8230; see? Even WordPress thinks so.
 
-[<img src="https://i1.wp.com/kcore.org/wp-content/uploads/2009/06/spam-is-evil1.png?resize=687%2C324&#038;ssl=1" alt="Spam is evil!" title="Spam is evil!" width="687" height="324" class="aligncenter size-full wp-image-465" data-recalc-dims="1" />](https://i1.wp.com/kcore.org/wp-content/uploads/2009/06/spam-is-evil1.png?ssl=1)
+[<img src="https://kcore.org/wp-content/uploads/2009/06/spam-is-evil1.png" alt="Spam is evil!" title="Spam is evil!" width="687" height="324" class="aligncenter size-full wp-image-465" />](https://kcore.org/wp-content/uploads/2009/06/spam-is-evil1.png)

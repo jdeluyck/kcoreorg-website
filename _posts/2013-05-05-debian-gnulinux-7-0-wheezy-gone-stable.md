@@ -9,7 +9,7 @@ permalink: /2013/05/05/debian-gnulinux-7-0-wheezy-gone-stable/
 categories:
   - Linux / Unix
 tags:
-  - '7.0'
+  - 7.0
   - debian
   - stable
   - wheezy
@@ -17,7 +17,7 @@ tags:
 <table border="">
   <tr>
     <td width="1">
-      <img alt="" src="https://i1.wp.com/www.debian.org/logos/openlogo-nd-100.png?w=920" data-recalc-dims="1" />
+      <img alt="" src="http://www.debian.org/logos/openlogo-nd-100.png" />
     </td>
     
     <td>

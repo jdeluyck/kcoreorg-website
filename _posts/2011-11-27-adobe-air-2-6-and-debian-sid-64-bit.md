@@ -55,13 +55,13 @@ After this, the installer went ahead and dumped AIR in `/opt/Adobe AIR`. (spaces
 Next hurdle: after installing Saezuri, I noticed it had a hideous black border:
 
 <center>
-  <img src="https://i1.wp.com/kcore.org/wp-content/uploads/2011/11/saezuri-backborder1.png?w=60%25&#038;ssl=1" alt="Saezuri with black border" title="saezuri-backborder" data-recalc-dims="1" />
+  <img src="https://kcore.org/wp-content/uploads/2011/11/saezuri-backborder1.png" alt="Saezuri with black border" title="saezuri-backborder" width="60%" />
 </center>
 
 &#8230; completely not acceptable. Luckely, this was easily fixed by enabling <a href="http://en.wikipedia.org/wiki/Compositing_window_manager" target="_blank">display compositing</a> in the XFCE settings. Another problem fixed:
 
 <center>
-  <img src="https://i1.wp.com/kcore.org/wp-content/uploads/2011/11/saezuri-transparant.png?w=60%25&#038;ssl=1" alt="Saezuri with transparancy" title="saezuri-transparant" data-recalc-dims="1" />
+  <img src="https://kcore.org/wp-content/uploads/2011/11/saezuri-transparant.png" alt="Saezuri with transparancy" title="saezuri-transparant" width="60%" />
 </center>
 
 The last problem I ran into is that AIR seems to default to <a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank">firefox</a> as the default browser. Since I&#8217;m not a firefox user (I do have it installed for those special occasions), that didn&#8217;t do. After some more digging I found <a href="http://blog.andreaolivato.net/open-source/change-adobe-air-apps-default-browser.html" target="_blank">a blog post</a> detailing how to change this: apparently Adobe decided that hardcoding firefox as a browser was a good idea. I fixed this by hex-editing the `libCore.so` file under `/opt/Adobe AIR/Versions/1.0`, changing the hardcoded &#8216;firefox&#8217; by &#8216;browser&#8217;, and adding a symlink under `/usr/bin` pointing `browser` to `x-www-browser`:  

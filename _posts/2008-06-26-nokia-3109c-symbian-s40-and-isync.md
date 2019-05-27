@@ -10,7 +10,7 @@ categories:
   - Apple / Mac OS
   - Symbian
 tags:
-  - '3109c'
+  - 3109c
   - apple
   - isync
   - Mac OS

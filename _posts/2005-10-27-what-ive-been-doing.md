@@ -38,8 +38,8 @@ That&#8217;s about it!
 
 
 	<a class="download-link filetype-icon filetype-zip"
-   title="Version 1.0" href="https://kcore.org/download/1264/" rel="nofollow"> webrings-1.0.zip (118 downloads) </a> 
+   title="Version 1.0" href="https://kcore.org/download/1264/" rel="nofollow"> webrings-1.0.zip (120 downloads) </a> 
 	<a class="download-link filetype-icon filetype-zip"
    title="Version 2.0" href="https://kcore.org/download/1279/" rel="nofollow"> countdown-2.0.zip (125 downloads) </a> 
 	<a class="download-link filetype-icon filetype-zip"
-   title="Version 0.1" href="https://kcore.org/download/1276/" rel="nofollow"> sphpblog2wp-0.1.zip (108 downloads) </a>
+   title="Version 0.1" href="https://kcore.org/download/1276/" rel="nofollow"> sphpblog2wp-0.1.zip (111 downloads) </a>

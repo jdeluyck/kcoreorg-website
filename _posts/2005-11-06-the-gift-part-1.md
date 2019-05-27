@@ -13,7 +13,7 @@ I was talking a while back about them gifts&#8230;
 
 Well, here they are:
 
-<img SRC="https://i0.wp.com/kcore.org/wp-content/uploads/2005/11/gifts_diana-sm.jpg?w=920&#038;ssl=1" data-recalc-dims="1" /> 
+<img SRC="https://kcore.org/wp-content/uploads/2005/11/gifts_diana-sm.jpg" /> 
 
 \*g\*
 

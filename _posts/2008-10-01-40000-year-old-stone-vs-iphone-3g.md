@@ -15,7 +15,7 @@ tags:
 format: image
 ---
 <center>
-  <img src="https://i0.wp.com/kcore.org/wp-content/uploads/2008/10/stone-vs-iphone.png?w=920&#038;ssl=1" alt="rock vs iphone" data-recalc-dims="1" />
+  <img src="https://kcore.org/wp-content/uploads/2008/10/stone-vs-iphone.png" alt="rock vs iphone" />
 </center>
 
 So true&#8230; ;)

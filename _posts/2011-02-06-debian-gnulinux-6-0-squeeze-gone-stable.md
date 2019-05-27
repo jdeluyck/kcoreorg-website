@@ -17,7 +17,7 @@ tags:
 <table BORDER="0" CLASS="">
   <tr>
     <td ALIGN="center" WIDTH="1" CLASS="">
-      <img SRC="https://i1.wp.com/kcore.org/wp-content/uploads/2011/02/debian_logo.png?w=920&#038;ssl=1" data-recalc-dims="1" />
+      <img SRC="https://kcore.org/wp-content/uploads/2011/02/debian_logo.png" />
     </td>
     
     <td CLASS="">

@@ -15,7 +15,7 @@ format: gallery
 I&#8217;ve been cleaning up a bit.. and finally decided to check/sort all my empty cd boxes I had lying about.
 
 The grand total: _449_ empty boxes. Argh!  
-<img src="https://i0.wp.com/kcore.org/wp-content/uploads/2007/09/img_3723-sm.jpg?w=920&#038;ssl=1" data-recalc-dims="1" />  
-<img src="https://i0.wp.com/kcore.org/wp-content/uploads/2007/09/img_3724-sm.jpg?w=920&#038;ssl=1" data-recalc-dims="1" /> 
+![](https://kcore.org/wp-content/uploads/2007/09/img_3723-sm.jpg)  
+![](https://kcore.org/wp-content/uploads/2007/09/img_3724-sm.jpg) 
 
 Want one? :)

@@ -13,6 +13,6 @@ tags:
   - software patents
 format: image
 ---
-<a href="http://stopsoftwarepatents.eu/" target="_blank"><img src="https://i2.wp.com/kcore.org/wp-content/uploads/2009/11/ssp-336-280.png?w=920&#038;ssl=1" alt="Stop Software Patents" data-recalc-dims="1" /></a>
+<a href="http://stopsoftwarepatents.eu/" target="_blank"><img src="https://kcore.org/wp-content/uploads/2009/11/ssp-336-280.png" alt="Stop Software Patents" /></a>
 
 Yes, I signed this petition!

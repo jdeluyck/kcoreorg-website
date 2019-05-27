@@ -13,8 +13,6 @@ tags:
   - dell
   - dell d610
   - linux
-toc: true
-classes: normal
 ---
 This page documents my attempts (and successes!) to get Linux fully working on a Dell D610 laptop.
 

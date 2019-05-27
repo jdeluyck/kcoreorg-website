@@ -13,7 +13,7 @@ tags:
   - 'fcp&amp;d'
   - pipeband
 ---
-<img src="https://i1.wp.com/kcore.org/wp-content/uploads/2009/11/Nacht-met-tekst-sm.jpg?w=90%25&#038;ssl=1" alt="Nacht van FCP&#038;D" data-recalc-dims="1" />
+<img src="https://kcore.org/wp-content/uploads/2009/11/Nacht-met-tekst-sm.jpg" alt="Nacht van FCP&#038;D" width="90%" />
 
 Another shameless advertisement for the upcoming <a href="http://www.glengarry.be/fcpd/geheugensteun.html" target="_blank">Nacht van FCP&D</a> organised by the <a href="http://www.fcpd.be/" target="_blank">Flemish Caledonian Pipes & Drums &#8211; Clan MacKenzie</a>, for our 20<sup>th</sup> year anniversary. We&#8217;re playing together with the Royal Fanfare St-Cecilia Teralfene.
 

@@ -34,7 +34,7 @@ Now, without further delay, my widgets, which you can see in action on <a href="
 
 
 	<a class="download-link filetype-icon filetype-zip"
-   title="Version 2.0" href="https://kcore.org/download/1271/" rel="nofollow"> projects-widget-2.0.zip (114 downloads) </a> 
+   title="Version 2.0" href="https://kcore.org/download/1271/" rel="nofollow"> projects-widget-2.0.zip (116 downloads) </a> 
 
 &nbsp;
 
@@ -46,4 +46,4 @@ Now, without further delay, my widgets, which you can see in action on <a href="
 
 
 	<a class="download-link filetype-icon filetype-zip"
-   title="Version 3.0" href="https://kcore.org/download/1266/" rel="nofollow"> countdown-widget-3.0.zip (112 downloads) </a>
+   title="Version 3.0" href="https://kcore.org/download/1266/" rel="nofollow"> countdown-widget-3.0.zip (113 downloads) </a>

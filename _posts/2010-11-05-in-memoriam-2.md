@@ -13,7 +13,7 @@ tags:
   - nero
 format: image
 ---
-<img src="https://i2.wp.com/kcore.org/wp-content/uploads/2010/11/Nero_Memories_1000-me.jpg?w=80%25&#038;ssl=1" alt="Macchiatto - In Memoriam" data-recalc-dims="1" />
+<img src="https://kcore.org/wp-content/uploads/2010/11/Nero_Memories_1000-me.jpg" alt="Macchiatto - In Memoriam" width="80%" />
 
 Today we had to put Nero to sleep. Unfortunately he caught an infection, for which we treated him, but it was too late. He never really got better, and we couldn&#8217;t see him suffer any more. We&#8217;re gonna miss him very much, our little pooter.
 

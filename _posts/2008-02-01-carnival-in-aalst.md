@@ -20,7 +20,7 @@ Also, don&#8217;t think of going to Aalst during carnival season with a bike &#8
 Here&#8217;s a nice pic of the trainstation of Aalst, all dressed up for the occasion:
 
 <center>
-  <img src="https://i2.wp.com/kcore.org/wp-content/uploads/2008/02/01022008_G-sm.jpg?w=40%25&#038;ssl=1" alt="Aalst Train Station" data-recalc-dims="1" />
+  <img src="https://kcore.org/wp-content/uploads/2008/02/01022008_G-sm.jpg" alt="Aalst Train Station" width="40%" />
 </center>
 
   

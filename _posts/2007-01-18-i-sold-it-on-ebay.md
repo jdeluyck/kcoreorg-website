@@ -25,7 +25,7 @@ So, I told him to ship the stuff back, I&#8217;d refund.
 Today, the item arrived. The package was incomplete (missing cables), and when testing the switch, everything worked _perfectly_.
 
 <center>
-  <img SRC="https://i0.wp.com/kcore.org/wp-content/uploads/2007/01/screenshot_cisco-sm.jpg?w=920&#038;ssl=1" data-recalc-dims="1" />
+  <img SRC="https://kcore.org/wp-content/uploads/2007/01/screenshot_cisco-sm.jpg" />
 </center>That can so 
 
 _piss me off_. People like that aren&#8217;t worth your time. So, _be warned_ when selling stuff to the <a TARGET="_blank" HREF="http://feedback.benl.ebay.be/ws/eBayISAPI.dll?ViewFeedback&userid=snmc1800">snmc1800 eBay user</a>!

@@ -12,6 +12,6 @@ tags:
   - Comics
 format: image
 ---
-[<img class="aligncenter size-full wp-image-890" title="Reasons why people who work with computers seem to have so much spare time..." src="https://i2.wp.com/kcore.org/wp-content/uploads/2012/09/217105_469340956420254_1423167663_n.jpg?resize=460%2C381&#038;ssl=1" alt="Reasons why people who work with computers seem to have so much spare time..." width="460" height="381" srcset="https://i2.wp.com/kcore.org/wp-content/uploads/2012/09/217105_469340956420254_1423167663_n.jpg?w=460&ssl=1 460w, https://i2.wp.com/kcore.org/wp-content/uploads/2012/09/217105_469340956420254_1423167663_n.jpg?resize=300%2C248&ssl=1 300w" sizes="(max-width: 460px) 100vw, 460px" data-recalc-dims="1" />](https://i2.wp.com/kcore.org/wp-content/uploads/2012/09/217105_469340956420254_1423167663_n.jpg?ssl=1)
+[<img class="aligncenter size-full wp-image-890" title="Reasons why people who work with computers seem to have so much spare time..." src="https://kcore.org/wp-content/uploads/2012/09/217105_469340956420254_1423167663_n.jpg" alt="Reasons why people who work with computers seem to have so much spare time..." width="460" height="381" srcset="https://kcore.org/wp-content/uploads/2012/09/217105_469340956420254_1423167663_n.jpg 460w, https://kcore.org/wp-content/uploads/2012/09/217105_469340956420254_1423167663_n-300x248.jpg 300w" sizes="(max-width: 460px) 100vw, 460px" />](https://kcore.org/wp-content/uploads/2012/09/217105_469340956420254_1423167663_n.jpg)
 
 (found somewhere on the internet)

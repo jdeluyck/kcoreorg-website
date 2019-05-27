@@ -17,10 +17,10 @@ format: gallery
 We made another change to our cavies&#8217; cage: we put it on a table (so we see them better and they see us better):
 
 <center>
-  <br /> <img src="https://i1.wp.com/kcore.org/wp-content/uploads/2008/01/IMG_3933-sm.jpg?w=60%25&#038;ssl=1" alt="Cage on a table" data-recalc-dims="1" />
+  <br /> <img src="https://kcore.org/wp-content/uploads/2008/01/IMG_3933-sm.jpg" alt="Cage on a table" width="60%" />
 </center>And here are some pics of our little (well, not so little anymore&#8230;) critters:
 
   
-<img src="https://i1.wp.com/kcore.org/wp-content/uploads/2008/01/IMG_3926-sm.jpg?w=60%25&#038;ssl=1" alt="Nero" data-recalc-dims="1" />  
-<img src="https://i2.wp.com/kcore.org/wp-content/uploads/2008/01/IMG_3927-sm.jpg?w=60%25&#038;ssl=1" alt="Nero and Macchiatto" data-recalc-dims="1" />  
-<img src="https://i2.wp.com/kcore.org/wp-content/uploads/2008/01/IMG_3928-sm.jpg?w=60%25&#038;ssl=1" alt="Machiatto" data-recalc-dims="1" />
+<img src="https://kcore.org/wp-content/uploads/2008/01/IMG_3926-sm.jpg" alt="Nero" width="60%" />  
+<img src="https://kcore.org/wp-content/uploads/2008/01/IMG_3927-sm.jpg" alt="Nero and Macchiatto" width="60%" />  
+<img src="https://kcore.org/wp-content/uploads/2008/01/IMG_3928-sm.jpg" alt="Machiatto" width="60%" />

@@ -14,7 +14,7 @@ tags:
   - 'fcp&amp;d'
   - pipeband
 ---
-<img src="https://i2.wp.com/kcore.org/wp-content/uploads/2009/11/fcpd\_12\_celtic_weekend-sm.jpg?w=90%25&ssl=1" alt="12th Celtic Weekend"/ data-recalc-dims="1" />
+<img src="https://kcore.org/wp-content/uploads/2009/11/fcpd\_12\_celtic_weekend-sm.jpg" alt="12th Celtic Weekend"/ width="90%"/>
 
 Shameless advertisement for the upcoming <a href="http://www.glengarry.be/fcpd/events.htm" target="_blank">12th Celtic Weekend</a> organised by the <a href="http://www.fcpd.be/" target="_blank">Flemish Caledonian Pipes & Drums &#8211; Clan MacKenzie</a>, the pipeband where I play.
 

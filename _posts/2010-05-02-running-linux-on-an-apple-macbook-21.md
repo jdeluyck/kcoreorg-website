@@ -14,8 +14,6 @@ tags:
   - debian
   - linux
   - macbook
-toc: true
-classes: normal
 ---
 This page documents my attempts (and successes!) to get Linux fully working on an Intel-based Apple MacBook, 2007 model.
 

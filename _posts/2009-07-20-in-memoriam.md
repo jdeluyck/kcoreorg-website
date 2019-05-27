@@ -12,7 +12,7 @@ tags:
   - Cavies
 format: image
 ---
-<img src="https://i1.wp.com/kcore.org/wp-content/uploads/2009/07/Macchiatto-InMemoriam-sm.jpg?w=80%25&#038;ssl=1" alt="Macchiatto - In Memoriam" data-recalc-dims="1" />
+<img src="https://kcore.org/wp-content/uploads/2009/07/Macchiatto-InMemoriam-sm.jpg" alt="Macchiatto - In Memoriam" width="80%" />
 
 We had to put him to sleep. He had an infection that we didn&#8217;t catch in time. We&#8217;re sad. Nero is sad. We&#8217;ll miss his pooting and wooting and generally being himself.
 

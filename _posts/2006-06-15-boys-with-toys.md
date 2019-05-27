@@ -15,7 +15,7 @@ format: image
 YAY! My new toy got delivered today!
 
 <center>
-  <img SRC="https://i2.wp.com/kcore.org/wp-content/uploads/2006/06/tx_1.png?w=920&#038;ssl=1" data-recalc-dims="1" />
+  <img SRC="https://kcore.org/wp-content/uploads/2006/06/tx_1.png" />
 </center>Doesn&#8217;t it look nice? It&#8217;s a 
 
 <a HREF="http://euro.palm.com/be/en/products/tx/index.html" TARGET="_blank">Palm T|X</a>, the latest model from the Palm factory.It&#8217;s charging as I type, and looks very sleek and futuristic with it&#8217;s black/blueish look :)

@@ -22,7 +22,7 @@ I know some companies are thankful when an employee chooses to work for them (li
     </td>
     
     <td class="">
-      <img src="https://i2.wp.com/kcore.org/wp-content/uploads/2007/08/IMG_3563-sm.jpg?w=920&#038;ssl=1" alt="Flowers put in vases" data-recalc-dims="1" />
+      <img src="https://kcore.org/wp-content/uploads/2007/08/IMG_3563-sm.jpg" alt="Flowers put in vases" />
     </td>
   </tr>
 </table>

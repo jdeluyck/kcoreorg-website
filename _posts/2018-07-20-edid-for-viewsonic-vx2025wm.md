@@ -35,7 +35,7 @@ As you can see, the screen connected on connector DVI-I-1 (remember this!) isn&#
 
 Luckely, it&#8217;s rather easy to override your screen&#8217;s EDID in Linux, allowing you to serve one from a file ;) as long as you have a copy of said EDID. I didn&#8217;t have one, but was able to get my hands on one online. You can download it here: 
 	<a class="download-link filetype-icon filetype-gz"
-   title="" href="https://kcore.org/download/2011/" rel="nofollow"> viewsonic_vx2025wm_edid.bin_.gz (50 downloads) </a>
+   title="" href="https://kcore.org/download/2011/" rel="nofollow"> viewsonic_vx2025wm_edid.bin_.gz (52 downloads) </a>
 
 To activate this (these instructions are for Fedora, but they&#8217;ll probably apply to any distro):
 

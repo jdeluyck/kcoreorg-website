@@ -33,7 +33,7 @@ When you now call <tt>/away</tt> (without a reason) the script will use the &#82
 
 
 	<a class="download-link filetype-icon filetype-zip"
-   title="Version 0.2" href="https://kcore.org/download/1291/" rel="nofollow"> yaiaways-0.2.zip (82 downloads) </a> 
+   title="Version 0.2" href="https://kcore.org/download/1291/" rel="nofollow"> yaiaways-0.2.zip (83 downloads) </a> 
 
 &nbsp;
 
