@@ -7,7 +7,8 @@ layout: single
 permalink: /about-me/
 author_profile: false
 classes: wide
-guid: http://new.kcore.org/?page_id=1579
+sidebar:
+  nav: "site_sidebar"
 ---
 My name is Jan De Luyck, currently inhabiting a small town near <a href="http://www.lochristi.be/" target="_blank">Lochristi</a>. I&#8217;m happily living together with my partner, Diana.
 
