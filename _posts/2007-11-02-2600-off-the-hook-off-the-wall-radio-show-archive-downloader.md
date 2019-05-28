@@ -9,7 +9,7 @@ permalink: /2007/11/02/2600-off-the-hook-off-the-wall-radio-show-archive-downloa
 categories:
   - Linux / Unix
 tags:
-  - 2600
+  - "2600"
   - archive download
   - off the hook
   - off the wall

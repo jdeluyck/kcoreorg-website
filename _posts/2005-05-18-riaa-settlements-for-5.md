@@ -9,7 +9,7 @@ permalink: /2005/05/18/riaa-settlements-for-5/
 categories:
   - Politics
 tags:
-  - 5$
+  - "5$"
   - riaa
 ---
 A friend of mine pointed me to <a href="http://www.blogmaverick.com/entry/1234000270043583/" target="_blank">http://www.blogmaverick.com/entry/1234000270043583/</a>

@@ -9,7 +9,7 @@ permalink: /2012/09/23/s-off-and-jb-on-the-htc-desire-hd/
 categories:
   - Android
 tags:
-  - 4.1.2
+  - '4.1.2'
   - aahk
   - ace
   - Android

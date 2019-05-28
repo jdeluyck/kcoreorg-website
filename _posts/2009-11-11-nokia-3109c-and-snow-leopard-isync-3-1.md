@@ -9,7 +9,7 @@ permalink: /2009/11/11/nokia-3109c-and-snow-leopard-isync-3-1/
 categories:
   - Apple / Mac OS
 tags:
-  - 3109
+  - 3109c
   - apple
   - isync
   - mac os x
