@@ -1,0 +1,14 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - bundle install
+  build:
+    commands:
+      - JEKYLL_ENV=production bundle exec jekyll build
+
+artifacts:
+  base-directory: '_site'
+  files:
+    - '**/*'
