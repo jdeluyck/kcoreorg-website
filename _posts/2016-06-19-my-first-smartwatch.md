@@ -20,7 +20,7 @@ tags:
   Something like this, perhaps&#8230;
 </p>
 
-<img class="size-thumbnail wp-image-1162 alignleft" src="https://kcore.org/wp-content/uploads/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg" alt="smw51sVUgmGgKL._AC_UL320_SR306,320_" width="150" height="150" /> 
+<img class="size-thumbnail wp-image-1162 alignleft" src="/assets/images/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg" alt="smw51sVUgmGgKL._AC_UL320_SR306,320_" width="150" height="150" /> 
 
 &nbsp;
 
@@ -34,7 +34,7 @@ tags:
 
 Nononono, definitely not. Neither an Apple product. My first foray into <a href="https://en.wikipedia.org/wiki/Wearable_technology" target="_blank">wearables</a> of the <a href="https://en.wikipedia.org/wiki/Smartwatch" target="_blank">smartwatch</a> type is a <a href="http://www.pebble.com" target="_blank">Pebble</a> <a href="https://www.pebble.com/pebble-time-smartwatch-features" target="_blank">Time</a>.
 
-<img class="alignleft size-medium wp-image-1161" src="https://kcore.org/wp-content/uploads/2016/06/PBTime-300x169.png" alt="PBTime" width="300" height="169" srcset="https://kcore.org/wp-content/uploads/2016/06/PBTime-300x169.png 300w, https://kcore.org/wp-content/uploads/2016/06/PBTime-768x432.png 768w, https://kcore.org/wp-content/uploads/2016/06/PBTime-1024x576.png 1024w, https://kcore.org/wp-content/uploads/2016/06/PBTime-250x141.png 250w, https://kcore.org/wp-content/uploads/2016/06/PBTime-150x84.png 150w, https://kcore.org/wp-content/uploads/2016/06/PBTime.png 1280w" sizes="(max-width: 300px) 100vw, 300px" /> 
+<img class="alignleft size-medium wp-image-1161" src="/assets/images/2016/06/PBTime-300x169.png" alt="PBTime" width="300" height="169" srcset="/assets/images/2016/06/PBTime-300x169.png 300w, /assets/images/2016/06/PBTime-768x432.png 768w, /assets/images/2016/06/PBTime-1024x576.png 1024w, /assets/images/2016/06/PBTime-250x141.png 250w, /assets/images/2016/06/PBTime-150x84.png 150w, /assets/images/2016/06/PBTime.png 1280w" sizes="(max-width: 300px) 100vw, 300px" /> 
 
 &nbsp;
 
@@ -56,7 +56,7 @@ Bring around 2015, and Pebble got round to launching the <a href="https://www.ki
 
 In the beginning of 2016, iBood had a sale of Pebble Time watches, at a pricepoint I could get round. So I ordered one (in black).
 
-<img class="size-medium wp-image-1164 alignleft" src="https://kcore.org/wp-content/uploads/2016/06/mypebble-300x300.jpg" alt="mypebble" width="300" height="300" srcset="https://kcore.org/wp-content/uploads/2016/06/mypebble-300x300.jpg 300w, https://kcore.org/wp-content/uploads/2016/06/mypebble-150x150.jpg 150w, https://kcore.org/wp-content/uploads/2016/06/mypebble-768x768.jpg 768w, https://kcore.org/wp-content/uploads/2016/06/mypebble.jpg 914w" sizes="(max-width: 300px) 100vw, 300px" /> 
+<img class="size-medium wp-image-1164 alignleft" src="/assets/images/2016/06/mypebble-300x300.jpg" alt="mypebble" width="300" height="300" srcset="/assets/images/2016/06/mypebble-300x300.jpg 300w, /assets/images/2016/06/mypebble-150x150.jpg 150w, /assets/images/2016/06/mypebble-768x768.jpg 768w, /assets/images/2016/06/mypebble.jpg 914w" sizes="(max-width: 300px) 100vw, 300px" /> 
 
 &nbsp;
 
@@ -80,7 +80,7 @@ Things I absolutely love about this watch:
 
   * It&#8217;s a watch. It&#8217;s always readable. Even in the sun. The screen is always &#8216;on&#8217; (not really, since it&#8217;s <a href="https://en.wikipedia.org/wiki/E_Ink" target="_blank">E-Ink</a>). I honestly prefer looking at my watch for the time than at my phone, definitely in a work context.
   * Even when the battery is nearly dead, it&#8217;s still it&#8217;s basic function: _a watch_. Forget that with the other devices.  
-<img class="alignleft size-medium wp-image-1165" src="https://kcore.org/wp-content/uploads/2016/06/deadpebble-1-300x169.png" alt="deadpebble" width="300" height="169" srcset="https://kcore.org/wp-content/uploads/2016/06/deadpebble-1-300x169.png 300w, https://kcore.org/wp-content/uploads/2016/06/deadpebble-1-768x432.png 768w, https://kcore.org/wp-content/uploads/2016/06/deadpebble-1-1024x576.png 1024w, https://kcore.org/wp-content/uploads/2016/06/deadpebble-1-250x141.png 250w, https://kcore.org/wp-content/uploads/2016/06/deadpebble-1-150x84.png 150w, https://kcore.org/wp-content/uploads/2016/06/deadpebble-1.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /> 
+<img class="alignleft size-medium wp-image-1165" src="/assets/images/2016/06/deadpebble-1-300x169.png" alt="deadpebble" width="300" height="169" srcset="/assets/images/2016/06/deadpebble-1-300x169.png 300w, /assets/images/2016/06/deadpebble-1-768x432.png 768w, /assets/images/2016/06/deadpebble-1-1024x576.png 1024w, /assets/images/2016/06/deadpebble-1-250x141.png 250w, /assets/images/2016/06/deadpebble-1-150x84.png 150w, /assets/images/2016/06/deadpebble-1.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /> 
 
 &nbsp;
 
@@ -96,7 +96,7 @@ Things I absolutely love about this watch:
   * Step counter / fitness stuff (if I didn&#8217;t have a Fitbit, I&#8217;d actually use it). First release was gimmicky, but every app update has been better and better.
   * The plethora of <a href="https://apps.getpebble.com/en_US/watchfaces" target="_blank">watchfaces</a> and <a href="https://apps.getpebble.com/en_US/watchapps" target="_blank">watchapps</a> you can find for it
   * (<a href="https://help.getpebble.com/customer/portal/articles/1819783-android---actionable-notifications" target="_blank">Actionable</a>) notifications! This stops me from pulling out my phone and checking what the notification was for. If it&#8217;s urgent, I&#8217;ll get the phone if I can&#8217;t make due with the canned responses. If it&#8217;s not urgent, I&#8217;ll ignore it and reply at a later time.  
-<img class="alignleft size-medium wp-image-1169" src="https://kcore.org/wp-content/uploads/2016/06/pebble_gmail-300x169.jpg" alt="pebble_gmail" width="300" height="169" srcset="https://kcore.org/wp-content/uploads/2016/06/pebble_gmail-300x169.jpg 300w, https://kcore.org/wp-content/uploads/2016/06/pebble_gmail-768x432.jpg 768w, https://kcore.org/wp-content/uploads/2016/06/pebble_gmail-1024x576.jpg 1024w, https://kcore.org/wp-content/uploads/2016/06/pebble_gmail-250x141.jpg 250w, https://kcore.org/wp-content/uploads/2016/06/pebble_gmail-150x84.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /> 
+<img class="alignleft size-medium wp-image-1169" src="/assets/images/2016/06/pebble_gmail-300x169.jpg" alt="pebble_gmail" width="300" height="169" srcset="/assets/images/2016/06/pebble_gmail-300x169.jpg 300w, /assets/images/2016/06/pebble_gmail-768x432.jpg 768w, /assets/images/2016/06/pebble_gmail-1024x576.jpg 1024w, /assets/images/2016/06/pebble_gmail-250x141.jpg 250w, /assets/images/2016/06/pebble_gmail-150x84.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /> 
 
 &nbsp;
 
@@ -107,7 +107,7 @@ Things I absolutely love about this watch:
 &nbsp;
 
   * <a href="http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309" target="_blank">Voice dictation</a>. I&#8217;d never thought I&#8217;d actually use that, but while driving this is great &#8211; you get a notification, check it, quickly with a glance to your wrist, and with two button presses I can send a reply on it&#8217;s way. It works fairly good, but well, <a href="https://www.urbandictionary.com/define.php?term=ymmv" target="_blank">YMMV</a>.  
-<img class="alignleft size-medium wp-image-1167" src="https://kcore.org/wp-content/uploads/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png" alt="pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am" width="300" height="168" srcset="https://kcore.org/wp-content/uploads/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png 300w, https://kcore.org/wp-content/uploads/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-768x430.png 768w, https://kcore.org/wp-content/uploads/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-1024x573.png 1024w, https://kcore.org/wp-content/uploads/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-250x140.png 250w, https://kcore.org/wp-content/uploads/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-150x84.png 150w, https://kcore.org/wp-content/uploads/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1.jpg 1487w" sizes="(max-width: 300px) 100vw, 300px" /> 
+<img class="alignleft size-medium wp-image-1167" src="/assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png" alt="pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am" width="300" height="168" srcset="/assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png 300w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-768x430.png 768w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-1024x573.png 1024w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-250x140.png 250w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-150x84.png 150w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1.jpg 1487w" sizes="(max-width: 300px) 100vw, 300px" /> 
 
 &nbsp;
 
@@ -118,7 +118,7 @@ Things I absolutely love about this watch:
 &nbsp;
 
   * Music control. I use a streaming app on my phone, and being able to pause/skip songs without having to unlock my phone is bliss.
-  *<img class="alignleft size-medium wp-image-1168" src="https://kcore.org/wp-content/uploads/2016/06/pebble_music_green-300x169.jpg" alt="pebble_music_green" width="300" height="169" srcset="https://kcore.org/wp-content/uploads/2016/06/pebble_music_green-300x169.jpg 300w, https://kcore.org/wp-content/uploads/2016/06/pebble_music_green-250x141.jpg 250w, https://kcore.org/wp-content/uploads/2016/06/pebble_music_green-150x84.jpg 150w, https://kcore.org/wp-content/uploads/2016/06/pebble_music_green.jpg 620w" sizes="(max-width: 300px) 100vw, 300px" /> 
+  *<img class="alignleft size-medium wp-image-1168" src="/assets/images/2016/06/pebble_music_green-300x169.jpg" alt="pebble_music_green" width="300" height="169" srcset="/assets/images/2016/06/pebble_music_green-300x169.jpg 300w, /assets/images/2016/06/pebble_music_green-250x141.jpg 250w, /assets/images/2016/06/pebble_music_green-150x84.jpg 150w, /assets/images/2016/06/pebble_music_green.jpg 620w" sizes="(max-width: 300px) 100vw, 300px" /> 
 
 &nbsp;
 

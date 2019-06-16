@@ -18,11 +18,11 @@ Today I decided to change some things to their cavia cage, and see if they like 
 <table border="0" width="100%">
   <tr>
     <td width="50%">
-      <img src="https://kcore.org/wp-content/uploads/2006/09/IMG_2481-sm.jpg" />
+      <img src="/assets/images/2006/09/IMG_2481-sm.jpg" />
     </td>
     
     <td width="50%">
-      <img src="https://kcore.org/wp-content/uploads/2006/09/IMG_2482-sm.jpg" />
+      <img src="/assets/images/2006/09/IMG_2482-sm.jpg" />
     </td>
   </tr>
 </table>

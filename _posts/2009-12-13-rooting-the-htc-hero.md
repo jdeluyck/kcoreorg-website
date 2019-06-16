@@ -77,5 +77,5 @@ Then, reboot your phone (power off and on).
 Restart your abd shell, and execute su in your adb shell: `su`, and on the phone it should come ask if you want to allow root permissions:
 
 <center>
-  <img src="https://kcore.org/wp-content/uploads/2007/10/su-snapshot.png" alt="SU request" height="60%" />
+  <img src="/assets/images/2007/10/su-snapshot.png" alt="SU request" height="60%" />
 </center>Tap &#8220;Allow&#8221;, et voila, you now have a rooted phone.

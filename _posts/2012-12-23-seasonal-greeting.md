@@ -15,5 +15,5 @@ tags:
 format: image
 ---
 <center>
-  <img src="https://kcore.org/wp-content/uploads/2012/12/xmass12-13-sm.png" />
+  <img src="/assets/images/2012/12/xmass12-13-sm.png" />
 </center>

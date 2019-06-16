@@ -14,5 +14,5 @@ tags:
 format: image
 ---
 <center>
-  <a href="http://www.gotoquiz.com/what_be_your_nerd_type" target="_blank"><img src="https://kcore.org/wp-content/uploads/2005/11/Picture_1.png" alt="Gamer/Computer nerd" /><br /> </a><a href="http://www.gotoquiz.com/what_be_your_nerd_type" target="_blank">Take the test here</a>.
+  <a href="http://www.gotoquiz.com/what_be_your_nerd_type" target="_blank"><img src="/assets/images/2005/11/Picture_1.png" alt="Gamer/Computer nerd" /><br /> </a><a href="http://www.gotoquiz.com/what_be_your_nerd_type" target="_blank">Take the test here</a>.
 </center>Nothing new there ;) Tho I play little games these days&#8230;

@@ -16,7 +16,7 @@ tags:
 format: image
 ---
 <center>
-  <a href="http://geekandpoke.typepad.com/geekandpoke/2010/12/the-geekpoke-christmas-tip-of-the-year.html" target="_blank"><img src="https://kcore.org/wp-content/uploads/2010/11/6a00d8341d3df553ef0148c6ddb6e6970c-me.jpg" alt="Phone vs gingerbread" /></a></p> 
+  <a href="http://geekandpoke.typepad.com/geekandpoke/2010/12/the-geekpoke-christmas-tip-of-the-year.html" target="_blank"><img src="/assets/images/2010/11/6a00d8341d3df553ef0148c6ddb6e6970c-me.jpg" alt="Phone vs gingerbread" /></a></p> 
   
   <p>
     &copy; <a href="http://geekandpoke.typepad.com" target="_blank">Geek And Poke</a>, ofcourse!</center>

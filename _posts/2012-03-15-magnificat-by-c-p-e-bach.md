@@ -32,7 +32,7 @@ by Carl Philipp Emanuel Bach
 on saturday, 26<sup>th</sup> of May, in the Sint-Pauluskerk in the Smidsestraat in Ghent.
 
 <center>
-  <img src="https://kcore.org/wp-content/uploads/2012/03/magnificat.jpg" alt="Magnificat" width="70%" />
+  <img src="/assets/images/2012/03/magnificat.jpg" alt="Magnificat" width="70%" />
 </center>
 
 <center>

@@ -23,7 +23,7 @@ tags:
 On the 26th of december we&#8217;re giving our annual christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.
 
 <center>
-  <a href="https://kcore.org/wp-content/uploads/2012/11/priase.png"><img src="https://kcore.org/wp-content/uploads/2012/11/priase.png" alt="Arte Musicale Christmasconcert - Priase" title="Arte Musicale Christmasconcert - Priase" width="70%" /></a>
+  <a href="/assets/images/2012/11/priase.png"><img src="/assets/images/2012/11/priase.png" alt="Arte Musicale Christmasconcert - Priase" title="Arte Musicale Christmasconcert - Priase" width="70%" /></a>
 </center>
 
 Here&#8217;s a handy google maps thingy to help you find us :)  

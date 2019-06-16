@@ -60,12 +60,12 @@ Integrated Bluetooth
 0000:03:03.0 Network controller: Intel Corporation PRO/Wireless 2915ABG MiniPCI Adapter (rev 05)
 </pre>
 
-Here&#8217;s a <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
+Here&#8217;s a <a href="/assets/images/2006/09/dell-d610-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
 
 ### Linux 2.6.x kernel
 
 The latest 2.6 kernel is: <a href="https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz" target="_blank">2.6.39.4</a>.  
-Here&#8217;s my <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-config-2.6.txt" target="_blank" rel="external">2.6.15.6 kernel configuration</a>.
+Here&#8217;s my <a href="/assets/images/2006/09/dell-d610-config-2.6.txt" target="_blank" rel="external">2.6.15.6 kernel configuration</a>.
 
 ### USB
 
@@ -135,7 +135,7 @@ To get the 1400&#215;1050 resolution working, you have to patch the video bios. 
 (for debian install the <a href="http://packages.debian.org/915resolution" target="_blank" rel="external"><code>915resolution</code></a> package). The command to run at every bootup is `915resolution 3c 1400 1050`.  
 After this, X will accept the resolution.
 
-Here&#8217;s my <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
+Here&#8217;s my <a href="/assets/images/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
 
 ### TV Out
 
@@ -187,7 +187,7 @@ You need this if you don&#8217;t want your CPU to eat your batteries empty. It&#
 It works perfectly after loading the `speedstep-centrino` and any of the `cpufreq-` modules.
 
 You can either install the `<a href="http://cpufreqd.sourceforge.net/" target="_blank" rel="external">cpufreqd</a>` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
-I use <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-cpufreq_setup.txt" target="_blank" rel="external">this init script</a> to setup everything at bootup.
+I use <a href="/assets/images/2006/09/dell-d610-cpufreq_setup.txt" target="_blank" rel="external">this init script</a> to setup everything at bootup.
 
 For Debian, check the <a href="http://packages.debian.org/cpufreqd" target="_blank" rel="external"><code>cpufreqd</code></a> or <a href="http://packages.debian.org/powernowd" target="_blank" rel="external"><code>powernowd</code></a> packages.
 
@@ -245,12 +245,12 @@ These include:
   * Battery (`Fn-F3`)
   * Eject CD (`Fn-F10`)
 
-Normally the Mute, Eject CD, Battery and Hibernate buttons don&#8217;t generate key-up events, causing the, to &#8216;hang&#8217;. You can solve that problem by using <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-d610-fnkeys-fix.patch_.txt" target="_blank" rel="external">this</a> kernel patch. (apply it by using `cat d610-fnkeys-fix.patch | patch -p1` in the kernel sourcedir)
+Normally the Mute, Eject CD, Battery and Hibernate buttons don&#8217;t generate key-up events, causing the, to &#8216;hang&#8217;. You can solve that problem by using <a href="/assets/images/2006/09/dell-d610-d610-fnkeys-fix.patch_.txt" target="_blank" rel="external">this</a> kernel patch. (apply it by using `cat d610-fnkeys-fix.patch | patch -p1` in the kernel sourcedir)
 
-The last three keys generate scancodes, but no keycodes by default. To fix this, you can map them using `setkeycodes`. You can also use <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-d610init.txt" target="_blank" rel="external">this init.d script</a>.
+The last three keys generate scancodes, but no keycodes by default. To fix this, you can map them using `setkeycodes`. You can also use <a href="/assets/images/2006/09/dell-d610-d610init.txt" target="_blank" rel="external">this init.d script</a>.
 
-I used the <a href="http://ftp.debian.org/debian/pool/main/h/hotkeys/" target="_blank" rel="external">hotkeys</a> for it, with this <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-delld610.def_.txt" target="_blank" rel="external">delld610.def</a> file in `/usr/share/hotplug/` and then starting hotkeys as  
-`hotkeys --no-splash --cdrom-dev=/dev/scd0 --osd=off` from your `.xsession` file. I also use <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-kdialog_acpi_batt_status.txt" target="_blank" rel="external">a seperate script</a> to get the ACPI Battery status into a kdialog window, this is mapped to the Battery Status key.
+I used the <a href="http://ftp.debian.org/debian/pool/main/h/hotkeys/" target="_blank" rel="external">hotkeys</a> for it, with this <a href="/assets/images/2006/09/dell-d610-delld610.def_.txt" target="_blank" rel="external">delld610.def</a> file in `/usr/share/hotplug/` and then starting hotkeys as  
+`hotkeys --no-splash --cdrom-dev=/dev/scd0 --osd=off` from your `.xsession` file. I also use <a href="/assets/images/2006/09/dell-d610-kdialog_acpi_batt_status.txt" target="_blank" rel="external">a seperate script</a> to get the ACPI Battery status into a kdialog window, this is mapped to the Battery Status key.
 
 Debian users can install the <a href="http://packages.debian.org/hotkeys" target="_blank" rel="external"><code>hotkeys</code></a> package.
 
@@ -270,7 +270,7 @@ On kernels < 2.6.16 you have to apply [this patch](http://tpctl.sourceforge.net/
 
 To get the display back to life, you have to use vbetool (debian package <a href="http://packages.debian.org/vbetool" target="_blank" rel="external"><code>vbetool</code></a>).
 
-I use the following <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-acpi-events-suspend.txt" target="_blank" rel="external"><code>suspend</code></a> script in `/etc/acpi/events` (which is triggered when I press my suspend button), and this <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-suspend2ram.txt" target="_blank" rel="external"><code>suspend2ram</code></a> script to do the actual suspending.
+I use the following <a href="/assets/images/2006/09/dell-d610-acpi-events-suspend.txt" target="_blank" rel="external"><code>suspend</code></a> script in `/etc/acpi/events` (which is triggered when I press my suspend button), and this <a href="/assets/images/2006/09/dell-d610-suspend2ram.txt" target="_blank" rel="external"><code>suspend2ram</code></a> script to do the actual suspending.
 
 ### Touchpad in XFree86/X.Org
 
@@ -323,7 +323,7 @@ InputDevice "Mouse[1]"  "CorePointer"
 ...
 </pre>
 
-Here&#8217;s my <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
+Here&#8217;s my <a href="/assets/images/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
 
 Debian users can install the <a href="http://packages.debian.org/xfree86-driver-synaptics" target="_blank" rel="external"><code>xfree86-driver-synaptics</code></a> package (for both XFree86 and X.Org).
 
@@ -333,7 +333,7 @@ There&#8217;s a BIOS bug in this laptop which causes the display to stay blank w
 
 For this to work, you need to activate the `video` ACPI module.
 
-Install this <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-lidswitch.txt" target="_blank" rel="external">lidswitch event script</a> in `/etc/acpi/events`, and <a href="https://kcore.org/wp-content/uploads/2006/09/dell-d610-lidswitch.sh_.txt" target="_blank" rel="external">lidswitch trigger script</a> in `/etc/acpi`.
+Install this <a href="/assets/images/2006/09/dell-d610-lidswitch.txt" target="_blank" rel="external">lidswitch event script</a> in `/etc/acpi/events`, and <a href="/assets/images/2006/09/dell-d610-lidswitch.sh_.txt" target="_blank" rel="external">lidswitch trigger script</a> in `/etc/acpi`.
 
 What we basically do is `echo 0x80000001 > /proc/acpi/video/VID/LCD/state`, which reactivates the LCD screen.
 

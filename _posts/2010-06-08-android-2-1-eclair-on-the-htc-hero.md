@@ -30,7 +30,7 @@ I had to use the <a href="http://wiki.xda-developers.com/index.php?pagename=Elf_
 After using the phone now for two days, it feels mightily fast, snappy&#8230; it&#8217;s a total new phone.
 
 <center>
-  <img src="https://kcore.org/wp-content/uploads/2010/06/Android-history-2.jpg" alt="Gigantic Android, Donut, Cupcake and Eclair at the GooglePlex" />
+  <img src="/assets/images/2010/06/Android-history-2.jpg" alt="Gigantic Android, Donut, Cupcake and Eclair at the GooglePlex" />
 </center>
 
   

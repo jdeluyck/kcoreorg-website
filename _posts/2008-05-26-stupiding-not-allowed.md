@@ -14,7 +14,7 @@ tags:
 format: image
 ---
 <center>
-  <img src="https://kcore.org/wp-content/uploads/2008/02/001ae99k-sm.gif" alt="No Stupiding" />
+  <img src="/assets/images/2008/02/001ae99k-sm.gif" alt="No Stupiding" />
 </center>
 
 (Thanks to <a href="http://blog.ghosty.be/" target="_blank">gh0sty</a> for this one)

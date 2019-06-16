@@ -14,5 +14,5 @@ tags:
 format: image
 ---
 <center>
-  <a href="http://poofytoo.tumblr.com/post/7991895471/this-is-what-i-think-of-mail" target="_blank"><img src="https://kcore.org/wp-content/uploads/2011/07/mailvssnail.jpg" /></a>
+  <a href="http://poofytoo.tumblr.com/post/7991895471/this-is-what-i-think-of-mail" target="_blank"><img src="/assets/images/2011/07/mailvssnail.jpg" /></a>
 </center>

@@ -24,11 +24,11 @@ After flipping through the service manual (which I had luckily found), it seemed
 I&#8217;m damn glad that I had the manual, because otherwise I think getting this thing apart is not quite so easy.
 
 Here are some after-disassembly-pics:  
-<img width="60%" src="https://kcore.org/wp-content/uploads/2008/10/IMG_4556-sm.jpg" alt="Disassembled mess" />  
-<img width="60%" src="https://kcore.org/wp-content/uploads/2008/10/IMG_4559-sm.jpg" alt="Disassembled mess, part two" /> 
+<img width="60%" src="/assets/images/2008/10/IMG_4556-sm.jpg" alt="Disassembled mess" />  
+<img width="60%" src="/assets/images/2008/10/IMG_4559-sm.jpg" alt="Disassembled mess, part two" /> 
 
 And here, the battery&#8230;  
-<img width="60%" src="https://kcore.org/wp-content/uploads/2008/10/IMG_4558-sm.jpg" alt="The elusive battery" /> 
+<img width="60%" src="/assets/images/2008/10/IMG_4558-sm.jpg" alt="The elusive battery" /> 
 
 which ofcourse had to be of another type than the five we have in the house, so now I have to wait with the reassembly until tomorrow after I get the friggin&#8217; battery! <deity>-damnit! Couldn&#8217;t they stick to the standard CR2032!?
 

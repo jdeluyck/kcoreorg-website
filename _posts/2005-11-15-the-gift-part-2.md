@@ -17,4 +17,4 @@ Well, I&#8217;ve been to Spain, came back in the meanwhile&#8230; (unfortunately
 
 I gave her my presents, which ended (when assembled) in this:
 
-<img SRC="https://kcore.org/wp-content/uploads/2005/11/mju_mini_diana.jpg" /> and <a TARGET="_blank" HREF="http://sade.sadevil.org/blog/?p=18">she&#8217;s</a> very happy with it :P \*phew\* \*g\*
+<img SRC="/assets/images/2005/11/mju_mini_diana.jpg" /> and <a TARGET="_blank" HREF="http://sade.sadevil.org/blog/?p=18">she&#8217;s</a> very happy with it :P \*phew\* \*g\*

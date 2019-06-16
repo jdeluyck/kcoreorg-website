@@ -21,7 +21,7 @@ format: image
 Today the government of Flanders imposed another &#8220;Smog alert&#8221;, atleast until tomorrow evening.
 
 <p align="justify">
-  <img style="float: left; margin: 4px;" src="https://kcore.org/wp-content/uploads/2008/02/large_220795.jpg" alt="Smog!" />
+  <img style="float: left; margin: 4px;" src="/assets/images/2008/02/large_220795.jpg" alt="Smog!" />
 </p>
 
 What is this, you might ask?When the amount of <a href="http://en.wikipedia.org/wiki/Particulate" target="_blank">fine dust</a> in the air exceeds the european limit (40 µg/m³), a speed limit of 90 kph is imposed on certain roads, to reduce this.

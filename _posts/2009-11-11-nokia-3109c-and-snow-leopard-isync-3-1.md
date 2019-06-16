@@ -80,4 +80,4 @@ All I actually did was copy this block in the existing MetaClasses.plist:
 </p></blockquote>
 <p>`
 
-Since WP keeps on braking my indentation, just download it here: [MetaClasses.plist](https://kcore.org/wp-content/uploads/2009/11/MetaClasses.plist)
+Since WP keeps on braking my indentation, just download it here: [MetaClasses.plist]("/assets/files/2009/11/MetaClasses.plist)

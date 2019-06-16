@@ -27,11 +27,11 @@ But, they&#8217;re two happy critters again :)
 <table>
   <tr>
     <td>
-      <img src="https://kcore.org/wp-content/uploads/2006/09/IMG_2573-sm.jpg" alt="Macchiatto" />
+      <img src="/assets/images/2006/09/IMG_2573-sm.jpg" alt="Macchiatto" />
     </td>
     
     <td>
-      <img src="https://kcore.org/wp-content/uploads/2006/09/IMG_2575-sm.jpg" alt="Nero" />
+      <img src="/assets/images/2006/09/IMG_2575-sm.jpg" alt="Nero" />
     </td>
   </tr>
 </table>

@@ -16,7 +16,7 @@ format: image
 ---
 This guy deserves a statue and medals&#8230;
 
-<a href="http://www.ctrlaltdel-online.com/comic.php?d=20071117" target="_blank"><img src="https://kcore.org/wp-content/uploads/2007/09/20071117_G-sm.jpg" alt="Only One" /></a>
+<a href="http://www.ctrlaltdel-online.com/comic.php?d=20071117" target="_blank"><img src="/assets/images/2007/09/20071117_G-sm.jpg" alt="Only One" /></a>
 
 (online comic <a href="http://www.ctrlaltdel-online.com" target="_blank">Ctrl+Alt+Del</a> &#8211; all rights belong to them!)
 

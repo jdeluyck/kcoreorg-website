@@ -22,5 +22,5 @@ Upon closer inspection, the tap in the shower was spraying hot water from one of
 After shutting down the water flow and removing the tap, we found this:
 
 <center>
-  <br /> <img src="https://kcore.org/wp-content/uploads/2008/10/IMG_4490-sm.jpg" /><br /> Broken tap<br /> <img src="https://kcore.org/wp-content/uploads/2008/10/IMG_4492-sm.jpg" /><br /> Side which is still good (cold water)<br /> <img src="https://kcore.org/wp-content/uploads/2008/10/IMG_4491-sm.jpg" /><br /> Side which is broken (hot water)
+  <br /> <img src="/assets/images/2008/10/IMG_4490-sm.jpg" /><br /> Broken tap<br /> <img src="/assets/images/2008/10/IMG_4492-sm.jpg" /><br /> Side which is still good (cold water)<br /> <img src="/assets/images/2008/10/IMG_4491-sm.jpg" /><br /> Side which is broken (hot water)
 </center>It basically cleanly split off from the tube, causing the place to be sprayed in hot water. Fun, not. Goddamn shoddy quality products!!

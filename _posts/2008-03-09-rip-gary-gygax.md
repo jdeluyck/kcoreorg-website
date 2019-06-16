@@ -23,5 +23,5 @@ On the 4th of March 2008, <a href="http://en.wikipedia.org/wiki/Gary_Gygax" targ
 May he rest in peace.
 
 <center>
-  <a href="http://ars.userfriendly.org/cartoons/?id=20080309" target="_blank"><img src="https://kcore.org/wp-content/uploads/2008/02/uf011309-sm.gif" alt="" /></a><br /> <font size="-2">(Comic &copy; <a href="http://www.userfriendly.org" target="_blank">http://www.userfriendly.org</a>)</font>
+  <a href="http://ars.userfriendly.org/cartoons/?id=20080309" target="_blank"><img src="/assets/images/2008/02/uf011309-sm.gif" alt="" /></a><br /> <font size="-2">(Comic &copy; <a href="http://www.userfriendly.org" target="_blank">http://www.userfriendly.org</a>)</font>
 </center>

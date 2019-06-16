@@ -13,7 +13,7 @@ tags:
   - telenet
 format: image
 ---
-<a href="http://www.telenetdruktopdeknop.be" target="_blank"><img src="https://kcore.org/wp-content/uploads/2007/12/telenet-sm.jpg" alt="" /></a>
+<a href="http://www.telenetdruktopdeknop.be" target="_blank"><img src="/assets/images/2007/12/telenet-sm.jpg" alt="" /></a>
 
 <a href="http://www.telenet.be" target="_blank">Telenet</a> has launched a big campaign, known as <a href="http://www.telenetdruktopdeknop.be" target="_blank">Telenet drukt op de knop</a> (Telenet pushes the button) touting that their product line would be dramatically altered. Rumours flew around like a scrapping of the limits they impose, doubling of speeds, &#8230;
 

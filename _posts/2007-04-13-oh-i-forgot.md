@@ -15,7 +15,7 @@ tags:
 <table border="0">
   <tr>
     <td class="" align="center" width="1">
-      <img src="https://kcore.org/wp-content/uploads/2007/04/Debian_logo.png" />
+      <img src="/assets/images/2007/04/Debian_logo.png" />
     </td>
     
     <td class="">

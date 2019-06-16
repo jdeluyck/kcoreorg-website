@@ -26,7 +26,7 @@ Luckely, Google also releases the source code of Android, known as the <a href="
 The downside? This is a naked Android ROM, so no <a href="http://en.wikipedia.org/wiki/HTC_Sense" target="_blank">HTC Sense</a> goodies. There are plenty of replacements in the Android Market though, like <a href="http://www.launcherpro.com" target="_blank">LauncherPro (Plus)</a> with it&#8217;s new widgets, <a href="http://home.dolphin-browser.com/tunny/Home.htm" target="_blank">Dolphin HD</a> browser, and many more.
 
 <center>
-  <img src="https://kcore.org/wp-content/uploads/2010/09/thumb_550_froyo-statue.jpeg" alt="Android statues at Googleplex" />
+  <img src="/assets/images/2010/09/thumb_550_froyo-statue.jpeg" alt="Android statues at Googleplex" />
 </center>
 
   

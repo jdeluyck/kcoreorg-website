@@ -38,19 +38,19 @@ Overall problems:
 Bathroom problems:
 
   1. The bathroom has a leak, from the upstairs neighbours. We reported this, no one came to look or even bothered to call us back.
-  2. The <a href="https://kcore.org/wp-content/uploads/2007/10/pa211879.jpg" target="_blank">shower</a> is useless &#8211; it&#8217;s got a 5cm deep basin, and the drain is crap, so if you shower, you flood the bathroom.
+  2. The <a href="/assets/images/2007/10/pa211879.jpg" target="_blank">shower</a> is useless &#8211; it&#8217;s got a 5cm deep basin, and the drain is crap, so if you shower, you flood the bathroom.
   3. Again on the shower, don&#8217;t use it. It will break. We had to buy a new shower tube because it broke, and we didn&#8217;t want to cough up 50e or more (standard fee by Rent4Days, it costs maybe 8e if you buy it in a shop)
 
 Kitchen problems:
 
-  1. If you dare use the washing machine (good luck without the instructions), and spin stuff, don&#8217;t be amazed when <a href="https://kcore.org/wp-content/uploads/2007/10/pa211877-me.jpg" target="_blank">the kitchen cabinet falls apart</a>.
+  1. If you dare use the washing machine (good luck without the instructions), and spin stuff, don&#8217;t be amazed when <a href="/assets/images/2007/10/pa211877-me.jpg" target="_blank">the kitchen cabinet falls apart</a>.
   2. The sink is placed in a way that you can never stand completely behind it, unless you&#8217;re a plank. Wonderful.
   3. There are no cabinets. Don&#8217;t even think of storing anything &#8211; there is NO room.
   4. This place is supposed to sleep 7, but forget about eating or drinking with 7. Not enough dishes/glasses/cutlery! You can even forget about cooking for seven! The biggest pot is about 3l.
 
 Bedroom:
 
-  1. This is supposed to be a <a href="https://kcore.org/wp-content/uploads/2007/10/pa211878.jpg" target="_blank">double bed</a>. It is 120cm wide, the width of a double bed about 30 years ago. Good luck trying to sleep in that with 2 people.
+  1. This is supposed to be a <a href="/assets/images/2007/10/pa211878.jpg" target="_blank">double bed</a>. It is 120cm wide, the width of a double bed about 30 years ago. Good luck trying to sleep in that with 2 people.
 
 So after about 6 sleepless nights, we moved back into Diana&#8217;s place (which is tiny and with four definitely over-populated), and called the people of Rent4Days to explain the situation, and to tell them that their offer was below anything possible. What did they tell us? &#8220;You are the first persons to complain&#8221;. On the remark that this place does not overlook a park, they said &#8220;We know the area, it overlooks a park.&#8221; Sorry, it overlooks a GARAGE. Not a park. Not even remotely.
 
@@ -60,4 +60,4 @@ We <a href="https://sadevil.org/piwigo/index.php/category/29-madrid_october_2007
 
 To make a long story short, the rest of the days we spent at Diana&#8217;s place, and we didn&#8217;t really do much. The six sleepless nights were enough to drain our energy.
 
-We did <a href="https://kcore.org/wp-content/uploads/2007/10/pa211886-me.jpg" target="_blank">throw a party</a> there, for our friends &#8211; even though it wasn&#8217;t allowed. Sorry, but after all this they deserve a very big _screw you_. It was fun, we played Killer Bunnies (having to explain everything to Diana and then she had to translate it into spanish&#8230; what a mess \*g\*). We had loads of food, brought by our friends and cooked by us, we also had booze! (sangria and sweet wine), and since it was the last Formula 1 sunday, the tv was on. It was great fun.
+We did <a href="/assets/images/2007/10/pa211886-me.jpg" target="_blank">throw a party</a> there, for our friends &#8211; even though it wasn&#8217;t allowed. Sorry, but after all this they deserve a very big _screw you_. It was fun, we played Killer Bunnies (having to explain everything to Diana and then she had to translate it into spanish&#8230; what a mess \*g\*). We had loads of food, brought by our friends and cooked by us, we also had booze! (sangria and sweet wine), and since it was the last Formula 1 sunday, the tv was on. It was great fun.

@@ -16,5 +16,5 @@ Happy newyear and may all your wishes/dreams/&#8230; come true!
 (except those that I don&#8217;t like. Seriously. :p)
 
 <center>
-  <img width="75%" src="https://kcore.org/wp-content/uploads/2011/01/new_year_2011_new_year_rabbit_-me.jpg" alt="NY 2011" />
+  <img width="75%" src="/assets/images/2011/01/new_year_2011_new_year_rabbit_-me.jpg" alt="NY 2011" />
 </center>

@@ -17,7 +17,7 @@ format: image
 &#8230; you&#8217;re most definitely a geek.
 
 <center>
-  <a href="http://geekandpoke.typepad.com/geekandpoke/2010/02/the-geek-joke-of-the-week.html" target="_blank"><img src="https://kcore.org/wp-content/uploads/2010/02/6a00d8341d3df553ef0120a8b86eae970b-me.jpg" alt="Geek and Poke" /></a></p> 
+  <a href="http://geekandpoke.typepad.com/geekandpoke/2010/02/the-geek-joke-of-the-week.html" target="_blank"><img src="/assets/images/2010/02/6a00d8341d3df553ef0120a8b86eae970b-me.jpg" alt="Geek and Poke" /></a></p> 
   
   <p>
     &copy; <a href="http://geekandpoke.typepad.com" target="_blank">Geek And Poke</a>, ofcourse!</center>

@@ -45,12 +45,12 @@ Note: I no longer have this device.
 03:03.0 FireWire (IEEE 1394): Agere Systems FW323 (rev 61)
 </pre>
 
-Here&#8217;s a <a href="https://kcore.org/wp-content/uploads/2010/05/apple-macbook-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
+Here&#8217;s a <a href="/assets/images/2010/05/apple-macbook-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
 
 ### Linux 2.6.x kernel
 
 The latest 2.6 kernel is: <a href="https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz" target="_blank">2.6.39.4</a>.  
-Here&#8217;s my <a href="https://kcore.org/wp-content/uploads/2010/05/apple-macbook-config-2.6.txt" target="_blank" rel="external">2.6.26 kernel configuration</a>. This is actually the stock debian kernel.
+Here&#8217;s my <a href="/assets/images/2010/05/apple-macbook-config-2.6.txt" target="_blank" rel="external">2.6.26 kernel configuration</a>. This is actually the stock debian kernel.
 
 ### USB
 
@@ -205,7 +205,7 @@ Add the following to the `/etc/X11/xorg.conf` file:
 EndSection
 </pre>
 
-Here&#8217;s my <a href="https://kcore.org/wp-content/uploads/2010/05/apple-macbook-xorg.conf_.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
+Here&#8217;s my <a href="/assets/images/2010/05/apple-macbook-xorg.conf_.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
 
 It&#8217;s advisable to run `syndaemon` after starting X, to prevent accidental taps while you&#8217;re typing.  
 example: `syndaemon -i 2 -t -d`
