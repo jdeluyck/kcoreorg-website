@@ -19,7 +19,7 @@ For this, you need to generate an Authentication Token so that Home Assistant is
 
 Do do this via the cli, using curl, you can use the following command:
 
-```
+```bash
 curl -X POST -H "Content-Type: application/x-www-form-urlencoded; charset=utf-8" \ 
 -H 'X-Plex-Version: <SOME VERSION NUMBER>' \
 -H 'X-Plex-Product: <SOME PRODUCT NAME>' \
