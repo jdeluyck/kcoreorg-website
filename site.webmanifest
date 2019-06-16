@@ -3,7 +3,7 @@
     "short_name": "kcore.org",
     "icons": [
         {
-            "src": "/images/favicons/android-chrome-48x48.png",
+            "src": "/assets/images/favicons/android-chrome-48x48.png",
             "sizes": "48x48",
             "type": "image/png"
         }
