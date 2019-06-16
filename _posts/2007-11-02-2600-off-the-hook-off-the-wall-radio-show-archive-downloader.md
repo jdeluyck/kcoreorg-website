@@ -35,6 +35,6 @@ For example: <span class="typewriter">./get_2600_archive otw /tmp/offthewall</sp
 
 <p class="list">
   <p class="list">
-    <a class="download-link filetype-icon filetype-gz"
-   title="Version 1.0" href="https://kcore.org/download/1254/" rel="nofollow"> get_2600_archive.gz (57 downloads) </a>
+    [get_2600_archive.gz](assets/files/2007/11/get_2600_archive.gz)
   </p>
+</p>

@@ -32,18 +32,6 @@ Now, without further delay, my widgets, which you can see in action on <a href="
   * **Projects Widget**: This widget shows project status, in percentages, and also a bar-graph. You can choose between four colours for the bargraph.
   * **Webrings Widget**: This widget will display your webrings, with the usual next/previous/random/list links. Optionally you can set a picture instead of the name.
 
-
-	<a class="download-link filetype-icon filetype-zip"
-   title="Version 2.0" href="https://kcore.org/download/1271/" rel="nofollow"> projects-widget-2.0.zip (116 downloads) </a> 
-
-&nbsp;
-
-
-	<a class="download-link filetype-icon filetype-zip"
-   title="Version 2.0" href="https://kcore.org/download/1268/" rel="nofollow"> webrings-widget-2.0.zip (113 downloads) </a> 
-
-&nbsp;
-
-
-	<a class="download-link filetype-icon filetype-zip"
-   title="Version 3.0" href="https://kcore.org/download/1266/" rel="nofollow"> countdown-widget-3.0.zip (113 downloads) </a>
+[projects-widget-2.0.zip](/assets/files/2007/11/projects-widget-2.0.zip)
+[webrings-widget-2.0.zip](/assets/files/2007/11/webrings-widget-2.0.zip)
+[countdown-widget-3.0.zip](/assets/files/2007/11/countdown-widget-3.0.zip)

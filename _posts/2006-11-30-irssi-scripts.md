@@ -30,10 +30,7 @@ To use it, download the script, dump it in e.g. <tt>~/.irssi/scripts</tt>, and l
 When you now call <tt>/away</tt> (without a reason) the script will use the &#8216;Away from keyboard&#8217; text as your reason, and mark your nick with &#8216;[afk]&#8217; at the end. Feel free to change those things.
 
 ### Download
-
-
-	<a class="download-link filetype-icon filetype-zip"
-   title="Version 0.2" href="https://kcore.org/download/1291/" rel="nofollow"> yaiaways-0.2.zip (83 downloads) </a> 
+[yaiaways-0.2.zip](/assets/files/2006/11/yaiaways-0.2.zip)
 
 &nbsp;
 
@@ -46,7 +43,5 @@ This script is basically a copy-n-paste of Geert Hauwaert&#8217;s <a href="http:
 To use it, download the script, dump it in e.g. <tt>~/.irssi/scripts</tt>, and load it in Irssi with <tt>/run active_dcc</tt>.
 
 ### Download
+[active_dcc-1.0.zip](/assets/files/2006/11/active_dcc-1.0.zip)
 
-
-	<a class="download-link filetype-icon filetype-zip"
-   title="Version 1.0" href="https://kcore.org/download/1289/" rel="nofollow"> active_dcc-1.0.zip (123 downloads) </a>

@@ -36,10 +36,7 @@ I&#8217;ve also &#8216;modded&#8217; an existing plugin for WordPress and made a
 
 That&#8217;s about it!
 
+[webrings-1.0.zip](/assets/files/2005/10/webrings-1.0.zip)
+[countdown-2.0.zip](/assets/files/2005/10/countdown-2.0.zip)
+[sphpblog2wp-0.1.zip](/assets/files/2005/10/sphpblog2wp-0.1.zip)
 
-	<a class="download-link filetype-icon filetype-zip"
-   title="Version 1.0" href="https://kcore.org/download/1264/" rel="nofollow"> webrings-1.0.zip (120 downloads) </a> 
-	<a class="download-link filetype-icon filetype-zip"
-   title="Version 2.0" href="https://kcore.org/download/1279/" rel="nofollow"> countdown-2.0.zip (125 downloads) </a> 
-	<a class="download-link filetype-icon filetype-zip"
-   title="Version 0.1" href="https://kcore.org/download/1276/" rel="nofollow"> sphpblog2wp-0.1.zip (111 downloads) </a>
