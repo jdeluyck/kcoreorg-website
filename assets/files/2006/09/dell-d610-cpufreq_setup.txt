@@ -1,0 +1,49 @@
+#! /bin/sh
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+NAME=cpufreq_setup
+
+DEFAULT_GOV="performance"
+OPTIMAL_GOV="ondemand"
+IGNORE_NICE=0
+
+SYSFS_ROOT="/sys/devices/system/cpu/cpu0/cpufreq"
+SYSFS_GOV="$SYSFS_ROOT/scaling_governor"
+SYSFS_AVAIL_GOV="$SYSFS_ROOT/scaling_available_governors"
+
+function setgovernor()
+{
+	GOV=$1
+	SYSFS_IGNORENICE="$SYSFS_ROOT/$GOV/ignore_nice"
+	echo -n "Setting cpufreq governor to: "
+	if [ -f $SYSFS_GOV ]; then
+		grep -q $GOV $SYSFS_AVAIL_GOV 
+		if [ $? -eq 0 ]; then
+			echo $GOV
+			echo $GOV > $SYSFS_GOV
+			if [ -f $SYSFS_IGNORENICE ]; then
+				echo $IGNORE_NICE > $SYSFS_IGNORENICE
+			fi
+		else
+			echo "governor $GOV is not available!"
+		fi	
+        else
+                echo "required sysfs objects not found!"
+        fi
+}
+
+case "$1" in
+  start)
+	setgovernor $OPTIMAL_GOV
+	;;
+  stop)
+	setgovernor $DEFAULT_GOV
+	;;
+  *)
+	N=/etc/init.d/$NAME
+	echo "Usage: $N {start|stop}" >&2
+	exit 1
+	;;
+esac
+
+exit 0

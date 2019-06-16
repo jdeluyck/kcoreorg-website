@@ -1,0 +1,36 @@
+#!/bin/sh
+# /etc/acpi/lidswitch.sh
+# Re-activates the screen when the lid is opened again
+
+LID_STATE="/proc/acpi/button/lid/LID/state"
+LCD_STATE="/proc/acpi/video/VID/LCD/state"
+VT_NR="/tmp/lid_vt"
+
+if [ -e /tmp/acpi_sleep ]; then
+	rm /tmp/acpi_sleep
+	exit
+fi
+
+grep -q open $LID_STATE
+
+if [ $? -eq 0 ]; then
+	#open the lid
+
+	echo 0x80000001 > $LCD_STATE
+
+	if [ -e $VT_NR ]; then
+		#we closed the lid in X
+		chvt `cat $VT_NR`
+		rm $VT_NR
+	fi
+else
+	# closing the lid
+	# if X is running, we assume vt7.
+
+	X=`ps aux | grep /usr/bin/X11/X | grep -v grep | wc -l`
+	if [ $X -gt 0 ]; then
+		echo 7 > $VT_NR
+		chvt 1
+	fi
+
+fi

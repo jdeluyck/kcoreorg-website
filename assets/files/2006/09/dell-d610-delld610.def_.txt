@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<definition>
+
+	<config model="Dell Latitude D610 Notebook">
+
+  		<VolUp        keycode="176"/>
+  		<VolDown      keycode="174"/>
+  		<Mute         keycode="160"/>
+		<userdef      keycode="137" command="/usr/bin/eject /dev/scd0">Eject</userdef>
+		<userdef      keycode="135" command="/usr/local/bin/kdialog_acpi_batt_status">Battery Status</userdef>
+	</config>
+	<contributor>
+		<name>Jan De Luyck</name>
+		<email>jan@kcore.org</email>
+	</contributor>
+</definition>
+
+

@@ -1,0 +1,4 @@
+# /etc/acpi/events/suspend
+
+event=button[ /]sleep
+action=/usr/local/sbin/suspend2ram.sh

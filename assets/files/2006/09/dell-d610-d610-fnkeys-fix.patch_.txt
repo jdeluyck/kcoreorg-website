@@ -1,0 +1,16 @@
+--- linux-source-2.6.15.4/drivers/input/keyboard/atkbd.c	2006-02-10 08:22:48.000000000 +0100
++++ newSrc/drivers/input/keyboard/atkbd.c	2006-02-17 12:48:15.000000000 +0100
+@@ -398,6 +398,13 @@
+ 		default:
+ 			value = atkbd->release ? 0 :
+ 				(1 + (!atkbd->softrepeat && test_bit(atkbd->keycode[code], atkbd->dev->key)));
++			if (code >= 0x85 && code <= 0x8b) {
++				/* Work around for Dell special keys ;
++				 * otherwise you only get one event, and
++				 * that's all
++				 */
++				value = 3;
++			}
+ 
+ 			switch (value) {	/* Workaround Toshiba laptop multiple keypress */
+ 				case 0:

@@ -1,0 +1,131 @@
+# xorg.conf.dpkg-new (Xorg X Window System server configuration file)
+#
+
+Section "Files"
+	# if the local font server has problems, we can fall back on these
+    FontPath 	"unix/:7100"
+    FontPath 	"/usr/lib/X11/fonts/misc"
+    FontPath 	"/usr/lib/X11/fonts/75dpi:unscaled"
+    FontPath 	"/usr/lib/X11/fonts/Type1"
+    FontPath 	"/var/lib/defoma/x-ttcidfont-conf.d/dirs/CID"
+    FontPath 	"/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType"
+    FontPath 	"/usr/local/share/fonts"
+
+EndSection
+
+Section "Module"
+	Load	"bitmap"
+	Load	"dbe"
+	Load	"ddc"
+	Load	"dri"
+	Load	"extmod"
+	Load	"freetype"
+	Load	"glx"
+	Load	"int10"
+	Load	"record"
+	Load	"type1"
+	Load	"v4l"
+	Load	"vbe"
+	Load	"synaptics"
+EndSection
+
+Section "InputDevice"
+	Identifier	"Generic Keyboard"
+	Driver		"keyboard"
+	Option		"CoreKeyboard"
+	Option		"XkbRules"	"xorg"
+	Option		"XkbModel"	"pc104"
+	Option		"XkbLayout"	"us"
+EndSection
+
+Section "InputDevice"
+	Identifier	"Touchpad"
+	Driver		"synaptics"
+	Option		"Protocol"		"IMPs/2"
+	Option		"Device"		"/dev/psaux"
+	Option		"ZAxisMapping"		"4 5"
+	Option		"LeftEdge"     		"120"
+	Option		"RightEdge"     	"830"
+	Option		"TopEdge"       	"120"
+	Option		"BottomEdge"   	 	"650"
+	Option		"FingerLow"		"14"
+	Option		"FingerHigh"		"15"
+	Option		"MaxTapTime"		"180"
+	Option		"MaxTapMove"		"110"
+	Option		"VertScrollDelta" 	"0"
+	Option		"HorizScrollDelta"	"0"
+	Option		"MinSpeed"		"0.3"
+	Option		"MaxSpeed"		"0.75"
+	Option		"AccelFactor" 		"0.015"
+	Option		"UpDownScrolling"	"on"
+	Option		"LeftRightScrolling"	"on"
+	
+	Option		"SHMConfig"		"on"
+EndSection
+
+Section "InputDevice"
+	Identifier	"External Mouse"
+	Driver		"mouse"
+	Option		"SendCoreEvents"	"true"
+	Option		"Device"		"/dev/input/mice"
+	Option		"Protocol"		"ImPS/2"
+	Option		"ZAxisMapping"		"4 5"
+EndSection
+
+Section "Device"
+	Identifier	"Intel i915"
+	Driver		"i810"
+EndSection
+
+Section "Monitor"
+	Identifier	"14inch TFT"
+	Option		"DPMS"
+	DisplaySize	285	216
+EndSection
+
+Section "Screen"
+	Identifier	"Laptop Screen"
+	Device		"Intel i915"
+	Monitor		"14inch TFT"
+	DefaultDepth	24
+	SubSection "Display"
+		Depth		1
+		Modes		"1400x1050" "1024x768"
+	EndSubSection
+	SubSection "Display"
+		Depth		4
+		Modes		"1400x1050" "1024x768"
+	EndSubSection
+	SubSection "Display"
+		Depth		8
+		Modes		"1400x1050" "1024x768"
+	EndSubSection
+	SubSection "Display"
+		Depth		15
+		Modes		"1400x1050" "1024x768"
+	EndSubSection
+	SubSection "Display"
+		Depth		16
+		Modes		"1400x1050" "1024x768"
+	EndSubSection
+	SubSection "Display"
+		Depth		24
+		Modes		"1400x1050" "1024x768"
+	EndSubSection
+EndSection
+
+Section "ServerLayout"
+	Identifier	"My Precious"
+	Screen		"Laptop Screen"
+	InputDevice	"Generic Keyboard"
+	InputDevice	"Touchpad" 		"CorePointer"
+	InputDevice	"External Mouse"	"AlwaysCore"
+	Option		"BlankTime"		"5"
+	Option		"StandbyTime"		"10"
+	Option		"SuspendTime"		"20"
+	Option		"OffTime"		"30"
+EndSection
+
+Section "DRI"
+	Mode	0666
+EndSection

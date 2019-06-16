@@ -1,0 +1,75 @@
+#!/bin/sh
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+NAME=d610init
+DESC="Latitude D610 initialisation"
+
+function mapScanCodes()
+{
+	##############################################
+	# KEY					# SCANCODE # KEYCODE #
+	##############################################
+	# Fn-F1 (Hibernate)		# e00a	   # N/A     #
+	# Fn-F2 (Wireless)		# e008	   # N/A     #
+	# Fn-F3 (BatteryStatus) # e007	   # 131     #
+	# Fn-F8 (CRT/LCD		# e00b	   # N/A     #
+	# Fn-F10 (Eject)		# e009	   # 181     #
+	# Fn-End (Mute)			# e020	   # N/A     #
+	# Fn-PgUp (VolInc)		# e030	   # N/A     #
+	# Fn-PgDn (VolDec) 		# e02e	   # N/A     #
+	# Fn-Up (IncBright)		# e006	   # N/A     #
+	# Fn-Dn (DecBright)		# e005	   # N/A     #
+	##############################################
+
+	# Only BatteryStatus and Eject are really useful. You can map
+	# Other keys if you want.
+
+	#
+	# Fn-F1 (Hibernate)
+	# setkeycodes e00a 120
+	# setkeycodes e00a 182
+
+	# Fn-F2 (Wireless)
+	# setkeycodes e008 176
+
+	# Fn-F3 (BatteryStatus)
+ 	setkeycodes e007 131
+
+	# Fn-F8 (CRT/LCD)
+ 	# setkeycodes e00b 120
+
+	# Fn-F10 (Eject)
+ 	setkeycodes e009 181
+
+	# Fn-End (Mute)
+	# setkeycodes e020 113
+
+	# Fn-PgUp (VolInc)
+	# setkeycodes e030 115
+
+	# Fn-PgDn (VolDec)
+	# setkeycodes e02e 114
+
+	# Fn-Up (IncBright)
+	# setkeycodes e006 130
+
+	# Fn-Dn (DecBright)
+	# setkeycodes e005 129
+}
+
+set -e
+
+case "$1" in
+  start)
+	echo -n "Starting $DESC: "
+	mapScanCodes
+	echo "$NAME."
+	;;
+  *)
+	N=/etc/init.d/$NAME
+	echo "Usage: $N start" >&2
+	exit 1
+	;;
+esac
+
+exit 0

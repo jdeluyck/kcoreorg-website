@@ -1,0 +1,174 @@
+00:00.0 Host bridge: Intel Corporation Mobile 945GM/PM/GMS, 943/940GML and 945GT Express Memory Controller Hub (rev 03)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: [e0] Vendor Specific Information <?>
+	Kernel driver in use: agpgart-intel
+	Kernel modules: intel-agp
+
+00:02.0 VGA compatible controller: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller (rev 03) (prog-if 00 [VGA controller])
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Memory at 90380000 (32-bit, non-prefetchable) [size=512K]
+	I/O ports at 20e0 [size=8]
+	Memory at 80000000 (32-bit, prefetchable) [size=256M]
+	Memory at 90400000 (32-bit, non-prefetchable) [size=256K]
+	Capabilities: [90] Message Signalled Interrupts: Mask- 64bit- Queue=0/0 Enable-
+	Capabilities: [d0] Power Management version 2
+	Kernel modules: intelfb
+
+00:02.1 Display controller: Intel Corporation Mobile 945GM/GMS/GME, 943/940GML Express Integrated Graphics Controller (rev 03)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, fast devsel, latency 0
+	Memory at 90300000 (32-bit, non-prefetchable) [size=512K]
+	Capabilities: [d0] Power Management version 2
+
+00:07.0 Performance counters: Intel Corporation Device 27a3 (rev 03)
+	Flags: 66MHz, fast devsel, IRQ 11
+	Memory at 90444000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [dc] Power Management version 2
+
+00:1b.0 Audio device: Intel Corporation 82801G (ICH7 Family) High Definition Audio Controller (rev 02)
+	Subsystem: Sigmatel Device 7680
+	Flags: bus master, fast devsel, latency 0, IRQ 22
+	Memory at 90440000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [50] Power Management version 2
+	Capabilities: [60] Message Signalled Interrupts: Mask- 64bit+ Queue=0/0 Enable-
+	Capabilities: [70] Express Root Complex Integrated Endpoint, MSI 00
+	Kernel driver in use: HDA Intel
+	Kernel modules: snd-hda-intel
+
+00:1c.0 PCI bridge: Intel Corporation 82801G (ICH7 Family) PCI Express Port 1 (rev 02) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 00001000-00001fff
+	Memory behind bridge: 90200000-902fffff
+	Prefetchable memory behind bridge: 0000000090500000-00000000905fffff
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] Message Signalled Interrupts: Mask- 64bit- Queue=0/0 Enable-
+	Capabilities: [90] Subsystem: Gammagraphx, Inc. Device 0000
+	Capabilities: [a0] Power Management version 2
+	Kernel driver in use: pcieport-driver
+	Kernel modules: shpchp
+
+00:1c.1 PCI bridge: Intel Corporation 82801G (ICH7 Family) PCI Express Port 2 (rev 02) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	Memory behind bridge: 90100000-901fffff
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] Message Signalled Interrupts: Mask- 64bit- Queue=0/0 Enable-
+	Capabilities: [90] Subsystem: Gammagraphx, Inc. Device 0000
+	Capabilities: [a0] Power Management version 2
+	Kernel driver in use: pcieport-driver
+	Kernel modules: shpchp
+
+00:1d.0 USB Controller: Intel Corporation 82801G (ICH7 Family) USB UHCI Controller #1 (rev 02) (prog-if 00 [UHCI])
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, medium devsel, latency 0, IRQ 21
+	I/O ports at 2080 [size=32]
+	Kernel driver in use: uhci_hcd
+	Kernel modules: uhci-hcd
+
+00:1d.1 USB Controller: Intel Corporation 82801G (ICH7 Family) USB UHCI Controller #2 (rev 02) (prog-if 00 [UHCI])
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, medium devsel, latency 0, IRQ 19
+	I/O ports at 2060 [size=32]
+	Kernel driver in use: uhci_hcd
+	Kernel modules: uhci-hcd
+
+00:1d.2 USB Controller: Intel Corporation 82801G (ICH7 Family) USB UHCI Controller #3 (rev 02) (prog-if 00 [UHCI])
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, medium devsel, latency 0, IRQ 18
+	I/O ports at 2040 [size=32]
+	Kernel driver in use: uhci_hcd
+	Kernel modules: uhci-hcd
+
+00:1d.3 USB Controller: Intel Corporation 82801G (ICH7 Family) USB UHCI Controller #4 (rev 02) (prog-if 00 [UHCI])
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, medium devsel, latency 0, IRQ 16
+	I/O ports at 2020 [size=32]
+	Kernel driver in use: uhci_hcd
+	Kernel modules: uhci-hcd
+
+00:1d.7 USB Controller: Intel Corporation 82801G (ICH7 Family) USB2 EHCI Controller (rev 02) (prog-if 20 [EHCI])
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, medium devsel, latency 0, IRQ 21
+	Memory at 90445400 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: [50] Power Management version 2
+	Capabilities: [58] Debug port: BAR=1 offset=00a0
+	Kernel driver in use: ehci_hcd
+	Kernel modules: ehci-hcd
+
+00:1e.0 PCI bridge: Intel Corporation 82801 Mobile PCI Bridge (rev e2) (prog-if 01 [Subtractive decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=03, subordinate=03, sec-latency=32
+	Memory behind bridge: 90000000-900fffff
+	Capabilities: [50] Subsystem: Gammagraphx, Inc. Device 0000
+
+00:1f.0 ISA bridge: Intel Corporation 82801GBM (ICH7-M) LPC Interface Bridge (rev 02)
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, medium devsel, latency 0
+	Capabilities: [e0] Vendor Specific Information <?>
+	Kernel modules: intel-rng, iTCO_wdt
+
+00:1f.1 IDE interface: Intel Corporation 82801G (ICH7 Family) IDE Controller (rev 02) (prog-if 8a [Master SecP PriP])
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, medium devsel, latency 0, IRQ 18
+	I/O ports at 01f0 [size=8]
+	I/O ports at 03f4 [size=1]
+	I/O ports at 0170 [size=8]
+	I/O ports at 0374 [size=1]
+	I/O ports at 20b0 [size=16]
+	Kernel driver in use: PIIX_IDE
+	Kernel modules: piix, ide-pci-generic, ata_generic
+
+00:1f.2 IDE interface: Intel Corporation 82801GBM/GHM (ICH7 Family) SATA IDE Controller (rev 02) (prog-if 8f [Master SecP SecO PriP PriO])
+	Subsystem: Intel Corporation Device 7270
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 19
+	I/O ports at 20c8 [size=8]
+	I/O ports at 20ec [size=4]
+	I/O ports at 20c0 [size=8]
+	I/O ports at 20e8 [size=4]
+	I/O ports at 20a0 [size=16]
+	Memory at 90445000 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: [70] Power Management version 2
+	Kernel driver in use: ata_piix
+	Kernel modules: ide-pci-generic, ata_generic, ata_piix
+
+00:1f.3 SMBus: Intel Corporation 82801G (ICH7 Family) SMBus Controller (rev 02)
+	Subsystem: Intel Corporation Device 7270
+	Flags: medium devsel, IRQ 19
+	I/O ports at efa0 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c-i801
+
+01:00.0 Ethernet controller: Marvell Technology Group Ltd. 88E8053 PCI-E Gigabit Ethernet Controller (rev 22)
+	Subsystem: Technical Corp. Device 5678
+	Flags: bus master, fast devsel, latency 0, IRQ 1277
+	Memory at 90200000 (64-bit, non-prefetchable) [size=16K]
+	I/O ports at 1000 [size=256]
+	Expansion ROM at 90500000 [disabled] [size=128K]
+	Capabilities: [48] Power Management version 2
+	Capabilities: [50] Vital Product Data <?>
+	Capabilities: [5c] Message Signalled Interrupts: Mask- 64bit+ Queue=0/1 Enable+
+	Capabilities: [e0] Express Legacy Endpoint, MSI 00
+	Kernel driver in use: sky2
+	Kernel modules: sky2
+
+02:00.0 Network controller: Atheros Communications Inc. AR5418 802.11abgn Wireless PCI Express Adapter (rev 01)
+	Subsystem: Apple Computer Inc. Device 0087
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Memory at 90100000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [40] Power Management version 2
+	Capabilities: [50] Message Signalled Interrupts: Mask- 64bit- Queue=0/0 Enable-
+	Capabilities: [60] Express Legacy Endpoint, MSI 00
+	Capabilities: [90] MSI-X: Enable- Mask- TabSize=1
+	Kernel driver in use: ath_pci
+	Kernel modules: ath_pci, ath5k
+
+03:03.0 FireWire (IEEE 1394): Agere Systems FW323 (rev 61) (prog-if 10 [OHCI])
+	Subsystem: Agere Systems FW323
+	Flags: bus master, fast Back2Back, medium devsel, latency 248, IRQ 19
+	Memory at 90000000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [44] Power Management version 2
+	Kernel driver in use: ohci1394
+	Kernel modules: ohci1394

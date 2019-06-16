@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Dumps the ACPI Battery Status in a kdialog window
+
+kdialog --title "ACPI Battery Status" --msgbox "$(acpi -b)"

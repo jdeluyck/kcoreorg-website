@@ -1,0 +1,35 @@
+#!/bin/bash
+# powerdown
+
+sync
+sync
+sync
+
+if ps -Af | grep -q '[k]desktop' && test -f /usr/bin/dcop
+then
+	dcop --all-sessions --all-users kdesktop KScreensaverIface lock
+fi
+
+chvt 1
+touch /tmp/acpi_sleep
+
+/etc/init.d/irda-utils stop
+
+modprobe -r irda0
+
+vbetool vbestate save > /tmp/vbestate
+
+# sleepy time
+if [ -e /proc/acpi/sleep ]; then
+	echo 3 > /proc/acpi/sleep
+else
+	echo mem > /sys/power/state
+fi
+
+# resume
+vbetool post
+vbetool vbestate restore < /tmp/vbestate
+/etc/init.d/irda-utils start
+/etc/init.d/915resolution start
+
+chvt 7
