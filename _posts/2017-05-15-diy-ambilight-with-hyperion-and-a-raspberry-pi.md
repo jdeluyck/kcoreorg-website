@@ -23,6 +23,6 @@ After attaching it to the back of the TV (with tape, to test), this is what you 
 
 <img class="aligncenter wp-image-1952 size-large" src="/assets/images/2017/05/IMG_20170501_144742-1024x526.jpg" alt="" width="920" height="473" srcset="/assets/images/2017/05/IMG_20170501_144742-1024x526.jpg 1024w, /assets/images/2017/05/IMG_20170501_144742-300x154.jpg 300w, /assets/images/2017/05/IMG_20170501_144742-768x394.jpg 768w, /assets/images/2017/05/IMG_20170501_144742-682x350.jpg 682w, /assets/images/2017/05/IMG_20170501_144742-150x77.jpg 150w" sizes="(max-width: 920px) 100vw, 920px" /> 
 
-To make it work for any HDMI input, I can refer you to <a href="ttp://www.instructables.com/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/" target="_blank" rel="noopener">this tutorial</a>. It consists of using an HDMI splitter, convertor to AV, and an AV to USB convertor. This signal is piped into the Pi, where Hyperion can do it&#8217;s magic with it.
+To make it work for any HDMI input, I can refer you to <a href="http://www.instructables.com/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/" target="_blank" rel="noopener">this tutorial</a>. It consists of using an HDMI splitter, convertor to AV, and an AV to USB convertor. This signal is piped into the Pi, where Hyperion can do it&#8217;s magic with it.
 
 Quite happy with the end result ;)

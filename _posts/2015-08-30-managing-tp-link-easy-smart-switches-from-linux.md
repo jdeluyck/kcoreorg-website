@@ -27,7 +27,7 @@ After installation, You&#8217;ll find a file called &#8220;Easy Smart Configurat
 
 To run it, you&#8217;ll also need the <a href="https://www.java.com/en/download/" target="_blank">Oracle Java distribution</a>, as JavaFX is not yet part of <a href="http://openjdk.java.net/" target="_blank">OpenJDK</a>. Install that in your distribution of choice, and you&#8217;ll be able to start the application using java -jar &#8220;Easy Smart Configuration Utility.jar&#8221; and it&#8217;ll start right up.
 
-[<img class="alignnone wp-image-1086" src="/assets/images/2015/08/tplink_easysmart.png" alt="tplink_easysmart" width="607" height="423" srcset="/assets/images/2015/08/tplink_easysmart.png 890w, /assets/images/2015/08/tplink_easysmart-300x209.png 300w, /assets/images/2015/08/tplink_easysmart-215x150.png 215w, /assets/images/2015/08/tplink_easysmart-150x104.png 150w" sizes="(max-width: 607px) 100vw, 607px" />]("/assets/images/2015/08/tplink_easysmart.png)
+[<img class="alignnone wp-image-1086" src="/assets/images/2015/08/tplink_easysmart.png" alt="tplink_easysmart" width="607" height="423" srcset="/assets/images/2015/08/tplink_easysmart.png 890w, /assets/images/2015/08/tplink_easysmart-300x209.png 300w, /assets/images/2015/08/tplink_easysmart-215x150.png 215w, /assets/images/2015/08/tplink_easysmart-150x104.png 150w" sizes="(max-width: 607px) 100vw, 607px" />](/assets/images/2015/08/tplink_easysmart.png)
 
 Unfortunately, it doesn&#8217;t work out of the box. The tool doesn&#8217;t find any devices on the network, but they are there.  
 Checking with netstat, the tool bound itself on UDP port 29809, on the local ip address.

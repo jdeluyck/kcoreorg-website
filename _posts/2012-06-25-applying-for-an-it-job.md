@@ -12,6 +12,6 @@ tags:
   - Comics
 format: image
 ---
-![Applying for an IT job...]("/assets/images/2012/06/itjobs.jpg)
+![Applying for an IT job...](/assets/images/2012/06/itjobs.jpg)
 
 (© <a href="http://explosm.net" target="_blank">Explosm.net</a>)

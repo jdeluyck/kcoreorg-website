@@ -29,12 +29,8 @@ For example: <span class="typewriter">./get_2600_archive otw /tmp/offthewall</sp
 
 ## Requirements
 
-<p class="list">
-  wget, sed, &#8230; the usual linux tools
-</p>
+wget, sed, &#8230; the usual linux tools
 
-<p class="list">
-  <p class="list">
-    [get_2600_archive.gz](assets/files/2007/11/get_2600_archive.gz)
-  </p>
-</p>
+## Download
+
+[get_2600_archive.gz](/assets/files/2007/11/get_2600_archive.gz)

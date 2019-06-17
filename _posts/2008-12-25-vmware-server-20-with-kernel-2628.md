@@ -47,7 +47,7 @@ return 'yes';
 }
 </pre>
 
-To use it, download [vmware-configplpatch.txt]("/assets/files/2008/12/vmware-configplpatch.txt), and run  
+To use it, download [vmware-configplpatch.txt](/assets/files/2008/12/vmware-configplpatch.txt), and run  
 `cat vmware-configplpatch.txt | patch -p0`, and rerun the VMWare configuration script.
 
 Thanks to <a href="http://ubuntuforums.org/showpost.php?p=6267637&postcount=17" target="_blank">this post</a> on the <a href="http://ubuntuforums.org/" target="_blank">Ubuntu Forums</a> for the solution!

@@ -15,7 +15,7 @@ format: gallery
 I&#8217;ve been cleaning up a bit.. and finally decided to check/sort all my empty cd boxes I had lying about.
 
 The grand total: _449_ empty boxes. Argh!  
-![]("/assets/images/2007/09/img_3723-sm.jpg)  
-![]("/assets/images/2007/09/img_3724-sm.jpg) 
+![](/assets/images/2007/09/img_3723-sm.jpg)  
+![](/assets/images/2007/09/img_3724-sm.jpg) 
 
 Want one? :)
