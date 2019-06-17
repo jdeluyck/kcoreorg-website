@@ -68,14 +68,14 @@ Integrated Bluetooth
 0000:02:07.0 FireWire (IEEE 1394): Texas Instruments TSB43AB21 IEEE-1394a-2000 Controller (PHY/Link)
 </pre>
 
-Here&#8217;s a <a href="/assets/images/2016/11/pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
+Here&#8217;s a <a href="/assets/files/2016/11/pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
 
 # Subsystem Notes
 
 ## Linux 2.6.x kernel
 
 The latest 2.6 kernel is: <a href="https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz" target="_blank">2.6.39.4</a>.  
-Here&#8217;s my <a href="/assets/images/2016/11/acer-config-2.6.txt" target="_blank" rel="external">2.6.14.2 kernel configuration</a>.
+Here&#8217;s my <a href="/assets/files/2016/11/acer-config-2.6.txt" target="_blank" rel="external">2.6.14.2 kernel configuration</a>.
 
 ## USB
 
@@ -146,7 +146,7 @@ The screen section looks like this:
 An alternative driver is <a href="http://www.ati.com/" target="_blank" rel="external">ATI</a>&#8216;s <a href="https://support.ati.com/ics/support/default.asp?deptID=894" target="_blank" rel="external">FireGL</a> driver.  
 Debian users can look <a href="http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html" target="_blank" rel="external">here</a> for downloading and building the package.
 
-Here&#8217;s my <a href="/assets/images/2016/11/acer-xf86config-4.txt" target="_blank" rel="external">complete <code>XF86Config-4</code> file</a>
+Here&#8217;s my <a href="/assets/files/2016/11/acer-xf86config-4.txt" target="_blank" rel="external">complete <code>XF86Config-4</code> file</a>
 
 ## TV Out
 
@@ -372,7 +372,7 @@ InputDevice "Mouse[1]"  "CorePointer"
 ...
 </pre>
 
-Here&#8217;s my <a href="/assets/images/2016/11/acer-xf86config-4.txt" target="_blank" rel="external">complete <code>XF86Config-4</code> file</a>
+Here&#8217;s my <a href="/assets/files/2016/11/acer-xf86config-4.txt" target="_blank" rel="external">complete <code>XF86Config-4</code> file</a>
 
 Debian users can install the <a href="http://packages.debian.org/xfree86-driver-synaptics" target="_blank" rel="external"><code>xfree86-driver-synaptics</code></a> package (for both XFree86 and X.Org).
 

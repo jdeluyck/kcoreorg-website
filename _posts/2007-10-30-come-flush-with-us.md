@@ -43,7 +43,7 @@ Bathroom problems:
 
 Kitchen problems:
 
-  1. If you dare use the washing machine (good luck without the instructions), and spin stuff, don&#8217;t be amazed when <a href="/assets/images/2007/10/pa211877-me.jpg" target="_blank">the kitchen cabinet falls apart</a>.
+  1. If you dare use the washing machine (good luck without the instructions), and spin stuff, don&#8217;t be amazed when <a href="/assets/images/2007/10/pa211877.jpg" target="_blank">the kitchen cabinet falls apart</a>.
   2. The sink is placed in a way that you can never stand completely behind it, unless you&#8217;re a plank. Wonderful.
   3. There are no cabinets. Don&#8217;t even think of storing anything &#8211; there is NO room.
   4. This place is supposed to sleep 7, but forget about eating or drinking with 7. Not enough dishes/glasses/cutlery! You can even forget about cooking for seven! The biggest pot is about 3l.

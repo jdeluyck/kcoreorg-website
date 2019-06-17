@@ -18,7 +18,7 @@ I know some companies are thankful when an employee chooses to work for them (li
 <table>
   <tr>
     <td class="">
-      <img src="/assets/images/2007/08/IMG_3562-sm.jpg " alt="Flowers as they were delivered" />
+      <img src="/assets/images/2007/08/IMG_3562-sm.jpg" alt="Flowers as they were delivered" />
     </td>
     
     <td class="">
