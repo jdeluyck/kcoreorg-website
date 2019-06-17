@@ -14,4 +14,4 @@ format: image
 ---
 In yearly tradition..
 
-[<img class="alignnone size-large wp-image-1078" src="/assets/images/2014/12/MerryXmas2014-1024x665.png" alt="MerryXmas2014" width="800" height="520" srcset="/assets/images/2014/12/MerryXmas2014-1024x665.png 1024w, /assets/images/2014/12/MerryXmas2014-300x195.png 300w, /assets/images/2014/12/MerryXmas2014-231x150.png 231w, /assets/images/2014/12/MerryXmas2014-150x97.png 150w" sizes="(max-width: 800px) 100vw, 800px" />]("/assets/files/2014/12/MerryXmas2014.png)
+[<img class="alignnone size-large wp-image-1078" src="/assets/images/2014/12/MerryXmas2014-1024x665.png" alt="MerryXmas2014" width="800" height="520" srcset="/assets/images/2014/12/MerryXmas2014-1024x665.png 1024w, /assets/images/2014/12/MerryXmas2014-300x195.png 300w, /assets/images/2014/12/MerryXmas2014-231x150.png 231w, /assets/images/2014/12/MerryXmas2014-150x97.png 150w" sizes="(max-width: 800px) 100vw, 800px" />]("/assets/images/2014/12/MerryXmas2014.png)

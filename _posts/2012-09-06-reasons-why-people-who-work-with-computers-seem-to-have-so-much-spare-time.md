@@ -12,6 +12,6 @@ tags:
   - Comics
 format: image
 ---
-[<img class="aligncenter size-full wp-image-890" title="Reasons why people who work with computers seem to have so much spare time..." src="/assets/images/2012/09/217105_469340956420254_1423167663_n.jpg" alt="Reasons why people who work with computers seem to have so much spare time..." width="460" height="381" srcset="/assets/images/2012/09/217105_469340956420254_1423167663_n.jpg 460w, /assets/images/2012/09/217105_469340956420254_1423167663_n-300x248.jpg 300w" sizes="(max-width: 460px) 100vw, 460px" />]("/assets/files/2012/09/217105_469340956420254_1423167663_n.jpg)
+[<img class="aligncenter size-full wp-image-890" title="Reasons why people who work with computers seem to have so much spare time..." src="/assets/images/2012/09/217105_469340956420254_1423167663_n.jpg" alt="Reasons why people who work with computers seem to have so much spare time..." width="460" height="381" srcset="/assets/images/2012/09/217105_469340956420254_1423167663_n.jpg 460w, /assets/images/2012/09/217105_469340956420254_1423167663_n-300x248.jpg 300w" sizes="(max-width: 460px) 100vw, 460px" />]("/assets/images/2012/09/217105_469340956420254_1423167663_n.jpg)
 
 (found somewhere on the internet)

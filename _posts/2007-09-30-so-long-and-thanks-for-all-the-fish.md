@@ -17,10 +17,10 @@ As some of you might already know, last friday was my last day of work for <a hr
 
 During my farewell drink I was pleasently surprised by Reuters: they gave me a bag of Reuters goodies (yeah, yeah, I can hear you people already, but they&#8217;re nice and I appreciate the gesture and they&#8217;ll come in handy!)
 
-![Reuters Gifts]("/assets/files/2007/09/IMG_3794-sm.jpg "Reuters Gifts") 
+![Reuters Gifts]("/assets/images/2007/09/IMG_3794-sm.jpg "Reuters Gifts") 
 
 From the people of the bank, I got a gift certificate for <a href="http://www.mediamarkt.be/" target="_blank">Media Markt</a>&#8230; very bad for my own wallet too :p  
-![Gift certificate]("/assets/files/2007/09/IMG_3803-sm.jpg "Gift certificate") 
+![Gift certificate]("/assets/images/2007/09/IMG_3803-sm.jpg "Gift certificate") 
 
 It&#8217;s a bit sad to think that my own company didn&#8217;t bother to give anything &#8211; I hadn&#8217;t expected it, but while the people that I only worked with &#8211; not for &#8211; bothered, it highlights one of the reasons why I decided to leave: lack of any kind of caring for your employees. For those that are wondering: the other reasons I decided to change jobs is the lack of actual work and diversity in it. Oh, and also the fact that they still don&#8217;t get the Belgian legislation right&#8230;
 

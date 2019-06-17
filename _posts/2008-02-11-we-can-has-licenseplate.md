@@ -16,7 +16,7 @@ tags:
   - yez
 format: image
 ---
-![Licenseplate reads YEZ-]("/assets/files/2008/02/plate-sm.jpg)
+![Licenseplate reads YEZ-]("/assets/images/2008/02/plate-sm.jpg)
 
 Yez! We can! :p
 
