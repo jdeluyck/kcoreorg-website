@@ -10,7 +10,7 @@ phases:
   build:
     commands:
       - JEKYLL_ENV=production bundle exec jekyll build
-
+      - aws s3 sync _site/ s3://kcore-org-website-730189087308
 artifacts:
   base-directory: '_site'
   files:
