@@ -5,7 +5,7 @@ author: Jan
 layout: single
 permalink: /2019/03/27/testing-out-an-ipad-pro/
 categories:
-  - Linux / Unix
+  - Apple / Mac OS
 tags:
   - ipad
   - pro
