@@ -10,7 +10,7 @@ categories:
   - Android
 tags:
   - Android
-  - gadgets
+  - gadget
   - moto e2
   - motorola
   - phone

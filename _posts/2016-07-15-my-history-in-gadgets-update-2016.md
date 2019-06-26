@@ -10,7 +10,7 @@ categories:
   - Android
 tags:
   - Android
-  - gadgets
+  - gadget
   - oneplus 3
   - phone
 ---
