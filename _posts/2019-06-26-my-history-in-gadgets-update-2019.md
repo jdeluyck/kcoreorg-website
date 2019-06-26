@@ -22,11 +22,11 @@ _**Mobile phone history:**_
 I've since sold the OnePlus 3 to my nephew (after getting a battery replacement) and replaced it with:
 
 **[OnePlus 6](https://www.gsmarena.com/oneplus_6-9109.php)<br>
-![OnePlus 6](/assets/images/2019/06/oneplus-6.png)**
+![](/assets/images/2019/06/oneplus-6.png)**
 
 _**Tablet history:**_
 
 I sold the Transformer TF101 and replaced it with:
 
 **[Lenovo Tab4 10](https://www.gsmarena.com/lenovo_tab_4_10-8604.php)<br>
-![Lenovo Tab4 10](/assets/images/2019/06/lenovo-tab4-10.png)**
+![](/assets/images/2019/06/lenovo-tab4-10.png)**
