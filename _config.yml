@@ -99,6 +99,8 @@ exclude:
 keep_files:
   - .git
   - .svn
+  - assets/images
+  - assets/files
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -193,9 +195,9 @@ analytics:
     tracking_id: "UA-305756-1"
     anonymize_ip: true
 
-site_sidebar:
-  - title: "Search"
-    text: foo
-  - title: "Categories"
-    text: bar
+#site_sidebar:
+#  - title: "Search"
+#    text: foo
+#  - title: "Categories"
+#    text: bar
 
