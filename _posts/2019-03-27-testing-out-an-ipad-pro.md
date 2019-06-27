@@ -6,6 +6,7 @@ layout: single
 permalink: /2019/03/27/testing-out-an-ipad-pro/
 categories:
   - Apple / Mac OS
+  - Android
 tags:
   - ipad
   - pro
