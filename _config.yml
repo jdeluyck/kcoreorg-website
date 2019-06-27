@@ -94,6 +94,8 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - .gitignore
+  - .idea
 keep_files:
   - .git
   - .svn
@@ -124,7 +126,8 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Outputting
-permalink: /:categories/:title/
+#permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Brussels
