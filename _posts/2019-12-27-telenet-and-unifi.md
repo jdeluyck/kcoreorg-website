@@ -22,7 +22,7 @@ This means:
 With Unifi, this is fairly easily to solve. The following assumes you'll be using a Unifi controller version 5.12 (or higher), as the menu structure changed drastically between 5.11 and 5.12.
 * Create a new network:  
 Settings &rarr; Networks &rarr; Local Networks  
-Create a new Advanced Network of the type VLAN. Set the VLAN ID to something that you haven't used before. We'll call this "Telenet Wan"
+Create a new Advanced Network of the type VLAN. Set the VLAN ID to something that you haven't used before. We'll call this "Telenet WAN"
 * Create a new switch profile:  
 Settings &rarr; Configuration Profiles &rarr; Switch Profiles
 There should be a new switch profile visible with the same name as the Network you created earlier. If not, create it.
@@ -30,7 +30,7 @@ There should be a new switch profile visible with the same name as the Network y
 Devices &rarr; Select switch &rarr; Ports  
 Configure the ports as follows:
 Port of the Telenet Modem, USG, digicorder: Select the "Telenet WAN" profile
-poorten van je modem, je alarm, digicorder en WAN USG: profiel van "Telenet WAN" instellen
-poort waar je LAN poort van de USG opzit selecteren en op LAN profiel zetten (wat normaal ook aanwezig zou moeten zijn in stap 2)
-poort waar je 8-p switch op zit: ook op LAN zetten
-Idem met de andere poorten die je nog wenst te gebruiken in je LAN
+Port of the USG LAN: LAN profile
+All other ports: LAN profile
+
+This will make sure that all traffic behind the "Telenet WAN" ports will get routed to the Telenet modem, and the rest via the USG ;)
