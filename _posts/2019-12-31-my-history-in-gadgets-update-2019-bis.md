@@ -1,5 +1,4 @@
 ---
-id: 1156
 title: 'My history in gadgets - update 2019 bis'
 date: 2019-12-31
 author: Jan
