@@ -30,6 +30,8 @@ search: true
 
 search_full_content: true
 
+future: true
+
 twitter:
   username: "jdeluyck"
 
