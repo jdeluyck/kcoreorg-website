@@ -1,6 +1,6 @@
 ---
 title: 'My history in gadgets - update 2019 bis'
-date: 2019-12-31
+date: 2019-12-31T12:12:12
 author: Jan
 layout: single
 categories:
