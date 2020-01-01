@@ -203,3 +203,5 @@ analytics:
 #  - title: "Categories"
 #    text: bar
 
+head_scripts:
+  - /assets/js/cookie-handler.js
