@@ -1,0 +1,15 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+if(readCookie('cookie-notice-dismissed')=='true') {
+  loader = document.createElement('script');
+  loader.src = "https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}";
+  document.getElementsByTagName('head')[0].appendChild(loader);
+
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script> -->
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.analytics.google.tracking_id }}', { 'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}});
+}
+</script>
