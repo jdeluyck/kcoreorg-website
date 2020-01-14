@@ -6,6 +6,7 @@ layout: single
 permalink: /2019/06/16/generating-plex-token-curl/
 categories:
   - Linux / Unix
+  - Home Automation
 tags:
   - plex
   - curl
