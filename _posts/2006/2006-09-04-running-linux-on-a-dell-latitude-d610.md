@@ -40,7 +40,8 @@ Integrated Bluetooth
 
 ### PCI Specs
 
-<pre>0000:00:00.0 Host bridge: Intel Corporation Mobile 915GM/PM/GMS/910GML Express Processor to DRAM Controller (rev 03)
+```
+0000:00:00.0 Host bridge: Intel Corporation Mobile 915GM/PM/GMS/910GML Express Processor to DRAM Controller (rev 03)
 0000:00:02.0 VGA compatible controller: Intel Corporation Mobile 915GM/GMS/910GML Express Graphics Controller (rev 03)
 0000:00:02.1 Display controller: Intel Corporation Mobile 915GM/GMS/910GML Express Graphics Controller (rev 03)
 0000:00:1c.0 PCI bridge: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) PCI Express Port 1 (rev 03)
@@ -58,7 +59,7 @@ Integrated Bluetooth
 0000:03:01.0 CardBus bridge: Texas Instruments PCI6515 Cardbus Controller
 0000:03:01.5 Communication controller: Texas Instruments PCI6515 SmartCard Controller
 0000:03:03.0 Network controller: Intel Corporation PRO/Wireless 2915ABG MiniPCI Adapter (rev 05)
-</pre>
+```
 
 Here&#8217;s a <a href="/assets/files/2006/09/dell-d610-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
 
@@ -111,15 +112,16 @@ Hardware: Intel Corporation Mobile 915GM/GMS/910GML Express Graphics Controller
 
 To make it working just set your video driver to `i810`:
 
-<pre>Section "Device"
+```
+Section "Device"
 			Identifier	"Generic Video Card"
 			Driver		"i810"
 		EndSection
-</pre>
+```
 
 The screen section looks like this:
 
-<pre>Section "Screen"
+```Section "Screen"
 			Identifier	"Default Screen"
 			Device		"Generic Video Card"
 			Monitor		"Generic Monitor"
@@ -129,7 +131,7 @@ The screen section looks like this:
 				Modes		"1400x1050" "1024x768"
 			EndSubSection
 		EndSection
-</pre>
+```
 
 To get the 1400&#215;1050 resolution working, you have to patch the video bios. There&#8217;s a utility for that called <a href="http://www.geocities.com/stomljen/" target="_blank" rel="external">915resolution</a>.  
 (for debian install the <a href="http://packages.debian.org/915resolution" target="_blank" rel="external"><code>915resolution</code></a> package). The command to run at every bootup is `915resolution 3c 1400 1050`.  
@@ -277,15 +279,15 @@ I use the following <a href="/assets/files/2006/09/dell-d610-acpi-events-suspend
 This is a ALPS touchpad. You can use it with <a href="http://w1.894.telia.com/~u89404340/touchpad/" target="_blank" rel="external">this driver</a>.  
 Extract from the `INSTALL` file:
 
-<pre>1. Copy the driver-module "synaptics_drv.o" into the XFree-module path
-"ex. /usr/X11R6/lib/modules/input/".
+1. Copy the driver-module `synaptics_drv.o` into the XFree-module path eg. `/usr/X11R6/lib/modules/input/`.
 
 2. Load the driver by changig the XFree configuration file through
-adding the line 'Load "synaptics"' in the module section.
+adding the line `Load "synaptics"` in the module section.
 
 3. Add/Replace in the InputDevice-section for the touchpad the
 following lines:
 
+```
 Section "InputDevice"
   Driver        "synaptics"
   Identifier    "Mouse[1]"
@@ -312,24 +314,26 @@ Section "InputDevice"
   Option        "CircScrollDelta"       "0.1"
   Option        "CircScrollTrigger"     "2"
 EndSection
+```
 
 Change the Identifier to the same name as in the ServerLayout-section.
 
 4. Add the "CorePointer" option to the InputDevice line at the ServerLayout section:
 
+```
 Section "ServerLayout"
 ...
 InputDevice "Mouse[1]"  "CorePointer"
 ...
-</pre>
+```
 
-Here&#8217;s my <a href="/assets/files/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
+Here's my <a href="/assets/files/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
 
 Debian users can install the <a href="http://packages.debian.org/xfree86-driver-synaptics" target="_blank" rel="external"><code>xfree86-driver-synaptics</code></a> package (for both XFree86 and X.Org).
 
 ### LID-switch problem
 
-There&#8217;s a BIOS bug in this laptop which causes the display to stay blank when the lid is closed. As a workaround, we re-enable the LCD display after the lid has been opened again.
+There's a BIOS bug in this laptop which causes the display to stay blank when the lid is closed. As a workaround, we re-enable the LCD display after the lid has been opened again.
 
 For this to work, you need to activate the `video` ACPI module.
 
