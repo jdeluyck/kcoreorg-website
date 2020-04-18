@@ -18,10 +18,10 @@ The tuned profile is created using a tool called `powertop2tuned`, which (on Fed
 
 Creating a new profile based on what `powertop` thinks should be set on your device is easy as running
 ```bash
-# powertop2tuned /etc/tuned/powersave-laptop
+$ sudo powertop2tuned /etc/tuned/powersave-laptop
 ```
 This will create a new directory with a `tuned.conf` file, with the parameters that you can set. I activated most of them for my XPS13, and based the profile off the default powersave profile (which you set with the `include` line). The final config looks like this:
-```editorconfig
+```ini
 [main]
 include=powersave
 
@@ -109,6 +109,6 @@ SUBSYSTEM=="power_supply", ATTR{online}=="1", RUN+="/usr/sbin/tuned-adm profile 
 
 Reload udev with the command 
 ```bash
-# udevadm control --reload-rules && udevadm trigger
+$ sudo udevadm control --reload-rules && udevadm trigger
 ``` 
 and from then onwards, when you plug and unplug your power supply, It'll switch between the powersave and the balanced profiles.
