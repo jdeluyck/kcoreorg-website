@@ -282,7 +282,6 @@ I haven't tested this myself, email follows:
 > use it as a modem. The trick is to limit the baud speed:
 > (something like /etc/modules.conf):
 > 
-> # <snip>
 > 	alias tty-ldisc-11 irtty
 > 	alias char-major-161 ircomm-tty
 > 
@@ -296,7 +295,7 @@ I haven't tested this myself, email follows:
 > 	# !! This has to be done BEFORE doing 'irattach irda0 -s' !!
 > 	#
 > 	post-install nsc-ircc echo 115200 > /proc/sys/net/irda/max_baud_rate
-> # </snip>
+>
 
 For Debian, I advise the <a href="http://packages.debian.org/irda-utils" target="_blank" rel="external"><code>irda-utils</code></a> package.
 
