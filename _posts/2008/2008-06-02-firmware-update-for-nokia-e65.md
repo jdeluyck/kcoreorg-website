@@ -23,7 +23,7 @@ SB-036/17.04.08
 Messaging
 
   * Reading of SMS time stamp information unified between regions
-  * SMS sending from SIM Toolkit &#8211; Profile 07 improved
+  * SMS sending from SIM Toolkit - Profile 07 improved
   * Unicode Handling with Turkish characters corrected
   * Correction to fetching email from freemail server
   * Intellisync: Searching a contact for the first time improved

@@ -1,6 +1,6 @@
 ---
 id: 343
-title: 'You know what sucks&#8230;'
+title: 'You know what sucks...'
 date: 2008-10-21T20:09:09+02:00
 author: Jan
 layout: single
@@ -15,7 +15,7 @@ tags:
   - tap
 format: gallery
 ---
-&#8230; waking up at 6 in the morning, because you hear a certain sound you associate with water that&#8217;s coming under high pressure from a tap.
+... waking up at 6 in the morning, because you hear a certain sound you associate with water that's coming under high pressure from a tap.
 
 Upon closer inspection, the tap in the shower was spraying hot water from one of the sides. Luckely, the shower door was closed, or the bathroom would have been flooded.
 

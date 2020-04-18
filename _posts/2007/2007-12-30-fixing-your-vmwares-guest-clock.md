@@ -1,6 +1,6 @@
 ---
 id: 196
-title: 'Fixing your VMWare&#8217;s guest clock'
+title: 'Fixing your VMWare&apos;s guest clock'
 date: 2007-12-30T13:47:05+02:00
 author: Jan
 layout: single
@@ -12,9 +12,9 @@ tags:
   - Linux / unix
   - vmware
 ---
-If you&#8217;re using VMWare on a variable-speed processor (like all most modern cpu&#8217;s these days) you might have noticed that sometimes the guest OS runs a lot faster (causing the guest clock to run faster and all kinds of weird effects).
+If you're using VMWare on a variable-speed processor (like all most modern cpu's these days) you might have noticed that sometimes the guest OS runs a lot faster (causing the guest clock to run faster and all kinds of weird effects).
 
-The fix for that is easy, and specified in <a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&#038;cmd=displayKC&#038;externalId=1591" target="_blank">this knowledgebase article</a>:
+The fix for that is easy, and specified in <a href="http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1591" target="_blank">this knowledgebase article</a>:
 
 Add to /etc/vmware/config the following lines:  
 `<br />

@@ -1,6 +1,6 @@
 ---
 id: 144
-title: 'Spri&#8230; err&#8230; cd cleanup!'
+title: 'Spri... err... cd cleanup!'
 date: 2007-09-15T19:53:54+02:00
 author: Jan
 layout: single
@@ -12,7 +12,7 @@ tags:
   - cleanup
 format: gallery
 ---
-I&#8217;ve been cleaning up a bit.. and finally decided to check/sort all my empty cd boxes I had lying about.
+I've been cleaning up a bit.. and finally decided to check/sort all my empty cd boxes I had lying about.
 
 The grand total: _449_ empty boxes. Argh!  
 ![](/assets/images/2007/09/img_3723-sm.jpg)  

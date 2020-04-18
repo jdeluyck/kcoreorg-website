@@ -11,7 +11,7 @@ categories:
 ---
 Hello!
 
-I&#8217;ve just finished moving all my personal Blog posts from <a href="http://www.kcore.org/" target="_blank">my site</a> to this blog, since It didn&#8217;t make much sense keeping them separate after all. So, from now on, you&#8217;ll be able to find them here ;)
+I've just finished moving all my personal Blog posts from <a href="http://www.kcore.org/" target="_blank">my site</a> to this blog, since It didn't make much sense keeping them separate after all. So, from now on, you'll be able to find them here ;)
 
 Happy reading!
 

@@ -11,6 +11,6 @@ categories:
 tags:
   - Work
 ---
-Today, my stay of 1.5 months at home comes to an end, and I&#8217;m going back to <a href="https://kcore.org/2007/10/30/work-the-neverending-story/" target="_blank">work</a>! Yay!
+Today, my stay of 1.5 months at home comes to an end, and I'm going back to <a href="https://kcore.org/2007/10/30/work-the-neverending-story/" target="_blank">work</a>! Yay!
 
 As such, my updates here should (will?) be less :p

@@ -16,10 +16,10 @@ YAY! My new toy got delivered today!
 
 <center>
   <img SRC="/assets/images/2006/06/tx_1.png" />
-</center>Doesn&#8217;t it look nice? It&#8217;s a 
+</center>Doesn't it look nice? It's a 
 
-<a HREF="http://euro.palm.com/be/en/products/tx/index.html" TARGET="_blank">Palm T|X</a>, the latest model from the Palm factory.It&#8217;s charging as I type, and looks very sleek and futuristic with it&#8217;s black/blueish look :)
+<a HREF="http://euro.palm.com/be/en/products/tx/index.html" TARGET="_blank">Palm T|X</a>, the latest model from the Palm factory.It's charging as I type, and looks very sleek and futuristic with it's black/blueish look :)
 
-After my previous PDA (<a HREF="https://kcore.org/2004/06/05/palm-tungsten-t3/" TARGET="_blank">Palm Tungsten T|3</a>) which has served me faithfully for three years, it&#8217;s a nice upgrade :)
+After my previous PDA (<a HREF="https://kcore.org/2004/06/05/palm-tungsten-t3/" TARGET="_blank">Palm Tungsten T|3</a>) which has served me faithfully for three years, it's a nice upgrade :)
 
-I&#8217;ll post my findings in days to come.
+I'll post my findings in days to come.

@@ -1,6 +1,6 @@
 ---
 id: 170
-title: '&#8230; and back to Apple&#8230;'
+title: '... and back to Apple...'
 date: 2007-11-14T11:06:00+02:00
 author: Jan
 layout: single
@@ -18,8 +18,8 @@ Grmble.
 
 Yesterday I picked up my macbook, which <a href="https://kcore.org/2007/11/09/my-mac-is-back/" target="_blank">recently returned from repair</a>, and a screw fell out. wtf?
 
-I checked, you can&#8217;t tighten it, seems the internal socket where the screw is supposed to be set in is broken/missing. Way to go Apple. You&#8217;re definitely scoring points on this one&#8230; negative points.
+I checked, you can't tighten it, seems the internal socket where the screw is supposed to be set in is broken/missing. Way to go Apple. You're definitely scoring points on this one... negative points.
 
-I took it back to the dealer, they&#8217;re going to send it back to Apple.
+I took it back to the dealer, they're going to send it back to Apple.
 
 Fuck.

@@ -15,4 +15,4 @@ tags:
   - transit
 format: link
 ---
-An interesting read on <a href="http://arstechnica.com/" target="_blank">Ars Technica</a>: <a href="http://arstechnica.com/guides/other/peering-and-transit.ars/" target="_blank">How the &#8216;Net works: an introduction to peering and transit</a>.
+An interesting read on <a href="http://arstechnica.com/" target="_blank">Ars Technica</a>: <a href="http://arstechnica.com/guides/other/peering-and-transit.ars/" target="_blank">How the 'Net works: an introduction to peering and transit</a>.

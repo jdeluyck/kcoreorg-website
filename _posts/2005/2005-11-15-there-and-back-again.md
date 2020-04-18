@@ -9,6 +9,6 @@ permalink: /2005/11/15/there-and-back-again/
 categories:
   - Travels
 ---
-I went, had fun, came back (unfortunately)&#8230; It&#8217;s all on [Diana&#8217;s blog!](http://sade.sadevil.org/blog/?p=18)
+I went, had fun, came back (unfortunately)... It's all on [Diana's blog!](http://sade.sadevil.org/blog/?p=18)
 
-Oh, she&#8217;ll be here sooooooooooooooooooooon! The beginning of december!
+Oh, she'll be here sooooooooooooooooooooon! The beginning of december!

@@ -15,6 +15,6 @@ tags:
 ---
 Ok,
 
-After passing by some companies with car insurance, I can now say that I has decided! I&#8217;ve asked for the final papers to be made up so I can sign and get the plates.
+After passing by some companies with car insurance, I can now say that I has decided! I've asked for the final papers to be made up so I can sign and get the plates.
 
-What a difference in prices though &#8211; the one I&#8217;m signing for is in the lower end, the higher end of the quotes I got was _2.5x_ as expensive!!
+What a difference in prices though - the one I'm signing for is in the lower end, the higher end of the quotes I got was _2.5x_ as expensive!!

@@ -1,6 +1,6 @@
 ---
 id: 89
-title: 'Countdown&#8230;'
+title: 'Countdown...'
 date: 2004-09-30T08:57:00+02:00
 author: Jan
 layout: single
@@ -9,4 +9,4 @@ permalink: /2004/09/30/countdown/
 categories:
   - Personal
 ---
-Counting down yet again&#8230; The days that we are apart are long.. and the time we spend together seems to last an eternity&#8230; So well, until the 28th of october this time&#8230;
+Counting down yet again... The days that we are apart are long.. and the time we spend together seems to last an eternity... So well, until the 28th of october this time...

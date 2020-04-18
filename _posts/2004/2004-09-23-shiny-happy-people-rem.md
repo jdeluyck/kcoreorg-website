@@ -38,7 +38,7 @@ Shiny happy people laughing
 Everyone around love them, love them  
 Put it in your hands  
 Take it take it  
-There&#8217;s no time to cry  
+There's no time to cry  
 Happy happy  
 Put it in your heart  
 Where tomorrow shines  

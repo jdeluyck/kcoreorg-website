@@ -11,10 +11,10 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released phptelemeter 1.20. This release includes the following changes:
+I've just released phptelemeter 1.20. This release includes the following changes:
 
   * Fixed telemeter_web parser for Telenet Changes
-  * Implemented multi-parser usuage &#8211; this requires a configuration file change!
+  * Implemented multi-parser usuage - this requires a configuration file change!
   * Added dommel_web parser for the Dommel.com ISP
   * Added configuration parameter for file output extension
 

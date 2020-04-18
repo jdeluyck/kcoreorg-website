@@ -11,7 +11,7 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released phptelemeter 1.21. This release includes the following changes:
+I've just released phptelemeter 1.21. This release includes the following changes:
 
   * Extracted the common functionality between the _web parsers and moved it to a parent class
   * Removed some useless debugging code

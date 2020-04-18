@@ -14,7 +14,7 @@ tags:
   - player
   - vmware
 ---
-I wanted to test some crap in VMWare, didn&#8217;t feel like messing with the entire server thing so went for the player. Unfortunately, this thing doesn&#8217;t work against the 2.6.32 kernel.
+I wanted to test some crap in VMWare, didn't feel like messing with the entire server thing so went for the player. Unfortunately, this thing doesn't work against the 2.6.32 kernel.
 
 After installation, you can fix it with as follows (as root):
 

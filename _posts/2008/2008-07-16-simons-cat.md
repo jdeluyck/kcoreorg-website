@@ -1,6 +1,6 @@
 ---
 id: 260
-title: 'Simon&#8217;s Cat'
+title: 'Simon&apos;s Cat'
 date: 2008-07-16T16:53:14+02:00
 author: Jan
 layout: single
@@ -14,7 +14,7 @@ tags:
   - youtube
 format: video
 ---
-<a href="http://www.youtube.com/user/simonscat" target="_blank">Simon&#8217;s Cat YouTube channel</a> 
+<a href="http://www.youtube.com/user/simonscat" target="_blank">Simon's Cat YouTube channel</a> 
 
 <center>
   <br /> </p> 

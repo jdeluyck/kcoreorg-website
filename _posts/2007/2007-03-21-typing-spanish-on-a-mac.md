@@ -33,4 +33,4 @@ I finally (well, no, I got the answer from <a HREF="http://www.mac-forums.com/f
 > ¡ = Opt + 1  
 > ¿ = Opt + shift + ?
 
-Handy, finally I&#8217;m able to type those things instead of using the Character Palette / Keyboard Viewer!
+Handy, finally I'm able to type those things instead of using the Character Palette / Keyboard Viewer!

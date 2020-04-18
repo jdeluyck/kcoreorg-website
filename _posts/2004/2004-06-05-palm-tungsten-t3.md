@@ -11,4 +11,4 @@ categories:
 tags:
   - palm tungsten t3
 ---
-Got my <a TARGET="_blank" HREF="http://www-5.palmone.com/be/en/products/tungsten-t3/index.html">Tungsten T3</a> a few days back, great machine &#8211; works very fast. I&#8217;ll do a review on it when I&#8217;m more accustomed to using it &#8211; it sure is different from my old m500&#8230;
+Got my <a TARGET="_blank" HREF="http://www-5.palmone.com/be/en/products/tungsten-t3/index.html">Tungsten T3</a> a few days back, great machine - works very fast. I'll do a review on it when I'm more accustomed to using it - it sure is different from my old m500...

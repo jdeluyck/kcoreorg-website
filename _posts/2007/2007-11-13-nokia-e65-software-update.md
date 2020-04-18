@@ -12,6 +12,6 @@ tags:
   - firmware update
   - Nokia E65
 ---
-There&#8217;s a <a href="http://www.nokia.com/" target="_blank">Nokia</a> <a href="http://europe.nokia.com/A4344227" target="_blank">E65</a> <a href="http://europe.nokia.com/A4176089" target="_blank">software update available</a>, updating the mobile to version 2.0633.65.01.
+There's a <a href="http://www.nokia.com/" target="_blank">Nokia</a> <a href="http://europe.nokia.com/A4344227" target="_blank">E65</a> <a href="http://europe.nokia.com/A4176089" target="_blank">software update available</a>, updating the mobile to version 2.0633.65.01.
 
 I just finished doing the update and reinstalling <a href="https://kcore.org/2007/07/27/software-for-the-nokia-e65/" target="_blank">my programs</a>. All is well in Nokia land sofar.

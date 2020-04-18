@@ -11,11 +11,11 @@ guid: http://new.kcore.org/?page_id=1188
 sidebar:
   nav: "site_sidebar"
 ---
-I registered this domain several years ago (2003, I believe) after having run a personal website on another domain &#8211; blind-guardian.org (maintained as a fan-site of the heavy metal group). I wanted something a bit more professional, a bit more personal, and something that fit &#8216;me&#8217;. Since I&#8217;m a geek, _kcore_.org seemed a natural fit ;)
+I registered this domain several years ago (2003, I believe) after having run a personal website on another domain - blind-guardian.org (maintained as a fan-site of the heavy metal group). I wanted something a bit more professional, a bit more personal, and something that fit 'me'. Since I'm a geek, _kcore_.org seemed a natural fit ;)
 
 The name itself is derived from the /proc/kcore file which can be found in e.g. GNU/Linux systems. It is a virtual file, representing the RAM the kernel can allocate.
 
-Back in 2003 I wrote a custom <a href="https://en.wikipedia.org/wiki/Content_management_system" target="_blank">CMS </a>for this site &#8211; with the high hopes of one day distributing this CMS to a wider public. That day never came, life happened, and updating content was a _royal pain_. Not much moved on the site, but a blog was born next to it, on which I published my ramblings.
+Back in 2003 I wrote a custom <a href="https://en.wikipedia.org/wiki/Content_management_system" target="_blank">CMS </a>for this site - with the high hopes of one day distributing this CMS to a wider public. That day never came, life happened, and updating content was a _royal pain_. Not much moved on the site, but a blog was born next to it, on which I published my ramblings.
 
 I decided to merge this the (old) content of the site into the blog, and put t as my main page. It made much more sense in the long run - easier to maintain, easier to update. 
 

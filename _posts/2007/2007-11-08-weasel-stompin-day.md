@@ -1,6 +1,6 @@
 ---
 id: 163
-title: 'Weasel Stompin&#8217; Day!'
+title: 'Weasel Stompin&apos; Day!'
 date: 2007-11-08T18:50:21+02:00
 author: Jan
 layout: single

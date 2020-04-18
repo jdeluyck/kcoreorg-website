@@ -12,7 +12,7 @@ tags:
   - dead
   - mouse
 ---
-&#8230; and on this fair day, my trusty &#8216;old&#8217; USB Logitech optical mouse ceased to process electrical inputs.. henceforth it shall go to silicon heaven with all the other mice and electrical appliances.
+... and on this fair day, my trusty 'old' USB Logitech optical mouse ceased to process electrical inputs.. henceforth it shall go to silicon heaven with all the other mice and electrical appliances.
 
 Let us grieve in peace.
 

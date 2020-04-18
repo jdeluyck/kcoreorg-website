@@ -11,13 +11,13 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released <a HREF="http://phptelemeter.kcore.org/" TARGET="_blank">phptelemeter 1.34</a>. This version includes the following changes:
+I've just released <a HREF="http://phptelemeter.kcore.org/" TARGET="_blank">phptelemeter 1.34</a>. This version includes the following changes:
 
   * Fixed telemeter4tools parser.
   * Added a check for the new scarlet unlimited accounts
-  * Spellingfix: changed &#8216;seperate&#8217; to &#8216;separate&#8217;
+  * Spellingfix: changed 'seperate' to 'separate'
   * Added support for single-quota separate-info providers, needed since the daily output for the scarlet_web parser was broken. 
-  * Removed &#8220;text-transform: lowercase;&#8221; from the html publisher (bug report: 2197767)
+  * Removed "text-transform: lowercase;" from the html publisher (bug report: 2197767)
   * Fixed a bug in the scarlet_web code
   * Added mysql publisher (feature request: 1671210)
   * Limited warn-percentage to 2 digits after the comma (feature request: 1936213)

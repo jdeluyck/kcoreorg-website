@@ -14,11 +14,11 @@ tags:
   - prejudice
   - Prius
 ---
-What&#8217;s with people and their prejudice against the Prius?
+What's with people and their prejudice against the Prius?
 
 People first ask me what car I bought, then usually give me one of the following answers:
 
-  * _Ewwwwww_ (and all it&#8217;s variations)
+  * _Ewwwwww_ (and all it's variations)
   * _Thats a car for old people!_
   * _Such an ugly thing!_
   * _Hybrid? So you have to plug it in at home?_

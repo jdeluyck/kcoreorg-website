@@ -21,7 +21,7 @@ tags:
   - yubico
   - yubikey
 ---
-I got a Yubikey 4 half a year ago (during <a href="https://www.redhat.com/en/summit/2016" target="_blank">Red Hat Summit 2016</a>), but until now I didn&#8217;t do much with it. Time to change that ;)
+I got a Yubikey 4 half a year ago (during <a href="https://www.redhat.com/en/summit/2016" target="_blank">Red Hat Summit 2016</a>), but until now I didn't do much with it. Time to change that ;)
 
   * Activate <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor" target="_blank">U2F</a> on the <a href="https://www.yubico.com/about/background/fido/" target="_blank">services that support it</a>
   * U<a href="https://www.yubico.com/support/knowledge-base/categories/articles/use-yubikey-openpgp/" target="_blank">pload my GPG key</a> into the Yubikey (my public key is <a href="https://www.kcore.org/txt/EF3EE450.asc" target="_blank">here</a>)
@@ -32,6 +32,6 @@ I got a Yubikey 4 half a year ago (during <a href="https://www.redhat.com/en/s
 
 If you have any more ideas on how to use the Yubikey, feel free to comment!
 
-Also, If you&#8217;re not using 2  factor authentication yet, I urge you to start using it. It gives you a nice additional layer of account security, with limited hassle. It doesn&#8217;t even have to cost you any money, if you&#8217;re using a software solution. Checkout <a href="https://twofactorauth.org" target="_blank">twofactorauth.org</a> for a (non-comprehensive) list of sites that support it!
+Also, If you're not using 2  factor authentication yet, I urge you to start using it. It gives you a nice additional layer of account security, with limited hassle. It doesn't even have to cost you any money, if you're using a software solution. Checkout <a href="https://twofactorauth.org" target="_blank">twofactorauth.org</a> for a (non-comprehensive) list of sites that support it!
 
 &nbsp;

@@ -1,6 +1,6 @@
 ---
 id: 216
-title: 'Classics&#8230; Mah Nà Mah Nà!'
+title: 'Classics... Mah Nà Mah Nà!'
 date: 2008-02-09T20:36:54+02:00
 author: Jan
 layout: single

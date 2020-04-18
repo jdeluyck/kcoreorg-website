@@ -19,15 +19,15 @@ tags:
   - furiant
   - kamerkoor
 ---
-As some of you might (not) know, I&#8217;ve recently joined a choir, called <a href="http://www.furiant.be/" target="_blank">Furiant</a>, which is part of the <a href="http://www.artemusicale.be" target="_blank">Arte Musicale</a> group. (I already play in a pipe band (the <a href="http://www.fcpd.be" target="_blank">Flemish Caledonian Pipes & Drums</a>))
+As some of you might (not) know, I've recently joined a choir, called <a href="http://www.furiant.be/" target="_blank">Furiant</a>, which is part of the <a href="http://www.artemusicale.be" target="_blank">Arte Musicale</a> group. (I already play in a pipe band (the <a href="http://www.fcpd.be" target="_blank">Flemish Caledonian Pipes & Drums</a>))
 
-On the 26th of december, we&#8217;re giving a christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.
+On the 26th of december, we're giving a christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.
 
 <center>
   <img width="70%" src="/assets/images/2012/03/Affiche-AM-Kerstconcert-1.jpg" alt="Christmas Concert Arte Musicale 2011" />
 </center>
 
-Here&#8217;s a handy google maps thingy to help you find us :)  
+Here's a handy google maps thingy to help you find us :)  
 
 
 <center>

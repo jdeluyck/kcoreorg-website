@@ -15,8 +15,8 @@ tags:
   - linux
   - viewsonic vx2025wm
 ---
-I recently reinstalled Fedora on my desktop machine, which has (amongst others) a <a href="https://www.viewsonic.com/uk/products/lcd/vx2025wm.php" target="_blank" rel="noopener">ViewSonic Vx2025wm</a> screen connected to it. It&#8217;s an oldie, but still works (quite well).  
-Unfortunately, Linux just complained that it didn&#8217;t get a proper <a href="https://en.wikipedia.org/wiki/Extended_Display_Identification_Data" target="_blank" rel="noopener">EDID</a> out of it, and refused to activate it &#8211; might also explain why Windows doesn&#8217;t recognise it as a <a href="https://en.wikipedia.org/wiki/Plug_and_play" target="_blank" rel="noopener">PnP</a> monitor &#8211; I guess the chip fried somewhere along the way.
+I recently reinstalled Fedora on my desktop machine, which has (amongst others) a <a href="https://www.viewsonic.com/uk/products/lcd/vx2025wm.php" target="_blank" rel="noopener">ViewSonic Vx2025wm</a> screen connected to it. It's an oldie, but still works (quite well).  
+Unfortunately, Linux just complained that it didn't get a proper <a href="https://en.wikipedia.org/wiki/Extended_Display_Identification_Data" target="_blank" rel="noopener">EDID</a> out of it, and refused to activate it - might also explain why Windows doesn't recognise it as a <a href="https://en.wikipedia.org/wiki/Plug_and_play" target="_blank" rel="noopener">PnP</a> monitor - I guess the chip fried somewhere along the way.
 
 This was found in the `/var/log/messages`:
 
@@ -31,23 +31,23 @@ May 16 19:57:29 odin kernel: #011[00] BAD 4b 1e 52 11 00 0a 20 20 20 20 20 20 00
 May 16 19:57:29 odin kernel: #011[00] BAD 00 56 58 32 30 32 35 77 6d 0a 20 20 20 20 00 f4
 May 16 19:57:29 odin kernel: nouveau 0000:01:00.0: DRM: DDC responded, but no EDID for DVI-I-1</pre>
 
-As you can see, the screen connected on connector DVI-I-1 (remember this!) isn&#8217;t returning a valid EDID.
+As you can see, the screen connected on connector DVI-I-1 (remember this!) isn't returning a valid EDID.
 
-Luckely, it&#8217;s rather easy to override your screen&#8217;s EDID in Linux, allowing you to serve one from a file ;) as long as you have a copy of said EDID. I didn&#8217;t have one, but was able to get my hands on one online. You can download it here: 
+Luckely, it's rather easy to override your screen's EDID in Linux, allowing you to serve one from a file ;) as long as you have a copy of said EDID. I didn't have one, but was able to get my hands on one online. You can download it here: 
 [viewsonic_vx2025wm_edid.bin_.gz](/assets/files/2018/07/viewsonic_vx2025wm_edid.bin_.gz)
 
-To activate this (these instructions are for Fedora, but they&#8217;ll probably apply to any distro):
+To activate this (these instructions are for Fedora, but they'll probably apply to any distro):
 
-  1. Copy it to `/usr/lib/firmware/edid` (make this directory if needed) &#8211; and unpack it
-  2. Modify your initramfs to include this firmware, since we&#8217;re going to need it early on in the boot.  
-    Fedora uses <a href="https://dracut.wiki.kernel.org/index.php/Main_Page" target="_blank" rel="noopener">dracut</a> &#8211; so put this in eg. `/etc/dracut.conf.d/viewsonic_edid.conf`:  
+  1. Copy it to `/usr/lib/firmware/edid` (make this directory if needed) - and unpack it
+  2. Modify your initramfs to include this firmware, since we're going to need it early on in the boot.  
+    Fedora uses <a href="https://dracut.wiki.kernel.org/index.php/Main_Page" target="_blank" rel="noopener">dracut</a> - so put this in eg. `/etc/dracut.conf.d/viewsonic_edid.conf`:  
     `install_items+=" /usr/lib/firmware/edid/viewsonic_vx2025wm_edid.bin"`
   3. Rebuild your initramfs: `dracut -f`
-  4. Assuming you&#8217;re using <a href="https://www.gnu.org/software/grub/" target="_blank" rel="noopener">grub</a>, modify your default kernel boot line in `/etc/default/grub` and append `drm.edid_firmware=DVI-I-1:edid/viewsonic_vx2025wm_edid.bin` on the line that starts with `GRUB_CMDLINE_LINUX`. You can find the connector the display is on in the messages output above.  
+  4. Assuming you're using <a href="https://www.gnu.org/software/grub/" target="_blank" rel="noopener">grub</a>, modify your default kernel boot line in `/etc/default/grub` and append `drm.edid_firmware=DVI-I-1:edid/viewsonic_vx2025wm_edid.bin` on the line that starts with `GRUB_CMDLINE_LINUX`. You can find the connector the display is on in the messages output above.  
     In the end, mine reads: `GRUB_CMDLINE_LINUX="rd.lvm.lv=fedora_odin/root rd.lvm.lv=fedora_odin/swap rhgb quiet drm.edid_firmware=DVI-I-1:edid/viewsonic_vx2025wm_edid.bin"`
   5. Regenerate your grub config. For <a href="https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface" target="_blank" rel="noopener">UEFI</a> booting systems, use `grub2-mkconfig > /boot/efi/EFI/fedora/grub.cfg`, otherwise use `grub2-mkconfig > /boot/grub2/grub.cfg`.
   6. Reboot
 
-And that should be it &#8211; the screen should activate now.
+And that should be it - the screen should activate now.
 
 (for Windows, you can take a look <a href="http://www.komeil.com/blog/fix-edid-monitor-no-signal-dvi" target="_blank" rel="noopener">here</a>)

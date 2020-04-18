@@ -16,8 +16,8 @@ tags:
 Since I sold my trusty 3-year old <a href="http://www.acer.com/" target="_blank">Acer</a> Travelmate 803, I was going to go and look in some stores for new laptops. Hopping around in Ghent, I walked off to the <a href="http://www.fnac.be" target="_blank">Fnac</a>, noted the offers there (nothing that really drew my attention), and then to the <a href="http://www.switchshops.be" target="_blank">Switch</a> computer store (an authorized mac reseller). Their non-mac offerings are not too great (you can better go to another store), so I waited my turn at the counter, and when it was my time I asked for some more information about Macs and Mac OS X. 
 
 The usual fliers changed hands, and then I was offered a demo of the OS. Always nice, gives you a better insight into things, so I agreed.  
-_Mistake_. I&#8217;ve never been treated this badly in any store. You shouldn&#8217;t assume your customers are gullible children you can talk to in a way you&#8217;d talk to a 3-year old. That&#8217;s just not done. And I can&#8217;t stand it either.. 
+_Mistake_. I've never been treated this badly in any store. You shouldn't assume your customers are gullible children you can talk to in a way you'd talk to a 3-year old. That's just not done. And I can't stand it either.. 
 
-So I walked out that minute, they can stuff their offers where the sun doesn&#8217;t shine!
+So I walked out that minute, they can stuff their offers where the sun doesn't shine!
 
-(I have to say, Mac OS X looks damn spiffy&#8230;)
+(I have to say, Mac OS X looks damn spiffy...)

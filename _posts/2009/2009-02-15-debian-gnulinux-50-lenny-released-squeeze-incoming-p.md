@@ -1,6 +1,6 @@
 ---
 id: 431
-title: 'Debian GNU/Linux 5.0 &#8220;Lenny&#8221; released, Squeeze incoming :p'
+title: 'Debian GNU/Linux 5.0 "Lenny" released, Squeeze incoming :p'
 date: 2009-02-15T22:00:10+02:00
 author: Jan
 layout: single

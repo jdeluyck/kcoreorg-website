@@ -12,7 +12,7 @@ tags:
   - boot time keys
   - mac
 ---
-Because I keep forgetting them, here&#8217;s a list of buttons you can press during a Mac&#8217;s boot to change behaviour:
+Because I keep forgetting them, here's a list of buttons you can press during a Mac's boot to change behaviour:
 
 <table border="1" cellspacing="0">
   <tr>

@@ -11,7 +11,7 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released phptelemeter 1.28. This version includes the following changes:
+I've just released phptelemeter 1.28. This version includes the following changes:
 
   * New parameter: ignore_errors, makes phptelemeter ignore any runtime errors (instead of quitting).
   * Splitted off all common publisher stuff into a new parent class.

@@ -12,7 +12,7 @@ format: link
 ---
 Today is <a href="http://blogactionday.org" target="_blank">Blog Action Day</a>, to bring awareness about the environment and the problems that we (human beans_^W_beings) are causing.
 
-I support it, but since I generally suck at writing things &#8216;on demand&#8217;, I&#8217;ll just spread the word:
+I support it, but since I generally suck at writing things 'on demand', I'll just spread the word:
 
 <a href="http://blogactionday.org" target="_blank"><img src="/assets/images/2007/09/action_250x250.jpg" alt="Bloggers Unite - Blog Action Day" /></a>
 

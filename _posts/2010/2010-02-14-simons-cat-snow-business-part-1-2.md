@@ -1,6 +1,6 @@
 ---
 id: 573
-title: 'Simon&#8217;s Cat &#8211; Snow Business (part 1 &#038; 2)'
+title: 'Simon&apos;s Cat - Snow Business (part 1 & 2)'
 date: 2010-02-14T18:12:14+02:00
 author: Jan
 layout: single

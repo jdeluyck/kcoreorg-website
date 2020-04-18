@@ -13,7 +13,7 @@ tags:
   - software
 format: link
 ---
-A few days onwards with my spiffy new macbook, I&#8217;ve discovered a lot of useful tools:
+A few days onwards with my spiffy new macbook, I've discovered a lot of useful tools:
 
 Freeware apps:
 
@@ -35,7 +35,7 @@ Freeware apps:
   * <a HREF="http://www.apple.com/downloads/macosx/productivity_tools/sidenote.html" TARGET="_blank">Sidenote</a>: notes
   * <strike><a HREF="http://www.stuffit.com/mac/expander/index.html" TARGET="_blank">StuffIT! Expander</a>: archive extractor</strike>
   * <a TARGET="_blank" HREF="http://wakaba.c3.cx/s/apps/unarchiver.html">The Unarchiver</a>: archive extractor
-  * <a HREF="http://www.eagle-of-liberty.com/uapp/index_en.php" TARGET="_blank">uApp</a>: uninstaller (removes prefs, &#8230; too)
+  * <a HREF="http://www.eagle-of-liberty.com/uapp/index_en.php" TARGET="_blank">uApp</a>: uninstaller (removes prefs, ... too)
   * <a HREF="http://www.unrarx.com/" TARGET="_blank">UnrarX</a>: RAR extractor
   * <a HREF="http://www.videolan.org/vlc/" TARGET="_blank">VLC media player</a>: media player
   * <a HREF="http://www.manytricks.com/witch/" TARGET="_blank">witch</a>: Window switcher (not just app switching)
@@ -63,4 +63,4 @@ Widgets:
   * <a HREF="http://www.dashboardwidgets.com/showcase/details.php?wid=1510" TARGET="_blank">App Update</a>: shows if there are updates for apps
   * <a HREF="http://www.apple.com/downloads/dashboard/status/istatpro.html" TARGET="_blank">iStat Pro</a>: hardware stats
 
-If I find more, I&#8217;ll list them here ;)
+If I find more, I'll list them here ;)

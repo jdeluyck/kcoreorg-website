@@ -27,7 +27,7 @@ tags:
   </p>
   
   <div style="left:110px; top:-60px; width:290px; position:relative; text-align: justify;">
-    Like anyone confronted with the harshness of robbery on the high seas, you can be pessimistic at times. Like the rock flint, you&#8217;re hard and sharp. But, also like flint, you&#8217;re easily chipped, and sparky. Arr!
+    Like anyone confronted with the harshness of robbery on the high seas, you can be pessimistic at times. Like the rock flint, you're hard and sharp. But, also like flint, you're easily chipped, and sparky. Arr!
   </div>
   
   <p>

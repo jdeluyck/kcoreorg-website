@@ -1,6 +1,6 @@
 ---
 id: 645
-title: 'Code review &#8211; always try to find something positive'
+title: 'Code review - always try to find something positive'
 date: 2010-11-11T13:28:34+02:00
 author: Jan
 layout: single

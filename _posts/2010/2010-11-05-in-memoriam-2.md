@@ -15,6 +15,6 @@ format: image
 ---
 <img src="/assets/images/2010/11/Nero_Memories_1000-me.jpg" alt="Macchiatto - In Memoriam" width="80%" />
 
-Today we had to put Nero to sleep. Unfortunately he caught an infection, for which we treated him, but it was too late. He never really got better, and we couldn&#8217;t see him suffer any more. We&#8217;re gonna miss him very much, our little pooter.
+Today we had to put Nero to sleep. Unfortunately he caught an infection, for which we treated him, but it was too late. He never really got better, and we couldn't see him suffer any more. We're gonna miss him very much, our little pooter.
 
-May you rest in peace, Nero. &deg; August 2006 &#8211; &#8224; 5th Nov 2010
+May you rest in peace, Nero. &deg; August 2006 - &#8224; 5th Nov 2010

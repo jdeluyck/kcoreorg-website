@@ -11,7 +11,7 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released phptelemeter 1.23. This release includes the following changes:
+I've just released phptelemeter 1.23. This release includes the following changes:
 
   * Added parser upccz_web for UPC in the Czech Republic (written by Miroslav Suchÿ)
   * Made phptelemeter PHP5 compatible.

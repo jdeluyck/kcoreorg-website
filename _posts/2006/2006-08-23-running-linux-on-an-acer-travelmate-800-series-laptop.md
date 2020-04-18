@@ -20,14 +20,14 @@ This page documents my attempts (and successes!) to get Linux fully working on a
 
 NOTE: The information contained herein assumes that you know how to work from the commandline, patch kernels and compile programs.
 
-**DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that&#8217;s \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
+**DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that's \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
 
 # Update notes
 
-I no longer have the Acer Travelmate 800 series laptop (sold it), so I can no longer update this page. I&#8217;ll keep it up as a reference.
+I no longer have the Acer Travelmate 800 series laptop (sold it), so I can no longer update this page. I'll keep it up as a reference.
 
-On March 10 2005 I&#8217;ve decided to give this page a complete overhaul, and throw out any references to the 2.4 series of kernels since I don&#8217;t run them anymore, and IMO users should upgrade to 2.6 to make 100% decent use of their laptops.  
-For reference purposes I&#8217;ve put up a file which contains the 2.4 stuff, but it will not be updated any longer.
+On March 10 2005 I've decided to give this page a complete overhaul, and throw out any references to the 2.4 series of kernels since I don't run them anymore, and IMO users should upgrade to 2.6 to make 100% decent use of their laptops.  
+For reference purposes I've put up a file which contains the 2.4 stuff, but it will not be updated any longer.
 
 # Technical Specifications
 
@@ -35,9 +35,9 @@ Intel Pentium M processor (1024KB L2 Cache), supports Enhanced Intel SpeedStep
 Intel PRO/Wireless 2100 network connection  
 Intel 855PM chipset with 400MHz processor system bus  
 Standard 512MB DDR-266 SDRAM, upgradeable to max. 2048MB  
-Hitachi IC25N040ATMR04-0 &#8211; 40GB Ultra ATA/100 HDD with Disc Anti-Shock Protection system  
+Hitachi IC25N040ATMR04-0 - 40GB Ultra ATA/100 HDD with Disc Anti-Shock Protection system  
 Acer MediaBay for modules: hot swappable standard 24/10/8/24x DVD/CD-RW combo drive  
-15.0&#8243; SXGA+ TFT colour LCD, 1400&#215;1050, 16.7M colours  
+15.0" SXGA+ TFT colour LCD, 1400x1050, 16.7M colours  
 ATI Radeon 9000, dedicated 64MB DDR video memory  
 SoundBlaster-Pro and MS DirectSound compatible  
 TravelMate SmartCard solution including PlatinumSecret suite  
@@ -68,14 +68,14 @@ Integrated Bluetooth
 0000:02:07.0 FireWire (IEEE 1394): Texas Instruments TSB43AB21 IEEE-1394a-2000 Controller (PHY/Link)
 </pre>
 
-Here&#8217;s a <a href="/assets/files/2016/11/pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
+Here's a <a href="/assets/files/2016/11/pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
 
 # Subsystem Notes
 
 ## Linux 2.6.x kernel
 
 The latest 2.6 kernel is: <a href="https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz" target="_blank">2.6.39.4</a>.  
-Here&#8217;s my <a href="/assets/files/2016/11/acer-config-2.6.txt" target="_blank" rel="external">2.6.14.2 kernel configuration</a>.
+Here's my <a href="/assets/files/2016/11/acer-config-2.6.txt" target="_blank" rel="external">2.6.14.2 kernel configuration</a>.
 
 ## USB
 
@@ -99,7 +99,7 @@ Lan also worked out of the box, using the `b44` module.
 
 ## Soundcard
 
-Hardware: Intel Corp. 82801DB AC&#8217;97 Audio Controller
+Hardware: Intel Corp. 82801DB AC'97 Audio Controller
 
 What can I say? It worked out of the box using the OSS/Free `i810_audio` module.  
 You can also use the ALSA module, called `snd_intel8x0` module. This is actually the preferred driver.
@@ -112,13 +112,13 @@ Hardware: ATI Radeon Mobility 9000 M9
 
 Works out of the box by compiling `ATI Radeon display support` in the kernel.
 
-**NOTE**: if you plan on using ATI&#8217;s fglrx driver (for better 3D performance) you have to choose the `VESA display support` option instead!
+**NOTE**: if you plan on using ATI's fglrx driver (for better 3D performance) you have to choose the `VESA display support` option instead!
 
 ## VGA XFree86/X.Org
 
 Hardware: ATI Radeon Mobility 9000 M9
 
-Make sure you&#8217;re using \_atleast\_ XFree86 4.3, or X.Org 6.8! Earlier releases don&#8217;t support the ATI Radeon M9
+Make sure you're using \_atleast\_ XFree86 4.3, or X.Org 6.8! Earlier releases don't support the ATI Radeon M9
 
 To make it working just set your video driver to `radeon`:
 
@@ -143,18 +143,18 @@ The screen section looks like this:
 		EndSection
 </pre>
 
-An alternative driver is <a href="http://www.ati.com/" target="_blank" rel="external">ATI</a>&#8216;s <a href="https://support.ati.com/ics/support/default.asp?deptID=894" target="_blank" rel="external">FireGL</a> driver.  
+An alternative driver is <a href="http://www.ati.com/" target="_blank" rel="external">ATI</a>'s <a href="https://support.ati.com/ics/support/default.asp?deptID=894" target="_blank" rel="external">FireGL</a> driver.  
 Debian users can look <a href="http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html" target="_blank" rel="external">here</a> for downloading and building the package.
 
-Here&#8217;s my <a href="/assets/files/2016/11/acer-xf86config-4.txt" target="_blank" rel="external">complete <code>XF86Config-4</code> file</a>
+Here's my <a href="/assets/files/2016/11/acer-xf86config-4.txt" target="_blank" rel="external">complete <code>XF86Config-4</code> file</a>
 
 ## TV Out
 
-This is rumored to work with <a href="http://www.ati.com/" target="_blank" rel="external">ATI</a>&#8216;s <a href="https://support.ati.com/ics/support/default.asp?deptID=894" target="_blank" rel="external">FireGL</a> driver. I haven&#8217;t confirmed this, tho.
+This is rumored to work with <a href="http://www.ati.com/" target="_blank" rel="external">ATI</a>'s <a href="https://support.ati.com/ics/support/default.asp?deptID=894" target="_blank" rel="external">FireGL</a> driver. I haven't confirmed this, tho.
 
 ## Modem
 
-Hardware: Intel Corp. 82801DB AC&#8217;97 Modem Controller &#8211; Winmodem.
+Hardware: Intel Corp. 82801DB AC'97 Modem Controller - Winmodem.
 
 this modem is made by <a href="http://www.agere.com/" target="_blank" rel="external">Agere</a> (a Lucent subsidiary).
 
@@ -176,7 +176,7 @@ You can use `/dev/hdx` (the cdrom device) directly for cd burning.
 
 ## BlueTooth
 
-Hardeware: Cambridge Silicon Radio, Ltd &#8211; connected to the USB bus.
+Hardeware: Cambridge Silicon Radio, Ltd - connected to the USB bus.
 
 Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install <a href="http://linux-hotplug.sourceforge.net/" target="_blank" rel="external">hotplug</a> the driver will be loaded automatically if you press the bluetooth button!
 
@@ -200,7 +200,7 @@ I added the following call to the bootup system to activate DMA transfers:
 
 Explanation:
 
-  * -c3: enables 32-bit data transfers with special &#8216;sync&#8217; sequence.
+  * -c3: enables 32-bit data transfers with special 'sync' sequence.
   * -d1: enable DMA
   * -A1: enable drive read-ahead
   * -m16: enable multiple sector mode (IDE Block Mode) with 16 sector-reads
@@ -212,7 +212,7 @@ For Debian; check the <a href="http://packages.debian.org/hdparm" target="_blank
 
 ## Speedstep
 
-You need this if you don&#8217;t want your CPU to eat your batteries empty. It&#8217;s included in the kernel config.
+You need this if you don't want your CPU to eat your batteries empty. It's included in the kernel config.
 
 It works perfectly after loading the `speedstep-centrino` and any of the `cpufreq-` modules.
 
@@ -250,9 +250,9 @@ For Debian, check the <a href="http://packages.debian.org/pcmcia-cs" target="_bl
 
 Hardware: O2 Micro, Inc. OZ711Mx MultiMediaBay Accelerator
 
-There&#8217;s a driver available at <a href="http://www.musclecard.com/sourcedrivers.html" target="_blank" rel="external">http://www.musclecard.com/sourcedrivers.html</a>
+There's a driver available at <a href="http://www.musclecard.com/sourcedrivers.html" target="_blank" rel="external">http://www.musclecard.com/sourcedrivers.html</a>
 
-I haven&#8217;t tried it out yet tho.
+I haven't tried it out yet tho.
 
 ## Infrared
 
@@ -262,7 +262,7 @@ I did get it to work with the `nsc-ircc` module.
 
 To get the `nsc-ircc` module, you need to enable `ISA Support` in the `Bus Options` menu.
 
-Here&#8217;s what you need to do:
+Here's what you need to do:
 
   1. Enable the port in the BIOS
   2. Disable the tty port in linux: `setserial /dev/ttyS1 uart none`
@@ -272,7 +272,7 @@ Here&#8217;s what you need to do:
 Now you should be able to connect e.g. a palmpilot on `/dev/ircomm0`. Atleast, it works for me.
 
 **UPDATE:** Johannes Zellner has informed me that this laptop can indeed do SIR, but you need to limit the baud speed.  
-I haven&#8217;t tested this myself, email follows:
+I haven't tested this myself, email follows:
 
 <pre>You CAN get SIR on the irda chip and in fact you have to operate in SIR
 mode for example if you want to connect (like me) to your gprs handy to
@@ -300,7 +300,7 @@ For Debian, I advise the <a href="http://packages.debian.org/irda-utils" target
 
 ## Multimedia Keys
 
-This laptop has several &#8216;function&#8217; and &#8216;multimedia&#8217; keys, which are not mapped by the bios but generate scancodes.  
+This laptop has several 'function' and 'multimedia' keys, which are not mapped by the bios but generate scancodes.  
 These include:
 
   * Volume up
@@ -322,7 +322,7 @@ Not yet tried.
 ## Suspend to RAM
 
 This works pretty well starting kernel `2.6.12`.  
-You can&#8217;t use the <a href="http://www.ati.com/" target="_blank" rel="external">ATI</a> <a href="https://support.ati.com/ics/support/default.asp?deptID=894" target="_blank" rel="external">fglrx</a> driver, and you can&#8217;t use the Radeon framebuffer.
+You can't use the <a href="http://www.ati.com/" target="_blank" rel="external">ATI</a> <a href="https://support.ati.com/ics/support/default.asp?deptID=894" target="_blank" rel="external">fglrx</a> driver, and you can't use the Radeon framebuffer.
 
 I use the following <a href="http://www.kcore.org/sections/linux/linux_on_acer_tm800/acpi-events-suspend" target="_blank" rel="external"><code>suspend</code></a> script in `/etc/acpi/events` (which is triggered when I press my suspend button), and this <a href="http://www.kcore.org/sections/linux/linux_on_acer_tm800/suspend2ram" target="_blank" rel="external"><code>suspend2ram</code></a> script to do the actual suspending.
 
@@ -372,7 +372,7 @@ InputDevice "Mouse[1]"  "CorePointer"
 ...
 </pre>
 
-Here&#8217;s my <a href="/assets/files/2016/11/acer-xf86config-4.txt" target="_blank" rel="external">complete <code>XF86Config-4</code> file</a>
+Here's my <a href="/assets/files/2016/11/acer-xf86config-4.txt" target="_blank" rel="external">complete <code>XF86Config-4</code> file</a>
 
 Debian users can install the <a href="http://packages.debian.org/xfree86-driver-synaptics" target="_blank" rel="external"><code>xfree86-driver-synaptics</code></a> package (for both XFree86 and X.Org).
 
@@ -400,5 +400,5 @@ Debian users can install the <a href="http://packages.debian.org/xfree86-driver-
   * Debian package for ATI drivers: <a href="http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html" target="_blank" rel="external">http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html</a>
   * Acer Launchkeys Driver: <a href="http://www.informatik.hu-berlin.de/~tauber/acerhk/" target="_blank" rel="external">http://www.informatik.hu-berlin.de/~tauber/acerhk/</a>
   * Gentoo Acer TM803 wiki: <a href="http://gentoo-wiki.com/Gentoo_Acer_Travelmate_803LCi_Manual" target="_blank" rel="external">http://gentoo-wiki.com/Gentoo_Acer_Travelmate_803LCi_Manual</a>
-  * Using S3 &#8211; supend to ram: <a href="http://www.doesi.gmxhome.de/linux/tm800s3/s3.html" target="_blank" rel="external">http://www.doesi.gmxhome.de/linux/tm800s3/s3.html</a>
+  * Using S3 - supend to ram: <a href="http://www.doesi.gmxhome.de/linux/tm800s3/s3.html" target="_blank" rel="external">http://www.doesi.gmxhome.de/linux/tm800s3/s3.html</a>
   * Hotkeys program: <a href="http://ftp.debian.org/debian/pool/main/h/hotkeys/" target="_blank" rel="external">http://ftp.debian.org/debian/pool/main/h/hotkeys/</a>

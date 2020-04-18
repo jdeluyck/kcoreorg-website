@@ -20,7 +20,7 @@ To get it mounted under linux, install the `davfs2` package, add your credential
 
 > `https://www.box.net/dav <email address used in account> <password>`
 
-Next, edit the `/etc/davfs2/davfs2.conf` file, to disable locking. It doesn&#8217;t really support it, and causes input/output errors when trying to write anything to the filesystem. To this file you should add the entry 
+Next, edit the `/etc/davfs2/davfs2.conf` file, to disable locking. It doesn't really support it, and causes input/output errors when trying to write anything to the filesystem. To this file you should add the entry 
 
 > `use_locks   0`
 

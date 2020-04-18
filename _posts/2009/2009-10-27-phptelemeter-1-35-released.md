@@ -11,7 +11,7 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released <a HREF="http://phptelemeter.kcore.org/" TARGET="_blank">phptelemeter 1.35</a>. This version only has a few changes, but I wanted to get it out there:
+I've just released <a HREF="http://phptelemeter.kcore.org/" TARGET="_blank">phptelemeter 1.35</a>. This version only has a few changes, but I wanted to get it out there:
 
   * Added support for Mobile Vikings
   * Added unlimited support for Dommel accounts bug report: 2886030)

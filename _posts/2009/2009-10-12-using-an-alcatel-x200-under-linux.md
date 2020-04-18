@@ -17,10 +17,10 @@ I recently purchased an <a href="http://www.my-onetouch.com/global/content/view/
 
 Here are some hints on how to get it to work:
 
-  * You need to install <a href="http://www.draisberghof.de/usb_modeswitch/" target="_blank">usb-modeswitch</a> to switch the card from it&#8217;s builtin usb-storage mode to the USBModem mode. Configuration is done in /etc/usb_modeswitch.conf
-  * Use `/dev/ttyUSB2`. The other two ports that your modem will give don&#8217;t really work well.
+  * You need to install <a href="http://www.draisberghof.de/usb_modeswitch/" target="_blank">usb-modeswitch</a> to switch the card from it's builtin usb-storage mode to the USBModem mode. Configuration is done in /etc/usb_modeswitch.conf
+  * Use `/dev/ttyUSB2`. The other two ports that your modem will give don't really work well.
   * Also, use atleast kernel 2.6.31. Earlier ones might not work.
-  * Disable PIN authentication on your [SIMcard](http://en.wikipedia.org/wiki/Subscriber_Identity_Module)! This one thing was what kept it from working decently &#8211; I tried tons of things, and when I disabled the PIN, it worked nearly instantaneously.  
+  * Disable PIN authentication on your [SIMcard](http://en.wikipedia.org/wiki/Subscriber_Identity_Module)! This one thing was what kept it from working decently - I tried tons of things, and when I disabled the PIN, it worked nearly instantaneously.  
     The command to do PIN auth is `AT+CPIN=1111` (changing 1111 by your actual PIN), but when issuing this command the modem accepts it, but very often freaks out afterwards. Weird.  
     You can find a nice list of GSM modem AT codes on <a href="http://www.gsm-modem.de/gsm-modem-faq.html" target="_blank">gsm-modem.de</a>.
 

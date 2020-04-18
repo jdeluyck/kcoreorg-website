@@ -13,7 +13,7 @@ tags:
   - theme
 format: gallery
 ---
-In my quest for a prettier theme than the default themes of the Nokia E65, I&#8217;ve found the <a href="http://shop.psiloc.com/en/Application,262292,Psiloc+Reflect+Theme" target="_blank">Reflect theme by Psiloc</a> on the <a href="http://news.mobile9.com/s60apps/2007/06/19/reflect-theme-by-psiloc" target="_blank">Symbian in Motion</a> blog. See the blog for a full review of the theme.
+In my quest for a prettier theme than the default themes of the Nokia E65, I've found the <a href="http://shop.psiloc.com/en/Application,262292,Psiloc+Reflect+Theme" target="_blank">Reflect theme by Psiloc</a> on the <a href="http://news.mobile9.com/s60apps/2007/06/19/reflect-theme-by-psiloc" target="_blank">Symbian in Motion</a> blog. See the blog for a full review of the theme.
 
 <table>
   <tr>

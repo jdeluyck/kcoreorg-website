@@ -16,7 +16,7 @@ tags:
 ---
 **Note: This is at your own risk. If you fry your phone, your problem, not mine.**
 
-I recently got an <a href="http://www.htc.com/" target="_blank">HTC</a> <a href="http://www.htc.com/www/product/hero/overview.html" target="_blank">Hero</a>. Great phone, I&#8217;m loving the <a href="http://www.android.com" target="_blank">Android</a> platform. Pity that you don&#8217;t have full access to it, and I actually wanted to merge my old phone (Nokia E65)&#8217;s SMS database into this one, so I needed full access.
+I recently got an <a href="http://www.htc.com/" target="_blank">HTC</a> <a href="http://www.htc.com/www/product/hero/overview.html" target="_blank">Hero</a>. Great phone, I'm loving the <a href="http://www.android.com" target="_blank">Android</a> platform. Pity that you don't have full access to it, and I actually wanted to merge my old phone (Nokia E65)'s SMS database into this one, so I needed full access.
 
 (Un)fortunately, these days the HTC Hero comes with the latest firmware, 2.73.1100.5, which on the one hand makes rooting harder (fixes several bugs and <a href="http://android-dls.com/wiki/index.php?title=Fastboot" target="_blank">fastboot</a> no longer works) but on the other hand makes the phone respond a lot better.
 
@@ -26,11 +26,11 @@ After some twiddling and reading on the <a href="http://forum.xda-developers.com
 
   * asroot2.zip (current root exploid for Android, works on HTC Hero): <http://forum.xda-developers.com/attachment.php?attachmentid=244212&d=1257621154>
   * Superuser.zip (for the su binary and the Superuser.apk): <a href="http://forum.xda-developers.com/attachment.php?attachmentid=211569&d=1249225060" target="_blank">http://forum.xda-developers.com/attachment.php?attachmentid=211569&d=1249225060</a>
-  * Android SDK (for the HTC Hero, it&#8217;s the 1.5 platform): <a href="http://developer.android.com/sdk/android-1.5.html" target="_blank">http://developer.android.com/sdk/android-1.5.html</a>
+  * Android SDK (for the HTC Hero, it's the 1.5 platform): <a href="http://developer.android.com/sdk/android-1.5.html" target="_blank">http://developer.android.com/sdk/android-1.5.html</a>
 
 **Howto:**
 
-  * Download the Android SDK, and install/extract it somewhere. I&#8217;m using Linux and put it under /home/<user>/android/
+  * Download the Android SDK, and install/extract it somewhere. I'm using Linux and put it under /home/<user>/android/
   * Download asroot2.zip, superuser.zip, and extract them in a directory of your choice. For instance, /tmp.
   * Change to the Android SDK directory and in that one /tools (here: /home/<user>/android-sdk-linux_86/tools/
   * Start adb (Android Debug Bridge): `./abd wait-for-device`
@@ -78,4 +78,4 @@ Restart your abd shell, and execute su in your adb shell: `su`, and on the phone
 
 <center>
   <img src="/assets/images/2007/10/su-snapshot.png" alt="SU request" height="60%" />
-</center>Tap &#8220;Allow&#8221;, et voila, you now have a rooted phone.
+</center>Tap "Allow", et voila, you now have a rooted phone.

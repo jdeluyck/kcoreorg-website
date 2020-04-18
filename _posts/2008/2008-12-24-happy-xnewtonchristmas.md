@@ -1,6 +1,6 @@
 ---
 id: 396
-title: 'Happy [(X)|(Newton)|(Christ)]mas!'
+title: 'Happy {% raw %}[(X)|(Newton)|(Christ)]{% endraw %}mas!'
 date: 2008-12-24T16:30:18+02:00
 author: Jan
 layout: single
@@ -16,7 +16,7 @@ tags:
   - norad
   - xmas
 ---
-It&#8217;s that time of the year again, where we all are (supposed to be) happy, cheery, exchange gifts, blabla you know, what not :p
+It's that time of the year again, where we all are (supposed to be) happy, cheery, exchange gifts, blabla you know, what not :p
 
 Well, at any rate, I hope that you all will have a nice evening tonight, and a joyful new years!
 

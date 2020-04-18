@@ -1,6 +1,6 @@
 ---
 id: 210
-title: 'Mad dash &#8211; continued'
+title: 'Mad dash - continued'
 date: 2008-01-31T13:21:29+02:00
 author: Jan
 layout: single
@@ -13,4 +13,4 @@ tags:
   - insurance
   - leasing
 ---
-Yay! I finally got <strike>the first</strike>all of my certificates of the leasing firms &#8211; now we can go insurance-hunt!
+Yay! I finally got <strike>the first</strike>all of my certificates of the leasing firms - now we can go insurance-hunt!

@@ -11,14 +11,14 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released phptelemeter 1.00. The first &#8216;stable&#8217; \*cough\*
+I've just released phptelemeter 1.00. The first 'stable' \*cough\*
 
-Here&#8217;s the changelog leading up from the very first version to this version ;)
+Here's the changelog leading up from the very first version to this version ;)
 
 **1.00**
 
   * Bugfix: parameter should be show\_resetdate, not show\_reset_date
-  * Tagged as 1.0, testing reveiled no more bugs and it&#8217;s about time for a &#8216;full&#8217; version ;)
+  * Tagged as 1.0, testing reveiled no more bugs and it's about time for a 'full' version ;)
 
 **0.27**
 
@@ -36,14 +36,14 @@ Here&#8217;s the changelog leading up from the very first version to this versio
 
 **0.26-pre4**
 
-  * Added option show_graph (and command line &#8211;graph) to show (or not) the transfer graphs
+  * Added option show_graph (and command line -graph) to show (or not) the transfer graphs
   * Moved some common code to functions
 
 **0.26-pre3**
 
   * Moved the calculation of the values to the main program instead of the parsers
-  * Fixed problems with the telemeter_web parser and &#8216;big&#8217; accounts.
-  * Fixed problems with the telemeter_web parser when there was mentioning &#8216;free&#8217; traffic on the telemeter site (Last two thanks to extensive testing by YvesDM)
+  * Fixed problems with the telemeter_web parser and 'big' accounts.
+  * Fixed problems with the telemeter_web parser when there was mentioning 'free' traffic on the telemeter site (Last two thanks to extensive testing by YvesDM)
 
 **0.26-pre2**
 
@@ -60,7 +60,7 @@ Here&#8217;s the changelog leading up from the very first version to this versio
 **0.25**
 
   * Bugfix release: wrong variable was passed in the getNeededModules() code.
-  * PHP&#8217;s error reporting level will be set to E\_ERROR | E\_WARNING at start of the script.
+  * PHP's error reporting level will be set to E\_ERROR | E\_WARNING at start of the script.
 
 **0.24**
 
@@ -70,17 +70,17 @@ Here&#8217;s the changelog leading up from the very first version to this versio
   * Removed all useage of global();
   * Moved php module lists to the correct modules
   * Added publisher_html
-  * Added workaround for telemeter endpoint b0rkage &#8211; telemeter4tools lives again!
+  * Added workaround for telemeter endpoint b0rkage - telemeter4tools lives again!
 
 **0.23 (never released)**
 
-  * Since the telemeter4tools will automatically be &#8216;restored&#8217; once Telenet fixes their SOAP url it&#8217;s not an issue to delay this release.
+  * Since the telemeter4tools will automatically be 'restored' once Telenet fixes their SOAP url it's not an issue to delay this release.
   * Added support for systemwide phptelemeterrc file (in /etc/)
-  * Added &#8211;new-config parameter to make a dummy config file in the current directory.
+  * Added -new-config parameter to make a dummy config file in the current directory.
 
 **0.23-pre1**
 
-  * Fixed telemeter_web parser b0rkage because of changes to the telemeter webpage. telemeter4tools parser is still broken&#8230;
+  * Fixed telemeter_web parser b0rkage because of changes to the telemeter webpage. telemeter4tools parser is still broken...
 
 **0.22**
 
@@ -88,7 +88,7 @@ Here&#8217;s the changelog leading up from the very first version to this versio
 
 **0.21**
 
-  * Added possibility to put phptelemeter &#8216;systemwide&#8217; and still find the modules ;p
+  * Added possibility to put phptelemeter 'systemwide' and still find the modules ;p
 
 **0.20**
 

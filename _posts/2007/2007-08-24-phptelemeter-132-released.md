@@ -11,7 +11,7 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released <a HREF="http://phptelemeter.kcore.org/" TARGET="_blank">phptelemeter 1.32</a>. This version includes the following changes:
+I've just released <a HREF="http://phptelemeter.kcore.org/" TARGET="_blank">phptelemeter 1.32</a>. This version includes the following changes:
 
   * Added parser simulators for single and separate quotas, for easier development
   * Added option to change your publisher at runtime

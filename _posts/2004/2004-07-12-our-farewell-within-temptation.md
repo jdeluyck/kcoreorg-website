@@ -37,7 +37,7 @@ This day would come so soon
 We had no time to say goodbye  
 How can the world just carry on?  
 I feel so lost when you are not at my side  
-But there&#8217;s nothing but silence now  
+But there's nothing but silence now  
 Around the one I loved  
 Is this our farewell?
 

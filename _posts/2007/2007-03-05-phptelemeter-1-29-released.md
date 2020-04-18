@@ -11,7 +11,7 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released phptelemeter 1.29. This version includes the following changes:
+I've just released phptelemeter 1.29. This version includes the following changes:
 
   * Added count of days left until your quota resets.
   * REALLY fix the scarlet_web parser. Thanks Gh0sty!

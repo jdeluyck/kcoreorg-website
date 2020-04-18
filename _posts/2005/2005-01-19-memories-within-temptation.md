@@ -22,21 +22,21 @@ format: video
 
 In this world you tried  
 Not leaving me behind.  
-There&#8217;s no other way.  
+There's no other way.  
 I prayed to the gods let him stay.  
 The memories ease the pain inside,  
-Now I know why&#8230;.
+Now I know why....
 
 All of my memories keep you near.  
 In silent moments imagine you here.  
 All of my memories keep you near.  
 Your silent whispers, silent tears.
 
-Made me promise I&#8217;d try  
+Made me promise I'd try  
 To find my way back in this life.  
 I hope there is a way  
-To give me a sign you&#8217;re ok.  
-Reminds me again it&#8217;s worth it all  
+To give me a sign you're ok.  
+Reminds me again it's worth it all  
 So I can go on.
 
 All of my memories keep you near.  
@@ -55,4 +55,4 @@ In silent moments imagine you here.
 All of my memories keep you near.  
 Your silent whispers, silent tears.
 
-All my memories&#8230;
+All my memories...

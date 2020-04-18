@@ -14,4 +14,4 @@ tags:
   - neerlandais
 format: video
 ---
-If you&#8217;re not from Belgium, you probably won&#8217;t get it&#8230;
+If you're not from Belgium, you probably won't get it...

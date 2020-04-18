@@ -1,6 +1,6 @@
 ---
 id: 1261
-title: '2600 &#8211; Off The Hook / Off The Wall radio show archive downloader'
+title: '2600 - Off The Hook / Off The Wall radio show archive downloader'
 date: 2007-11-02T18:14:25+02:00
 author: Jan
 layout: single
@@ -29,7 +29,7 @@ For example: <span class="typewriter">./get_2600_archive otw /tmp/offthewall</sp
 
 ## Requirements
 
-wget, sed, &#8230; the usual linux tools
+wget, sed, ... the usual linux tools
 
 ## Download
 

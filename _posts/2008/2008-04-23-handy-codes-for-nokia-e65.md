@@ -17,7 +17,7 @@ tags:
   - reset
   - wlan
 ---
-Mostly because I keep forgetting&#8230;
+Mostly because I keep forgetting...
 
 Type in the following codes to find out:
 

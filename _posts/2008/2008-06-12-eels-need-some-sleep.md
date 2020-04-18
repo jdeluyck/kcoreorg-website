@@ -1,6 +1,6 @@
 ---
 id: 250
-title: 'Eels &#8211; Need Some Sleep'
+title: 'Eels - Need Some Sleep'
 date: 2008-06-12T16:52:20+02:00
 author: Jan
 layout: single
@@ -26,7 +26,7 @@ format: video
   I need some sleep.<br /> I can’t go on like this.<br /> I try counting sheep,<br /> But there’s one I always miss.</p> 
   
   <p>
-    Everyone says I’m getting down too low<br /> Everyone says: &#8220;You just gotta let it go&#8221;<br /> &#8220;You just gotta let it go&#8221;<br /> I just gotta let it go
+    Everyone says I’m getting down too low<br /> Everyone says: "You just gotta let it go"<br /> "You just gotta let it go"<br /> I just gotta let it go
   </p>
   
   <p>
@@ -34,7 +34,7 @@ format: video
   </p>
   
   <p>
-    Everyone says I’m getting down too low<br /> Everyone says: &#8220;You just gotta let it go&#8221;<br /> &#8220;You just gotta let it go&#8221;<br /> I just gotta let it go
+    Everyone says I’m getting down too low<br /> Everyone says: "You just gotta let it go"<br /> "You just gotta let it go"<br /> I just gotta let it go
   </p>
   
   <p>

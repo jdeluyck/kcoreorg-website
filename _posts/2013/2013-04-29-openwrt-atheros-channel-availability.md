@@ -1,6 +1,6 @@
 ---
 id: 1017
-title: 'OpenWRT, Atheros &#038; channel availability'
+title: 'OpenWRT, Atheros & channel availability'
 date: 2013-04-29T19:41:18+02:00
 author: Jan
 layout: single
@@ -17,10 +17,10 @@ tags:
   - openwrt
   - reghack
 ---
-If you&#8217;re living outside the US, and you&#8217;re using <a href="http://www.openwrt.org" target="_blank">OpenWRT</a> (a fantastic 3rdparty opensource firmware for many routers), you might have noticed that not all the WiFi channels which are <a href="http://en.wikipedia.org/wiki/List_of_WLAN_channels" target="_blank">legally allowed in your region</a> are actually available for you to choose from.
+If you're living outside the US, and you're using <a href="http://www.openwrt.org" target="_blank">OpenWRT</a> (a fantastic 3rdparty opensource firmware for many routers), you might have noticed that not all the WiFi channels which are <a href="http://en.wikipedia.org/wiki/List_of_WLAN_channels" target="_blank">legally allowed in your region</a> are actually available for you to choose from.
 
 This is a known issue, and stems from the fact that the OpenWRT images are built without CONFIG\_ATH\_USER_REGD=y (which allows overriding the wifi-card builtin default regulatory domain), so that the builds are compliant with the regulations of the US. (see <a href="https://dev.openwrt.org/ticket/6923" target="_blank">trac ticket 6923</a>)  
-If you pick another region in the settings, the ROM will pick the most restrictive of the two &#8211; in my case this means that WiFi channels 12 and 13 are not available to choose from.
+If you pick another region in the settings, the ROM will pick the most restrictive of the two - in my case this means that WiFi channels 12 and 13 are not available to choose from.
 
 There are two ways to get around this:
 

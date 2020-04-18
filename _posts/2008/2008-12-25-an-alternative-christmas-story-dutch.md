@@ -13,6 +13,6 @@ tags:
 ---
 Over at <a href="http://www.jutblogt.be/" target="_blank">Jut blogt</a> you can read an <a href="http://www.jutblogt.be/effenaf/?p=366" target="_blank">alternative version of the christmas story</a>, which I actually prefer above the original ;)
 
-It&#8217;s in dutch though. Sorry for that :p
+It's in dutch though. Sorry for that :p
 
 Thanks to <a href="http://blog.ghosty.be/" target="_blank">Gh0sty</a> for linking this to me!

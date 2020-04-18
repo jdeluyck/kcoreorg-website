@@ -1,6 +1,6 @@
 ---
 id: 576
-title: 'If you get this&#8230;'
+title: 'If you get this...'
 date: 2010-02-22T20:32:20+02:00
 author: Jan
 layout: single
@@ -14,7 +14,7 @@ tags:
   - geek and poke
 format: image
 ---
-&#8230; you&#8217;re most definitely a geek.
+... you're most definitely a geek.
 
 <center>
   <a href="http://geekandpoke.typepad.com/geekandpoke/2010/02/the-geek-joke-of-the-week.html" target="_blank"><img src="/assets/images/2010/02/6a00d8341d3df553ef0120a8b86eae970b-me.jpg" alt="Geek and Poke" /></a></p> 

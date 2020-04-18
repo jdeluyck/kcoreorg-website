@@ -18,7 +18,7 @@ tags:
   - rpg
 format: image
 ---
-On the 4th of March 2008, <a href="http://en.wikipedia.org/wiki/Gary_Gygax" target="_blank">Gary Gygax</a> &#8211; creator of <a href="http://en.wikipedia.org/wiki/Dungeons_&#038;_Dragons" target="_blank">D&D</a>, which laid the basis for the tabletop RPG&#8217;s as we know them today &#8211; passed away, age 69. 
+On the 4th of March 2008, <a href="http://en.wikipedia.org/wiki/Gary_Gygax" target="_blank">Gary Gygax</a> - creator of <a href="http://en.wikipedia.org/wiki/Dungeons_&_Dragons" target="_blank">D&D</a>, which laid the basis for the tabletop RPG's as we know them today - passed away, age 69. 
 
 May he rest in peace.
 

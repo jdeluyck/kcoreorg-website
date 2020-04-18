@@ -15,7 +15,7 @@ tags:
   - raspberry pi 2
   - rpi2
 ---
-In my grand scheme of &#8220;abuse all the low-power computing things!&#8221;, I&#8217;ve moved my crashplan backups over to the <a href="https://en.wikipedia.org/wiki/Raspberry_Pi" target="_blank">Raspberry Pi 2</a> (rpi2 for short). Installation is relatively painless: download the installer from <a href="https://www.code42.com/crashplan/download/" target="_blank">the crashplan site</a>, and unpack and execute. I installed mine under /opt/crashplan.
+In my grand scheme of "abuse all the low-power computing things!", I've moved my crashplan backups over to the <a href="https://en.wikipedia.org/wiki/Raspberry_Pi" target="_blank">Raspberry Pi 2</a> (rpi2 for short). Installation is relatively painless: download the installer from <a href="https://www.code42.com/crashplan/download/" target="_blank">the crashplan site</a>, and unpack and execute. I installed mine under /opt/crashplan.
 
 Afterwards, there are some things to fix, though, as by default Crashplan is only supported on the Intel architecture:
 
@@ -23,7 +23,7 @@ Install a working JRE (& dependencies for the GUI app should you want to launch 
 `apt-get install oracle-java8-jdk libswt-gtk-3-jni libswt-cairo-gtk-3-jni<br />
 rm /opt/crashplan/jre; ln -s /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/ /opt/crashplan/jre<br />
 rm /opt/crashplan/lib/swt.jar; ln -s /usr/share/java/swt.jar /opt/crashplan/lib/swt.jar`  
-Replace some libraries by their recompiled variants &#8211; you can compile them yourself (thanks to <a href="http://www.jonrogers.co.uk/2012/05/crashplan-on-the-raspberry-pi/" target="_blank">Jon Rogers</a> for the instructions) or download them straight from his site if you&#8217;re lazy.  
+Replace some libraries by their recompiled variants - you can compile them yourself (thanks to <a href="http://www.jonrogers.co.uk/2012/05/crashplan-on-the-raspberry-pi/" target="_blank">Jon Rogers</a> for the instructions) or download them straight from his site if you're lazy.  
 `wget http://www.jonrogers.co.uk/wp-content/uploads/2012/05/libmd5.so -O /opt/crashplan/libmd5.so<br />
 wget http://www.jonrogers.co.uk/wp-content/uploads/2012/05/libjtux.so -O /opt/crashplan/libjtux.so`  
 Add a library to the CrashplanEngine startup classpath:  

@@ -25,7 +25,7 @@ tags:
   The choir <a href="http://www.cantabile.be" target="_blank">Cantabile</a>, together with <a href="http://www.furiant.be" target="_blank">Furiant</a> and the Ghent Baroque Players are performing:
 </center>
 
-<span style="font-size: xx-small;"><i>&#8220;<a href="http://en.wikipedia.org/wiki/Magnificat" target="_blank">Magnificat</a>&#8220;</i></span>
+<span style="font-size: xx-small;"><i>"<a href="http://en.wikipedia.org/wiki/Magnificat" target="_blank">Magnificat</a>"</i></span>
 
 by Carl Philipp Emanuel Bach
 

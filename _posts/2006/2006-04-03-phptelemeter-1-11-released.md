@@ -11,7 +11,7 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released phptelemeter 1.11. This release includes the following changes:
+I've just released phptelemeter 1.11. This release includes the following changes:
 
   * Fixed telemeter_web parser for telemeter changes
 

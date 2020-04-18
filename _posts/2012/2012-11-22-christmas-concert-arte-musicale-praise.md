@@ -1,6 +1,6 @@
 ---
 id: 913
-title: 'Christmas concert Arte Musicale &#8211; Praise'
+title: 'Christmas concert Arte Musicale - Praise'
 date: 2012-11-22T20:10:59+02:00
 author: Jan
 layout: single
@@ -20,13 +20,13 @@ tags:
   - kamerkoor
   - praise
 ---
-On the 26th of december we&#8217;re giving our annual christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.
+On the 26th of december we're giving our annual christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.
 
 <center>
   <a href="/assets/images/2012/11/priase.png"><img src="/assets/images/2012/11/priase.png" alt="Arte Musicale Christmasconcert - Priase" title="Arte Musicale Christmasconcert - Priase" width="70%" /></a>
 </center>
 
-Here&#8217;s a handy google maps thingy to help you find us :)  
+Here's a handy google maps thingy to help you find us :)  
 
 
 <center>

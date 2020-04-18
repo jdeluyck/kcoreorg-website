@@ -1,6 +1,6 @@
 ---
 id: 259
-title: 'Fixkes &#8211; kvraagetaan'
+title: 'Fixkes - kvraagetaan'
 date: 2008-07-10T18:10:40+02:00
 author: Jan
 layout: single
@@ -21,7 +21,7 @@ format: video
 
 <!--more-->
 
-**Fixkes &#8211; kvraagetaan**
+**Fixkes - kvraagetaan**
 
 Makkik binnen makkik binnen om een lieke te beginnen  
 Over de dinges die kik mij ammaal herinner  

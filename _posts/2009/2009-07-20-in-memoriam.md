@@ -14,6 +14,6 @@ format: image
 ---
 <img src="/assets/images/2009/07/Macchiatto-InMemoriam-sm.jpg" alt="Macchiatto - In Memoriam" width="80%" />
 
-We had to put him to sleep. He had an infection that we didn&#8217;t catch in time. We&#8217;re sad. Nero is sad. We&#8217;ll miss his pooting and wooting and generally being himself.
+We had to put him to sleep. He had an infection that we didn't catch in time. We're sad. Nero is sad. We'll miss his pooting and wooting and generally being himself.
 
-Macchiatto, sweet smooth coat cavy. &deg; August 2006 &#8211; &#8224; 20th July 2009
+Macchiatto, sweet smooth coat cavy. &deg; August 2006 - &#8224; 20th July 2009

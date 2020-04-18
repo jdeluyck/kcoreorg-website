@@ -15,7 +15,7 @@ tags:
   - ifplugd
   - ifupdown
 ---
-Since I&#8217;m a lazy git, I want my laptop to automatically switch back & forth between my wired and wireless interfaces. Seems that stuff like <a href="http://projects.gnome.org/NetworkManager/" target="_blank">Network Manager</a> can do that for you, but it&#8217;s not really my thing. I don&#8217;t like stuff where you need a <a href="http://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank">GUI</a> to configure it, a duplicaton of network configuration, and it also tends to hang my machine. No idea why, though.
+Since I'm a lazy git, I want my laptop to automatically switch back & forth between my wired and wireless interfaces. Seems that stuff like <a href="http://projects.gnome.org/NetworkManager/" target="_blank">Network Manager</a> can do that for you, but it's not really my thing. I don't like stuff where you need a <a href="http://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank">GUI</a> to configure it, a duplicaton of network configuration, and it also tends to hang my machine. No idea why, though.
 
 After an afternoon of fiddling around with several things, I came up with the recipe:  
 1 portion <a href="http://0pointer.de/lennart/projects/ifplugd/" target="_blank">ifplugd</a>, a good mix of <a href="http://packages.debian.org/ifupdown" target="_blank">ifupdown</a> configuration with <a href="http://guessnet.alioth.debian.org/" target="_blank">guessnet</a> mappings, and some home-grown scripts. Mix well, and let simmer over a hot stove for half an hour. ;)
@@ -25,7 +25,7 @@ The details (tailored to <a href="http://www.debian.org" target="_blank">Debian<
   1. Install ifplugd and guessnet: `apt-get install ifplugd guessnet`
   2. Configure the interface you want ifplugd to monitor. For me, this is eth0 (wired ethernet). You can do this by editing `/etc/default/ifplugd` and adding eth0 in the `INTERFACES` field.  
     Restart ifplugd (`/etc/init.d/ifplugd restart`)
-  3. Edit your `/etc/network/interfaces` file the way you like it. I&#8217;m using multiple wireless entries with guessnet:  
+  3. Edit your `/etc/network/interfaces` file the way you like it. I'm using multiple wireless entries with guessnet:  
     > <pre>mapping ath0
         script guessnet-ifupdown
         map verbose: false
@@ -51,7 +51,7 @@ iface ath0-home inet dhcp
     
     For syntax info, see `man guessnet`</li> 
     
-      * Replace the script in `/etc/ifplugd/action.d` with something more usable. The installed script only calls ifup or ifdown depending on what&#8217;s happening. What we want is to ifdown the interface, and ifup the other. 
+      * Replace the script in `/etc/ifplugd/action.d` with something more usable. The installed script only calls ifup or ifdown depending on what's happening. What we want is to ifdown the interface, and ifup the other. 
         Something like this:
         
         > <pre>#!/bin/sh

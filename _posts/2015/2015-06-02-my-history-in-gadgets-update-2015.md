@@ -1,6 +1,6 @@
 ---
 id: 1092
-title: 'My history in gadgets &#8211; update 2015'
+title: 'My history in gadgets - update 2015'
 date: 2015-06-02T13:34:11+02:00
 author: Jan
 layout: single
@@ -15,7 +15,7 @@ tags:
   - motorola
   - phone
 ---
-An update on the <a href="https://kcore.org/2012/01/04/my-history-in-gadgets/" target="_blank">&#8220;My history in gadgets&#8221;</a> post from a while back, and the <a href="https://kcore.org/2014/05/12/my-history-in-gadgets-update-2014/" target="_blank">2014 update</a>:
+An update on the <a href="https://kcore.org/2012/01/04/my-history-in-gadgets/" target="_blank">"My history in gadgets"</a> post from a while back, and the <a href="https://kcore.org/2014/05/12/my-history-in-gadgets-update-2014/" target="_blank">2014 update</a>:
 
 **_Mobile phone history:_**
 

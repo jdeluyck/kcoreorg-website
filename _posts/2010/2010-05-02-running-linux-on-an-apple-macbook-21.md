@@ -19,7 +19,7 @@ This page documents my attempts (and successes!) to get Linux fully working on a
 
 Note: I no longer have this device.
 
-**DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that&#8217;s \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
+**DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that's \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
 
 ## PCI Specs
 
@@ -45,12 +45,12 @@ Note: I no longer have this device.
 03:03.0 FireWire (IEEE 1394): Agere Systems FW323 (rev 61)
 </pre>
 
-Here&#8217;s a <a href="/assets/files/2010/05/apple-macbook-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
+Here's a <a href="/assets/files/2010/05/apple-macbook-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
 
 ### Linux 2.6.x kernel
 
 The latest 2.6 kernel is: <a href="https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz" target="_blank">2.6.39.4</a>.  
-Here&#8217;s my <a href="/assets/files/2010/05/apple-macbook-config-2.6.txt" target="_blank" rel="external">2.6.26 kernel configuration</a>. This is actually the stock debian kernel.
+Here's my <a href="/assets/files/2010/05/apple-macbook-config-2.6.txt" target="_blank" rel="external">2.6.26 kernel configuration</a>. This is actually the stock debian kernel.
 
 ### USB
 
@@ -80,7 +80,7 @@ Works out of the box with the ALSA module called `snd_hda_intel` module.
 Hardware: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller
 
 Since the inception of <a href="http://en.wikipedia.org/wiki/Mode-setting" target="_blank" rel="external">kernel-mode-setting</a> (KMS), no additional work is needed to get  
-a decent framebuffer console. Load the `i915` module, and you&#8217;re set.
+a decent framebuffer console. Load the `i915` module, and you're set.
 
 ### VGA X.Org
 
@@ -94,7 +94,7 @@ To make it working just set your video driver to `intel`:
 		EndSection
 </pre>
 
-With modern Xorg versions, you don&#8217;t even need to specify this anymore.
+With modern Xorg versions, you don't even need to specify this anymore.
 
 ### CDRW/DVDRW
 
@@ -124,7 +124,7 @@ For Debian; check the <a href="http://packages.debian.org/hdparm" target="_blank
 
 ### Speedstep
 
-You need this if you don&#8217;t want your CPU to eat your batteries empty. It&#8217;s included in the kernel config.
+You need this if you don't want your CPU to eat your batteries empty. It's included in the kernel config.
 
 It works perfectly after loading the `acpi_cpufreq` and any of the `cpufreq-` modules.
 
@@ -150,7 +150,7 @@ Currently not supported by the linux kernel. Possible patch: <a href="http://www
 
 ### Multimedia Keys
 
-This laptop has several function keys which allow for the changing of the volume, brightness, &#8230;
+This laptop has several function keys which allow for the changing of the volume, brightness, ...
 
 After installation of <a href="http://www.technologeek.org/projects/pommed/" target="_blank" rel="external">pommed</a>, these keys work perfectly.
 
@@ -158,9 +158,9 @@ Debian users can install the <a href="http://packages.debian.org/pommed" target=
 
 ### (Userspace) Software Suspend
 
-Works: suspend to ram (s2ram). I&#8217;m using the following parameters: -f (force) -p (do VBE post) -m (save/restore VBE mode)
+Works: suspend to ram (s2ram). I'm using the following parameters: -f (force) -p (do VBE post) -m (save/restore VBE mode)
 
-Doesn&#8217;t work: suspend to disk (s2disk,s2both): causes a full system freeze, need to dig into this further.
+Doesn't work: suspend to disk (s2disk,s2both): causes a full system freeze, need to dig into this further.
 
 ### iSight webcam
 
@@ -205,9 +205,9 @@ Add the following to the `/etc/X11/xorg.conf` file:
 EndSection
 </pre>
 
-Here&#8217;s my <a href="/assets/files/2010/05/apple-macbook-xorg.conf_.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
+Here's my <a href="/assets/files/2010/05/apple-macbook-xorg.conf_.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
 
-It&#8217;s advisable to run `syndaemon` after starting X, to prevent accidental taps while you&#8217;re typing.  
+It's advisable to run `syndaemon` after starting X, to prevent accidental taps while you're typing.  
 example: `syndaemon -i 2 -t -d`
 
 Debian users can install the <a href="http://packages.debian.org/xserver-xorg-input-synaptics" target="_blank" rel="external"><code>xserver-xorg-input-synaptics</code></a> package.

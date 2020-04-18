@@ -17,11 +17,11 @@ format: video
 ---
 A good friend of mine introduced me to a new game: <a href="http://www.worldofgoo.com" target="_blank">World Of Goo!</a>
 
-I&#8217;ve finished the demo, and it&#8217;s damned addictive ;)
+I've finished the demo, and it's damned addictive ;)
 
 <div>
 </div>
 
-There are <a href="http://worldofgoo.no.sapo.pt/" target="_blank">user levels</a> available too, so the gameplay isn&#8217;t limited to the game itself ;)
+There are <a href="http://worldofgoo.no.sapo.pt/" target="_blank">user levels</a> available too, so the gameplay isn't limited to the game itself ;)
 
-And, as a nice bonus: It&#8217;s available for Windows, Mac, and Linux!
+And, as a nice bonus: It's available for Windows, Mac, and Linux!

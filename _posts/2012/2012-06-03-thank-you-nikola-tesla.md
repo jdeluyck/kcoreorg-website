@@ -13,7 +13,7 @@ tags:
   - historical
   - Nicola Tesla
 ---
-<a href="http://theoatmeal.com" target="_blank">The Oatmeal</a> recently had a nice post on <a href="http://theoatmeal.com/comics/tesla" target="_blank">Nikola Tesla</a>, one of the greatest minds that ever lived. We owe a ton to that guy, even though he&#8217;s often not credited for it. Hell, you wouldn&#8217;t even be reading this without him.
+<a href="http://theoatmeal.com" target="_blank">The Oatmeal</a> recently had a nice post on <a href="http://theoatmeal.com/comics/tesla" target="_blank">Nikola Tesla</a>, one of the greatest minds that ever lived. We owe a ton to that guy, even though he's often not credited for it. Hell, you wouldn't even be reading this without him.
 
 <img src="/assets/images/2012/06/1.jpg" width="90%" />  
 <img src="/assets/images/2012/06/2.jpg" width="90%" />  

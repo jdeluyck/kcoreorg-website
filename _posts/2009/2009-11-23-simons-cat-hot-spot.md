@@ -1,6 +1,6 @@
 ---
 id: 530
-title: 'Simon&#8217;s Cat &#8211; Hot Spot'
+title: 'Simon&apos;s Cat - Hot Spot'
 date: 2009-11-23T20:44:26+02:00
 author: Jan
 layout: single

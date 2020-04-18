@@ -13,7 +13,7 @@ tags:
   - Work
 format: gallery
 ---
-I know some companies are thankful when an employee chooses to work for them (like I did &#8211; choosing to go work for CTG)&#8230; but it&#8217;s a first that the employer actually sends flowers to your home address with a thank you note :P
+I know some companies are thankful when an employee chooses to work for them (like I did - choosing to go work for CTG)... but it's a first that the employer actually sends flowers to your home address with a thank you note :P
 
 <table>
   <tr>
@@ -27,4 +27,4 @@ I know some companies are thankful when an employee chooses to work for them (li
   </tr>
 </table>
 
-Thanks, CTG ;) You guys (and gals) already scored good points in my book &#8211; and I don&#8217;t even actually \_work\_ there yet!
+Thanks, CTG ;) You guys (and gals) already scored good points in my book - and I don't even actually \_work\_ there yet!

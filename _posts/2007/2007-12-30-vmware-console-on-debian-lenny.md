@@ -15,9 +15,9 @@ tags:
   - Linux / unix
   - vmware
 ---
-I just installed <a href="http://www.vmware.com/" target="_blank">VMWare</a> <a href="http://www.vmware.com/products/server/" target="_blank">server</a> on my gf&#8217;s linux-laptop, but the server console didn&#8217;t want to start for some reason&#8230; Just came back to the command line, nothing happening.
+I just installed <a href="http://www.vmware.com/" target="_blank">VMWare</a> <a href="http://www.vmware.com/products/server/" target="_blank">server</a> on my gf's linux-laptop, but the server console didn't want to start for some reason... Just came back to the command line, nothing happening.
 
 Running vmware as  
 `LD_PRELOAD=/usr/lib/libdbus-1.so.3:$LD_PRELOAD vmware` made things work, strangely enough ;)
 
-Guess it&#8217;s because she&#8217;s not running any <a href="http://dbus.freedesktop.org/" target="_blank">dbus</a>-aware windowmanager, and thus said library not being loaded before the start of the server console. Ah well, fixed now ;)
+Guess it's because she's not running any <a href="http://dbus.freedesktop.org/" target="_blank">dbus</a>-aware windowmanager, and thus said library not being loaded before the start of the server console. Ah well, fixed now ;)

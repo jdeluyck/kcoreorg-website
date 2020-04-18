@@ -1,6 +1,6 @@
 ---
 id: 44
-title: 'Krijg de kleren&#8230;'
+title: 'Krijg de kleren...'
 date: 2006-03-28T17:49:32+02:00
 author: Jan
 layout: single
@@ -36,13 +36,13 @@ All the lyrics can be found at the url above.
 > Krijg de kleren van het jaar.
 > 
 > (Vosmeer en Raphael)  
-> Die daar met zo&#8217;n bibs van voren? Ja, dat heet een dÃ©coltÃ©.  
+> Die daar met zo'n bibs van voren? Ja, dat heet een dÃ©coltÃ©.  
 > En die meters stof van achteren, veegt ze daar de vloer dan mee?  
-> Da&#8217;s alleen maar voor het mooie en dat ding dat heet een sleep.  
+> Da's alleen maar voor het mooie en dat ding dat heet een sleep.  
 > Dat kost geld en is onnodig, maar daar zit hem nou juist de kneep.
 > 
 > (Het volk)  
-> Voor de dames en de heren&#8230;
+> Voor de dames en de heren...
 > 
 > (Raphael en Vosmeer)  
 > Kijk de hoed van deze dame, nieuwste snufje, nieuwste kleur.  
@@ -65,15 +65,15 @@ All the lyrics can be found at the url above.
 > 
 > (Bisschop)  
 > Kunt u niet zien dat dat een meisje uit het volk is?  
-> Zoiets past toch niet voor wie &#8216;s hemels tolk is.  
+> Zoiets past toch niet voor wie 's hemels tolk is.  
 > Het moet iets zijn met een beetje niveau.  
 > Maar dan maken we het mode, dan is het niemand meer verboden.
 > 
 > (Vosmeer en Raphael)  
 > Ook al zou je willen lopen in een oude juten zak,  
-> is zo&#8217;n zak maar eenmaal mode, heet zo&#8217;n zak ineens een pak.  
+> is zo'n zak maar eenmaal mode, heet zo'n zak ineens een pak.  
 > Ja de mensen maken kleren, maar de kleren mensen niet.  
-> Wat zij dragen, &#8216;t is toch altijd &#8216;t zelfde schepsel dat je ziet.
+> Wat zij dragen, 't is toch altijd 't zelfde schepsel dat je ziet.
 > 
 > (Het volk)  
 > Voor de dames en de heren met de centen staan wij klaar.  

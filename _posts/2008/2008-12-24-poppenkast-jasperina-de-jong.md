@@ -1,6 +1,6 @@
 ---
 id: 392
-title: 'Poppenkast &#8211; Jasperina De Jong'
+title: 'Poppenkast - Jasperina De Jong'
 date: 2008-12-24T15:58:06+02:00
 author: Jan
 layout: single
@@ -13,9 +13,9 @@ tags:
   - jasperina de jong
   - poppenkast
 ---
-From the musical &#8220;De Engel van Amsterdam&#8221;. 
+From the musical "De Engel van Amsterdam". 
 
-It&#8217;s actually frightfully actual, still, since as much as we think we can make our own decisions, we&#8217;re usually steered from above without really noticing.
+It's actually frightfully actual, still, since as much as we think we can make our own decisions, we're usually steered from above without really noticing.
 
 Jan Klaassen geeft Katrijn een zoen,  
 niet dat ie dat zo graag wil doen.  
@@ -26,7 +26,7 @@ en het lijkt of die poppen dat zelf dan doen,
 maar Katrijn die zit nou eenmaal vast  
 aan de hand van de man in de poppenkast  
 en daarom wordt ze kwaad.  
-&#8216;t Is de hand van de man in de poppenkast  
+'t Is de hand van de man in de poppenkast  
 die Jan Klaassen zoenen laat.
 
 Ja meneer, nee meneer,  
@@ -43,10 +43,10 @@ word je zelf een deel van het gezag.
 En voor je het weet zit je vast  
 aan de hand van de man in de poppenkast.  
 En je weet toch zelf hoe dat gaat:  
-&#8216;t is de hand van de man in de poppenkast  
+'t is de hand van de man in de poppenkast  
 die de poppen dansen laat.
 
-Ja meneer, nee meneer&#8230;
+Ja meneer, nee meneer...
 
 Al zeg je ook op alles nee,  
 ze praten schijnbaar met je mee  
@@ -60,6 +60,6 @@ Heeft niemand het dan door:
 de hand van de man in de poppenkast  
 dirigeert het poppenkoor.
 
-Ja meneer, nee meneer&#8230;
+Ja meneer, nee meneer...
 
-Ja meneer, nee meneer&#8230;
+Ja meneer, nee meneer...

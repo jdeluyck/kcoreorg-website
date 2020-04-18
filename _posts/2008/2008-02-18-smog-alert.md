@@ -18,7 +18,7 @@ tags:
   - smog alert
 format: image
 ---
-Today the government of Flanders imposed another &#8220;Smog alert&#8221;, atleast until tomorrow evening.
+Today the government of Flanders imposed another "Smog alert", atleast until tomorrow evening.
 
 <p align="justify">
   <img style="float: left; margin: 4px;" src="/assets/images/2008/02/large_220795.jpg" alt="Smog!" />
@@ -26,14 +26,14 @@ Today the government of Flanders imposed another &#8220;Smog alert&#8221;, atlea
 
 What is this, you might ask?When the amount of <a href="http://en.wikipedia.org/wiki/Particulate" target="_blank">fine dust</a> in the air exceeds the european limit (40 µg/m³), a speed limit of 90 kph is imposed on certain roads, to reduce this.
 
-As posted by Wim in <a href="http://www.wimblog.be/smogalarm/" target="_blank">this post (in dutch), about the smog-alert end of 2007</a>, this is actually quite moot &#8211; you drive less fast for 3-4 days in a year, but keep polluting the same all the other days. It&#8217;s also only mandatory in flanders, not in wallonia (go figure).
+As posted by Wim in <a href="http://www.wimblog.be/smogalarm/" target="_blank">this post (in dutch), about the smog-alert end of 2007</a>, this is actually quite moot - you drive less fast for 3-4 days in a year, but keep polluting the same all the other days. It's also only mandatory in flanders, not in wallonia (go figure).
 
-Also, completely accidental, the amount of speed-checks increases tenfold, and there&#8217;s the zero-tolerance.
+Also, completely accidental, the amount of speed-checks increases tenfold, and there's the zero-tolerance.
 
-I do agree that we need to do something about this problem &#8211; but not the short half-assed &#8220;solution&#8221; our government imposes (drive slower for 2 days) which only serves to increase their revenue through speeding tickets &#8211; but a real structural solution. Like:
+I do agree that we need to do something about this problem - but not the short half-assed "solution" our government imposes (drive slower for 2 days) which only serves to increase their revenue through speeding tickets - but a real structural solution. Like:
 
   * higher taxes on the polluting cars
   * promoting the ecologically sound cards
   * making public transport usable for more people
 
-I&#8217;m sure there are a lot more options, but these would be a start&#8230;
+I'm sure there are a lot more options, but these would be a start...

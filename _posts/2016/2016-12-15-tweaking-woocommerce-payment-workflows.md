@@ -16,22 +16,22 @@ tags:
   - woocommerce
   - WordPress
 ---
-I&#8217;m playing part-time webmaster for the <a href="http://artemusicale.be/ensembles/kamerkoor-furiant/" target="_blank">choir</a> I sing in, and as such, am getting up close and personal with <a href="https://woocommerce.com/" target="_blank">WooCommerce</a>. Quite a nifty shopping cart, but it does require a lot of tweaks to really make it work to your liking &#8211; unless you&#8217;re willing to shell out a lot of cash.
+I'm playing part-time webmaster for the <a href="http://artemusicale.be/ensembles/kamerkoor-furiant/" target="_blank">choir</a> I sing in, and as such, am getting up close and personal with <a href="https://woocommerce.com/" target="_blank">WooCommerce</a>. Quite a nifty shopping cart, but it does require a lot of tweaks to really make it work to your liking - unless you're willing to shell out a lot of cash.
 
-The latest modification was changing the workflow of the payment gateways &#8211; more specifically, the <a href="https://docs.woocommerce.com/document/bacs/" target="_blank">BACS gateway</a> (Bank Account Clearing System &#8211; or as we mortals call it, <a href="https://en.wikipedia.org/wiki/Wire_transfer" target="_blank">wire transfer</a>).
+The latest modification was changing the workflow of the payment gateways - more specifically, the <a href="https://docs.woocommerce.com/document/bacs/" target="_blank">BACS gateway</a> (Bank Account Clearing System - or as we mortals call it, <a href="https://en.wikipedia.org/wiki/Wire_transfer" target="_blank">wire transfer</a>).
 
 The default flow for WooCommerce (for this gateway) is:
 
   1. Order is put in by customer
   2. Order is automatically flagged as _on-hold_, and a mail is sent out to the customer with the bank info
   3. Customer (supposedly) pays
-  4. Store manager sees the payment, and flags order as _processing_ &#8211; another mail is sent out with the notification that it&#8217;s being processed
-  5. Store manager (hopefully) ships the product, flags the order as _completed _and another mail is sent out with &#8216;order complete&#8217; status.
+  4. Store manager sees the payment, and flags order as _processing_ - another mail is sent out with the notification that it's being processed
+  5. Store manager (hopefully) ships the product, flags the order as _completed _and another mail is sent out with 'order complete' status.
 
-Now, for our uses, the _on-hold_ status is a bit superfluous (and we&#8217;ve had people getting confused by it).  
-We&#8217;d rather have it go straight to _processing_, and have that mail contain the bank information (only for BACS payments, ofcourse).
+Now, for our uses, the _on-hold_ status is a bit superfluous (and we've had people getting confused by it).  
+We'd rather have it go straight to _processing_, and have that mail contain the bank information (only for BACS payments, ofcourse).
 
-After some testing, I came up with two solutions: One very hacky, and not maintainable, the other better. Both solutions need to be inserted in your theme&#8217;s `functions.php` file.
+After some testing, I came up with two solutions: One very hacky, and not maintainable, the other better. Both solutions need to be inserted in your theme's `functions.php` file.
 
 <pre>/* override gateway for BACS */
 function my_core_gateways($methods) {
@@ -83,7 +83,7 @@ class WC_Gateway_BACS_custom extends WC_Gateway_BACS {
 
 </pre>
 
-I have several reservations with the code above: it&#8217;s basically shamelessly copying and overloading the two functions of the parent class, and calling a private function which is internal to the parent class &#8211; both of which might cause trouble if there are big changes in WooCommerce. It works, but well, it&#8217;s .. ugly. So, I looked for a better way to tackle this.
+I have several reservations with the code above: it's basically shamelessly copying and overloading the two functions of the parent class, and calling a private function which is internal to the parent class - both of which might cause trouble if there are big changes in WooCommerce. It works, but well, it's .. ugly. So, I looked for a better way to tackle this.
 
 <pre>sadfasdfasdf
 add_action( 'woocommerce_email_before_order_table', 'add_order_email_instructions', 10, 2 );
@@ -116,4 +116,4 @@ function add_order_email_instructions( $order, $sent_to_admin ) {
 }
 </pre>
 
-Still not as clean as I&#8217;d like, as we&#8217;re still invoking an internal function, but atleast we&#8217;re using the proper hooks to tweak WooCommerce. I&#8217;ll update if I ever find a better way to get to the bank details.
+Still not as clean as I'd like, as we're still invoking an internal function, but atleast we're using the proper hooks to tweak WooCommerce. I'll update if I ever find a better way to get to the bank details.

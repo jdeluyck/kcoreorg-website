@@ -11,9 +11,9 @@ categories:
 tags:
   - phptelemeter
 ---
-I&#8217;ve just released phptelemeter 1.24. This release includes the following changes:
+I've just released phptelemeter 1.24. This release includes the following changes:
 
   * Added detection of overusage on Dommel parser
-  * Added detection of &#8216;Access Denied&#8217; errors on Skynet parser
+  * Added detection of 'Access Denied' errors on Skynet parser
 
 As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.

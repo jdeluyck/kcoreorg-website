@@ -1,6 +1,6 @@
 ---
 id: 335
-title: 'R.E.M. &#8211; Find The River'
+title: 'R.E.M. - Find The River'
 date: 2008-09-30T22:08:58+02:00
 author: Jan
 layout: single
@@ -27,7 +27,7 @@ Hey now, little speedyhead,
 The read on the speedometer says  
 You have to go to task in the city  
 Where people drown and people serve  
-Don&#8217;t be shy. Your just deserve  
+Don't be shy. Your just deserve  
 Is only just light years to go
 
 Me, my thoughts are flower strewn  
@@ -37,9 +37,9 @@ Watch the road and memorize
 This life that pass before my eyes  
 Nothing is going my way
 
-The ocean is the river&#8217;s goal,  
+The ocean is the river's goal,  
 A need to leave the water knows  
-We&#8217;re closer now than light years to go
+We're closer now than light years to go
 
 I have got to find the river,  
 Bergamot and vetiver  
@@ -48,9 +48,9 @@ Leave the road and memorize
 This life that pass before my eyes  
 Nothing is going my way
 
-There&#8217;s no one left to take the lead,  
+There's no one left to take the lead,  
 But I tell you and you can see  
-We&#8217;re closer now than light years to go  
+We're closer now than light years to go  
 Pick up here and chase the ride  
 The river empties to the tide  
 Fall into the ocean

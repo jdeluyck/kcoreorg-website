@@ -14,10 +14,10 @@ tags:
   - reality tv
 format: image
 ---
-This guy deserves a statue and medals&#8230;
+This guy deserves a statue and medals...
 
 <a href="http://www.ctrlaltdel-online.com/comic.php?d=20071117" target="_blank"><img src="/assets/images/2007/09/20071117_G-sm.jpg" alt="Only One" /></a>
 
-(online comic <a href="http://www.ctrlaltdel-online.com" target="_blank">Ctrl+Alt+Del</a> &#8211; all rights belong to them!)
+(online comic <a href="http://www.ctrlaltdel-online.com" target="_blank">Ctrl+Alt+Del</a> - all rights belong to them!)
 
-And in case you&#8217;re wondering &#8211; I hate <a href="http://en.wikipedia.org/wiki/Reality_television" target="_blank">reality tv</a>. We have plenty of it here in Belgium, unfortunately!
+And in case you're wondering - I hate <a href="http://en.wikipedia.org/wiki/Reality_television" target="_blank">reality tv</a>. We have plenty of it here in Belgium, unfortunately!

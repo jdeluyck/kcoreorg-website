@@ -1,6 +1,6 @@
 ---
 id: 111
-title: 'Destructive critters&#8230;'
+title: 'Destructive critters...'
 date: 2007-03-21T20:43:52+02:00
 author: Jan
 layout: single
@@ -15,7 +15,7 @@ tags:
   - stairs
 format: gallery
 ---
-Those cavies are damn destructive creatures! We installed a wooden stairs made of balsa for them, basically they trashed it completely&#8230; So I went out and got a new piece of balsa, cut it to size and installed it (leaving the old one for chewing):
+Those cavies are damn destructive creatures! We installed a wooden stairs made of balsa for them, basically they trashed it completely... So I went out and got a new piece of balsa, cut it to size and installed it (leaving the old one for chewing):
 
 Before:
 

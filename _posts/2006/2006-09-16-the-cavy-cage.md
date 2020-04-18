@@ -13,7 +13,7 @@ tags:
   - Cavies
 format: gallery
 ---
-Today I decided to change some things to their cavia cage, and see if they like &#8211; use it.
+Today I decided to change some things to their cavia cage, and see if they like - use it.
 
 <table border="0" width="100%">
   <tr>
@@ -27,6 +27,6 @@ Today I decided to change some things to their cavia cage, and see if they like 
   </tr>
 </table>
 
-I wonder if they&#8217;ll like it :)
+I wonder if they'll like it :)
 
 Jan

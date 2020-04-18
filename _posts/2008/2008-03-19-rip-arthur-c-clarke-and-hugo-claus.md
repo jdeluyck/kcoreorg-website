@@ -17,7 +17,7 @@ tags:
   - science
   - writer
 ---
-Yesterday, <a href="http://en.wikipedia.org/wiki/Arthur_C._Clarke" target="_blank">Arthur C. Clarke</a>, author of <a href="http://en.wikipedia.org/wiki/2001:_A_Space_Odyssey" target="_blank">2001: A Space Oddysey&#8221;</a> and other great works, passed away at the age of 90. He&#8217;ll be sorely missed both by the science community and the millions of fans he had. 
+Yesterday, <a href="http://en.wikipedia.org/wiki/Arthur_C._Clarke" target="_blank">Arthur C. Clarke</a>, author of <a href="http://en.wikipedia.org/wiki/2001:_A_Space_Odyssey" target="_blank">2001: A Space Oddysey"</a> and other great works, passed away at the age of 90. He'll be sorely missed both by the science community and the millions of fans he had. 
 
 Today, <a href="http://en.wikipedia.org/wiki/Hugo_Claus" target="_blank">Hugo Claus</a>, a Flemish novelist, poet, playwright, painter and film director, died at the age of 78. He was considered to be one of the most important contemporary Dutch language authors.
 

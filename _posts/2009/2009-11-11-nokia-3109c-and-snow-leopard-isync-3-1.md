@@ -1,6 +1,6 @@
 ---
 id: 513
-title: 'Nokia 3109c and Snow Leopard (iSync 3.1)&#8230;'
+title: 'Nokia 3109c and Snow Leopard (iSync 3.1)...'
 date: 2009-11-11T13:51:31+02:00
 author: Jan
 layout: single
@@ -18,7 +18,7 @@ tags:
 ---
 As I detailed in my <a href="https://kcore.org/2008/06/26/nokia-3109c-symbian-s40-and-isync/" target="_blank">previous post on how to get this phone working with Leopard</a>, upgrading to <a href="http://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard" target="_blank">Mac OS X 10.6 aka Snow Leopard </a> broke things again.
 
-Easy fix though: follow the steps in my previous post, and attached to this post you can find the &#8216;fixed&#8217; MetaClasses.plist file.
+Easy fix though: follow the steps in my previous post, and attached to this post you can find the 'fixed' MetaClasses.plist file.
 
 All I actually did was copy this block in the existing MetaClasses.plist:
 

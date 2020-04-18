@@ -16,7 +16,7 @@ tags:
 ---
 I just finished updating my machine to the latest Linux kernel, <a href="http://marc.info/?l=linux-kernel&m=123016280131543&w=2" target="_blank">2.6.28</a>. All worked, except for <a href="http://www.vmware.com/products/server/" target="_blank">VMWare Server</a> (which was still at 1.0.8). Since 2.0 has been released, time for an upgrade!
 
-Downloaded, installed, configuration didn&#8217;t work for the vsock module. Actually, it built, but failed to load due to some missing symbols. After some digging I came across the following patch that modifies the vmware-config.pl script:
+Downloaded, installed, configuration didn't work for the vsock module. Actually, it built, but failed to load due to some missing symbols. After some digging I came across the following patch that modifies the vmware-config.pl script:
 
 (note: very bad wordwrapping here, download the file below and use that!)
 

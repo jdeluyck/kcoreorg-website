@@ -12,7 +12,7 @@ tags:
   - change
   - Work
 ---
-I&#8217;m changing employers&#8230;
+I'm changing employers...
 
 <img border="0" src="http://tickers.TickerFactory.com/ezt/d/4;15;7/st/20071001/e/one+month+of+vacationtime/dt/6/k/0473/blk-event.png" /> 
 

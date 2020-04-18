@@ -18,6 +18,6 @@ format: image
   <img src="/assets/images/2008/10/stone-vs-iphone.png" alt="rock vs iphone" />
 </center>
 
-So true&#8230; ;)
+So true... ;)
 
 (thanks to <a href="http://blog.ghosty.be/" target="_blank">Gh0sty</a>)

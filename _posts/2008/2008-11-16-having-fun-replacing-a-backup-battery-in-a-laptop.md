@@ -19,18 +19,18 @@ Yesterday I had some good old fun trying to replace the backup battery of an <a 
 
 I thought that since this is a part that should be replaceable by the user, it should be reachable (like the memory, harddisk, you know). Guess again !
 
-After flipping through the service manual (which I had luckily found), it seemed that there were no disassembly instructions for this battery. Looking on the blueprints of the motherboard, it showed the battery as being on the _underside_ of the motherboard &#8211; ergo, requiring full disassembly of the laptop&#8230; wtf?!?
+After flipping through the service manual (which I had luckily found), it seemed that there were no disassembly instructions for this battery. Looking on the blueprints of the motherboard, it showed the battery as being on the _underside_ of the motherboard - ergo, requiring full disassembly of the laptop... wtf?!?
 
-I&#8217;m damn glad that I had the manual, because otherwise I think getting this thing apart is not quite so easy.
+I'm damn glad that I had the manual, because otherwise I think getting this thing apart is not quite so easy.
 
 Here are some after-disassembly-pics:  
 <img width="60%" src="/assets/images/2008/10/IMG_4556-sm.jpg" alt="Disassembled mess" />  
 <img width="60%" src="/assets/images/2008/10/IMG_4559-sm.jpg" alt="Disassembled mess, part two" /> 
 
-And here, the battery&#8230;  
+And here, the battery...  
 <img width="60%" src="/assets/images/2008/10/IMG_4558-sm.jpg" alt="The elusive battery" /> 
 
-which ofcourse had to be of another type than the five we have in the house, so now I have to wait with the reassembly until tomorrow after I get the friggin&#8217; battery! <deity>-damnit! Couldn&#8217;t they stick to the standard CR2032!?
+which ofcourse had to be of another type than the five we have in the house, so now I have to wait with the reassembly until tomorrow after I get the friggin' battery! <deity>-damnit! Couldn't they stick to the standard CR2032!?
 
 \*growl\*  
 </deity>

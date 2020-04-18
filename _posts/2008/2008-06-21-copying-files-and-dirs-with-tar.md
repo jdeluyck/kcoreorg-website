@@ -14,7 +14,7 @@ tags:
   - permissions
   - tar
 ---
-If you want to copy a bunch of files from one spot to another, but preserve links/permissions/ownership/&#8230;, it&#8217;s usually a big hassle.
+If you want to copy a bunch of files from one spot to another, but preserve links/permissions/ownership/..., it's usually a big hassle.
 
 With <a href="http://en.wikipedia.org/wiki/Tar_(file_format)" target="_blank">tar</a>, you can make this hassle disappear!
 
@@ -24,8 +24,8 @@ To copy all of the files and subdirectories in the current working directory to 
 
 `tar cf - * | ( cd /destination; tar xfp -)`
 
-The first part of the command &#8211; tar &#8211; makes a tarball of all the files, and writes this to stdout. The second part of the command part will first change directory, and then extract the tarball in that location, reading from it&#8217;s stdin. 
+The first part of the command - tar - makes a tarball of all the files, and writes this to stdout. The second part of the command part will first change directory, and then extract the tarball in that location, reading from it's stdin. 
 
 Since the cd and tar commands are contained within parentheses, their actions are performed together. 
 
-The _p_ option in the tar command instructs tar to preserve the permission and ownership information, if possible. So if you want to move a lot of files around, it&#8217;s advisable to do so with the root user to keep all them permissions!
+The _p_ option in the tar command instructs tar to preserve the permission and ownership information, if possible. So if you want to move a lot of files around, it's advisable to do so with the root user to keep all them permissions!

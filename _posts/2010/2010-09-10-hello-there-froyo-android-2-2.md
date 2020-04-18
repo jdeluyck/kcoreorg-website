@@ -17,17 +17,17 @@ tags:
   - htc hero
   - xda
 ---
-Google released Android 2.2 &#8211; codename Froyo (for <a href="http://en.wikipedia.org/wiki/Frozen_yogurt" target="_blank">Frozen Yoghurt</a>), giving Android users a nice speedboost.
+Google released Android 2.2 - codename Froyo (for <a href="http://en.wikipedia.org/wiki/Frozen_yogurt" target="_blank">Frozen Yoghurt</a>), giving Android users a nice speedboost.
 
-Unfortunately, HTC decided they&#8217;re not going to release Froyo for the trusty old HTC Hero. And since I have one of those, I&#8217;m basically screwed.
+Unfortunately, HTC decided they're not going to release Froyo for the trusty old HTC Hero. And since I have one of those, I'm basically screwed.
 
-Luckely, Google also releases the source code of Android, known as the <a href="http://source.android.com/" target="_blank">Android Open Source Project</a> (AOSP in short). And the fine folk at <a href="http://www.cyanogenmod.com/" target="_blank">CyanogenMod</a> and <a href="http://www.villainrom.co.uk" target="_blank">VillainROM</a> took that source and baked it into something that works on our Hero&#8217;s: <a href="http://www.villainrom.co.uk/forum/showthread.php?2358-FroydVillain-1.5.0-quot-So-fast-it-waits-for-YOU-to-boot" target="_blank">FroydVillain (1.5)</a>. A damn fast, optimized for the Hero ROM.
+Luckely, Google also releases the source code of Android, known as the <a href="http://source.android.com/" target="_blank">Android Open Source Project</a> (AOSP in short). And the fine folk at <a href="http://www.cyanogenmod.com/" target="_blank">CyanogenMod</a> and <a href="http://www.villainrom.co.uk" target="_blank">VillainROM</a> took that source and baked it into something that works on our Hero's: <a href="http://www.villainrom.co.uk/forum/showthread.php?2358-FroydVillain-1.5.0-quot-So-fast-it-waits-for-YOU-to-boot" target="_blank">FroydVillain (1.5)</a>. A damn fast, optimized for the Hero ROM.
 
-The downside? This is a naked Android ROM, so no <a href="http://en.wikipedia.org/wiki/HTC_Sense" target="_blank">HTC Sense</a> goodies. There are plenty of replacements in the Android Market though, like <a href="http://www.launcherpro.com" target="_blank">LauncherPro (Plus)</a> with it&#8217;s new widgets, <a href="http://home.dolphin-browser.com/tunny/Home.htm" target="_blank">Dolphin HD</a> browser, and many more.
+The downside? This is a naked Android ROM, so no <a href="http://en.wikipedia.org/wiki/HTC_Sense" target="_blank">HTC Sense</a> goodies. There are plenty of replacements in the Android Market though, like <a href="http://www.launcherpro.com" target="_blank">LauncherPro (Plus)</a> with it's new widgets, <a href="http://home.dolphin-browser.com/tunny/Home.htm" target="_blank">Dolphin HD</a> browser, and many more.
 
 <center>
   <img src="/assets/images/2010/09/thumb_550_froyo-statue.jpeg" alt="Android statues at Googleplex" />
 </center>
 
   
-I&#8217;ve been running it since and I&#8217;m very happy with it!
+I've been running it since and I'm very happy with it!

@@ -23,4 +23,4 @@ Also known as Horoscope.. :p
   </tr>
 </table>
 
-(Shamelessly ripped from <a href="http://sade.sadevil.org/blog/?p=124" target="_blank">Sade&#8217;s blog</a>&#8230;)
+(Shamelessly ripped from <a href="http://sade.sadevil.org/blog/?p=124" target="_blank">Sade's blog</a>...)

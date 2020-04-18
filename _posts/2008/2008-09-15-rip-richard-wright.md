@@ -17,7 +17,7 @@ format: video
 ---
 Today <a href="http://en.wikipedia.org/wiki/Richard_Wright_(musician)" target="_blank">Richard Wright</a>, the great self-thaught pianist/keyboardist of <a href="http://www.pinkfloyd.com/" target="_blank">Pink Floyd</a>, passed away, aged 65.
 
-If you don&#8217;t know him, read up on <a href="http://en.wikipedia.org/" target="_blank">Wikipedia</a> about this great musiscian.
+If you don't know him, read up on <a href="http://en.wikipedia.org/" target="_blank">Wikipedia</a> about this great musiscian.
 
 A tribute:
 

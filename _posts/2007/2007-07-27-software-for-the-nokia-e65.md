@@ -13,7 +13,7 @@ tags:
   - software
 format: link
 ---
-After owning my Nokia E65 for about a month, here&#8217;s the list of apps I installed on it:
+After owning my Nokia E65 for about a month, here's the list of apps I installed on it:
 
   * <a href="http://www.nokia.com/A4568203" target="_blank">Conversation</a>
   * <a href="http://www.nokia.com/A4596393" target="_blank">Device Status</a>

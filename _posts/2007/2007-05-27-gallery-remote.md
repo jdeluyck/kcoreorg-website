@@ -14,7 +14,7 @@ tags:
   - Linux / unix
   - sid
 ---
-I was trying to get <a HREF="http://gallery.menalto.com/wiki/Gallery_Remote" TARGET="_blank">GalleryRemote</a> installed today on my Linux installation (because for obscure reasons, using the java applet in gallery directly crashes my browsers), which wouldn&#8217;t run. Attempting to run the installer gave obscure errors like:  
+I was trying to get <a HREF="http://gallery.menalto.com/wiki/Gallery_Remote" TARGET="_blank">GalleryRemote</a> installed today on my Linux installation (because for obscure reasons, using the java applet in gallery directly crashes my browsers), which wouldn't run. Attempting to run the installer gave obscure errors like:  
 `<br />
 awk: error while loading shared libraries: libm.so.6: cannot open shared object file: No such file or directory<br />
 dirname: error while loading shared libraries: libc.so.6: cannot open shared object file: No such file or directory<br />

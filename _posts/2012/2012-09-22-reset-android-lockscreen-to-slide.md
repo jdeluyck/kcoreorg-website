@@ -14,9 +14,9 @@ tags:
   - lockscreen
   - pin
 ---
-You&#8217;ve just reconfigured the security lockscreen settings on your (rooted) android phone, and then forgotten eg. the PIN code to unlock it? It happened to me yesterday.
+You've just reconfigured the security lockscreen settings on your (rooted) android phone, and then forgotten eg. the PIN code to unlock it? It happened to me yesterday.
 
-Luckely(?) there&#8217;s an easy way around it, if you have adb activated:
+Luckely(?) there's an easy way around it, if you have adb activated:
 
 Connect your phone to your computer, and do this:
 
@@ -27,4 +27,4 @@ reboot`
 
 This will basically delete the lockscreen settings database, which will make it revert to the default setting (slide to unlock).
 
-This does mean that if you have adb enabled by default on your phone, the lockscreen is defeated very easily. So don&#8217;t depend on it with your life.
+This does mean that if you have adb enabled by default on your phone, the lockscreen is defeated very easily. So don't depend on it with your life.

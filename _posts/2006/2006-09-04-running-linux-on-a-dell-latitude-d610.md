@@ -18,11 +18,11 @@ This page documents my attempts (and successes!) to get Linux fully working on a
 
 NOTE: The information contained herein assumes that you know how to work from the commandline, patch kernels and compile programs.
 
-**DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that&#8217;s \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
+**DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that's \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
 
 ## Update notes
 
-I no longer have access to the Dell Latitude D610 laptop since I changed work, so I can no longer update this page. I&#8217;ll keep it up as a reference.
+I no longer have access to the Dell Latitude D610 laptop since I changed work, so I can no longer update this page. I'll keep it up as a reference.
 
 ## Technical Specifications
 
@@ -30,8 +30,8 @@ Intel Pentium M processor (1024KB L2 Cache), supports Enhanced Intel SpeedStep
 Intel PRO/Wireless 2915AB network connection  
 Intel 915 chipset  
 Standard 512MB DDR SDRAM, upgradeable to max. 2048MB  
-Toshiba MK8026GA &#8211; 80GB Ultra ATA/100 HDD  
-14.0&#8243; SXGA+ TFT colour LCD, 1400&#215;1050, 16.7M colours  
+Toshiba MK8026GA - 80GB Ultra ATA/100 HDD  
+14.0" SXGA+ TFT colour LCD, 1400x1050, 16.7M colours  
 Intel 915 video chip, up to 128mb shared memory  
 SoundBlaster-Pro and MS DirectSound compatible  
 10/100/1000Mbps Fast Ethernet; Wake-on-LAN ready  
@@ -61,12 +61,12 @@ Integrated Bluetooth
 0000:03:03.0 Network controller: Intel Corporation PRO/Wireless 2915ABG MiniPCI Adapter (rev 05)
 ```
 
-Here&#8217;s a <a href="/assets/files/2006/09/dell-d610-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
+Here's a <a href="/assets/files/2006/09/dell-d610-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
 
 ### Linux 2.6.x kernel
 
 The latest 2.6 kernel is: <a href="https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz" target="_blank">2.6.39.4</a>.  
-Here&#8217;s my <a href="/assets/files/2006/09/dell-d610-config-2.6.txt" target="_blank" rel="external">2.6.15.6 kernel configuration</a>.
+Here's my <a href="/assets/files/2006/09/dell-d610-config-2.6.txt" target="_blank" rel="external">2.6.15.6 kernel configuration</a>.
 
 ### USB
 
@@ -82,7 +82,7 @@ USB worked out of the box by loading the following modules:
 
 It is advisable to install <a href="http://linux-hotplug.sourceforge.net/" target="_blank" rel="external">the hotplug system</a> so the necessary modules are loaded upon plugging. For Debian, install the <a href="http://packages.debian.org/hotplug" target="_blank" rel="external"><code>hotplug</code></a> package.
 
-These days you&#8217;re actually better of installing the <a href="http://packages.debian.org/udev" target="_blank" rel="external"><code>udev</code></a> package, which also handles hotplug.
+These days you're actually better of installing the <a href="http://packages.debian.org/udev" target="_blank" rel="external"><code>udev</code></a> package, which also handles hotplug.
 
 ### 10/100/1000 MBit ethernet LAN
 
@@ -92,7 +92,7 @@ Lan also worked out of the box, using the `tg3` module.
 
 ### Soundcard
 
-Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC&#8217;97 Audio Controller
+Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Audio Controller
 
 What can I say? It worked perfectly with the ALSA module called `snd_intel8x0` module.
 
@@ -133,11 +133,11 @@ The screen section looks like this:
 		EndSection
 ```
 
-To get the 1400&#215;1050 resolution working, you have to patch the video bios. There&#8217;s a utility for that called <a href="http://www.geocities.com/stomljen/" target="_blank" rel="external">915resolution</a>.  
+To get the 1400x1050 resolution working, you have to patch the video bios. There's a utility for that called <a href="http://www.geocities.com/stomljen/" target="_blank" rel="external">915resolution</a>.  
 (for debian install the <a href="http://packages.debian.org/915resolution" target="_blank" rel="external"><code>915resolution</code></a> package). The command to run at every bootup is `915resolution 3c 1400 1050`.  
 After this, X will accept the resolution.
 
-Here&#8217;s my <a href="/assets/files/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
+Here's my <a href="/assets/files/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
 
 ### TV Out
 
@@ -145,7 +145,7 @@ This is rumored to work with the standard `i810` X.Org driver. Not tested.
 
 ### Modem
 
-Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC&#8217;97 Modem Controller &#8211; Winmodem.
+Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Modem Controller - Winmodem.
 
 This modem can be gotten to work using the <a href="http://www.linuxant.com/" target="_blank" rel="external">Linuxant</a> <a href="http://www.linuxant.com/drivers/hsf/index.php" target="_blank" rel="external">HSF Softmodem drivers</a>. Unfortunately, they are payware.  
 They also have a limited-speed test driver, you can see if that works for you before deciding to buy the driver.
@@ -162,7 +162,7 @@ You can use `/dev/scd0` (the cdrom device) directly for cd burning.
 
 ### BlueTooth
 
-Hardeware: Dell Wireless 350 Bluetooth &#8211; connected to the USB bus.
+Hardeware: Dell Wireless 350 Bluetooth - connected to the USB bus.
 
 Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install <a href="http://linux-hotplug.sourceforge.net/" target="_blank" rel="external">hotplug</a> the driver will be loaded automatically if you press the bluetooth button!
 
@@ -172,7 +172,7 @@ Debian users might want to install the <a href="http://packages.debian.org/bueto
 
 Hardware: Toshiba MK8026GA
 
-I&#8217;m not sure if this drive is a SATA or a PATA drive, but it&#8217;s behind the SATA bus. As such, you need to activate the SCSI SATA driver ata_piix.
+I'm not sure if this drive is a SATA or a PATA drive, but it's behind the SATA bus. As such, you need to activate the SCSI SATA driver ata_piix.
 
 DMA is automagically enabled. I use `hdparm` to set an extra parameter: `hdparm -F /dev/sda`
 
@@ -184,7 +184,7 @@ For Debian; check the <a href="http://packages.debian.org/hdparm" target="_blank
 
 ### Speedstep
 
-You need this if you don&#8217;t want your CPU to eat your batteries empty. It&#8217;s included in the kernel config.
+You need this if you don't want your CPU to eat your batteries empty. It's included in the kernel config.
 
 It works perfectly after loading the `speedstep-centrino` and any of the `cpufreq-` modules.
 
@@ -226,7 +226,7 @@ Works with the FIR `smsc-ircc2` module.
 
 To get the `smsc-ircc2` module, you need to enable `ISA Support` in the `Bus Options` menu.
 
-Here&#8217;s what you need to do:
+Here's what you need to do:
 
   1. Enable the port in the BIOS, and assign it to e.g. COM2
   2. Disable the tty port in linux: `setserial /dev/ttyS1 uart none`
@@ -237,7 +237,7 @@ For Debian, I advise the <a href="http://packages.debian.org/irda-utils" target
 
 ### Multimedia Keys
 
-This laptop has several &#8216;function&#8217; and &#8216;multimedia&#8217; keys, which are not mapped by the bios but generate scancodes.  
+This laptop has several 'function' and 'multimedia' keys, which are not mapped by the bios but generate scancodes.  
 These include:
 
   * Volume up (`Fn-PgUp`)
@@ -247,7 +247,7 @@ These include:
   * Battery (`Fn-F3`)
   * Eject CD (`Fn-F10`)
 
-Normally the Mute, Eject CD, Battery and Hibernate buttons don&#8217;t generate key-up events, causing the, to &#8216;hang&#8217;. You can solve that problem by using <a href="/assets/files/2006/09/dell-d610-d610-fnkeys-fix.patch_.txt" target="_blank" rel="external">this</a> kernel patch. (apply it by using `cat d610-fnkeys-fix.patch | patch -p1` in the kernel sourcedir)
+Normally the Mute, Eject CD, Battery and Hibernate buttons don't generate key-up events, causing the, to 'hang'. You can solve that problem by using <a href="/assets/files/2006/09/dell-d610-d610-fnkeys-fix.patch_.txt" target="_blank" rel="external">this</a> kernel patch. (apply it by using `cat d610-fnkeys-fix.patch | patch -p1` in the kernel sourcedir)
 
 The last three keys generate scancodes, but no keycodes by default. To fix this, you can map them using `setkeycodes`. You can also use <a href="/assets/files/2006/09/dell-d610-d610init.txt" target="_blank" rel="external">this init.d script</a>.
 
@@ -264,7 +264,7 @@ Not yet tried.
 
 ### Suspend to RAM
 
-This works pretty well &#8211; there are some caveats to take note off tho:
+This works pretty well - there are some caveats to take note off tho:
 
 <a href="http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux" target="_blank" rel="external">This site</a> has some hints with respect to the SATA side of suspending.
 

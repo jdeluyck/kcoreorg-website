@@ -13,8 +13,8 @@ tags:
   - game
   - second life
 ---
-After all the hipe that&#8217;s being created around the virtual online game <a href="http://www.secondlife.com" target="_Blank">Second Life</a>, I decided to give it a quick spin. Quick being very quick here, since after around 30 minutes I bailed out and deleted the game. 
+After all the hipe that's being created around the virtual online game <a href="http://www.secondlife.com" target="_Blank">Second Life</a>, I decided to give it a quick spin. Quick being very quick here, since after around 30 minutes I bailed out and deleted the game. 
 
-The interface is rather unintuitive, and the graphics aren&#8217;t what I&#8217;d call up to spec with the current grade of MMORPG&#8217;s. It&#8217;s probably me :p
+The interface is rather unintuitive, and the graphics aren't what I'd call up to spec with the current grade of MMORPG's. It's probably me :p
 
-I&#8217;ll stick with Guildwars and the like ;)
+I'll stick with Guildwars and the like ;)
