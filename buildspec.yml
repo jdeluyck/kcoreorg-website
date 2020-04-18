@@ -9,7 +9,7 @@ phases:
       - bundle install
   build:
     commands:
-      - JEKYLL_ENV=production bundle exec jekyll build
+      - JEKYLL_ENV=production bundle exec jekyll build 2>&1 | grep -E -v 'deprecated'
       - aws s3 sync --delete _site/ s3://kcore-org-website-730189087308
 artifacts:
   base-directory: '_site'
