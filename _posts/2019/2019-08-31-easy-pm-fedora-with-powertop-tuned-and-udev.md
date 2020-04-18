@@ -17,11 +17,11 @@ A simple trick to get Linux to switch between [tuned](https://tuned-project.org/
 The tuned profile is created using a tool called `powertop2tuned`, which (on Fedora) is part of the `tuned-utils` package.
 
 Creating a new profile based on what `powertop` thinks should be set on your device is easy as running
-```
+```bash
 # powertop2tuned /etc/tuned/powersave-laptop
 ```
 This will create a new directory with a `tuned.conf` file, with the parameters that you can set. I activated most of them for my XPS13, and based the profile off the default powersave profile (which you set with the `include` line). The final config looks like this:
-```
+```editorconfig
 [main]
 include=powersave
 
@@ -102,13 +102,13 @@ no_turbo=1
 ( Further tweaks of the profile are left as an exercise to the reader, but there's plenty of info to be found using your favourite search engine.)
 
 Now, to automatically trigger the profile, you can add the necessary rules to udev in the file `/etc/udev/rules.d/10-power.rules`:
-```
+```bash
 SUBSYSTEM=="power_supply", ATTR{online}=="0", RUN+="/usr/sbin/tuned-adm profile powersave-laptop"
 SUBSYSTEM=="power_supply", ATTR{online}=="1", RUN+="/usr/sbin/tuned-adm profile balanced"
 ```
 
 Reload udev with the command 
-```
+```bash
 # udevadm control --reload-rules && udevadm trigger
 ``` 
 and from then onwards, when you plug and unplug your power supply, It'll switch between the powersave and the balanced profiles.
