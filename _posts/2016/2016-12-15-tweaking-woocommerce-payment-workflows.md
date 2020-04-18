@@ -33,7 +33,8 @@ We'd rather have it go straight to _processing_, and have that mail contain the
 
 After some testing, I came up with two solutions: One very hacky, and not maintainable, the other better. Both solutions need to be inserted in your theme's `functions.php` file.
 
-<pre>/* override gateway for BACS */
+```php
+/* override gateway for BACS */
 function my_core_gateways($methods) {
   foreach ($methods as &$method) {
     if($method == 'WC_Gateway_BACS') {
@@ -80,12 +81,11 @@ class WC_Gateway_BACS_custom extends WC_Gateway_BACS {
     );
   }
 }
-
-</pre>
+```
 
 I have several reservations with the code above: it's basically shamelessly copying and overloading the two functions of the parent class, and calling a private function which is internal to the parent class - both of which might cause trouble if there are big changes in WooCommerce. It works, but well, it's .. ugly. So, I looked for a better way to tackle this.
 
-<pre>sadfasdfasdf
+```php
 add_action( 'woocommerce_email_before_order_table', 'add_order_email_instructions', 10, 2 );
 add_action( 'woocommerce_thankyou', 'bacs_order_payment_processing_order_status', 10, 1 );
 
@@ -114,6 +114,7 @@ function add_order_email_instructions( $order, $sent_to_admin ) {
     $result = $method-&gt;invoke($gw, $order-&gt;id);
   }
 }
-</pre>
+```
 
-Still not as clean as I'd like, as we're still invoking an internal function, but atleast we're using the proper hooks to tweak WooCommerce. I'll update if I ever find a better way to get to the bank details.
+Still not as clean as I'd like, as we're still invoking an internal function, but atleast we're using the proper hooks 
+to tweak WooCommerce. I'll update if I ever find a better way to get to the bank details.

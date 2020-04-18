@@ -20,32 +20,33 @@ Downloaded, installed, configuration didn't work for the vsock module. Actually,
 
 (note: very bad wordwrapping here, download the file below and use that!)
 
-<pre>--- /usr/bin/vmware-config.pl.orig 2008-11-28 12:06:35.641054086 +0100
-+++ /usr/bin/vmware-config.pl 2008-11-28 12:30:38.593304082 +0100
+```diff
+--- /usr/bin/vmware-config.pl.orig	2008-11-28 12:06:35.641054086 +0100
++++ /usr/bin/vmware-config.pl	2008-11-28 12:30:38.593304082 +0100
 @@ -4121,6 +4121,11 @@
-return 'no';
-}
-
-+ if ($name eq 'vsock') {
-+ print wrap("VMWare config patch VSOCK!\n");
-+ system(shell_string($gHelper{'mv'}) . ' -vi ' . shell_string($build_dir . '/../Module.symvers') . ' ' . shell_string($build_dir . '/vsock-only/' ));
-+ }
+     return 'no';
+   }
+ 
++  if ($name eq 'vsock') {
++    print wrap("VMWare config patch VSOCK!\n");
++    system(shell_string($gHelper{'mv'}) . ' -vi ' . shell_string($build_dir . '/../Module.symvers') . ' ' . shell_string($build_dir . '/vsock-only/' ));
++  }
 +
-print wrap('Building the ' . $name . ' module.' . "\n\n", 0);
-if (system(shell_string($gHelper{'make'}) . ' -C '
-. shell_string($build_dir . '/' . $name . '-only')
+   print wrap('Building the ' . $name . ' module.' . "\n\n", 0);
+   if (system(shell_string($gHelper{'make'}) . ' -C '
+              . shell_string($build_dir . '/' . $name . '-only')
 @@ -4143,6 +4148,10 @@
-if (try_module($name, $build_dir . '/' . $name . '.o', 0, 1)) {
-print wrap('The ' . $name . ' module loads perfectly into the running kernel.'
-. "\n\n", 0);
-+ if ($name eq 'vmci') {
-+ print wrap("VMWare config patch VMCI!\n");
-+ system(shell_string($gHelper{'cp'}) . ' -vi ' . shell_string($build_dir.'/vmci-only/Module.symvers') . ' ' . shell_string($build_dir . '/../'));
-+ }
-remove_tmp_dir($build_dir);
-return 'yes';
-}
-</pre>
+     if (try_module($name, $build_dir . '/' . $name . '.o', 0, 1)) {
+       print wrap('The ' . $name . ' module loads perfectly into the running kernel.'
+                  . "\n\n", 0);
++      if ($name eq 'vmci') {
++	print wrap("VMWare config patch VMCI!\n");
++	system(shell_string($gHelper{'cp'}) . ' -vi ' . shell_string($build_dir.'/vmci-only/Module.symvers') . ' ' . shell_string($build_dir . '/../'));
++      } 
+       remove_tmp_dir($build_dir);
+       return 'yes';
+     }
+```
 
 To use it, download [vmware-configplpatch.txt](/assets/files/2008/12/vmware-configplpatch.txt), and run  
 `cat vmware-configplpatch.txt | patch -p0`, and rerun the VMWare configuration script.

@@ -35,88 +35,13 @@ So, to get this configured...
 
   * Under "Network" - "Wifi", create a new SSID for the guests. You'll want to name it the same on both devices. Configure whatever wireless security you want to use.
   * Redefine the switch configuration, under "Network" - "Switch". Decide on one port on your device you will want to use to carry all the traffic between the two devices. Let's say you picked port 1 to be your VLAN trunk port.  
-    _(I am overly simplifying the switch layout, make sure you know how your switch layout looks before reconfiguring your device!)  
-_  
-    Create a new VLAN (here nr. 3), and configure them as:</p> 
-    <table>
-      <tr>
-        <td>
-          <strong>Vlan</strong>
-        </td>
-        
-        <td>
-          <strong>Port 1</strong>
-        </td>
-        
-        <td>
-          <strong>Port 2</strong>
-        </td>
-        
-        <td>
-          <strong>Port 3</strong>
-        </td>
-        
-        <td>
-          <strong>Port 4</strong>
-        </td>
-        
-        <td>
-          <strong>CPU</strong>
-        </td>
-      </tr>
-      
-      <tr>
-        <td>
-          1
-        </td>
-        
-        <td>
-          Tagged
-        </td>
-        
-        <td>
-          Untagged
-        </td>
-        
-        <td>
-          Untagged
-        </td>
-        
-        <td>
-          Untagged
-        </td>
-        
-        <td>
-          Tagged
-        </td>
-      </tr>
-      
-      <tr>
-        <td>
-          3
-        </td>
-        
-        <td>
-          Tagged
-        </td>
-        
-        <td>
-          Off
-        </td>
-        
-        <td>
-          Off
-        </td>
-        
-        <td>
-          Off
-        </td>
-        
-        <td>
-          Tagged
-        </td>
-      </tr>
-    </table>
+    _(I am overly simplifying the switch layout, make sure you know how your switch layout looks before reconfiguring your device!)_  
+    Create a new VLAN (here nr. 3), and configure them as:
+    
+    | Vlan | Port 1 | Port 2   | Port 3   | Port 4   | CPU    |
+    | ---- | ------ | -------- | -------- | -------- | ------ |
+    | 1    | Tagged | Untagged | Untagged | Untagged | Tagged | 
+    | 3    | Off    | Off      | Off      | Off      | Tagged | 
 
   * Under "Network" - "Interfaces" define a new network for your guest traffic. Configure it with a static IP in the range you want to use, and switch off DHCP here. We'll be using the server on the primary router.  
     Under "Physical Settings", select "create a bridge" and check the created VLAN for Guests (here 2) and the Wireless network.  
@@ -132,17 +57,20 @@ _
       * DNS: allow TCP/UDP from the guest zone to the device on port 53
       * DHCP: allow UDP traffic on port 67-68 from the guest zone to the device.
 
-After rebooting both devices, your trunk \*should\* be up and running. Normal traffic should be tagged with VLAN 1, your guest traffic with VLAN 3.
+After rebooting both devices, your trunk *should* be up and running. Normal traffic should be tagged with VLAN 1, your guest traffic with VLAN 3.
 
 You can view the incoming vlan tags on the device (eth0, eth1, _not_ the bridge!) using tcpdump:
 
-<pre># tcpdump -enni [dev]</pre>
+```
+# tcpdump -enni [dev]
+```
 
 My configuration ended up being:
 
 **Primary router:**
 
-<pre>config interface 'lan'
+```
+config interface 'lan'
  option ifname 'eth1.1'
  option force_link '1'
  option type 'bridge'
@@ -187,11 +115,13 @@ config interface 'wan'
  option ifname 'eth0.2' 
  option proto 'dhcp' 
  option peerdns '0' 
- option dns 'xx.yy.zz.11 xx.yy.zz.22'</pre>
+ option dns 'xx.yy.zz.11 xx.yy.zz.22'
+```
 
 **Secondary router:**
 
-<pre>config interface 'lan'
+```
+config interface 'lan'
  option force_link '1'
  option type 'bridge'
  option proto 'static'
@@ -224,7 +154,8 @@ config interface 'guest'
  option ifname 'eth0.3'
  option ipaddr 'xx.xx.yy.2'
  option netmask '255.255.255.0'
- option type 'bridge'</pre>
+ option type 'bridge'
+```
 
 Source information:
 

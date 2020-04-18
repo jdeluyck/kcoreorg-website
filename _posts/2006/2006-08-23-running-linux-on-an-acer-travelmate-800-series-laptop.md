@@ -47,7 +47,8 @@ Integrated Bluetooth
 
 # PCI Specs
 
-<pre>0000:00:00.0 Host bridge: Intel Corporation 82855PM Processor to I/O Controller (rev 03)
+```
+0000:00:00.0 Host bridge: Intel Corporation 82855PM Processor to I/O Controller (rev 03)
 0000:00:01.0 PCI bridge: Intel Corporation 82855PM Processor to AGP Controller (rev 03)
 0000:00:1d.0 USB Controller: Intel Corporation 82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) USB UHCI Controller #1 (rev 03)
 0000:00:1d.1 USB Controller: Intel Corporation 82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) USB UHCI Controller #2 (rev 03)
@@ -66,7 +67,7 @@ Integrated Bluetooth
 0000:02:06.1 CardBus bridge: O2 Micro, Inc. OZ711M1/MC1 4-in-1 MemoryCardBus Controller (rev 20)
 0000:02:06.2 System peripheral: O2 Micro, Inc. OZ711Mx 4-in-1 MemoryCardBus Accelerator
 0000:02:07.0 FireWire (IEEE 1394): Texas Instruments TSB43AB21 IEEE-1394a-2000 Controller (PHY/Link)
-</pre>
+```
 
 Here's a <a href="/assets/files/2016/11/pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
 
@@ -122,16 +123,18 @@ Make sure you're using \_atleast\_ XFree86 4.3, or X.Org 6.8! Earlier releases d
 
 To make it working just set your video driver to `radeon`:
 
-<pre>Section "Device"
+```
+Section "Device"
 			Identifier	"Generic Video Card"
 			Driver		"radeon"
 			Option		"AGPMode"  "4"
-		EndSection
-</pre>
+EndSection
+```
 
 The screen section looks like this:
 
-<pre>Section "Screen"
+```
+Section "Screen"
 			Identifier	"Default Screen"
 			Device		"Generic Video Card"
 			Monitor		"Generic Monitor"
@@ -140,8 +143,8 @@ The screen section looks like this:
 				Depth		24
 				Modes		"1400x1050" "1024x768"
 			EndSubSection
-		EndSection
-</pre>
+EndSection
+```
 
 An alternative driver is <a href="http://www.ati.com/" target="_blank" rel="external">ATI</a>'s <a href="https://support.ati.com/ics/support/default.asp?deptID=894" target="_blank" rel="external">FireGL</a> driver.  
 Debian users can look <a href="http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html" target="_blank" rel="external">here</a> for downloading and building the package.
@@ -274,27 +277,26 @@ Now you should be able to connect e.g. a palmpilot on `/dev/ircomm0`. Atleast, i
 **UPDATE:** Johannes Zellner has informed me that this laptop can indeed do SIR, but you need to limit the baud speed.  
 I haven't tested this myself, email follows:
 
-<pre>You CAN get SIR on the irda chip and in fact you have to operate in SIR
-mode for example if you want to connect (like me) to your gprs handy to
-use it as a modem. The trick is to limit the baud speed:
-(something like /etc/modules.conf):
-
-# &lt;snip&gt;
-	alias tty-ldisc-11 irtty
-	alias char-major-161 ircomm-tty
-
-	# see also http://www.cl.cam.ac.uk/Research/SRG/netos/coms/unix.html
-	#
-	options nsc-ircc irq=3 dma=3 io=0x2f8 dongle_id=0x09
-	alias irda0 nsc-ircc
-	pre-install nsc-ircc setserial /dev/ttyS1 port 0 irq 0
-
-	# limit max baud rate to 115200 to avoid MIR/FIR bug.
-	# !! This has to be done BEFORE doing 'irattach irda0 -s' !!
-	#
-	post-install nsc-ircc echo 115200 &gt; /proc/sys/net/irda/max_baud_rate
-# &lt;/snip&gt;
-</pre>
+> You CAN get SIR on the irda chip and in fact you have to operate in SIR
+> mode for example if you want to connect (like me) to your gprs handy to
+> use it as a modem. The trick is to limit the baud speed:
+> (something like /etc/modules.conf):
+> 
+> # <snip>
+> 	alias tty-ldisc-11 irtty
+> 	alias char-major-161 ircomm-tty
+> 
+> 	# see also http://www.cl.cam.ac.uk/Research/SRG/netos/coms/unix.html
+> 	#
+> 	options nsc-ircc irq=3 dma=3 io=0x2f8 dongle_id=0x09
+> 	alias irda0 nsc-ircc
+> 	pre-install nsc-ircc setserial /dev/ttyS1 port 0 irq 0
+> 
+> 	# limit max baud rate to 115200 to avoid MIR/FIR bug.
+> 	# !! This has to be done BEFORE doing 'irattach irda0 -s' !!
+> 	#
+> 	post-install nsc-ircc echo 115200 > /proc/sys/net/irda/max_baud_rate
+> # </snip>
 
 For Debian, I advise the <a href="http://packages.debian.org/irda-utils" target="_blank" rel="external"><code>irda-utils</code></a> package.
 
@@ -333,7 +335,8 @@ I use the following <a href="http://www.kcore.org/sections/linux/linux_on_acer_t
 This is a Synaptics touchpad. You can use it with <a href="http://w1.894.telia.com/~u89404340/touchpad/" target="_blank" rel="external">this driver</a>.  
 Extract from the `INSTALL` file:
 
-<pre>1. Copy the driver-module "synaptics_drv.o" into the XFree-module path
+```
+1. Copy the driver-module "synaptics_drv.o" into the XFree-module path
 "ex. /usr/X11R6/lib/modules/input/".
 
 2. Load the driver by changig the XFree configuration file through
@@ -370,7 +373,7 @@ Section "ServerLayout"
 ...
 InputDevice "Mouse[1]"  "CorePointer"
 ...
-</pre>
+```
 
 Here's my <a href="/assets/files/2016/11/acer-xf86config-4.txt" target="_blank" rel="external">complete <code>XF86Config-4</code> file</a>
 

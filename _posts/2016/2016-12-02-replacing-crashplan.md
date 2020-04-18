@@ -39,9 +39,10 @@ Using an intermediate USB harddisk is not ideal, but it gives me yet another cop
 
 To give you an idea about the compression and deduplication statistics:
 
-<pre>Original size      Compressed size    Deduplicated size
-All archives:                1.10 TB              1.07 TB            446.63 GB
-</pre>
+| | Original size | Compressed size | Deduplicated size |
+| --- | --- | --- | --- |
+| All archives: | 1.10 TB | 1.07 TB | 446.63 GB | 
+
 
 1.10TB is compressed to 1.07TB, and this results in an archive if 446GB. Less than half ;)
 

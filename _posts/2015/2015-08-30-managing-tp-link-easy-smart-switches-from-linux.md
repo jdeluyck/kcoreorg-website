@@ -32,25 +32,32 @@ To run it, you'll also need the <a href="https://www.java.com/en/download/" targ
 Unfortunately, it doesn't work out of the box. The tool doesn't find any devices on the network, but they are there.  
 Checking with netstat, the tool bound itself on UDP port 29809, on the local ip address.
 
-<pre>$ PID=$(pgrep -f "java -jar Easy Smart Configuration Utility.jar"); netstat -lnput | grep -e Proto -e $PID
+```bash
+$ PID=$(pgrep -f "java -jar Easy Smart Configuration Utility.jar"); netstat -lnput | grep -e Proto -e $PID
 
 Proto  Recv-Q  Send-Q  Local Address            Foreign Address  State  PID/Program name 
-udp6   0       0       [your ip address]:29809  :::*                    28529/java</pre>
+udp6   0       0       [your ip address]:29809  :::*                    28529/java
+```
 
 Checking with tcpdump showed that the traffic was returning, but since our tool is only listening on the local ip, and not the UDP broadcast address, it never sees anything.
 
-<pre># tcpdump udp port 29809
+```bash
+# tcpdump udp port 29809
 tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on wlp1s0, link-type EN10MB (Ethernet), capture size 262144 bytes
 09:35:48.652235 IP [your ip address].29809 &gt; 255.255.255.255.29808: UDP, length 36
-09:35:48.961586 IP [switch ip address].29808 &gt; 255.255.255.255.29809: UDP, length 159</pre>
+09:35:48.961586 IP [switch ip address].29808 > 255.255.255.255.29809: UDP, length 159
+```
 
 It seems the tool binds to the local IP instead of the 'any ip', <a href="https://en.wikipedia.org/wiki/0.0.0.0" target="_blank">0.0.0.0</a>, so you need to locally forward the traffic incoming on the port to your local ip. To do this, execute this command (and/or add it to your local firewall script):
 
-<pre># iptables -t nat -A PREROUTING -p udp -d 255.255.255.255 --dport 29809 -j DNAT --to [your ip address]:29809</pre>
-
+```bash
+# iptables -t nat -A PREROUTING -p udp -d 255.255.255.255 --dport 29809 -j DNAT --to [your ip address]:29809
+```
 And don't forget to enable IP forwarding
 
-<pre># echo 1 &gt; /proc/sys/net/ipv4/ip_forward</pre>
+```bash
+# echo 1 > /proc/sys/net/ipv4/ip_forward
+```
 
 Now you should be able to find and configure the switches in your local network.

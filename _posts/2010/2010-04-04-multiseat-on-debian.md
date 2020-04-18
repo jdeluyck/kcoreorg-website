@@ -39,7 +39,7 @@ Notes:
   1. It is advised to use chips that can be driven with the same driver for a multiseat setup!
   2. If you use an onboard chipset (like I do), you'll need to change the boot order so that this chip is actually used as the primary device, otherwise it won't be initialised correctly.
 
-Originally I had the ATI binary driver <a href="http://en.wikipedia.org/wiki/Fglrx" target="_blank">fglrx</a> installed, but this does \_not\_ play well with a multiseat setup. The initialisation of the second card causes the system to hardlock.  
+Originally I had the ATI binary driver <a href="http://en.wikipedia.org/wiki/Fglrx" target="_blank">fglrx</a> installed, but this does _not_ play well with a multiseat setup. The initialisation of the second card causes the system to hardlock.  
 Since this driver doesn't work, I went for the <a href="http://www.x.org/wiki/radeon" target="_blank">xf86-video-ati</a> driver, which is completely opensource, and in combination with a recent <a href="http://www.kernel.org/" target="_blank">kernel</a> allows for <a href="http://en.wikipedia.org/wiki/Mode-setting" target="_blank">kernel mode setting</a>. You do need the firmware for the card, usually found in the firmware-linux packages of your favourite distribution.
 
 So, the works:
@@ -59,132 +59,142 @@ After everything is installed, you need to modify your xorg.conf file.
 
 #### ServerFlags
 
-> <pre>Section "ServerFlags"
-        Option      "DefaultServerLayout" "<font color="#ff6600"><em>seat0</em></font>"
+```
+Section "ServerFlags"
+        Option      "DefaultServerLayout" "seat0"
         Option      "AllowMouseOpenFail"  "true"
         Option      "AutoAddDevices" "false"
-EndSection</pre>
+EndSection
+```
 
 The AutoAddDevices line is important, otherwise we can't map the devices to the right seat.
 
 #### The actual graphic chips/cards:
 
-> <pre>Section "Device"
-        Identifier  "<font color="#ff6600"><em>ATI RadeonHD 4850</em></font>"
+```
+Section "Device"
+        Identifier  "ATI RadeonHD 4850"
         Driver      "ati"
-        BusID       "<b>PCI:2:0:0</b>"
+        BusID       "PCI:2:0:0"
         Option      "Int10" "off"
 EndSection
 
 Section "Device"
-        Identifier   "<font color="#008800"><em>ATI RadeonHD 3200</em></font>"
+        Identifier   "ATI RadeonHD 3200"
         driver       "ati"
-        BusID        "<b>PCI:1:5:0</b>"
+        BusID        "PCI:1:5:0"
         Option       "Int10" "off"
 EndSection
-</pre>
+```
 
 Int10 off is important here, otherwise the second card will fail to initialise.  
 Do not forget to change the PCI identifiers! They probably won't match my setup. You can find them by using `lspci`, for instance on my setup:
 
-> <pre>lspci | grep  "Radeon HD"
+```bash
+lspci | grep  "Radeon HD"
 01:05.0 VGA compatible controller: ATI Technologies Inc Radeon HD 3200 Graphics
 02:00.0 VGA compatible controller: ATI Technologies Inc RV770 [Radeon HD 4850]
-</pre>
+```
 
 So you can see that the HD3200 is on address 1:5 and the HD4580 is on address 2:0.
 
 #### The monitors (nothing fancy)
 
-> <pre>Section "Monitor"
-        Identifier   "<font color="#ff6600"><em>Viewsonic Vx2025wm</em></font>"
+```
+Section "Monitor"
+        Identifier   "Viewsonic Vx2025wm"
         Option      "DPMS"
 EndSection
 
 Section "Monitor"
-        Identifier    "<font color="#008800"><em>LG W2253TW</em></font>"
+        Identifier    "LG W2253TW"
         Option       "DPMS"
 EndSection
-</pre>
+```
 
 #### Screen section (mapping monitors and cards)
 
-> <pre>Section "Screen"
-        Identifier        "<font color="#ff6600"><em>Screen0</em></font>"
-        Device           "ATI RadeonHD 4850"
+```
+Section "Screen"
+        Identifier        "Screen0"
+        Device            "ATI RadeonHD 4850"
         DefaultDepth   24
 EndSection
 
 Section "Screen"
-        Identifier        "<font color="#008800">Screen1</font>"
-        Device           "ATI RadeonHD 3200"
+        Identifier        "Screen1"
+        Device            "ATI RadeonHD 3200"
         DefaultDepth   24
 EndSection
-</pre>
+```
 
 #### Next, the ServerLayout sections, one per seat:
 
-> <pre>Section "ServerLayout"
-        Identifier     "<font color="#ff6600"><em>seat0</em></font>"
-        Screen      0  "<font color="#ff6600"><em>Screen0</em></font>" 0 0
-        InputDevice    "<font color="#ff6600"><em>Mouse0</em></font>" "CorePointer"
-        InputDevice    "<font color="#ff6600"><em>Keyboard0</em></font>" "CoreKeyboard"
+```
+Section "ServerLayout"
+        Identifier     "seat0"
+        Screen      0  "Screen0" 0 0
+        InputDevice    "Mouse0" "CorePointer"
+        InputDevice    "Keyboard0" "CoreKeyboard"
 EndSection
 
 Section "ServerLayout"
-        Identifier     "<font color="#008800"><em>seat1</em></font>"
-        Screen      1  "<font color="#008800"><em>Screen1</em></font>" 0 0
-        InputDevice    "<font color="#008800"><em>Mouse1</em></font>" "CorePointer"
-        InputDevice    "<font color="#008800"><em>Keyboard1</em></font>" "CoreKeyboard"
+        Identifier     "seat1"
+        Screen      1  "Screen1" 0 0
+        InputDevice    "Mouse1" "CorePointer"
+        InputDevice    "Keyboard1" "CoreKeyboard"
 EndSection
-</pre>
+```
 
 #### Next, the input devices:
 
-> <pre>Section "InputDevice"
-    Identifier     "<font color="#ff6600"><em>Keyboard0</em></font>"
+```
+Section "InputDevice"
+    Identifier     "Keyboard0"
     Driver         "evdev"
-    Option         "Device" "<b>/dev/input/by-path/pci-0000:00:12.1-usb-0:3:1.0-event-kbd</b>"
+    Option         "Device" "/dev/input/by-path/pci-0000:00:12.1-usb-0:3:1.0-event-kbd"
     Option         "XkbModel" "pc105"
     Option         "XkbLayout" "us"
     Option         "XkbRules"   "xorg"
 EndSection
 
 Section "InputDevice"
-    Identifier     "<font color="#ff6600"><em>Mouse0</em></font>"
+    Identifier     "Mouse0"
     Driver         "evdev"
     Option         "Protocol" "ExplorerPS/2"
-    Option         "Device" "<b>/dev/input/by-path/pci-0000:00:13.0-usb-0:3:1.0-event-mouse</b>"
+    Option         "Device" "/dev/input/by-path/pci-0000:00:13.0-usb-0:3:1.0-event-mouse"
 EndSection
 
 Section "InputDevice"
-    Identifier     "<font color="#008800"><em>Keyboard1</em></font>"
+    Identifier     "Keyboard1"
     Driver         "evdev"
-    Option         "Device" "<b>/dev/input/by-path/pci-0000:00:12.2-usb-0:3.1:1.0-event-kbd</b>"
+    Option         "Device" "/dev/input/by-path/pci-0000:00:12.2-usb-0:3.1:1.0-event-kbd"
     Option         "XkbModel" "pc105"
     Option         "XkbLayout" "us"
     Option         "XkbRules"   "xorg"
 EndSection
 
 Section "InputDevice"
-    Identifier     "<font color="#008800"><em>Mouse1</em></font>"
+    Identifier     "Mouse1"
     Driver         "evdev"
     Option         "Protocol" "ExplorerPS/2"
-    Option         "Device" "<b>/dev/input/by-path/pci-0000:00:12.2-usb-0:3.2:1.0-event-mouse</b>"
+    Option         "Device" "/dev/input/by-path/pci-0000:00:12.2-usb-0:3.2:1.0-event-mouse"
 EndSection
-</pre>
+```
 
 You need to change the device paths to match the devices you want, either by checking `/dev/input/by-path/` or by `/dev/input/by-id/`. The benefit of using `by-id` is that if you replug your devices, they'll still be mapped correctly. Since I have devices with the same ID, this didn't work for me.
 
 All these changes sofar should allow you to manually start up the X servers with the respective keyboard/mouse/screen settings. You should be able to test it with these commands:
 
-<pre>/usr/bin/X -br -nolisten tcp -layout <font color="#ff6600"><em>seat0</em></font> -sharevts \ 
-      -novtswitch -isolateDevice <b>PCI:2:0:0</b></pre>
+```bash
+/usr/bin/X -br -nolisten tcp -layout seat0 -sharevts -novtswitch -isolateDevice PCI:2:0:0
+```
 
 or
 
-<pre>/usr/bin/X -br -nolisten tcp -layout <font color="#008800"><em>seat1</em></font> -sharevts \ 
-      -novtswitch -isolateDevice <b>PCI:1:5:0</b></pre>
+```bash
+/usr/bin/X -br -nolisten tcp -layout seat1 -sharevts -novtswitch -isolateDevice PCI:1:5:0
+```
 
 ### KDM changes
 
@@ -192,37 +202,36 @@ Now, since I want both the X servers to be available at boot time, and I'm using
 
 In the `[General]` section, look for a line reading:
 
-> `StaticServers=:0`
+`StaticServers=:0`
 
 change it to: 
 
-> `StaticServers=:0,:1`
+`StaticServers=:0,:1`
 
 Also, change:
-
-> `ReserveServers=:1,:2,:3`
+`ReserveServers=:1,:2,:3`
 
 to: 
 
-> `ReserveServers=:2,:3`
+`ReserveServers=:2,:3`
 
 Next, look for the `[X-:0-Core]` section, and copy the entire block, creating a second block with the section name `[X-:1-Core]`.
 
 In the `[X-:0-Core]` section, look for the line
 
-> `ServerArgsLocal=-br -nolisten tcp`
+`ServerArgsLocal=-br -nolisten tcp`
 
 and change it to
 
-> `ServerArgsLocal=-br -nolisten tcp -layout <font color="#ff6600"><em>seat0</em></font> -sharevts -novtswitch -isolateDevice <b>PCI:2:0:0</b>`
+`ServerArgsLocal=-br -nolisten tcp -layout seat0 -sharevts -novtswitch -isolateDevice PCI:2:0:0`
 
 In the `[X-:1-Core]` section, look for the line
 
-> `ServerArgsLocal=-br -nolisten tcp`
+`ServerArgsLocal=-br -nolisten tcp`
 
 and change it to
 
-> `ServerArgsLocal=-br -nolisten tcp -layout <font color="#008800"><em>seat1</em></font> -sharevts -novtswitch -isolateDevice <b>PCI:1:5:0</b>`
+`ServerArgsLocal=-br -nolisten tcp -layout seat1 -sharevts -novtswitch -isolateDevice PCI:1:5:0`
 
 One KDM restart later (`/etc/init.d/kdm restart`) you should have two X servers running, both on their respective screens!
 

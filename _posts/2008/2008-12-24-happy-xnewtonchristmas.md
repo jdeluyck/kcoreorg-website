@@ -1,6 +1,6 @@
 ---
 id: 396
-title: 'Happy {% raw %}[(X)|(Newton)|(Christ)]{% endraw %}mas!'
+title: 'Happy &#91;(X)&#124;(Newton)&#124;(Christ)&#93;mas!'
 date: 2008-12-24T16:30:18+02:00
 author: Jan
 layout: single

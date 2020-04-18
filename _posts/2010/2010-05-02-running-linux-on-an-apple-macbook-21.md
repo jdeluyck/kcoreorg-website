@@ -22,8 +22,8 @@ Note: I no longer have this device.
 **DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that's \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
 
 ## PCI Specs
-
-<pre>00:00.0 Host bridge: Intel Corporation Mobile 945GM/PM/GMS, 943/940GML and 945GT Express Memory Controller Hub (rev 03)
+```
+00:00.0 Host bridge: Intel Corporation Mobile 945GM/PM/GMS, 943/940GML and 945GT Express Memory Controller Hub (rev 03)
 00:02.0 VGA compatible controller: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller (rev 03)
 00:02.1 Display controller: Intel Corporation Mobile 945GM/GMS/GME, 943/940GML Express Integrated Graphics Controller (rev 03)
 00:07.0 Performance counters: Intel Corporation Device 27a3 (rev 03)
@@ -43,7 +43,7 @@ Note: I no longer have this device.
 01:00.0 Ethernet controller: Marvell Technology Group Ltd. 88E8053 PCI-E Gigabit Ethernet Controller (rev 22)
 02:00.0 Network controller: Atheros Communications Inc. AR5418 802.11abgn Wireless PCI Express Adapter (rev 01)
 03:03.0 FireWire (IEEE 1394): Agere Systems FW323 (rev 61)
-</pre>
+```
 
 Here's a <a href="/assets/files/2010/05/apple-macbook-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
 
@@ -87,12 +87,12 @@ a decent framebuffer console. Load the `i915` module, and you're set.
 Hardware: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller
 
 To make it working just set your video driver to `intel`:
-
-<pre>Section "Device"
+```
+Section "Device"
 			Identifier	"Generic Video Card"
 			Driver		"intel"
-		EndSection
-</pre>
+EndSection
+```
 
 With modern Xorg versions, you don't even need to specify this anymore.
 
@@ -178,7 +178,8 @@ This is an AppleTouch touchpad. You can use it with <a href="http://w1.894.telia
 
 Add the following to the `/etc/X11/xorg.conf` file:
 
-<pre>Section "InputDevice"
+```
+Section "InputDevice"
         Identifier      "AppleTouch"
         Driver          "synaptics"
         Option          "AccelFactor"           "0.015"
@@ -203,7 +204,7 @@ Add the following to the `/etc/X11/xorg.conf` file:
         Option          "VertScrollDelta"       "25"
         Option          "VertTwoFingerScroll"   "true"
 EndSection
-</pre>
+```
 
 Here's my <a href="/assets/files/2010/05/apple-macbook-xorg.conf_.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
 

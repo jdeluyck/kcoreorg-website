@@ -22,22 +22,24 @@ In case you have just bought a new phone, rooted it, and want to copy over all y
 
 First, copy the original files over: (do this for both phones)
 
-  1. Plug your phone via USB, enable USB debugging in the setting (developer options) and make sure you have the Android SDK installed on your computer
-  2. Disable wifi on your phone. Really. Just do it.
-open a shell to your phone, and copy the wpa_supplicant.conf file to your SD:  
-`adb shell<br />
-su<br />
-cd /data/misc/wifi<br />
-cp wpa_supplicant.conf /mnt/sdcard`
+1. Plug your phone via USB, enable USB debugging in the setting (developer options) and make sure you have the Android SDK installed on your computer
+2. Disable wifi on your phone. Really. Just do it.
+    Open a shell to your phone, and copy the wpa_supplicant.conf file to your SD:  
 
-  3. Pull the file to your computer somewhere:  
-    `adb pull /mnt/sdcard/wpa_supplicant.conf /tmp/wpa_supplicant.old`
+    ```bash
+    adb shell
+    su
+    cd /data/misc/wifi
+    cp wpa_supplicant.conf /mnt/sdcard
+    ```
 
+3. Pull the file to your computer somewhere:  `adb pull /mnt/sdcard/wpa_supplicant.conf /tmp/wpa_supplicant.old`
 Repeat this for the new phone, but in the last step, you should pull it to `/tmp/wpa_supplicant.new`.
-
+  
 Now, edit the `/tmp/wpa_supplicant.old` file, and remove everything that doesn't read
 
-> <pre>network={
+```
+network={
         ssid="mynetwork"
         psk="mysupersecretkey"
         key_mgmt=WPA-PSK
@@ -47,17 +49,20 @@ Now, edit the `/tmp/wpa_supplicant.old` file, and remove everything that doesn't
 network={
         ssid="myotherfabnetwork"
         key_mgmt=NONE
-}</pre>
+}
+```
 
 Next, we want to add this to the new file. Easy peasy: `cat /tmp/wpa_supplicant.old >> /tmp/wpa_supplicant.new`. 
 
 The last thing to do is put the new file on the new phone, and reset it's permissions:  
-`adb push /tmp/wpa_supplicant.new /mnt/sdcard/wpa_supplicant.conf<br />
-adb shell<br />
-su<br />
-cd /data/misc/wifi<br />
-cp wpa_supplicant.conf wpa_supplicant.conf.backup<br />
-mv /mnt/sdcard/wpa_supplicant.conf .<br />
-chown system.wifi wpa_supplicant.conf`
+```bash
+adb push /tmp/wpa_supplicant.new /mnt/sdcard/wpa_supplicant.conf
+adb shell
+su
+cd /data/misc/wifi
+cp wpa_supplicant.conf wpa_supplicant.conf.backup
+mv /mnt/sdcard/wpa_supplicant.conf .
+chown system.wifi wpa_supplicant.conf
+```
 
 And you're good to go. Rebooting your phone might not be necessary, but it's recommended.

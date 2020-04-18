@@ -24,4 +24,6 @@ where 0x2a70 is the identifier for OnePlus. (you can find this with lsusb)
 
 To add automatic permissions to the device node when it's created, add this udev rule to /etc/udev/rules.d/51-android.rules (all on one line):
 
-<pre>SUBSYSTEM=="usb", ATTR{idVendor}=="2a70", MODE="0666", GROUP="plugdev" ATTR{idVendor}=="2a70", ATTR{idProduct}=="9011|f003", SYMLINK+="libmtp-%k", MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"</pre>
+```bash
+SUBSYSTEM=="usb", ATTR{idVendor}=="2a70", MODE="0666", GROUP="plugdev" ATTR{idVendor}=="2a70", ATTR{idProduct}=="9011|f003", SYMLINK+="libmtp-%k", MODE="660", GROUP="audio", ENV{ID_MTP_DEVICE}="1", ENV{ID_MEDIA_PLAYER}="1"
+```
