@@ -25,10 +25,9 @@ Everything is documented in the distribution archives. Please check there.
 
 ## Requirements
 
-<p class="list">
-  Any 100%-compatible Java Runtime Environment (this _excludes_ the Microsoft VM!).<br /> A computer with TCP/IP networking installed. (nearly always the case)
-</p>
+* Any 100%-compatible Java Runtime Environment (this _excludes_ the Microsoft VM!).  
+A computer with TCP/IP networking installed. (nearly always the case)
 
-## Latest release {.list}
+## Latest release
 
-The last release is version 0.2.3, and can be downloaded <a href="http://sourceforge.net/project/showfiles.php?group_id=13565&package_id=11629" target="_blank" rel="external">here</a>, from <a href="http://www.sourceforge.net/" target="_blank" rel="external">SourceForge</a>.
+The last release is version 0.2.3, and can be downloaded [here](http://sourceforge.net/project/showfiles.php?group_id=13565&package_id=11629), from [SourceForge](http://www.sourceforge.net/).

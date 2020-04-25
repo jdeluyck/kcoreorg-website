@@ -10,9 +10,6 @@ categories:
   - Music
 format: video
 ---
-  
-<!--more-->
-
 [Reason]  
 Think hard, you are lying here in a hospital bed  
 Disregard the emotions inside your head  

@@ -27,7 +27,7 @@ Wednesday was a bit quieter (stayed at home mostly), in the eve we went to Ghent
 
 On thursday we drove all the way to Luxembourg (city, in Luxembourg country) were we met up with a Fenfen, a good friend... Had a nice time freezing and getting lost.. the old city looks nice, but everything closes too early. Guess it's better during summer when it's warm ;p
 
-On friday we stayed home mostly, we baked cookies (mjummmy ;p), in the eve we went to Ghent for dinner in another veggy restaurant, and afterwards picking along "<a href="http://www.imdb.com/title/tt0317705/" target="_blank">The Incredibles</a>", phun movie ;)
+On friday we stayed home mostly, we baked cookies (mjummmy ;p), in the eve we went to Ghent for dinner in another veggy restaurant, and afterwards picking along "[The Incredibles](http://www.imdb.com/title/tt0317705/)", phun movie ;)
 
 Saturday was very quiet, only a quick stop in Ghent to see the then-open christmas market, and to Bruges to get chocolates! CHOCOLATE RULES! :) :) >:) \*cough\* sowwy, got carried away. ;p
 

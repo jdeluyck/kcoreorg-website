@@ -16,11 +16,6 @@ tags:
   - video
 format: video
 ---
-<center>
-</center>
-
-<!--more-->
-
 Shiny happy people laughing  
 Meet me in the crowd  
 People people  

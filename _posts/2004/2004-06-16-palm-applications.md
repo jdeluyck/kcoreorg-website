@@ -12,6 +12,6 @@ tags:
   - palm tungsten t3
   - software
 ---
-Hmmm... In my quest for useless applications to put on a Palm, I've come across <a TARGET="_blank" HREF="http://www.sealiesoftware.com/pssh/">SSH2 for Palm</a> - an SSH2 client, <a TARGET="_blank" HREF="http://palmvnc2.free.fr/">PalmVNC</a> - a VNC client ;p and <a TARGET="_blank" HREF="http://www.smittyware.com/palm/upirc/">upIRC</a> - an IRC client.... totally pointless to have on a palm if you don't have a flatrate gprs connection or the like. ;p
+Hmmm... In my quest for useless applications to put on a Palm, I've come across [SSH2 for Palm](http://www.sealiesoftware.com/pssh/) - an SSH2 client, [PalmVNC](http://palmvnc2.free.fr/) - a VNC client ;p and [upIRC](http://www.smittyware.com/palm/upirc/) - an IRC client.... totally pointless to have on a palm if you don't have a flatrate gprs connection or the like. ;p
 
 I love it ;)

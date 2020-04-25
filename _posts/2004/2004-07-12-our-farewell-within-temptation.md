@@ -16,8 +16,6 @@ tags:
   - within temptation
 format: video
 ---
-<!--more-->
-
 In my hands  
 A legacy of memories  
 I can hear you say my name  
