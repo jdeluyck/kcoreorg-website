@@ -13,9 +13,6 @@ tags:
   - Comics
 format: image
 ---
-<center>
-  <a href="http://geekandpoke.typepad.com/geekandpoke/2010/11/how-to-make-a-good-code-review.html" target="_blank"><img src="/assets/images/2010/11/6a00d8341d3df553ef013488a2d48f970c-me.jpg" alt="Code review" /></a></p> 
+[![Code review](/assets/images/2010/11/6a00d8341d3df553ef013488a2d48f970c-me.jpg "Code review")](http://geekandpoke.typepad.com/geekandpoke/2010/11/how-to-make-a-good-code-review.html) 
   
-  <p>
-    &copy; <a href="http://geekandpoke.typepad.com" target="_blank">Geek And Poke</a>, ofcourse!</center>
-  </p>
+&copy; [Geek And Poke](http://geekandpoke.typepad.com), ofcourse!

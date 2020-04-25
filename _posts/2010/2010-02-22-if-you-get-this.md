@@ -16,9 +16,6 @@ format: image
 ---
 ... you're most definitely a geek.
 
-<center>
-  <a href="http://geekandpoke.typepad.com/geekandpoke/2010/02/the-geek-joke-of-the-week.html" target="_blank"><img src="/assets/images/2010/02/6a00d8341d3df553ef0120a8b86eae970b-me.jpg" alt="Geek and Poke" /></a></p> 
+[![Geek and Poke](/assets/images/2010/02/6a00d8341d3df553ef0120a8b86eae970b-me.jpg "Geek and Poke")](http://geekandpoke.typepad.com/geekandpoke/2010/02/the-geek-joke-of-the-week.html) 
   
-  <p>
-    &copy; <a href="http://geekandpoke.typepad.com" target="_blank">Geek And Poke</a>, ofcourse!</center>
-  </p>
+&copy; [Geek And Poke](http://geekandpoke.typepad.com), ofcourse!

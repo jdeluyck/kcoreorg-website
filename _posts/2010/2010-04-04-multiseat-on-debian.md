@@ -18,40 +18,40 @@ tags:
   - radeon
   - xf86-video-ati
 ---
-Since I have a rather well-scaled desktop PC (nothing really fancy by today's specs, but it's underused as it is), and my gf sometimes wants to use it, and sometimes we both want to use it at the same time, I decided to turn it into a <a href="http://en.wikipedia.org/wiki/Multiseat" target="_blank">multiseat</a> configuration.
+Since I have a rather well-scaled desktop PC (nothing really fancy by today's specs, but it's underused as it is), and my gf sometimes wants to use it, and sometimes we both want to use it at the same time, I decided to turn it into a [multiseat](http://en.wikipedia.org/wiki/Multiseat) configuration.
 
 What's a multiseat? Basically you connect a second set of input peripherals (keyboard, mouse) and a second screen (and if necessary a second video card) and reconfigure it to act as a separate pc.  
 And with Linux, you just can, without a lot of trouble.
 
-There are some different multiseat setups: those that run separate X servers (one per display), and those that run one X server for all displays and then run a nested server on top of that to split out the actual displays. The 'problem' wit the latter is that you usually don't have any 3D acceleration left, though if you use <a href="http://www.freedesktop.org/wiki/Software/Xephyr" target="_blank">Xephyr</a> these days that <a href="http://dodji.blogspot.com/2007/10/xephyr-xvideo-and-gl-has-landed.html" target="_blank">seems to work aswell</a>. 
+There are some different multiseat setups: those that run separate X servers (one per display), and those that run one X server for all displays and then run a nested server on top of that to split out the actual displays. The 'problem' wit the latter is that you usually don't have any 3D acceleration left, though if you use [Xephyr](http://www.freedesktop.org/wiki/Software/Xephyr) these days that [seems to work aswell](http://dodji.blogspot.com/2007/10/xephyr-xvideo-and-gl-has-landed.html). 
 
 I opted for the first option.
 
 My hardware (that matters for this setup):
 
   * Mice: 2 simple Logitech usb mice
-  * Keyboards: 2 usb keyboards (one <a href="http://reviews.cnet.com/keyboards/cherry-cymotion-master-linux/1707-3134_7-31539242.html" target="_blank">Cherry Cymotion Linux Master</a> & one <a href="http://www.labtec.com/index.cfm/gear/details/EUR/EN,crid=28,contentid=692" target="_blank">labtec Ultraflat</a>)
-  * Graphics: an onboard ATI Radeon HD 3200 (this is part of the <a href="http://en.wikipedia.org/wiki/AMD_700_chipset_series" target="_blank">AMD 780</a> chipset) video chip on my Asrock motherboard (was originally disabled and enabled for this multiseat setup) and an addon ATI Radeon HD 4850 card (with an <a href="http://en.wikipedia.org/wiki/Radeon_R700#Radeon_HD_4300.2FHD_4500" target="_blank">RV700</a> chip).
-  * Screens: two screens - in this case, one 20.1" <a href="http://hk.viewsonic.com/en/products/productspecs.php?id=234" target="_blank">Viewsonic VX2025wm</a> and one 22" (newly purchased) <a href="http://www.lg.com/uk/support/product/support-product-profile.jsp?customerModelCode=W2253TQ-PF&initialTab=documents&targetPage=support-product-profile#" target="_blank">LG w2253TW</a>
+  * Keyboards: 2 usb keyboards (one [Cherry Cymotion Linux Master](http://reviews.cnet.com/keyboards/cherry-cymotion-master-linux/1707-3134_7-31539242.html) & one [labtec Ultraflat](http://www.labtec.com/index.cfm/gear/details/EUR/EN,crid=28,contentid=692))
+  * Graphics: an onboard ATI Radeon HD 3200 (this is part of the [AMD 780](http://en.wikipedia.org/wiki/AMD_700_chipset_series) chipset) video chip on my Asrock motherboard (was originally disabled and enabled for this multiseat setup) and an addon ATI Radeon HD 4850 card (with an [RV700](http://en.wikipedia.org/wiki/Radeon_R700#Radeon_HD_4300.2FHD_4500) chip).
+  * Screens: two screens - in this case, one 20.1" [Viewsonic VX2025wm](http://hk.viewsonic.com/en/products/productspecs.php?id=234) and one 22" (newly purchased) [LG w2253TW](http://www.lg.com/uk/support/product/support-product-profile.jsp?customerModelCode=W2253TQ-PF&initialTab=documents&targetPage=support-product-profile#)
 
 Notes:
 
   1. It is advised to use chips that can be driven with the same driver for a multiseat setup!
   2. If you use an onboard chipset (like I do), you'll need to change the boot order so that this chip is actually used as the primary device, otherwise it won't be initialised correctly.
 
-Originally I had the ATI binary driver <a href="http://en.wikipedia.org/wiki/Fglrx" target="_blank">fglrx</a> installed, but this does _not_ play well with a multiseat setup. The initialisation of the second card causes the system to hardlock.  
-Since this driver doesn't work, I went for the <a href="http://www.x.org/wiki/radeon" target="_blank">xf86-video-ati</a> driver, which is completely opensource, and in combination with a recent <a href="http://www.kernel.org/" target="_blank">kernel</a> allows for <a href="http://en.wikipedia.org/wiki/Mode-setting" target="_blank">kernel mode setting</a>. You do need the firmware for the card, usually found in the firmware-linux packages of your favourite distribution.
+Originally I had the ATI binary driver [fglrx](http://en.wikipedia.org/wiki/Fglrx) installed, but this does _not_ play well with a multiseat setup. The initialisation of the second card causes the system to hardlock.  
+Since this driver doesn't work, I went for the [xf86-video-ati](http://www.x.org/wiki/radeon) driver, which is completely opensource, and in combination with a recent [kernel](http://www.kernel.org/) allows for [kernel mode setting](http://en.wikipedia.org/wiki/Mode-setting). You do need the firmware for the card, usually found in the firmware-linux packages of your favourite distribution.
 
 So, the works:
 
 ### Requirements
 
-  1. Get a spankingly fresh kernel. 2.6.33 at least, preferably newer. Compile it with KMS support enabled. Note that when you enable KMS support, you'll lose your console unless you compile in `<a href="http://www.mjmwired.net/kernel/Documentation/fb/fbcon.txt" target="_blank">fbcon</a>`, but I advise against this, as this doesn't seem to play well with a multiseat setup. 
+  1. Get a spankingly fresh kernel. 2.6.33 at least, preferably newer. Compile it with KMS support enabled. Note that when you enable KMS support, you'll lose your console unless you compile in `[fbcon](http://www.mjmwired.net/kernel/Documentation/fb/fbcon.txt)`, but I advise against this, as this doesn't seem to play well with a multiseat setup. 
   2. Install the linux-firmware package or get the necessary firmwares for your cards (to get 3D acceleration)
-  3. Get a decently fresh <a href="http://www.mesa3d.org/" target="_blank">Mesa</a> (7.7 branch)
+  3. Get a decently fresh [Mesa](http://www.mesa3d.org/) (7.7 branch)
   4. Lastly, get a mjummy fresh xf86-video-ati driver.
 
-Originally, I compiled all these and installed them over the existing binaries in /usr, but fortunately my favourite distribution <a href="http://www.debian.org" target="_blank">Debian</a> has the necessary components in <a href="http://www.debian.org/releases/unstable/" target="_blank">Sid</a> and <a href="http://wiki.debian.org/DebianExperimental" target="_blank">Experimental</a>. these days.
+Originally, I compiled all these and installed them over the existing binaries in /usr, but fortunately my favourite distribution [Debian](http://www.debian.org) has the necessary components in [Sid](http://www.debian.org/releases/unstable/) and [Experimental](http://wiki.debian.org/DebianExperimental). these days.
 
 ### Xorg.conf changes
 
@@ -198,7 +198,7 @@ or
 
 ### KDM changes
 
-Now, since I want both the X servers to be available at boot time, and I'm using <a href="http://www.kde.org/" target="_blank">KDE</a> anyway, I went with <a href="http://en.wikipedia.org/wiki/KDE_Display_Manager" target="_blank">KDM</a>.
+Now, since I want both the X servers to be available at boot time, and I'm using [KDE](http://www.kde.org/) anyway, I went with [KDM](http://en.wikipedia.org/wiki/KDE_Display_Manager).
 
 In the `[General]` section, look for a line reading:
 
@@ -235,4 +235,4 @@ and change it to
 
 One KDM restart later (`/etc/init.d/kdm restart`) you should have two X servers running, both on their respective screens!
 
-Last but not least, kudos to <a href="http://wpkg.org/" target="_blank">WKPG wiki</a> for the helpful article ;)
+Last but not least, kudos to [WKPG wiki](http://wpkg.org/) for the helpful article ;)
