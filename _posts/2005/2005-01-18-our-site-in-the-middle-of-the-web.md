@@ -13,4 +13,4 @@ tags:
 ---
 Diana (my lovely girlfriend) and I decided to put up a shared website, under the nick we use on IRC when we're together.
 
-The site can be found under <a href="http://www.sadevil.org/" target="_blank">http://www.sadevil.org/</a> :P Our digital get-together!
+The site can be found under [http://www.sadevil.org/](http://www.sadevil.org/) :P Our digital get-together!

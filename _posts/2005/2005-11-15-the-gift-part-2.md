@@ -17,4 +17,4 @@ Well, I've been to Spain, came back in the meanwhile... (unfortunately.. I wanna
 
 I gave her my presents, which ended (when assembled) in this:
 
-<img SRC="/assets/images/2005/11/mju_mini_diana.jpg" /> and <a TARGET="_blank" HREF="http://sade.sadevil.org/blog/?p=18">she's</a> very happy with it :P \*phew\* \*g\*
+<img SRC="/assets/images/2005/11/mju_mini_diana.jpg" /> and [she's](http://sade.sadevil.org/blog/?p=18) very happy with it :P \*phew\* \*g\*

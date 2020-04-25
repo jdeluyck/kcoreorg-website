@@ -13,11 +13,6 @@ tags:
   - neil young
 format: video
 ---
-<center>
-</center>
-
-<!--more-->
-
 Open up your eyes  
 See how life time flies  
 Open up and let the light back in.

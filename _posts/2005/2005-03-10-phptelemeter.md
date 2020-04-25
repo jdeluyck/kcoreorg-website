@@ -13,10 +13,10 @@ tags:
 ---
 I've started a new project, a php based 'meter reader', for Telenet, to be able to get the usage statistics in an easy way instead of having to log into their site all the time...
 
-The releases will be posted on SourceForge, <a href="https://sourceforge.net/projects/phptelemeter/files/phptelemeter/" target="_blank">here</a>.
+The releases will be posted on SourceForge, [here](https://sourceforge.net/projects/phptelemeter/files/phptelemeter/).
 
-There's a <a href="https://sourceforge.net/p/phptelemeter/code/ci/master/tree/README" target="_blank">README too</a>!
+There's a [README too](https://sourceforge.net/p/phptelemeter/code/ci/master/tree/README)!
 
-You can find the <a href="https://sourceforge.net/p/phptelemeter/code/ci/master/tree/ChangeLog" target="_blank">Changelog here</a>.
+You can find the [Changelog here](https://sourceforge.net/p/phptelemeter/code/ci/master/tree/ChangeLog).
 
 &nbsp;

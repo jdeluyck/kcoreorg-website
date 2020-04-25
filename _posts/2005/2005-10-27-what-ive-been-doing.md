@@ -23,9 +23,9 @@ What have I been doing the last times... well...
 
 1. I flashed my Moto phone with the latest _stable_ firmware, and it still works, and I've got video recording and more speed and a searchable addressbook and .. and.. Well, you know - flashing it made me sweat beyond belief (like OMG is it going to work? or not? \*panic\*)
 
-2. I bought some <a href="http://www.redhat.com/" target="_blank">RedHat</a> books for <a href="http://www.redhat.com/software/rhel/" target="_blank">Enterprise Linux 3</a> and maybe getting the certificates for RHCT and RHCE.. and whatever. I'll see - studying time.
+2. I bought some [RedHat](http://www.redhat.com/) books for [Enterprise Linux 3](http://www.redhat.com/software/rhel/) and maybe getting the certificates for RHCT and RHCE.. and whatever. I'll see - studying time.
 
-3. I changed the blogging software we use on the <a href="http://www.sadevil.org/" target="_blank">sadevil.org</a> website (which is the site of Diana and me) from <a href="http://www.bigevilbrain.com/sphpblog/" target="_blank">sphpblog</a> to <a href="http://www.wordpress.org/" target="_blank">WordPress</a>, which seems to be a bit more maintained. We decided to move after Diana's sphpblog got hacked, and well.. her new blog is now up at <a href="http://sade.sadevil.org/blog" target="_blank">http://sade.sadevil.org/blog</a> and her site is now at <a href="http://sade.sadevil.org" target="_blank">http://sade.sadevil.org</a> :P (and yes it looks great :)  
+3. I changed the blogging software we use on the [sadevil.org](http://www.sadevil.org/) website (which is the site of Diana and me) from [sphpblog](http://www.bigevilbrain.com/sphpblog/) to [WordPress](http://www.wordpress.org/), which seems to be a bit more maintained. We decided to move after Diana's sphpblog got hacked, and well.. her new blog is now up at [http://sade.sadevil.org/blog](http://sade.sadevil.org/blog) and her site is now at [http://sade.sadevil.org](http://sade.sadevil.org) :P (and yes it looks great :)  
 I've also 'modded' an existing plugin for WordPress and made a sphpblog to WP convertor: you can find those below.
 
 4. I've gone back to Spain on the meanwhile too, but for that you'd better see [our blog](http://www.sadevil.org/blog/). Not gonna repeat that here. I'm WAY too lazy :p

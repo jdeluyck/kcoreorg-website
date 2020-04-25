@@ -12,7 +12,7 @@ tags:
   - "5$"
   - riaa
 ---
-A friend of mine pointed me to <a href="http://www.blogmaverick.com/entry/1234000270043583/" target="_blank">http://www.blogmaverick.com/entry/1234000270043583/</a>
+A friend of mine pointed me to [http://www.blogmaverick.com/entry/1234000270043583/](http://www.blogmaverick.com/entry/1234000270043583/)
 
 What can I say besides _Bwahahahahahahahahaahahahaha!_ ;p
 

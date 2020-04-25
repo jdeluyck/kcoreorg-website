@@ -15,11 +15,6 @@ tags:
   - within temptation
 format: video
 ---
-<center>
-</center>
-
-<!--more-->
-
 In this world you tried  
 Not leaving me behind.  
 There's no other way.  

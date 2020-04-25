@@ -16,10 +16,6 @@ tags:
   - west side story
 format: video
 ---
-<center>
-</center>
-
-<!--more-->
 
 **ACTION**  
 Dear kindly Sergeant Krupke,  
