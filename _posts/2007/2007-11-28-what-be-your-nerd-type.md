@@ -12,7 +12,7 @@ tags:
   - nerd
   - test
 format: image
-
+---
 [![Gamer Nerd][img] - Take Your Test Here][url]
 
 [url]: http://www.gotoquiz.com/what_be_your_nerd_type
