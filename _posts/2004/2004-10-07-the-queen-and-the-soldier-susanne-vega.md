@@ -15,11 +15,6 @@ tags:
   - video
 format: video
 ---
-<center>
-</center>
-
-<!--more-->
-
 The soldier came knocking upon the queen's door  
 He said, "I am not fighting for you any more"  
 The queen knew she'd seen his face someplace before  
