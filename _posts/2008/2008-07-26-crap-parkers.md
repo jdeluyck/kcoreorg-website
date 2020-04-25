@@ -18,4 +18,4 @@ Lately we've been encountering more and more of these idiots, so we're starting 
 
 Here's the first (ok, not \_that\_ crap, but it was crap enough that I couldn't get in anymore the regular way) - car on the left:
 
-<img src="/assets/images/2008/02/p7192353-sm.jpg" width="60%" />
+![](/assets/images/2008/02/p7192353-sm.jpg)

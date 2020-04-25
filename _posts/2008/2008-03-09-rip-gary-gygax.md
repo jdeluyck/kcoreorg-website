@@ -18,10 +18,10 @@ tags:
   - rpg
 format: image
 ---
-On the 4th of March 2008, <a href="http://en.wikipedia.org/wiki/Gary_Gygax" target="_blank">Gary Gygax</a> - creator of <a href="http://en.wikipedia.org/wiki/Dungeons_&_Dragons" target="_blank">D&D</a>, which laid the basis for the tabletop RPG's as we know them today - passed away, age 69. 
+On the 4th of March 2008, [Gary Gygax](http://en.wikipedia.org/wiki/Gary_Gygax) - creator of [D&D](http://en.wikipedia.org/wiki/Dungeons_&_Dragons), which laid the basis for the tabletop RPG's as we know them today - passed away, age 69. 
 
 May he rest in peace.
 
-<center>
-  <a href="http://ars.userfriendly.org/cartoons/?id=20080309" target="_blank"><img src="/assets/images/2008/02/uf011309-sm.gif" alt="" /></a><br /> <font size="-2">(Comic &copy; <a href="http://www.userfriendly.org" target="_blank">http://www.userfriendly.org</a>)</font>
-</center>
+[![](/assets/images/2008/02/uf011309-sm.gif "")](http://ars.userfriendly.org/cartoons/?id=20080309)
+
+(Comic &copy; [http://www.userfriendly.org](http://www.userfriendly.org))

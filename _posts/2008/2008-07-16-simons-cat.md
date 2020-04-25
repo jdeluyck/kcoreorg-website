@@ -14,14 +14,4 @@ tags:
   - youtube
 format: video
 ---
-<a href="http://www.youtube.com/user/simonscat" target="_blank">Simon's Cat YouTube channel</a> 
-
-<center>
-  <br /> </p> 
-  
-  <p>
-  </p>
-  
-  <p>
-    <br /> </center>
-  </p>
+[Simon's Cat YouTube channel](http://www.youtube.com/user/simonscat) 

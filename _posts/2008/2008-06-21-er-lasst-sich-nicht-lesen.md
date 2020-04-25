@@ -14,8 +14,8 @@ tags:
   - megatokyo
 format: image
 ---
-Another very beautiful "Dead Piro Day" comic, from <a href="http://www.Megatokyo.com" target="_blank">Megatokyo</a>.
+Another very beautiful "Dead Piro Day" comic, from [Megatokyo](http://www.Megatokyo.com).
 
-<a href="http://www.megatokyo.com/strip/1133" target="_blank"><img src="/assets/images/2008/02/1133_G-sm.png" /></a>
+[![Er lässt sich nicht lesen](/assets/images/2008/02/1133_G-sm.png)](http://www.megatokyo.com/strip/1133)
 
-(artwork is (c) 2008 Fred Gallagher - ofcourse!)
+(artwork is &copy; 2008 Fred Gallagher - ofcourse!)

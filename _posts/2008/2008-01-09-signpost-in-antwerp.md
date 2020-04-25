@@ -18,8 +18,8 @@ format: image
 ---
 Go Belgium, with our super-duper hyper-effecient roads:
 
-<center>
-  <img src="/assets/images/2008/01/belgium_signs-sm.jpg" alt="Signpost in Antwerp, Belgium" width="60%" />
-</center>Oops?
+![Signpost in Antwerp, Belgium](/assets/images/2008/01/belgium_signs-sm.jpg "Signpost in Antwerp, Belgium")
 
-(Picture courtesy of <a href="http://stijn.tintel.eu/blog/2008/01/09/gotta-love-belgium/" target="_blank">Stijn Tintel</a>)
+Oops?
+
+(Picture courtesy of [Stijn Tintel](http://stijn.tintel.eu/blog/2008/01/09/gotta-love-belgium/))

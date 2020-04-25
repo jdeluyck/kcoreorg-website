@@ -13,7 +13,7 @@ tags:
   - drm ebook
   - linux
 ---
-Sade linked me to this nice ebook by <a href="http://www.neilgaiman.com/" target="_blank">Neil Gaiman</a>, <a href="http://www.harpercollinsebooks.com/5D480A75-62F5-4864-BC31-54620E34D7AC/10/125/en/NeilGaiman" target="_blank">Neverwhere</a>. Unfortunately, you need <a href="http://www.adobe.com/" target="_blank">Adobe</a> <a href="http://www.adobe.com/products/digitaleditions/" target="_blank">Digital Editions</a> for it, which only exists for Windows and Mac. Since she's a Linux user, that one didn't really fly with her.
+Sade linked me to this nice ebook by [Neil Gaiman](http://www.neilgaiman.com/), [Neverwhere](http://www.harpercollinsebooks.com/5D480A75-62F5-4864-BC31-54620E34D7AC/10/125/en/NeilGaiman). Unfortunately, you need [Adobe](http://www.adobe.com/) [Digital Editions](http://www.adobe.com/products/digitaleditions/) for it, which only exists for Windows and Mac. Since she's a Linux user, that one didn't really fly with her.
 
 So, to get that thing to work, here's a very low-tech way of doing it:
 
@@ -23,8 +23,7 @@ So, to get that thing to work, here's a very low-tech way of doing it:
   4. Print to PDF 40 pages (the damn thing won't let you print more)
   5. Close the digital Editions app
   6. Delete (in my case) the ~/Documents/Digital Editions directory
-  7. 
-  8. Reload the webpage
-  9. Goto step 2
+  7. Reload the webpage
+  8. Goto step 2
 
 Repeating this until you have the entire ebook in PDF's for easy reading at home, under your favourite OS / device! ;)

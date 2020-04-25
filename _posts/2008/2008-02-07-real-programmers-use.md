@@ -17,6 +17,7 @@ tags:
   - xkcd
 format: image
 ---
-<center>
-  <a href="http://www.xkcd.com/378/" target="_blank"><img src="/assets/images/2008/02/real_programmers-sm.png" alt="Real programmers use..." width="97%" /></a><br /> (Comic © <a href="http://www.xkcd.com" target="_blank">http://www.xkcd.com</a>)
-</center>
+
+[![Real programmers use...](/assets/images/2008/02/real_programmers-sm.png "Real programmers use...")](http://www.xkcd.com/378/)
+
+(Comic &copy; [http://www.xkcd.com](http://www.xkcd.com))

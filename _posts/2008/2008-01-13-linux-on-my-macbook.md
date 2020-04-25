@@ -33,7 +33,7 @@ Things that need to work still:
 
 Sources I'm using at the moment:
 
-  * <a href="http://wiki.debian.org/MacBook" target="_blank">http://wiki.debian.org/MacBook</a>
-  * <a href="http://wikigentoo.ksiezyc.pl/Apple_Mac_Pro.htm" target="_blank">http://wikigentoo.ksiezyc.pl/Apple_Mac_Pro.htm</a>
+  * [http://wiki.debian.org/MacBook](http://wiki.debian.org/MacBook)
+  * [http://wikigentoo.ksiezyc.pl/Apple_Mac_Pro.htm](http://wikigentoo.ksiezyc.pl/Apple_Mac_Pro.htm)
 
 I'll write a detailed post on this later... when I'm not uberly lazy ;)

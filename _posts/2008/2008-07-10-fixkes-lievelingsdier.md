@@ -16,13 +16,6 @@ tags:
   - Videos
 format: video
 ---
-<center>
-</center>
-
-  
-<!--more-->
-
-  
 **Fixkes - Lievelingsdier**
 
 Een zebra, daar gad'is over  

@@ -14,6 +14,6 @@ tags:
   - mac os x
   - macbook
 ---
-Upgraded my Macbook with a bigger disk: from an 80gb <a href="http://www.storage.toshiba.eu" target="_blank">Toshiba</a> <a href="http://www.storage.toshiba.eu/index.php?id=3&pid=192" target="_blank">MK8034GSX</a> drive (with which it came delivered) to a (secondhand) 320gb <a href="https://www.hgst.com/" target="_blank">Hitachi</a> <a href="https://www.hgst.com/sites/default/files/resources/Travelstar_5K320_DS.pdf" target="_blank">HTS543232L9A300</a> (what's in a name...). Long live diskspace! ;)
+Upgraded my Macbook with a bigger disk: from an 80gb [Toshiba](http://www.storage.toshiba.eu) [MK8034GSX](http://www.storage.toshiba.eu/index.php?id=3&pid=192) drive (with which it came delivered) to a (secondhand) 320gb [Hitachi](https://www.hgst.com/) [HTS543232L9A300](https://www.hgst.com/sites/default/files/resources/Travelstar_5K320_DS.pdf) (what's in a name...). Long live diskspace! ;)
 
-And thanks to <a href="http://www.bombich.com/software/ccc.html" target="_blank">Carbon Copy Cloner</a> the migration was painless.
+And thanks to [Carbon Copy Cloner](http://www.bombich.com/software/ccc.html) the migration was painless.

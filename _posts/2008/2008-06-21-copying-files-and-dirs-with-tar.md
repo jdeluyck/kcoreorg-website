@@ -16,7 +16,7 @@ tags:
 ---
 If you want to copy a bunch of files from one spot to another, but preserve links/permissions/ownership/..., it's usually a big hassle.
 
-With <a href="http://en.wikipedia.org/wiki/Tar_(file_format)" target="_blank">tar</a>, you can make this hassle disappear!
+With [tar](http://en.wikipedia.org/wiki/Tar_(file_format)), you can make this hassle disappear!
 
 Copying a directory tree and its contents to another filesystem using tar will preserve ownership, permissions, and timestamps. You can use pipe tar to another tar to prevent having to create an intermediate file to store the stuff you want to copy around.
 

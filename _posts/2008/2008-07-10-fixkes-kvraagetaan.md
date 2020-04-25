@@ -16,11 +16,6 @@ tags:
   - Music
 format: video
 ---
-<center>
-</center>
-
-<!--more-->
-
 **Fixkes - kvraagetaan**
 
 Makkik binnen makkik binnen om een lieke te beginnen  

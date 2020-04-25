@@ -11,9 +11,7 @@ categories:
 tags:
   - xmes
 ---
-Nicked from <a href="http://sade.sadevil.org/blog/2008/11/28/me-me-the-christmas-edition" target="_blank">Diana's blog</a>, here's my list of 27 things that you couldn't care less about. Oh, and about xmess too. Or christmas. Whatever you want to call it.
-
-<!--more-->
+Nicked from [Diana's blog](http://sade.sadevil.org/blog/2008/11/28/me-me-the-christmas-edition), here's my list of 27 things that you couldn't care less about. Oh, and about xmess too. Or christmas. Whatever you want to call it.
 
   1. **Wrapping paper or gift bags?**  
     Wrapping paper. Nicer, but not so ecological.
@@ -38,7 +36,7 @@ Nicked from <a href="http://sade.sadevil.org/blog/2008/11/28/me-me-the-christmas
  11. **Worst Christmas gift you ever received?**  
     Uhhm... I think it was a set of towels. Not really sure anymore.
  12. **Favorite Christmas Movie?**  
-    <a href="http://www.imdb.com/title/tt0096061/" target="_blank">Scrooged</a> ;) tough the <a href="http://uk.imdb.com/title/tt0241527/" target="_blank">1st Harry Potter movie</a> is very christmassy too.
+    [Scrooged](http://www.imdb.com/title/tt0096061/) ;) tough the [1st Harry Potter movie](http://uk.imdb.com/title/tt0241527/) is very christmassy too.
  13. **When do you start shopping for Christmas?**  
     I start thinking of it round october/november, and shopping (online :p) in november.
  14. **Have you ever recycled a Christmas present?**  

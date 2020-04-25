@@ -16,11 +16,10 @@ format: gallery
 ---
 We made another change to our cavies' cage: we put it on a table (so we see them better and they see us better):
 
-<center>
-  <br /> <img src="/assets/images/2008/01/IMG_3933-sm.jpg" alt="Cage on a table" width="60%" />
-</center>And here are some pics of our little (well, not so little anymore...) critters:
+![Cage on a table](/assets/images/2008/01/IMG_3933-sm.jpg "Cage on a table")
 
+And here are some pics of our little (well, not so little anymore...) critters:
   
-<img src="/assets/images/2008/01/IMG_3926-sm.jpg" alt="Nero" width="60%" />  
-<img src="/assets/images/2008/01/IMG_3927-sm.jpg" alt="Nero and Macchiatto" width="60%" />  
-<img src="/assets/images/2008/01/IMG_3928-sm.jpg" alt="Machiatto" width="60%" />
+![Nero](/assets/images/2008/01/IMG_3926-sm.jpg "Nero")  
+![Nero and Macchiatto](/assets/images/2008/01/IMG_3927-sm.jpg "Nero and Macchiatto")  
+![Machiatto](/assets/images/2008/01/IMG_3928-sm.jpg "Machiatto")

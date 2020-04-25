@@ -15,7 +15,7 @@ tags:
   - rtc
   - travelmate 803
 ---
-Yesterday I had some good old fun trying to replace the backup battery of an <a href="http://www.acer.com" target="_blank">Acer</a> <a href="" target="_blank">Travelmate 803</a> laptop. 
+Yesterday I had some good old fun trying to replace the backup battery of an [Acer](http://www.acer.com) [Travelmate 803]() laptop. 
 
 I thought that since this is a part that should be replaceable by the user, it should be reachable (like the memory, harddisk, you know). Guess again !
 
@@ -24,11 +24,11 @@ After flipping through the service manual (which I had luckily found), it seemed
 I'm damn glad that I had the manual, because otherwise I think getting this thing apart is not quite so easy.
 
 Here are some after-disassembly-pics:  
-<img width="60%" src="/assets/images/2008/10/IMG_4556-sm.jpg" alt="Disassembled mess" />  
-<img width="60%" src="/assets/images/2008/10/IMG_4559-sm.jpg" alt="Disassembled mess, part two" /> 
+![Disassembled mess](/assets/images/2008/10/IMG_4556-sm.jpg "Disassembled mess")  
+![Disassembled mess, part two](/assets/images/2008/10/IMG_4559-sm.jpg "Disassembled mess, part two") 
 
 And here, the battery...  
-<img width="60%" src="/assets/images/2008/10/IMG_4558-sm.jpg" alt="The elusive battery" /> 
+![The elusive battery](/assets/images/2008/10/IMG_4558-sm.jpg "The elusive battery") 
 
 which ofcourse had to be of another type than the five we have in the house, so now I have to wait with the reassembly until tomorrow after I get the friggin' battery! <deity>-damnit! Couldn't they stick to the standard CR2032!?
 

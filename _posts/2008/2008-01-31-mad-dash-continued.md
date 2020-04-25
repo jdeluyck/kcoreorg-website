@@ -13,4 +13,4 @@ tags:
   - insurance
   - leasing
 ---
-Yay! I finally got <strike>the first</strike>all of my certificates of the leasing firms - now we can go insurance-hunt!
+Yay! I finally got ~~the first~~all of my certificates of the leasing firms - now we can go insurance-hunt!

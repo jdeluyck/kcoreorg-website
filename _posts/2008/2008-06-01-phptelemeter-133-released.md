@@ -11,7 +11,7 @@ categories:
 tags:
   - phptelemeter
 ---
-After nearly 8 months of no release (if you don't count the 1.33-beta1), I've just released <a HREF="http://phptelemeter.kcore.org/" TARGET="_blank">phptelemeter 1.33</a>. This version includes the following changes:
+After nearly 8 months of no release (if you don't count the 1.33-beta1), I've just released [phptelemeter 1.33](http://phptelemeter.kcore.org/). This version includes the following changes:
 
   * Added red-hilighting support to plaintext_graphonly publisher
   * Moved the publisher parameter to a new [publisher] section, allowing for publisher-specific config settings
@@ -25,4 +25,4 @@ After nearly 8 months of no release (if you don't count the 1.33-beta1), I've ju
   * Added more error codes to the telemeter4tools parser
   * Fixed scarlet parser
 
-As per usual, you can download it from <a HREF="http://sourceforge.net/projects/phptelemeter" TARGET="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

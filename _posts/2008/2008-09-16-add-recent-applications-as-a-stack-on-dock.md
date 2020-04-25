@@ -14,13 +14,15 @@ tags:
   - tips
   - tuaw
 ---
-On <a href="http://www.tuaw.com/" target="_blank">TUAW</a> (The Unofficial Apple Weblog) they've got a nifty <a href="http://www.tuaw.com/tag/tips/" target="_blank">tips section</a>, with today this tip that I rather like:
+On [TUAW](http://www.tuaw.com/) (The Unofficial Apple Weblog) they've got a nifty [tips section](http://www.tuaw.com/tag/tips/), with today this tip that I rather like:
 
-<a href="http://www.tuaw.com/2008/09/16/terminal-tips-add-recent-applications-as-a-stack-on-dock/" target="_blank">How to add recent applications as a Stack on the Dock</a>:
+[How to add recent applications as a Stack on the Dock](http://www.tuaw.com/2008/09/16/terminal-tips-add-recent-applications-as-a-stack-on-dock/):
 
 Run this in Terminal.app:
 
-> defaults write com.apple.dock persistent-others -array-add '{ "tile-data" = { "list-type" = 1; }; "tile-type" = "recents-tile"; }' 
+```bash
+defaults write com.apple.dock persistent-others -array-add '{ "tile-data" = { "list-type" = 1; }; "tile-type" = "recents-tile"; }'
+``` 
 
 on one line, and then restart the Dock (killall Dock). 
 

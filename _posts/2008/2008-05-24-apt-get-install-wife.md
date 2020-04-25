@@ -15,6 +15,5 @@ tags:
   - wife
 format: image
 ---
-<center>
-  <img src="/assets/images/2008/02/apt_get_wife-sm.png" alt="apt-get install wife" width="90%" />
-</center>
+
+![apt-get install wife](/assets/images/2008/02/apt_get_wife-sm.png "apt-get install wife")

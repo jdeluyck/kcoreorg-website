@@ -14,14 +14,10 @@ tags:
   - magnet
   - tags
 ---
-<center>
-  <img src="/assets/images/2008/02/IMG_4186-sm.jpg" alt="I Can Haz?" width="80%" />
-</center>Since 
+![I Can Haz?](/assets/images/2008/02/IMG_4186-sm.jpg "I Can Haz?")
 
-<a href="http://icanhascheezburger.com/" target="_blank">I can haz cheezburger?</a> is part of my daily dose of humour, and they sold <a href="http://icanhascheezburger.com/2008/06/02/lolspeak-magnets-r-heer/" target="_blank">fun lolspeak magnets</a>, I decided to purchase a pack.
+Since [I can haz cheezburger?](http://icanhascheezburger.com/) is part of my daily dose of humour, and they sold [fun lolspeak magnets](http://icanhascheezburger.com/2008/06/02/lolspeak-magnets-r-heer/), I decided to purchase a pack.
 
 They arrived today in the mail ;)
 
-<center>
-  <img src="/assets/images/2008/02/IMG_4181-sm.jpg" alt="The whole stack" width="80%" />
-</center>
+![The whole stack](/assets/images/2008/02/IMG_4181-sm.jpg "The whole stack")

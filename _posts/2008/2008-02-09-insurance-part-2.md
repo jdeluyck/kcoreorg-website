@@ -19,4 +19,4 @@ I do hate insurance companies.
 
 Seems now the offer they made me was wrong, since I've driven leasing cars all my life, and so they can't note me down as being a takeover of a contract. Hence, you end up in a more expensive scale. Oh well, It's signed, the offer is still the best one I got.
 
-I've got my temporary green card even! :D and the <a href="http://en.wikipedia.org/wiki/License_plates_of_Belgium" target="_blank">license plates</a> have been requested and should be here by monday!
+I've got my temporary green card even! :D and the [license plates](http://en.wikipedia.org/wiki/License_plates_of_Belgium) have been requested and should be here by monday!

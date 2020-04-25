@@ -13,9 +13,6 @@ tags:
   - Videos
 format: video
 ---
-<a href="http://en.wikipedia.org/wiki/Mah_N%C3%A0_Mah_N%C3%A0" target="_blank">Mah Nà Mah Nà</a>
-
-<center>
-</center>
+[Mah Nà Mah Nà](http://en.wikipedia.org/wiki/Mah_N%C3%A0_Mah_N%C3%A0)
 
 A real classic! :D

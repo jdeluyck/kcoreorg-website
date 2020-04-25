@@ -16,8 +16,8 @@ tags:
   - Symbian
 format: link
 ---
-I've recently <a href="http://www.smstextnews.com/2008/03/the_fastest_symbian_developer_on_the_planet_and_my_wordpress_client.html" target="_blank">discovered a new python based blogging client</a> for Symbian S60 3rd edition based phones. 
+I've recently [discovered a new python based blogging client](http://www.smstextnews.com/2008/03/the_fastest_symbian_developer_on_the_planet_and_my_wordpress_client.html) for Symbian S60 3rd edition based phones. 
 
 It's still very beta, but it works nicely! 
 
-Check it out at <a href="http://scribe.na.nu/" target="_blank">http://scribe.na.nu/</a>
+Check it out at [http://scribe.na.nu/](http://scribe.na.nu/)

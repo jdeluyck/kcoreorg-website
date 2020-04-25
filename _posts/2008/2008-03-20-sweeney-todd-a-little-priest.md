@@ -16,13 +16,9 @@ tags:
   - sweeney todd
 format: video
 ---
-We went to see <a href="http://www.imdb.com/title/tt0408236/" target="_blank">Sweeney Todd: The Demon Barber of Fleet Street</a> the other week.. a good (if rather grim) musical!
-
-
+We went to see [Sweeney Todd: The Demon Barber of Fleet Street](http://www.imdb.com/title/tt0408236/) the other week.. a good (if rather grim) musical!
 
 The Lyrics of my favourite song from the movie you can find below!  
-<!--more-->
-
   
 **Musical: Sweeney Todd  
 Song: A Little Priest**

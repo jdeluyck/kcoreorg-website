@@ -18,7 +18,7 @@ tags:
 ---
 I can get so goddamn annoyed at our local sport-crazy people...
 
-The latest idiocy: <a href="http://en.wikipedia.org/wiki/Tom_Boonen" target="_blank">Tom Boonen</a>, a professional cyclist, has been caught (outside of a sports event) using <a href="http://en.wikipedia.org/wiki/Cocaine" target="_blank">cocaine</a>. Using this drug is an offence, punishable by law.
+The latest idiocy: [Tom Boonen](http://en.wikipedia.org/wiki/Tom_Boonen), a professional cyclist, has been caught (outside of a sports event) using [cocaine](http://en.wikipedia.org/wiki/Cocaine). Using this drug is an offence, punishable by law.
 
 What does our wonderful country do? "Oh, my, poor guy, he probably took it because he was so lonely... bad drugs! bad drugs! good Tom! Let's make a martyr and a hero out of him, but most of all, let's definitly not punish him!"
 

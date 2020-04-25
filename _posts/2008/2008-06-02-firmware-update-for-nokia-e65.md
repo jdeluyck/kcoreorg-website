@@ -14,7 +14,7 @@ tags:
   - nokia
   - update
 ---
-From <a href="http://symbianworld.wordpress.com/2008/04/18/e65-new-firmware-306336900-with-change-log/" target="_blank">Symbianworld</a>:
+From [Symbianworld](http://symbianworld.wordpress.com/2008/04/18/e65-new-firmware-306336900-with-change-log/):
 
 **Changes made from v2.0633.65.01 to v3.0633.69.00**
 

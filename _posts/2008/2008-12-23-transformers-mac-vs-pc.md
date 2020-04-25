@@ -14,6 +14,3 @@ tags:
 format: video
 ---
 A very well made video, a laugh :p
-
-<center>
-</center>

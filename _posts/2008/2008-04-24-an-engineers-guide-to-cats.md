@@ -15,6 +15,4 @@ tags:
   - video
 format: video
 ---
-<center>
-  <br />
-</center>
+

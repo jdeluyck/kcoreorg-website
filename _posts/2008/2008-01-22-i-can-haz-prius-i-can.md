@@ -16,7 +16,7 @@ tags:
 ---
 Wh00t!
 
-I just got called from <a href="http://www.toyota.be/" target="_blank">Toyota</a> <a href="http://www.toyota.be/holvoet" target="_blank">Garage Holvoet</a>... Our Prius is in! Two months early! 
+I just got called from [Toyota](http://www.toyota.be/) [Garage Holvoet](http://www.toyota.be/holvoet)... Our Prius is in! Two months early! 
 
 Wh00t! 
 

@@ -14,7 +14,7 @@ tags:
   - sncb
   - strike
 ---
-The Belgian National Railways (known as <a href="http://www.nmbs.be" target="_blank">NMBS</a>/<a href="http://www.sncb.be" target="_blank">SNCB</a>) really totally suck. Completely and utterly.
+The Belgian National Railways (known as [NMBS](http://www.nmbs.be)/[SNCB](http://www.sncb.be)) really totally suck. Completely and utterly.
 
 Today, yet another strike in Brussels South station, causing endless delays and cancellations. 
 

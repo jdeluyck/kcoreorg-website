@@ -63,7 +63,7 @@ System log:
 > 0018: 00 00 00 00 00 00 00 00 ........  
 > 0020: 00 00 00 00 00 00 00 00 ........ 
 
-The only thing this machine is running is <a href="http://www.platform.com" target="_blank">Platform Symphony</a>, GRID computing software. This setup is identical on 4 other machines, which don't show any problems.
+The only thing this machine is running is [Platform Symphony](http://www.platform.com), GRID computing software. This setup is identical on 4 other machines, which don't show any problems.
 
 After numerous googles I still haven't found a reason or a solution. I've tried:
 

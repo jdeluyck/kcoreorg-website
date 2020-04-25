@@ -13,9 +13,9 @@ tags:
   - mac os x
   - permission problem
 ---
-After yesterday's <a href="https://kcore.org/2008/08/29/bigger-disk/" target="_Blank">clone</a> I noticed some applications behaved erraticly, amongst which Preview, Thunderbird, Appfresh... rather irritating.
+After yesterday's [clone](https://kcore.org/2008/08/29/bigger-disk/) I noticed some applications behaved erraticly, amongst which Preview, Thunderbird, Appfresh... rather irritating.
 
-After some searching I found the fix on this <a href="http://forums.bombich.com/viewtopic.php?p=42055#42055" target="_blank">CCC Forum thread</a>:
+After some searching I found the fix on this [CCC Forum thread](http://forums.bombich.com/viewtopic.php?p=42055#42055):
 
 > sudo chgrp wheel /var/folders/*  
 > sudo chmod 700 $TMPDIR  

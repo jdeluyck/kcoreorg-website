@@ -14,7 +14,7 @@ tags:
   - vmware server 2.0
   - vsock
 ---
-I just finished updating my machine to the latest Linux kernel, <a href="http://marc.info/?l=linux-kernel&m=123016280131543&w=2" target="_blank">2.6.28</a>. All worked, except for <a href="http://www.vmware.com/products/server/" target="_blank">VMWare Server</a> (which was still at 1.0.8). Since 2.0 has been released, time for an upgrade!
+I just finished updating my machine to the latest Linux kernel, [2.6.28](http://marc.info/?l=linux-kernel&m=123016280131543&w=2). All worked, except for [VMWare Server](http://www.vmware.com/products/server/) (which was still at 1.0.8). Since 2.0 has been released, time for an upgrade!
 
 Downloaded, installed, configuration didn't work for the vsock module. Actually, it built, but failed to load due to some missing symbols. After some digging I came across the following patch that modifies the vmware-config.pl script:
 
@@ -51,4 +51,4 @@ Downloaded, installed, configuration didn't work for the vsock module. Actually,
 To use it, download [vmware-configplpatch.txt](/assets/files/2008/12/vmware-configplpatch.txt), and run  
 `cat vmware-configplpatch.txt | patch -p0`, and rerun the VMWare configuration script.
 
-Thanks to <a href="http://ubuntuforums.org/showpost.php?p=6267637&postcount=17" target="_blank">this post</a> on the <a href="http://ubuntuforums.org/" target="_blank">Ubuntu Forums</a> for the solution!
+Thanks to [this post](http://ubuntuforums.org/showpost.php?p=6267637&postcount=17) on the [Ubuntu Forums](http://ubuntuforums.org/) for the solution!

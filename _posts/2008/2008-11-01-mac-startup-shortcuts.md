@@ -14,116 +14,17 @@ tags:
 ---
 Because I keep forgetting them, here's a list of buttons you can press during a Mac's boot to change behaviour:
 
-<table border="1" cellspacing="0">
-  <tr>
-    <th>
-      Key
-    </th>
-    
-    <th>
-      Action
-    </th>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      C
-    </td>
-    
-    <td>
-      boot from CD or DVD
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      N
-    </td>
-    
-    <td>
-      Attempt to start up from a network server (NetBoot)
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      T
-    </td>
-    
-    <td>
-      start up in FireWire target disk mode
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      X
-    </td>
-    
-    <td>
-      force Mac OS X startup
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      Shift
-    </td>
-    
-    <td>
-      boot into safe mode
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      Mouse button
-    </td>
-    
-    <td>
-      eject CD before booting normally
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      Command-S
-    </td>
-    
-    <td>
-      boot into single user mode
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      Command-V
-    </td>
-    
-    <td>
-      verbose boot
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      Option
-    </td>
-    
-    <td>
-      choose startup disk at boot time
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center">
-      Option-Command-Shift-Delete
-    </td>
-    
-    <td>
-      Bypass primary startup volume and seek a different startup volume (such as a CD or external disk)
-    </td>
-  </tr>
-</table>
+| Key | Action | 
+| --- | --- |
+| C | boot from CD or DVD |
+| N | attempt to start up from a network server (NetBoot) |
+| T | start up in FireWire target disk mode |
+| X | force Mac OS X startup |
+| Shift | boot into safe mode |
+| Mouse button | eject CD before booting normally |
+| Command-S |boot into single user mode |
+| Command-V | verbose boot |
+| Option | choose startup disk at boot time |
+| Option-Command-Shift-Delete | Bypass primary startup volume and seek a different startup volume (such as a CD or external disk) |
 
-See also <a href="http://support.apple.com/kb/HT1343" target="_blank">Apple article HT1343</a>
+See also [Apple article HT1343](http://support.apple.com/kb/HT1343)

@@ -14,10 +14,8 @@ tags:
   - stone
 format: image
 ---
-<center>
-  <img src="/assets/images/2008/10/stone-vs-iphone.png" alt="rock vs iphone" />
-</center>
+![rock vs iphone](/assets/images/2008/10/stone-vs-iphone.png "rock vs iphone")
 
 So true... ;)
 
-(thanks to <a href="http://blog.ghosty.be/" target="_blank">Gh0sty</a>)
+(thanks to [Gh0sty](http://blog.ghosty.be/))
