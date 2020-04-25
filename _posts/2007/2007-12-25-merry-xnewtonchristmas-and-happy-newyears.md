@@ -1,6 +1,6 @@
 ---
 id: 190
-title: 'Merry (x|newton|christ|...)mas and happy newyears!'
+title: 'Merry (x\|newton\|christ\|...)mas and happy newyears!'
 date: 2007-12-25T13:53:21+02:00
 author: Jan
 layout: single
