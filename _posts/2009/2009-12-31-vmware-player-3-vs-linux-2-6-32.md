@@ -18,17 +18,20 @@ I wanted to test some crap in VMWare, didn't feel like messing with the entire s
 
 After installation, you can fix it with as follows (as root):
 
-> `<br />
-cd /tmp<br />
-tar xf /usr/lib/vmware/modules/source/vmnet.tar<br />
-tar xf /usr/lib/vmware/modules/source/vmci.tar</p>
-<p>cd vmnet-only<br />
-sed -i "/vnetInt.h/ a\#include \"compat_sched.h\"" vnetUserListener.c</p>
-<p>cd ../vmci-only/include<br />
-sed -i "/compat_page.h/ a\#include \"compat_sched.h\"" pgtbl.h</p>
-<p>cd /tmp<br />
-tar cf /usr/lib/vmware/modules/source/vmnet.tar vmnet-only<br />
-tar cf /usr/lib/vmware/modules/source/vmci.tar vmci-only<br />
-` 
+```bash
+cd /tmp
+tar xf /usr/lib/vmware/modules/source/vmnet.tar
+tar xf /usr/lib/vmware/modules/source/vmci.tar
+
+cd vmnet-only
+sed -i "/vnetInt.h/ a\#include \"compat_sched.h\"" vnetUserListener.c
+
+cd ../vmci-only/include
+sed -i "/compat_page.h/ a\#include \"compat_sched.h\"" pgtbl.h
+
+cd /tmp
+tar cf /usr/lib/vmware/modules/source/vmnet.tar vmnet-only
+tar cf /usr/lib/vmware/modules/source/vmci.tar vmci-only
+``` 
 
 and rerun vmplayer.

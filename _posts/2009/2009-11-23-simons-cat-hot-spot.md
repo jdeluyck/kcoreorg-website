@@ -14,5 +14,3 @@ tags:
   - youtube
 format: video
 ---
-<center>
-</center>

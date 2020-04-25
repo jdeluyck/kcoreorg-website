@@ -16,4 +16,4 @@ format: image
 ---
 ... see? Even WordPress thinks so.
 
-[<img src="/assets/images/2009/06/spam-is-evil1.png" alt="Spam is evil!" title="Spam is evil!" width="687" height="324" class="aligncenter size-full wp-image-465" />](/assets/images/2009/06/spam-is-evil1.png)
+[![Spam is evil!](/assets/images/2009/06/spam-is-evil1.png "Spam is evil!")](/assets/images/2009/06/spam-is-evil1.png)

@@ -14,9 +14,9 @@ tags:
   - 'fcp&amp;d'
   - pipeband
 ---
-<img src="/assets/images/2009/11/fcpd\_12\_celtic_weekend-sm.jpg" alt="12th Celtic Weekend"/ width="90%"/>
+![12th Celtic Weekend](/assets/images/2009/11/fcpd_12_celtic_weekend-sm.jpg "12th Celtic Weekend")
 
-Shameless advertisement for the upcoming <a href="http://www.glengarry.be/fcpd/events.htm" target="_blank">12th Celtic Weekend</a> organised by the <a href="http://www.fcpd.be/" target="_blank">Flemish Caledonian Pipes & Drums - Clan MacKenzie</a>, the pipeband where I play.
+Shameless advertisement for the upcoming [12th Celtic Weekend](http://www.glengarry.be/fcpd/events.htm) organised by the [Flemish Caledonian Pipes & Drums - Clan MacKenzie](http://www.fcpd.be/), the pipeband where I play.
 
 **Friday november 6 2009**  
 19:00 Official Opening  
@@ -50,5 +50,4 @@ Shameless advertisement for the upcoming <a href="http://www.glengarry.be/fcpd/e
 
 The place to be? Kloosterstraat 20 in Merelbeke (Belgium, ofcourse)
 
-  
-<small><a href="http://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=+Kloosterstraat+20,+9820+Merelbeke&sll=37.0625,-95.677068&sspn=35.547176,73.564453&ie=UTF8&hq=&hnear=Kloosterstraat+20,+Merelbeke+9820+Merelbeke,+East+Flanders,+Flemish+Region,+Belgium&ll=50.990381,3.748784&spn=0.004052,0.006437&z=16&iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+[View Larger Map](http://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=+Kloosterstraat+20,+9820+Merelbeke&sll=37.0625,-95.677068&sspn=35.547176,73.564453&ie=UTF8&hq=&hnear=Kloosterstraat+20,+Merelbeke+9820+Merelbeke,+East+Flanders,+Flemish+Region,+Belgium&ll=50.990381,3.748784&spn=0.004052,0.006437&z=16&iwloc=A)

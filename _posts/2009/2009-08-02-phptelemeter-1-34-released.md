@@ -11,7 +11,7 @@ categories:
 tags:
   - phptelemeter
 ---
-I've just released <a HREF="http://phptelemeter.kcore.org/" TARGET="_blank">phptelemeter 1.34</a>. This version includes the following changes:
+I've just released [phptelemeter 1.34](http://phptelemeter.kcore.org/). This version includes the following changes:
 
   * Fixed telemeter4tools parser.
   * Added a check for the new scarlet unlimited accounts
@@ -23,4 +23,4 @@ I've just released <a HREF="http://phptelemeter.kcore.org/" TARGET="_blank">phpt
   * Limited warn-percentage to 2 digits after the comma (feature request: 1936213)
   * Added reset date to over-limit notification mails (feature request: 1837559)
 
-As per usual, you can download it from <a HREF="http://sourceforge.net/projects/phptelemeter" TARGET="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

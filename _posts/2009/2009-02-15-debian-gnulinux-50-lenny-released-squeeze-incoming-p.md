@@ -12,14 +12,8 @@ tags:
   - debian
   - lenny
 ---
-<table BORDER="0" CLASS="">
-  <tr>
-    <td ALIGN="center" WIDTH="1" CLASS="">
-      <img SRC="/assets/images/2011/02/debian_logo.png" />
-    </td>
-    
-    <td CLASS="">
-      <a HREF="http://www.debian.org" TARGET="_blank">Debian</a> Lenny got <a HREF="http://www.debian.org/News/2009/20090214" TARGET="_blank">released today</a>. Yay! :)<br />And the new <a href="http://www.debian.org/releases/squeeze/" target="_blank">testing</a> branch is called <b>Squeeze</b> :P
-    </td>
-  </tr>
-</table>
+![Debian](/assets/images/2011/02/debian_logo.png)
+
+[Debian](http://www.debian.org) Lenny got [released today](http://www.debian.org/News/2009/20090214). Yay! :)
+
+And the new [testing](http://www.debian.org/releases/squeeze/) branch is called **Squeeze** ;)

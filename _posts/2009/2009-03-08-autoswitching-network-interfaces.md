@@ -15,12 +15,12 @@ tags:
   - ifplugd
   - ifupdown
 ---
-Since I'm a lazy git, I want my laptop to automatically switch back & forth between my wired and wireless interfaces. Seems that stuff like <a href="http://projects.gnome.org/NetworkManager/" target="_blank">Network Manager</a> can do that for you, but it's not really my thing. I don't like stuff where you need a <a href="http://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank">GUI</a> to configure it, a duplicaton of network configuration, and it also tends to hang my machine. No idea why, though.
+Since I'm a lazy git, I want my laptop to automatically switch back & forth between my wired and wireless interfaces. Seems that stuff like [Network Manager](http://projects.gnome.org/NetworkManager/) can do that for you, but it's not really my thing. I don't like stuff where you need a [GUI](http://en.wikipedia.org/wiki/Graphical_user_interface) to configure it, a duplicaton of network configuration, and it also tends to hang my machine. No idea why, though.
 
 After an afternoon of fiddling around with several things, I came up with the recipe:  
-1 portion <a href="http://0pointer.de/lennart/projects/ifplugd/" target="_blank">ifplugd</a>, a good mix of <a href="http://packages.debian.org/ifupdown" target="_blank">ifupdown</a> configuration with <a href="http://guessnet.alioth.debian.org/" target="_blank">guessnet</a> mappings, and some home-grown scripts. Mix well, and let simmer over a hot stove for half an hour. ;)
+1 portion [ifplugd](http://0pointer.de/lennart/projects/ifplugd/), a good mix of [ifupdown](http://packages.debian.org/ifupdown) configuration with [guessnet](http://guessnet.alioth.debian.org/) mappings, and some home-grown scripts. Mix well, and let simmer over a hot stove for half an hour. ;)
 
-The details (tailored to <a href="http://www.debian.org" target="_blank">Debian</a> <a href="http://www.debian.org/releases/unstable/" target="_blank">Sid</a>):
+The details (tailored to [Debian](http://www.debian.org) [Sid](http://www.debian.org/releases/unstable/)):
 
 1. Install ifplugd and guessnet: `apt-get install ifplugd guessnet`
 2. Configure the interface you want ifplugd to monitor. For me, this is eth0 (wired ethernet). You can do this by editing `/etc/default/ifplugd` and adding eth0 in the `INTERFACES` field.  
@@ -113,4 +113,4 @@ Something like this:
 Now, every time ifplugd configures up eth0, ath0 is automatically deconfigured, and vice versa.  
 The actual configuration of the interfaces is still in `/etc/network/interfaces`, so you can still handle it by hand if you want to.
     
-As always, it works fine for me, but <a href="http://en.wiktionary.org/wiki/YMMV" target="_blank">YMMV</a>, and <a href="http://en.wiktionary.org/wiki/TIMTOWTDI" target="_blank">TIMTOWTDI</a>!
+As always, it works fine for me, but [YMMV](http://en.wiktionary.org/wiki/YMMV), and [TIMTOWTDI](http://en.wiktionary.org/wiki/TIMTOWTDI)!

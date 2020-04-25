@@ -16,68 +16,66 @@ tags:
   - s40
   - Symbian
 ---
-As I detailed in my <a href="https://kcore.org/2008/06/26/nokia-3109c-symbian-s40-and-isync/" target="_blank">previous post on how to get this phone working with Leopard</a>, upgrading to <a href="http://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard" target="_blank">Mac OS X 10.6 aka Snow Leopard </a> broke things again.
+As I detailed in my [previous post on how to get this phone working with Leopard](https://kcore.org/2008/06/26/nokia-3109c-symbian-s40-and-isync/), upgrading to [Mac OS X 10.6 aka Snow Leopard ](http://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard) broke things again.
 
 Easy fix though: follow the steps in my previous post, and attached to this post you can find the 'fixed' MetaClasses.plist file.
 
 All I actually did was copy this block in the existing MetaClasses.plist:
 
-`</p>
-<blockquote><p>
-<key>com.nokia.3109</key><br />
-<dict><br />
-        <key>Identification</key><br />
-        <dict><br />
-                <key>com.apple.cgmi+cgmm</key><br />
-                <string>Nokia+Nokia 3109</string><br />
-                <key>com.apple.gmi+gmm</key><br />
-                <string>Nokia+Nokia 3109</string><br />
-                <key>com.apple.usb.vendorid-modelid</key><br />
-                <string>0x0421/0x045A</string><br />
-        </dict><br />
-        <key>InheritsFrom</key><br />
-        <array><br />
-                <string>family.com.nokia.series40.3rdEd.bus.usb-bt</string><br />
-        </array><br />
-        <key>Services</key><br />
-        <array><br />
-                <dict><br />
-                        <key>ServiceName</key><br />
-                        <string>com.apple.model</string><br />
-                        <key>ServiceProperties</key><br />
-                        <dict><br />
-                                <key>ModelIcon</key><br />
-                                <string>NOK3109.tiff</string><br />
-                                <key>ModelName</key><br />
-                                <string>3109</string><br />
-                        </dict><br />
-                </dict><br />
-                <dict><br />
-                        <key>ServiceName</key><br />
-                        <string>com.apple.synchro</string><br />
-                        <key>ServiceProperties</key><br />
-                        <dict><br />
-                                <key>MaxCityLength</key><br />
-                                <integer>50</integer><br />
-                                <key>MaxEMailLength</key><br />
-                                <integer>60</integer><br />
-                                <key>MaxEventLocationLength</key><br />
-                                <integer>150</integer><br />
-                                <key>MaxPhoneNumberLength</key><br />
-                                <integer>48</integer><br />
-                                <key>MaxPostalCodeLength</key><br />
-                                <integer>50</integer><br />
-                                <key>MaxStateLength</key><br />
-                                <integer>50</integer><br />
-                                <key>MaxStreetLength</key><br />
-                                <integer>50</integer><br />
-                                <key>MaxURLLength</key><br />
-                                <integer>60</integer><br />
-                        </dict><br />
-                </dict><br />
-        </array><br />
+```
+<key>com.nokia.3109</key>
+<dict>
+        <key>Identification</key>
+        <dict>
+                <key>com.apple.cgmi+cgmm</key>
+                <string>Nokia+Nokia 3109</string>
+                <key>com.apple.gmi+gmm</key>
+                <string>Nokia+Nokia 3109</string>
+                <key>com.apple.usb.vendorid-modelid</key>
+                <string>0x0421/0x045A</string>
+        </dict>
+        <key>InheritsFrom</key>
+        <array>
+                <string>family.com.nokia.series40.3rdEd.bus.usb-bt</string>
+        </array>
+        <key>Services</key>
+        <array>
+                <dict>
+                        <key>ServiceName</key>
+                        <string>com.apple.model</string>
+                        <key>ServiceProperties</key>
+                        <dict>
+                                <key>ModelIcon</key>
+                                <string>NOK3109.tiff</string>
+                                <key>ModelName</key>
+                                <string>3109</string>
+                        </dict>
+                </dict>
+                <dict>
+                        <key>ServiceName</key>
+                        <string>com.apple.synchro</string>
+                        <key>ServiceProperties</key>
+                        <dict>
+                                <key>MaxCityLength</key>
+                                <integer>50</integer>
+                                <key>MaxEMailLength</key>
+                                <integer>60</integer>
+                                <key>MaxEventLocationLength</key>
+                                <integer>150</integer>
+                                <key>MaxPhoneNumberLength</key>
+                                <integer>48</integer>
+                                <key>MaxPostalCodeLength</key>
+                                <integer>50</integer>
+                                <key>MaxStateLength</key>
+                                <integer>50</integer>
+                                <key>MaxStreetLength</key>
+                                <integer>50</integer>
+                                <key>MaxURLLength</key>
+                                <integer>60</integer>
+                        </dict>
+                </dict>
+        </array>
 </dict>
-</p></blockquote>
-<p>`
+```
 
 Since WP keeps on braking my indentation, just download it here: [MetaClasses.plist](/assets/files/2009/11/MetaClasses.plist)

@@ -15,37 +15,40 @@ tags:
   - tomato
   - wrt54gl
 ---
-Since I recently moved, and now have my <a href="http://www.polarcloud.com/tomato" target="_blank">Tomato</a> based <a href="http://www.linksysbycisco.com/US/en/products/WRT54GL" target="_blank">WRT54GL</a> on 24/7, I also wanted a way to keep a backup of those nice statistics the router generates. You have the option (built-in) to write them to <a href="http://en.wikipedia.org/wiki/Non-volatile_random_access_memory" target="_blank">nvram</a> or to a <a href="http://en.wikipedia.org/wiki/Server_Message_Block" target="_blank">CIFS</a> share, but the former has a limited amount of writes, and the latter is not really stable (and I don't have anything powered on all the time to keep the backups on).
+Since I recently moved, and now have my [Tomato](http://www.polarcloud.com/tomato) based [WRT54GL](http://www.linksysbycisco.com/US/en/products/WRT54GL) on 24/7, I also wanted a way to keep a backup of those nice statistics the router generates. You have the option (built-in) to write them to [nvram](http://en.wikipedia.org/wiki/Non-volatile_random_access_memory) or to a [CIFS](http://en.wikipedia.org/wiki/Server_Message_Block) share, but the former has a limited amount of writes, and the latter is not really stable (and I don't have anything powered on all the time to keep the backups on).
 
-I found some nice scripts on <a href="http://gulbsoft.de/doku.php/projects/linksys" target="_blank">gulbsoft.de</a> that showed how to make backups on an ftp/website combination, but I wanted to move this to an internet-host (since that thing IS up 24/7 in contrast to my inhouse infrastructure) and I didn't really like them, I 'redesigned' them.
+I found some nice scripts on [gulbsoft.de](http://gulbsoft.de/doku.php/projects/linksys) that showed how to make backups on an ftp/website combination, but I wanted to move this to an internet-host (since that thing IS up 24/7 in contrast to my inhouse infrastructure) and I didn't really like them, I 'redesigned' them.
 
 **Lo and behold!** 
 
 The only thing you need to do is put this in your WAN-up script:
 
-> `killall rstats</p>
-<p>URL="<i><b>http://your.web.page.address</b></i>"<br />
-FTP="<i><b>ftp.server.name</b></i>"<br />
-USER="<i><b>username</b></i>"<br />
-PW="<i><b>password</b></i>"<br />
-STATSDIR="/tmp/var/lib/misc"<br />
-FTPSCRIPT="/tmp/ftpbackup.sh"<br />
-FILES="rstats-history.gz rstats-speed.gz rstats-stime rstats-source"</p>
-<p>cat > $FTPSCRIPT << EOF<br />
-for FILE in $FILES; do<br />
-&nbsp;&nbsp;ftpput -u $USER -p $PW $FTP \$FILE $STATSDIR/\$FILE<br />
-done<br />
-EOF<br />
-chmod a+x $FTPSCRIPT</p>
-<p>cru d bkstat<br />
-cru a bkstat "2,15,30,45 * * * * $FTPSCRIPT"<br />
-cd $STATSDIR<br />
-rm $FILES<br />
-for FILE in $FILES; do<br />
-&nbsp;&nbsp;wget $URL/$FILE<br />
-done<br />
-sleep 10<br />
-rstats<br />
-` 
+```bash
+killall rstats
+URL="http://your.web.page.address"
+FTP="ftp.server.name"
+USER="username"
+PW="password"
+STATSDIR="/tmp/var/lib/misc"
+FTPSCRIPT="/tmp/ftpbackup.sh"
+FILES="rstats-history.gz rstats-speed.gz rstats-stime rstats-source"
+
+cat > $FTPSCRIPT << EOF
+for FILE in $FILES; do
+  ftpput -u $USER -p $PW $FTP $FILE $STATSDIR/$FILE
+done
+EOF
+chmod a+x $FTPSCRIPT
+
+cru d bkstat
+cru a bkstat "2,15,30,45 * * * * $FTPSCRIPT"
+cd $STATSDIR
+rm $FILES
+for FILE in $FILES; do
+  wget $URL/$FILE
+done
+sleep 10
+rstats
+``` 
 
 Don't forget to change the lines reading URL, FTP, USER and PW to your respective website address, ftp server name, ftp login name and ftp password!

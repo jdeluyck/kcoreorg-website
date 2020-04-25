@@ -13,15 +13,15 @@ tags:
   - alcatel x200
   - linux
 ---
-I recently purchased an <a href="http://www.my-onetouch.com/global/content/view/full/1850" target="_blank">Alcatel Onetouch X200</a> <a href="http://en.wikipedia.org/wiki/3G" target="_blank">3G</a> USB modem, to be able to use internet on various locations where there is no wired or wifi available. Works fine under Windows/Mac OS X, bit more of a hassle under Linux.
+I recently purchased an [Alcatel Onetouch X200](http://www.my-onetouch.com/global/content/view/full/1850) [3G](http://en.wikipedia.org/wiki/3G) USB modem, to be able to use internet on various locations where there is no wired or wifi available. Works fine under Windows/Mac OS X, bit more of a hassle under Linux.
 
 Here are some hints on how to get it to work:
 
-  * You need to install <a href="http://www.draisberghof.de/usb_modeswitch/" target="_blank">usb-modeswitch</a> to switch the card from it's builtin usb-storage mode to the USBModem mode. Configuration is done in /etc/usb_modeswitch.conf
+  * You need to install [usb-modeswitch](http://www.draisberghof.de/usb_modeswitch/) to switch the card from it's builtin usb-storage mode to the USBModem mode. Configuration is done in /etc/usb_modeswitch.conf
   * Use `/dev/ttyUSB2`. The other two ports that your modem will give don't really work well.
   * Also, use atleast kernel 2.6.31. Earlier ones might not work.
   * Disable PIN authentication on your [SIMcard](http://en.wikipedia.org/wiki/Subscriber_Identity_Module)! This one thing was what kept it from working decently - I tried tons of things, and when I disabled the PIN, it worked nearly instantaneously.  
     The command to do PIN auth is `AT+CPIN=1111` (changing 1111 by your actual PIN), but when issuing this command the modem accepts it, but very often freaks out afterwards. Weird.  
-    You can find a nice list of GSM modem AT codes on <a href="http://www.gsm-modem.de/gsm-modem-faq.html" target="_blank">gsm-modem.de</a>.
+    You can find a nice list of GSM modem AT codes on [gsm-modem.de](http://www.gsm-modem.de/gsm-modem-faq.html).
 
 Thats about it!

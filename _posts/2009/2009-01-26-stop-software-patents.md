@@ -13,6 +13,6 @@ tags:
   - software patents
 format: image
 ---
-<a href="http://stopsoftwarepatents.eu/" target="_blank"><img src="/assets/images/2009/11/ssp-336-280.png" alt="Stop Software Patents" /></a>
+[![Stop Software Patents](/assets/images/2009/11/ssp-336-280.png "Stop Software Patents")](http://stopsoftwarepatents.eu/)
 
 Yes, I signed this petition!
