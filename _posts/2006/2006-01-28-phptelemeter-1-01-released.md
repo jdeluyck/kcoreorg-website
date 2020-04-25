@@ -15,4 +15,4 @@ I've just released phptelemeter 1.01. Brown paper bag release!
 
   * Bugfix: I forgot to change the Telemeter4tools error ID's, fixed.
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

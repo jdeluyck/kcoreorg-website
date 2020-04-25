@@ -124,4 +124,4 @@ Here's the changelog leading up from the very first version to this version ;)
 
   * Initial Release
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

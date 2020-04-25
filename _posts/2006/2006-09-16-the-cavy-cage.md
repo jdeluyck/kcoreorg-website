@@ -15,17 +15,9 @@ format: gallery
 ---
 Today I decided to change some things to their cavia cage, and see if they like - use it.
 
-<table border="0" width="100%">
-  <tr>
-    <td width="50%">
-      <img src="/assets/images/2006/09/IMG_2481-sm.jpg" />
-    </td>
-    
-    <td width="50%">
-      <img src="/assets/images/2006/09/IMG_2482-sm.jpg" />
-    </td>
-  </tr>
-</table>
+![](/assets/images/2006/09/IMG_2481-sm.jpg)
+
+![](/assets/images/2006/09/IMG_2482-sm.jpg)
 
 I wonder if they'll like it :)
 

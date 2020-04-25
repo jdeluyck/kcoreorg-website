@@ -24,16 +24,11 @@ Seeing that that NoSmell crap costs about 5e for a two-times change, I think I'l
 
 But, they're two happy critters again :)
 
-<table>
-  <tr>
-    <td>
-      <img src="/assets/images/2006/09/IMG_2573-sm.jpg" alt="Macchiatto" />
-    </td>
-    
-    <td>
-      <img src="/assets/images/2006/09/IMG_2575-sm.jpg" alt="Nero" />
-    </td>
-  </tr>
-</table>
+![Machiatto][macchiatto]
+
+![Nero][nero]
 
 (munching hay as I type).
+
+[nero]: /assets/images/2006/09/IMG_2575-sm.jpg "Nero"
+[macchiatto]: /assets/images/2006/09/IMG_2573-sm.jpg "Macchiatto"

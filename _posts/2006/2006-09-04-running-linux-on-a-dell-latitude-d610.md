@@ -61,18 +61,16 @@ Integrated Bluetooth
 0000:03:03.0 Network controller: Intel Corporation PRO/Wireless 2915ABG MiniPCI Adapter (rev 05)
 ```
 
-Here's a <a href="/assets/files/2006/09/dell-d610-pcilisting.txt" target="_blank" rel="external">detailed pci listing</a>.
+Here's a [detailed pci listing](/assets/files/2006/09/dell-d610-pcilisting.txt).
 
 ### Linux 2.6.x kernel
 
-The latest 2.6 kernel is: <a href="https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz" target="_blank">2.6.39.4</a>.  
-Here's my <a href="/assets/files/2006/09/dell-d610-config-2.6.txt" target="_blank" rel="external">2.6.15.6 kernel configuration</a>.
+The latest 2.6 kernel is: [2.6.39.4](https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz).  
+Here's my [2.6.15.6 kernel configuration](/assets/files/2006/09/dell-d610-config-2.6.txt).
 
 ### USB
 
-<p class="hardware">
-  Hardware: this is the Intel 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB chip.
-</p>
+Hardware: this is the Intel 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB chip.
 
 USB worked out of the box by loading the following modules:
 
@@ -80,9 +78,9 @@ USB worked out of the box by loading the following modules:
   * `ehci-hcd` (USB 2 support)
   * `usbcore` (which is automatically loaded by the previous ones)
 
-It is advisable to install <a href="http://linux-hotplug.sourceforge.net/" target="_blank" rel="external">the hotplug system</a> so the necessary modules are loaded upon plugging. For Debian, install the <a href="http://packages.debian.org/hotplug" target="_blank" rel="external"><code>hotplug</code></a> package.
+It is advisable to install [the hotplug system](http://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](http://packages.debian.org/hotplug) package.
 
-These days you're actually better of installing the <a href="http://packages.debian.org/udev" target="_blank" rel="external"><code>udev</code></a> package, which also handles hotplug.
+These days you're actually better of installing the [udev](http://packages.debian.org/udev) package, which also handles hotplug.
 
 ### 10/100/1000 MBit ethernet LAN
 
@@ -96,7 +94,7 @@ Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Audio Cont
 
 What can I say? It worked perfectly with the ALSA module called `snd_intel8x0` module.
 
-For Debian, install the <a href="http://packages.debian.org/alsa-base" target="_blank" rel="external"><code>alsa-base</code></a> and <a href="http://packages.debian.org/alsa-utils" target="_blank" rel="external"><code>alsa-utils</code></a> packages.
+For Debian, install the [alsa-base](http://packages.debian.org/alsa-base) and [alsa-utils](http://packages.debian.org/alsa-utils) packages.
 
 ### VGA Framebuffer console
 
@@ -133,11 +131,11 @@ The screen section looks like this:
 		EndSection
 ```
 
-To get the 1400x1050 resolution working, you have to patch the video bios. There's a utility for that called <a href="http://www.geocities.com/stomljen/" target="_blank" rel="external">915resolution</a>.  
-(for debian install the <a href="http://packages.debian.org/915resolution" target="_blank" rel="external"><code>915resolution</code></a> package). The command to run at every bootup is `915resolution 3c 1400 1050`.  
+To get the 1400x1050 resolution working, you have to patch the video bios. There's a utility for that called [915resolution](http://www.geocities.com/stomljen/).  
+(for debian install the [915resolution](http://packages.debian.org/915resolution) package). The command to run at every bootup is `915resolution 3c 1400 1050`.  
 After this, X will accept the resolution.
 
-Here's my <a href="/assets/files/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
+Here's my [complete xorg.conf](/assets/files/2006/09/dell-d610-xorg-conf.txt) file
 
 ### TV Out
 
@@ -147,7 +145,7 @@ This is rumored to work with the standard `i810` X.Org driver. Not tested.
 
 Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Modem Controller - Winmodem.
 
-This modem can be gotten to work using the <a href="http://www.linuxant.com/" target="_blank" rel="external">Linuxant</a> <a href="http://www.linuxant.com/drivers/hsf/index.php" target="_blank" rel="external">HSF Softmodem drivers</a>. Unfortunately, they are payware.  
+This modem can be gotten to work using the [Linuxant](http://www.linuxant.com/) [HSF Softmodem drivers](http://www.linuxant.com/drivers/hsf/index.php). Unfortunately, they are payware.  
 They also have a limited-speed test driver, you can see if that works for you before deciding to buy the driver.
 
 NOTE: You have to compile your kernel **without `CONFIG_4KSTACKS`!** If you use this driver with 4K stacks enabled, it \_will\_ crash your system!
@@ -164,9 +162,9 @@ You can use `/dev/scd0` (the cdrom device) directly for cd burning.
 
 Hardeware: Dell Wireless 350 Bluetooth - connected to the USB bus.
 
-Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install <a href="http://linux-hotplug.sourceforge.net/" target="_blank" rel="external">hotplug</a> the driver will be loaded automatically if you press the bluetooth button!
+Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install [hotplug](http://linux-hotplug.sourceforge.net/) the driver will be loaded automatically if you press the bluetooth button!
 
-Debian users might want to install the <a href="http://packages.debian.org/buetooth" target="_blank" rel="external"><code>buetooth</code></a> package.
+Debian users might want to install the [buetooth](http://packages.debian.org/buetooth) package.
 
 ### Harddisk
 
@@ -180,7 +178,7 @@ Explanation:
 
   * -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
 
-For Debian; check the <a href="http://packages.debian.org/hdparm" target="_blank" rel="external"><code>hdparm</code></a> package.
+For Debian; check the [hdparm](http://packages.debian.org/hdparm) package.
 
 ### Speedstep
 
@@ -188,31 +186,31 @@ You need this if you don't want your CPU to eat your batteries empty. It's inclu
 
 It works perfectly after loading the `speedstep-centrino` and any of the `cpufreq-` modules.
 
-You can either install the `<a href="http://cpufreqd.sourceforge.net/" target="_blank" rel="external">cpufreqd</a>` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
-I use <a href="/assets/files/2006/09/dell-d610-cpufreq_setup.txt" target="_blank" rel="external">this init script</a> to setup everything at bootup.
+You can either install the `[cpufreqd](http://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
+I use [this init script](/assets/files/2006/09/dell-d610-cpufreq_setup.txt) to setup everything at bootup.
 
-For Debian, check the <a href="http://packages.debian.org/cpufreqd" target="_blank" rel="external"><code>cpufreqd</code></a> or <a href="http://packages.debian.org/powernowd" target="_blank" rel="external"><code>powernowd</code></a> packages.
+For Debian, check the [cpufreqd](http://packages.debian.org/cpufreqd) or [powernowd](http://packages.debian.org/powernowd) packages.
 
 ### Wireless Lan
 
 Hardware: Intel Corporation PRO/Wireless 2915ABG MiniPCI Adapter
 
-Driver status: native linux driver available at <a href="http://ipw2200.sourceforge.net/" target="_blank" rel="external">http://ipw2200.sourceforge.net/</a>
+Driver status: native linux driver available at [http://ipw2200.sourceforge.net/](http://ipw2200.sourceforge.net/)
 
 The native driver works out of the box. Just extract, compile (using `make; make install`) and run `modprobe ipw2200`.  
 For information on how to configure your wlan card, please see the above website.
 
 If you want your nifty wlan led to light, add `led=1` to the modprobe line, or add `options ipw2200 led=1` to a file in `/etc/modprobe.d/`.
 
-For Debian there are the <a href="http://packages.debian.org/ipw2200-source" target="_blank" rel="external"><code>ipw2200-source</code></a> and <a href="http://packages.debian.org/ieee80211-source" target="_blank" rel="external"><code>ieee80211-source</code></a> packages available, which simplifies following up on new releases.
+For Debian there are the [ipw2200-source](http://packages.debian.org/ipw2200-source) and [ieee80211-source](http://packages.debian.org/ieee80211-source) packages available, which simplifies following up on new releases.
 
 ### PCMCIA
 
 Hardware: Texas Instruments PCI6515 Cardbus Controller
 
-You have to install the <a href="http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html" target="_blank" rel="external">pcmciautils</a> package, and enable the `yenta_socket` module in the kernel.
+You have to install the [pcmciautils](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html) package, and enable the `yenta_socket` module in the kernel.
 
-For Debian, check the <a href="http://packages.debian.org/pcmciautils" target="_blank" rel="external"><code>pcmciautils</code></a> package.
+For Debian, check the [pcmciautils](http://packages.debian.org/pcmciautils) package.
 
 ### SmartCard reader
 
@@ -233,7 +231,7 @@ Here's what you need to do:
   3. Load the smsc-ircc2 module with the correct parameters: `modprobe smsc-ircc2 ircc_irq=3 ircc_dma=3 ircc_sir=0x2f8 ircc_fir=0x280`
   4. Launch irattach on the `irda0` device: `irattach irda0 -s`
 
-For Debian, I advise the <a href="http://packages.debian.org/irda-utils" target="_blank" rel="external"><code>irda-utils</code></a> package.
+For Debian, I advise the [irda-utils](http://packages.debian.org/irda-utils) package.
 
 ### Multimedia Keys
 
@@ -247,14 +245,14 @@ These include:
   * Battery (`Fn-F3`)
   * Eject CD (`Fn-F10`)
 
-Normally the Mute, Eject CD, Battery and Hibernate buttons don't generate key-up events, causing the, to 'hang'. You can solve that problem by using <a href="/assets/files/2006/09/dell-d610-d610-fnkeys-fix.patch_.txt" target="_blank" rel="external">this</a> kernel patch. (apply it by using `cat d610-fnkeys-fix.patch | patch -p1` in the kernel sourcedir)
+Normally the Mute, Eject CD, Battery and Hibernate buttons don't generate key-up events, causing the, to 'hang'. You can solve that problem by using [this](/assets/files/2006/09/dell-d610-d610-fnkeys-fix.patch_.txt) kernel patch. (apply it by using `cat d610-fnkeys-fix.patch | patch -p1` in the kernel sourcedir)
 
-The last three keys generate scancodes, but no keycodes by default. To fix this, you can map them using `setkeycodes`. You can also use <a href="/assets/files/2006/09/dell-d610-d610init.txt" target="_blank" rel="external">this init.d script</a>.
+The last three keys generate scancodes, but no keycodes by default. To fix this, you can map them using `setkeycodes`. You can also use [this init.d script](/assets/files/2006/09/dell-d610-d610init.txt).
 
-I used the <a href="http://ftp.debian.org/debian/pool/main/h/hotkeys/" target="_blank" rel="external">hotkeys</a> for it, with this <a href="/assets/files/2006/09/dell-d610-delld610.def_.txt" target="_blank" rel="external">delld610.def</a> file in `/usr/share/hotplug/` and then starting hotkeys as  
-`hotkeys --no-splash --cdrom-dev=/dev/scd0 --osd=off` from your `.xsession` file. I also use <a href="/assets/files/2006/09/dell-d610-kdialog_acpi_batt_status.txt" target="_blank" rel="external">a seperate script</a> to get the ACPI Battery status into a kdialog window, this is mapped to the Battery Status key.
+I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [delld610.def](/assets/files/2006/09/dell-d610-delld610.def_.txt) file in `/usr/share/hotplug/` and then starting hotkeys as  
+`hotkeys --no-splash --cdrom-dev=/dev/scd0 --osd=off` from your `.xsession` file. I also use [a seperate script](/assets/files/2006/09/dell-d610-kdialog_acpi_batt_status.txt) to get the ACPI Battery status into a kdialog window, this is mapped to the Battery Status key.
 
-Debian users can install the <a href="http://packages.debian.org/hotkeys" target="_blank" rel="external"><code>hotkeys</code></a> package.
+Debian users can install the [hotkeys](http://packages.debian.org/hotkeys) package.
 
 Thanks to Alexander Wintermans for the extra info on getting this to work.
 
@@ -266,17 +264,18 @@ Not yet tried.
 
 This works pretty well - there are some caveats to take note off tho:
 
-<a href="http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux" target="_blank" rel="external">This site</a> has some hints with respect to the SATA side of suspending.
+[This site](http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux) has some hints with respect to the SATA side of suspending.
 
 On kernels < 2.6.16 you have to apply [this patch](http://tpctl.sourceforge.net/tmp/sata_pm.2.6.15-rc6.patch) to get the SATA suspend/resume to work.
 
-To get the display back to life, you have to use vbetool (debian package <a href="http://packages.debian.org/vbetool" target="_blank" rel="external"><code>vbetool</code></a>).
+To get the display back to life, you have to use vbetool (debian package [vbetool](http://packages.debian.org/vbetool)).
 
-I use the following <a href="/assets/files/2006/09/dell-d610-acpi-events-suspend.txt" target="_blank" rel="external"><code>suspend</code></a> script in `/etc/acpi/events` (which is triggered when I press my suspend button), and this <a href="/assets/files/2006/09/dell-d610-suspend2ram.txt" target="_blank" rel="external"><code>suspend2ram</code></a> script to do the actual suspending.
+I use the following [suspend](/assets/files/2006/09/dell-d610-acpi-events-suspend.txt) script in `/etc/acpi/events` 
+(which is triggered when I press my suspend button), and this [suspend2ram](/assets/files/2006/09/dell-d610-suspend2ram.txt) script to do the actual suspending.
 
 ### Touchpad in XFree86/X.Org
 
-This is a ALPS touchpad. You can use it with <a href="http://w1.894.telia.com/~u89404340/touchpad/" target="_blank" rel="external">this driver</a>.  
+This is a ALPS touchpad. You can use it with [this driver](http://w1.894.telia.com/~u89404340/touchpad/).  
 Extract from the `INSTALL` file:
 
 1. Copy the driver-module `synaptics_drv.o` into the XFree-module path eg. `/usr/X11R6/lib/modules/input/`.
@@ -327,9 +326,9 @@ InputDevice "Mouse[1]"  "CorePointer"
 ...
 ```
 
-Here's my <a href="/assets/files/2006/09/dell-d610-xorg-conf.txt" target="_blank" rel="external">complete <code>xorg.conf</code> file</a>
+Here's my [complete xorg.conf](/assets/files/2006/09/dell-d610-xorg-conf.txt) file
 
-Debian users can install the <a href="http://packages.debian.org/xfree86-driver-synaptics" target="_blank" rel="external"><code>xfree86-driver-synaptics</code></a> package (for both XFree86 and X.Org).
+Debian users can install the [xfree86-driver-synaptics](http://packages.debian.org/xfree86-driver-synaptics) package (for both XFree86 and X.Org).
 
 ### LID-switch problem
 
@@ -337,24 +336,24 @@ There's a BIOS bug in this laptop which causes the display to stay blank when th
 
 For this to work, you need to activate the `video` ACPI module.
 
-Install this <a href="/assets/files/2006/09/dell-d610-lidswitch.txt" target="_blank" rel="external">lidswitch event script</a> in `/etc/acpi/events`, and <a href="/assets/files/2006/09/dell-d610-lidswitch.sh_.txt" target="_blank" rel="external">lidswitch trigger script</a> in `/etc/acpi`.
+Install this [lidswitch event script](/assets/files/2006/09/dell-d610-lidswitch.txt) in `/etc/acpi/events`, and [lidswitch trigger script](/assets/files/2006/09/dell-d610-lidswitch.sh_.txt) in `/etc/acpi`.
 
 What we basically do is `echo 0x80000001 > /proc/acpi/video/VID/LCD/state`, which reactivates the LCD screen.
 
 ## Links
 
-  * Dell: <a href="http://www.dell.com/" target="_blank" rel="external">http://www.dell.com</a>
-  * Centrino: <a href="http://www.intel.com/home/notebook/centrino/index.htm" target="_blank" rel="external">http://www.intel.com/home/notebook/centrino/index.htm</a>
-  * 915resolution: <a href="http://www.geocities.com/stomljen/" target="_blank" rel="external">http://www.geocities.com/stomljen/</a>/li>
-  * Intel PRO/Wireless 2915AB linux driver: <a href="http://ipw2200.sourceforge.net/" target="_blank" rel="external">http://ipw2200.sourceforge.net/</a>
-  * Hotkeys program: <a href="http://ftp.debian.org/debian/pool/main/h/hotkeys/" target="_blank" rel="external">http://ftp.debian.org/debian/pool/main/h/hotkeys/</a>
-  * Kernel: <a href="http://www.kernel.org/" target="_blank" rel="external">http://www.kernel.org</a>
-  * Linux on mobile computers: <a href="http://www.tuxmobil.com/" target="_blank" rel="external">http://www.tuxmobil.com/</a>
-  * Linux-on-laptops: <a href="http://www.linux-on-laptops.com/" target="_blank" rel="external">http://www.linux-on-laptops.com</a>
-  * Linux hotplug: <a href="http://linux-hotplug.sourceforge.net/" target="_blank" rel="external">http://linux-hotplug.sourceforge.net/</a>
-  * SATA and Linux: <a href="http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux" target="_blank" rel="external">http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux</a>
-  * PCMCIAUtils (2.6.12+ kernels): <a href="http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html" target="_blank" rel="external">http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html</a>
-  * Synaptics Touchpad driver for XFree86/Xorg: <a href="http://w1.894.telia.com/~u89404340/touchpad/" target="_blank" rel="external">http://w1.894.telia.com/~u89404340/touchpad/</a>
-  * Winmodems on linux: <a href="http://www.linmodems.org/" target="_blank" rel="external">http://www.linmodems.org/</a>
-  * Linuxant modem drivers: <a href="http://www.linuxant.com/drivers/hsf/index.php" target="_blank" rel="external">http://www.linuxant.com/drivers/hsf/index.php</a>
-  * Linuxant: <a href="http://www.linuxant.com/" target="_blank" rel="external">http://www.linuxant.com/</a>
+  * Dell: [http://www.dell.com](http://www.dell.com/)
+  * Centrino: [http://www.intel.com/home/notebook/centrino/index.htm](http://www.intel.com/home/notebook/centrino/index.htm)
+  * 915resolution: [http://www.geocities.com/stomljen/](http://www.geocities.com/stomljen/)/li>
+  * Intel PRO/Wireless 2915AB linux driver: [http://ipw2200.sourceforge.net/](http://ipw2200.sourceforge.net/)
+  * Hotkeys program: [http://ftp.debian.org/debian/pool/main/h/hotkeys/](http://ftp.debian.org/debian/pool/main/h/hotkeys/)
+  * Kernel: [http://www.kernel.org](http://www.kernel.org/)
+  * Linux on mobile computers: [http://www.tuxmobil.com/](http://www.tuxmobil.com/)
+  * Linux-on-laptops: [http://www.linux-on-laptops.com](http://www.linux-on-laptops.com/)
+  * Linux hotplug: [http://linux-hotplug.sourceforge.net/](http://linux-hotplug.sourceforge.net/)
+  * SATA and Linux: [http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux](http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux)
+  * PCMCIAUtils (2.6.12+ kernels): [http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html)
+  * Synaptics Touchpad driver for XFree86/Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
+  * Winmodems on linux: [http://www.linmodems.org/](http://www.linmodems.org/)
+  * Linuxant modem drivers: [http://www.linuxant.com/drivers/hsf/index.php](http://www.linuxant.com/drivers/hsf/index.php)
+  * Linuxant: [http://www.linuxant.com/](http://www.linuxant.com/)

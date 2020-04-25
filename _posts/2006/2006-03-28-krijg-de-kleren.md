@@ -13,11 +13,9 @@ tags:
   - jasperina de jong
   - krijg de kleren
 ---
-Thanks to my <a href="http://foefel.kcore.org/blog" target="_blank">mum</a> I discovered and can appreciate <a href="http://www.jasperina.net" target="_blank">Jasperina De Jong</a> (a dutch cabaretier, who no longer performs unfortunately) a lot.
+Thanks to my [mum](http://foefel.kcore.org/blog) I discovered and can appreciate [Jasperina De Jong](http://www.jasperina.net) (a dutch cabaretier, who no longer performs unfortunately) a lot.
 
-One of the very good ones from her musical <a href="http://www.boudewijndegroot.nl/bdgtea.htm" target="_blank">De Engel Van Amsterdam</a> (The Angel from Amsterdam) is this song, Krijg De Kleren.
-
-<!--more-->
+One of the very good ones from her musical [De Engel Van Amsterdam](http://www.boudewijndegroot.nl/bdgtea.htm) (The Angel from Amsterdam) is this song, Krijg De Kleren.
 
 All the lyrics can be found at the url above.
 

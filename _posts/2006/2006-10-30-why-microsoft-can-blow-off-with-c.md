@@ -13,6 +13,6 @@ tags:
   - microsoft
 format: link
 ---
-See <a href="http://www.alenz.org/mirror/khason/why-microsoft-can-blow-off-with-c.html" target="_blank">http://www.alenz.org/mirror/khason/why-microsoft-can-blow-off-with-c.html</a>
+See [http://www.alenz.org/mirror/khason/why-microsoft-can-blow-off-with-c.html](http://www.alenz.org/mirror/khason/why-microsoft-can-blow-off-with-c.html)
 
 :p

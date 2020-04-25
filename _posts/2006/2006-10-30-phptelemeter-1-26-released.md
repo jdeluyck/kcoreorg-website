@@ -17,4 +17,4 @@ I've just released phptelemeter 1.26. This release includes the following chang
   * Fixed telemeter_web parser (again).
   * Fixed dommel_web parser for overusage.
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

@@ -17,4 +17,4 @@ I've just released phptelemeter 1.22. This release includes the following chang
   * Made skynet_web parser less prone to error on webpage changes
   * Cleaned up telenet_web parser a bit
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

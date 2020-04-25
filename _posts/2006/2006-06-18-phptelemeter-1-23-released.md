@@ -17,4 +17,4 @@ I've just released phptelemeter 1.23. This release includes the following chang
   * Made phptelemeter PHP5 compatible.
   * Added detection of positions in the webpage for the telemeter_web parser (less prone to error on page changes)
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

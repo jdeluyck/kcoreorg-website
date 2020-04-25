@@ -15,4 +15,4 @@ I've just released phptelemeter 1.25. This release includes the following bugfi
 
   * Fixed skynet_web parser when used quota is < 1 gB.
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

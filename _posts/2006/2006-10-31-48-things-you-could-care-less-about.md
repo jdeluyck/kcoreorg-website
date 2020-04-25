@@ -9,9 +9,7 @@ permalink: /2006/10/31/48-things-you-could-care-less-about/
 categories:
   - Personal
 ---
-I saw it from my <a href="http://sade.sadevil.org/blog/?p=83#more-83" target="_blank">SO's site</a>, so I'm gonna include it here!
-
-<!--more-->
+I saw it from my [SO's site](http://sade.sadevil.org/blog/?p=83#more-83), so I'm gonna include it here!
 
   1. **First Name:** Jan
   2. **Were you named after anyone?** Not really. My father has a rather dull sense of names, and so well, I have a fairly common name in Belgium!
@@ -57,7 +55,7 @@ I saw it from my <a href="http://sade.sadevil.org/blog/?p=83#more-83" target="_b
  42. **What did you watch last night on TV?** A part of a very crappy show called "Beauty and the nerd" which is a very very very big debasement of females and males alike.
  43. **Favourite sounds:** Silence. Birds. The laugh of my gf!
  44. **Rolling Stones or Beatles?** Beatles!
- 45. **The furthest you've been from home?** That would be Greece. Or Schotland? Nah, Greece.
+ 45. **The furthest you've been from home?** That would be Greece. Or Scotland? Nah, Greece.
  46. **What's your special talent?** People seem to want to talk to me all the time. And I'm very patient (so they say...)
  47. **Where were you born?** Aalst.
  48. **Who sent this to you?** Noone. I appropriated it to myself after consulting with my lawyer.

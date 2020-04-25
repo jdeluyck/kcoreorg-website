@@ -16,6 +16,6 @@ Hmmm.. what can I say, after being 'away' for this long :) I just didn't know wh
 
 Nothing much happened meanwhile. I spent [Newyears in Madrid](https://kcore.org/2006/01/08/newyear-in-madrid/), I went there again in February and will do so on March 16th...
 
-I also got the latest album of <a href="http://www.neilyoung.com/" target="_blank">Neil Young</a>, titled <a href="http://www.neilyoung.com/prairiewind.html" target="_blank">Prairie Wind</a> which is very good actually :)
+I also got the latest album of [Neil Young](http://www.neilyoung.com/), titled [Prairie Wind](http://www.neilyoung.com/prairiewind.html) which is very good actually :)
 
 Other than that, most things are going spiffy. I'm going to start into a new project for work soonish, only if I could find a way to be with Diana more it'd be purrfect.

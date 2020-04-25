@@ -18,4 +18,4 @@ I've just released phptelemeter 1.20. This release includes the following chang
   * Added dommel_web parser for the Dommel.com ISP
   * Added configuration parameter for file output extension
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).
