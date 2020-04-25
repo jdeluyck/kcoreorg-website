@@ -17,4 +17,4 @@ I've just released phptelemeter 1.30. This version includes the following change
   * Changed Telenet parsers: Telenet now has one fix quota instead of separate upload/download (fixes: 1671798)
   * Updated publishers to work with a history of one quota and separate quotas (also for Telenet)
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

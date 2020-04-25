@@ -14,9 +14,9 @@ tags:
 ---
 _**No christmas stuff before december 15th!**_
 
-The <a href="http://www.radio1.be/" target="_blank">Radio 1</a> show <a href="http://www.radio1.be/programmas/pepi/" target="_blank">Peeters & Pichal</a> is <a href="http://www.radio1.be/programmas/pepi/149432/" target="_blank">keeping track of early christmas stuff</a> appearing. The first things they did was opening a hot-line where people could report early sightings of christmas crap happening.
+The [Radio 1](http://www.radio1.be/) show [Peeters & Pichal](http://www.radio1.be/programmas/pepi/) is [keeping track of early christmas stuff](http://www.radio1.be/programmas/pepi/149432/) appearing. The first things they did was opening a hot-line where people could report early sightings of christmas crap happening.
 
-Now they've started (in cooperation with <a href="http://www.humo.be/" target="_blank">Humo</a>) a sticker-action: **No christmas stuff before december 15th!**  
+Now they've started (in cooperation with [Humo](http://www.humo.be/)) a sticker-action: **No christmas stuff before december 15th!**  
 ![Geen kerstgedoe voor 15 december!](/assets/images/2007/11/geen_kerstgedoe_voor_15dec-sm.png) 
 
 It's an action I support - It's excessive that stores have already been putting up their christmas stuff since end of september!

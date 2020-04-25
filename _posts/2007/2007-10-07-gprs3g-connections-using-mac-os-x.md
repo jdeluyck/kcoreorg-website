@@ -16,12 +16,12 @@ tags:
   - Spain
   - vodafone
 ---
-Here's a simple howto to get your Mac internet-connected using GPRS/3G on your bluetooth-equipped phone. I've only tested this with my <a HREF="http://www.motorola.com/motoinfo/product/details.jsp?globalObjectId=69" TARGET="_blank">Motorola V3</a> and <a HREF="http://www.vodafone.es" TARGET="_blank">Vodafone (Spain)</a>, so no guarantees about the other providers, but the main part should be the same.
+Here's a simple howto to get your Mac internet-connected using GPRS/3G on your bluetooth-equipped phone. I've only tested this with my [Motorola V3](http://www.motorola.com/motoinfo/product/details.jsp?globalObjectId=69) and [Vodafone (Spain)](http://www.vodafone.es), so no guarantees about the other providers, but the main part should be the same.
 
 First, let's prepare:
 
-  1. download the necessary Modem scripts from <a HREF="http://home2.btconnect.com/Taniwha/" TARGET="_blank">http://home2.btconnect.com/Taniwha/</a>. Decompress the StuffIt! file (eg. with <a HREF="http://wakaba.c3.cx/s/apps/unarchiver.html" TARGET="_blank">The Unarchiver</a>) and copy the files into /Library/Modem Scripts.
-  2. check your operator's settings on <a HREF="http://home2.btconnect.com/Taniwha/gprs.html" TARGET="_blank">this page</a> (for Vodafone, it lists user/password: vodafone/vodafone, and APN airtelnet.es).
+  1. download the necessary Modem scripts from [http://home2.btconnect.com/Taniwha/](http://home2.btconnect.com/Taniwha/). Decompress the StuffIt! file (eg. with [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)) and copy the files into /Library/Modem Scripts.
+  2. check your operator's settings on [this page](http://home2.btconnect.com/Taniwha/gprs.html) (for Vodafone, it lists user/password: vodafone/vodafone, and APN airtelnet.es).
 
 Now, set your phone to be detectable, and pair it with the Mac:
 

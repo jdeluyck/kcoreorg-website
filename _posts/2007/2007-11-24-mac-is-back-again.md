@@ -14,4 +14,4 @@ tags:
   - repair
   - screw
 ---
-After they <a href="https://kcore.org/2007/11/14/and-back-to-apple/" target="_blank">screwed a screw</a> in my previous repair, it's back again. I've checked it, nothing's loose, everything seems to be in order. Let's hope it is!
+After they [screwed a screw](https://kcore.org/2007/11/14/and-back-to-apple/) in my previous repair, it's back again. I've checked it, nothing's loose, everything seems to be in order. Let's hope it is!

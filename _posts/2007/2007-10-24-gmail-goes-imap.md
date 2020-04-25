@@ -15,11 +15,11 @@ tags:
 ---
 Finally!
 
-<a HREF="http://gmail.google.com" TARGET="_blank">Gmail</a> now offers secure <a TARGET="_blank" HREF="http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">IMAP</a> access.
+[Gmail](http://gmail.google.com) now offers secure [IMAP](http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) access.
 
 To use this:
 
-  1. <a HREF="http://mail.google.com/support/bin/answer.py?answer=77695" TARGET="_blank">Activate IMAP</a> on your Gmail account
-  2. <a HREF="http://mail.google.com/support/bin/answer.py?answer=75726" TARGET="_blank">Configure your favourite mail client</a> for IMAP access
+  1. [Activate IMAP](http://mail.google.com/support/bin/answer.py?answer=77695) on your Gmail account
+  2. [Configure your favourite mail client](http://mail.google.com/support/bin/answer.py?answer=75726) for IMAP access
 
 Done ;)

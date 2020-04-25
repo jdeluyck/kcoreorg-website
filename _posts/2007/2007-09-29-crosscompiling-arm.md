@@ -15,23 +15,23 @@ tags:
   - Linux / unix
   - sid
 ---
-Here's a simple howto on how to install an <a HREF="http://en.wikipedia.org/wiki/ARM_architecture" TARGET="_blank">ARM</a> crosscompiling environment on your Debian Unstable:
+Here's a simple howto on how to install an [ARM](http://en.wikipedia.org/wiki/ARM_architecture) crosscompiling environment on your Debian Unstable:
 
-  1. Install crosscompiler packages from <a TARGET="_blank" HREF="http://debian.speedblue.org/">http://debian.speedblue.org/</a>
+  1. Install crosscompiler packages from [http://debian.speedblue.org/](http://debian.speedblue.org/)
   2. Create a virtual deb package extraction directory: 
-      1. Create the directory <tt>/usr/arm-deb</tt>
-      2. Create the directory <tt>/usr/arm-deb/usr</tt>
-      3. Create the following symlinks in <tt>/usr/arm-deb/usr</tt>: 
-          1. <tt>ln -s /usr/arm/bin /usr/arm-deb/usr/bin</tt>
-          2. <tt>ln -s /usr/arm/lib /usr/arm-deb/usr/lib</tt>
-          3. <tt>ln -s /usr/arm/include /usr/arm-deb/usr/include</tt>
-          4. <tt>ln -s /usr/arm/share /usr/arm-deb/usr/share</tt>
+      1. Create the directory `/usr/arm-deb`
+      2. Create the directory `/usr/arm-deb/usr`
+      3. Create the following symlinks in `/usr/arm-deb/usr`: 
+          1. `ln -s /usr/arm/bin /usr/arm-deb/usr/bin`
+          2. `ln -s /usr/arm/lib /usr/arm-deb/usr/lib`
+          3. `ln -s /usr/arm/include /usr/arm-deb/usr/include`
+          4. `ln -s /usr/arm/share /usr/arm-deb/usr/share`
     
-    This will allow easy package extraction.</li> </ol> 
+This will allow easy package extraction. 
     
-    Now, download the packages you need manually (from <a TARGET="_blank" HREF="http://packages.debian.org/">http://packages.debian.org/</a> and extract them in the directory using <tt>dpkg -x <package file> /usr/arm-deb</tt>
+Now, download the packages you need manually (from [http://packages.debian.org/](http://packages.debian.org/) and extract them in the directory using `dpkg -x <package file> /usr/arm-deb`
     
-    To compile something, you first have to add /usr/arm/bin to your path (<tt>export PATH=/usr/arm/bin:$PATH</tt>), set include paths to those include files (<tt>export CPPFLAGS="-I/usr/arm/include"</tt>) and add  
-    <tt>-host=arm-linux</tt> to your <tt>./configure</tt>.
+To compile something, you first have to add /usr/arm/bin to your path (`export PATH=/usr/arm/bin:$PATH`), set include paths to those include files (`export CPPFLAGS="-I/usr/arm/include"`) and add 
+`-host=arm-linux` to your `./configure`.
     
-    Happy compiling ;)
+ Happy compiling ;)

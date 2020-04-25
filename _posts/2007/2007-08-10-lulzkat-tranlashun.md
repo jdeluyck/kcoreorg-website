@@ -13,4 +13,4 @@ tags:
   - translate
 format: link
 ---
-Wanna learn Lolcatian? Then try the <a href="http://speaklolcat.com/" target="_blank">lolcat translator</a>!
+Wanna learn Lolcatian? Then try the [lolcat translator](http://speaklolcat.com/)!

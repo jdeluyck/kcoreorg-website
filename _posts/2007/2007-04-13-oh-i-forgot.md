@@ -12,14 +12,6 @@ tags:
   - debian
   - etch
 ---
-<table border="0">
-  <tr>
-    <td class="" align="center" width="1">
-      <img src="/assets/images/2007/04/Debian_logo.png" />
-    </td>
-    
-    <td class="">
-      ... but <a href="http://www.debian.org" target="_blank">Debian</a> Etch got <a href="http://www.debian.org/News/2007/20070408" target="_blank">released last week</a>. Yay! :)
-    </td>
-  </tr>
-</table>
+![Debian Logo](/assets/images/2007/04/Debian_logo.png)
+
+... but [Debian](http://www.debian.org) Etch got [released last week](http://www.debian.org/News/2007/20070408). Yay! :)

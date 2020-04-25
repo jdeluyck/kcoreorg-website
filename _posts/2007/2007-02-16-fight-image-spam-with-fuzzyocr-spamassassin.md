@@ -16,11 +16,11 @@ tags:
   - spam
   - spamassassin
 ---
-I guess you all know about <a href="http://spamassassin.apache.org/" target="_blank">Spam Assassin</a>. It's a wonderful tool that allows you to filter out tons of spam easily.
+I guess you all know about [Spam Assassin](http://spamassassin.apache.org/). It's a wonderful tool that allows you to filter out tons of spam easily.
 
 Unfortunately, spammers are using images more and more to circumvent the baysan (and other) filter methods spam filters use. So, we need to incorporate some OCR'ing into spamassassin to make it hit those ugly things too!
 
-Useful article: <a href="http://www.howtoforge.com/fight_image_spam_with_fuzzyocr_spamassassin" target="_blank">http://www.howtoforge.com/fight_image_spam_with_fuzzyocr_spamassassin</a>
+Useful article: [http://www.howtoforge.com/fight_image_spam_with_fuzzyocr_spamassassin](http://www.howtoforge.com/fight_image_spam_with_fuzzyocr_spamassassin)
 
 On Debian Sid, it's as easy as  
 `apt-get install fuzzyocr3 ocrad` ;)

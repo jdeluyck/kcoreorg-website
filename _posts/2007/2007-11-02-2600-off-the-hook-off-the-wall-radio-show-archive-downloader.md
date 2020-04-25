@@ -17,15 +17,15 @@ tags:
   - otw
   - scripts
 ---
-This script is a downloader for the entire archives of the <a href="http://www.2600.com/" target="_blank" rel="external">2600</a> radio shows <a href="http://www.2600.com/offthehook/" target="_blank" rel="external">Off The Hook</a> and <a href="http://www.2600.com/offthewall/" target="_blank" rel="external">Off The Wall</a>.
+This script is a downloader for the entire archives of the [2600](http://www.2600.com/) radio shows [Off The Hook](http://www.2600.com/offthehook/) and [Off The Wall](http://www.2600.com/offthewall/).
 
-These radio shows are (ofcourse) © 2600. The script is mine :p
+These radio shows are (ofcourse) &copy; 2600. The script is mine :p
 
 ## Usage
 
-Download the script, <span class="typewriter">gunzip</span> it and run it. It will tell you the correct usage.
+Download the script, `gunzip` it and run it. It will tell you the correct usage.
 
-For example: <span class="typewriter">./get_2600_archive otw /tmp/offthewall</span>
+For example: `./get_2600_archive otw /tmp/offthewall`
 
 ## Requirements
 

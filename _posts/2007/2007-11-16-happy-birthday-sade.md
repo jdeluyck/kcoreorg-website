@@ -9,6 +9,6 @@ permalink: /2007/11/16/happy-birthday-sade/
 categories:
   - Personal
 ---
-<font color="red">Feliz Cumpleaños Cariño <a href="http://sade.sadevil.org/blog">Diana! </a></font>
+<font color="red">Feliz Cumpleaños Cariño [Diana! ](http://sade.sadevil.org/blog)</font>
 
 May your dreams be reality for you today and that you have tons more birthdays to come! (with me around, preferably?)

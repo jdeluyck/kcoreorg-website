@@ -15,20 +15,15 @@ tags:
   - valvesoftware
 format: video
 ---
-I recently bought <a href="http://orange.half-life2.com/portal.html" target="_blank">Portal</a> - a puzzle game (based on the <a href="http://www.valvesoftware.com/sourcelicense/default.htm" target="_blank">Source engine</a>) by <a href="http://www.valvesoftware.com/" target="_blank">Valve</a>. The game in itself is fun, but even more fun was the end sequence!
+I recently bought [Portal](http://orange.half-life2.com/portal.html) - a puzzle game (based on the [Source engine](http://www.valvesoftware.com/sourcelicense/default.htm)) by [Valve](http://www.valvesoftware.com/). The game in itself is fun, but even more fun was the end sequence!
 
 (warning - spoilers ahead - so finish the game first before watching this!)
 
-<center>
-</center>Read 
-
-<a href="http://arstechnica.com/journals/thumbs.ars/2007/10/11/portal-has-the-best-song-in-modern-gaming-here-is-how-you-get-it-from-your-install" target="_blank">this wonderful Ars Technica article</a> if you want to extract it from your Portal installation ;)
+Read [this wonderful Ars Technica article](http://arstechnica.com/journals/thumbs.ars/2007/10/11/portal-has-the-best-song-in-modern-gaming-here-is-how-you-get-it-from-your-install) if you want to extract it from your Portal installation ;)
 
 You can find the lyrics below:
 
-<!--more-->
-
-**Still Alive by <a href="http://www.jonathancoulton.com/" target="_blank">Jonathan Coulton</a>**  
+**Still Alive by [Jonathan Coulton](http://www.jonathancoulton.com/)**  
 This was a triumph  
 I'm making a note here  
 HUGE SUCCESS  

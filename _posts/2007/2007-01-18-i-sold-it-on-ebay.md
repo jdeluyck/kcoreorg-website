@@ -12,7 +12,7 @@ tags:
   - cisco
   - ebay
 ---
-A while back (basically, in december) I decided to <a TARGET="_blank" HREF="http://cgi.benl.ebay.be/ws/eBayISAPI.dll?ViewItem&ih=012&sspagename=STRK%3AMESO%3AIT&viewitem=&item=220052958051&rd=1&rd=1">sell my Cisco Catalyst C2924-XL switch</a> on eBay. Since I've done plenty of auctions before there, no problem! So, the item got sold to someone from the <a TARGET="_blank" HREF="http://www.snmc.eu">EasyHost</a> company. Fine by me, I don't really care who buys my stuff, as long as they follow up ;)
+A while back (basically, in december) I decided to [sell my Cisco Catalyst C2924-XL switch](http://cgi.benl.ebay.be/ws/eBayISAPI.dll?ViewItem&ih=012&sspagename=STRK%3AMESO%3AIT&viewitem=&item=220052958051&rd=1&rd=1) on eBay. Since I've done plenty of auctions before there, no problem! So, the item got sold to someone from the [EasyHost](http://www.snmc.eu) company. Fine by me, I don't really care who buys my stuff, as long as they follow up ;)
 
 Sofar so good. Payment got in swiftly, I shipped out the switch the same week. I didn't hear anything, so I thought everything was okay.
 
@@ -24,11 +24,9 @@ So, I told him to ship the stuff back, I'd refund.
 
 Today, the item arrived. The package was incomplete (missing cables), and when testing the switch, everything worked _perfectly_.
 
-<center>
-  <img SRC="/assets/images/2007/01/screenshot_cisco-sm.jpg" />
-</center>That can so 
+![console output](/assets/images/2007/01/screenshot_cisco-sm.jpg)
 
-_piss me off_. People like that aren't worth your time. So, _be warned_ when selling stuff to the <a TARGET="_blank" HREF="http://feedback.benl.ebay.be/ws/eBayISAPI.dll?ViewFeedback&userid=snmc1800">snmc1800 eBay user</a>!
+That can so _piss me off_. People like that aren't worth your time. So, _be warned_ when selling stuff to the [snmc1800 eBay user](http://feedback.benl.ebay.be/ws/eBayISAPI.dll?ViewFeedback&userid=snmc1800)!
 
 And he won't be getting his money back until he ships me the cables.
 

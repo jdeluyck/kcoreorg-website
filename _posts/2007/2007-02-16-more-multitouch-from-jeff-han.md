@@ -15,7 +15,4 @@ format: video
 ---
 Wow. As in, wow. Damn. Wow. I want ;)
 
-<center>
-</center>
-
-<a href="http://www.macrumors.com/2007/02/12/more-multitouch-from-jeff-han/" target="_blank">http://www.macrumors.com/2007/02/12/more-multitouch-from-jeff-han/</a>
+[http://www.macrumors.com/2007/02/12/more-multitouch-from-jeff-han/](http://www.macrumors.com/2007/02/12/more-multitouch-from-jeff-han/)

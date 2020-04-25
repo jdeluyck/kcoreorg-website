@@ -19,10 +19,7 @@ Those cavies are damn destructive creatures! We installed a wooden stairs made o
 
 Before:
 
-<img ALT="Old stairs" SRC="/assets/images/2007/03/IMG_3140-sm.jpg" /> 
-
-After:
-
-<img ALT="Old stairs" SRC="/assets/images/2007/03/IMG_3141-sm.jpg" /> 
+![old stairs](/assets/images/2007/03/IMG_3140-sm.jpg "old stairs") 
+![new stairs](/assets/images/2007/03/IMG_3141-sm.jpg "new stairs") 
 
 Destructive critters! But so cute :p

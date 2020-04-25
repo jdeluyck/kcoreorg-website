@@ -16,8 +16,11 @@ format: image
 ---
 This guy deserves a statue and medals...
 
-<a href="http://www.ctrlaltdel-online.com/comic.php?d=20071117" target="_blank"><img src="/assets/images/2007/09/20071117_G-sm.jpg" alt="Only One" /></a>
+[![Only One][img]][url]
 
-(online comic <a href="http://www.ctrlaltdel-online.com" target="_blank">Ctrl+Alt+Del</a> - all rights belong to them!)
+(online comic [Ctrl+Alt+Del](http://www.ctrlaltdel-online.com) - all rights belong to them!)
 
-And in case you're wondering - I hate <a href="http://en.wikipedia.org/wiki/Reality_television" target="_blank">reality tv</a>. We have plenty of it here in Belgium, unfortunately!
+And in case you're wondering - I hate [reality tv](http://en.wikipedia.org/wiki/Reality_television). We have plenty of it here in Belgium, unfortunately!
+
+[url]: http://www.ctrlaltdel-online.com/comic.php?d=20071117
+[img]: /assets/images/2007/09/20071117_G-sm.jpg

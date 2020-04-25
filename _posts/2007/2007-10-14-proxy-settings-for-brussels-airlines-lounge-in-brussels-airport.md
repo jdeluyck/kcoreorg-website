@@ -13,7 +13,7 @@ tags:
   - brussels airlines lounge
   - proxy
 ---
-Just in case you ever find yourself in the <a HREF="http://www.brusselsairlines.com" TARGET="_blank">Brussels Airlines</a> VIP lounge (in <a HREF="http://www.brusselsairport.be" TARGET="_blank">Brussels Airport</a>), and you want to do something besides using IE on their internet pc's, here are the proxy settings (that you can use in eg. <a HREF="http://www.chiark.greenend.org.uk/~sgtatham/putty/" TARGET="_blank">putty</a>). I had to find a way to open a command box to get to the settings, but in the end I managed.
+Just in case you ever find yourself in the [Brussels Airlines](http://www.brusselsairlines.com) VIP lounge (in [Brussels Airport](http://www.brusselsairport.be)), and you want to do something besides using IE on their internet pc's, here are the proxy settings (that you can use in eg. [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/)). I had to find a way to open a command box to get to the settings, but in the end I managed.
 
 HTTP Proxy: 193.108.215.75  
 Proxy Port: 8080

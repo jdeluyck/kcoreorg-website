@@ -27,4 +27,4 @@ I've just released phptelemeter 1.31. This version includes the following change
   * Implemented including files in the config file. (feature request: 1671787)
   * Implemented password encryption/obfuscation. (feature request: 1674607)
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

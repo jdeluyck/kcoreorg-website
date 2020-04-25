@@ -15,12 +15,9 @@ format: image
 ---
 Also known as Horoscope.. :p
 
-<table align="center">
-  <tr>
-    <td align="center" nowrap="nowrap" bgcolor="#f4f4f4" width="1%">
-      <a href="http://www.lets101.com/quizzes/stars_say" target="_blank"><img src="/assets/images/2007/11/zodiac_leo_txt.gif" alt="Horrorscope" /></a>
-    </td>
-  </tr>
-</table>
+[![Horrorscope][img]][url]
 
-(Shamelessly ripped from <a href="http://sade.sadevil.org/blog/?p=124" target="_blank">Sade's blog</a>...)
+(Shamelessly ripped from [Sade's blog](http://sade.sadevil.org/blog/?p=124)...)
+
+[url]: http://www.lets101.com/quizzes/stars_say
+[img]: /assets/images/2007/11/zodiac_leo_txt.gif" "Horrorscope"

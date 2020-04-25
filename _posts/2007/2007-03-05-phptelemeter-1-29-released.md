@@ -21,4 +21,4 @@ I've just released phptelemeter 1.29. This version includes the following change
   * Fixed dommel_web parser to work with new counter
   * Reformatted documentation to fit on 80-char wide terminals
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

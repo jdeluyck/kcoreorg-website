@@ -14,9 +14,9 @@ tags:
   - voip
   - voipfone.co.uk
 ---
-I recently bought a <a TARGET="_blank" HREF="http://europe.nokia.com/A4344227">Nokia E65</a>, a very classy, handy, and feature-packed phone. One of the reasons I went with this one is because it has WiFi, which I want to use for making internet-calls. The <a TARGET="_blank" HREF="http://en.wikipedia.org/wiki/Session_Initiation_Protocol">SIP</a> client is a bit of <a TITLE="definition of pita" TARGET="_blank" HREF="http://www.auditmypc.com/acronym/PITA.asp">pita</a> though to configure, but I finally managed to get it working.
+I recently bought a [Nokia E65](http://europe.nokia.com/A4344227), a very classy, handy, and feature-packed phone. One of the reasons I went with this one is because it has WiFi, which I want to use for making internet-calls. The [SIP](http://en.wikipedia.org/wiki/Session_Initiation_Protocol) client is a bit of [pita](http://www.auditmypc.com/acronym/PITA.asp) though to configure, but I finally managed to get it working.
 
-How to configure the <a HREF="http://www.voipfone.co.uk" TARGET="_blank">voipfone.co.uk</a> voip service:
+How to configure the [voipfone.co.uk](http://www.voipfone.co.uk) voip service:
 
 > **General info:**  
 > Profile Name: Voipfone  

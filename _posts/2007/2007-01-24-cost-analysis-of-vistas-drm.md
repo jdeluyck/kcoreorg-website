@@ -15,6 +15,6 @@ tags:
 ---
 Interesting readup.
 
-<a href="http://www.cs.auckland.ac.nz/~pgut001/pubs/vista_cost.html" target="_blank">http://www.cs.auckland.ac.nz/~pgut001/pubs/vista_cost.html</a>
+[http://www.cs.auckland.ac.nz/~pgut001/pubs/vista_cost.html](http://www.cs.auckland.ac.nz/~pgut001/pubs/vista_cost.html)
 
 Should make you think twice about that OS...

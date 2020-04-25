@@ -18,4 +18,4 @@ In short, I finally found a way to manipulate windows under Mac OS X like you ca
   * ALT+left mouse button: move window around
   * ALT+right mouse button: resize window
 
-Well, <a href="http://developers-club.com/posts/59968/" target="_blank">NuclearMouse</a> (a <a href="http://culater.net/software/SIMBL/SIMBL.php" target="_blank">SIMBL</a> plugin) makes it happen!
+Well, [NuclearMouse](http://developers-club.com/posts/59968/) (a [SIMBL](http://culater.net/software/SIMBL/SIMBL.php) plugin) makes it happen!

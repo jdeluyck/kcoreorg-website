@@ -15,5 +15,3 @@ tags:
   - zombies
 format: video
 ---
-<center>
-</center>

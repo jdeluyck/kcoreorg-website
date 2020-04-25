@@ -16,4 +16,7 @@ format: image
 ---
 I'm teh Cool Nerd King! Bow to me! ;)
 
-<a href="http://www.nerdtests.com/ft_nt2.php" target="_blank"><img src="/assets/images/2005/11/2aa26bdd9fcdea58.png" align="middle" /></a>
+[![NerdTest][img]][url]
+
+[img]: /assets/images/2005/11/2aa26bdd9fcdea58.png
+[url]: http://www.nerdtests.com/ft_nt2.php

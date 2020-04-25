@@ -16,6 +16,3 @@ tags:
 format: video
 ---
 Sick video, by Weird Al Yankovic!
-
-<center>
-</center>
