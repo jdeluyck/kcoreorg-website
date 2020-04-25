@@ -14,14 +14,8 @@ tags:
   - stable
   - wheezy
 ---
-<table BORDER="0" CLASS="">
-  <tr>
-    <td ALIGN="center" WIDTH="1" CLASS="">
-      <img SRC="/assets/images/2011/02/debian_logo.png" />
-    </td>
-    
-    <td CLASS="">
-      <a HREF="http://www.debian.org" TARGET="_blank">Debian</a> Squeeze got <a HREF="http://www.debian.org/News/2011/20110205a" TARGET="_blank">released today</a>. Yay! :)<br />And don't keep your breath, because the new <a href="http://www.debian.org/releases/wheezy/" target="_blank">testing</a> branch is called <b>Wheezy</b>.
-    </td>
-  </tr>
-</table>
+![Debian](/assets/images/2011/02/debian_logo.png)
+
+[Debian](http://www.debian.org) Squeeze got [released today](http://www.debian.org/News/2011/20110205a). Yay! :)
+
+And don't keep your breath, because the new [testing](http://www.debian.org/releases/wheezy/) branch is called **Wheezy**.

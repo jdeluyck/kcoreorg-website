@@ -22,4 +22,4 @@ I've just released phptelemeter 1.36-beta2. This version includes the following 
   * Fixed telemeter4tools parser, telenet's WSDL is faulty...
   * Added reset\_date to mobilevikings\_api parser
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).
