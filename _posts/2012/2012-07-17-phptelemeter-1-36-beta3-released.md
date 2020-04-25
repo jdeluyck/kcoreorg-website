@@ -19,4 +19,4 @@ I've just released phptelemeter 1.36-beta3. This version includes the following 
   * Fixed telemeter4tools for FUP meters
   * Fixed telemeter_web for FUP meters
 
-As per usual, you can download it from <a href="http://sourceforge.net/projects/phptelemeter" target="_blank">SourceForge</a>.
+As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

@@ -14,6 +14,4 @@ tags:
   - newyears
 format: image
 ---
-<center>
-  <img src="/assets/images/2012/12/xmass12-13-sm.png" />
-</center>
+![](/assets/images/2012/12/xmass12-13-sm.png)

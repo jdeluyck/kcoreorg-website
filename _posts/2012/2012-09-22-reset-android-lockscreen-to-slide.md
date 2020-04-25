@@ -20,10 +20,12 @@ Luckely(?) there's an easy way around it, if you have adb activated:
 
 Connect your phone to your computer, and do this:
 
-`adb shell<br />
-su<br />
-rm /data/system/locksettings.db*<br />
-reboot`
+```bash
+adb shell
+su
+rm /data/system/locksettings.db*
+reboot
+```
 
 This will basically delete the lockscreen settings database, which will make it revert to the default setting (slide to unlock).
 

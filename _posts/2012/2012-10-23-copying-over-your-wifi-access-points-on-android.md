@@ -17,7 +17,7 @@ tags:
 In case you have just bought a new phone, rooted it, and want to copy over all your wifi access points, there are a few options:
 
   * Use the synchronisation to Google to have them keep a backup. Not my favourite, since it tends to restore just a bit too much (like all the apps you already removed before)
-  * Use a tool like <a target="_blank" href="http://www.titaniumtrack.com/titanium-backup.html">Titanium Backup</a>, but I've noticed that this doesn't always work between phones. On the same one, sure.
+  * Use a tool like [Titanium Backup](http://www.titaniumtrack.com/titanium-backup.html), but I've noticed that this doesn't always work between phones. On the same one, sure.
   * Manually copy them over. This is the way I usually go, and it works well.
 
 First, copy the original files over: (do this for both phones)
