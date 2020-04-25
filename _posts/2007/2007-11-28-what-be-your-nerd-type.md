@@ -16,4 +16,4 @@ format: image
 [![Gamer Nerd][img] - Take Your Test Here][url]
 
 [url]: http://www.gotoquiz.com/what_be_your_nerd_type
-[img]: /assets/images/2005/11/Picture_1.png" "Gamer/Computer nerd"
+[img]: /assets/images/2005/11/Picture_1.png "Gamer/Computer nerd"
