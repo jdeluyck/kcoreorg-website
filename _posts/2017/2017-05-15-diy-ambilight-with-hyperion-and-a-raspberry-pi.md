@@ -15,14 +15,14 @@ tags:
   - pi
   - raspberry pi
 ---
-I've always liked the <a href="https://en.wikipedia.org/wiki/Ambilight" target="_blank" rel="noopener">Ambilight technology</a> Philips builds into some of their TV's. I just don't like the price that they ask for it... so I looked around if there was no way to build that yourself. There is, using a <a href="https://www.raspberrypi.org/" target="_blank" rel="noopener">Raspberry Pi</a>, some leds, and some bits and pieces ;)
+I've always liked the [Ambilight technology](https://en.wikipedia.org/wiki/Ambilight) Philips builds into some of their TV's. I just don't like the price that they ask for it... so I looked around if there was no way to build that yourself. There is, using a [Raspberry Pi](https://www.raspberrypi.org/), some leds, and some bits and pieces ;)
 
-I found <a href="http://awesomepi.com/diy-breath-taking-ambilight-for-your-own-tv-raspberry-pi-2-tutorial-part-1/" target="_blank" rel="noopener">this tutorial</a> which explains quite a bit of the build process, and which pieces to get. Since I suck at soldering (and/or my soldering iron is just plain crap), I went for another solution, and bought corner pieces to attach the different led strip parts together.
+I found [this tutorial](http://awesomepi.com/diy-breath-taking-ambilight-for-your-own-tv-raspberry-pi-2-tutorial-part-1/) which explains quite a bit of the build process, and which pieces to get. Since I suck at soldering (and/or my soldering iron is just plain crap), I went for another solution, and bought corner pieces to attach the different led strip parts together.
 
 After attaching it to the back of the TV (with tape, to test), this is what you get:
 
-<img class="aligncenter wp-image-1952 size-large" src="/assets/images/2017/05/IMG_20170501_144742-1024x526.jpg" alt="" width="920" height="473" srcset="/assets/images/2017/05/IMG_20170501_144742-1024x526.jpg 1024w, /assets/images/2017/05/IMG_20170501_144742-300x154.jpg 300w, /assets/images/2017/05/IMG_20170501_144742-768x394.jpg 768w, /assets/images/2017/05/IMG_20170501_144742-682x350.jpg 682w, /assets/images/2017/05/IMG_20170501_144742-150x77.jpg 150w" sizes="(max-width: 920px) 100vw, 920px" /> 
+![](/assets/images/2017/05/IMG_20170501_144742-1024x526.jpg "") 
 
-To make it work for any HDMI input, I can refer you to <a href="http://www.instructables.com/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/" target="_blank" rel="noopener">this tutorial</a>. It consists of using an HDMI splitter, convertor to AV, and an AV to USB convertor. This signal is piped into the Pi, where Hyperion can do it's magic with it.
+To make it work for any HDMI input, I can refer you to [this tutorial](http://www.instructables.com/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/). It consists of using an HDMI splitter, convertor to AV, and an AV to USB convertor. This signal is piped into the Pi, where Hyperion can do it's magic with it.
 
 Quite happy with the end result ;)

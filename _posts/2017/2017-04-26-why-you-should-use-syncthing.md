@@ -19,6 +19,6 @@ tags:
   - syncthing
 format: link
 ---
-I've been a user of <a href="https://www.dropbox.com/" target="_blank" rel="noopener noreferrer">Dropbox</a> for ages, I've tried <a href="https://owncloud.org/" target="_blank" rel="noopener noreferrer">Owncloud</a>, I've tried <a href="https://www.box.com/" target="_blank" rel="noopener noreferrer">Box</a>, and probably numerous others that I've forgotten about, but in the past year I've migrated over to <a href="https://syncthing.net/" target="_blank" rel="noopener noreferrer">Syncthing</a>, and I haven't looked back. Opensource software, well designed protocol, complete ownership of your data, I could go on... but this post by <a href="https://linuxctl.com/" target="_blank" rel="noopener noreferrer">gbolo</a> explains it perfectly!
+I've been a user of [Dropbox](https://www.dropbox.com/) for ages, I've tried [Owncloud](https://owncloud.org/), I've tried [Box](https://www.box.com/), and probably numerous others that I've forgotten about, but in the past year I've migrated over to [Syncthing](https://syncthing.net/), and I haven't looked back. Opensource software, well designed protocol, complete ownership of your data, I could go on... but this post by [gbolo](https://linuxctl.com/) explains it perfectly!
 
-<a href="https://linuxctl.com/2017/04/syncthing---why-you-should-be-using-it/" target="_blank" rel="noopener noreferrer">Syncthing - Why you should be using it</a>
+[Syncthing - Why you should be using it](https://linuxctl.com/2017/04/syncthing---why-you-should-be-using-it/)
