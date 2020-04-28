@@ -19,7 +19,10 @@ tags:
   - oneplusx
 ---
 ... is not really that hard. Just annoying. Since OnePlus' USB ID is not in the default adb list, you need to add it yourself:  
-`echo "0x2a70" >> ~/.android/adb_usb.ini`  
+```bash
+echo "0x2a70" >> ~/.android/adb_usb.ini
+```
+
 where 0x2a70 is the identifier for OnePlus. (you can find this with lsusb)
 
 To add automatic permissions to the device node when it's created, add this udev rule to /etc/udev/rules.d/51-android.rules (all on one line):

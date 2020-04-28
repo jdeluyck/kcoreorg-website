@@ -20,141 +20,80 @@ tags:
   Something like this, perhaps...
 </p>
 
-<img class="size-thumbnail wp-image-1162 alignleft" src="/assets/images/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg" alt="smw51sVUgmGgKL._AC_UL320_SR306,320_" width="150" height="150" /> 
+![](/assets/images/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg) 
 
-&nbsp;
+Nononono, definitely not. Neither an Apple product. My first foray into [wearables](https://en.wikipedia.org/wiki/Wearable_technology) 
+of the [smartwatch](https://en.wikipedia.org/wiki/Smartwatch) type is a [Pebble](http://www.pebble.com) [Time](https://www.pebble.com/pebble-time-smartwatch-features).
 
-&nbsp;
+![PBTime](/assets/images/2016/06/PBTime-300x169.png "PBTime") 
 
-&nbsp;
+I'd been looking at smartwatches ever since the original [Pebble Kickstarter](https://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android) got launched. 
+I honestly found the watch ugly as _\*beep\*_, so I wasn't going for that one. After a while 
+the original Android Wear smartwatch (the [Motorola 360](https://www.motorola.com/us/products/moto-360)) got launched. 
+While it's a lot nicer on the eyes, it had several issues that I really didn't want to deal with (and still don't): 
+the price tag, the size (and I really don't have small wrists), and the laughable battery life. I already tote around one 
+device that I need to charge on a daily basis, don't need another that I really need to watch (pun intended)
 
-&nbsp;
+The OS also was in its infancy, but thanks to the pressure Apple was putting on the market, 
+I was sure this would improve.
 
-<!--more-->
+While I'm willing to spend some money on a device that I know I'll use on a daily basis 
+(eg. my phone, which handles my calendar, mail, GPS, social media, ...), I wasn't sure I actually wanted a smartwatch. 
+The geek inside of me wanted one, but did I actually have any use for it? Wasn't it just going to sit on the shelf after a week? This made me doubtful to spend any amount of money on such a device.
 
-Nononono, definitely not. Neither an Apple product. My first foray into <a href="https://en.wikipedia.org/wiki/Wearable_technology" target="_blank">wearables</a> of the <a href="https://en.wikipedia.org/wiki/Smartwatch" target="_blank">smartwatch</a> type is a <a href="http://www.pebble.com" target="_blank">Pebble</a> <a href="https://www.pebble.com/pebble-time-smartwatch-features" target="_blank">Time</a>.
-
-<img class="alignleft size-medium wp-image-1161" src="/assets/images/2016/06/PBTime-300x169.png" alt="PBTime" width="300" height="169" srcset="/assets/images/2016/06/PBTime-300x169.png 300w, /assets/images/2016/06/PBTime-768x432.png 768w, /assets/images/2016/06/PBTime-1024x576.png 1024w, /assets/images/2016/06/PBTime-250x141.png 250w, /assets/images/2016/06/PBTime-150x84.png 150w, /assets/images/2016/06/PBTime.png 1280w" sizes="(max-width: 300px) 100vw, 300px" /> 
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-I'd been looking at smartwatches ever since the original <a href="https://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android" target="_blank">Pebble Kickstarter</a> got launched. I honestly found the watch ugly as _\*beep\*_, so I wasn't going for that one. After a while the original Android Wear smartwatch (the <a href="https://www.motorola.com/us/products/moto-360" target="_blank">Motorola 360</a>) got launched. While it's a lot nicer on the eyes, it had several issues that I really didn't want to deal with (and still don't): the price tag, the size (and I really don't have small wrists), and the laughable battery life. I already tote around one device that I need to charge on a daily basis, don't need another that I really need to watch (pun intended)
-
-The OS also was in its infancy, but thanks to the pressure Apple was putting on the market, I was sure this would improve.
-
-While I'm willing to spend some money on a device that I know I'll use on a daily basis (eg. my phone, which handles my calendar, mail, GPS, social media, ...), I wasn't sure I actually wanted a smartwatch. The geek inside of me wanted one, but did I actually have any use for it? Wasn't it just going to sit on the shelf after a week? This made me doubtful to spend any amount of money on such a device.
-
-Bring around 2015, and Pebble got round to launching the <a href="https://www.kickstarter.com/projects/597507018/pebble-time-awesome-smartwatch-no-compromises" target="_blank">Pebble Time (Steel) Kickstarter</a>. A whole lot nicer to look at, but still pricy for what would be an experiment. Doubts remained.
+Bring around 2015, and Pebble got round to launching the [Pebble Time (Steel) Kickstarter](https://www.kickstarter.com/projects/597507018/pebble-time-awesome-smartwatch-no-compromises). A whole lot nicer to look at, but still pricy for what would be an experiment. Doubts remained.
 
 In the beginning of 2016, iBood had a sale of Pebble Time watches, at a pricepoint I could get round. So I ordered one (in black).
 
-<img class="size-medium wp-image-1164 alignleft" src="/assets/images/2016/06/mypebble-300x300.jpg" alt="mypebble" width="300" height="300" srcset="/assets/images/2016/06/mypebble-300x300.jpg 300w, /assets/images/2016/06/mypebble-150x150.jpg 150w, /assets/images/2016/06/mypebble-768x768.jpg 768w, /assets/images/2016/06/mypebble.jpg 914w" sizes="(max-width: 300px) 100vw, 300px" /> 
+![mypebble](/assets/images/2016/06/mypebble-300x300.jpg "mypebble") 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-First thing I did was stick a <a href="http://www.gadgetwraps.com/devices/smartwatch/pebble/pebble-time/pebble-time-matte-clear-bezel-skin/" target="_blank">bezel</a> and <a href="http://www.gadgetwraps.com/devices/smart-watch/pebble-watch/pebble-time/full-screen-protector-pebble-time.html" target="_blank">screen</a> protector from <a href="http://www.gadgetwraps.com" target="_blank">GadgetWraps</a> on it, as I had read everywhere that the thing is very easy to damage. (you have _no idea_ how weird it feels to dunk a technologically advanced device in water - check the installation videos). After that I put it on, installed the <a href="https://play.google.com/store/apps/details?id=com.getpebble.android.basalt&hl=en" target="_blank">Pebble app</a> and started tinkering away...
+First thing I did was stick a [bezel](http://www.gadgetwraps.com/devices/smartwatch/pebble/pebble-time/pebble-time-matte-clear-bezel-skin/) and 
+[screen](http://www.gadgetwraps.com/devices/smart-watch/pebble-watch/pebble-time/full-screen-protector-pebble-time.html) protector from [GadgetWraps](http://www.gadgetwraps.com) on it, as I had read everywhere that the thing is very easy to damage. (you have _no idea_ how weird it feels to dunk a technologically advanced device in water - check the installation videos). After that I put it on, installed the [Pebble app](https://play.google.com/store/apps/details?id=com.getpebble.android.basalt&hl=en) and started tinkering away...
 
 Things I absolutely love about this watch:
 
-  * It's a watch. It's always readable. Even in the sun. The screen is always 'on' (not really, since it's <a href="https://en.wikipedia.org/wiki/E_Ink" target="_blank">E-Ink</a>). I honestly prefer looking at my watch for the time than at my phone, definitely in a work context.
+  * It's a watch. It's always readable. Even in the sun. The screen is always 'on' (not really, since it's [E-Ink](https://en.wikipedia.org/wiki/E_Ink)). I honestly prefer looking at my watch for the time than at my phone, definitely in a work context.
   * Even when the battery is nearly dead, it's still it's basic function: _a watch_. Forget that with the other devices.  
-<img class="alignleft size-medium wp-image-1165" src="/assets/images/2016/06/deadpebble-1-300x169.png" alt="deadpebble" width="300" height="169" srcset="/assets/images/2016/06/deadpebble-1-300x169.png 300w, /assets/images/2016/06/deadpebble-1-768x432.png 768w, /assets/images/2016/06/deadpebble-1-1024x576.png 1024w, /assets/images/2016/06/deadpebble-1-250x141.png 250w, /assets/images/2016/06/deadpebble-1-150x84.png 150w, /assets/images/2016/06/deadpebble-1.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /> 
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
+![deadpebble](/assets/images/2016/06/deadpebble-1-300x169.png "deadpebble") 
   * It's battery is rated for 7 days. I've gotten 10 days out of it.
   * Waterproof up to 30m. I haven't tried this yet, but I'm not really bothering taking it off all the time I come near a water source.
   * Nearly monthly updates. Every month I've gotten new functionality :)
   * Step counter / fitness stuff (if I didn't have a Fitbit, I'd actually use it). First release was gimmicky, but every app update has been better and better.
-  * The plethora of <a href="https://apps.getpebble.com/en_US/watchfaces" target="_blank">watchfaces</a> and <a href="https://apps.getpebble.com/en_US/watchapps" target="_blank">watchapps</a> you can find for it
-  * (<a href="https://help.getpebble.com/customer/portal/articles/1819783-android---actionable-notifications" target="_blank">Actionable</a>) notifications! This stops me from pulling out my phone and checking what the notification was for. If it's urgent, I'll get the phone if I can't make due with the canned responses. If it's not urgent, I'll ignore it and reply at a later time.  
-<img class="alignleft size-medium wp-image-1169" src="/assets/images/2016/06/pebble_gmail-300x169.jpg" alt="pebble_gmail" width="300" height="169" srcset="/assets/images/2016/06/pebble_gmail-300x169.jpg 300w, /assets/images/2016/06/pebble_gmail-768x432.jpg 768w, /assets/images/2016/06/pebble_gmail-1024x576.jpg 1024w, /assets/images/2016/06/pebble_gmail-250x141.jpg 250w, /assets/images/2016/06/pebble_gmail-150x84.jpg 150w" sizes="(max-width: 300px) 100vw, 300px" /> 
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-  * <a href="http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309" target="_blank">Voice dictation</a>. I'd never thought I'd actually use that, but while driving this is great - you get a notification, check it, quickly with a glance to your wrist, and with two button presses I can send a reply on it's way. It works fairly good, but well, <a href="https://www.urbandictionary.com/define.php?term=ymmv" target="_blank">YMMV</a>.  
-<img class="alignleft size-medium wp-image-1167" src="/assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png" alt="pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am" width="300" height="168" srcset="/assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png 300w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-768x430.png 768w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-1024x573.png 1024w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-250x140.png 250w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-150x84.png 150w, /assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1.jpg 1487w" sizes="(max-width: 300px) 100vw, 300px" /> 
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
+  * The plethora of [watchfaces](https://apps.getpebble.com/en_US/watchfaces) and [watchapps](https://apps.getpebble.com/en_US/watchapps) you can find for it
+  * ([Actionable](https://help.getpebble.com/customer/portal/articles/1819783-android---actionable-notifications)) notifications! This stops me from pulling out my phone and checking what the notification was for. If it's urgent, I'll get the phone if I can't make due with the canned responses. If it's not urgent, I'll ignore it and reply at a later time.  
+![pebble_gmail](/assets/images/2016/06/pebble_gmail-300x169.jpg "pebble_gmail") 
+  * [Voice dictation](http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309). I'd never thought I'd actually use that, but while driving this is great - you get a notification, check it, quickly with a glance to your wrist, and with two button presses I can send a reply on it's way. It works fairly good, but well, [YMMV](https://www.urbandictionary.com/define.php?term=ymmv).  
+![pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am](/assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png "pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am") 
   * Music control. I use a streaming app on my phone, and being able to pause/skip songs without having to unlock my phone is bliss.
-  *<img class="alignleft size-medium wp-image-1168" src="/assets/images/2016/06/pebble_music_green-300x169.jpg" alt="pebble_music_green" width="300" height="169" srcset="/assets/images/2016/06/pebble_music_green-300x169.jpg 300w, /assets/images/2016/06/pebble_music_green-250x141.jpg 250w, /assets/images/2016/06/pebble_music_green-150x84.jpg 150w, /assets/images/2016/06/pebble_music_green.jpg 620w" sizes="(max-width: 300px) 100vw, 300px" /> 
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+  *![pebble_music_green](/assets/images/2016/06/pebble_music_green-300x169.jpg "pebble_music_green") 
 
 I mentioned watchapps and watchfaces earlier... There are just too many to choose from. Anything that might be your fancy, it probably exists. Do keep in mind that animated watchfaces will eat the battery like crazy, so the less updates the screen has to put, the longer your Pebble will live.
 
-**<span style="text-decoration: underline;">My current selection:</span>**
+**My current selection:**
 
-<span style="text-decoration: underline;">WatchApps</span>:
+WatchApps:
 
-  * <a href="https://apps.getpebble.com/en_US/application/55197642d6fa6f2633000092" target="_blank">Battery+</a>
-  * <a href="https://apps.getpebble.com/en_US/application/52e0380f7f68b384ee000010" target="_blank">Swarm by Foursquare</a>
-  * <a href="https://apps.getpebble.com/en_US/application/54a1ba1afc5f23e4c000012d" target="_blank">Timer+</a>
-  * <a href="https://apps.getpebble.com/en_US/application/540f7cafbc27450164000157" target="_blank">Compass</a>
-  * <a href="https://apps.getpebble.com/en_US/application/569b571ddba9797f93000012" target="_blank">Metronome</a> (I _am_ a music person ;))
-  * <a href="https://apps.getpebble.com/en_US/application/5691bdb1f72963ac6500001a" target="_blank">Email for Pebble</a>
-  * <a href="https://apps.getpebble.com/en_US/application/529eaee7d7894b8324000022" target="_blank">Weather</a>
-  * <a href="https://apps.getpebble.com/en_US/application/561960c8a1dd2652af00000d" target="_blank">Snowy</a>
+  * [Battery+](https://apps.getpebble.com/en_US/application/55197642d6fa6f2633000092)
+  * [Swarm by Foursquare](https://apps.getpebble.com/en_US/application/52e0380f7f68b384ee000010)
+  * [Timer+](https://apps.getpebble.com/en_US/application/54a1ba1afc5f23e4c000012d)
+  * [Compass](https://apps.getpebble.com/en_US/application/540f7cafbc27450164000157)
+  * [Metronome](https://apps.getpebble.com/en_US/application/569b571ddba9797f93000012) (I _am_ a music person ;))
+  * [Email for Pebble](https://apps.getpebble.com/en_US/application/5691bdb1f72963ac6500001a)
+  * [Weather](https://apps.getpebble.com/en_US/application/529eaee7d7894b8324000022)
+  * [Snowy](https://apps.getpebble.com/en_US/application/561960c8a1dd2652af00000d)
 
-<span style="text-decoration: underline;">WatchFaces</span>:
+WatchFaces:
 
-  * <a href="https://apps.getpebble.com/en_US/application/545e71fd80acf1a84400006b?" target="_blank">Duplicity</a>
-  * <a href="https://apps.getpebble.com/en_US/application/568167dce08e48268600002f" target="_blank">Retro PC</a> (just for the heck of it)
-  * <a href="https://apps.getpebble.com/en_US/application/573da5e25253b1680800000d" target="_blank">Business Time</a>
-  * <a href="https://apps.getpebble.com/en_US/application/56f2a4d1e4a8593d8f000003" target="_blank">Classique Exclusive Edition</a> (my favourite)
-  * <a href="https://apps.getpebble.com/en_US/application/52ca20c86e3cc2bc7d00003c" target="_blank">Classic</a>
-  * <a href="https://apps.getpebble.com/en_US/application/52b231c2b70e1c159500009b" target="_blank">91 Dub v3.0</a>
-  * <a href="https://apps.getpebble.com/en_US/application/52f014d342937dc4430000ee" target="_blank">Squared 4.0</a>
-  * <a href="https://apps.getpebble.com/en_US/application/56635d294ce70342e400007f" target="_blank">Swiss Dark</a>
-  * <a href="https://apps.getpebble.com/en_US/application/550ccb556caaed4e0100006d" target="_blank">Thin</a>
-  * <a href="https://apps.getpebble.com/en_US/application/56f93a5361a01637e5000036" target="_blank">Minimalism</a>
-  * ... and the <a href="https://apps.getpebble.com/en_US/developer/558e3fd4e3975e527b000055/1?native=false&query=kiezel%252520watchfaces" target="_blank">Kiezel Watchfaces</a>
+  * [Duplicity](https://apps.getpebble.com/en_US/application/545e71fd80acf1a84400006b?)
+  * [Retro PC](https://apps.getpebble.com/en_US/application/568167dce08e48268600002f) (just for the heck of it)
+  * [Business Time](https://apps.getpebble.com/en_US/application/573da5e25253b1680800000d)
+  * [Classique Exclusive Edition](https://apps.getpebble.com/en_US/application/56f2a4d1e4a8593d8f000003) (my favourite)
+  * [Classic](https://apps.getpebble.com/en_US/application/52ca20c86e3cc2bc7d00003c)
+  * [91 Dub v3.0](https://apps.getpebble.com/en_US/application/52b231c2b70e1c159500009b)
+  * [Squared 4.0](https://apps.getpebble.com/en_US/application/52f014d342937dc4430000ee)
+  * [Swiss Dark](https://apps.getpebble.com/en_US/application/56635d294ce70342e400007f)
+  * [Thin](https://apps.getpebble.com/en_US/application/550ccb556caaed4e0100006d)
+  * [Minimalism](https://apps.getpebble.com/en_US/application/56f93a5361a01637e5000036)
+  * ... and the [Kiezel Watchfaces](https://apps.getpebble.com/en_US/developer/558e3fd4e3975e527b000055/1?native=false&query=kiezel%252520watchfaces)
 
 But there are so many more to explore.
