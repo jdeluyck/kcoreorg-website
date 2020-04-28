@@ -16,11 +16,24 @@ tags:
   - desire s
   - htc desire s
 ---
-On the <a href="http://www.gsmarena.com/htc_desire_s-3776.php" target="_blank">HTC Desire S</a>, I've been using an <a href="http://forum.xda-developers.com/showthread.php?t=2031694" target="_blank">unofficial build</a> (made by <a href="http://forum.xda-developers.com/member.php?u=4350964" target="_blank">Flinny</a>) of <a href="http://cyanogenmod.com/" target="_blank">CyanogenMod 10</a> for a while - happily so.  
-Unfortunately the author is/was a bit strapped for time, and development slowed down significantly at the time. Updates for CM 10.1 and later were not forthcoming.  
-Since I'm enough of a geek, and suffering from <a href="http://www.xda-developers.com/announcements/do-you-have-obsessive-rom-updating-disorder-ord/" target="_blank">ORD</a>, I decided to try to 'roll my own': to compile CM from source. As it turned out, it's not quite as hard as you'd think it is.
+On the [HTC Desire S](http://www.gsmarena.com/htc_desire_s-3776.php), I've been using an 
+[unofficial build](http://forum.xda-developers.com/showthread.php?t=2031694) 
+(made by [Flinny](http://forum.xda-developers.com/member.php?u=4350964)) of 
+[CyanogenMod 10](http://cyanogenmod.com/) for a while - happily so.  
 
-<del>First, you need to</del>I was going to write a lengthy tutorial here, but there are plenty of tutorials out there. So instead of inventing the wheel yet again, you can just go look at <a href="http://forum.xda-developers.com/nexus-4/general/guide-cm11-how-to-build-cyanogenmod-11-t2515305" target="_blank">this one</a>, or <a href="http://wiki.cyanogenmod.org/w/Development" target="_blank">here</a> or <a target="http://www.usoftphone.com/t115104.html" target="_blank">. Or you can just go and </a><a href="http://lmgtfy.com/?q=building+cm+from+source" target="_blank">Google it</a> ;)
+Unfortunately the author is/was a bit strapped for time, and development slowed down 
+significantly at the time. Updates for CM 10.1 and later were not forthcoming.  
+Since I'm enough of a geek, and suffering from [ORD](http://www.xda-developers.com/announcements/do-you-have-obsessive-rom-updating-disorder-ord/),
+I decided to try to 'roll my own': to compile CM from source. As it turned out, it's not 
+quite as hard as you'd think it is.
 
-You can find the thread for <a href="http://forum.xda-developers.com/showthread.php?t=2467013" target="_blank">my unofficial builds</a> on <a href="http://www.xda-developers.com/" target="_blank">XDA Developers</a>.  
-The <a href="https://en.wikipedia.org/wiki/Git_%28software%29" target="_blank">git</a> repository with all my sources can be found <a href="http://github.com/jdeluyck/" target="_blank">here</a>, on GitHub.
+~~First, you need to~~I was going to write a lengthy tutorial here, but there are plenty of 
+tutorials out there. 
+So instead of inventing the wheel yet again, you can just go look at 
+[this one](http://forum.xda-developers.com/nexus-4/general/guide-cm11-how-to-build-cyanogenmod-11-t2515305), or 
+[here](http://wiki.cyanogenmod.org/w/Development) or 
+[here](http://www.usoftphone.com/t115104.html). 
+Or you can just go and [Google it](http://lmgtfy.com/?q=building+cm+from+source) ;)
+
+You can find the thread for [my unofficial builds](http://forum.xda-developers.com/showthread.php?t=2467013) on [XDA Developers](http://www.xda-developers.com/).  
+The [git](https://en.wikipedia.org/wiki/Git_%28software%29) repository with all my sources can be found [here](http://github.com/jdeluyck/), on GitHub.
