@@ -52,20 +52,21 @@ First thing I did was stick a [bezel](http://www.gadgetwraps.com/devices/smartwa
 
 Things I absolutely love about this watch:
 
-  * It's a watch. It's always readable. Even in the sun. The screen is always 'on' (not really, since it's [E-Ink](https://en.wikipedia.org/wiki/E_Ink)). I honestly prefer looking at my watch for the time than at my phone, definitely in a work context.
-  * Even when the battery is nearly dead, it's still it's basic function: _a watch_. Forget that with the other devices.  
+* It's a watch. It's always readable. Even in the sun. The screen is always 'on' (not really, since it's [E-Ink](https://en.wikipedia.org/wiki/E_Ink)). I honestly prefer looking at my watch for the time than at my phone, definitely in a work context.
+* Even when the battery is nearly dead, it's still it's basic function: _a watch_. Forget that with the other devices.  
 ![deadpebble](/assets/images/2016/06/deadpebble-1-300x169.png "deadpebble") 
-  * It's battery is rated for 7 days. I've gotten 10 days out of it.
-  * Waterproof up to 30m. I haven't tried this yet, but I'm not really bothering taking it off all the time I come near a water source.
-  * Nearly monthly updates. Every month I've gotten new functionality :)
-  * Step counter / fitness stuff (if I didn't have a Fitbit, I'd actually use it). First release was gimmicky, but every app update has been better and better.
-  * The plethora of [watchfaces](https://apps.getpebble.com/en_US/watchfaces) and [watchapps](https://apps.getpebble.com/en_US/watchapps) you can find for it
-  * ([Actionable](https://help.getpebble.com/customer/portal/articles/1819783-android---actionable-notifications)) notifications! This stops me from pulling out my phone and checking what the notification was for. If it's urgent, I'll get the phone if I can't make due with the canned responses. If it's not urgent, I'll ignore it and reply at a later time.  
+* It's battery is rated for 7 days. I've gotten 10 days out of it.
+* Waterproof up to 30m. I haven't tried this yet, but I'm not really bothering taking it off all the time I come near a water source.
+* Nearly monthly updates. Every month I've gotten new functionality :)
+* Step counter / fitness stuff (if I didn't have a Fitbit, I'd actually use it). First release was gimmicky, but every app update has been better and better.
+* The plethora of [watchfaces](https://apps.getpebble.com/en_US/watchfaces) and [watchapps](https://apps.getpebble.com/en_US/watchapps) you can find for it
+* ([Actionable](https://help.getpebble.com/customer/portal/articles/1819783-android---actionable-notifications)) notifications! This stops me from pulling out my phone and checking what the notification was for. If it's urgent, I'll get the phone if I can't make due with the canned responses. If it's not urgent, I'll ignore it and reply at a later time.  
 ![pebble_gmail](/assets/images/2016/06/pebble_gmail-300x169.jpg "pebble_gmail") 
-  * [Voice dictation](http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309). I'd never thought I'd actually use that, but while driving this is great - you get a notification, check it, quickly with a glance to your wrist, and with two button presses I can send a reply on it's way. It works fairly good, but well, [YMMV](https://www.urbandictionary.com/define.php?term=ymmv).  
-![pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am](/assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png "pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am") 
-  * Music control. I use a streaming app on my phone, and being able to pause/skip songs without having to unlock my phone is bliss.
-  *![pebble_music_green](/assets/images/2016/06/pebble_music_green-300x169.jpg "pebble_music_green") 
+* [Voice dictation](http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309). I'd never thought I'd actually use that, but while driving this is great - you get a notification, check it, quickly with a glance to your wrist, and with two button presses I can send a reply on it's way. It works fairly good, but well, [YMMV](https://www.urbandictionary.com/define.php?term=ymmv).  
+![pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am](/assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png "pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am")
+ 
+* Music control. I use a streaming app on my phone, and being able to pause/skip songs without having to unlock my phone is bliss.  
+![pebble_music_green](/assets/images/2016/06/pebble_music_green-300x169.jpg "pebble_music_green") 
 
 I mentioned watchapps and watchfaces earlier... There are just too many to choose from. Anything that might be your fancy, it probably exists. Do keep in mind that animated watchfaces will eat the battery like crazy, so the less updates the screen has to put, the longer your Pebble will live.
 

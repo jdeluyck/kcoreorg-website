@@ -20,6 +20,7 @@ _**Mobile phone history:**_
 
 I've retired the LG Nexus 5 (sold), and the Motorola E2 (LTE) (for now kept as a backup phone), and replaced them with:
 
-**[OnePlus 3](http://www.gsmarena.com/oneplus_3-7995.php) ![OnePlus 3](/assets/images/2016/06/oneplus-3-3.jpg "OnePlus 3")</a>**
+**[OnePlus 3](http://www.gsmarena.com/oneplus_3-7995.php)   
+![OnePlus 3](/assets/images/2016/06/oneplus-3-3.jpg "OnePlus 3")**
 
 More on this powerhorse coming in the future!

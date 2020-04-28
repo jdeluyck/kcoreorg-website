@@ -48,17 +48,17 @@ function my_core_gateways($methods) {
 class WC_Gateway_BACS_custom extends WC_Gateway_BACS {
   public function email_instructions( $order, $sent_to_admin, $plain_text = false ) {
 
-    if ( ! $sent_to_admin && 'bacs' === $order-&gt;payment_method && $order-&gt;has_status( 'processing' ) ) {
-      if ( $this-&gt;instructions ) {
-        echo wpautop( wptexturize( $this-&gt;instructions ) ) . PHP_EOL;
+    if ( ! $sent_to_admin && 'bacs' === $order->payment_method && $order->has_status( 'processing' ) ) {
+      if ( $this->instructions ) {
+        echo wpautop( wptexturize( $this->instructions ) ) . PHP_EOL;
       }
  
      /* dirty hack to get access to bank_details */
      $reflector = new ReflectionObject($this);
-     $method = $reflector-&gt;getMethod('bank_details');
-     $method-&gt;setAccessible(true);
+     $method = $reflector->getMethod('bank_details');
+     $method->setAccessible(true);
  
-     $result = $method-&gt;invoke($this, $order-&gt;id);
+     $result = $method->invoke($this, $order->id);
     }
   }
 
@@ -66,18 +66,18 @@ class WC_Gateway_BACS_custom extends WC_Gateway_BACS {
     $order = wc_get_order( $order_id );
 
     // Mark as processing (we're awaiting the payment)
-    $order-&gt;update_status( 'processing', __( 'Awaiting BACS payment', 'woocommerce' ) );
+    $order->update_status( 'processing', __( 'Awaiting BACS payment', 'woocommerce' ) );
 
     // Reduce stock levels
-    $order-&gt;reduce_order_stock();
+    $order->reduce_order_stock();
 
     // Remove cart
-    WC()-&gt;cart-&gt;empty_cart();
+    WC()->cart->empty_cart();
 
     // Return thankyou redirect
     return array(
-      'result' =&gt; 'success',
-      'redirect' =&gt; $this-&gt;get_return_url( $order )
+      'result' => 'success',
+      'redirect' => $this->get_return_url( $order )
     );
   }
 }
@@ -96,22 +96,22 @@ function bacs_order_payment_processing_order_status( $order_id ) {
 
   $order = new WC_Order( $order_id );
  
-  if ('bacs' === $order-&gt;payment_method && ('on-hold' == $order-&gt;status || 'pending' == $order-&gt;status)) {
-    $order-&gt;update_status('processing');
+  if ('bacs' === $order->payment_method && ('on-hold' == $order->status || 'pending' == $order->status)) {
+    $order->update_status('processing');
   } else {
     return;
   }
 }
 
 function add_order_email_instructions( $order, $sent_to_admin ) {
-  if ( ! $sent_to_admin && 'bacs' === $order-&gt;payment_method && $order-&gt;has_status( 'processing' ) ) {
+  if ( ! $sent_to_admin && 'bacs' === $order->payment_method && $order->has_status( 'processing' ) ) {
     $gw = new WC_Gateway_BACS();
  
     $reflector = new ReflectionObject($gw);
-    $method = $reflector-&gt;getMethod('bank_details');
-    $method-&gt;setAccessible(true);
+    $method = $reflector->getMethod('bank_details');
+    $method->setAccessible(true);
  
-    $result = $method-&gt;invoke($gw, $order-&gt;id);
+    $result = $method->invoke($gw, $order->id);
   }
 }
 ```

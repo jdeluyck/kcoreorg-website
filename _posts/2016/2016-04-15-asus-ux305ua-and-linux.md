@@ -56,11 +56,11 @@ linux-image-4.4.0-1-grsec-amd64 - Linux 4.4 for 64-bit PCs, Grsecurity protectio
 
 As you can see above, 4.6.0-rc3 is available, but since it's a prerelease kernel it's not automatically installed. We want it, and with it, a bunch of firmware packages (to make sure we have the latest)  
 ```bash
-# apt-get install -t experimental linux-image-4.6.0-rc3-amd64 firmware-linux firmware-iwlwifi firmware-misc-nonfree intel-microcode`  
+# apt-get install -t experimental linux-image-4.6.0-rc3-amd64 firmware-linux firmware-iwlwifi firmware-misc-nonfree intel-microcode  
 ```
 For good measure, you can even throw the latest iwlwifi firmware (not packaged yet in Debian) in the mix (found on [GitHub](https://github.com/OpenELEC/iwlwifi-firmware/tree/master/firmware)):  
 ```
-# wget https://github.com/OpenELEC/iwlwifi-firmware/raw/master/firmware/iwlwifi-7265D-21.ucode -O /lib/firmware/iwlwifi-7265D-21.ucode`
+# wget https://github.com/OpenELEC/iwlwifi-firmware/raw/master/firmware/iwlwifi-7265D-21.ucode -O /lib/firmware/iwlwifi-7265D-21.ucode
 ```
   
 Next, reboot, and things should look a lot better already. Right now everything will work, except..

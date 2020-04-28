@@ -23,7 +23,7 @@ In my searches I ran across the [microG Project](https://microg.org/) - _"A fr
 
 Below you can find the steps I used. These apply to the Transformer TF101, and come with no guarantees whatsoever.
 
-###Preparing the tablet
+### Preparing the tablet
 
   * First, you'll need to uninstall both "Google Play Servics" and the "Google Play Store". Use something like Lucky Patcher, or Titanium Backup, or whatnot, to remove them.
   * Reflash the ROM for [KatKiss](https://forum.xda-developers.com/eee-pad-transformer/development/rom-t3318496) (I'm using 6.0.1 #29) and SuperSU (linked on the same page). _Do NOT install opengapps_!
@@ -39,7 +39,7 @@ Below you can find the steps I used. These apply to the Transformer TF101, and c
       * [Apple UnifiedNlp Backend](https://f-droid.org/repository/browse/?fdfilter=unifiednlp&fdid=org.microg.nlp.backend.apple) (or another backend)
       * [NominatimNlpBackend](https://f-droid.org/repository/browse/?fdfilter=unifiednlp&fdid=org.microg.nlp.backend.nominatim)
 
-###Patching the ROM to allow signature spoofing
+### Patching the ROM to allow signature spoofing
   
 Download (with git) a copy of https://github.com/Lanchon/haystack.git: 
 ```bash
@@ -59,7 +59,7 @@ Make sure your tablet is connected through usb, and that `adb` works, and execut
 
 Reboot the tablet. Afterwards, go to "Settings", "Developer options", scroll to the bottom and enable "Allow signature spoofing".
 
-###Configuring microG Services  
+### Configuring microG Services  
 Go into the application drawer, and look for an application calld "microG Settings".
 
   * Tap "Permission Missing" and give all permissions
@@ -69,7 +69,7 @@ Go into the application drawer, and look for an application calld "microG Settin
   * Go back to the main menu of microG Settings and tap "Self-Check" and make sure it doesn't complain about anything
   * In "Self-Check", make sure to tap "Battery optimizations ignored" to allow the service to run in the background
 
-###Reinstall Google Play Store  
+### Reinstall Google Play Store  
 Download the Play Store from eg. [APKMirror](http://www.apkmirror.com/apk/google-inc/google-play-store/) (http://www.apkmirror.com/apk/google-inc/google-play-store/[/url] to your PC. Rename it to `com.android.vending.apk`  
 Execute the following with adb:
 
