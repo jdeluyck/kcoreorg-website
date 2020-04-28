@@ -14,14 +14,7 @@ tags:
   - stable
   - wheezy
 ---
-<table border="">
-  <tr>
-    <td width="1">
-      <img alt="" src="http://www.debian.org/logos/openlogo-nd-100.png" />
-    </td>
-    
-    <td>
-      <a href="http://www.debian.org" target="_blank">Debian</a> Wheezy has been <a href="http://www.debian.org/News/2013/20130504" target="_blank">released today</a>.<br /> This release brings tons of new features, amongst which are multiarch support, several specific tools to deploy private clouds, an improved installer, and a complete set of multimedia codecs and front-ends which remove the need for third-party repositories.
-    </td>
-  </tr>
-</table>
+![Debian](http://www.debian.org/logos/openlogo-nd-100.png)  
+[Debian](http://www.debian.org) Wheezy has been [released today](http://www.debian.org/News/2013/20130504).
+
+This release brings tons of new features, amongst which are multiarch support, several specific tools to deploy private clouds, an improved installer, and a complete set of multimedia codecs and front-ends which remove the need for third-party repositories.
