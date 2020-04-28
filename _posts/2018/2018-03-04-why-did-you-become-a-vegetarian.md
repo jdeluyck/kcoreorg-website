@@ -23,13 +23,13 @@ My original reasons were very.. eh..  selfish: _I'm lazy_.
 As my girlfriend was living with me (at my parents house) during a sabbatical year she was taking, and combined with the odd hours I was working (two shifts), she cooked for the two of us. Already being a vegetarian, she cooked a veggy meal - but in no way opposed if I would want to cook a piece of meat. But, as I said: I'm lazy. It also opened up my palate to the wonderful world of vegetarian food, meat replacements, spices, ...
 
 After nearly a year of not eating meat, I noticed - the first time round when I got served a piece of meat - that it disagreed with me. It tasted off. The texture was wrong.  
-Fast forward 10 years, and I'm now a nearly 100% vegetarian. My only vice is the once-a-year (or so) <a href="https://en.wikipedia.org/wiki/Seafood" target="_blank" rel="noopener">seafood</a> pizza. I've stopped eating meat, poultry and fish, and cannot say that I miss it. Even more so, the smell of fried meat is something that nauseates me. Strange but true.
+Fast forward 10 years, and I'm now a nearly 100% vegetarian. My only vice is the once-a-year (or so) [seafood](https://en.wikipedia.org/wiki/Seafood) pizza. I've stopped eating meat, poultry and fish, and cannot say that I miss it. Even more so, the smell of fried meat is something that nauseates me. Strange but true.
 
 These last few years, I'm actually quite happy that I don't eat meat anymore...
 
   * The food scandals going round (meat being sold of such quality that is way below what is allowed for consumption)
   * Horrible treatment of animals. (and I'm always cynically amused by the fact people don't realise just how bad animals are treated)
-  * Waste of water with growing all the foods required to feed the proverbial 1kg of meat. In a world where water is becoming <a href="http://www.bbc.com/news/business-42626790" target="_blank" rel="noopener">scarcer and scarcer</a>
+  * Waste of water with growing all the foods required to feed the proverbial 1kg of meat. In a world where water is becoming [scarcer and scarcer](http://www.bbc.com/news/business-42626790)
   * Pollution due to the transport of cattle all over the place (note: if you don't watch where your vegetables come from, you're likely just as bad of)
 
 Will I ever become a vegan? Probably not. I'm too fond of cheese!
