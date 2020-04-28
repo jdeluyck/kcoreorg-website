@@ -20,12 +20,12 @@ tags:
   - trunk
   - vlan
 ---
-Back in the day I used to have one router in the house: the <a href="http://www.dlink.com/be/nl" target="_blank">D-Link</a> <a href="http://support.dlink.com/ProductInfo.aspx?m=DIR-825" target="_blank">DIR-825</a>, flashed with <a href="http://www.openwrt.org" target="_blank">OpenWRT</a>. Configured with two <a href="https://en.wikipedia.org/wiki/Service_set_(802.11_network)" target="_blank">SSIDs</a> - one for internal network use, and one for guest access - the latter being separate from the internal network of the flat.
+Back in the day I used to have one router in the house: the [D-Link](http://www.dlink.com/be/nl) [DIR-825](http://support.dlink.com/ProductInfo.aspx?m=DIR-825), flashed with [OpenWRT](http://www.openwrt.org). Configured with two [SSIDs](https://en.wikipedia.org/wiki/Service_set_(802.11_network)) - one for internal network use, and one for guest access - the latter being separate from the internal network of the flat.
 
-After moving to our house, I discovered that the house construction materials provide a better shielding for radio signals, which in turn meant that the reach of my WiFi router wasn't quite what it should be to reach the far corners of the place. I tried increasing the output wattage, but that had only a marginal increase in reach. So in the end I opted getting a new primary router - the <a href="http://www.tp-link.com" target="_blank">TP-Link</a> <a href="http://www.tp-link.com/en/products/details/cat-9_Archer-C5.html" target="_blank">Archer C5</a> (though mine has three antennas?), which was promptly reflashed with OpenWRT. The DIR-825 was moved to the opposite corner of the house to increase reach, and at the same time I lowered the output wattage of the radios.  
+After moving to our house, I discovered that the house construction materials provide a better shielding for radio signals, which in turn meant that the reach of my WiFi router wasn't quite what it should be to reach the far corners of the place. I tried increasing the output wattage, but that had only a marginal increase in reach. So in the end I opted getting a new primary router - the [TP-Link](http://www.tp-link.com) [Archer C5](http://www.tp-link.com/en/products/details/cat-9_Archer-C5.html) (though mine has three antennas?), which was promptly reflashed with OpenWRT. The DIR-825 was moved to the opposite corner of the house to increase reach, and at the same time I lowered the output wattage of the radios.  
 Because of time constraints, I didn't bother stretching the guest wifi to the second router, as it requires a bit more configuration to properly separate the flows of data between the two networks: vlan configuration.
 
-<!--more-->... fast forward 10 months...
+... fast forward 10 months...
 
 At a recent garden party, I noticed that the guest WiFi didn't reach the garden at all. Bit of a bummer, and a good enough reason to go dig through the configuration to fix this in the end.
 
@@ -159,5 +159,5 @@ config interface 'guest'
 
 Source information:
 
-  * <a href="https://translate.google.com/translate?sl=pl&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Frpc.one.pl%2Findex.php%2Flista-artykulow%2F34-openwrt%2F81-konfiguracja-switch-vlan-na-podstawie-swconfig-w-routerze-wr1043nd-pod-openwrt&edit-text=" target="_blank">Post on rpc.one.pl</a> (Google Translate, <a href="http://rpc.one.pl/index.php/lista-artykulow/34-openwrt/81-konfiguracja-switch-vlan-na-podstawie-swconfig-w-routerze-wr1043nd-pod-openwrt" target="_blank">original Polish</a>)
-  * <a href="https://forum.openwrt.org/viewtopic.php?id=43882" target="_blank">Post by digital on forum.openwrt.org</a>
+  * [Post on rpc.one.pl](https://translate.google.com/translate?sl=pl&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Frpc.one.pl%2Findex.php%2Flista-artykulow%2F34-openwrt%2F81-konfiguracja-switch-vlan-na-podstawie-swconfig-w-routerze-wr1043nd-pod-openwrt&edit-text=) (Google Translate, [original Polish](http://rpc.one.pl/index.php/lista-artykulow/34-openwrt/81-konfiguracja-switch-vlan-na-podstawie-swconfig-w-routerze-wr1043nd-pod-openwrt))
+  * [Post by digital on forum.openwrt.org](https://forum.openwrt.org/viewtopic.php?id=43882)

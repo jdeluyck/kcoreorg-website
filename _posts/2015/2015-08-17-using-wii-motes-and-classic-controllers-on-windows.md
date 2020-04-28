@@ -17,27 +17,17 @@ tags:
   - x360ce
   - xbox360 controller
 ---
-After the latest lan-party with some friends, where we played a lot of <a href="http://rocketleague.psyonix.com/" target="_blank">Rocket League</a>, it dawned on me that this game (and numerous others) is probably a lot easier to play with a <a href="https://en.wikipedia.org/wiki/Game_controller" target="_blank">game controller</a> instead of the mouse/keyboard combination. And as I have the <a href="https://en.wikipedia.org/wiki/Wii_Remote" target="_blank">WiiMote</a> and the <a href="https://en.wikipedia.org/wiki/Wii_Remote#Classic_Controller" target="_blank">Wii Classic Controller</a> lying around, I thought I'd have a go at getting these to work on Windows (as opposed to buying something new).
+After the latest lan-party with some friends, where we played a lot of [Rocket League](http://rocketleague.psyonix.com/), it dawned on me that this game (and numerous others) is probably a lot easier to play with a [game controller](https://en.wikipedia.org/wiki/Game_controller) instead of the mouse/keyboard combination. And as I have the [WiiMote](https://en.wikipedia.org/wiki/Wii_Remote) and the [Wii Classic Controller](https://en.wikipedia.org/wiki/Wii_Remote#Classic_Controller) lying around, I thought I'd have a go at getting these to work on Windows (as opposed to buying something new).
 
-<div id="attachment_1095" style="width: 650px" class="wp-caption aligncenter">
-  <a href="/assets/images/2015/08/640px-Wii-Classic-Controller-White.jpg"><img aria-describedby="caption-attachment-1095" class="wp-image-1095 size-full" src="/assets/images/2015/08/640px-Wii-Classic-Controller-White.jpg" alt="640px-Wii-Classic-Controller-White" width="640" height="355" srcset="/assets/images/2015/08/640px-Wii-Classic-Controller-White.jpg 640w, /assets/images/2015/08/640px-Wii-Classic-Controller-White-300x166.jpg 300w, /assets/images/2015/08/640px-Wii-Classic-Controller-White-250x139.jpg 250w, /assets/images/2015/08/640px-Wii-Classic-Controller-White-150x83.jpg 150w" sizes="(max-width: 640px) 100vw, 640px" /></a>
-  
-  <p id="caption-attachment-1095" class="wp-caption-text">
-    Wii Classic Controller
-  </p>
-</div>
+![640px-Wii-Classic-Controller-White](/assets/images/2015/08/640px-Wii-Classic-Controller-White.jpg "640px-Wii-Classic-Controller-White")  
+Wii Classic Controller
 
-Windows does recognize the WiiMote as some weird bluetooth device, but not as a functional controller. Some digging turned up <a href="http://julianloehr.de/educational-work/hid-wiimote/" target="_blank">HID Wiimote driver, the Bachelor Thesis project</a> of <a href="http://julianloehr.de/" target="_blank">Julian Löhr</a>.  
+Windows does recognize the WiiMote as some weird bluetooth device, but not as a functional controller. Some digging turned up [HID Wiimote driver, the Bachelor Thesis project](http://julianloehr.de/educational-work/hid-wiimote/) of [Julian Löhr](http://julianloehr.de/).  
 For the installation instructions, please see the site of Julian - they're pretty detailed and tell you everything you need to know.
 
-As for mapping the output of the driver to something games understand, you'll need yet another tool: <a href="https://github.com/x360ce/x360ce" target="_blank">x360ce</a>. This translates whatever output you get from a driver, and makes the game/program in question think there's an <a href="https://en.wikipedia.org/wiki/Xbox_360_Controller" target="_blank">Xbox360 controller</a> attached. For details on how x360ce works, check the github site.
+As for mapping the output of the driver to something games understand, you'll need yet another tool: [x360ce](https://github.com/x360ce/x360ce). This translates whatever output you get from a driver, and makes the game/program in question think there's an [Xbox360 controller](https://en.wikipedia.org/wiki/Xbox_360_Controller) attached. For details on how x360ce works, check the github site.
 
-<div id="attachment_1097" style="width: 702px" class="wp-caption aligncenter">
-  <img aria-describedby="caption-attachment-1097" class="wp-image-1097 size-full" src="/assets/images/2015/08/x360ce.png" alt="x360ce" width="692" height="635" srcset="/assets/images/2015/08/x360ce.png 692w, /assets/images/2015/08/x360ce-300x275.png 300w, /assets/images/2015/08/x360ce-163x150.png 163w, /assets/images/2015/08/x360ce-150x138.png 150w" sizes="(max-width: 692px) 100vw, 692px" />
-  
-  <p id="caption-attachment-1097" class="wp-caption-text">
-    x360ce main controller mapping screen
-  </p>
-</div>
+![x360ce](/assets/images/2015/08/x360ce.png "x360ce")  
+x360ce main controller mapping screen
 
 One final remark: to make things properly work, make sure you uncheck "Passthrough" in the advanced tab, otherwise it just doesn't work. And copy the files of x360ce in the game's binary directory, so that all the necessary libraries will be found.

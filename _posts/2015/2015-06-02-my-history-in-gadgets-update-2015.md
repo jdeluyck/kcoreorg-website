@@ -15,12 +15,12 @@ tags:
   - motorola
   - phone
 ---
-An update on the <a href="https://kcore.org/2012/01/04/my-history-in-gadgets/" target="_blank">"My history in gadgets"</a> post from a while back, and the <a href="https://kcore.org/2014/05/12/my-history-in-gadgets-update-2014/" target="_blank">2014 update</a>:
+An update on the ["My history in gadgets"](https://kcore.org/2012/01/04/my-history-in-gadgets/) post from a while back, and the [2014 update](https://kcore.org/2014/05/12/my-history-in-gadgets-update-2014/):
 
 **_Mobile phone history:_**
 
 The Desire S I was using for work died (hboot corruption), and was replaced by:
 
-**<a href="http://www.gsmarena.com/motorola_moto_e_(2nd_gen)-6986.php" target="_blank">Motorola E2 (LTE)<br /> <img class="" src="/assets/images/2015/08/motorola-moto-e-2015-1.jpg" alt="Motorola E2" width="220" height="210" /></a>**
+**[Motorola E2 (LTE)](http://www.gsmarena.com/motorola_moto_e_(2nd_gen)-6986.php) ![Motorola E2](/assets/images/2015/08/motorola-moto-e-2015-1.jpg "Motorola E2")</a>**
 
 I know, boring, only one update ;)
