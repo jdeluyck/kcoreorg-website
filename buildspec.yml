@@ -9,6 +9,9 @@ phases:
       - bundle install
   build:
     commands:
+      - LC_ALL="C.UTF-8"
+      - LANG="C.UTF-8"
+      - LANGUAGE="en_US.UTF-8"
       - JEKYLL_ENV=production bundle exec jekyll build 2>&1 | grep -E -v 'deprecated'
       - aws s3 sync --delete _site/ s3://kcore-org-website-730189087308
 artifacts:
