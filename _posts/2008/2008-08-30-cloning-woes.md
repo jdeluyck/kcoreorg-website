@@ -17,8 +17,10 @@ After yesterday's [clone](https://kcore.org/2008/08/29/bigger-disk/) I noticed s
 
 After some searching I found the fix on this [CCC Forum thread](http://forums.bombich.com/viewtopic.php?p=42055#42055):
 
-> sudo chgrp wheel /var/folders/*  
-> sudo chmod 700 $TMPDIR  
-> sudo chown $USER $TMPDIR 
+```bash
+sudo chgrp wheel /var/folders/*  
+sudo chmod 700 $TMPDIR  
+sudo chown $USER $TMPDIR
+``` 
 
-In short, the permissions for that directory werent taken over correctly from the original, hence the problems. All fixed now ;)
+In short, the permissions for that directory weren't taken over correctly from the original, hence the problems. All fixed now ;)

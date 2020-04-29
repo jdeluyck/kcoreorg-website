@@ -17,7 +17,7 @@ format: link
 ---
 [BBC 4 Radio](http://www.bbc.co.uk/radio4/) is running [Dirk Gently's Holistic Detective Agency](http://en.wikipedia.org/wiki/Dirk_Gently's_Holistic_Detective_Agency) as [an audiobook series](http://www.bbc.co.uk/radio4/dirkgently/)!
 
-![Dirk Gently](http://en.wikipedia.org/wiki/Image:Dirk_Gently_UK_front_cover.jpg)
+![Dirk Gently](https://upload.wikimedia.org/wikipedia/en/5/59/Dirk_Gently_UK_front_cover.jpg)
 
 I've just finished listening to the first episode, I can highly recommend it!
 

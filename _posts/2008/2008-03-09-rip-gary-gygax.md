@@ -22,6 +22,6 @@ On the 4th of March 2008, [Gary Gygax](http://en.wikipedia.org/wiki/Gary_Gygax) 
 
 May he rest in peace.
 
-[![](/assets/images/2008/02/uf011309-sm.gif "")](http://ars.userfriendly.org/cartoons/?id=20080309)
+![](/assets/images/2008/02/uf011309-sm.gif)
 
 (Comic &copy; [http://www.userfriendly.org](http://www.userfriendly.org))

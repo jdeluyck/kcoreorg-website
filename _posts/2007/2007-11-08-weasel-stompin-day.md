@@ -14,5 +14,6 @@ tags:
   - "weasel stompin' day"
   - weird al yankovic
 format: video
+published: false
 ---
 Sick video, by Weird Al Yankovic!

@@ -27,15 +27,15 @@ So, the process to get it up and running is:
 
   1. download GalleryRemote (non-vm)
   2. run this in the directory where you downloaded it:  
-    ```bash
-    $ cp GalleryRemote.1.5.Linux.NoVM.bin GalleryRemote.1.5.Linux.NoVM.bin.orig
-    $ cat GalleryRemote.1.5.Linux.NoVM.bin.orig | sed "s/export LD_ASSUME_KERNEL/#xport LD_ASSUME_KERNEL/" > GalleryRemote.1.5.Linux.NoVM.bin
-    ```
+     ```bash
+      $ cp GalleryRemote.1.5.Linux.NoVM.bin GalleryRemote.1.5.Linux.NoVM.bin.orig
+      $ cat GalleryRemote.1.5.Linux.NoVM.bin.orig | sed "s/export LD_ASSUME_KERNEL/#xport LD_ASSUME_KERNEL/" > GalleryRemote.1.5.Linux.NoVM.bin
+     ```
   3. install GalleryRemote
   4. run this in the directory where you installed it:  
-    ```bash
-    $ cp Gallery_Remote Gallery_Remote.orig
-    $ cat Gallery_Remote.orig | sed "s/export LD_ASSUME_KERNEL/#xport LD_ASSUME_KERNEL/" > Gallery_Remote
-    ```
+     ```bash
+     $ cp Gallery_Remote Gallery_Remote.orig
+     $ cat Gallery_Remote.orig | sed "s/export LD_ASSUME_KERNEL/#xport LD_ASSUME_KERNEL/" > Gallery_Remote
+     ```
 
 Now you should be all set to use GalleryRemote!

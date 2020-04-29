@@ -20,4 +20,4 @@ Also known as Horoscope.. :p
 (Shamelessly ripped from [Sade's blog](http://sade.sadevil.org/blog/?p=124)...)
 
 [url]: http://www.lets101.com/quizzes/stars_say
-[img]: /assets/images/2007/11/zodiac_leo_txt.gif" "Horrorscope"
+[img]: /assets/images/2007/11/zodiac_leo_txt.gif "Horrorscope"
