@@ -12,9 +12,10 @@ tags:
 published: true
 ---
 I have a [Synology DS916+](https://www.synology.com/en-global/support/download/DS916+#docs) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage).
-This is an Intel based NAS with 4 disk bays, running on Synology's [Disk Station Manager](https://www.synology.com/en-global/dsm). A nice piece
+This is an Intel based NAS with 4 disk bays, running on Synology's [Disk Station Manager](https://www.synology.com/en-global/dsm) - a nice piece
 of software that offers an easy way to manage the device, and run [additional software](https://www.synology.com/en-global/dsm/packages) on top of it.
-I picked this device because I had good experiences with it, and Synology was a brand I could trust with my data.
+
+I picked this device because I had good experiences with Synology hardware in the past, and I felt Synology was a brand I could trust with my data.  
 (as always, you do need to have backups of your important data - I practice the [3-2-1 backup strategy](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/)).
 
 I had it configured with 4 disks in a [Synology Hybrid RAID (SHR)](https://www.synology.com/en-uk/knowledgebase/DSM/tutorial/Storage/What_is_Synology_Hybrid_RAID_SHR),
