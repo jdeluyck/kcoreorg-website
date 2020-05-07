@@ -24,7 +24,7 @@ tags:
 I got a Yubikey 4 half a year ago (during [Red Hat Summit 2016](https://www.redhat.com/en/summit/2016)), but until now I didn't do much with it. Time to change that ;)
 
   * Activate [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) on the [services that support it](https://www.yubico.com/about/background/fido/)
-  * U[pload my GPG key](https://www.yubico.com/support/knowledge-base/categories/articles/use-yubikey-openpgp/) into the Yubikey (my public key is [here](https://www.kcore.org/txt/EF3EE450.asc))
+  * [Upload my GPG key](https://www.yubico.com/support/knowledge-base/categories/articles/use-yubikey-openpgp/) into the Yubikey (my public key is [here](https://keybase.io/jandeluyck/pgp_keys.asc?fingerprint=43c08ece1fd57dd65b9dacc8f5aced06ef3ee450))
   * Configure it as a [second factor for SSH](https://developers.yubico.com/PGP/SSH_authentication/) connections
   * Configure it as a login token for my Linux machines.
   * Configure it as a [login token for my Windows](https://www.yubico.com/why-yubico/for-businesses/computer-login/windows-login/) machines (although I might wait for [Windows Hello](https://support.microsoft.com/en-us/help/17215/windows-10-what-is-hello) integration)
