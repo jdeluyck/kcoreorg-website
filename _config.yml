@@ -98,6 +98,10 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - .gitignore
   - .idea
+  - TODO
+  - buildspec.yml
+  - local-test.sh
+  - md-fix.sh
 keep_files:
   - .git
   - .svn
