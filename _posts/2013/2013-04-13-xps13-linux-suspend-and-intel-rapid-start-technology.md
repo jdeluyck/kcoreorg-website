@@ -17,7 +17,7 @@ tags:
   - suspend
   - xps13
 ---
-As an addendum to my previous post on [how to install Debian Sid on the XPS13](https://kcore.org/2013/04/07/dell-xps-13-and-debian-sid/), I've been having issues with suspend - the laptop would sporadicaly not go to sleep properly on lid close, or it wouldn't come out of suspend afterwards.
+As an addendum to my previous post on [how to install Debian Sid on the XPS13](/2013/04/07/dell-xps-13-and-debian-sid/), I've been having issues with suspend - the laptop would sporadicaly not go to sleep properly on lid close, or it wouldn't come out of suspend afterwards.
 
 I seem to have found a solution for both:
 

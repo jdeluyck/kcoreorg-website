@@ -16,7 +16,7 @@ tags:
   - s40
   - Symbian
 ---
-As I detailed in my [previous post on how to get this phone working with Leopard](https://kcore.org/2008/06/26/nokia-3109c-symbian-s40-and-isync/), upgrading to [Mac OS X 10.6 aka Snow Leopard ](http://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard) broke things again.
+As I detailed in my [previous post on how to get this phone working with Leopard](/2008/06/26/nokia-3109c-symbian-s40-and-isync/), upgrading to [Mac OS X 10.6 aka Snow Leopard ](http://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard) broke things again.
 
 Easy fix though: follow the steps in my previous post, and attached to this post you can find the 'fixed' MetaClasses.plist file.
 

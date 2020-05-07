@@ -14,7 +14,7 @@ tags:
 ---
 I'm in the market for a car.
 
-Why, you might ask? Because [my future work](https://kcore.org/2007/10/30/work-the-neverending-story/) will no longer give me a car to use. That's fine, the payrise covers it (and more ;) )
+Why, you might ask? Because [my future work](/2007/10/30/work-the-neverending-story/) will no longer give me a car to use. That's fine, the payrise covers it (and more ;) )
 
 The questions are:
 

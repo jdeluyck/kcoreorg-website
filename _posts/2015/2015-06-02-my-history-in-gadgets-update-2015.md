@@ -15,7 +15,7 @@ tags:
   - motorola
   - phone
 ---
-An update on the ["My history in gadgets"](https://kcore.org/2012/01/04/my-history-in-gadgets/) post from a while back, and the [2014 update](https://kcore.org/2014/05/12/my-history-in-gadgets-update-2014/):
+An update on the ["My history in gadgets"](/2012/01/04/my-history-in-gadgets/) post from a while back, and the [2014 update](/2014/05/12/my-history-in-gadgets-update-2014/):
 
 **_Mobile phone history:_**
 

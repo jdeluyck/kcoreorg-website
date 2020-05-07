@@ -16,7 +16,7 @@ tags:
 ---
 Grmble.
 
-Yesterday I picked up my macbook, which [recently returned from repair](https://kcore.org/2007/11/09/my-mac-is-back/), and a screw fell out. wtf?
+Yesterday I picked up my macbook, which [recently returned from repair](/2007/11/09/my-mac-is-back/), and a screw fell out. wtf?
 
 I checked, you can't tighten it, seems the internal socket where the screw is supposed to be set in is broken/missing. Way to go Apple. You're definitely scoring points on this one... negative points.
 

@@ -26,6 +26,6 @@ Diana's cooked loads of lovely meals and also [vegan cupcakes](http://s
 
 We also bought three [lovely cacti](/assets/images/2007/09/IMG_3683-me.jpg), which are currently [flowering](/assets/images/2007/09/IMG_3684-me.jpg)!
 
-We've also made [a short trip to Germany](https://kcore.org/2007/08/21/short-german-trip/), to visit friends.
+We've also made [a short trip to Germany](/2007/08/21/short-german-trip/), to visit friends.
 
 Diana had to go back to Spain, unfortunately, though ...

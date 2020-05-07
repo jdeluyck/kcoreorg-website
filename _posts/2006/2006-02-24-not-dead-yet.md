@@ -4,7 +4,7 @@ title: Not dead yet
 date: 2006-02-24T16:53:01+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2006/02/24/not-dead-yet/
+guid: https://kcore.org/2006/02/24/not-dead-yet/
 permalink: /2006/02/24/not-dead-yet/
 categories:
   - Personal
@@ -14,7 +14,7 @@ tags:
 ---
 Hmmm.. what can I say, after being 'away' for this long :) I just didn't know what to post, or didn't think of it usually.
 
-Nothing much happened meanwhile. I spent [Newyears in Madrid](https://kcore.org/2006/01/08/newyear-in-madrid/), I went there again in February and will do so on March 16th...
+Nothing much happened meanwhile. I spent [Newyears in Madrid](/2006/01/08/newyear-in-madrid/), I went there again in February and will do so on March 16th...
 
 I also got the latest album of [Neil Young](http://www.neilyoung.com/), titled [Prairie Wind](http://www.neilyoung.com/prairiewind.html) which is very good actually :)
 

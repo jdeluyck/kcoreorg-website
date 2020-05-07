@@ -14,7 +14,7 @@ tags:
   - oneplus 3
   - phone
 ---
-An update on the "[My history in gadgets](https://kcore.org/2012/01/04/my-history-in-gadgets/)", the [2014](https://kcore.org/2014/05/12/my-history-in-gadgets-update-2014/) and the [2015](https://kcore.org/2015/06/02/my-history-in-gadgets-update-2015/) update, now the 2016 update. Who would have guessed!
+An update on the "[My history in gadgets](/2012/01/04/my-history-in-gadgets/)", the [2014](/2014/05/12/my-history-in-gadgets-update-2014/) and the [2015](/2015/06/02/my-history-in-gadgets-update-2015/) update, now the 2016 update. Who would have guessed!
 
 _**Mobile phone history:**_
 

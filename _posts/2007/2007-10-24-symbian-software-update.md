@@ -14,6 +14,6 @@ tags:
   - update
 format: link
 ---
-I've just updated [my list of applications I use](https://kcore.org/2007/07/27/software-for-the-nokia-e65/) on my Nokia E65. Go take a peek!
+I've just updated [my list of applications I use](/2007/07/27/software-for-the-nokia-e65/) on my Nokia E65. Go take a peek!
 
 ;)

@@ -20,4 +20,4 @@ format: image
 
 Yez! We can! :p
 
-(Hereby the [100m mad dash](https://kcore.org/2008/01/23/mad-dash/) has been concluded. Stay tuned for the next installment! :P)
+(Hereby the [100m mad dash](/2008/01/23/mad-dash/) has been concluded. Stay tuned for the next installment! :P)

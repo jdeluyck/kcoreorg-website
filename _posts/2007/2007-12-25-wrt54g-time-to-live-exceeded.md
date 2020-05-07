@@ -23,4 +23,4 @@ I just swapped my [WRT54GL](http://www.linksys.com/servlet/Satellite?c=L_Product
   * use my spare WRT54G v5 (which is flashed with [dd-wrt micro](http://www.dd-wrt.com))
   * buy a new WRT54GL (and flash it using [Tomato](http://www.polarcloud.com/tomato) - what I use now on my routers) 
 
-I'll see. I still have [a voucher](https://kcore.org/2007/09/30/so-long-and-thanks-for-all-the-fish/) for MediaMarkt that I need to use... ;)
+I'll see. I still have [a voucher](/2007/09/30/so-long-and-thanks-for-all-the-fish/) for MediaMarkt that I need to use... ;)

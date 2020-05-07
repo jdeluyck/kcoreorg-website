@@ -21,7 +21,7 @@ tags:
   - phone
 format: gallery
 ---
-An update on the ["My history in gadgets"](https://kcore.org/2012/01/04/my-history-in-gadgets/) post from a while back, as things have progressed a bit meanwhile ;)
+An update on the ["My history in gadgets"](/2012/01/04/my-history-in-gadgets/) post from a while back, as things have progressed a bit meanwhile ;)
 
 **_Mobile phone history:_**
 

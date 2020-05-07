@@ -17,7 +17,7 @@ tags:
   - raspberry pi
   - rclone
 ---
-I've been a longtime user of [Crashplan](https://www.crashplan.com/en-us/), an easy-to-use cloud backup solution. It works well, and it _used_ to work also on nearly any platform that had a java run-time and some add-on opensource libraries. I've [used it for some time](https://kcore.org/2016/04/30/running-crashplan-headless-on-a-raspberry-pi-2/) on my raspberry pi to automatically backup my data to the cloud. (Crashplan on ARM (the architecture of the raspberry pi) is an [unsupported configuration](https://support.code42.com/CrashPlan/4/Configuring/Beyond_The_Code_Unsupported_CrashPlan_Configurations) though).
+I've been a longtime user of [Crashplan](https://www.crashplan.com/en-us/), an easy-to-use cloud backup solution. It works well, and it _used_ to work also on nearly any platform that had a java run-time and some add-on opensource libraries. I've [used it for some time](/2016/04/30/running-crashplan-headless-on-a-raspberry-pi-2/) on my raspberry pi to automatically backup my data to the cloud. (Crashplan on ARM (the architecture of the raspberry pi) is an [unsupported configuration](https://support.code42.com/CrashPlan/4/Configuring/Beyond_The_Code_Unsupported_CrashPlan_Configurations) though).
 
 _Used to work_, past tense.
 

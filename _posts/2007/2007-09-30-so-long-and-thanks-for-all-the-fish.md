@@ -24,4 +24,4 @@ From the people of the bank, I got a gift certificate for [Media Markt](http://w
 
 It's a bit sad to think that my own company didn't bother to give anything - I hadn't expected it, but while the people that I only worked with - not for - bothered, it highlights one of the reasons why I decided to leave: lack of any kind of caring for your employees. For those that are wondering: the other reasons I decided to change jobs is the lack of actual work and diversity in it. Oh, and also the fact that they still don't get the Belgian legislation right...
 
-Enough about the past! The future is bright, it's CTG ;) (but only starting 2nd of november, I'm [taking a month off](https://kcore.org/2007/08/01/change-of-work/) in between)
+Enough about the past! The future is bright, it's CTG ;) (but only starting 2nd of november, I'm [taking a month off](/2007/08/01/change-of-work/) in between)

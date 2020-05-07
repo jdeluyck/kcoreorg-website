@@ -29,7 +29,7 @@ After owning my Nokia E65 for about a month, here's the list of apps I installed
   * ~~Opera Mini~~
   * [PhoNetInfo](http://www.patrickfrei.ch/phonetinfo/)
   * [Putty](http://s2putty.sourceforge.net/)
-  * [Reflect Theme](https://kcore.org/2007/07/27/reflect-theme-for-symbian/)
+  * [Reflect Theme](/2007/07/27/reflect-theme-for-symbian/)
   * [Screenshot](http://www.antonypranata.com/screenshot/)
   * [TextQuick](http://mind-flip.com/textquick/index.html)
   * [TomTom](http://www.tomtom.com)

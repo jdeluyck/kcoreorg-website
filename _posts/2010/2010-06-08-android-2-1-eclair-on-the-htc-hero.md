@@ -16,7 +16,7 @@ tags:
   - htc
   - htc hero
 ---
-I've bought an HTC Hero a while back. [Rooted](https://kcore.org/2009/12/13/rooting-the-htc-hero/) it too, so I could edit the sms database. Loving the phone.
+I've bought an HTC Hero a while back. [Rooted](/2009/12/13/rooting-the-htc-hero/) it too, so I could edit the sms database. Loving the phone.
 
 Then [HTC](http://www.htc.com/) promised us (owners) an upgrade from Cupcake ([Android 1.5](http://developer.android.com/sdk/android-1.5.html)) to Eclair ([Android 2.1](http://developer.android.com/sdk/android-2.1.html)), scheduled for March 2010. Since Eclair has a ton of additional features and bugfixes, this was a biggy.
 

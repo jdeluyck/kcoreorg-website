@@ -13,7 +13,7 @@ tags:
   - dommel
   - isp
 ---
-An update after my [previous ISP post](https://kcore.org/2007/02/21/my-isp/):
+An update after my [previous ISP post](/2007/02/21/my-isp/):
 
   * July 2007 
       * Increase of data transfer for netconnect to 75gb
