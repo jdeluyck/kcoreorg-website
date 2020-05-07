@@ -12,9 +12,9 @@ tags:
   - lenovo tab 4 10
   - samsung galaxy tab s6
 ---
-An second update on the "[My history in gadgets](https://kcore.org/2012/01/04/my-history-in-gadgets)", 
-the [2014](https://kcore.org/2014/05/12/my-history-in-gadgets-update-2014/),
- [2015](https://kcore.org/2015/06/02/my-history-in-gadgets-update-2015), 
+An second update on the "[My history in gadgets](/2012/01/04/my-history-in-gadgets)", 
+the [2014](/2014/05/12/my-history-in-gadgets-update-2014/),
+ [2015](/2015/06/02/my-history-in-gadgets-update-2015), 
  [2016](/2016/07/15/my-history-in-gadgets-update-2016/) and
  [2019](/2019/06/26/my-history-in-gadgets-update-2019/) updates:
 
