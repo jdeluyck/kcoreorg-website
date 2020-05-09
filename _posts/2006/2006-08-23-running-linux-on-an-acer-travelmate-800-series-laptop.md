@@ -29,6 +29,9 @@ I no longer have the Acer Travelmate 800 series laptop (sold it), so I can no lo
 On March 10 2005 I've decided to give this page a complete overhaul, and throw out any references to the 2.4 series of kernels since I don't run them anymore, and IMO users should upgrade to 2.6 to make 100% decent use of their laptops.  
 For reference purposes I've put up a file which contains the 2.4 stuff, but it will not be updated any longer.
 
+Note 2020: With the migration to Jekyll I forgot to take along a lot of the files here... but most likely you won't need them anyway 
+since the Linux landscape has changed dramatically since 2006.
+
 # Technical Specifications
 
 Intel Pentium M processor (1024KB L2 Cache), supports Enhanced Intel SpeedStep  
@@ -218,7 +221,7 @@ You need this if you don't want your CPU to eat your batteries empty. It's inclu
 It works perfectly after loading the `speedstep-centrino` and any of the `cpufreq-` modules.
 
 You can either install the `[cpufreqd](http://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
-I use [this init script](https://kcore.org/sections/linux/linux_on_acer_tm800/cpufreq_setup) to setup everything at bootup.
+I use [this init script](#) to setup everything at bootup.
 
 For Debian, check the [cpufreqd](http://packages.debian.org/cpufreqd) or [powernowd](http://packages.debian.org/powernowd) packages.
 
@@ -309,7 +312,7 @@ These include:
   * Setup (opens a program to change some bios settings)
   * Change power mode
 
-I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [acertm800.def](https://kcore.org/sections/linux/linux_on_acer_tm800/acertm800.def) file in `/usr/share/hotplug/` and then starting hotkeys as  
+I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [acertm800.def](#) file in `/usr/share/hotplug/` and then starting hotkeys as  
 `hotkeys --no-splash --cdrom-dev=none --osd=off` from your `.xsession` file.
 
 Debian users can install the [hotkeys](http://packages.debian.org/hotkeys) package.
@@ -323,8 +326,8 @@ Not yet tried.
 This works pretty well starting kernel `2.6.12`.  
 You can't use the [ATI](http://www.ati.com/) [fglrx](https://support.ati.com/ics/support/default.asp?deptID=894) driver, and you can't use the Radeon framebuffer.
 
-I use the following [suspend](https://kcore.org/sections/linux/linux_on_acer_tm800/acpi-events-suspend) script in `/etc/acpi/events` 
-(which is triggered when I press my suspend button), and this [suspend2ram](https://kcore.org/sections/linux/linux_on_acer_tm800/suspend2ram)
+I use the following [suspend](#) script in `/etc/acpi/events` 
+(which is triggered when I press my suspend button), and this [suspend2ram](#)
 script to do the actual suspending.
 
 [Here](http://www.doesi.gmxhome.de/linux/tm800s3/s3.html) you can find more information which might help you get it working.
