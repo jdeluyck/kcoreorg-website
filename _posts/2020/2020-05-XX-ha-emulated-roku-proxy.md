@@ -13,7 +13,7 @@ tags:
   - iptables
 published: false
 ---
-Building further on my [CC Radio](https://kcore.org/2020/01/09/cc-radio-ha-nodered/), I wanted to integrate this
+Building further on my [CC Radio](/2020/01/09/cc-radio-ha-nodered/), I wanted to integrate this
 with my [Logitech Harmony Elite (+hub)](https://www.logitech.com/en-gb/product/harmony-elite) remote, so that no
 interaction is needed with Home Assistant itself to work the radio.
 
