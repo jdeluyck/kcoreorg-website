@@ -197,3 +197,6 @@ Somehow I don't feel very confident with Synology anymore. Definitely not with b
 
 I'll be replacing this setup with a home built NAS running [ZFS on Linux](https://zfsonlinux.org/). I've had excellent
 experiences with ZFS on Solaris, and what I'm reading about ZFS on Linux and FreeBSD only confirms my feelings.  
+
+**Update**: Synology replaced the DS916+ with a [DS918+](https://www.synology.com/en-global/products/DS918+), but I 
+decided to sell it and go forward with my custom build.
