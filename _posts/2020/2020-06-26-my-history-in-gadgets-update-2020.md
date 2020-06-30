@@ -1,6 +1,6 @@
 ---
 title: 'My history in gadgets - update 2020'
-date: 2019-12-31T12:12:12
+date: 2020-06-26
 author: Jan
 layout: single
 categories:
@@ -12,12 +12,12 @@ tags:
   - oneplus 6
   - oneplus 8 pro
 ---
-An second update on the "[My history in gadgets](/2012/01/04/my-history-in-gadgets)", 
+An second update on the [My history in gadgets](/2012/01/04/my-history-in-gadgets), 
 the [2014](/2014/05/12/my-history-in-gadgets-update-2014/),
  [2015](/2015/06/02/my-history-in-gadgets-update-2015), 
  [2016](/2016/07/15/my-history-in-gadgets-update-2016/),
  [2019](/2019/06/26/my-history-in-gadgets-update-2019/) and 
-[2019 bis](/2019/12/31/my-history-in-gadgets-update-2019-bis/  updates:
+[2019 bis](/2019/12/31/my-history-in-gadgets-update-2019-bis/) updates:
 
 _**Phone history:**_
 
