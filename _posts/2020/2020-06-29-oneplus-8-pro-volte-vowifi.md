@@ -17,8 +17,10 @@ tags:
 [limited set of devices](https://www.orange.be/nl/zelfstandigen/hulp/technische-ondersteuning/mobiele-telefonie/ik-ondervind-netwerkproblemen-buiten-wat-kan-ik).
 Unfortunately, OnePlus is not one of the manufacturers.
 
-OnePlus _does_ support VoLTE/VoWiFi, on a lot of their devices. So, having found some tutorials online, I now have it 
-working on my OnePlus 8 Pro ;)
+OnePlus _does_ support VoLTE/VoWiFi, on a lot of their devices. So, having found some [tutorials](https://forum.xda-developers.com/oneplus-7-pro/help/force-enable-volte-vowifi-t3934227)
+online, I now have it working on my OnePlus 8 Pro ;)
+
+Rooting is not required to do this. 
 
 Doing this has possible risks - you can possibly destroy your EFS partition! If you break your phone, it's your problem, 
 not mine.
