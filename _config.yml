@@ -21,6 +21,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kcore.org" # the base hostname & protocol for your site, e.g. http://example.com
 name: "kcore.org"
 
+subtitle: >-
+  ... everything&#039;s just a memory dump away ...
+
 comments:
   provider: "disqus"
   disqus:
