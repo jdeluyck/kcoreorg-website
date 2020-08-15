@@ -1,56 +1,44 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
-
 @font-face {
-	font-family: "Oswald Stencil";
-	src: url("/assets/fonts/Oswald-Stencil-webfont.woff") format('woff');
-	font-weight: bold;
-	font-style: normal;
+  font-family: 'Oswald Stencil';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/assets/fonts/Oswald-Stencil-webfont.woff') format('woff');
 }
 
 @font-face {
-	font-family: "Open Sans";
-	src: url("/assets/fonts/OpenSans-Regular-webfont.woff") format('woff');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/fonts/OpenSans-Regular-webfont.woff') format('woff');
 }
 
-$footer-text-color: #EEEEEE;
-$footer-background-color: #59554E;
-$background-color: #EFF0EC;
-$link-color: #61928C; 
-$masthead-link-color: #666666;
+$footer-text-color: #eee;
+$footer-background-color: #59554e;
+$background-color: #eff0ec;
+$link-color: #61928c;
+$masthead-link-color: #666;
 
-$type-size-9: 0.350em !default; // ~4px
+$type-size-9: 0.35em !default; // ~4px
 
 
-@charset "utf-8";
+@charset 'utf-8';
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import 'minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}'; // skin
+@import 'minimal-mistakes'; // main partials
 
 /* Custom CSS crap */
 /* Site Title */
 .site-title {
-/*  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-  align-self: center;
-  font-weight: bold;*/
-  text-transform: uppercase;
-//  z-index: 20;
-  font-family: "Oswald Stencil";
+  font-family: 'Oswald Stencil';
   font-size: $type-size-2;
+  text-transform: uppercase;
 }
 
 /* Site Subtitle */
 .site-subtitle {
-  text-transform: uppercase;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: $type-size-9;
+  text-transform: uppercase;
 }
 
 /* Footer front color */
