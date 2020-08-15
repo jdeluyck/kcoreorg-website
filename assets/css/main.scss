@@ -24,9 +24,10 @@ $masthead-link-color: #666;
 
 $type-size-9: 0.35em !default; // ~4px
 
+
 @charset 'utf-8';
 
-@import 'minimal-mistakes/skins/_{{ site.minimal_mistakes_skin | default: 'default' }}'; // skin
+@import 'minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}'; // skin
 @import 'minimal-mistakes'; // main partials
 
 /* Custom CSS crap */
