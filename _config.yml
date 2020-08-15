@@ -18,7 +18,8 @@ title: kcore.org
 description: >- # this means to ignore newlines until "baseurl:"
   ... everything&#039;s just a memory dump away ...
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kcore.org" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://kcore.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jdeluyck.github.io/kcoreorg-website/"
 name: "kcore.org"
 
 subtitle: >-
