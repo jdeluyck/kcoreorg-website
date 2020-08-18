@@ -42,7 +42,7 @@ iface eth0 inet static
 
 or, in [Network Manager](https://wiki.gnome.org/Projects/NetworkManager) speak (for another server I have):
 
-```
+```shell
 nmcli con add con-name macvlan-lan type macvlan ifname macvlan-lan ip4 192.168.1.253/32 dev eth0 mode bridge
 nmcli con mod macvlan-lan +ipv4.routes "192.168.1.3/32"
 nmcli con mod macvlan-lan +ipv4.routes "192.168.1.192/26"
