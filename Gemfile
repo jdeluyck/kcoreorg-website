@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-archives"
   gem "jemoji"
+  gem "jekyll-include-cache"
 end
 
 #gem "faraday", "< 1.0.0"
