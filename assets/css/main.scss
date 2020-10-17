@@ -49,3 +49,10 @@ $type-size-9: 0.35em !default; // ~4px
 .page__footer {
   color: $footer-text-color;
 }
+
+.page__meta-sep::before {
+  content: "\2022";
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
