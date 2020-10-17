@@ -8,7 +8,6 @@ categories:
 tags:
   - Android
   - gadget
-  - tablet
   - oneplus 6
   - oneplus 8 pro
 ---
