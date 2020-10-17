@@ -11,7 +11,6 @@ tags:
   - proxy
   - emulated_roku
   - iptables
-published: false
 ---
 Building further on my [CC Radio](/2020/01/09/cc-radio-ha-nodered/), I wanted to integrate this
 with my [Logitech Harmony Elite (+hub)](https://www.logitech.com/en-gb/product/harmony-elite) remote, so that no
