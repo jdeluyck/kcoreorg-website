@@ -15,7 +15,7 @@ tags:
 ---
 As [Ubiquiti](https://www.ui.com/) seems to have abandoned any development for their 
 [UniFi Security Gateway](https://www.ui.com/unifi-routing/usg/) - the last _"stable"_ update (version 
-[4.4.51](https://community.ui.com/releases/USG-Firmware-4-4-51/7599534b-dcf1-4685-84c4-5d49e9e0c145) 
+[4.4.51](https://community.ui.com/releases/USG-Firmware-4-4-51/7599534b-dcf1-4685-84c4-5d49e9e0c145)) 
 was more than a year ago, wasn't all that stable and doesn't fix many outstanding issues - I've decided that it's time to 
 move to something else to fill my routing/firewalling needs.
 
