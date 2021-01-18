@@ -313,12 +313,12 @@ $ pacmd load-module module-combine-sink sink_name=virtual-microphone-and-speaker
 We also need to redirect the input of the headset microphone to the virtual microphone.
 ```bash
 $ MIC="alsa_input.usb-Plantronics_Plantronics_Blackwire_3225_Series_1129BBD004004FF4BD2E6F2248C0D73E-00.analog-stereo"
-$pacmd load-module module-loopback latency_msec=20 sink=mix-for-virtual-mic source=$MIC
+$ pacmd load-module module-loopback latency_msec=20 sink=mix-for-virtual-mic source=$MIC
 ```
 
 To make video conferencing apps pick it up, a echo-cancel sink is required:
 ```bash
-$pacmd load-module module-null-sink sink_name=silence sink_properties=device.description=silent-sink-for-echo-cancel
+$ pacmd load-module module-null-sink sink_name=silence sink_properties=device.description=silent-sink-for-echo-cancel
 $ pacmd load-module module-echo-cancel sink_name=virtual-microphone source_name=virtual-microphone source_master=mix-for-virtual-mic.monitor sink_master=silence aec_method=null source_properties=device.description=Virtual-Microphone sink_properties=device.description=Virtual-Microphone
 ```
 
