@@ -14,7 +14,8 @@ tags:
   - classes
   - sink
   - source
-  - 
+  - pulseaudio
+  - fluidsynth
 ---
 
 I've always wanted to learn the piano. Finally, in 2021, I'm following up on it :)  
