@@ -1,5 +1,5 @@
 ---
-title: 'Playing with MIDI, jackd & PulseAudio on Linux'
+title: 'Using JACK for lower-latency audio on Linux for piano practice'
 date: 2021-02-21
 author: Jan
 layout: single
