@@ -5,7 +5,7 @@ author: Jan
 layout: single
 categories:
   - Music
-  - Linux
+  - Linux / Unix
 tags:
   - midi
   - linux
