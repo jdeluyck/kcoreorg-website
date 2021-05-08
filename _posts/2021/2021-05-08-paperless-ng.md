@@ -1,6 +1,6 @@
 ---
 title: 'Managing your digital/paper documents with Paperless-ng'
-date: 2021-08-05
+date: 2021-05-08
 author: Jan
 layout: single
 categories:
