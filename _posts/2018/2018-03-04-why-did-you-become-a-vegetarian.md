@@ -7,7 +7,6 @@ layout: single
 guid: https://kcore.org/?p=1967
 permalink: /2018/03/04/why-did-you-become-a-vegetarian/
 categories:
-  - Food
   - Personal
 tags:
   - food
