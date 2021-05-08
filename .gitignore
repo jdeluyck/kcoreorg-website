@@ -6,4 +6,4 @@ Gemfile.lock
 .jekyll-cache/
 .stylelintrc.json
 package-lock.json
-
+.idea
