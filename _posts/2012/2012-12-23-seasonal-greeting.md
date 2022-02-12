@@ -10,8 +10,7 @@ categories:
   - Personal
 tags:
   - newtonmas
-  - newyear
-  - newyears
+  - new year
 format: image
 ---
 ![](/assets/images/2012/12/xmass12-13-sm.png)

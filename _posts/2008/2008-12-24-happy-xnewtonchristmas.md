@@ -12,7 +12,7 @@ tags:
   - christmas
   - happy holidays
   - newtonmas
-  - newyear
+  - new year
   - norad
   - xmas
 ---
