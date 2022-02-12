@@ -10,9 +10,9 @@ categories:
   - Apple / Mac OS
   - Linux / Unix
 tags:
-  - apple macbook
+  - macbook
   - debian
-  - Linux / unix
+  - linux
   - macbook
   - sid
 ---

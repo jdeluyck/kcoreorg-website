@@ -12,7 +12,7 @@ tags:
   - arm-linux
   - crosscompiling
   - debian
-  - Linux / unix
+  - linux
   - sid
 ---
 Here's a simple howto on how to install an [ARM](http://en.wikipedia.org/wiki/ARM_architecture) crosscompiling environment on your Debian Unstable:

@@ -11,7 +11,7 @@ categories:
   - Linux / Unix
 tags:
   - distcc
-  - Linux / unix
+  - linux
   - mac os x
 ---
 If you're like me, and have [Fink](http://finkproject.org) installed on your Mac and compiling away all those wonderful unix applications, and you have a desktop nearby running linux (with more processor power being unused), you'll want to setup distcc so you can harnass all that power.

@@ -11,6 +11,7 @@ categories:
   - Virtualisation
 tags:
   - linux-2.6.22
+  - linux
   - vmware
 ---
 If you're rolling your own kernels, and upgraded to 2.6.22, you might have bumped into a compilation issue:

@@ -11,7 +11,7 @@ categories:
 tags:
   - debian
   - dell
-  - dell d610
+  - d610
   - linux
 ---
 This page documents my attempts (and successes!) to get Linux fully working on a Dell D610 laptop.

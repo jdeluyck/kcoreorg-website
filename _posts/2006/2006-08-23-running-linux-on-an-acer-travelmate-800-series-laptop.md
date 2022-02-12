@@ -10,10 +10,9 @@ categories:
   - Linux / Unix
 tags:
   - acer
-  - acer travelmate
+  - travelmate
   - debian
   - linux
-  - tm800
   - tm803
 ---
 This page documents my attempts (and successes!) to get Linux fully working on an Acer Travelmate 800 series laptop.
