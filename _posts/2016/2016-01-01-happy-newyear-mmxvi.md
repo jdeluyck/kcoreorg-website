@@ -1,6 +1,6 @@
 ---
 id: 1123
-title: Happy Newyear MMXVI !
+title: Happy new year MMXVI !
 date: 2016-01-01T00:00:08+02:00
 author: Jan
 layout: single
@@ -9,7 +9,7 @@ permalink: /2016/01/01/happy-newyear-mmxvi/
 categories:
   - Personal
 tags:
-  - newyear
+  - new year
 format: image
 ---
 ![HNY2016](/assets/images/2015/12/HNY2016-1-1024x801.jpg "HNY2016")

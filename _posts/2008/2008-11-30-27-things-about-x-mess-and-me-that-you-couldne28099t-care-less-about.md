@@ -54,7 +54,7 @@ Nicked from [Diana's blog](http://sade.sadevil.org/blog/2008/11/28/me-me-the-chr
  20. **Angel on the tree top or a star?**  
     Neither. More like a poky-thingy. Dunno what it's called. 
  21. **Open the presents Christmas Eve or morning?**  
-    Christmas eve and Newyears eve. Christmas morning is for playing with them :p
+    Christmas eve and New years eve. Christmas morning is for playing with them :p
  22. **Most annoying thing about this time of the year?**  
     Too many people in every place, suddenly forgotten how to behave, how to drive, and so on. 
  23. **Favorite ornament theme or color?**  

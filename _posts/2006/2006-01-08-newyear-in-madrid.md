@@ -1,6 +1,6 @@
 ---
 id: 32
-title: Newyear in Madrid
+title: New year in Madrid
 date: 2006-01-08T01:04:19+02:00
 author: Jan
 layout: single
@@ -9,17 +9,17 @@ permalink: /2006/01/08/newyear-in-madrid/
 categories:
   - Travels
 tags:
-  - newyear
+  - new year
   - Spain
 ---
-I spent my newyears in Madrid, went there the 28th (evening). After an uneventful flight, we went to Diana's place, didn't do much and went to sleep.
+I spent my new years in Madrid, went there the 28th (evening). After an uneventful flight, we went to Diana's place, didn't do much and went to sleep.
 
 The 29th we first went to check into the [hotel](http://www.abbahoteles.com), did the grocery shopping in El Corte Ingles. We bugged the cheese-salesperson because we needed a fondue cheese mix that contained no cow cheese... he was so kind to find a mix, try it out if it melted well, and gave us a nice cheesy mix.  
 In the evening we met up with a good friend of ours (who's a member of the [Marmotfish Studios](http://www.marmotfishstudio.com/) and who gave us a copy of [Freakmen 451](http://www.marmotfishstudio.com/archivos/comics/galerias/mfs/fanzines/freakmen451/freakmen451.htm#01) - very cute magazine!). We walked around a while, I lost me bankcard in an ATM (when it gave my card back I couldn't reach it \*sniff\* so I pushed it back in completely with another card), and had dinner at Ginos.
 
 The next day we went to the jokes market on the Plaza Mayor - all kinds of fun masks, wigs, and whatnot - strange people those madrileños! Afterwards we went home and were lazy...
 
-On newyearseve we stayed home all day, Diana killed the chicken like a pro and stuffed it with a lovely [Mixed Mushroom and Sweet Potato Stuffing](https://recipes.sadevil.org/?recipeID=27).  
+On new years eve we stayed home all day, Diana killed the chicken like a pro and stuffed it with a lovely [Mixed Mushroom and Sweet Potato Stuffing](https://recipes.sadevil.org/?recipeID=27).  
 Around midnight we exchanged some gifts... I got a ton of them \*blush\*
 
 The first of the new year we didn't do anything really. Not that there was anything to do - we stayed at home/hotel and were lazy :p

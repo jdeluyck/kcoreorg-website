@@ -33,11 +33,11 @@ ZFS writes with SLOG:
 Typically (always?) a SLOG device will be some sort of [flash memory](https://en.wikipedia.org/wiki/Flash_memory), or [Intel Optane](https://en.wikipedia.org/wiki/3D_XPoint). 
 
 This SLOG device needs to tick quite a few boxes:
-* needs to be FAST. Faster than your other media.
-* needs to have a high write endurance. A lot of writes will happen to it. Consumer SSD's will be worn really quick.
-* needs to be able to deal with a power outage. If power goes out before it's had a chance to flush it's buffers, you're still hosed. This is usually called Power Loss Protection, or PLP.
-* needs to be resilience. This means you can't really settle for one physical device - atleast two, since you need to be able to deal with one failing completely.
-* does not need to be huge. A SLOG is typically a few GB's.
+* needs to be FAST. Faster than your other media
+* needs to have a high write endurance. A lot of writes will happen to it. Consumer SSD's will be worn really quick
+* needs to be able to deal with a power outage. If power goes out before it's had a chance to flush it's buffers, you're still hosed. This is usually called Power Loss Protection, or PLP
+* needs to be resilience. This means you can't really settle for one physical device - atleast two, since you need to be able to deal with one failing completely
+* does not need to be huge. A SLOG is typically a few GB's
 
 As Intel Optane is really out of my budget, I settled on two secondhand Dell  
 [Intel DC S3700 SSD's](https://ark.intel.com/content/www/us/en/ark/products/71913/intel-ssd-dc-s3700-series-100gb-2-5in-sata-6gbs-25nm-mlc.html). They are enterprise 2.5" SSD's, with a high write endurance and PLP.
