@@ -18,7 +18,7 @@ I've noticed that quite a few of my VM workloads and NFS workloads are rather sl
 
 Synchronous writes are writes where the application asks ZFS to flush the write out to disk, before returning. This way you can be sure that they will have hit the disk in case of a powerfailure. (In comparison, with asynchronous writes ZFS will return as soon as it's been written to the in-memory buffers, and then flushed out at a later time to disk.)
 
-There's are plenty good writeups to find on the net, but I can recommend [ServeTheHome](https://www.servethehome.com/what-is-the-zfs-zil-slog-and-what-makes-a-good-one/), and an even better one over at [Jim Salter's page](https://jrs-s.net/2019/05/02/zfs-sync-async-zil-slog/)
+There's are plenty good writeups to find on the net, but I can recommend [ServeTheHome](https://www.servethehome.com/what-is-the-zfs-zil-slog-and-what-makes-a-good-one/), and an even better one over at [Jim Salter's page](https://jrs-s.net/2019/05/02/zfs-sync-async-zil-slog/).
 
 To solve the problem of slow sync writes, you can implement what is known as a SLOG - Secondary Log device. This device will store the data to be written temporarily, give the 'all ok' to the application, and then write out the data to disk in batches.
 
