@@ -6,7 +6,7 @@ layout: single
 categories:
   - Android
 tags:
-  - Android
+  - android
   - oneplus 8 pro
   - volte
   - vowifi

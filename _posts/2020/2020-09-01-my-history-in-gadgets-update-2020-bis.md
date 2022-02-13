@@ -6,7 +6,7 @@ layout: single
 categories:
   - Android
 tags:
-  - Android
+  - android
   - gadget
   - oneplus 6
   - oneplus 8 pro
