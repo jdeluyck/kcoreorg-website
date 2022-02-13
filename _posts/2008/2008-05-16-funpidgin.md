@@ -11,7 +11,7 @@ categories:
 tags:
   - funpidgin
   - im
-  - Linux / unix
+  - linux
   - pidgin
 ---
 Thanks to a [post](http://blog.futtta.be/2008/05/16/linux-distros-en-ssh-bugs-in-beeld/) on [Frank Goosens' blog](http://blog.futtta.be) I discovered [FunPidgin](http://funpidgin.sf.net)! A fork of [Pidgin](http://www.pidgin.im), a multi-messenger client formerly known as Gaim.

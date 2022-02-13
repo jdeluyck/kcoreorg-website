@@ -11,7 +11,7 @@ categories:
 tags:
   - debian
   - gallery-remote
-  - Linux / unix
+  - linux
   - sid
 ---
 I was trying to get [GalleryRemote](http://gallery.menalto.com/wiki/Gallery_Remote) installed today on my Linux installation (because for obscure reasons, using the java applet in gallery directly crashes my browsers), which wouldn't run. Attempting to run the installer gave obscure errors like:  

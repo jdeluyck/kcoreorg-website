@@ -11,7 +11,7 @@ categories:
 tags:
   - debian
   - fozzyocr
-  - Linux / unix
+  - linux
   - sid
   - spam
   - spamassassin

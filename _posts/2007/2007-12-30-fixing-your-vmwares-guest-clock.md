@@ -8,8 +8,9 @@ guid: http://sadevil.org/blog/2007/12/30/fixing-your-vmwares-guest-clock/
 permalink: /2007/12/30/fixing-your-vmwares-guest-clock/
 categories:
   - Virtualisation
+  - Linux / Unix
 tags:
-  - Linux / unix
+  - linux
   - vmware
 ---
 If you're using VMWare on a variable-speed processor (like all most modern cpu's these days) you might have noticed that sometimes the guest OS runs a lot faster (causing the guest clock to run faster and all kinds of weird effects).
