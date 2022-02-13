@@ -17,6 +17,6 @@ The name itself is derived from the /proc/kcore file which can be found in e.g. 
 
 Back in 2003 I wrote a custom <a href="https://en.wikipedia.org/wiki/Content_management_system" target="_blank">CMS </a>for this site - with the high hopes of one day distributing this CMS to a wider public. That day never came, life happened, and updating content was a _royal pain_. Not much moved on the site, but a blog was born next to it, on which I published my ramblings.
 
-I decided to merge this the (old) content of the site into the blog, and put t as my main page. It made much more sense in the long run - easier to maintain, easier to update. 
+I decided to merge this the (old) content of the site into the blog, and put it as my main page. It made much more sense in the long run - easier to maintain, easier to update. 
 
 As a final move, I moved the blog from WordPress to a Jekyll generated static site - I was getting tired of having to update WordPress continuously.
