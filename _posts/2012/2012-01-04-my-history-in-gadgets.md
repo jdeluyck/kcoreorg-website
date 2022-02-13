@@ -11,32 +11,29 @@ categories:
   - Palm
   - Symbian
 tags:
-  - Android
+  - android
   - asus
-  - e65
+  - nokia e65
   - ericsson
   - gadget
   - htc
-  - m500
+  - palm m500
   - motorola
   - nokia
-  - Palm
   - palm tungsten t3
   - pda
   - philips
   - phone
-  - psion
-  - s3
-  - s5
+  - psion s3
+  - psion s5
   - sagem
-  - siena
+  - psion siena
   - sony
-  - Symbian
-  - t3
+  - symbian
+  - palm t3
   - tablet
   - transformer
-  - tungsten
-  - tx
+  - palm tungsten tx
 format: gallery
 ---
 As a geek, I've always been quite the gadget freak. The fact that my father was also interested in the newest toys didn't help.

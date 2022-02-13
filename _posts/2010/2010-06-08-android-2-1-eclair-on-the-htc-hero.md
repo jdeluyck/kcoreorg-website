@@ -9,11 +9,9 @@ permalink: /2010/06/08/android-2-1-eclair-on-the-htc-hero/
 categories:
   - Android
 tags:
-  - Android
+  - a
   - eclair
   - google
-  - hero
-  - htc
   - htc hero
 ---
 I've bought an HTC Hero a while back. [Rooted](/2009/12/13/rooting-the-htc-hero/) it too, so I could edit the sms database. Loving the phone.

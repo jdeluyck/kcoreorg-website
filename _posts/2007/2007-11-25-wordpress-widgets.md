@@ -14,7 +14,7 @@ tags:
   - projects
   - webrings
   - widgets
-  - WordPress
+  - wordpress
 ---
 I just finished creating three new [WordPress](http://www.wordpress.org) Widget Plugins. Some are conversions of older plugins I made for WordPress, one is brand stinkin' new.
 

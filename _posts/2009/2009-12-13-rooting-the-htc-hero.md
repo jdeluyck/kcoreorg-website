@@ -9,9 +9,8 @@ permalink: /2009/12/13/rooting-the-htc-hero/
 categories:
   - Android
 tags:
-  - Android
-  - hero
-  - htc
+  - android
+  - htc hero
   - root
 ---
 **Note: This is at your own risk. If you fry your phone, your problem, not mine.**

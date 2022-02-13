@@ -8,7 +8,7 @@ permalink: /2019/06/26/my-history-in-gadgets-update-2019/
 categories:
   - Android
 tags:
-  - Android
+  - android
   - gadget
   - oneplus 6
   - phone

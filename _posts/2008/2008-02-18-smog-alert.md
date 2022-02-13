@@ -10,7 +10,7 @@ categories:
   - Cars
   - Politics
 tags:
-  - Cars
+  - cars
   - diesel
   - fine dust
   - flanders

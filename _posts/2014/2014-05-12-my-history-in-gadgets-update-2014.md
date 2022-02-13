@@ -9,15 +9,12 @@ permalink: /2014/05/12/my-history-in-gadgets-update-2014/
 categories:
   - Android
 tags:
-  - Android
-  - desire hd
-  - desire s
+  - android
+  - htc desire hd
+  - htc desire s
   - gadget
-  - htc
-  - lg
-  - nexus
   - nexus 5
-  - one x
+  - htc one x
   - phone
 format: gallery
 ---

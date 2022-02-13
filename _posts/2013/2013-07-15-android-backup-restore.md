@@ -9,7 +9,7 @@ permalink: /2013/07/15/android-backup-restore/
 categories:
   - Android
 tags:
-  - Android
+  - android
   - backup manager
 ---
 You've just gotten your shiny new Android Phone, and you want to migrate to it. There are several options, including [Titanium Backup](http://matrixrewriter.com/android/) to move stuff, but Google also has you covered (party): Android Backup & Restore. You can find this setting on your phone, under "Settings" and "Backup & Restore". This thing backups several things, but far from all:

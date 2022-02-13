@@ -9,11 +9,9 @@ permalink: /2012/12/23/manually-flashing-an-ota-update/
 categories:
   - Android
 tags:
-  - Android
-  - htc
+  - android
   - htc one x
   - manual
-  - one x
   - ota
   - over the air
   - update

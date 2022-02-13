@@ -9,11 +9,9 @@ permalink: /2010/09/10/hello-there-froyo-android-2-2/
 categories:
   - Android
 tags:
-  - Android
+  - android
   - aosp
   - froyo
-  - hero
-  - htc
   - htc hero
   - xda
 ---

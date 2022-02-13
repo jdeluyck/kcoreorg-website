@@ -9,13 +9,13 @@ permalink: /2017/02/21/installing-microg-services-as-play-services-replacement-o
 categories:
   - Android
 tags:
-  - Android
+  - android
   - asus transformer tf101
   - crash
   - google play services
   - microg
   - tegra 2
-  - tf101
+  - asus transformer tf101
 ---
 I still have an [Asus Transformer TF101](http://www.gsmarena.com/asus_transformer_tf101-3936.php) tablet in use - running MarshMallow - but after a Play Services upgrade, in which Google inserted some [NEON instructions](https://en.wikipedia.org/wiki/ARM_architecture#NEON) (which the TF101 does not support) , a lot of "Play Services has stopped working" popups showed up  - making the tablet nigh unusable. Initial tests blocking upgrade of the services yielded no success, and a lot of programs demand the newer versions of the services anyway.
 

@@ -10,7 +10,7 @@ categories:
   - Android
 tags:
   - adb
-  - Android
+  - android
   - lockscreen
   - pin
 ---

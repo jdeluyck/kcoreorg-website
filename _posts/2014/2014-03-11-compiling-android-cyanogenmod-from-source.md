@@ -9,11 +9,10 @@ permalink: /2014/03/11/compiling-android-cyanogenmod-from-source/
 categories:
   - Android
 tags:
-  - Android
+  - android
   - cm
   - compile
   - cyanogenmod
-  - desire s
   - htc desire s
 ---
 On the [HTC Desire S](http://www.gsmarena.com/htc_desire_s-3776.php), I've been using an 
