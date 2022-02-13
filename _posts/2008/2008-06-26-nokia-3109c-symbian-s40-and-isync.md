@@ -10,13 +10,11 @@ categories:
   - Apple / Mac OS
   - Symbian
 tags:
-  - 3109c
+  - nokia 3109c
   - apple
   - isync
   - mac os x
-  - nokia
-  - s40
-  - Symbian
+  - Symbian s40
 ---
 I got a company phone, a [Nokia](http://www.nokia.com) [3109 Classic](http://www.nokia.co.uk/A4423231), which is nothing less nothing more than a standard company phone. It doesn't have all the bells and whistles I'd like to have, but it works.
 

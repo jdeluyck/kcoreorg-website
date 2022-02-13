@@ -9,7 +9,7 @@ permalink: /2007/07/27/software-for-the-nokia-e65/
 categories:
   - Symbian
 tags:
-  - Nokia E65
+  - nokia e65
   - software
 format: link
 ---

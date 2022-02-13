@@ -9,10 +9,8 @@ permalink: /2008/06/02/firmware-update-for-nokia-e65/
 categories:
   - Symbian
 tags:
-  - e65
-  - firmware
-  - nokia
-  - update
+  - firmware update
+  - nokia e65
 ---
 From [Symbianworld](http://symbianworld.wordpress.com/2008/04/18/e65-new-firmware-306336900-with-change-log/):
 
