@@ -9,9 +9,8 @@ permalink: /2011/06/19/how-to-ruu-your-desire/
 categories:
   - Android
 tags:
-  - Android
-  - desire
-  - htc
+  - android
+  - htc desire
   - pristine
   - ruu
   - stock

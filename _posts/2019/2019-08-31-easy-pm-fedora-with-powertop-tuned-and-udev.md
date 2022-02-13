@@ -6,7 +6,7 @@ layout: single
 categories:
   - Linux / Unix
 tags:
-  - Fedora
+  - fedora
   - udev
   - tuned
   - power management

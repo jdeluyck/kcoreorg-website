@@ -10,13 +10,11 @@ categories:
   - Android
 tags:
   - adb
-  - Android
-  - android adb linux debian oneplusx
+  - android
+  - adb
   - debian
   - linux
-  - oneplus
   - oneplus x
-  - oneplusx
 ---
 ... is not really that hard. Just annoying. Since OnePlus' USB ID is not in the default adb list, you need to add it yourself:  
 ```bash

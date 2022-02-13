@@ -9,8 +9,7 @@ permalink: /2012/10/23/copying-over-your-wifi-access-points-on-android/
 categories:
   - Android
 tags:
-  - Android
-  - copying
+  - android
   - wifi
   - wpa_supplicant
 ---

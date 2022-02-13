@@ -6,7 +6,7 @@ layout: single
 categories:
   - Android
 tags:
-  - Android
+  - android
   - gadget
   - tablet
   - lenovo tab 4 10

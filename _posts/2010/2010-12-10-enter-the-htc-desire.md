@@ -10,10 +10,8 @@ categories:
   - Android
 tags:
   - alpharev
-  - Android
+  - android
   - defrost
-  - desire
-  - htc
   - htc desire
   - rom
   - root

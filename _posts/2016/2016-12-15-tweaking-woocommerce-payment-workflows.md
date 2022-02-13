@@ -14,7 +14,7 @@ tags:
   - overloading
   - payment gateway
   - woocommerce
-  - WordPress
+  - wordpress
 ---
 I'm playing part-time webmaster for the [choir](http://artemusicale.be/ensembles/kamerkoor-furiant/) I sing in, and as such, am getting up close and personal with [WooCommerce](https://woocommerce.com/). Quite a nifty shopping cart, but it does require a lot of tweaks to really make it work to your liking - unless you're willing to shell out a lot of cash.
 

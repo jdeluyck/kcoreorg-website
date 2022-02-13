@@ -9,7 +9,7 @@ permalink: /2016/07/15/my-history-in-gadgets-update-2016/
 categories:
   - Android
 tags:
-  - Android
+  - android
   - gadget
   - oneplus 3
   - phone

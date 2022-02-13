@@ -12,8 +12,7 @@ tags:
   - '4.1.2'
   - aahk
   - ace
-  - Android
-  - htc
+  - android
   - htc desire hd
   - jellybean
   - s-off
