@@ -9,7 +9,7 @@ permalink: /2007/07/06/using-voipfonecouk-on-nokia-e65/
 categories:
   - Symbian
 tags:
-  - Nokia E65
+  - nokia e65
   - sip
   - voip
   - voipfone.co.uk

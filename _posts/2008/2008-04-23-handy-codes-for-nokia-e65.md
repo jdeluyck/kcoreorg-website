@@ -13,7 +13,7 @@ tags:
   - codes
   - emei
   - mac
-  - Nokia E65
+  - nokia e65
   - reset
   - wlan
 ---

@@ -10,12 +10,10 @@ categories:
   - Linux / Unix
 tags:
   - debian
-  - dell
   - dell xps 13
   - linux
   - macbook
   - sid
-  - xps 13
 ---
 I purchased a [Dell](http://www.dell.be) [XPS 13 Ultrabook](http://www.dell.com/be/p/xps-13-l321x-mlk/pd), to replace my ageing [Apple](http://www.apple.com) [Macbook 2,1](http://en.wikipedia.org/wiki/MacBook). After six years of daily use, it's (over)due to retire.
 

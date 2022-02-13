@@ -19,7 +19,6 @@ tags:
   - htc
   - palm m500
   - motorola
-  - nokia
   - palm tungsten t3
   - pda
   - philips
