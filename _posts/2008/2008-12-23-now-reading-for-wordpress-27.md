@@ -9,9 +9,8 @@ permalink: /2008/12/23/now-reading-for-wordpress-27/
 categories:
   - WordPress
 tags:
-  - '2.7'
   - now reading
-  - WordPress
+  - wordpress
 ---
 After upgrading the blog to [WordPress 2.7](http://wordpress.org/), the [Now Reading](http://robm.me.uk/projects/plugins/wordpress/now-reading) plugin didn't work very well anymore.
 

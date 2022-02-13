@@ -13,7 +13,7 @@ tags:
   - 3109c
   - apple
   - isync
-  - Mac OS
+  - mac os x
   - nokia
   - s40
   - Symbian

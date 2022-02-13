@@ -11,7 +11,7 @@ categories:
   - Rants
 tags:
   - crap
-  - Politics
+  - politics
 ---
 Once again, Belgium is the laughing stock of the EU.
 

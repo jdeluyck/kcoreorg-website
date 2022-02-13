@@ -11,13 +11,13 @@ categories:
   - WordPress
 tags:
   - firmware
-  - Linux / unix
+  - linux
   - livingroom
   - motorola v3
   - painting
   - redhat
   - sphpblog
-  - WordPress
+  - wordpress
 ---
 What have I been doing the last times... well...
 

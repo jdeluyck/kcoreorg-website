@@ -12,7 +12,7 @@ categories:
   - Rants
 tags:
   - antwerp
-  - Belgium
+  - belgium
   - signpost
 format: image
 ---
