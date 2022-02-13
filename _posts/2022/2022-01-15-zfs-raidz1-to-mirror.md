@@ -16,7 +16,7 @@ tags:
 
 The [Proxmox box](/2020/05/07/enter-zfs/) at my home is also being used as a [NAS](https://en.wikipedia.org/wiki/Network-attached_storage), with Samba and NFS doing the sharing. It had 4 [WD Red](https://shop.westerndigital.com/en-ie/products/internal-drives/wd-red-sata-hdd) 6TB [PMR](https://en.wikipedia.org/wiki/Perpendicular_recording) drives, in a raidz1 configuration, giving me a net capacity of 18TB (give or take a few).
 
-This thing houses backups of other machines in the house and of machines in the cloud, several VM's, photos in RAW, videos created by my partner for her sidegig, ... and it was starting to get low (2TB remaining).
+This thing houses backups of other machines in the house and of machines in the cloud, several VM's, photos in RAW, videos created by my partner for her sidegig, ... and it was starting to get full (2TB remaining).
 
 Cleaning up some cruft returned me to 5TB, but still, that was going to decrease overtime. Time to do something about it!
 
@@ -52,14 +52,14 @@ Profit!
 I actually did the same on the two new 14TB drives, so that any drive contains a copy of my bootloader.
 
 ## Migrating the root filesystem
-The SLOG device I picked has a total capacity of 100GB, of at this point 8GB wass being used. I opted to [create another mirrored zpool](https://openzfs.github.io/openzfs-docs/man/8/zpool-create.8.htm) on the SSD's for 30GB called `syspool`.
+The SLOG device I picked has a total capacity of 100GB, of at this point 8GB was being used. I opted to [create another mirrored zpool](https://openzfs.github.io/openzfs-docs/man/8/zpool-create.8.htm) on the SSD's for 30GB called `syspool`.
 
 
-Once the pool was created, it was just a question of using creating a [snapshot](https://openzfs.github.io/openzfs-docs/man/8/zfs-snapshot.8.htm) and using `zfs send | zfs receive` on the zfs datasets. Ideally also using `--props` so `zfs send` sends along all properties of the zfs datasets, and `-u` so `zfs receive` doesn't automatically mount the new dataset.
+Once the pool was created, it was just a question of creating a [snapshot](https://openzfs.github.io/openzfs-docs/man/8/zfs-snapshot.8.htm) and using `zfs send | zfs receive` on the zfs datasets. Ideally also using `--props` so `zfs send` sends along all properties of the zfs datasets, and `-u` so `zfs receive` doesn't automatically mount the new dataset.
 
 The zfs datasets I decided to copy were `rpool/ROOT` and `rpool/ROOT/pve-1`. Those now live as `syspool/ROOT` and `syspool/ROOT/pve-1`.
 
-Once that's done, it's a question of mounting the new root dataset, making sure that `/etc/kernel/cmdline` is updated to reflect the new zpool name and rebooting.
+Once that's done, the final tasks were mounting the new root dataset, making sure that `/etc/kernel/cmdline` was updated to reflect the new zpool name and rebooting.
 
 I did run into the problem where zfs didn't automatically import my new setup, but that was remediated by updating the cache file, which you can do by running `zpool set cachefile=/etc/zfs/zpool.cache syspool`.
 
