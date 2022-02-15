@@ -11,7 +11,7 @@ tags:
   - ipad
   - pro
   - sheet music
-  - musescore
+  - mobilesheets
 ---
 I've been using the wonderful [Mobilesheets Pro](https://www.zubersoft.com/mobilesheets/)
 on my Android Tablet ([a Lenovo Tab 4 10](https://www.gsmarena.com/lenovo_tab_4_10-8604.php)) for my choir(s) that 

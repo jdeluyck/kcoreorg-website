@@ -13,6 +13,7 @@ tags:
   - pulseaudio
   - jackd
   - fluidsynth
+  - roland rd-700gx
 ---
 
 About a month and a bit in me learning the piano, I've had to rethink my 
