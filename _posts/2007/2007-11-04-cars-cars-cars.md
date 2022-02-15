@@ -10,7 +10,7 @@ categories:
   - Cars
   - Work
 tags:
-  - Cars
+  - cars
 ---
 I'm in the market for a car.
 

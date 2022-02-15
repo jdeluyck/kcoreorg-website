@@ -9,14 +9,12 @@ permalink: /2015/08/27/openwrt-dual-routers-dual-ssids-and-vlans/
 categories:
   - Networking
 tags:
-  - archer c5
   - barrier breaker
-  - dir825
-  - dlink
+  - dlink dir825
   - dual ssids
   - guest wlan
   - openwrt
-  - tp-link
+  - tp-link archer c5
   - trunk
   - vlan
 ---

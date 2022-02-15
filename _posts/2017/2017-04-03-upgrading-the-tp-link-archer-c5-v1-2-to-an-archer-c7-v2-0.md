@@ -9,13 +9,9 @@ permalink: /2017/04/03/upgrading-the-tp-link-archer-c5-v1-2-to-an-archer-c7-v2-0
 categories:
   - Networking
 tags:
-  - archer c5
-  - archer c7
-  - c5
-  - c7
   - openwrt
-  - tp-link
-  - tplink
+  - tp-link archer c5
+  - tp-link archer c7
 ---
 I own a [TP-Link Archer C5](http://www.tp-link.com/us/products/details/cat-9_Archer-C5.html) router, version 1.2 - 
 which is identical to the [TP-Link Archer C7](http://www.tp-link.com/us/products/details/cat-5506_Archer-C7.html), version 2.0, 

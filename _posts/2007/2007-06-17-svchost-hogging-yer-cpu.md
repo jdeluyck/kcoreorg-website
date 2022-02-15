@@ -11,7 +11,7 @@ categories:
 tags:
   - cpu
   - svchost
-  - Windows
+  - windows
 ---
 In case you're using Windows (or Microsoft) Update, you'll probably have noticed that your PC sometimes grinds to a halt after bootup. Checking with task manager usually reveals that svchost.exe is abusing your CPU, pegging it at 100%.
 

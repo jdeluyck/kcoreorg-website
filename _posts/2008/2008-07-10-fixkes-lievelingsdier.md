@@ -12,8 +12,6 @@ categories:
 tags:
   - fixkes
   - lievelingsdier
-  - Music
-  - Videos
 format: video
 ---
 **Fixkes - Lievelingsdier**

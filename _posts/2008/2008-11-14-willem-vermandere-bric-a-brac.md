@@ -10,7 +10,6 @@ categories:
   - Music
 tags:
   - bric a brac
-  - Music
   - willem vermandere
 ---
 ‘t is niet den auto, ‘t is de reis  

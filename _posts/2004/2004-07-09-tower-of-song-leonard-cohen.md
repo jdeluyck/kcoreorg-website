@@ -11,7 +11,6 @@ categories:
   - Videos
 tags:
   - leonard cohen
-  - Music
   - tower of song
   - video
 format: video

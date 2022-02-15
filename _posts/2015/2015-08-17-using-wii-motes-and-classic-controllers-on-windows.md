@@ -13,7 +13,7 @@ tags:
   - drivers
   - remote
   - wii
-  - Windows
+  - windows
   - x360ce
   - xbox360 controller
 ---

@@ -12,8 +12,6 @@ categories:
 tags:
   - fixkes
   - kvraagetaan
-  - movie
-  - Music
 format: video
 ---
 **Fixkes - kvraagetaan**

@@ -9,10 +9,9 @@ permalink: /2007/12/25/wrt54g-time-to-live-exceeded/
 categories:
   - Networking
 tags:
-  - linksys
+  - linksys wrt54g
   - tomato
   - ttl
-  - wrt54g
 ---
 I wonder how long the lifetime is of a [Linksys](http://www.linksys.com/) [WRT54G](http://www.linksys.com/servlet/Satellite?c=L_Product_C2&childpagename=US%2FLayout&cid=1149562300349&pagename=Linksys%2FCommon%2FVisitorWrapper) [v2.2](http://en.wikipedia.org/wiki/WRT54G#WRT54G) router... I have one, and it's been showing more and more problems with the WiFi part of the router: often after a powerup it just doesn't initialise, no WiFi to be seen. The router reports it's up, but there just isn't any signal.
 

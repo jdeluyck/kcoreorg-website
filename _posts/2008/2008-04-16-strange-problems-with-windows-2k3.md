@@ -12,7 +12,7 @@ tags:
   - problems
   - registry
   - win2k3
-  - Windows
+  - windows
 ---
 I'm wondering if anyone out there can help me with this one...
 

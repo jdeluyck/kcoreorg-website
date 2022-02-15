@@ -10,8 +10,6 @@ categories:
   - Videos
 tags:
   - animation vs animator
-  - video
-  - youtube
 format: video
 published: false
 ---

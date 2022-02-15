@@ -10,8 +10,6 @@ categories:
   - Videos
 tags:
   - "simon's cat"
-  - video
-  - youtube
 format: video
 published: false
 ---
