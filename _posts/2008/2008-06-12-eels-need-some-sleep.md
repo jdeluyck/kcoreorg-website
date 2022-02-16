@@ -11,10 +11,7 @@ categories:
   - Videos
 tags:
   - eels
-  - Music
   - need some sleep
-  - video
-  - youtube
 format: video
 ---
 I need some sleep.  

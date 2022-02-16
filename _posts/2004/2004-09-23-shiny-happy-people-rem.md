@@ -10,7 +10,6 @@ categories:
   - Music
   - Videos
 tags:
-  - Music
   - rem
   - shiny happy people
   - video

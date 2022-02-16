@@ -11,8 +11,6 @@ categories:
 tags:
   - cat
   - printer
-  - video
-  - youtube
 format: video
 published: false
 ---

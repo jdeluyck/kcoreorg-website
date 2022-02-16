@@ -9,10 +9,7 @@ permalink: /2008/01/25/prius-preview/
 categories:
   - Cars
 tags:
-  - pretty
-  - preview
-  - Prius
-  - red
+  - toyota Prius
 format: gallery
 ---
 Today we went to get the papers for the Prius, and got a sneak-preview at it too ;)  

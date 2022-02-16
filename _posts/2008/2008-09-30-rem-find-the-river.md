@@ -11,10 +11,7 @@ categories:
   - Videos
 tags:
   - find the river
-  - Music
   - rem
-  - Videos
-  - youtube
 format: video
 ---
 Hey now, little speedyhead,  

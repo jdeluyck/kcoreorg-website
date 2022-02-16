@@ -10,7 +10,7 @@ categories:
   - Personal
   - Rants
 tags:
-  - Cars
+  - cars
   - polluting
   - stupid people
   - traffic jam

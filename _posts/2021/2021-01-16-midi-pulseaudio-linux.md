@@ -9,7 +9,7 @@ categories:
 tags:
   - midi
   - linux
-  - roland
+  - roland rd-700gx
   - piano
   - classes
   - sink

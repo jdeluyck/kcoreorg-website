@@ -11,8 +11,7 @@ categories:
 tags:
   - early delivery
   - garage holvoet
-  - Prius
-  - toyota
+  - toyota prius
 ---
 Wh00t!
 

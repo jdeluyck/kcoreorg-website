@@ -10,8 +10,6 @@ categories:
   - Videos
 tags:
   - "simon's cat"
-  - video
-  - youtube
 format: video
 ---
 [Simon's Cat YouTube channel](http://www.youtube.com/user/simonscat) 

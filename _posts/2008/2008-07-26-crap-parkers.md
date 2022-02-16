@@ -9,7 +9,7 @@ permalink: /2008/07/26/crap-parkers/
 categories:
   - Rants
 tags:
-  - Cars
+  - cars
   - crap parkers
 ---
 You know what I really hate? Crap parkers. People that have a car, and that, according to them, needs to take up atleast 1.5 parking spots. Parking so badly that you - parked nicely in between the lines, in the bloody center - can't get in or out of your car anymore, save by crawling in the car over the seats.

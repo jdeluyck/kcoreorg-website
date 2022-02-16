@@ -12,7 +12,6 @@ tags:
   - de opstand der bloemen
   - jasperina de jong
   - lyrics
-  - Music
 ---
 Wij zijn de tuin van het echtpaar de Bondt  
 Aardige lui dat gaat best  

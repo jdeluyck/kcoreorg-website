@@ -9,11 +9,10 @@ permalink: /2008/02/11/we-can-has-licenseplate/
 categories:
   - Cars
 tags:
-  - Cars
-  - licenseplate
+  - cars
+  - license plate
   - mad dash
-  - Prius
-  - yez
+  - toyota prius
 format: image
 ---
 ![Licenseplate reads YEZ-](/assets/images/2008/02/plate-sm.jpg)

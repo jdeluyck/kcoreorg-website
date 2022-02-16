@@ -10,7 +10,6 @@ categories:
   - Music
   - Videos
 tags:
-  - Music
   - our farewell
   - video
   - within temptation

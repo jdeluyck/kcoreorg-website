@@ -11,7 +11,6 @@ categories:
   - Videos
 tags:
   - leonard cohen
-  - Music
   - take this waltz
   - video
 format: video

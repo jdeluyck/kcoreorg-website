@@ -9,8 +9,8 @@ permalink: /2008/02/09/insurance-part-2/
 categories:
   - Cars
 tags:
-  - Belgium
-  - car
+  - belgium
+  - cars
   - expensive
   - insurance
   - plates

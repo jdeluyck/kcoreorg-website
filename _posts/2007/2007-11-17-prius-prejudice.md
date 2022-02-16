@@ -9,10 +9,10 @@ permalink: /2007/11/17/prius-prejudice/
 categories:
   - Cars
 tags:
-  - Cars
+  - cars
   - hybrid
   - prejudice
-  - Prius
+  - toyota prius
 ---
 What's with people and their prejudice against the Prius?
 

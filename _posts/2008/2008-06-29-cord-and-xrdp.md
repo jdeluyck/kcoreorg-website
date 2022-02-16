@@ -12,7 +12,7 @@ categories:
 tags:
   - beta
   - cord
-  - Mac OS
+  - mac os x
   - rdp
   - xrdp
 ---

@@ -9,7 +9,7 @@ permalink: /2008/02/07/insurance/
 categories:
   - Cars
 tags:
-  - Cars
+  - cars
   - expensive
   - insurance
 ---

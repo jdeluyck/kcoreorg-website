@@ -10,7 +10,6 @@ categories:
   - Music
   - Videos
 tags:
-  - Music
   - pink floyd
   - richard wright
 format: video

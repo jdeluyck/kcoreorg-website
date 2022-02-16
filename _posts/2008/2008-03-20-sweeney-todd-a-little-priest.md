@@ -10,8 +10,6 @@ categories:
   - Music
 tags:
   - lovett
-  - Music
-  - musical
   - priest
   - sweeney todd
 format: video
