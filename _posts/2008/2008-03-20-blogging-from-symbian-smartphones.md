@@ -11,9 +11,8 @@ categories:
 tags:
   - blogging
   - python
-  - s60 3rd edition
+  - symbian s60 3rd edition
   - smartphones
-  - Symbian
 format: link
 ---
 I've recently [discovered a new python based blogging client](http://www.smstextnews.com/2008/03/the_fastest_symbian_developer_on_the_planet_and_my_wordpress_client.html) for Symbian S60 3rd edition based phones. 

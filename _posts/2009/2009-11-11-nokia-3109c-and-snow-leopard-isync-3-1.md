@@ -9,12 +9,11 @@ permalink: /2009/11/11/nokia-3109c-and-snow-leopard-isync-3-1/
 categories:
   - Apple / Mac OS
 tags:
-  - 3109c
+  - nokia 3109c
   - apple
   - isync
   - mac os x
-  - s40
-  - Symbian
+  - symbian s40
 ---
 As I detailed in my [previous post on how to get this phone working with Leopard](/2008/06/26/nokia-3109c-symbian-s40-and-isync/), upgrading to [Mac OS X 10.6 aka Snow Leopard ](http://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard) broke things again.
 

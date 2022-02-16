@@ -9,7 +9,7 @@ permalink: /2007/07/27/reflect-theme-for-symbian/
 categories:
   - Symbian
 tags:
-  - Symbian
+  - symbian
   - theme
 format: gallery
 ---

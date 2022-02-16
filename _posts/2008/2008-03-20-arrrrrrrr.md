@@ -11,7 +11,7 @@ categories:
 tags:
   - jack black flint!
   - pirate name
-  - Tests
+  - tests
 ---
 My pirate name is: Black Jack Flint
 

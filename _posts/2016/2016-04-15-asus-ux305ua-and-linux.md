@@ -9,12 +9,10 @@ permalink: /2016/04/15/asus-ux305ua-and-linux/
 categories:
   - Linux / Unix
 tags:
-  - asus
   - asus ux305ua
   - debian
   - linux
   - skylake
-  - ux305ua
 ---
 The [ASUS](https://www.asus.com/) [UX305UA](https://www.asus.com/us/Notebooks/ASUS-ZenBook-UX305UA/) is an ultrabook with the [Skylake microarchitecture](https://en.wikipedia.org/wiki/Skylake_(microarchitecture)) - the (as of writing) latest iteration in Intel processors. Unfortunately, Skylake support on Linux wasn't really a granted thing the time the device got released. Fortunately it's gotten a lot better of late.
 

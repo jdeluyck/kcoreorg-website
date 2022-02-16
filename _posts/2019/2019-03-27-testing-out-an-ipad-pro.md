@@ -8,8 +8,7 @@ categories:
   - Apple / Mac OS
   - Android
 tags:
-  - ipad
-  - pro
+  - ipad pro
   - sheet music
   - mobilesheets
 ---

@@ -10,7 +10,6 @@ categories:
   - Symbian
 tags:
   - nokia e65
-  - symbian
   - firmware update
 format: link
 ---

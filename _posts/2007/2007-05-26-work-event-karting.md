@@ -10,7 +10,7 @@ categories:
   - Work
 tags:
   - karting
-  - Work
+  - work
 ---
 Today we went Karting with [work](http://www.triennium.com/) in [Brussels Kart](http://www.brusselskart.be), a karting / expo / restaurant thing in Groot-bijgaarden (just outside of Brussels).
 

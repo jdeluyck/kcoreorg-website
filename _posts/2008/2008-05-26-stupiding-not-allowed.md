@@ -9,7 +9,6 @@ permalink: /2008/05/26/stupiding-not-allowed/
 categories:
   - Comics
 tags:
-  - Comics
   - stupiding
 format: image
 ---

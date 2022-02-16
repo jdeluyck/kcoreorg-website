@@ -9,7 +9,6 @@ permalink: /2016/02/06/using-adb-with-a-oneplus-x-on-linux/
 categories:
   - Android
 tags:
-  - adb
   - android
   - adb
   - debian

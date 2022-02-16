@@ -15,11 +15,7 @@ tags:
   - fastscripts
   - get next unread
   - headers
-  - leopard
-  - mail
   - mail.app
-  - tips
-  - tricks
 ---
 I still haven't found any mail client I _really_ like on the Mac... I've been using [Thunderbird](http://www.mozilla.com/thunderbird/) now for a while, but it doesn't really have what I want in a mail client. I guess I'm spoiled, since I'm used to using [KMail](http://kontact.kde.org/kmail/) at home (and I'm forced to use [Lotus Notes](http://www.ibm.com/software/lotus/products/notes/) at work - a horrible client from a usability point of view).
 

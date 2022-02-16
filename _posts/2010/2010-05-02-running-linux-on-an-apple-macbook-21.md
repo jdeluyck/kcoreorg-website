@@ -10,7 +10,6 @@ categories:
   - Linux / Unix
 tags:
   - apple
-  - apple macbook 2007
   - debian
   - linux
   - macbook

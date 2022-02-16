@@ -13,7 +13,7 @@ tags:
   - atheros
   - channel restrictions
   - config_ath_user_regd
-  - dir825
+  - d-link dir-825
   - openwrt
   - reghack
 ---

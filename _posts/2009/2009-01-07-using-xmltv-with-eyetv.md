@@ -10,7 +10,7 @@ categories:
   - Apple / Mac OS
 tags:
   - eyetv
-  - Mac OS
+  - mac os x
   - mc2xml
   - pvr
   - tvtv

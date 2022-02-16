@@ -9,11 +9,10 @@ permalink: /2008/11/16/having-fun-replacing-a-backup-battery-in-a-laptop/
 categories:
   - Random
 tags:
-  - acer
+  - acer travelmate 803
   - backup
   - battery
   - rtc
-  - travelmate 803
 ---
 Yesterday I had some good old fun trying to replace the backup battery of an [Acer](http://www.acer.com) [Travelmate 803]() laptop. 
 

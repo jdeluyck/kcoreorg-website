@@ -10,7 +10,7 @@ categories:
   - Comics
 tags:
   - email
-  - Snailmail
+  - snailmail
 format: image
 ---
 [![](/assets/images/2011/07/mailvssnail.jpg)](http://poofytoo.tumblr.com/post/7991895471/this-is-what-i-think-of-mail)

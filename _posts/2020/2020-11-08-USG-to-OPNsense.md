@@ -6,12 +6,10 @@ layout: single
 categories:
   - Networking
 tags:
-  - ubiquiti
-  - usg
-  - Unifi Security Gateway
+  - ubiquiti usg
+  - unifi security gateway
   - opnsense
-  - pcengines
-  - apu2e4
+  - pcengines apu2e4
 ---
 As [Ubiquiti](https://www.ui.com/) seems to have abandoned any development for their 
 [UniFi Security Gateway](https://www.ui.com/unifi-routing/usg/) - the last _"stable"_ update (version 

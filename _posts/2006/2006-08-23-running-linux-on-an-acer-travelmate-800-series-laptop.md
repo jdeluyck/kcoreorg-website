@@ -9,8 +9,7 @@ permalink: /2006/08/23/running-linux-on-an-acer-travelmate-800-series-laptop/
 categories:
   - Linux / Unix
 tags:
-  - acer
-  - travelmate 803
+  - acer travelmate 803
   - debian
   - linux
 ---

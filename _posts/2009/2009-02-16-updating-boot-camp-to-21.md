@@ -12,7 +12,6 @@ categories:
 tags:
   - boot camp
   - macbook
-  - update
   - windows
 ---
 For a reason not to be mentioned here, I needed to install Windows XP (legal license) on my Macbook. Easily done, Boot Camp Assistant, install windows, install drivers, the works.

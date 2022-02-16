@@ -11,7 +11,6 @@ categories:
   - Virtualisation
 tags:
   - debian
-  - lenny
   - linux
   - vmware
 ---

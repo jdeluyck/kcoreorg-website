@@ -10,9 +10,7 @@ categories:
   - Linux / Unix
 tags:
   - debian
-  - squeeze
   - stable
-  - wheezy
 ---
 ![Debian](/assets/images/2011/02/debian_logo.png)
 

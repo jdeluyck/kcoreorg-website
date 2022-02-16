@@ -10,7 +10,7 @@ categories:
   - Linux / Unix
 tags:
   - debian
-  - fozzyocr
+  - fuzzyocr
   - linux
   - sid
   - spam

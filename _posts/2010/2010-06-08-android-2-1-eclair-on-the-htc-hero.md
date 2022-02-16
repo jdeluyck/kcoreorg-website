@@ -9,7 +9,7 @@ permalink: /2010/06/08/android-2-1-eclair-on-the-htc-hero/
 categories:
   - Android
 tags:
-  - a
+  - android
   - eclair
   - google
   - htc hero

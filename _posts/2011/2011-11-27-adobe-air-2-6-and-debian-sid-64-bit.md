@@ -10,8 +10,7 @@ categories:
   - Linux / Unix
 tags:
   - 64 bit
-  - adobe
-  - air
+  - adobe air
   - debian
   - linux
   - sid

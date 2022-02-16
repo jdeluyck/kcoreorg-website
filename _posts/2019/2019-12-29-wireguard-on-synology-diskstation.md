@@ -6,9 +6,8 @@ layout: single
 categories:
   - Linux / Unix
 tags:
-  - Wireguard
-  - synology
-  - diskstation
+  - wireguard
+  - synology diskstation
   - encryption
   - openvpn
 ---

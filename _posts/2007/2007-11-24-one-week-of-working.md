@@ -11,7 +11,7 @@ categories:
 tags:
   - delays
   - trains
-  - Work
+  - work
 ---
 After one week of working again, here's a quick .. urr.. reviewish kind of thingy:
 

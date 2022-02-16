@@ -10,7 +10,6 @@ categories:
   - Comics
 tags:
   - code review
-  - Comics
 format: image
 ---
 [![Code review](/assets/images/2010/11/6a00d8341d3df553ef013488a2d48f970c-me.jpg "Code review")](http://geekandpoke.typepad.com/geekandpoke/2010/11/how-to-make-a-good-code-review.html) 

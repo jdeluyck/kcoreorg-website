@@ -11,7 +11,6 @@ categories:
 tags:
   - dock
   - mac os x
-  - tips
   - tuaw
 ---
 On [TUAW](http://www.tuaw.com/) (The Unofficial Apple Weblog) they've got a nifty [tips section](http://www.tuaw.com/tag/tips/), with today this tip that I rather like:
