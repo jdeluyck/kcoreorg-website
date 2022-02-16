@@ -10,7 +10,7 @@ categories:
   - Work
 tags:
   - thanks
-  - Work
+  - work
 format: gallery
 ---
 I know some companies are thankful when an employee chooses to work for them (like I did - choosing to go work for CTG)... but it's a first that the employer actually sends flowers to your home address with a thank you note :P

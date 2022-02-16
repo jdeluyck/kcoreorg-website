@@ -9,7 +9,6 @@ permalink: /2012/06/03/thank-you-nikola-tesla/
 categories:
   - Comics
 tags:
-  - Comics
   - historical
   - Nicola Tesla
 ---

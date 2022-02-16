@@ -21,7 +21,7 @@ Most cloud providers are fairly cheap to put data in, but they charge you (more)
 
 Not great. 
 
-To solve this, I converted the machines that need backups to ZFS, and started to use ZFS [snapshots](https://openzfs.github.io/openzfs-docs/man/8/zfs-snapshot.8.htm) together with [zfs send](https://openzfs.github.io/openzfs-docs/man/8/zfs-send.8.html) and [zfs receive](https://openzfs.github.io/openzfs-docs/man/8/zfs-receive.8.html) to put them on the Proxmox NAS. I first testing this with just the base commands, but quickly moved over to [Jim Salter](https://jrs-s.net/)'s [sanoid/syncoid](https://github.com/jimsalterjrs/sanoid) tool.
+To solve this, I converted the machines that need backups to ZFS, and started to use ZFS [snapshots](https://openzfs.github.io/openzfs-docs/man/8/zfs-snapshot.8.html) together with [zfs send](https://openzfs.github.io/openzfs-docs/man/8/zfs-send.8.html) and [zfs receive](https://openzfs.github.io/openzfs-docs/man/8/zfs-receive.8.html) to put them on the Proxmox NAS. I first testing this with just the base commands, but quickly moved over to [Jim Salter](https://jrs-s.net/)'s [sanoid/syncoid](https://github.com/jimsalterjrs/sanoid) tool.
 
 The tool is really simple: you add the backup policy to `/etc/sanoid/sanoid.conf`, specifying which snapshots to take and how to lifecycle them. On Debian a [systemd timer](https://www.freedesktop.org/software/systemd/man/systemd.timer.html) comes with the package that executes `sanoid` every 15 minutes.
 

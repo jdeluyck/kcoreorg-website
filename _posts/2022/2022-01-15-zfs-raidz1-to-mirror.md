@@ -55,7 +55,7 @@ I actually did the same on the two new 14TB drives, so that any drive contains a
 The SLOG device I picked has a total capacity of 100GB, of at this point 8GB was being used. I opted to [create another mirrored zpool](https://openzfs.github.io/openzfs-docs/man/8/zpool-create.8.htm) on the SSD's for 30GB called `syspool`.
 
 
-Once the pool was created, it was just a question of creating a [snapshot](https://openzfs.github.io/openzfs-docs/man/8/zfs-snapshot.8.htm) and using `zfs send | zfs receive` on the zfs datasets. Ideally also using `--props` so `zfs send` sends along all properties of the zfs datasets, and `-u` so `zfs receive` doesn't automatically mount the new dataset.
+Once the pool was created, it was just a question of creating a [snapshot](https://openzfs.github.io/openzfs-docs/man/8/zfs-snapshot.8.html) and using `zfs send | zfs receive` on the zfs datasets. Ideally also using `--props` so `zfs send` sends along all properties of the zfs datasets, and `-u` so `zfs receive` doesn't automatically mount the new dataset.
 
 The zfs datasets I decided to copy were `rpool/ROOT` and `rpool/ROOT/pve-1`. Those now live as `syspool/ROOT` and `syspool/ROOT/pve-1`.
 

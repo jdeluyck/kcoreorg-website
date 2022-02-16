@@ -10,7 +10,6 @@ categories:
   - Comics
 tags:
   - art
-  - Comics
   - megatokyo
 format: image
 ---

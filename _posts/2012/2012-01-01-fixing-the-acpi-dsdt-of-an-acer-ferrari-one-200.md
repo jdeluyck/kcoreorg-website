@@ -9,13 +9,9 @@ permalink: /2012/01/01/fixing-the-acpi-dsdt-of-an-acer-ferrari-one-200/
 categories:
   - Linux / Unix
 tags:
-  - acer
+  - acer ferrari one 200
   - acpi
   - DSDT
-  - ferrari one 200
-  - fix
-  - fo200
-  - linux
 ---
 Last year I installed Debían on my mother in law's network (an [Acer Ferrari One 200](http://en.wikipedia.org/wiki/Acer_Ferrari_products#Acer_Ferrari_One)). The thing ran fine, but gave some "firmware bug?" warnings. Since no new BIOS' were available at that time, I left it at that.
 

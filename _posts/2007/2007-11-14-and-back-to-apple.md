@@ -9,10 +9,8 @@ permalink: /2007/11/14/and-back-to-apple/
 categories:
   - Apple / Mac OS
 tags:
-  - apple
   - macbook
   - repair
-  - screw
 ---
 Grmble.
 

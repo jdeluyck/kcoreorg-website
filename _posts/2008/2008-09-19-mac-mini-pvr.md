@@ -10,8 +10,7 @@ categories:
   - Apple / Mac OS
 tags:
   - apple
-  - elgato
-  - eyetv
+  - elgato eyetv
   - mac os x
   - pvr
 ---

@@ -12,7 +12,7 @@ categories:
 tags:
   - easy smart managed switches
   - linux
-  - tp-link
+  - tp-link tl-sg105e
 ---
 I've recently acquired some [TP-Link 'Easy Smart' managed switches](http://www.tp-link.com/en/products/biz-list-41.html) - cheap, decently built (metal casing), and a lot of features above the usual unmanaged stuff:
 

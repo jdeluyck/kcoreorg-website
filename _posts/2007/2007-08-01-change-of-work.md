@@ -10,7 +10,7 @@ categories:
   - Work
 tags:
   - change
-  - Work
+  - work
 ---
 I'm changing employers...
 

@@ -9,8 +9,6 @@ permalink: /2010/02/22/if-you-get-this/
 categories:
   - Comics
 tags:
-  - Comics
-  - geek
   - geek and poke
 format: image
 ---

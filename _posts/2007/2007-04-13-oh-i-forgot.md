@@ -10,7 +10,7 @@ categories:
   - Linux / Unix
 tags:
   - debian
-  - etch
+  - stable
 ---
 ![Debian Logo](/assets/images/2007/04/Debian_logo.png)
 

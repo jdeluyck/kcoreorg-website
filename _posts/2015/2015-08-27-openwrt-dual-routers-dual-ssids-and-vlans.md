@@ -10,7 +10,7 @@ categories:
   - Networking
 tags:
   - barrier breaker
-  - dlink dir825
+  - d-link dir825
   - dual ssids
   - guest wlan
   - openwrt

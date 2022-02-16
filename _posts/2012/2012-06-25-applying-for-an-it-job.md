@@ -8,8 +8,6 @@ guid: http://sadevil.org/blog/?p=884
 permalink: /2012/06/25/applying-for-an-it-job/
 categories:
   - Comics
-tags:
-  - Comics
 format: image
 ---
 ![Applying for an IT job...](/assets/images/2012/06/itjobs.jpg)

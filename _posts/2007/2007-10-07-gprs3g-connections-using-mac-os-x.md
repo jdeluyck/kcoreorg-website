@@ -13,7 +13,7 @@ tags:
   - gprs
   - mac os x
   - motorola v3
-  - Spain
+  - spain
   - vodafone
 ---
 Here's a simple howto to get your Mac internet-connected using GPRS/3G on your bluetooth-equipped phone. I've only tested this with my [Motorola V3](http://www.motorola.com/motoinfo/product/details.jsp?globalObjectId=69) and [Vodafone (Spain)](http://www.vodafone.es), so no guarantees about the other providers, but the main part should be the same.

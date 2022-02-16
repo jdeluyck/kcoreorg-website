@@ -9,14 +9,11 @@ permalink: /2008/05/23/weird-pc-issues/
 categories:
   - Random
 tags:
-  - abit
-  - asus
+  - abit kn9-sli
+  - asus m2n-sli deluxe
   - crackling
   - crash
   - hang
-  - kn9-sli
-  - m2n-sli deluxe
-  - replaced
   - sound
   - usb
 ---

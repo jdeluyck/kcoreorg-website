@@ -11,7 +11,6 @@ categories:
 tags:
   - delayed
   - iphone
-  - leopard
   - mac os x
 ---
 From [http://www.apple.com/hotnews/](http://www.apple.com/hotnews/), there's an Apple Statement:

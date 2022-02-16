@@ -9,9 +9,6 @@ permalink: /2008/05/24/apt-get-install-wife/
 categories:
   - Comics
 tags:
-  - apt-get
-  - bah
-  - kids
   - wife
 format: image
 ---

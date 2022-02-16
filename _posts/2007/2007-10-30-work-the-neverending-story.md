@@ -9,8 +9,8 @@ permalink: /2007/10/30/work-the-neverending-story/
 categories:
   - Work
 tags:
-  - Cars
-  - Work
+  - cars
+  - work
 ---
 Well,
 

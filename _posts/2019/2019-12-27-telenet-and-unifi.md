@@ -6,8 +6,8 @@ layout: single
 categories:
   - Networking
 tags:
-  - Unifi
-  - Telenet
+  - unifi
+  - telenet
 ---
 Some months back a friend of mine wanted to switch over to the [Unifi](https://unifi-network.ui.com/) platform (which I've been using now for about a year), and get it to play nice with his [Telenet ISP](https://telenet.be) setup aswell.
 

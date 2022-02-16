@@ -13,7 +13,7 @@ tags:
   - restore
   - statistics
   - tomato
-  - wrt54gl
+  - linksys wrt54gl
 ---
 Since I recently moved, and now have my [Tomato](http://www.polarcloud.com/tomato) based [WRT54GL](http://www.linksysbycisco.com/US/en/products/WRT54GL) on 24/7, I also wanted a way to keep a backup of those nice statistics the router generates. You have the option (built-in) to write them to [nvram](http://en.wikipedia.org/wiki/Non-volatile_random_access_memory) or to a [CIFS](http://en.wikipedia.org/wiki/Server_Message_Block) share, but the former has a limited amount of writes, and the latter is not really stable (and I don't have anything powered on all the time to keep the backups on).
 

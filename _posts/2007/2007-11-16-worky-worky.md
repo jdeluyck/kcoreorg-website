@@ -9,7 +9,7 @@ permalink: /2007/11/16/worky-worky/
 categories:
   - Work
 tags:
-  - Work
+  - work
 ---
 Today, my stay of 1.5 months at home comes to an end, and I'm going back to [work](/2007/10/30/work-the-neverending-story/)! Yay!
 

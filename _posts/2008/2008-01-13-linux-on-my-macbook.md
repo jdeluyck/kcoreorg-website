@@ -10,7 +10,6 @@ categories:
   - Apple / Mac OS
   - Linux / Unix
 tags:
-  - macbook
   - debian
   - linux
   - macbook

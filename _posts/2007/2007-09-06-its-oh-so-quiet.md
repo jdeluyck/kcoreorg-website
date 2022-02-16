@@ -10,8 +10,6 @@ categories:
   - Random
 tags:
   - antec sonata 3
-  - pc
-  - quiet
   - scythe katana 2
 ---
 Yeah, yeah, I know, that title is about the lamest I could come up with. It's appropriate though - since yesterday evening the main source of background noise when my pc is on is no longer my pc! I finally decided to get that noisebucket tamed, after hearing my brother-in-law's new computer (or better, the lack of hearing it).
