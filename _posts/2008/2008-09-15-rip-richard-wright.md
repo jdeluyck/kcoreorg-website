@@ -8,7 +8,6 @@ guid: http://sadevil.org/blog/?p=322
 permalink: /2008/09/15/rip-richard-wright/
 categories:
   - Music
-  - Videos
 tags:
   - pink floyd
   - richard wright

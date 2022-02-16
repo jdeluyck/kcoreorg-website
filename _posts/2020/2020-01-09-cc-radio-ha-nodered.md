@@ -13,6 +13,7 @@ tags:
   - chromecast
   - radio
   - node-red
+  - raspberry pi
 ---
 Telenet, our local cable provider, decided that analog cable radio is dead and everyone should switch to either [DAB](https://en.wikipedia.org/wiki/Digital_Audio_Broadcasting) (Digital Radio over the air) or [DVB-C](https://en.wikipedia.org/wiki/DVB-C) (Digital Radio via coaxial cable). For me, that's a bit of an issue:
 * DAB radio is fine, but requires good reception. Our house is rather well insulated so radio reception is crap at best

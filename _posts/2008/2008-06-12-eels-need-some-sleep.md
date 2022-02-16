@@ -8,10 +8,8 @@ guid: http://sadevil.org/blog/?p=250
 permalink: /2008/06/12/eels-need-some-sleep/
 categories:
   - Music
-  - Videos
 tags:
   - eels
-  - need some sleep
 format: video
 ---
 I need some sleep.  

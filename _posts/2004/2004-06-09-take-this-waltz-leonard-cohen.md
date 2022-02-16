@@ -8,11 +8,8 @@ guid: http://sadevil.org/blog/2004/06/09/take-this-waltz-leonard-cohen/
 permalink: /2004/06/09/take-this-waltz-leonard-cohen/
 categories:
   - Music
-  - Videos
 tags:
   - leonard cohen
-  - take this waltz
-  - video
 format: video
 ---
 Now in Vienna there's ten pretty women  

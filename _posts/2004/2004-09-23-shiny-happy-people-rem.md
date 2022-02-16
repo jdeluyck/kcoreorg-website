@@ -8,11 +8,8 @@ guid: http://sadevil.org/blog/2004/09/23/shiny-happy-people-rem/
 permalink: /2004/09/23/shiny-happy-people-rem/
 categories:
   - Music
-  - Videos
 tags:
   - rem
-  - shiny happy people
-  - video
 format: video
 ---
 Shiny happy people laughing  

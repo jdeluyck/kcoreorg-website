@@ -9,9 +9,7 @@ permalink: /2008/12/24/poppenkast-jasperina-de-jong/
 categories:
   - Music
 tags:
-  - de engel van amsterdam
   - jasperina de jong
-  - poppenkast
 ---
 From the musical "De Engel van Amsterdam". 
 

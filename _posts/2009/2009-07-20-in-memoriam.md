@@ -8,8 +8,6 @@ guid: http://sadevil.org/blog/?p=471
 permalink: /2009/07/20/in-memoriam/
 categories:
   - Cavies
-tags:
-  - Cavies
 format: image
 ---
 ![Macchiatto - In Memoriam](/assets/images/2009/07/Macchiatto-InMemoriam-sm.jpg "Macchiatto - In Memoriam")

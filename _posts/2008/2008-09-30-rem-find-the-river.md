@@ -8,9 +8,7 @@ guid: http://sadevil.org/blog/?p=335
 permalink: /2008/09/30/rem-find-the-river/
 categories:
   - Music
-  - Videos
 tags:
-  - find the river
   - rem
 format: video
 ---

@@ -8,7 +8,6 @@ guid: http://sadevil.org/blog/2005/03/13/you-and-me-neil-young/
 permalink: /2005/03/13/you-and-me-neil-young/
 categories:
   - Music
-  - Videos
 tags:
   - neil young
 format: video

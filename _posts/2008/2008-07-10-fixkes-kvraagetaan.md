@@ -8,10 +8,8 @@ guid: http://sadevil.org/blog/?p=259
 permalink: /2008/07/10/fixkes-kvraagetaan/
 categories:
   - Music
-  - Videos
 tags:
   - fixkes
-  - kvraagetaan
 format: video
 ---
 **Fixkes - kvraagetaan**

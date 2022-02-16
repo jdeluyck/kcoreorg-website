@@ -8,11 +8,8 @@ guid: http://sadevil.org/blog/2004/10/07/the-queen-and-the-soldier-susanne-vega/
 permalink: /2004/10/07/the-queen-and-the-soldier-susanne-vega/
 categories:
   - Music
-  - Videos
 tags:
   - susanne vega
-  - the queen and the soldier
-  - video
 format: video
 ---
 The soldier came knocking upon the queen's door  

@@ -9,7 +9,6 @@ permalink: /2007/08/09/uhm-thanks-ctg/
 categories:
   - Work
 tags:
-  - thanks
   - work
 format: gallery
 ---

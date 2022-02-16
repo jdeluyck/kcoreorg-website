@@ -12,8 +12,7 @@ tags:
   - backup
   - crashplan
   - headless
-  - raspberry pi 2
-  - rpi2
+  - raspberry pi
 ---
 In my grand scheme of "abuse all the low-power computing things!", I've moved my crashplan backups over to the [Raspberry Pi 2](https://en.wikipedia.org/wiki/Raspberry_Pi) (rpi2 for short). Installation is relatively painless: download the installer from [the crashplan site](https://www.code42.com/crashplan/download/), and unpack and execute. I installed mine under /opt/crashplan.
 

@@ -10,7 +10,6 @@ categories:
   - Videos
 tags:
   - halflife
-  - Music
   - portal
   - valvesoftware
 format: video
