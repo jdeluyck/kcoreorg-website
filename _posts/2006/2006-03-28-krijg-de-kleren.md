@@ -9,9 +9,7 @@ permalink: /2006/03/28/krijg-de-kleren/
 categories:
   - Music
 tags:
-  - de engel van amsterdam
   - jasperina de jong
-  - krijg de kleren
 ---
 Thanks to my [mum](http://foefel.kcore.org/blog) I discovered and can appreciate [Jasperina De Jong](http://www.jasperina.net) (a dutch cabaretier, who no longer performs unfortunately) a lot.
 

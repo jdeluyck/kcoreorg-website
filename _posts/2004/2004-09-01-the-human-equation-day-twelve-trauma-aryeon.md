@@ -8,6 +8,8 @@ guid: http://sadevil.org/blog/2004/09/01/the-human-equation-day-twelve-trauma-ar
 permalink: /2004/09/01/the-human-equation-day-twelve-trauma-aryeon/
 categories:
   - Music
+tags:
+  - ayreon
 format: video
 ---
 [Reason]  

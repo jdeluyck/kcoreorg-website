@@ -12,7 +12,6 @@ tags:
   - ambilight
   - hyperion
   - leds
-  - pi
   - raspberry pi
 ---
 I've always liked the [Ambilight technology](https://en.wikipedia.org/wiki/Ambilight) Philips builds into some of their TV's. I just don't like the price that they ask for it... so I looked around if there was no way to build that yourself. There is, using a [Raspberry Pi](https://www.raspberrypi.org/), some leds, and some bits and pieces ;)

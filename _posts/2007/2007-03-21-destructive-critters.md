@@ -10,7 +10,6 @@ categories:
   - Cavies
 tags:
   - balsa
-  - Cavies
   - destructive
   - stairs
 format: gallery

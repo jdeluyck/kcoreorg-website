@@ -8,10 +8,7 @@ guid: http://sadevil.org/blog/2007/11/08/weasel-stompin-day/
 permalink: /2007/11/08/weasel-stompin-day/
 categories:
   - Music
-  - Videos
 tags:
-  - video
-  - "weasel stompin' day"
   - weird al yankovic
 format: video
 published: false

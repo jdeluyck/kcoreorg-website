@@ -9,7 +9,6 @@ permalink: /2008/11/14/willem-vermandere-bric-a-brac/
 categories:
   - Music
 tags:
-  - bric a brac
   - willem vermandere
 ---
 ‘t is niet den auto, ‘t is de reis  

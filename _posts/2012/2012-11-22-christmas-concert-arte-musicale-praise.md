@@ -12,12 +12,9 @@ categories:
 tags:
   - arte musicale
   - chamberchoir
-  - choir
   - christmas
-  - christmasconcert
   - concert
-  - furiant
-  - kamerkoor
+  - kamerkoor furiant
   - praise
 ---
 On the 26th of december we're giving our annual christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.

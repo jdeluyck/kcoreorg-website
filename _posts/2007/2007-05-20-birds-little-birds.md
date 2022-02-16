@@ -9,7 +9,7 @@ permalink: /2007/05/20/birds-little-birds/
 categories:
   - Personal
 tags:
-  - Birds
+  - birds
 format: gallery
 ---
 We've (well, my parents really) have had some [Zebra Finches](http://en.wikipedia.org/wiki/Zebra_Finch) for a while. They never really did any real breeding, but last time they seemed more serious about the matter. And yes, we got ourselfs some little birds!  

@@ -8,6 +8,8 @@ guid: http://sadevil.org/blog/2004/11/12/the-swan-song-within-temptation/
 permalink: /2004/11/12/the-swan-song-within-temptation/
 categories:
   - Music
+tags:
+  - within temptation
 format: video
 ---
 Winter has come for me, can't carry on.  

@@ -10,7 +10,7 @@ categories:
   - Travels
 tags:
   - new year
-  - Spain
+  - spain
 ---
 I spent my new years in Madrid, went there the 28th (evening). After an uneventful flight, we went to Diana's place, didn't do much and went to sleep.
 

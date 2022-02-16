@@ -13,12 +13,10 @@ tags:
   - arte musicale
   - bach
   - cantabile
-  - chamberchoir
-  - choir
+  - chamberchoir furiant
   - concert
-  - furiant
+  - kamerkoor furiant
   - ghent baroque players
-  - kamerkoor
   - magnificat
 ---
 The choir [Cantabile](http://www.cantabile.be), together with [Furiant](http://www.furiant.be) and the Ghent Baroque Players are performing:

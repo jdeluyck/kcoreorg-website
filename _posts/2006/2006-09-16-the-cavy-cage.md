@@ -10,7 +10,6 @@ categories:
   - Cavies
 tags:
   - cage
-  - Cavies
 format: gallery
 ---
 Today I decided to change some things to their cavia cage, and see if they like - use it.

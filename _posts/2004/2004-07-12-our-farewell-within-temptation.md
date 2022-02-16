@@ -8,10 +8,7 @@ guid: http://sadevil.org/blog/2004/07/12/our-farewell-within-temptation/
 permalink: /2004/07/12/our-farewell-within-temptation/
 categories:
   - Music
-  - Videos
 tags:
-  - our farewell
-  - video
   - within temptation
 format: video
 ---

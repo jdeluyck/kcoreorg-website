@@ -11,13 +11,9 @@ categories:
   - Music
 tags:
   - arte musicale
-  - chamberchoir
-  - choir
+  - chamberchoir furiant
   - christmas
-  - christmasconcert
-  - concert
-  - furiant
-  - kamerkoor
+  - kamerkoor furiant
 ---
 As some of you might (not) know, I've recently joined a choir, called [Furiant](http://www.furiant.be/), which is part of the [Arte Musicale](http://www.artemusicale.be) group. (I already play in a pipe band (the [Flemish Caledonian Pipes & Drums](http://www.fcpd.be)))
 

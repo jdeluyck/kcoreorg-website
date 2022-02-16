@@ -6,7 +6,6 @@ layout: single
 categories:
   - Coding
 tags:
-  - advent-of-code
   - python
   - advent of code
 ---

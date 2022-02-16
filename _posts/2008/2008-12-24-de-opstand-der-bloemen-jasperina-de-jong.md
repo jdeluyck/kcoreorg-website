@@ -9,9 +9,7 @@ permalink: /2008/12/24/de-opstand-der-bloemen-jasperina-de-jong/
 categories:
   - Music
 tags:
-  - de opstand der bloemen
   - jasperina de jong
-  - lyrics
 ---
 Wij zijn de tuin van het echtpaar de Bondt  
 Aardige lui dat gaat best  

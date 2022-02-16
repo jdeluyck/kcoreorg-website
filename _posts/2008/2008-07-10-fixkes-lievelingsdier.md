@@ -8,10 +8,8 @@ guid: http://sadevil.org/blog/?p=258
 permalink: /2008/07/10/fixkes-lievelingsdier/
 categories:
   - Music
-  - Videos
 tags:
   - fixkes
-  - lievelingsdier
 format: video
 ---
 **Fixkes - Lievelingsdier**

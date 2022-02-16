@@ -10,7 +10,6 @@ categories:
   - Cavies
 tags:
   - cage
-  - Cavies
   - ikea
 format: gallery
 ---

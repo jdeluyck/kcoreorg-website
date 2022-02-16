@@ -8,11 +8,7 @@ guid: http://sadevil.org/blog/2005/02/24/gee-officer-krupke/
 permalink: /2005/02/24/gee-officer-krupke/
 categories:
   - Music
-  - Videos
 tags:
-  - Music
-  - officer krupke
-  - video
   - west side story
 format: video
 ---

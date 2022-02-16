@@ -9,8 +9,6 @@ permalink: /2008/03/20/sweeney-todd-a-little-priest/
 categories:
   - Music
 tags:
-  - lovett
-  - priest
   - sweeney todd
 format: video
 ---

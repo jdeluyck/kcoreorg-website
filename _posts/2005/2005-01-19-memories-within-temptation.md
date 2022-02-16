@@ -8,10 +8,7 @@ guid: http://sadevil.org/blog/2005/01/19/memories-within-temptation/
 permalink: /2005/01/19/memories-within-temptation/
 categories:
   - Music
-  - Videos
 tags:
-  - memories
-  - video
   - within temptation
 format: video
 ---

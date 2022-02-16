@@ -8,6 +8,8 @@ guid: http://sadevil.org/blog/2004/07/12/in-perfect-harmony-within-temptation/
 permalink: /2004/07/12/in-perfect-harmony-within-temptation/
 categories:
   - Music
+tags:
+  - within temptation
 ---
 In a world so far away  
 At the end of a closing day  

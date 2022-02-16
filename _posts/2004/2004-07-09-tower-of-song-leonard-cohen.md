@@ -8,11 +8,8 @@ guid: http://sadevil.org/blog/2004/07/09/tower-of-song-leonard-cohen/
 permalink: /2004/07/09/tower-of-song-leonard-cohen/
 categories:
   - Music
-  - Videos
 tags:
   - leonard cohen
-  - tower of song
-  - video
 format: video
 ---
 Well my friends are gone and my hair is grey  

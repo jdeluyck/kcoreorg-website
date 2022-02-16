@@ -8,8 +8,6 @@ guid: http://sadevil.org/blog/2007/01/15/piggy-pics/
 permalink: /2007/01/15/piggy-pics/
 categories:
   - Cavies
-tags:
-  - Cavies
 format: gallery
 ---
 'ear ye! 'ear ye!
