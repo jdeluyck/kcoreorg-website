@@ -77,19 +77,19 @@ Let's unwrap this:
 
 >`u` means user id mapping. You also have `g` for group id mapping.  
  `0` is the start UID to start mapping.  
- `100000` is the UID to map to
+ `100000` is the UID to map to  
  `1002` is the amount of UID's to remap.
 
 UID 0 to 1001 is mapped on UID 100000 to 101001.
 
 >`1002` is the start UID to start mapping.  
- `1002` is the UID to map to
+ `1002` is the UID to map to  
  `1` is the amount of UID's to remap.
 
 UID 1002 is mapped to 1002, and for 1 UIDs.
 
 >`1003` is the start UID to start mapping.  
- `101003` is the UID to map to
+ `101003` is the UID to map to  
  `64533` is the amount of UID's to remap.
 
  UID 1003 to 65536 is mapped to 101003 and on, to 165536.
