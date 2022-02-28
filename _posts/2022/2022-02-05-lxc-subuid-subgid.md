@@ -1,6 +1,6 @@
 ---
 title: 'Understanding LXC user/group mapping'
-date: 2022-01-20
+date: 2022-02-05
 author: Jan
 layout: single
 categories:
@@ -11,18 +11,18 @@ tags:
   - containers
 ---
 
-I've been moving some docker containers back from the [VM I put them](/2022/01/02/docker-to-vm) back to [Linux Containers (LXC)](https://linuxcontainers.org/), mostly because of I/O performance reasons and that a lot of I/O is causing unnecessary CPU usage.
+I've been moving some docker containers back from the [VM I put them](/2022/01/02/docker-to-vm) back to [Linux Containers (LXC)](https://linuxcontainers.org/) because of I/O performance and cpu consumption reasons (caused by that I/O).
 
-LXC is a light-weight container runtime, enabling you to containerize an entire OS. Docker containers, on the other hand, are more application level containers.
+LXC is a light-weight container runtime, enabling you to containerize an entire OS. Docker containers, on the other hand, are application level containers.
 The LXC container runs on the same kernel as the host OS, and basically uses the same underlying filesystem (in this case, ZFS!)
 
-The docker containers I wanted to move back were [influxdb](https://www.influxdata.com/) and [prometheus](https://prometheus.io/) and several other containers causing frequent serious levels of I/O.
+The docker containers I wanted to move back were [influxdb](https://www.influxdata.com/), [prometheus](https://prometheus.io/) and several other containers causing serious levels of I/O.
 
 One caveat: I also wanted to access some of my host filesystems inside LXC, and preferrably not doing it via NFS. [Bind mounts in LXC](https://pve.proxmox.com/wiki/Linux_Container#_bind_mount_points) to the rescue!
 
 ## Bind mounts
 
-Binding a local filesystem is easy: preferrably you shutdown the container, then edit `/etc/pve/lxc/XXX.conf`, with XXX being your container identifier in Proxmox.
+Binding a local filesystem is easy: shutdown the container, then edit `/etc/pve/lxc/XXX.conf`, with XXX being your container identifier in Proxmox.
 To this file, you add:
 
 ```
@@ -42,7 +42,7 @@ It took me a bit to wrap my head around how it actually works, though.
 ### Configuring the host to allow mapping
 On the host OS, there are two files which play a major role: `/etc/subuid` and `/etc/subgid`. These contain the mappings of the UID's that can be remapped.
 
-By default, they contain:
+By default they contain:
 ```
 root:100000:65536
 ```
