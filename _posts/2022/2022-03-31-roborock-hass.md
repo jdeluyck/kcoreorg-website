@@ -1,5 +1,5 @@
 ---
-title: 'Understanding LXC user/group mapping'
+title: 'Adding the Xiaomi Roborock S7 to Home Assistant'
 date: 2022-03-31
 author: Jan
 layout: single
