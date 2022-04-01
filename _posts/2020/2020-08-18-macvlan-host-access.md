@@ -5,7 +5,7 @@ author: Jan
 layout: single
 categories:
   - Linux / Unix
-  - networking
+  - Networking
 tags:
   - docker
   - macvlan

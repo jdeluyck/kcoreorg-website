@@ -8,7 +8,6 @@ guid: http://sadevil.org/blog/?p=635
 permalink: /2010/11/05/in-memoriam-2/
 categories:
   - Cavies
-  - nero
 format: image
 ---
 ![Nero - In Memoriam](/assets/images/2010/11/Nero_Memories_1000-me.jpg "Nero - In Memoriam")
