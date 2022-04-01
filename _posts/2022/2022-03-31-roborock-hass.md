@@ -27,9 +27,9 @@ In the second screen you can then add the IP address of the robot, as well as it
 
 Now, if like me you have your [IoT](https://en.wikipedia.org/wiki/Internet_of_things) devices on their own VLAN (heavily locked down), you're gonna hit a snag here: Home Assistant will complain it can't configure the device. Some searching easily came up with the reason: the robot won't respond to UDP packets coming from outside it's subnet. 
 
-* https://community.home-assistant.io/t/roborock-s7-entity-always-unavailable/330361
-* https://github.com/rytilahti/python-miio/issues/422
-* https://python-miio.readthedocs.io/en/latest/troubleshooting.html#discover-devices-across-subnets
+* [https://community.home-assistant.io/t/roborock-s7-entity-always-unavailable/330361](https://community.home-assistant.io/t/roborock-s7-entity-always-unavailable/330361)
+* [https://github.com/rytilahti/python-miio/issues/422](https://github.com/rytilahti/python-miio/issues/422)
+* [https://python-miio.readthedocs.io/en/latest/troubleshooting.html#discover-devices-across-subnets](https://python-miio.readthedocs.io/en/latest/troubleshooting.html#discover-devices-across-subnets)
 
 What you'll need to do is add some additional configuration in your router/switch/... (wherever you configure your VLANs). For me that is my OPNsense box in which I had to configure some additional NAT rules:
 
@@ -49,5 +49,5 @@ Under Firewall &rightarrow; NAT &rightarrow; Outbound, add a rule with this conf
 and that's it. Afterwards your Home Assistant should be able to query the robot, and off you go to build some automations!
 
 Recommended reads:
-* https://smarthomepursuits.com/how-to-setup-configure-roborock-s7-with-home-assistant/
-* https://community.home-assistant.io/t/s7-mop-control/317393/35
+* [https://smarthomepursuits.com/how-to-setup-configure-roborock-s7-with-home-assistant/](https://smarthomepursuits.com/how-to-setup-configure-roborock-s7-with-home-assistant/)
+* [https://community.home-assistant.io/t/s7-mop-control/317393](https://community.home-assistant.io/t/s7-mop-control/317393)
