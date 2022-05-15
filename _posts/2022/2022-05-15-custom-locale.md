@@ -33,4 +33,4 @@ $ sudo cp /tmp/en_BE /usr/share/i18n/locales/en_BE
 $ sudo dnf install glibc-locale-source
 $ sudo localedef -i en_BE -c -f UTF-8 en_BE
 $ localectl set-locale en_BE
-
+```
