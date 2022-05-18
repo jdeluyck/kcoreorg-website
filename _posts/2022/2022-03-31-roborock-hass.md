@@ -33,7 +33,7 @@ Now, if like me you have your [IoT](https://en.wikipedia.org/wiki/Internet_of_th
 
 What you'll need to do is add some additional configuration in your router/switch/... (wherever you configure your VLANs). For me that is my OPNsense box in which I had to configure some additional NAT rules:
 
-Under Firewall &rightarrow; NAT &rightarrow; Outbound, add a rule with this configuration:
+Under Firewall \&rightarrow; NAT \&rightarrow; Outbound, add a rule with this configuration:
 
 | Parameter | Value |
 ------|-------
