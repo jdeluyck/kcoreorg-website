@@ -4,7 +4,7 @@ date: 2022-03-31
 author: Jan
 layout: single
 categories:
-  - Home automation
+  - Home Automation
 tags:
   - home assistant
   - roborock
