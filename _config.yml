@@ -56,6 +56,7 @@ footer:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: https://fedi.kcore.org/@jan
+      rel: "me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: https://twitter.com/jdeluyck
