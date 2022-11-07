@@ -54,7 +54,7 @@ facebook:
 footer:
   links:
     - label: "Mastodon"
-      icon: "fb fa-fw fa-mastodon"
+      icon: "fab fa-fw fa-mastodon"
       url: https://fedi.kcore.org/@jan
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
