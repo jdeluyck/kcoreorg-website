@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /.well-known/nodeinfo
+---
+{"links":[{"rel":"http://nodeinfo.diaspora.software/ns/schema/2.0","href":"https://fedi.kcore.org/nodeinfo/2.0"}]}
