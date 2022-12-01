@@ -6,7 +6,7 @@ layout: single
 categories:
   - Linux / Unix
 tags:
-  - fedora
+  - fedora 37
   - codecs
   - h.246
   - h.256
