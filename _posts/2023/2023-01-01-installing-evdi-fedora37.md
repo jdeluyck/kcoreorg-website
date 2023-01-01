@@ -18,22 +18,23 @@ After some digging I found the way to get this to work:
 
 * Install [RPMFusion](https://rpmfusion.org)
 * Install [RPMSphere](https://rpmsphere.github.io/) (for `evdi`)
-* Install the `evdi` package: 
+* Install the `evdi` package:   
   ```shell
   $ sudo dnf install evdi
   ```
 At this point the build will fail because of compatibility issues with the latest packaged version of evdi and the 6.x linux kernels. [Patches](https://github.com/DisplayLink/evdi/issues/384) are available, and the master branch also works.
 
-* Clone the latest master branch of `https://github.com/DisplayLink/evdi` and use its version of the evdi source
+* Clone the latest master branch of `https://github.com/DisplayLink/evdi` and use its version of the evdi source  
   ```shell
   $ git clone https://github.com/DisplayLink/evdi
   $ cd evdi
   $ sudo cp evdi/module/* /usr/src/evdi-1.12.0
-* Rebuild the `evdi` module
+  ```
+* Rebuild the `evdi` module  
   ```shell
   $ sudo dkms build -m evdi -v 1.12.0 --force
   $ sudo dkms install -m evdi -v 1.12.0
-
+  ```
 Next, to get the displaylink driver:
 * download the official Ubuntu driver from [https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu](https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu) somewhere. `/tmp` for instance.
 * install it:
