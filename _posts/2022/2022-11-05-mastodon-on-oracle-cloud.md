@@ -35,7 +35,26 @@ before the line
 -A INPUT -j REJECT --reject-with icmp-host-prohibited
 ```
 
-and execute `iptables-restore < /etc/iptables/rules.v4`
+Likewise, edit `/etc/iptables/rules.v6`, which will probably contain no rules, and add 
+
+```shell
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p icmpv6 -j ACCEPT
+-A INPUT -i lo -j ACCEPT
+-A INPUT -p udp -m udp --sport 123 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 443 -j ACCEPT
+-A INPUT -p udp -m udp --sport 547 --dport 546 -j ACCEPT
+-A INPUT -j REJECT --reject-with icmp6-adm-prohibited
+-A FORWARD -j REJECT --reject-with icmp6-adm-prohibited
+```
+
+before the line
+```shell
+COMMIT
+```
+
+To reload the rules, execute `iptables-restore < /etc/iptables/rules.v4` and `ip6tables-restore < /etc/iptables/rules.v6`.
 
 # Installing Mastodon
 I followed the instructions on their main page: [Running your own server](https://docs.joinmastodon.org/user/run-your-own/). Please keep in mind that this does require some commitment to keeping it up-to-date, so if you don't want that please look for a hosted instance.
