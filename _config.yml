@@ -204,11 +204,11 @@ defaults:
       sidebar:
         nav: "site_sidebar"
       
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-305756-1"
-    anonymize_ip: true
+#analytics:
+#  provider: "google-gtag"
+#  google:
+#    tracking_id: "UA-305756-1"
+#    anonymize_ip: true
 
 #site_sidebar:
 #  - title: "Search"
