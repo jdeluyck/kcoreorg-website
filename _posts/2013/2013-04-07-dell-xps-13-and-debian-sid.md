@@ -10,7 +10,7 @@ categories:
   - Linux / Unix
 tags:
   - debian
-  - dell xps 13
+  - dell xps 13 l322x
   - linux
   - macbook
   - sid
@@ -35,7 +35,7 @@ Spec comparison:
 | Model              | Weight | Screen resolution | Memory | Storage    | CPU           | Battery life
 | ---                | ---    | ---               | ---    | ---        | ---           | ---
 | Apple Macbook 2,1  | 2.3kg  | 1200x800          | 2GiB   | 80GiB HDD  | Core2Duo 2GHz | 3-4 hours
-| Dell XPS 13 (2013) | 1.03kg | 1920x1200         | 8GiB   | 256GiB SSD | Core i5-3337U | 7-8 hours
+| Dell XPS 13 (2013) | 1.32kg | 1920x1200         | 8GiB   | 256GiB SSD | Core i5-3337U | 7-8 hours
 
 The laptop arrived in a sortof-stylish black Dell box, unfortunately taped over with all kinds of deliver stickers. Oh well.
 
