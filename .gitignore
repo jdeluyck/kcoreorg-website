@@ -8,3 +8,4 @@ Gemfile.lock
 package-lock.json
 .idea
 .vscode
+.bundle

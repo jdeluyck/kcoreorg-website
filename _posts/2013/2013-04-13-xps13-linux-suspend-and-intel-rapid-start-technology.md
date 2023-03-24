@@ -14,7 +14,7 @@ tags:
   - irst
   - linux
   - suspend
-  - dell xps 13
+  - dell xps 13 l322x
 ---
 As an addendum to my previous post on [how to install Debian Sid on the XPS13](/2013/04/07/dell-xps-13-and-debian-sid/), I've been having issues with suspend - the laptop would sporadicaly not go to sleep properly on lid close, or it wouldn't come out of suspend afterwards.
 

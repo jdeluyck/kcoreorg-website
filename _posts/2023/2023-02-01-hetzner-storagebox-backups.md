@@ -57,4 +57,4 @@ idle_timeout = 0
 
 One thing I bumped into is that Hetzner only allows [10 connections (per sub-account) at the same time](https://docs.hetzner.com/robot/storage-box/general). If you go over this the connections get blocked - something that rclone nor restic like.
 After playing with the options with the amount of connections I've settled on
-`--fast-list --transfers=3 --checkers=6` for rclone, and `--fast-list --transfers 4 --checkers 4` for restic.
+`--fast-list --transfers 3 --checkers 6` for rclone, and `--fast-list --transfers 4 --checkers 4` for restic.
