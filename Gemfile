@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
 end
 
+gem "webrick"
 #gem "faraday", "< 1.0.0"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
