@@ -45,4 +45,4 @@ I installed:
   * [TeamViewer](https://www.teamviewer.com/) for remote access outside of the local network
   * [x11vnc](http://www.karlrunge.com/x11vnc/) for VNC access to the logged-in session
 
-All in all it works rather nicely. The only problems I ran into was with respect to the iPod management, which was solved by resetting the iPod with iTunes for windows, which formatted the device as VFAT[https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32](https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32), instead of Mac OS' [HFS+](https://en.wikipedia.org/wiki/HFS_Plus).
+All in all it works rather nicely. The only problems I ran into was with respect to the iPod management, which was solved by resetting the iPod with iTunes for windows, which formatted the device as [VFAT](https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32), instead of Mac OS' [HFS+](https://en.wikipedia.org/wiki/HFS_Plus).
