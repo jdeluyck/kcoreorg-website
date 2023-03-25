@@ -4,7 +4,6 @@ title: '2600 - Off The Hook / Off The Wall radio show archive downloader'
 date: 2007-11-02T18:14:25+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1261
 permalink: /2007/11/02/2600-off-the-hook-off-the-wall-radio-show-archive-downloader/
 categories:
   - Linux / Unix

@@ -4,7 +4,6 @@ title: phptelemeter 1.36-beta3 released
 date: 2012-07-17T09:53:34+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1325
 permalink: /2012/07/17/phptelemeter-1-36-beta3-released/
 categories:
   - phptelemeter

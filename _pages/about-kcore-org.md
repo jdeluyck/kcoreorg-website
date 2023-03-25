@@ -7,7 +7,6 @@ layout: single
 author_profile: false
 classes: wide
 permalink: /about-kcore-org/
-guid: http://new.kcore.org/?page_id=1188
 sidebar:
   nav: "site_sidebar"
 ---

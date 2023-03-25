@@ -4,7 +4,6 @@ title: Pegasi Web Server (pws)
 date: 2004-03-13T19:47:02+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1284
 permalink: /2004/03/13/pegasi-web-server-pws/
 categories:
   - Random

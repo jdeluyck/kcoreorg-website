@@ -4,7 +4,6 @@ title: Running Linux on an Apple Macbook 2,1
 date: 2010-05-02T09:13:51+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1300
 permalink: /2010/05/02/running-linux-on-an-apple-macbook-21/
 categories:
   - Linux / Unix

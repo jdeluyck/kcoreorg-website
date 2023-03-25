@@ -4,7 +4,6 @@ title: phptelemeter 1.26 released
 date: 2006-10-30T10:29:07+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1359
 permalink: /2006/10/30/phptelemeter-1-26-released/
 categories:
   - phptelemeter

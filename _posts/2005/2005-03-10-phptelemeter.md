@@ -4,7 +4,6 @@ title: 'phptelemeter ...'
 date: 2005-03-10T10:14:49+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1339
 permalink: /2005/03/10/phptelemeter/
 categories:
   - phptelemeter
