@@ -4,7 +4,6 @@ title: The Cavy Cage
 date: 2006-09-16T16:27:52+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2006/09/16/the-cavy-cage/
 permalink: /2006/09/16/the-cavy-cage/
 categories:
   - Cavies

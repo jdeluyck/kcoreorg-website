@@ -4,7 +4,6 @@ title: 'What I&apos;ve been doing...'
 date: 2005-10-27T15:05:39+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2005/10/27/what-ive-been-doing/
 permalink: /2005/10/27/what-ive-been-doing/
 categories:
   - Personal

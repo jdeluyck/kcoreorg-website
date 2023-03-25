@@ -4,7 +4,6 @@ title: 'Code review - always try to find something positive'
 date: 2010-11-11T13:28:34+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=645
 permalink: /2010/11/11/code-review-always-try-to-find-something-positive/
 categories:
   - Comics

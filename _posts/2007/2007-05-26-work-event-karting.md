@@ -4,7 +4,6 @@ title: 'Work-event: Karting!'
 date: 2007-05-26T22:06:00+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/05/26/work-event-karting/
 permalink: /2007/05/26/work-event-karting/
 categories:
   - Work

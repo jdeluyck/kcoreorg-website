@@ -4,7 +4,6 @@ title: 'What we&apos;ve been doing...'
 date: 2007-09-03T12:06:05+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/09/03/what-weve-been-doing/
 permalink: /2007/09/03/what-weve-been-doing/
 categories:
   - Travels

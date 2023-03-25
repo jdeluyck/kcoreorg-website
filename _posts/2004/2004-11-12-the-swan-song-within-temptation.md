@@ -4,7 +4,6 @@ title: The Swan Song (Within Temptation)
 date: 2004-11-12T20:29:29+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2004/11/12/the-swan-song-within-temptation/
 permalink: /2004/11/12/the-swan-song-within-temptation/
 categories:
   - Music

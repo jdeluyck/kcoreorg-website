@@ -4,7 +4,6 @@ title: Being sick sucks!
 date: 2008-03-02T15:42:43+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/03/02/being-sick-sucks/
 permalink: /2008/03/02/being-sick-sucks/
 categories:
   - Personal

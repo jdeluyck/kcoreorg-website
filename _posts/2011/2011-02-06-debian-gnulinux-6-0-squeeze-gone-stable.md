@@ -4,7 +4,6 @@ title: 'Debian GNU/Linux 6.0 "Squeeze" gone stable ;)'
 date: 2011-02-06T09:29:10+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=675
 permalink: /2011/02/06/debian-gnulinux-6-0-squeeze-gone-stable/
 categories:
   - Linux / Unix

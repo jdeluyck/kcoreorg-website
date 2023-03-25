@@ -4,7 +4,6 @@ title: 'My history in gadgets - update 2015'
 date: 2015-06-02T13:34:11+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=1092
 permalink: /2015/06/02/my-history-in-gadgets-update-2015/
 categories:
   - Android

@@ -4,7 +4,6 @@ title: I can haz Prius? I can!
 date: 2008-01-22T18:51:09+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/01/22/i-can-haz-prius-i-can/
 permalink: /2008/01/22/i-can-haz-prius-i-can/
 categories:
   - Cars

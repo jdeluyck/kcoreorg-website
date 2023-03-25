@@ -4,7 +4,6 @@ title: DIY ambilight with Hyperion and a Raspberry Pi
 date: 2017-05-15T11:19:51+02:00
 author: Jan
 layout: single
-guid: https://kcore.org/?p=1929
 permalink: /2017/05/15/diy-ambilight-with-hyperion-and-a-raspberry-pi/
 categories:
   - Linux / Unix

@@ -4,7 +4,6 @@ title: Thank you for polluting
 date: 2007-11-30T21:19:42+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/11/30/thank-you-for-polluting/
 permalink: /2007/11/30/thank-you-for-polluting/
 categories:
   - Personal

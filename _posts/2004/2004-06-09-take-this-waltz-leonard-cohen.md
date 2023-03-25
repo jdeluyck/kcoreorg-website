@@ -4,7 +4,6 @@ title: Take This Waltz (Leonard Cohen)
 date: 2004-06-09T21:53:51+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2004/06/09/take-this-waltz-leonard-cohen/
 permalink: /2004/06/09/take-this-waltz-leonard-cohen/
 categories:
   - Music

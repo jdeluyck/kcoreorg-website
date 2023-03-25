@@ -4,7 +4,6 @@ title: Geen kerstgedoe voor 15 december!
 date: 2007-11-05T20:13:52+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/11/05/geen-kerstgedoe-voor-15-december/
 permalink: /2007/11/05/geen-kerstgedoe-voor-15-december/
 categories:
   - Personal

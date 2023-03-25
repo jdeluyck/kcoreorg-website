@@ -4,7 +4,6 @@ title: 'Android 2.1 (Eclair) on the HTC Hero...'
 date: 2010-06-08T18:30:36+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=625
 permalink: /2010/06/08/android-2-1-eclair-on-the-htc-hero/
 categories:
   - Android

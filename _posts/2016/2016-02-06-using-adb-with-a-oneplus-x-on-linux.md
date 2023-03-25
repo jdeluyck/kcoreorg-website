@@ -4,7 +4,6 @@ title: 'Using adb with a OnePlus X on Linux...'
 date: 2016-02-06T07:49:42+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=1127
 permalink: /2016/02/06/using-adb-with-a-oneplus-x-on-linux/
 categories:
   - Android

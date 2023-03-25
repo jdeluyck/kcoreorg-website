@@ -4,7 +4,6 @@ title: Spinningwheel!
 date: 2006-03-10T21:10:09+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2006/03/10/spinningwheel/
 permalink: /2006/03/10/spinningwheel/
 categories:
   - Personal

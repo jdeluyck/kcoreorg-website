@@ -4,7 +4,6 @@ title: 'Fixkes - kvraagetaan'
 date: 2008-07-10T18:10:40+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=259
 permalink: /2008/07/10/fixkes-kvraagetaan/
 categories:
   - Music

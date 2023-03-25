@@ -4,7 +4,6 @@ title: 'The Gift - Part 1'
 date: 2005-11-06T09:36:39+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2005/11/06/the-gift-part-1/
 permalink: /2005/11/06/the-gift-part-1/
 categories:
   - Personal

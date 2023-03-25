@@ -4,7 +4,6 @@ title: R.I.P. Gary Gygax
 date: 2008-03-09T16:41:23+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/03/09/rip-gary-gygax/
 permalink: /2008/03/09/rip-gary-gygax/
 categories:
   - Comics

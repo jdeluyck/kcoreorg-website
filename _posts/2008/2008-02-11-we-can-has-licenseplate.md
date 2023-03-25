@@ -4,7 +4,6 @@ title: We can has licenseplate?
 date: 2008-02-11T19:50:10+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/02/11/we-can-has-licenseplate/
 permalink: /2008/02/11/we-can-has-licenseplate/
 categories:
   - Cars

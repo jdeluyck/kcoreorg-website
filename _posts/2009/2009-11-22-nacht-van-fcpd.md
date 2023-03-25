@@ -4,7 +4,6 @@ title: 'Nacht van FCP&D'
 date: 2009-11-22T12:45:09+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=524
 permalink: /2009/11/22/nacht-van-fcpd/
 categories:
   - 'Flemish Caledonian Pipes &amp; Drums'

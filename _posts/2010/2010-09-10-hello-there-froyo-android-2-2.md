@@ -4,7 +4,6 @@ title: Hello there, Froyo (Android 2.2)
 date: 2010-09-10T13:04:21+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=642
 permalink: /2010/09/10/hello-there-froyo-android-2-2/
 categories:
   - Android

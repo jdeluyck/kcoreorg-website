@@ -4,7 +4,6 @@ title: 'I sold it on eBay...'
 date: 2007-01-18T11:11:51+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/01/18/i-sold-it-on-ebay/
 permalink: /2007/01/18/i-sold-it-on-ebay/
 categories:
   - Personal

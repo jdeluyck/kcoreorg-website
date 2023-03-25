@@ -4,7 +4,6 @@ title: Iodine (dns tunnel) on your Mac (to escape those evil firewalls)
 date: 2008-07-07T20:59:05+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=257
 permalink: /2008/07/07/iodine-dns-tunnel-on-your-mac-to-escape-those-evil-firewalls/
 categories:
   - Apple / Mac OS

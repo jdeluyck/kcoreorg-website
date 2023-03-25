@@ -4,7 +4,6 @@ title: 'Fixkes - Lievelingsdier'
 date: 2008-07-10T18:03:48+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=258
 permalink: /2008/07/10/fixkes-lievelingsdier/
 categories:
   - Music

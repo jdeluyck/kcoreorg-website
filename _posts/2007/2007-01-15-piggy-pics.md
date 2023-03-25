@@ -4,7 +4,6 @@ title: Piggy Pics
 date: 2007-01-15T09:17:22+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/01/15/piggy-pics/
 permalink: /2007/01/15/piggy-pics/
 categories:
   - Cavies

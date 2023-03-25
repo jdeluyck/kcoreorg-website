@@ -4,7 +4,6 @@ title: 'Merry (x\|newton\|christ\|...)mas and happy new year!'
 date: 2007-12-25T13:53:21+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/12/25/merry-xnewtonchristmas-and-happy-newyears/
 permalink: /2007/12/25/merry-xnewtonchristmas-and-happy-newyears/
 categories:
   - Personal

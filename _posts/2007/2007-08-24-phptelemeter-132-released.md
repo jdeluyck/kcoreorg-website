@@ -4,7 +4,6 @@ title: phptelemeter 1.32 released
 date: 2007-08-24T10:37:41+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/08/24/phptelemeter-132-released/
 permalink: /2007/08/24/phptelemeter-132-released/
 categories:
   - phptelemeter

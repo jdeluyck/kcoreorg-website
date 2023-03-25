@@ -4,7 +4,6 @@ title: 'R.E.M. - Find The River'
 date: 2008-09-30T22:08:58+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=335
 permalink: /2008/09/30/rem-find-the-river/
 categories:
   - Music

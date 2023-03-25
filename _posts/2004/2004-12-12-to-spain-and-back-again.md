@@ -4,7 +4,6 @@ title: To Spain and back again!
 date: 2004-12-12T20:46:03+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2004/12/12/to-spain-and-back-again/
 permalink: /2004/12/12/to-spain-and-back-again/
 categories:
   - Travels

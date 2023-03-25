@@ -4,7 +4,6 @@ title: Vmware and Linux-2.6.22
 date: 2007-07-20T15:57:40+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/07/20/vmware-and-linux-2622/
 permalink: /2007/07/20/vmware-and-linux-2622/
 categories:
   - Linux / Unix

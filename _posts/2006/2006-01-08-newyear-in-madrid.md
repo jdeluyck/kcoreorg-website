@@ -4,7 +4,6 @@ title: New year in Madrid
 date: 2006-01-08T01:04:19+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=32
 permalink: /2006/01/08/newyear-in-madrid/
 categories:
   - Travels

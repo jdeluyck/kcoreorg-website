@@ -4,7 +4,6 @@ title: 'apt-get install wife...'
 date: 2008-05-24T19:40:01+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=236
 permalink: /2008/05/24/apt-get-install-wife/
 categories:
   - Comics

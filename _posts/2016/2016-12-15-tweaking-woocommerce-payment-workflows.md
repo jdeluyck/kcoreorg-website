@@ -4,7 +4,6 @@ title: Tweaking WooCommerce payment workflows
 date: 2016-12-15T13:32:49+02:00
 author: Jan
 layout: single
-guid: https://kcore.org/?p=1905
 permalink: /2016/12/15/tweaking-woocommerce-payment-workflows/
 categories:
   - WordPress

@@ -4,7 +4,6 @@ title: Christmasconcert Arte Musicale
 date: 2011-11-19T10:07:09+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=697
 permalink: /2011/11/19/christmasconcert-arte-musicale/
 categories:
   - Chamberchoir Furiant

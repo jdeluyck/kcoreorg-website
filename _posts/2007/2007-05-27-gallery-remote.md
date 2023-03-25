@@ -4,7 +4,6 @@ title: Gallery-Remote
 date: 2007-05-27T13:01:00+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/05/27/gallery-remote/
 permalink: /2007/05/27/gallery-remote/
 categories:
   - Linux / Unix

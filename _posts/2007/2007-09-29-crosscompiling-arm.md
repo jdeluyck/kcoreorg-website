@@ -4,7 +4,6 @@ title: arm-linux crosscompiling on Debian Sid
 date: 2007-09-29T20:56:49+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/09/29/crosscompiling-arm/
 permalink: /2007/09/29/crosscompiling-arm/
 categories:
   - Linux / Unix

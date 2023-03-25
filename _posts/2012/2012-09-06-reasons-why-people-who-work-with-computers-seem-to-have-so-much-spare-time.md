@@ -4,7 +4,6 @@ title: 'Reasons why people who work with computers  seem to have so much spare t
 date: 2012-09-06T20:59:00+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=889
 permalink: /2012/09/06/reasons-why-people-who-work-with-computers-seem-to-have-so-much-spare-time/
 categories:
   - Comics

@@ -4,7 +4,6 @@ title: In Perfect Harmony (Within Temptation)
 date: 2004-07-12T16:44:52+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2004/07/12/in-perfect-harmony-within-temptation/
 permalink: /2004/07/12/in-perfect-harmony-within-temptation/
 categories:
   - Music

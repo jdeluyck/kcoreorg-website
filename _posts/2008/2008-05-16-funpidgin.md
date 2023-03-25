@@ -4,7 +4,6 @@ title: Funpidgin
 date: 2008-05-16T23:11:51+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=234
 permalink: /2008/05/16/funpidgin/
 categories:
   - Linux / Unix

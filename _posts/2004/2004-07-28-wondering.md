@@ -4,7 +4,6 @@ title: 'Wondering...'
 date: 2004-07-28T22:58:21+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2004/07/28/wondering/
 permalink: /2004/07/28/wondering/
 categories:
   - Personal

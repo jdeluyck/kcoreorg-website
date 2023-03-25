@@ -4,7 +4,6 @@ title: Prius Preview
 date: 2008-01-25T20:39:03+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/01/25/prius-preview/
 permalink: /2008/01/25/prius-preview/
 categories:
   - Cars

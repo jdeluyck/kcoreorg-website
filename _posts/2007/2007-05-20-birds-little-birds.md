@@ -4,7 +4,6 @@ title: Birds, little birds!
 date: 2007-05-20T12:26:07+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/05/20/birds-little-birds/
 permalink: /2007/05/20/birds-little-birds/
 categories:
   - Personal

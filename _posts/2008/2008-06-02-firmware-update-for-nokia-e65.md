@@ -4,7 +4,6 @@ title: Firmware update for Nokia E65
 date: 2008-06-02T21:41:58+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=242
 permalink: /2008/06/02/firmware-update-for-nokia-e65/
 categories:
   - Symbian

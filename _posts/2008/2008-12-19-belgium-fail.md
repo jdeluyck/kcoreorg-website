@@ -4,7 +4,6 @@ title: 'Belgium: FAIL!'
 date: 2008-12-19T20:55:55+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=380
 permalink: /2008/12/19/belgium-fail/
 categories:
   - Politics

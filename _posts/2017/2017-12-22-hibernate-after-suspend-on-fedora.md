@@ -4,7 +4,6 @@ title: Hibernate after suspend (on Fedora)
 date: 2017-12-22T11:00:29+02:00
 author: Jan
 layout: single
-guid: https://kcore.org/?p=1947
 permalink: /2017/12/22/hibernate-after-suspend-on-fedora/
 categories:
   - Linux / Unix

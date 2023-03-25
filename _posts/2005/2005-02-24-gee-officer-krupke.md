@@ -4,7 +4,6 @@ title: Gee, Officer Krupke!
 date: 2005-02-24T15:58:32+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2005/02/24/gee-officer-krupke/
 permalink: /2005/02/24/gee-officer-krupke/
 categories:
   - Music

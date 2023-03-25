@@ -4,7 +4,6 @@ title: 'My history in gadgets...'
 date: 2012-01-04T12:29:59+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=808
 permalink: /2012/01/04/my-history-in-gadgets/
 categories:
   - Android

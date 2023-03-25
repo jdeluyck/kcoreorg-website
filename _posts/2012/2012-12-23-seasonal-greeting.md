@@ -4,7 +4,6 @@ title: Seasonal greetings!
 date: 2012-12-23T20:56:38+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=953
 permalink: /2012/12/23/seasonal-greeting/
 categories:
   - Personal

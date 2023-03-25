@@ -4,7 +4,6 @@ title: 'Krijg de kleren...'
 date: 2006-03-28T17:49:32+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/01/08/krijg-de-kleren/
 permalink: /2006/03/28/krijg-de-kleren/
 categories:
   - Music

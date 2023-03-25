@@ -4,7 +4,6 @@ title: Copying over your wifi access points on Android
 date: 2012-10-23T09:23:36+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=899
 permalink: /2012/10/23/copying-over-your-wifi-access-points-on-android/
 categories:
   - Android

@@ -4,7 +4,6 @@ title: Death to reality tv!
 date: 2007-11-17T12:42:02+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/11/17/death-to-reality-tv/
 permalink: /2007/11/17/death-to-reality-tv/
 categories:
   - Comics

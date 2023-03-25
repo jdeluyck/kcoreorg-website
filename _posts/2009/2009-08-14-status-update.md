@@ -4,7 +4,6 @@ title: Status update!
 date: 2009-08-14T13:08:06+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=476
 permalink: /2009/08/14/status-update/
 categories:
   - Personal

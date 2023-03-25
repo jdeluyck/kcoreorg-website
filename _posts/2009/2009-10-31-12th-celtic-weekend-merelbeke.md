@@ -4,7 +4,6 @@ title: '12th Celtic Weekend - Merelbeke'
 date: 2009-10-31T13:10:50+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=501
 permalink: /2009/10/31/12th-celtic-weekend-merelbeke/
 categories:
   - 'Flemish Caledonian Pipes &amp; Drums'

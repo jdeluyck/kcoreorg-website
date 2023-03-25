@@ -4,7 +4,6 @@ title: Changing Terminal.app ANSI colours
 date: 2007-11-11T13:54:31+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/11/11/changing-terminalapp-ansi-colours/
 permalink: /2007/11/11/changing-terminalapp-ansi-colours/
 categories:
   - Apple / Mac OS

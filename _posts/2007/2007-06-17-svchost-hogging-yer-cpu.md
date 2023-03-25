@@ -4,7 +4,6 @@ title: Svchost hogging yer cpu
 date: 2007-06-17T17:28:18+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/06/17/svchost-hogging-yer-cpu/
 permalink: /2007/06/17/svchost-hogging-yer-cpu/
 categories:
   - Windows

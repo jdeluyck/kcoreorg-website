@@ -4,7 +4,6 @@ title: Allnighters at work
 date: 2005-04-07T15:22:07+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2005/04/07/allnighters-at-work/
 permalink: /2005/04/07/allnighters-at-work/
 categories:
   - Work

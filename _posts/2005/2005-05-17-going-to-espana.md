@@ -4,7 +4,6 @@ title: Going to España
 date: 2005-05-17T13:11:17+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2005/05/17/going-to-espana/
 permalink: /2005/05/17/going-to-espana/
 categories:
   - Personal

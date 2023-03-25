@@ -4,7 +4,6 @@ title: Come flush with us!
 date: 2007-10-30T21:59:37+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/10/30/come-flush-with-us/
 permalink: /2007/10/30/come-flush-with-us/
 categories:
   - Travels

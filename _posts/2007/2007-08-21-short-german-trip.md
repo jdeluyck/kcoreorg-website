@@ -4,7 +4,6 @@ title: Short German Trip
 date: 2007-08-21T10:26:48+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/08/21/short-german-trip/
 permalink: /2007/08/21/short-german-trip/
 categories:
   - Travels

@@ -4,7 +4,6 @@ title: Goodbye Microsoft!
 date: 2007-01-29T21:37:44+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/01/29/goodbye-microsoft/
 permalink: /2007/01/29/goodbye-microsoft/
 categories:
   - Linux / Unix

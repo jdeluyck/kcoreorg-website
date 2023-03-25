@@ -4,7 +4,6 @@ title: 'Poppenkast - Jasperina De Jong'
 date: 2008-12-24T15:58:06+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=392
 permalink: /2008/12/24/poppenkast-jasperina-de-jong/
 categories:
   - Music

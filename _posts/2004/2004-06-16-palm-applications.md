@@ -4,7 +4,6 @@ title: Palm Applications
 date: 2004-06-16T10:09:43+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2004/06/16/palm-applications/
 permalink: /2004/06/16/palm-applications/
 categories:
   - Palm

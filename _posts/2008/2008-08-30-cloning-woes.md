@@ -4,7 +4,6 @@ title: Cloning woes
 date: 2008-08-30T19:49:28+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=278
 permalink: /2008/08/30/cloning-woes/
 categories:
   - Apple / Mac OS

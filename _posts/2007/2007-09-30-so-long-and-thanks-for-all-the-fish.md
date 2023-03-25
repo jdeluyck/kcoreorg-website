@@ -4,7 +4,6 @@ title: 'So long... and thanks for all the fish!'
 date: 2007-09-30T11:46:34+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/09/30/so-long-and-thanks-for-all-the-fish/
 permalink: /2007/09/30/so-long-and-thanks-for-all-the-fish/
 categories:
   - Work

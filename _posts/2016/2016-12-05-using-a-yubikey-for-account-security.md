@@ -4,7 +4,6 @@ title: Using a Yubikey for account security
 date: 2016-12-05T07:19:10+02:00
 author: Jan
 layout: single
-guid: https://kcore.org/?p=1892
 permalink: /2016/12/05/using-a-yubikey-for-account-security/
 categories:
   - Linux / Unix

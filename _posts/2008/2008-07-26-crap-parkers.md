@@ -4,7 +4,6 @@ title: Crap parkers
 date: 2008-07-26T18:27:35+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=261
 permalink: /2008/07/26/crap-parkers/
 categories:
   - Rants

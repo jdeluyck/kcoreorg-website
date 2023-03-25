@@ -4,7 +4,6 @@ title: Arrrrrrrr!
 date: 2008-03-20T21:46:37+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/03/20/arrrrrrrr/
 permalink: /2008/03/20/arrrrrrrr/
 categories:
   - Personal

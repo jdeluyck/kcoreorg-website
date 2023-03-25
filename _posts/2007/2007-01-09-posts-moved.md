@@ -4,7 +4,6 @@ title: Posts moved
 date: 2007-01-09T13:12:31+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/01/09/posts-moved/
 permalink: /2007/01/09/posts-moved/
 categories:
   - Personal

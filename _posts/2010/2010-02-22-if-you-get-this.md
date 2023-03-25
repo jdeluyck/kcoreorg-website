@@ -4,7 +4,6 @@ title: 'If you get this...'
 date: 2010-02-22T20:32:20+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=576
 permalink: /2010/02/22/if-you-get-this/
 categories:
   - Comics

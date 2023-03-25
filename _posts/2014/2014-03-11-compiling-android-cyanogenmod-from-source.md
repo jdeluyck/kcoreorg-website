@@ -4,7 +4,6 @@ title: Compiling Android / CyanogenMod from source
 date: 2014-03-11T15:14:27+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=1051
 permalink: /2014/03/11/compiling-android-cyanogenmod-from-source/
 categories:
   - Android

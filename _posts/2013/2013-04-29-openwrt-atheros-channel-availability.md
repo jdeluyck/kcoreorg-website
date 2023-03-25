@@ -4,7 +4,6 @@ title: 'OpenWRT, Atheros & channel availability'
 date: 2013-04-29T19:41:18+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=1017
 permalink: /2013/04/29/openwrt-atheros-channel-availability/
 categories:
   - Linux / Unix

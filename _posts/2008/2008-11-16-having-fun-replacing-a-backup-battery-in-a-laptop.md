@@ -4,7 +4,6 @@ title: Having fun replacing a backup battery in a laptop
 date: 2008-11-16T18:11:55+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=366
 permalink: /2008/11/16/having-fun-replacing-a-backup-battery-in-a-laptop/
 categories:
   - Random

@@ -4,7 +4,6 @@ title: Lunarpages upgrade :0 :)
 date: 2007-01-11T10:36:55+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/01/11/lunarpages-upgrade-0/
 permalink: /2007/01/11/lunarpages-upgrade-0/
 categories:
   - Networking
