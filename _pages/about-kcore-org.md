@@ -1,7 +1,7 @@
 ---
 id: 1188
 title: About kcore.org
-date: 2019-05-28T12:32:50+02:00
+date: 2023-03-26
 author: Jan
 layout: single
 author_profile: false
