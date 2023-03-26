@@ -26,9 +26,14 @@ subtitle: >-
   ... everything&#039;s just a memory dump away ...
 
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "kcore-org"
+  provider: giscus
+  giscus:
+    repo_id           : "MDEwOlJlcG9zaXRvcnkxODk0MDYzNzg="
+    category_name     : "Blog Comments"
+    category_id       : "DIC_kwDOC0ocqs4CU-vw"
+    discussion_term   : "pathname"
+    reactions_enabled : '1'
+    theme             : "light" #(default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme
 
 search: true
 
@@ -41,14 +46,6 @@ twitter:
 
 facebook:
   username: "jan.deluyck"
-
-# Author
-#author:
-#  name: "Jan"
-#  avatar: 
-#  bio: "aweseome"
-#  location: "Europe"
-#  email: jan@kcore.org
 
 # Site Footer
 footer:
@@ -148,8 +145,6 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Brussels
                                                       
-
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
