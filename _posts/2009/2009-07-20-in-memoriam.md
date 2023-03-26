@@ -4,7 +4,6 @@ title: In Memoriam
 date: 2009-07-20T15:38:23+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=471
 permalink: /2009/07/20/in-memoriam/
 categories:
   - Cavies

@@ -4,7 +4,6 @@ title: Running Linux on a Dell Latitude D610
 date: 2006-09-04T09:00:28+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1298
 permalink: /2006/09/04/running-linux-on-a-dell-latitude-d610/
 categories:
   - Linux / Unix

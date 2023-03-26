@@ -4,7 +4,6 @@ title: 'Destructive critters...'
 date: 2007-03-21T20:43:52+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/03/21/destructive-critters/
 permalink: /2007/03/21/destructive-critters/
 categories:
   - Cavies

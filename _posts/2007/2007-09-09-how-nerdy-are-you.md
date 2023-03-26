@@ -4,7 +4,6 @@ title: How nerdy are you?
 date: 2007-09-09T00:43:35+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/09/09/how-nerdy-are-you/
 permalink: /2007/09/09/how-nerdy-are-you/
 categories:
   - Personal

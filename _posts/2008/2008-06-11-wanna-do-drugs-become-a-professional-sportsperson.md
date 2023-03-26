@@ -4,7 +4,6 @@ title: Wanna do drugs? Become a professional sportsperson!
 date: 2008-06-11T18:26:12+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=246
 permalink: /2008/06/11/wanna-do-drugs-become-a-professional-sportsperson/
 categories:
   - Politics

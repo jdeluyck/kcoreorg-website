@@ -4,7 +4,6 @@ title: Uhm.. thanks CTG ;)
 date: 2007-08-09T15:11:50+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/08/09/uhm-thanks-ctg/
 permalink: /2007/08/09/uhm-thanks-ctg/
 categories:
   - Work

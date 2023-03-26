@@ -4,7 +4,6 @@ title: Installing X11 on Mac OS X
 date: 2007-05-01T15:59:06+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/05/01/installing-x11-on-mac-os-x/
 permalink: /2007/05/01/installing-x11-on-mac-os-x/
 categories:
   - Apple / Mac OS

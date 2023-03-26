@@ -4,7 +4,6 @@ title: Cage change
 date: 2008-01-06T13:33:32+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/01/06/cage-change/
 permalink: /2008/01/06/cage-change/
 categories:
   - Cavies

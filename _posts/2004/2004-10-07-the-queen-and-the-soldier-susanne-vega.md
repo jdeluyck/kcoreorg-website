@@ -4,7 +4,6 @@ title: The Queen and The Soldier (Susanne Vega)
 date: 2004-10-07T23:48:17+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2004/10/07/the-queen-and-the-soldier-susanne-vega/
 permalink: /2004/10/07/the-queen-and-the-soldier-susanne-vega/
 categories:
   - Music

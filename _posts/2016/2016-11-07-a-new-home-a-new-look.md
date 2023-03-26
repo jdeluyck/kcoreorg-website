@@ -4,7 +4,6 @@ title: A new home, a new look
 date: 2016-11-07T21:06:16+02:00
 author: Jan
 layout: single
-guid: http://kcore.org/?p=1782
 permalink: /2016/11/07/a-new-home-a-new-look/
 categories:
   - Personal

@@ -4,7 +4,6 @@ title: iPhone rant
 date: 2007-10-01T17:46:32+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/10/01/iphone-rant/
 permalink: /2007/10/01/iphone-rant/
 categories:
   - Apple / Mac OS

@@ -4,7 +4,6 @@ title: Farewell, dear mouse!
 date: 2005-01-18T12:18:31+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2005/01/18/farewell-dear-mouse/
 permalink: /2005/01/18/farewell-dear-mouse/
 categories:
   - Random

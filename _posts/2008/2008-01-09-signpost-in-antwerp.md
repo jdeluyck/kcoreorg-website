@@ -4,7 +4,6 @@ title: Signpost in Antwerp
 date: 2008-01-09T20:58:45+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/01/09/signpost-in-antwerp/
 permalink: /2008/01/09/signpost-in-antwerp/
 categories:
   - Personal

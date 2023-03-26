@@ -10,7 +10,7 @@ classes: wide
 sidebar:
   nav: "site_sidebar"
 ---
-My name is Jan De Luyck, currently inhabiting a small town near [Lochristi](http://www.lochristi.be/). 
+My name is Jan De Luyck, currently inhabiting a small town near [Lochristi](https://www.lochristi.be/). 
 I'm happily living together with my partner, Diana.
 
 I've studied [Applied Computer Sciences](https://www.hogent.be/toekomstige-student/opleidingen/bachelors/toegepaste-informatica/) at the [Hogeschool Gent](https://www.hogent.be), and as such, I'm pretty much a technical-minded person.

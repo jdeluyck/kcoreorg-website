@@ -4,7 +4,6 @@ title: Magnificat by C.P.E. Bach
 date: 2012-03-15T18:46:18+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=851
 permalink: /2012/03/15/magnificat-by-c-p-e-bach/
 categories:
   - Chamberchoir Furiant

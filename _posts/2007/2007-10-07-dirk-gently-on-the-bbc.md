@@ -4,7 +4,6 @@ title: Dirk Gently on the BBC
 date: 2007-10-07T12:23:04+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/10/07/dirk-gently-on-the-bbc/
 permalink: /2007/10/07/dirk-gently-on-the-bbc/
 categories:
   - Random

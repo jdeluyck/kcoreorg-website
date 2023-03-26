@@ -4,7 +4,6 @@ title: phptelemeter 1.33 released!
 date: 2008-06-01T19:48:31+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=240
 permalink: /2008/06/01/phptelemeter-133-released/
 categories:
   - phptelemeter

@@ -4,7 +4,6 @@ title: Not dead yet
 date: 2006-02-24T16:53:01+02:00
 author: Jan
 layout: single
-guid: https://kcore.org/2006/02/24/not-dead-yet/
 permalink: /2006/02/24/not-dead-yet/
 categories:
   - Personal

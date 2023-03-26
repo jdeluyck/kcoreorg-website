@@ -4,7 +4,6 @@ title: Happy birthday!
 date: 2005-11-16T06:22:39+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/01/09/happy-birthday/
 permalink: /2005/11/16/happy-birthday/
 categories:
   - Personal

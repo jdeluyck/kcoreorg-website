@@ -4,7 +4,6 @@ title: Megatokyo art!
 date: 2006-07-20T08:28:41+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2006/07/20/megatokyo-art/
 permalink: /2006/07/20/megatokyo-art/
 categories:
   - Comics

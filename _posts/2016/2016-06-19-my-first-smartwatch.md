@@ -4,7 +4,6 @@ title: 'My first smartwatch...'
 date: 2016-06-19T20:55:41+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=1160
 permalink: /2016/06/19/my-first-smartwatch/
 image: /wp-content/uploads/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-143x150.jpg
 categories:

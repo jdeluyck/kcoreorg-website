@@ -4,7 +4,6 @@ title: phptelemeter 1.20 released
 date: 2006-05-19T10:23:20+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1349
 permalink: /2006/05/19/phptelemeter-1-20-released/
 categories:
   - phptelemeter

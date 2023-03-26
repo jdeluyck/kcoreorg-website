@@ -4,7 +4,6 @@ title: Er lässt sich nicht lesen
 date: 2008-06-21T20:28:26+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=251
 permalink: /2008/06/21/er-lasst-sich-nicht-lesen/
 categories:
   - Comics

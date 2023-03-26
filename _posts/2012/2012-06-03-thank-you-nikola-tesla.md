@@ -4,7 +4,6 @@ title: Thank you, Nikola Tesla!
 date: 2012-06-03T10:49:41+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=865
 permalink: /2012/06/03/thank-you-nikola-tesla/
 categories:
   - Comics

@@ -4,7 +4,6 @@ title: Memories (Within Temptation)
 date: 2005-01-19T13:14:37+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2005/01/19/memories-within-temptation/
 permalink: /2005/01/19/memories-within-temptation/
 categories:
   - Music

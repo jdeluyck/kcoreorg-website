@@ -4,7 +4,6 @@ title: Reset android lockscreen to slide
 date: 2012-09-22T10:48:27+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=894
 permalink: /2012/09/22/reset-android-lockscreen-to-slide/
 categories:
   - Android

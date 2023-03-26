@@ -4,7 +4,6 @@ title: Enter the HTC Desire
 date: 2010-12-10T17:40:05+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=665
 permalink: /2010/12/10/enter-the-htc-desire/
 categories:
   - Android

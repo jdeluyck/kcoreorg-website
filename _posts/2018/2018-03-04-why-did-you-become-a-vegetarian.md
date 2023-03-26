@@ -4,7 +4,6 @@ title: Why did you become a vegetarian?
 date: 2018-03-04T16:04:59+02:00
 author: Jan
 layout: single
-guid: https://kcore.org/?p=1967
 permalink: /2018/03/04/why-did-you-become-a-vegetarian/
 categories:
   - Personal

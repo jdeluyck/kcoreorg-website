@@ -4,7 +4,6 @@ title: Vmware console on Debian Lenny
 date: 2007-12-30T13:40:11+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/12/30/vmware-console-on-debian-lenny/
 permalink: /2007/12/30/vmware-console-on-debian-lenny/
 categories:
   - Linux / Unix

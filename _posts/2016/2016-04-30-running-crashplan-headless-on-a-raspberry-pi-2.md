@@ -4,7 +4,6 @@ title: Running crashplan (headless) on a Raspberry pi 2
 date: 2016-04-30T14:22:59+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=1141
 permalink: /2016/04/30/running-crashplan-headless-on-a-raspberry-pi-2/
 categories:
   - Linux / Unix

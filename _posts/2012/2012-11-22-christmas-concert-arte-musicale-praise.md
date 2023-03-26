@@ -4,7 +4,6 @@ title: 'Christmas concert Arte Musicale - Praise'
 date: 2012-11-22T20:10:59+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=913
 permalink: /2012/11/22/christmas-concert-arte-musicale-praise/
 categories:
   - Chamberchoir Furiant

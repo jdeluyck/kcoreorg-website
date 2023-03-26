@@ -4,7 +4,6 @@ title: Reflect theme for Symbian
 date: 2007-07-27T09:31:58+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/07/27/reflect-theme-for-symbian/
 permalink: /2007/07/27/reflect-theme-for-symbian/
 categories:
   - Symbian

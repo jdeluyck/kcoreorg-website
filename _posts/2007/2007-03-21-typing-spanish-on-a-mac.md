@@ -4,7 +4,6 @@ title: Typing spanish on a Mac
 date: 2007-03-21T15:05:52+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/03/21/typing-spanish-on-a-mac/
 permalink: /2007/03/21/typing-spanish-on-a-mac/
 categories:
   - Apple / Mac OS

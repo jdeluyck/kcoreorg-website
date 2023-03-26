@@ -4,7 +4,6 @@ title: Testing out silicone sponges
 date: 2018-03-05T17:03:42+02:00
 author: Jan
 layout: single
-guid: https://kcore.org/?p=1972
 permalink: /2018/03/05/testing-out-silicone-sponges/
 categories:
   - Personal

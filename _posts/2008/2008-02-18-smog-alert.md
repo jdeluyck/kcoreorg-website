@@ -4,7 +4,6 @@ title: Smog-alert!
 date: 2008-02-18T19:37:41+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/02/18/smog-alert/
 permalink: /2008/02/18/smog-alert/
 categories:
   - Cars

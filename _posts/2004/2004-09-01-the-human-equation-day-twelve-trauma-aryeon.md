@@ -4,7 +4,6 @@ title: 'The Human Equation - Day Twelve: Trauma (Aryeon)'
 date: 2004-09-01T16:05:33+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2004/09/01/the-human-equation-day-twelve-trauma-aryeon/
 permalink: /2004/09/01/the-human-equation-day-twelve-trauma-aryeon/
 categories:
   - Music

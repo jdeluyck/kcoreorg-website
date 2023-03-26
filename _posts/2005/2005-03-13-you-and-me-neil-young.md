@@ -4,7 +4,6 @@ title: You And Me (Neil Young)
 date: 2005-03-13T21:41:15+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2005/03/13/you-and-me-neil-young/
 permalink: /2005/03/13/you-and-me-neil-young/
 categories:
   - Music

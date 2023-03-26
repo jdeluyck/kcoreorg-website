@@ -4,7 +4,6 @@ title: 'Weird pc issues...'
 date: 2008-05-23T20:54:45+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=235
 permalink: /2008/05/23/weird-pc-issues/
 categories:
   - Random

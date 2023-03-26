@@ -4,7 +4,6 @@ title: Hosting move
 date: 2010-02-05T12:23:41+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=564
 permalink: /2010/02/05/hosting-move/
 categories:
   - Networking

@@ -4,7 +4,6 @@ title: Tower of Song (Leonard Cohen)
 date: 2004-07-09T09:27:30+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2004/07/09/tower-of-song-leonard-cohen/
 permalink: /2004/07/09/tower-of-song-leonard-cohen/
 categories:
   - Music

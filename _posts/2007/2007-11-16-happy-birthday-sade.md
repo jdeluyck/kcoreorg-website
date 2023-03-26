@@ -4,7 +4,6 @@ title: Happy birthday Sade!
 date: 2007-11-16T09:00:00+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/11/16/happy-birthday-sade/
 permalink: /2007/11/16/happy-birthday-sade/
 categories:
   - Personal

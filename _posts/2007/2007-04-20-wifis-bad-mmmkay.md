@@ -4,7 +4,6 @@ title: 'WiFi&apos;s bad, mmmkay?'
 date: 2007-04-20T11:30:23+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/04/20/wifis-bad-mmmkay/
 permalink: /2007/04/20/wifis-bad-mmmkay/
 categories:
   - Politics

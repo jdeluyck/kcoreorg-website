@@ -4,7 +4,6 @@ title: World of Goo!
 date: 2009-03-07T19:40:40+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=437
 permalink: /2009/03/07/world-of-goo/
 categories:
   - Personal

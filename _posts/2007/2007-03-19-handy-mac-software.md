@@ -4,7 +4,6 @@ title: Handy Mac software
 date: 2007-03-19T14:11:56+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/03/19/handy-mac-software/
 permalink: /2007/03/19/handy-mac-software/
 categories:
   - Apple / Mac OS

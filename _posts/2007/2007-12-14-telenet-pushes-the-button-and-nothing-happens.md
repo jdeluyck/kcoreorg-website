@@ -4,7 +4,6 @@ title: 'Telenet pushed the button... and nothing happened'
 date: 2007-12-14T18:12:10+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/12/14/telenet-pushes-the-button-and-nothing-happens/
 permalink: /2007/12/14/telenet-pushes-the-button-and-nothing-happens/
 categories:
   - Networking

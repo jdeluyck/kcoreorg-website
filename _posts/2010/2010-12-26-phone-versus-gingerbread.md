@@ -4,7 +4,6 @@ title: Phone versus gingerbread
 date: 2010-12-26T16:29:19+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=659
 permalink: /2010/12/26/phone-versus-gingerbread/
 categories:
   - Comics

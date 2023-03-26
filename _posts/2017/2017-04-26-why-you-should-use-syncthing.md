@@ -4,7 +4,6 @@ title: Why you should use Syncthing
 date: 2017-04-26T09:18:41+02:00
 author: Jan
 layout: single
-guid: https://kcore.org/?p=1926
 permalink: /2017/04/26/why-you-should-use-syncthing/
 categories:
   - Android

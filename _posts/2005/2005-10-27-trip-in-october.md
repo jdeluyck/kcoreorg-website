@@ -4,7 +4,6 @@ title: 'Trip in October...'
 date: 2005-10-27T16:25:04+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=24
 permalink: /2005/10/27/trip-in-october/
 categories:
   - Travels

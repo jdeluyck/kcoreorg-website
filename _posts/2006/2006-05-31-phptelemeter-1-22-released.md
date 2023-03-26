@@ -4,7 +4,6 @@ title: phptelemeter 1.22 released
 date: 2006-05-31T10:25:53+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1353
 permalink: /2006/05/31/phptelemeter-1-22-released/
 categories:
   - phptelemeter

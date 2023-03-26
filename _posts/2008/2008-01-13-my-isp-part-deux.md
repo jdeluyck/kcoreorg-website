@@ -4,7 +4,6 @@ title: 'My ISP - Part deux'
 date: 2008-01-13T12:29:20+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/01/13/my-isp-part-deux/
 permalink: /2008/01/13/my-isp-part-deux/
 categories:
   - Networking

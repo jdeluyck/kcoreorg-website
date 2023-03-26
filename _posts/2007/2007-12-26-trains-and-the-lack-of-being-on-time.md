@@ -4,7 +4,6 @@ title: Trains and the lack of being on time
 date: 2007-12-26T09:23:15+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/12/26/trains-and-the-lack-of-being-on-time/
 permalink: /2007/12/26/trains-and-the-lack-of-being-on-time/
 categories:
   - Personal

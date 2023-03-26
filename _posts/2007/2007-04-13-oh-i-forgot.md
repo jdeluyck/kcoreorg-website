@@ -4,7 +4,6 @@ title: 'Oh, I forgot...'
 date: 2007-04-13T18:42:44+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/04/13/oh-i-forgot/
 permalink: /2007/04/13/oh-i-forgot/
 categories:
   - Linux / Unix

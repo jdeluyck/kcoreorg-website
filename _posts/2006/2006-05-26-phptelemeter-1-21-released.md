@@ -4,7 +4,6 @@ title: phptelemeter 1.21 released
 date: 2006-05-26T10:24:18+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1351
 permalink: /2006/05/26/phptelemeter-1-21-released/
 categories:
   - phptelemeter

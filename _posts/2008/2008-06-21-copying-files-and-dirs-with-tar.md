@@ -4,7 +4,6 @@ title: Copying files and dirs with tar
 date: 2008-06-21T20:37:54+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=252
 permalink: /2008/06/21/copying-files-and-dirs-with-tar/
 categories:
   - Linux / Unix

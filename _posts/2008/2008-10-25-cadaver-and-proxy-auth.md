@@ -4,7 +4,6 @@ title: Cadaver and proxy auth
 date: 2008-10-25T20:55:08+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=348
 permalink: /2008/10/25/cadaver-and-proxy-auth/
 categories:
   - Linux / Unix

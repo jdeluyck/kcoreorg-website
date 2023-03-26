@@ -4,7 +4,6 @@ title: Coffee and tea in Ghent!
 date: 2008-03-30T16:08:26+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/03/30/coffee-and-tea-in-ghent/
 permalink: /2008/03/30/coffee-and-tea-in-ghent/
 categories:
   - Random

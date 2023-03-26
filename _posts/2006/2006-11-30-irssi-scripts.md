@@ -4,7 +4,6 @@ title: Irssi scripts
 date: 2006-11-30T20:51:21+02:00
 author: Jan
 layout: single
-guid: http://new.kcore.org/?p=1288
 permalink: /2006/11/30/irssi-scripts/
 categories:
   - Linux / Unix

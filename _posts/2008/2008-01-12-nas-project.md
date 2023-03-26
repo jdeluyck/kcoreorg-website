@@ -4,7 +4,6 @@ title: NAS Project
 date: 2008-01-12T13:30:08+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/01/12/nas-project/
 permalink: /2008/01/12/nas-project/
 categories:
   - Random

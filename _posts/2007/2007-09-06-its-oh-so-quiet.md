@@ -4,7 +4,6 @@ title: 'It&apos;s oh so quiet...'
 date: 2007-09-06T10:45:14+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/09/06/its-oh-so-quiet/
 permalink: /2007/09/06/its-oh-so-quiet/
 categories:
   - Random

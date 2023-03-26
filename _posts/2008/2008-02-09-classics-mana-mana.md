@@ -4,7 +4,6 @@ title: 'Classics... Mah Nà Mah Nà!'
 date: 2008-02-09T20:36:54+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/02/09/classics-mana-mana/
 permalink: /2008/02/09/classics-mana-mana/
 categories:
   - Videos

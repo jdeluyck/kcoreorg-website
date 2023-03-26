@@ -4,7 +4,6 @@ title: Proxy settings for Brussels Airlines lounge in Brussels airport
 date: 2007-10-14T17:20:55+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/10/14/proxy-settings-for-brussels-airlines-lounge-in-brussels-airport/
 permalink: /2007/10/14/proxy-settings-for-brussels-airlines-lounge-in-brussels-airport/
 categories:
   - Networking

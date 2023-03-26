@@ -4,7 +4,6 @@ title: Cavies de luxe
 date: 2006-09-30T15:45:11+02:00
 author: Jan
 layout: single
-guid: https://kcore.org/2006/09/30/cavies-de-luxe/
 permalink: /2006/09/30/cavies-de-luxe/
 categories:
   - Cavies

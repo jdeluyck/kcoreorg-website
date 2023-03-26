@@ -4,7 +4,6 @@ title: Rooting the HTC Hero
 date: 2009-12-13T18:39:23+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=534
 permalink: /2009/12/13/rooting-the-htc-hero/
 categories:
   - Android

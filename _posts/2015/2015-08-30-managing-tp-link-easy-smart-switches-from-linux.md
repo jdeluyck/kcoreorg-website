@@ -4,7 +4,6 @@ title: Managing TP-Link easy smart switches from Linux
 date: 2015-08-30T18:44:46+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=1084
 permalink: /2015/08/30/managing-tp-link-easy-smart-switches-from-linux/
 categories:
   - Linux / Unix

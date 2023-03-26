@@ -4,7 +4,6 @@ title: An alternative christmas story (dutch)
 date: 2008-12-25T15:22:50+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=414
 permalink: /2008/12/25/an-alternative-christmas-story-dutch/
 categories:
   - Random

@@ -4,7 +4,6 @@ title: 'Spri... err... cd cleanup!'
 date: 2007-09-15T19:53:54+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/09/15/spri-err-cd-cleanup/
 permalink: /2007/09/15/spri-err-cd-cleanup/
 categories:
   - Personal

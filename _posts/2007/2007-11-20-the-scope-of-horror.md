@@ -4,7 +4,6 @@ title: The Scope Of Horror
 date: 2007-11-20T22:05:47+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/11/20/the-scope-of-horror/
 permalink: /2007/11/20/the-scope-of-horror/
 categories:
   - Random

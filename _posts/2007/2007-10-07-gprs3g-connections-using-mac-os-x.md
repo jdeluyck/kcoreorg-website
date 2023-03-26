@@ -4,7 +4,6 @@ title: GPRS/3G connections using Mac OS X
 date: 2007-10-07T20:23:06+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/10/07/gprs3g-connections-using-mac-os-x/
 permalink: /2007/10/07/gprs3g-connections-using-mac-os-x/
 categories:
   - Apple / Mac OS

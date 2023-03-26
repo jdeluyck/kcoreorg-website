@@ -4,7 +4,6 @@ title: What be your nerd type?
 date: 2007-11-28T21:26:08+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/11/28/what-be-your-nerd-type/
 permalink: /2007/11/28/what-be-your-nerd-type/
 categories:
   - Personal

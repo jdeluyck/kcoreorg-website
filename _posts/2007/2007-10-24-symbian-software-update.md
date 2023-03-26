@@ -4,7 +4,6 @@ title: Symbian software update!
 date: 2007-10-24T17:00:17+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/10/24/symbian-software-update/
 permalink: /2007/10/24/symbian-software-update/
 categories:
   - Symbian

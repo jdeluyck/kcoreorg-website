@@ -4,7 +4,6 @@ title: Second Life
 date: 2007-01-28T16:42:58+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/01/28/second-life/
 permalink: /2007/01/28/second-life/
 categories:
   - Personal

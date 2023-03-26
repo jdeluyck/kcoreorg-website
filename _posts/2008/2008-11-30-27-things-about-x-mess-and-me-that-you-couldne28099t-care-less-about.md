@@ -4,7 +4,6 @@ title: 27 things about X-mess and me that you couldn’t care less about
 date: 2008-11-30T12:22:09+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=371
 permalink: /2008/11/30/27-things-about-x-mess-and-me-that-you-couldn%e2%80%99t-care-less-about/
 categories:
   - Personal

@@ -4,7 +4,6 @@ title: 'O hai - a new look'
 date: 2013-04-06T17:13:26+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=983
 permalink: /2013/04/06/o-hai-a-new-look/
 categories:
   - Personal

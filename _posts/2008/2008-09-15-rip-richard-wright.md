@@ -4,7 +4,6 @@ title: RIP Richard Wright
 date: 2008-09-15T22:07:01+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=322
 permalink: /2008/09/15/rip-richard-wright/
 categories:
   - Music

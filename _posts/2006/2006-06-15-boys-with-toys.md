@@ -4,7 +4,6 @@ title: Boys with Toys
 date: 2006-06-15T15:44:40+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2006/06/15/boys-with-toys/
 permalink: /2006/06/15/boys-with-toys/
 categories:
   - Palm

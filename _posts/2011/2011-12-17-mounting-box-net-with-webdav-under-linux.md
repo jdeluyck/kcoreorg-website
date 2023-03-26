@@ -4,7 +4,6 @@ title: Mounting box.net with webdav under Linux
 date: 2011-12-17T11:14:05+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/?p=754
 permalink: /2011/12/17/mounting-box-net-with-webdav-under-linux/
 categories:
   - Linux / Unix

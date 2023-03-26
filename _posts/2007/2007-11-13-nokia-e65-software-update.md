@@ -4,7 +4,6 @@ title: Nokia E65 software update
 date: 2007-11-13T10:39:00+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/11/13/nokia-e65-software-update/
 permalink: /2007/11/13/nokia-e65-software-update/
 categories:
   - Symbian

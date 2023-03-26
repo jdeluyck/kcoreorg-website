@@ -4,7 +4,6 @@ title: Blogging from Symbian Smartphones
 date: 2008-03-20T08:20:13+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2008/03/20/blogging-from-symbian-smartphones/
 permalink: /2008/03/20/blogging-from-symbian-smartphones/
 categories:
   - Symbian

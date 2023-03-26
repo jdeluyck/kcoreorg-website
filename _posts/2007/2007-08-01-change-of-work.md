@@ -4,7 +4,6 @@ title: Change of work!
 date: 2007-08-01T16:39:44+02:00
 author: Jan
 layout: single
-guid: http://sadevil.org/blog/2007/08/01/change-of-work/
 permalink: /2007/08/01/change-of-work/
 categories:
   - Work
