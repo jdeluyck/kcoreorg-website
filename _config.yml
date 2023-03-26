@@ -19,20 +19,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   ... everything&#039;s just a memory dump away ...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kcore.org" 
-repository: "jdeluyck/kcore-org-website"
+repository: "jdeluyck/kcoreorg-website"
 name: "kcore.org"
 
 subtitle: >-
   ... everything&#039;s just a memory dump away ...
 
 comments:
-  provider: giscus
+  provider: "giscus"
   giscus:
     repo_id           : "MDEwOlJlcG9zaXRvcnkxODk0MDYzNzg="
     category_name     : "Blog Comments"
     category_id       : "DIC_kwDOC0ocqs4CU-vw"
     discussion_term   : "pathname"
-    reactions_enabled : '1'
+    reactions_enabled : "1"
     theme             : "light" #(default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme
 
 search: true
