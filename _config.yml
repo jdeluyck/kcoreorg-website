@@ -211,5 +211,5 @@ defaults:
 #  - title: "Categories"
 #    text: bar
 
-head_scripts:
-  - /assets/js/cookie-handler.js
+#head_scripts:
+#  - /assets/js/cookie-handler.js
