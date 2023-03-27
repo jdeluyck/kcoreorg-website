@@ -17,7 +17,7 @@ tags:
 ---
 I still have an [Asus Transformer TF101](http://www.gsmarena.com/asus_transformer_tf101-3936.php) tablet in use - running MarshMallow - but after a Play Services upgrade, in which Google inserted some [NEON instructions](https://en.wikipedia.org/wiki/ARM_architecture#NEON) (which the TF101 does not support) , a lot of "Play Services has stopped working" popups showed up  - making the tablet nigh unusable. Initial tests blocking upgrade of the services yielded no success, and a lot of programs demand the newer versions of the services anyway.
 
-In my searches I ran across the [microG Project](https://microg.org/) - _"A free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries." _Sounded interesting, so I went and tried it, with success, on the tablet. It runs faster, battery life is better, and it works for everything I use it for.
+In my searches I ran across the [microG Project](https://microg.org/) - "_A free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries_." Sounded interesting, so I went and tried it, with success, on the tablet. It runs faster, battery life is better, and it works for everything I use it for.
 
 Below you can find the steps I used. These apply to the Transformer TF101, and come with no guarantees whatsoever.
 
@@ -39,7 +39,7 @@ Below you can find the steps I used. These apply to the Transformer TF101, and c
 
 ### Patching the ROM to allow signature spoofing
   
-Download (with git) a copy of https://github.com/Lanchon/haystack.git: 
+Download (with git) a copy of `https://github.com/Lanchon/haystack.git`: 
 ```bash
 git clone https://github.com/Lanchon/haystack.git
 ```
@@ -68,7 +68,7 @@ Go into the application drawer, and look for an application calld "microG Settin
   * In "Self-Check", make sure to tap "Battery optimizations ignored" to allow the service to run in the background
 
 ### Reinstall Google Play Store  
-Download the Play Store from eg. [APKMirror](http://www.apkmirror.com/apk/google-inc/google-play-store/) (http://www.apkmirror.com/apk/google-inc/google-play-store/[/url] to your PC. Rename it to `com.android.vending.apk`  
+Download the Play Store from eg. [APKMirror](http://www.apkmirror.com/apk/google-inc/google-play-store/) to your PC. Rename it to `com.android.vending.apk`  
 Execute the following with adb:
 
 ```bash
