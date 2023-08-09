@@ -27,7 +27,7 @@ I was able to keep it alive for some time by downgrading back to version 4.7 and
 
 So, I needed a new solution. One with the requirements of being open source (I don't want to run in that issue again), offering client-side encryption and [incremental forever](https://en.wikipedia.org/wiki/Incremental_backup#Incrementals_forever) style backups. Being able to be stored in the cloud was a no-brainer. After some testing of various tools, I ended up with the following combination:
 
-  * [BackBlace B2](https://www.backblaze.com/b2/cloud-storage.html), a low-cost [object storage](https://en.wikipedia.org/wiki/Object_storage) solution by [BackBlaze](https://www.backblaze.com/), for online storage. There's a cost to retrieve data, but as we only want to get that in case of emergency, it's not an issue.
+  * [BackBlace B2](https://www.backblaze.com/cloud-storage), a low-cost [object storage](https://en.wikipedia.org/wiki/Object_storage) solution by [BackBlaze](https://www.backblaze.com/), for online storage. There's a cost to retrieve data, but as we only want to get that in case of emergency, it's not an issue.
   * [Borgbackup](https://borgbackup.readthedocs.io/en/stable/) (a fork of [Attic](https://github.com/jborg/attic)), an archiving tool offering [deduplication](https://en.wikipedia.org/wiki/Data_deduplication), compression and encryption
   * [rclone](http://rclone.org/), which is rsync for cloud storage
 
