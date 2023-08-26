@@ -39,7 +39,7 @@ More info in the [KDE Userbase Startup and Shutdown](https://userbase.kde.org/Sy
 Add the following to `$HOME/.config/plasma-workspace/env/ssh-agent-startup.sh`
 
 ```bash
-#!bin/bash
+#!/bin/bash
 export SSH_ASKPASS="/usr/bin/ksshaskpass"
 
 if ! pgrep -u $USER ssh-agent > /dev/null; then
