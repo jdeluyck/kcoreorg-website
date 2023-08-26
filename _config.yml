@@ -41,8 +41,8 @@ search_full_content: true
 
 future: true
 
-twitter:
-  username: "jdeluyck"
+#twitter:
+#  username: "jdeluyck"
 
 facebook:
   username: "jan.deluyck"
@@ -54,9 +54,9 @@ footer:
       icon: "fab fa-fw fa-mastodon"
       url: https://fedi.kcore.org/@jan
       rel: "me"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/jdeluyck
+.    - label: "Twitter"
+.      icon: "fab fa-fw fa-twitter-square"
+.      url: https://twitter.com/jdeluyck
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: https://facebook.com/jan.deluyck
