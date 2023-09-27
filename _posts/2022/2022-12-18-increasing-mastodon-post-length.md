@@ -10,9 +10,9 @@ tags:
   - fediverse
 ---
 
-[Mastodon](https://joinmastodon.org/) comes with a default post size of 500 characters. This is not set in stone, and can be increased fairly easily (*last tested on Mastodon 4.0.2*):
+[Mastodon](https://joinmastodon.org/) comes with a default post size of 500 characters. This is not set in stone, and can be increased fairly easily (*last tested on Mastodon 4.2.0*):
 
-Edit `live/app/javascript/mastodon/features/compose/components/compose_form.js`, search for the number 500 and replace it (should pop up twice)
+Edit `live/app/javascript/mastodon/features/compose/components/compose_form.js` (pre-v4.2.0) or `live/app/javascript/mastodon/features/compose/components/compose_form.jsx` (v4.2.0+), search for the number 500 and replace it (should pop up twice)
    
 Edit `live/app/validators/status_length_validator.rb`, search for the number 500 again and replace it (should show up once)
   
