@@ -26,29 +26,40 @@ Another change I made was changing from [DeepL](https://www.deepl.com/) to [Libr
 Inspiration was drawn from [this blog post by the Sleepless Beastie](https://sleeplessbeastie.eu/2022/11/17/how-to-use-libretranslate-with-mastodon/) :)
 
 * Install `python3` and `pip`:
+
 ```shell
 $ sudo apt install python3 python3-pip python3-setuptools
 ```
+
 * Create the user to run LibreTranslate: 
+
 ```shell
 $ sudo useradd --create-home --home-dir /home/libretranslate libretranslate
 ```
+
 * Install LibreTranslate: 
+
 ```shell
 $ sudo -u libretranslate pip3 install --user --prefer-binary libretranslate
 ```
+
 * Update its package index: 
+
 ```shell
 $ sudo -u libretranslate /home/libretranslate/.local/bin/argospm update
 ```
+
 * Install all translation packages to english: 
+
 ```shell
 $ for pkg in $(sudo -u libretranslate /home/libretranslate/.local/bin/argospm search | grep -v translate-en_ | cut -d \: -f 1); do 
   echo "Installing $pkg"
   sudo -u libretranslate /home/libretranslate/.local/bin/argospm install $pkg
 done
 ```
+
 * Add a `systemd` unit file under `/etc/systemd/system/libretranslate.service`:
+
 ```
 [Unit]
 Description=LibreTranslate
@@ -66,10 +77,12 @@ WantedBy=multi-user.target
 ```
 
 * Reload systemd and start the service
+
 ```shell
 $ sudo systemctl daemon-reload
 $ sudo systemctl enable --now libretranslate
 ```
+
 * Adjust the mastodon `.env.production` file to use LibreTranslate. Add:
 
 ```ini
@@ -78,6 +91,7 @@ LIBRE_TRANSLATE_ENDPOINT=http://127.0.0.1:5000
 ```
 
 * Restart Mastodon-web
+
 ```shell
 $ sudo systemctl restart mastodon-web
 ```
