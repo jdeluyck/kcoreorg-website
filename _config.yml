@@ -54,9 +54,6 @@ footer:
       icon: "fab fa-fw fa-mastodon"
       url: https://fedi.kcore.org/@jan
       rel: "me"
-.    - label: "Twitter"
-.      icon: "fab fa-fw fa-twitter-square"
-.      url: https://twitter.com/jdeluyck
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: https://facebook.com/jan.deluyck
@@ -69,7 +66,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto: jan@kcore.org"
-
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: https://twitter.com/jdeluyck
 
 # Reading Files
 include:
