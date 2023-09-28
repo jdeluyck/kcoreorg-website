@@ -163,12 +163,11 @@ whitelist:
   - jekyll-include-cache
 
 # feed
-feed:
-  path: /feed.xml
-  collections:
-    posts: 
-      path: /feed
-   
+# feed:
+#   path: 
+#     - "/feed/index.xml"
+#     - "/feed.xml"
+  
 # Archives
 category_archive:
   type: liquid
