@@ -164,8 +164,11 @@ whitelist:
 
 # feed
 feed:
-  path: /feed
-
+  path: /feed.xml
+  collections:
+    posts: 
+      path: /feed
+   
 # Archives
 category_archive:
   type: liquid
