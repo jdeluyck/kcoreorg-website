@@ -162,6 +162,10 @@ whitelist:
   - jemoji
   - jekyll-include-cache
 
+# feed
+feed:
+  path: /feed
+
 # Archives
 category_archive:
   type: liquid
