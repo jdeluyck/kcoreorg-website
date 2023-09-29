@@ -26,7 +26,7 @@ As a final move, I moved the blog from WordPress to a Jekyll generated static si
 At kcore.org, I do take your privacy seriously.
 
 ### Hosting partner
-The hosting is done using [Github Pages](https://pages.github.com/)
+The hosting is done using [Github Pages](https://pages.github.com/), but it is passed through [Cloudflare](https://cloudflare.com) to enable some server-side redirects. I haven't found a better way to do this that doesn't involve spinning up some virtual server.
 
 ### Analytics
 I do not use any analytics software.
@@ -34,4 +34,4 @@ I do not use any analytics software.
 ### Comments
 Comments are enabled using [Giscus](https://giscus.app)
 
-_(last updated on 2023-03-26)_
+_(last updated on 2023-09-29)_
