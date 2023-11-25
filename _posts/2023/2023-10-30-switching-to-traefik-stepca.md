@@ -21,7 +21,7 @@ Since [Traefik](https://traefik.io/traefik/) has also been on my to-look-at-and-
 
 # Smallstep step-ca
 
-`step-ca` is running as a docker container (using the [official image](https://hub.docker.com/r/smallstep/step-ca) in my environment, listening on port 9000, but not exposed to the outside world. I'm using a docker `.internal` network, so that the container is only visible inside the docker network, not outside.
+`step-ca` is running as a docker container (using the [official image](https://hub.docker.com/r/smallstep/step-ca) in my environment), listening on port 9000, but not exposed to the outside world. I'm using a docker `.internal` network, so that the container is only visible inside the docker network, not outside.
 
 Most of the info you need can be found in the [tutorial on running a TLS certificate authority](https://smallstep.com/docs/tutorials/docker-tls-certificate-authority/index.html) on the smallstep website.
 
