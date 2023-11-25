@@ -15,7 +15,7 @@ tags:
 
 I've been using [nginx-proxy](https://github.com/nginx-proxy/nginx-proxy) as a reverse proxy for my docker containers for a few years, where I manually generate and inject the necessary SSL certificates to make stuff work. The certificates were generated on my Opnsense box. A bit tedious, but manageable.
 
-I've been planning to upgrade this setup for a while now, using [step-ca](https://smallstep.com/docs/step-ca/) as an [ACME(https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment)]-compatible backend for handing out certificates. No more me having to go and remember to put in the necessary files in the right location in my Ansible playbooks ;)
+I've been planning to upgrade this setup for a while now, using [step-ca](https://smallstep.com/docs/step-ca/) as an [ACME](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment)-compatible backend for handing out certificates. No more me having to go and remember to put in the necessary files in the right location in my Ansible playbooks ;)
 
 Since [Traefik](https://traefik.io/traefik/) has also been on my to-look-at-and-play-with list, I decided to combine the two.
 
