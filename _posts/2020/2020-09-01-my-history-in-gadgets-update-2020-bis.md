@@ -8,8 +8,8 @@ categories:
 tags:
   - android
   - gadget
-  - oneplus 6
-  - oneplus 8 pro
+  - samsung galaxy tab s6
+  - samsung galaxy tab s7+
 ---
 An second update on the [My history in gadgets](/2012/01/04/my-history-in-gadgets), 
 the [2014](/2014/05/12/my-history-in-gadgets-update-2014/),
@@ -17,7 +17,7 @@ the [2014](/2014/05/12/my-history-in-gadgets-update-2014/),
  [2016](/2016/07/15/my-history-in-gadgets-update-2016/),
  [2019](/2019/06/26/my-history-in-gadgets-update-2019/),
 [2019 bis](/2019/12/31/my-history-in-gadgets-update-2019-bis/) and
-[2020](/2019/12/31/my-history-in-gadgets-update-2020/) updates:
+[2020](/2020/06/26/my-history-in-gadgets-update-2020/) updates:
 
 _**Tablet history:**_
 
