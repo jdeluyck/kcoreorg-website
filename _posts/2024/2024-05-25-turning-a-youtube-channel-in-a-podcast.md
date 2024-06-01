@@ -8,6 +8,8 @@ categories:
 tags:
   - youtube
   - 2600 Off The Hook Overtime
+  - 2600
+  - off the hook
 ---
 
 I frequently listen to [Off The Hook](https://2600.com/offthehook/), a hacker radio show which airs on [WBAI](https://wbai.org) in the greater New York region. As I'm in a different continent, listening live is not practical ;)
