@@ -8,7 +8,7 @@ categories:
 tags:
   - youtube
   - 2600 Off The Hook Overtime
-  - 2600
+  - "2600"
   - off the hook
 ---
 
@@ -45,8 +45,6 @@ find ${HTML_DIR}/${NAME} -name '*.opus' -o -name '*.m4a' -mtime +90 -exec rm {} 
 cd ${HTML_DIR}
 
 genRSS --metadata --sort-creation --host http://${HOSTNAME}/~${USER} --dirname ${NAME} --out ${NAME}/index.html --image http://${HOSTNAME}/~${USER}/${NAME}/${NAME}.png --title "${DESCRIPTION}" --extensions opus,m4a
-
-
 ```
 
 Notes:
