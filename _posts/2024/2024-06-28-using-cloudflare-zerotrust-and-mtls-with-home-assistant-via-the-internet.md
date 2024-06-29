@@ -4,11 +4,12 @@ date: 2024-06-28
 author: Jan
 layout: single
 categories:
-  - Linux / Unix
+  - Home Automation
 tags:
   - home assistant
   - cloudflare
   - zero trust
+  - mtls
 ---
 
 I'm a big fan of [Home Assistant](https://home-assistant.io), and until now I only had it accessible from inside my own network. Outside access was only possible through a [WireGuard](https://www.wireguard.com/) VPN.
@@ -80,7 +81,7 @@ After this you'll see the certificate in the list in the Cloudflare dashboard.
 
 ### Adding the hostname of your tunnel to the mTLS configuration
 
-Another thing you need to do (which I missed and caused me to waste a lot of time) is to add the hostname for which you want cloudflare to issue a "client certificate request" to the browser or app. This is done in the same interface, that inconspicuous "Edit" link that's there...
+Another thing you need to do (which I misshttps://kcore.org/2024/06/28/cloudflare-tunnel-mtls-hass/ed and caused me to waste a lot of time) is to add the hostname for which you want cloudflare to issue a "client certificate request" to the browser or app. This is done in the same interface, that inconspicuous "Edit" link that's there...
 
 ![Screenshot of the Cloudflare interface, highlighting the "Edit" part where to add hosts to enable mTLS on](/assets/images/2024/06/cloudflare_mtls_4_add_hostname.png)
 
