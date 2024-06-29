@@ -23,7 +23,7 @@ One thing I definitely *didn't* want to do was just put it out on the internet, 
 * Bugs happen. In everything.
 * Unless you have a static IP, any IP change will cause issues (fixable with Dynamic DNS)
 
-So I definitely wanted to put a reverse proxy in front of it and preferrably also only make it accessible from my own devices.
+So I definitely wanted to put a reverse proxy in front of it and preferrably also only make it accessible from my own mobile devices (Android based, I don't own any Apple smartphones/tablets).
 
 One thing that exists is [Home Assistant Cloud](https://www.nabucasa.com/), offered by Nabu Casa - the company behind Home Assistant - through which you also support the Home Assistant project. 
 
@@ -71,13 +71,70 @@ You can keep these settings as they are. Click "Create"
 
 ![Screenshot of the Cloudflare interface where you can save the newly created client certificate](/assets/images/2024/06/cloudflare_mtls_2_save_certificate.png)
 
+Next, copy the certificate and the private key in two seperate files and store those somewhere on your filesystem. In my example, I use `mtls.key.pem` for the private key, and `mtls.cert.pem` for the certificate.
+
+After this, you'll see the certificate in the list in the Cloudflare dashboard.
+
+![Screenshot of the Cloudflare interface where you can see the newly created client certificate](/assets/images/2024/06/cloudflare_mtls_3_new_certtificate_added.png)
+
+### Adding the hostname of your tunnel to the mTLS configuration
+
+Another thing you need to do (which I missed and caused me to waste a lot of time) is to add the hostname for which you want cloudflare to issue a "client certificate request" to the browser or app. This is done in the same interface, that inconspicuous "Edit" link that's there...
+
+![Screenshot of the Cloudflare interface, highlighting the "Edit" part where to add hosts to enable mTLS on](/assets/images/2024/06/cloudflare_mtls_4_add_hostname.png)
+
+Once you click "Edit" you can add the full hostname.
+
+![Screenshot of the Cloudflare interface, after filling in a hostname in the field to enable mTLS](/assets/images/2024/06/cloudflare_mtls_5_hostname_added.png)
+
+Click "Save" and you're good to go.
 
 ### Converting the mTLS client certificate
 
-Your browser won't be able to use the PEM certificates you exported earlier
-openssl pkcs12 -export -out client_cert2.pfx -inkey test.key.pem -in test.cert.pem 
+Your browser won't be able to use the PEM certificates you exported earlier,because it requires both the private key and the certificate to be able to add them.
 
-blabla don't forget adding a password because android 
+You can easily convert it using `openssl`:
+```shell
+$ openssl pkcs12 -export -out mtls_client_cert.pfx -inkey mtls.key.pem -in mtls.cert.pem
+```
+
+When asked for a password, specify one to your liking (and don't forget it, you'll need it later)
 
 ### Configuring WAF Rules
+Right now anyone can connect into your hosted Home Assistant URL, regardless if they have a certificate or not. To remedy this, you need to configure some [Web Application Firewall](https://en.wikipedia.org/wiki/Web_application_firewall) rules.
 
+Head over to your account &rarr; your website &rarr; Security &rarr; WAF. There click on "Create Certificate". Next choose "Custom Rules".
+
+![Screenshot of the Cloudflare interface showing there are no custom WAF rules at this time](/assets/images/2024/06/cloudflare_waf_1_initial.png)
+
+Click on "Create rule"
+
+Give the rule a name and under "If incoming requests match..." specify:
+* "Client Certificate Verified" equals "yes" (slider set to green)
+* "Hostname" equals "myfancyhostname.kcore.org"
+
+Under "Then take action" specify "Skip" on "All remaining custom rules".
+
+![Screenshot of the Cloudflare interface with the skip WAF rule](/assets/images/2024/06/cloudflare_waf_2_skip_rule.png)
+
+Hit "Deploy", and "Create rule" to create the second rule to block the traffic.
+
+Once again, give it a name and under "If incoming requests match..." specify:
+* "Hostname" equals "myfancyhostname.kcore.org"
+
+Under "Then take action" specify "Block". Deploy.
+
+![Screenshot of the Cloudflare interface with the block WAF rule](/assets/images/2024/06/cloudflare_waf_3_block_rule.png)
+
+You should end up with two rules like this:
+
+![Screenshot of the Cloudflare interface showing all the WAF rules](/assets/images/2024/06/cloudflare_waf_4_rule_overview.png)
+
+It's important that the skip rule is before the block rule. If not, edit the rules and change the order.
+
+## Adding the client certificate to your clients
+
+### Browsers
+
+
+### Android
