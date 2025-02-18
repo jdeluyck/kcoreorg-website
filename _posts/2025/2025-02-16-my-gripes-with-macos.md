@@ -30,9 +30,9 @@ Things that annoys me on the daily:
 - The need to install another piece of software ([NoTunes](https://github.com/tombonez/noTunes)) so that Apple Music doesn't start every time I power up or power down my Poly Voyager Focus 2 headset - you know, a reputable brand, proper work-setting headset. Nevermind I've disabled all options in the app that should control this, it still pops up. Retarded.
 - Finder is really a *bad* file manager. As in, horribly bad. Yes, another app can solve that. Also, it doesn't seem to have progressed since the days I actually owned a Macbook2,1 in 2007.
 - Home/End key inconsistency. This works the same on every platform I own (Linux, Windows, Android), but yet macOs needs to do something not quite the same. Also, not all apps do the same thing when you hit the keys.
-- Maximizing isn't. If I hit that button, I expect the window to _maximize_ over the entire screen. Not so with macOs, it'll just do something weird like maximize to content. Which is not what I want.
+- Maximizing doesn't. If I hit that button, I expect the window to _maximize_ over the entire screen. Not so with macOs, it'll just do something weird like maximize to content. Which is not what I want.
 - Another full-screen issue: you can choose between having the option to have applications being able to go full-screen on just one screen, and having the Dock hop all over the place if you happen to hold your mouse a little bit too long at the bottom of another screen, or you can have a fixed Dock but then your other screens go black when you use the full-screen option. **How is this even linked to eachother?!**
-- In 2024, they finally introduced some form of Window Management, but it still sucks quite a lot. Better of installing (yet another piece of software) [Rectangle](https://rectangleapp.com/).
+- In 2024, they finally introduced some form of Window Management, but it still sucks quite a lot. Better off installing (yet another piece of software) [Rectangle](https://rectangleapp.com/).
 - Shoving 'Apple Intelligence' in your face all the time. No, I don't want it, fuck off.
 - Opaqueness. Often when things go haywire it's *really* hard to figure out what it's doing. Best solution is to reboot the damn thing. If I want that, I'll just use Windows. Hell, even that OS is easier to debug.
 
