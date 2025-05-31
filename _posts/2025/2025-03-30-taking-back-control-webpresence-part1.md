@@ -1,5 +1,5 @@
 ---
-title: Webhosting all the things - v0
+title: Taking back control of my web-presence - part 1
 date: 2025-03-30
 author: Jan
 layout: single
