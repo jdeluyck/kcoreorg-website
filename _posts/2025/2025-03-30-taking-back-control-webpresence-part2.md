@@ -1,18 +1,16 @@
 ---
-title: Taking back control of my web-presence - part 1
+title: Taking back control of my web-presence - part 2
 date: 2025-03-30
 author: Jan
 layout: single
 categories:
   - Linux / Unix
-  - Networking
-  - Virtualisation
 tags:
-  - netcup
-  - docker
-  - podman
-  - openSUSE MicroOS
+  - desec.io
+  - dns
+  - dnscontrol
 ---
+
 
 After the outcome of the recent US elections and the ass-kissing of Big Tech<sup>TM</sup> and stories of Oracle cloud deleting user accounts [for no reason](https://mastodon.de/@ErikUden/113930010311998246) I decided to move some of my web-presence from the various US-based entities I use back to my own control, and giving preference to using European companies where possible.
 
