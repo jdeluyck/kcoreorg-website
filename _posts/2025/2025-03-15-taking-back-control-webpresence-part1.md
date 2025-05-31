@@ -1,6 +1,6 @@
 ---
 title: Taking back control of my web-presence - part 1
-subtitle: Hosting
+subtitle: Finding a VPS, initial webhosting architecture, and musings...
 date: 2025-03-15
 last_modified_at: 2025-03-30
 author: Jan
@@ -28,11 +28,11 @@ Some of the things I want to move:
 
 # VPS Hosting
 
-The first thing to pick is a hoster: after some searching I came across [Netcup](https://www.netcup.com/en/?ref=270183) (affiliate link), a hoster based out of Germany, which regularly has deals on their hosting packages. I picked up one of those deals - a VPS 1000 G11 SE - 4 core x86, 8GB RAM, 512GB storage. It's hosted in [Nürnberg](https://en.wikipedia.org/wiki/Nuremberg). 
+The first thing to pick was a hoster: after some searching I came across [Netcup](https://www.netcup.com/en/?ref=270183) (affiliate link), a hoster based out of Germany, which regularly has deals on their hosting packages. I picked up one of those deals - a VPS 1000 G11 SE - 4 core x86, 8GB RAM, 512GB storage. It's hosted in [Nürnberg](https://en.wikipedia.org/wiki/Nuremberg). 
 
 # Which Linux distribution?
 
-So, I had a box. Now, what to run on it? I had the initial idea to go with a fully containerised setup - not going to kubernetes route as I have only one box (k8s is a great ecosystem, but heavily overused IMHO), staying with Docker/Podman. 
+So, I had a box. Now, what to run on it? I had the initial idea to go with a fully containerised setup - not going the kubernetes route as I only have one box (k8s is a great ecosystem, but heavily overused IMHO), staying with Docker/Podman. 
 
 I quickly found [openSUSE MicroOS](https://microos.opensuse.org/), an immutable linux distribution that is meant for running container workloads. The immutable part being something I haven't really dealt with in Linux. Added bonus was that this uses [podman](https://podman.io/).
 
@@ -52,7 +52,7 @@ podman-compose -f your-container-file.yaml systemd -a register
 systemctl --user enable --now podman-compose@your-container-file
 ```
 
-## What... is your ~~favourite color~~ source ip?
+## What... is your ~~favourite color~~ source IP?
 
 Another thing I noticed was that my ingress reverse-proxy [Traefik](https://traefik.io/traefik/) was not seeing the correct source IP - it was just showing the internal IP address - which is also due to the non-root way podman works. 
 
@@ -105,7 +105,7 @@ Volume=%t/podman/podman.sock:/var/run/docker.sock
 
 ## Quadlet, why you so slow?!
 
-Next up I was noticing that it took forever to start a container using a quadlet. Strangely enough, I've never had this on my Fedora box I run containers on in my homelab.
+Next up I was noticing that it took forever to start a container using a quadlet. Strangely enough, I've never had this on the Fedora box on which I run containers in my homelab.
 
 Searching some more pointed me to a [known issue](https://github.com/containers/podman/issues/24796), where systemd will wait for the `network-online` target to be active, which actually never happens for user sessions due to a dependency issue. I invite you to read the issue (and linked issues), but in the end I solved this by adding an additional systemd service:
 
@@ -225,11 +225,11 @@ By default the linuxserver.io openssh container starts off as root, later switch
 
 # Musings after transferring a few sites...
 
-* My initial attempts on doing all this with podman-compose weren't a great success - the documentation isn't 100% clear, I ran into more than problem regarding variable interpolation (some would be interpolated, others not). In the end I gave up, and switched everything over to useing quadlets. This worked without issues.
+* My initial attempts on doing all this with `podman-compose` weren't a great success - the documentation isn't 100% clear, I ran into more than one problem regarding variable interpolation (some would be interpolated, others not). In the end I gave up, and switched everything over to using quadlets. This worked without issues.
 
 * Even though the quadlet setup works, it is non-trivial to setup. I created a few scripts to help with this, but... not great.
 
-* The architecture I created above works, but it feels overly complex, and hard to maintain. There are a lot of pieces to juggle and keep uptodate: 5 containers per hosting, 2 on the edge layer, and if I wanted to host additional (already containerised) workloads it'd mean having yet another set of containers to work with.
+* The architecture I created above works, but it feels overly complex, and hard to maintain. There are a lot of pieces to juggle and keep up to date: 5 containers per hosting, 2 on the edge layer, and if I wanted to host additional (already containerised) workloads it'd mean having yet another set of containers to work with.
 
 To say the least, I am not sold on maintaining this... and will investigate another route. For the interested parties, I've added my setup on [GitHub](https://github.com/jdeluyck/container_hosting_quadlets)
 
