@@ -1,5 +1,5 @@
 ---
-title: Taking back control of my web-presence - part 2
+title: Reclaiming My Digital Sovereignty, Part 2 - Domains and DNS
 date: 2025-03-30
 author: Jan
 layout: single
@@ -7,10 +7,20 @@ categories:
   - Linux / Unix
 tags:
   - desec.io
+  - ovh.fr
   - dns
   - dnscontrol
 ---
 
+*The first part where I ramble about VPS providers and a lot of containers can be found [here](/2025/03/15/taking-back-control-webpresence-part1/)*
+
+---
+
+*It's always a DNS problem, even when it isn't.*
+
+I have several domains in use, spread over the [.org](https://en.wikipedia.org/wiki/.org) and [.be](https://en.wikipedia.org/wiki/.be) TLD's. The .org ones are currently registered at [cloudflare](https://cloudflare.com), the .be ones at a local registrar.
+
+As part of my 
 
 After the outcome of the recent US elections and the ass-kissing of Big Tech<sup>TM</sup> and stories of Oracle cloud deleting user accounts [for no reason](https://mastodon.de/@ErikUden/113930010311998246) I decided to move some of my web-presence from the various US-based entities I use back to my own control, and giving preference to using European companies where possible.
 

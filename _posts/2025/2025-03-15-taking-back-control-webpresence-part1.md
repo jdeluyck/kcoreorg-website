@@ -1,6 +1,5 @@
 ---
-title: Taking back control of my web-presence - part 1
-subtitle: Finding a VPS, initial webhosting architecture, and musings...
+title: Reclaiming My Digital Sovereignty, Part 1 - VPS Trials and Container Tribulations
 date: 2025-03-15
 last_modified_at: 2025-03-30
 author: Jan
@@ -16,10 +15,13 @@ tags:
   - openSUSE MicroOS
 ---
 
+*Where I am increasingly skeptical about US-based tech, find a VPS provider, test out some initial hosting architecture but decide against it, and other ramblings...*
+
 After the outcome of the recent US elections and the ass-kissing of Big Tech<sup>TM</sup> and stories of Oracle cloud deleting user accounts [for no reason](https://mastodon.de/@ErikUden/113930010311998246) I decided to move some of my web-presence from the various US-based entities I use back to my own control, and giving preference to using European companies where possible.
 
 Some of the things I want to move:
 * static sites (GitHub pages)
+* code hosting (GitHub)
 * dynamic sites (all over the place)
 * my Mastodon instance (Oracle Cloud)
 * Domain registrar (cloudflare)
