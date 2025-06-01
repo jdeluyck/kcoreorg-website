@@ -15,7 +15,9 @@ tags:
   - openSUSE MicroOS
 ---
 
-*Where I am increasingly skeptical about US-based tech, find a VPS provider, test out some initial hosting architecture but decide against it, and other ramblings...*
+*Where I am increasingly skeptical about using US-based providers, find a European VPS provider, test out some initial hosting architecture but decide against it, and other ramblings...*
+
+---
 
 After the outcome of the recent US elections and the ass-kissing of Big Tech<sup>TM</sup> and stories of Oracle cloud deleting user accounts [for no reason](https://mastodon.de/@ErikUden/113930010311998246) I decided to move some of my web-presence from the various US-based entities I use back to my own control, and giving preference to using European companies where possible.
 
