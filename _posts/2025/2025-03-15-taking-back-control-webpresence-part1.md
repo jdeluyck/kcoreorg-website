@@ -19,7 +19,7 @@ tags:
 
 ---
 
-After the outcome of the recent US elections and the ass-kissing of Big Tech<sup>TM</sup> and stories of Oracle cloud deleting user accounts [for no reason](https://mastodon.de/@ErikUden/113930010311998246) I decided to move some of my web-presence from the various US-based entities I use back to my own control, and giving preference to using European companies where possible.
+After the outcome of the recent US elections and the ass-kissing of Big Tech<sup>TM</sup> and stories of Oracle cloud deleting user accounts [for no reason](https://mastodon.de/@ErikUden/113930010311998246) I decided it was time to move some of my web-presence from the various US-based entities I use back to my own control, and giving preference to using European companies where possible.
 
 Some of the things I want to move:
 * static sites (GitHub pages)
@@ -34,17 +34,19 @@ Some of the things I want to move:
 
 The first thing to pick was a hoster: after some searching I came across [Netcup](https://www.netcup.com/en/?ref=270183) (affiliate link), a hoster based out of Germany, which regularly has deals on their hosting packages. I picked up one of those deals - a VPS 1000 G11 SE - 4 core x86, 8GB RAM, 512GB storage. It's hosted in [Nürnberg](https://en.wikipedia.org/wiki/Nuremberg). 
 
+Bonus of Netcup: You can  upload your own [disk images](https://helpcenter.netcup.com/en/wiki/server/media#upload-custom-image) or [DVD images](https://helpcenter.netcup.com/en/wiki/server/media#own-dvds) to use in the server control panel. This allows you to install whatever OS you want, as long as it fits on the architecture (x86_64).
+
 # Which Linux distribution?
 
 So, I had a box. Now, what to run on it? I had the initial idea to go with a fully containerised setup - not going the kubernetes route as I only have one box (k8s is a great ecosystem, but heavily overused IMHO), staying with Docker/Podman. 
 
 I quickly found [openSUSE MicroOS](https://microos.opensuse.org/), an immutable linux distribution that is meant for running container workloads. The immutable part being something I haven't really dealt with in Linux. Added bonus was that this uses [podman](https://podman.io/).
 
-The key to adding packages to the base OS is the command `transactional-update pkg install <pkg>` and rebooting ;) 
+The key to adding packages to the base OS is the command `transactional-update pkg install <pkg>` and rebooting.
 
 # Ready, get set, go!
 
-So, I now had a box, with a linux distribution, and a container runtime. Since I wanted to keep things simple I decided to see how far I'd get with  [podman-compose](https://docs.podman.io/en/latest/markdown/podman-compose.1.html), a podman replacement for [docker compose](https://docs.docker.com/compose/).
+So, I now had a box, with a Linux distribution, and a container runtime. Since I wanted to keep things simple I decided to see how far I'd get with  [podman-compose](https://docs.podman.io/en/latest/markdown/podman-compose.1.html), a podman replacement for [docker compose](https://docs.docker.com/compose/).
 
 ## Where are my containers at?! (after a reboot)
 
@@ -138,7 +140,7 @@ The final hurdle I bumped into was that for some obscure reason, my Traefik cont
 
 The architecture I had in mind was:
 
-![Architecture of my containerised web hosting setup, running on top of openSUSE MicroOS](/assets/images/2025/03/container_website_hosting.png)
+![Architecture of my containerised web hosting setup, running on top of openSUSE MicroOS](/assets/images/2025/03/container_website_hosting.png){: .align-center}
 
 The outer (edge) layer would be comprised of:
 * [traefik](https://traefik.io/traefik/) as reverse proxy for web traffic
@@ -147,7 +149,7 @@ The outer (edge) layer would be comprised of:
 Each website hosting would have its own set of containers:
 * [Nginx](https://hub.docker.com/_/nginx) as a webserver
 * [php-fpm](https://hub.docker.com/_/php) for the PHP runtime
-* [MariaDB](https://hub.docker.com/_/mariadb) together with [phpMyAdmin](https://hub.docker.com/_/phpmyadmin), or
+* [MariaDB](https://hub.docker.com/_/mariadb) together with [phpMyAdmin](https://hub.docker.com/_/phpmyadmin) and [mysql-backup](https://hub.docker.com/r/databack/mysql-backup) or
 * [PostgreSQL](https://hub.docker.com/_/postgres) with [PgAdmin](https://www.pgadmin.org/download/pgadmin-4-container/)
 * [linuxserver.io openssh](https://docs.linuxserver.io/images/docker-openssh-server/) 
 
@@ -229,11 +231,12 @@ By default the linuxserver.io openssh container starts off as root, later switch
 
 # Musings after transferring a few sites...
 
-* My initial attempts on doing all this with `podman-compose` weren't a great success - the documentation isn't 100% clear, I ran into more than one problem regarding variable interpolation (some would be interpolated, others not). In the end I gave up, and switched everything over to using quadlets. This worked without issues.
+* My initial attempts on doing all this with `podman-compose` weren't successful. The documentation isn't clear, I ran into more than one problem regarding variable interpolation (some would be interpolated, others not), and other things which are somewhat supported but not really. 
+In the end I gave up, and switched everything over to using quadlets. This worked without issues.
 
 * Even though the quadlet setup works, it is non-trivial to setup. I created a few scripts to help with this, but... not great.
 
 * The architecture I created above works, but it feels overly complex, and hard to maintain. There are a lot of pieces to juggle and keep up to date: 5 containers per hosting, 2 on the edge layer, and if I wanted to host additional (already containerised) workloads it'd mean having yet another set of containers to work with.
 
-To say the least, I am not sold on maintaining this... and will investigate another route. For the interested parties, I've added my setup on [GitHub](https://github.com/jdeluyck/container_hosting_quadlets)
+To say the least, I am not sold on maintaining this... and will investigate another route. For the interested parties, I've uploaded my template for Mariadb to [GitHub](https://github.com/jdeluyck/container_hosting_quadlets).
 
