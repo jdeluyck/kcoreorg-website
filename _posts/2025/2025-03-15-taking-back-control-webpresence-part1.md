@@ -29,6 +29,7 @@ Some of the things I want to move:
 * Domain registrar (cloudflare)
 * DNS hosting (cloudflare)
 * Reverse tunnels (cloudflare)
+* Object storage (Backblaze)
 
 # VPS Hosting
 
