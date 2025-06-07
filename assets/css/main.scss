@@ -56,3 +56,10 @@ $type-size-9: 0.35em !default; // ~4px
   padding-right: 0.5em;
 }
 
+.page__subtitle{
+  font-size: $type-size-5;
+  color: $muted-text-color;
+  font-style: italic;
+
+  // padding-bottom: $type-size-5;
+}
