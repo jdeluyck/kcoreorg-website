@@ -22,13 +22,13 @@ tags:
 After the outcome of the recent US elections and the ass-kissing of Big Tech<sup>TM</sup> and stories of Oracle cloud deleting user accounts [for no reason](https://mastodon.de/@ErikUden/113930010311998246) I decided it was time to move some of my web-presence from the various US-based entities I use back to my own control, and giving preference to using European companies where possible.
 
 Some of the things I want to move:
-* static sites (GitHub pages)
+* static sites (GitHub pages, Backblaze + Cloudflare)
 * code hosting (GitHub)
 * dynamic sites (all over the place)
 * my Mastodon instance (Oracle Cloud)
-* Domain registrar (cloudflare)
-* DNS hosting (cloudflare)
-* Reverse tunnels (cloudflare)
+* Domain registrar (Cloudflare)
+* DNS hosting (Cloudflare)
+* Reverse tunnels (Cloudflare)
 * Object storage (Backblaze)
 
 # VPS Hosting
