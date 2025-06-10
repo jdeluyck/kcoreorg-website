@@ -1,66 +1,48 @@
 ---
-title: Reclaiming My Digital Sovereignty, Part 4 - Tunnels using Pangolin
+title: Reclaiming My Digital Sovereignty, Part 4 - Moving the elephant in the room
 date: 2025-04-30
 author: Jan
 layout: single
 categories:
   - Linux / Unix
 tags:
-  - cloudflare tunnels
-  - pangolin
-  - newt
+  - mastodon
+  - backblaze
+  - cloudflare
+  - bandwidth alliance
+  - backblaze b2
+  - b2
+  - tebi.io
+  - tebi
 published: false
 ---
 
-*It's all about the Tunnels, baby!*
+*Ground control to Mastodon... Ground control to Mastodon...*
 
 ---
 
 *This is the fourth installment of a series of posts about taking back control of my web presence. [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) is about hosting, [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) talks about DNS and in [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox.*
 
-One of the additional services I use of Cloudflare is [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/), part of their [Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_architecture) offering. Very practical, but also very much locks you into using their services.
+I was [running](/2022/11/05/mastodon-on-oracle-cloud/) my [Mastodon](https://joinmastodon.org/) instance on the [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/), but as detailed in part 1, it was time to move away and close down that account.
 
-# Pangolin
+# Moving Mastodon
 
-I came across [Pangolin](https://github.com/fosrl/pangolin):
+Since the instance on Oracle Cloud was a different architecture - [aarch64](https://en.wikipedia.org/wiki/AArch64) vs [x86_64](https://en.wikipedia.org/wiki/X86-64) - I was fearing some issues when transferring the setup over. In the end, it was really simple:
 
-> Tunneled Mesh Reverse Proxy Server with Access Control
->
-> Your own self-hosted zero trust tunnel.
->
-> Pangolin is a self-hosted tunneled reverse proxy server with identity and access control, designed to securely expose private resources on distributed networks. Acting as a central hub, it connects isolated networks — even those behind restrictive firewalls — through encrypted tunnels, enabling easy access to remote services without opening ports.
+1. Set up a new instance according to the documentation: [Running your own server](https://docs.joinmastodon.org/user/run-your-own/)
+2. Follow the migration documentation: [Migrating to a new machine](https://docs.joinmastodon.org/admin/migrating/)
+3. Profit!
 
-It offers:
-* reverse proxy functionalities through wireguard tunnels
-* site-to-site connectivity via a wireguard client [Newt](https://github.com/fosrl/newt)
-* dentity and access management with SSO,
-* support for both HTTP(S) and raw TCP/UDP
-* Load balancing
+It really was that easy. Kudos to the creators for having great documentation!
 
-While this offers a subset of the features of Cloudflare Tunnels, it does not offer functionality for mTLS, what I use with [Home Assistant](/2024/06/28/using-cloudflare-zerotrust-and-mtls-with-home-assistant-via-the-internet/). This will need to be tackled through different means.
+# Moving Object Storage
 
-## Configuration
+I was also using [Backblaze B2](https://www.backblaze.com/cloud-storage) as an object storage, together with [Cloudflare](https://www.cloudflare.com) - they are both part of the [Bandwidth Alliance](https://www.cloudflare.com/partners/technology-partners/backblaze/), a partnership where you pay no egress costs from Backblaze. 
 
-Deploying it is [well documented](https://docs.fossorial.io/Getting%20Started/quick-install) - I went with the [manual install](https://docs.fossorial.io/Getting%20Started/Manual%20Install%20Guides/docker-compose) as I prefer to have more control over it.
+Finding an alternative was a bit trickier: I didn't want to have to pay outrageous egress costs (which unfortunately is the case on a lot of these object stores), and the data pricing had to be reasonable. In the end I discovered [Tebi](https://tebi.io), a company based out of [Cyprus](https://en.wikipedia.org/wiki/Cyprus) which has been around now since 2020. 
 
-The [config file options](https://docs.fossorial.io/Pangolin/Configuration/config) are also well documented.
+Setting up a new account was remarkably easy, and they support a subset of the [AWS Bucket Policies](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html) which allowed me to only allow traffic from my specific IP addresses (after implementing the cache). The [Pay-As-You-Go plan](https://tebi.io/#prices) comes with 25GB storage (50GB, but atleast two copies are required for redundancy) and 250GB data transfer out of the box, and you pay $0.02 per GB stored and $0.01 GB transferred - decently priced and sufficient for my use.
 
-After deploying it, I added a reverse proxy definition in my [caddy](/2025/04/15/taking-back-control-webpresence-part3/#caddy---web-requests) Configuration and everything started to work :)
+I also contacted their support a few times to clarify things, and they were very quick and responsive.
 
-## Tunneling
-
-Adding a tunnel was straightforward:
-
-1. Add a site, selecting your tunnel type (eg. Newt), and write down the `endpoint`, `Newt ID` and `Newt Secret Key`
-![Pangolin New Site](/assets/images/2025/04/pangolin_new_site.png){: .align-center}
-
-2. Select 'Resources', choose the site you added in step 1, pick HTTPS resource, and add the subdomain you want it to be available on
-![Pangolin New Resource](/assets/images/2025/04/pangolin_new_resource.png){: .align-center}
-
-3. Edit the resource you just added, and configure what needs to happen - in this case, traffic is sent to `localhost` on port 80. Localhost is where the Newt wireguard client runs
-![Pangolin New Resouce Rules](/assets/images/2025/04/pangolin_new_resource_rules.png){: .align-center}
-
-4. Deploy Newt on your target, and see it connect :)
-
-
-
+Transferring the objects was done using [rclone](https://rclone.org), and reconfiguring Mastodon was also a piece of cake using the [documentation](https://docs.joinmastodon.org/admin/optional/object-storage/). As an added safeguard I also implemented [proxying of the object storage](https://docs.joinmastodon.org/admin/optional/object-storage-proxy/) so that the object store only gets hit once for new items, massively reducing any egress traffic.
