@@ -14,7 +14,6 @@ tags:
   - proxmox virtual environment
   - caddy
   - sshpiper
-published: false
 ---
 
 *Where I (re?)discovered Proxmox for LXC hosting on a VPS*
@@ -42,7 +41,7 @@ After installation I immediately added a [wireguard](https://www.wireguard.com/)
 
 In a normal configuration Proxmox doesn't hand out IP addresses, it assumes you'll either statically assign them or use a DHCP server which already resides on your network. Since I didn't want to do the former, and only had 1 IP address, I needed to configure a Proxmox simple zone. The tutorial [Setup Simple Zone with SNAT and DHCP](https://pve.proxmox.com/wiki/Setup_Simple_Zone_With_SNAT_and_DHCP) explains how to do this, and I mostly followed this adjusting for my own preferences.
 
-Don't forget to install `dnsmasq` first ;)
+Don't forget to install `dnsmasq` first!
 
 This configuration will give an additional `vnet0` interface (or however you decide to name it) which you can then use to run your LXC's - they will get an IP address from the range defined, and outbound traffic will be automatically handled.
 
@@ -144,7 +143,7 @@ I added this to `/etc/network/interfaces` under `iface vmbr0 inet static`
 ```
 
 The first three rules route traffic hitting port 80 (http), 443 (https) and 2222 (sshpiper) to my edge LXC.
-The last two rules are there to make sure that traffic that hits vnet0, which is destined for the public IP address of my VPS, gets routed back to the edge LXC. This is needed to eg. allow traffic between services by targetting their public names.
+The last two rules are there to make sure that traffic that hits `vnet0`, which is destined for the public IP address of my VPS, gets routed back to the edge LXC. This is needed to eg. allow traffic between services by targeting their public names.
 
 # Architecture v2
 
@@ -179,7 +178,7 @@ Per site I deploy I add a file with the reverse proxy definition to the webhost 
 
 ### sshpiper - ssh reverse proxy
 
-I cannot add add much to what I wrote in [part 1](/2025/03/15/taking-back-control-webpresence-part1/#sshpiper---ssh-reverse-proxy), but since it is now running natively instead of containerised, the setup was easier. I also switched from using the yaml-config to the homedir-config.
+I cannot add add much to what I wrote in [part 1](/2025/03/15/taking-back-control-webpresence-part1/#sshpiper---ssh-reverse-proxy), but since it is now running natively instead of containerised, the setup was easier. I also switched from using the [yaml](https://github.com/tg123/sshpiper/tree/master/plugin/yaml) plugin to to the [workdir](https://github.com/tg123/sshpiper/tree/master/plugin/workingdir) plugin.
 
 ## Inner layer (hosting)
 
