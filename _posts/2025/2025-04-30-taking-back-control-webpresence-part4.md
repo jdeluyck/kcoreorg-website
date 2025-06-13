@@ -14,7 +14,6 @@ tags:
   - b2
   - tebi.io
   - tebi
-published: false
 ---
 
 *Ground control to Mastodon... Ground control to Mastodon...*
@@ -23,11 +22,11 @@ published: false
 
 *This is the fourth installment of a series of posts about taking back control of my web presence. [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) is about hosting, [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) talks about DNS and in [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox.*
 
-I was [running](/2022/11/05/mastodon-on-oracle-cloud/) my [Mastodon](https://joinmastodon.org/) instance on the [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/), but as detailed in part 1, it was time to move away and close down that account.
+I was [running](/2022/11/05/mastodon-on-oracle-cloud/) my [Mastodon](https://joinmastodon.org/) instance on the [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/), but as detailed in part 1, it was time to move away and close down my Oracle account.
 
 # Moving Mastodon
 
-Since the instance on Oracle Cloud was a different architecture - [aarch64](https://en.wikipedia.org/wiki/AArch64) vs [x86_64](https://en.wikipedia.org/wiki/X86-64) - I was fearing some issues when transferring the setup over. In the end, it was really simple:
+Since the instance on Oracle Cloud was a different architecture - [aarch64](https://en.wikipedia.org/wiki/AArch64) vs [x86_64](https://en.wikipedia.org/wiki/X86-64) - I was fearing some issues when transferring the data. In the end, it was really simple:
 
 1. Set up a new instance according to the documentation: [Running your own server](https://docs.joinmastodon.org/user/run-your-own/)
 2. Follow the migration documentation: [Migrating to a new machine](https://docs.joinmastodon.org/admin/migrating/)
