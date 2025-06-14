@@ -219,3 +219,6 @@ defaults:
 
 #head_scripts:
 #  - /assets/js/cookie-handler.js
+
+sass:
+  quiet_deps: true    # Disable printing deprecation warnings to terminal
