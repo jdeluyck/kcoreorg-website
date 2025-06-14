@@ -1,0 +1,52 @@
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: docker
+ 
+    container:
+      image: ruby:3.4-bookworm
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bundler Cache
+        # Caching gems will speed up subsequent builds
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Install Dependencies
+        # Install bundler and then the gems specified in the Gemfile
+        run: |
+          gem install bundler
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+
+      - name: Build Jekyll Site
+        # Runs the jekyll build command to generate the static site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Install SSH and SCP
+        # The base ruby image doesn't have SSH clients, so we install them.
+        run: |
+          apt-get update && apt-get install -y openssh-client
+
+     - name: Deploy to Server via SCP
+        # This step securely copies the built site to your server.
+        # It requires several secrets to be configured in your Forgejo project.
+        run: |
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > private_key
+          chmod 600 private_key
+          scp -i private_key -o StrictHostKeyChecking=no -P ${{secrets.SSH_PORT}} -r _site/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_PATH }}
+          rm private_key
+
