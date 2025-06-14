@@ -1,3 +1,6 @@
+name: Build and deploy kcore.org
+
+run-name: Build and deploy kcore.org via @${{ forgejo.actor }}
 on: 
   push:
     branches:
