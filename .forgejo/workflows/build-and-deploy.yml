@@ -18,6 +18,12 @@ jobs:
         run: |
           apt-get update && apt-get install -y openssh-client nodejs
 
+      - name: Add CA cert
+        run: |
+          echo "${{ secrets.CA_CERT }}" > /etc/ssl/certs/ca_cert.pem
+          chmod 644 /etc/ssl/certs/ca_cert.pem
+          /usr/sbin/update-ca-certificates
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
