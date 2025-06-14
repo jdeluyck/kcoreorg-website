@@ -14,6 +14,10 @@ jobs:
       image: ruby:3.4-bookworm
 
     steps:
+      - name: Install dependencies
+        run: |
+          apt-get update && apt-get install -y openssh-client nodejs
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -38,11 +42,6 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
-
-      - name: Install SSH and SCP
-        # The base ruby image doesn't have SSH clients, so we install them.
-        run: |
-          apt-get update && apt-get install -y openssh-client
 
       - name: Deploy to Server via SCP
         # This step securely copies the built site to your server.
