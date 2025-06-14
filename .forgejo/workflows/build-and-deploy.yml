@@ -44,7 +44,7 @@ jobs:
         run: |
           apt-get update && apt-get install -y openssh-client
 
-     - name: Deploy to Server via SCP
+      - name: Deploy to Server via SCP
         # This step securely copies the built site to your server.
         # It requires several secrets to be configured in your Forgejo project.
         run: |
