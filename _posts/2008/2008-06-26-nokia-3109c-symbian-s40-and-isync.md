@@ -13,7 +13,7 @@ tags:
   - apple
   - isync
   - mac os x
-  - Symbian s40
+  - symbian s40
 ---
 I got a company phone, a [Nokia](http://www.nokia.com) [3109 Classic](http://www.nokia.co.uk/A4423231), which is nothing less nothing more than a standard company phone. It doesn't have all the bells and whistles I'd like to have, but it works.
 
