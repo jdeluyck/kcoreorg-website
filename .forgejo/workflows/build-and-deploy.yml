@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          apt-get update && apt-get install -y openssh-client nodejs
+          apt-get update && apt-get install -y rsync openssh-client nodejs
 
       - name: Add CA cert
         run: |
@@ -55,6 +55,6 @@ jobs:
         run: |
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > private_key
           chmod 600 private_key
-          scp -i private_key -o StrictHostKeyChecking=no -P ${{secrets.SSH_PORT}} -r _site/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_PATH }}
+          rsync -avz --delete -e "ssh -i private_key -o StrictHostKeyChecking=no -p ${{secrets.SSH_PORT}}" _site/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.REMOTE_PATH }}
           rm private_key
 
