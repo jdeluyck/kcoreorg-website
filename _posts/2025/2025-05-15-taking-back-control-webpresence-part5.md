@@ -52,13 +52,13 @@ After deploying it, I added a reverse proxy definition in my [caddy](/2025/04/15
 
 Adding a tunnel was straightforward:
 
-1. Add a site, selecting your tunnel type (eg. Newt), and write down the `endpoint`, `Newt ID` and `Newt Secret Key`
+1. Add a site, selecting your tunnel type (eg. Newt), and write down the `endpoint`, `Newt ID` and `Newt Secret Key`.
 ![Pangolin New Site](/assets/images/2025/04/pangolin_new_site.png){: .align-center}
 
-2. Select 'Resources', choose the site you added in step 1, pick HTTPS resource, and add the subdomain you want it to be available on
+2. Select 'Resources', choose the site you added in step 1, pick HTTPS resource, and add the subdomain you want it to be available on.
 ![Pangolin New Resource](/assets/images/2025/04/pangolin_new_resource.png){: .align-center}
 
-3. Edit the resource you just added, and configure what needs to happen - in this case, traffic is sent to `localhost` on port 80. Localhost is where the Newt wireguard client runs
+3. Edit the resource you just added, and configure what needs to happen - in this case, traffic is sent to `localhost` on port 80. Localhost is where the Newt wireguard client is running.
 ![Pangolin New Resouce Rules](/assets/images/2025/04/pangolin_new_resource_rules.png){: .align-center}
 
 4. Deploy Newt on your target, and see it connect :)
