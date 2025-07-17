@@ -56,4 +56,4 @@ fusermount -u /<mountpoint>
 ```
  when you're finished.
 
-I've uploaded the script to my [scripts repository](https://github.com/jdeluyck/scripts) on [GitHub](https://github.com).
+I've uploaded the script to my [scripts repository](https://codeberg.org/jdeluyck/scripts) on [Codeberg](https://codeberg.org).

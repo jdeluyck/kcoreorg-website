@@ -1,7 +1,7 @@
 ---
 title: Reclaiming My Digital Sovereignty, Part 1 - VPS Trials and Container Tribulations
 date: 2025-03-15
-last_modified_at: 2025-06-27
+last_modified_at: 2025-07-17
 author: Jan
 layout: single
 categories:
@@ -240,5 +240,5 @@ In the end I gave up, and switched everything over to using quadlets. This worke
 
 * The architecture I created above works, but it feels overly complex, and hard to maintain. There are a lot of pieces to juggle and keep up to date: 5 containers per hosting, 2 on the edge layer, and if I wanted to host additional (already containerised) workloads it'd mean having yet another set of containers to work with.
 
-To say the least, I am not sold on maintaining this... and will investigate another route. For the interested parties, I've uploaded my template for Mariadb to [GitHub](https://github.com/jdeluyck/container_hosting_quadlets).
+To say the least, I am not sold on maintaining this... and will investigate another route. For the interested parties, I've uploaded my template for Mariadb to [Codeberg](https://codeberg.org/jdeluyck/container_hosting_quadlets).
 
