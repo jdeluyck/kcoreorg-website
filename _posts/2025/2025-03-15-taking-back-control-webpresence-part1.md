@@ -2,6 +2,7 @@
 title: Reclaiming My Digital Sovereignty, Part 1 - VPS Trials and Container Tribulations
 date: 2025-03-15
 last_modified_at: 2025-06-27
+permalink: /2025/03/15/taking-back-control-webpresence-part1/
 author: Jan
 layout: single
 categories:

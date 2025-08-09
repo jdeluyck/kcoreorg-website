@@ -1,8 +1,9 @@
 ---
-title: Reclaiming My Digital Sovereignty, Part 2 - Domains and DNS
+title: Domains and DNS
 date: 2025-03-30
 author: Jan
 layout: single
+permalink: /2025/03/30/taking-back-control-webpresence-part2/
 categories:
   - Linux / Unix
 tags:
