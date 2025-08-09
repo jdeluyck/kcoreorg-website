@@ -42,14 +42,9 @@ search_full_content: true
 
 future: true
 
-#twitter:
-#  username: "jdeluyck"
-
-facebook:
-  username: "jan.deluyck"
-
 # Site Footer
 footer:
+  since: "2003"
   links:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
@@ -58,6 +53,9 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: https://facebook.com/jan.deluyck
+    - label: "Codeberg"
+      icon: "assets/icons/codeberg.svg"
+      url: https://codeberg.org/jdeluyck
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/jdeluyck
