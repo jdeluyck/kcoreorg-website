@@ -25,7 +25,7 @@ tags:
 The code I have hosted publicly is on [GitHub](https://github.com) - a freemium [software forge](https://en.wikipedia.org/wiki/Forge_%28software%29), which uses [git](https://en.wikipedia.org/wiki/Git) for sharing code. It's owned by Microsoft, and one of the biggest in the field (if not _the_ biggest).
 I also have some private repositories on GitHub, with code that's really just for me.
 
-Other players that I've dabbled with in the past are SourceForge](https://sourceforge.net/), [GitLab](https://gitlab.org), [BitBucket](https://bitbucket.org), [Gitea](https://about.gitea.com/) and lately [CodeBerg](https://codeberg.org/) and it's counterpart [Forgejo](https://forgejo.org/).
+Other players that I've dabbled with in the past are [SourceForge](https://sourceforge.net/), [GitLab](https://gitlab.org), [BitBucket](https://bitbucket.org), [Gitea](https://about.gitea.com/) and lately [CodeBerg](https://codeberg.org/) and it's counterpart [Forgejo](https://forgejo.org/).
 Some of these are pure hosted solutions, whereas others can be hosted yourself. 
 
 I decided to host a Forgejo instance on my home network, and moved all private repositories off of GitHub. I've also implemented some [Forgejo Actions](https://forgejo.org/docs/next/user/actions/reference/) (very comparable to [GitHub Actions](https://github.com/features/actions)) to automate things that I'd had running through shell scripts and cron.
