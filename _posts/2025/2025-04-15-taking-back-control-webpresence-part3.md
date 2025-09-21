@@ -12,6 +12,7 @@ tags:
   - netcup
   - proxmox
   - proxmoxVE
+  - sdn
   - proxmox virtual environment
   - caddy
   - sshpiper
@@ -130,17 +131,17 @@ As I wanted to forward the incoming traffic to a specific LXC, I needed to add s
 
 I added this to `/etc/network/interfaces` under `iface vmbr0 inet static`
 ```
-        post-up iptables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 80 -j DNAT --to-destination <ip-of-LXC>
-        post-up iptables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 443 -j DNAT --to-destination <ip-of-LXC>
-        post-up iptables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 2222 -j DNAT --to-destination <ip-of-LXC>
-        post-up iptables -t nat -A PREROUTING -p tcp -i vnet0 --dport 80 --destination <public-ip-address> -j DNAT --to-destination <ip-of-LXC>
-        post-up iptables -t nat -A PREROUTING -p tcp -i vnet0 --dport 443 --destination <public-ip-address> -j DNAT --to-destination <ip-of-LXC>
+        post-up iptables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 80 -j DNAT --to-destination <IPv4-of-LXC>
+        post-up iptables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 443 -j DNAT --to-destination <IPv4-of-LXC>
+        post-up iptables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 2222 -j DNAT --to-destination <IPv4-of-LXC>
+        post-up iptables -t nat -A PREROUTING -p tcp -i vnet0 --dport 80 --destination <public-IPv4-address> -j DNAT --to-destination <IPv4-of-LXC>
+        post-up iptables -t nat -A PREROUTING -p tcp -i vnet0 --dport 443 --destination <public-IPv4-address> -j DNAT --to-destination <IPv4-of-LXC>
 
-        post-down iptables -t nat -D PREROUTING -p tcp -i vmbr0 --dport 80 -j DNAT --to-destination <ip-of-LXC>
-        post-down iptables -t nat -D PREROUTING -p tcp -i vmbr0 --dport 443 -j DNAT --to-destination <ip-of-LXC>
-        post-down iptables -t nat -D PREROUTING -p tcp -i vmbr0 --dport 2222 -j DNAT --to-destination <ip-of-LXC>
-        post-down iptables -t nat -D PREROUTING -p tcp -i vnet0 --dport 80 --destination <public-ip-address> -j DNAT --to-destination <ip-of-LXC>
-        post-down iptables -t nat -D PREROUTING -p tcp -i vnet0 --dport 443 --destination <public-ip-address> -j DNAT --to-destination <ip-of-LXC>
+        post-down iptables -t nat -D PREROUTING -p tcp -i vmbr0 --dport 80 -j DNAT --to-destination <IPv4-of-LXC>
+        post-down iptables -t nat -D PREROUTING -p tcp -i vmbr0 --dport 443 -j DNAT --to-destination <IPv4-of-LXC>
+        post-down iptables -t nat -D PREROUTING -p tcp -i vmbr0 --dport 2222 -j DNAT --to-destination <IPv4-of-LXC>
+        post-down iptables -t nat -D PREROUTING -p tcp -i vnet0 --dport 80 --destination <public-IPv4-address> -j DNAT --to-destination <IPv4-of-LXC>
+        post-down iptables -t nat -D PREROUTING -p tcp -i vnet0 --dport 443 --destination <public-IPv4-address> -j DNAT --to-destination <IPv4-of-LXC>
 ```
 
 The first three rules route traffic hitting port 80 (http), 443 (https) and 2222 (sshpiper) to my edge LXC.
