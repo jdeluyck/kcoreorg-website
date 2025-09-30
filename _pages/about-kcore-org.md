@@ -7,6 +7,7 @@ layout: single
 author_profile: false
 classes: wide
 permalink: /about-kcore-org/
+last_modified_at: 2025-09-30
 sidebar:
   nav: "site_sidebar"
 ---
@@ -26,7 +27,7 @@ As a final move, I moved the blog from WordPress to a Jekyll generated static si
 At kcore.org, I do take your privacy seriously.
 
 ### Hosting partner
-The hosting is done using [Github Pages](https://pages.github.com/), but it is passed through [Cloudflare](https://cloudflare.com) to enable some server-side redirects. I haven't found a better way to do this that doesn't involve spinning up some virtual server.
+The hosting is done on a [Netcup](https://www.netcup.com/en/?ref=270183) VPS, using [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview). DNS is hosted with [deSEC.io](https://desec.io/).
 
 ### Analytics
 I do not use any analytics software.
