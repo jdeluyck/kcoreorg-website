@@ -42,7 +42,7 @@ WantedBy=multi-user.target
 
 I decided to get off my butt and implement IPv6 on the [simple zone](https://pve.proxmox.com/pve-docs/chapter-pvesdn.html) [SDN (Software Defined Network)](https://en.wikipedia.org/wiki/Software-defined_networking) in Proxmox.
 
-Unfortunately my VPS provider [Netcup](https://netcup.com) only offers 1 IPv6 /64 subnet, so I had to use an [IPv6 Unique Local Address (ULA)](https://en.wikipedia.org/wiki/Unique_local_address) and use Network Address Translation (NAT) between the two.
+Unfortunately my VPS provider [Netcup](https://www.netcup.com/en/?ref=270183) only offers 1 IPv6 /64 subnet, so I had to use an [IPv6 Unique Local Address (ULA)](https://en.wikipedia.org/wiki/Unique_local_address) and use Network Address Translation (NAT) between the two.
 
 As a rule of thumb: if you can avoid doing any form of NAT with IPv6, do it!
 
