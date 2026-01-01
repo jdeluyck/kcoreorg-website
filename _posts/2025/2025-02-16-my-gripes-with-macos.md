@@ -5,7 +5,7 @@ author: Jan
 layout: single
 categories:
   - Apple / Mac OS
-  - Rant
+  - Rants
 tags:
   - apple
   - macbook
