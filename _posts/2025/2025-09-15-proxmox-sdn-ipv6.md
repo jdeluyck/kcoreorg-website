@@ -1,11 +1,11 @@
 ---
 title: Enabling native IPv6 on Proxmox and LXC using SDN
 date: 2025-09-15
-categories:
-  - Linux / Unix
-  - Networking
-  - Virtualisation
+categories: [Technology & IT, Virtualisation]
 tags:
+  - linux
+  - networking
+  - virtualisation
   - proxmox
   - proxmoxVE
   - proxmox virtual environment

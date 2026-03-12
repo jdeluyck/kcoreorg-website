@@ -2,9 +2,10 @@
 title: Moving the elephant in the room
 date: 2025-04-30
 permalink: /2025/04/30/taking-back-control-webpresence-part4/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Virtualisation]
 tags:
+  - linux
+  - vps
   - mastodon
   - backblaze
   - cloudflare

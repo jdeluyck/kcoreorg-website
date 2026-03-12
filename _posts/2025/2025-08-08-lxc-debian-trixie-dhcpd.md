@@ -1,11 +1,11 @@
 ---
 title: Proxmox, LXC, and Debian Trixie
 date: 2025-08-08
-categories:
-  - Linux / Unix
-  - Networking
-  - Virtualisation
+categories: [Technology & IT, Virtualisation]
 tags:
+  - linux
+  - networking
+  - virtualisation
   - proxmox
   - proxmoxVE
   - proxmox virtual environment

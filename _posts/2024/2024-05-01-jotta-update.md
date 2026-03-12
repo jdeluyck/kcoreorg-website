@@ -1,9 +1,9 @@
 ---
 title: Jottacloud - an update
 date: 2024-05-01
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
+  - linux
   - jottacloud
   - restic
   - rclone

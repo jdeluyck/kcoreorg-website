@@ -1,8 +1,7 @@
 ---
 title: Turning a Youtube channel into a podcast
 date: 2024-05-25
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - youtube
   - 2600 Off The Hook Overtime

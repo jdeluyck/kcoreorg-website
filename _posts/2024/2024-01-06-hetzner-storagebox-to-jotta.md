@@ -1,8 +1,7 @@
 ---
 title: Moving from Hetzner Storageboxes to Jottacloud
 date: 2024-01-06
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - hetzner storagebox
   - jottacloud
@@ -16,4 +15,4 @@ I came across [Mega](https://mega.nz)'s [Pro](https://mega.nz/pro) tier, which o
 
 After doing some tests - transfer speeds both up and down, verification, reliability, ... I ended up going with Jottacloud for my future needs. Jotta was (using 6TB of data) the fastest both in upload and download and reliability. Mega was worst in speed and reliability. The data ended up fine on all targets.
 
-Jottacloud clearly [documents the reduced upload speeds](https://docs.jottacloud.com/en/articles/3271114-reduced-upload-speed), which for my usecase is perfectly acceptable. 
+Jottacloud clearly [documents the reduced upload speeds](https://docs.jottacloud.com/en/articles/3271114-reduced-upload-speed), which for my usecase is perfectly acceptable.
