@@ -41,12 +41,11 @@ social:
   email: jan@kcore.org # change to your email address
   fediverse_handle: "@jan@fedi.kcore.org" # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    - https://www.facebook.com/username
-    - https://www.linkedin.com/in/username
+    - https://kcore.org/
+    - https://codeberg.org/jdeluyck
+    - https://github.com/jdeluyck
+    - https://facebook.com/jan.deluyck
+    - https://linkedin.com/in/jandeluyck
 
 # Site Verification Settings
 webmaster_verifications:
@@ -123,7 +122,7 @@ comments:
   #    issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
+    repo: jdeluyck/kcoreorg-website
     repo_id: "MDEwOlJlcG9zaXRvcnkxODk0MDYzNzg="
     category: "Blog Comments"
     category_id: "DIC_kwDOC0ocqs4CU-vw"
