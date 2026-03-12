@@ -1,15 +1,9 @@
 ---
-id: 1188
-title: About kcore.org
-date: 2023-03-26
-author: Jan
-layout: single
-author_profile: false
-classes: wide
-permalink: /about-kcore-org/
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 5
 last_modified_at: 2025-09-30
-sidebar:
-  nav: "site_sidebar"
+title: About kcore.org
 ---
 
 ## About the site
@@ -24,7 +18,6 @@ I decided to merge this the (old) content of the site into the blog, and put it 
 As a final move, I moved the blog from WordPress to a Jekyll generated static site - I was getting tired of having to update WordPress continuously.
 
 ## Privacy
-At kcore.org, I do take your privacy seriously.
 
 ### Hosting partner
 The hosting is done on a [Netcup](https://www.netcup.com/en/?ref=270183) VPS, using [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview). DNS is hosted with [deSEC.io](https://desec.io/).
