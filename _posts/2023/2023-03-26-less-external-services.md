@@ -1,8 +1,6 @@
 ---
 title: Now using less external services!
 date: 2023-03-26
-author: Jan
-layout: single
 categories:
   - Personal
 tags:

@@ -2,14 +2,10 @@
 id: 63
 title: Take This Waltz (Leonard Cohen)
 date: 2004-06-09T21:53:51+02:00
-author: Jan
-layout: single
 permalink: /2004/06/09/take-this-waltz-leonard-cohen/
-categories:
-  - Music
+categories: [Personal, Music]
 tags:
   - leonard cohen
-format: video
 ---
 Now in Vienna there's ten pretty women  
 There's a shoulder where Death comes to cry  

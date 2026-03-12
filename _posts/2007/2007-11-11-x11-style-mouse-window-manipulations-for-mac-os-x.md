@@ -2,8 +2,6 @@
 id: 166
 title: X11-style mouse window manipulations for Mac OS X
 date: 2007-11-11T14:09:55+02:00
-author: Jan
-layout: single
 permalink: /2007/11/11/x11-style-mouse-window-manipulations-for-mac-os-x/
 categories:
   - Apple / Mac OS

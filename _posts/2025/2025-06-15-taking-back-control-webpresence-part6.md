@@ -1,8 +1,6 @@
 ---
 title: Code storage
 date: 2025-06-15
-author: Jan
-layout: single
 permalink: /2025/06/15/taking-back-control-webpresence-part6/
 categories:
   - Linux / Unix
@@ -31,5 +29,3 @@ Some of these are pure hosted solutions, whereas others can be hosted yourself.
 I decided to host a Forgejo instance on my home network, and moved all private repositories off of GitHub. I've also implemented some [Forgejo Actions](https://forgejo.org/docs/next/user/actions/reference/) (very comparable to [GitHub Actions](https://github.com/features/actions)) to automate things that I'd had running through shell scripts and cron.
 
 New things I'll be hosting on [Codeberg](https://codeberg.org/jdeluyck/), some things I might still mirror through to GitHub, and I'll be moving some stuff between the two.
-
-

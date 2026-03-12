@@ -1,8 +1,6 @@
 ---
 title: Proxmox, LXC, and Debian Trixie
 date: 2025-08-08
-author: Jan
-layout: single
 categories:
   - Linux / Unix
   - Networking

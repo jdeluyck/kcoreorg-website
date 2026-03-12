@@ -2,8 +2,6 @@
 id: 154
 title: Come flush with us!
 date: 2007-10-30T21:59:37+02:00
-author: Jan
-layout: single
 permalink: /2007/10/30/come-flush-with-us/
 categories:
   - Travels
@@ -37,19 +35,19 @@ Overall problems:
 Bathroom problems:
 
   1. The bathroom has a leak, from the upstairs neighbours. We reported this, no one came to look or even bothered to call us back.
-  2. The [shower](/assets/images/2007/10/pa211879.jpg) is useless - it's got a 5cm deep basin, and the drain is crap, so if you shower, you flood the bathroom.
+  2. The [shower](/assets/img/posts/2007/10/pa211879.jpg) is useless - it's got a 5cm deep basin, and the drain is crap, so if you shower, you flood the bathroom.
   3. Again on the shower, don't use it. It will break. We had to buy a new shower tube because it broke, and we didn't want to cough up 50e or more (standard fee by Rent4Days, it costs maybe 8e if you buy it in a shop)
 
 Kitchen problems:
 
-  1. If you dare use the washing machine (good luck without the instructions), and spin stuff, don't be amazed when [the kitchen cabinet falls apart](/assets/images/2007/10/pa211877.jpg).
+  1. If you dare use the washing machine (good luck without the instructions), and spin stuff, don't be amazed when [the kitchen cabinet falls apart](/assets/img/posts/2007/10/pa211877.jpg).
   2. The sink is placed in a way that you can never stand completely behind it, unless you're a plank. Wonderful.
   3. There are no cabinets. Don't even think of storing anything - there is NO room.
   4. This place is supposed to sleep 7, but forget about eating or drinking with 7. Not enough dishes/glasses/cutlery! You can even forget about cooking for seven! The biggest pot is about 3l.
 
 Bedroom:
 
-  1. This is supposed to be a [double bed](/assets/images/2007/10/pa211878.jpg). It is 120cm wide, the width of a double bed about 30 years ago. Good luck trying to sleep in that with 2 people.
+  1. This is supposed to be a [double bed](/assets/img/posts/2007/10/pa211878.jpg). It is 120cm wide, the width of a double bed about 30 years ago. Good luck trying to sleep in that with 2 people.
 
 So after about 6 sleepless nights, we moved back into Diana's place (which is tiny and with four definitely over-populated), and called the people of Rent4Days to explain the situation, and to tell them that their offer was below anything possible. What did they tell us? "You are the first persons to complain". On the remark that this place does not overlook a park, they said "We know the area, it overlooks a park." Sorry, it overlooks a GARAGE. Not a park. Not even remotely.
 
@@ -59,4 +57,4 @@ We [took some pics](https://sadevil.org/piwigo/index.php/category/29-madrid_octo
 
 To make a long story short, the rest of the days we spent at Diana's place, and we didn't really do much. The six sleepless nights were enough to drain our energy.
 
-We did [throw a party](/assets/images/2007/10/pa211886-me.jpg) there, for our friends - even though it wasn't allowed. Sorry, but after all this they deserve a very big _screw you_. It was fun, we played Killer Bunnies (having to explain everything to Diana and then she had to translate it into spanish... what a mess \*g\*). We had loads of food, brought by our friends and cooked by us, we also had booze! (sangria and sweet wine), and since it was the last Formula 1 sunday, the tv was on. It was great fun.
+We did [throw a party](/assets/img/posts/2007/10/pa211886-me.jpg) there, for our friends - even though it wasn't allowed. Sorry, but after all this they deserve a very big _screw you_. It was fun, we played Killer Bunnies (having to explain everything to Diana and then she had to translate it into spanish... what a mess \*g\*). We had loads of food, brought by our friends and cooked by us, we also had booze! (sangria and sweet wine), and since it was the last Formula 1 sunday, the tv was on. It was great fun.

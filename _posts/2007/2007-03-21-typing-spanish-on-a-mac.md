@@ -2,8 +2,6 @@
 id: 110
 title: Typing spanish on a Mac
 date: 2007-03-21T15:05:52+02:00
-author: Jan
-layout: single
 permalink: /2007/03/21/typing-spanish-on-a-mac/
 categories:
   - Apple / Mac OS

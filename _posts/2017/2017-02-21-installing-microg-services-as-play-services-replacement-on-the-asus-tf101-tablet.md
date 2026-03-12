@@ -2,11 +2,8 @@
 id: 1913
 title: Installing microG services (as Play Services replacement) on the Asus TF101 tablet
 date: 2017-02-21T19:58:35+02:00
-author: Jan
-layout: single
 permalink: /2017/02/21/installing-microg-services-as-play-services-replacement-on-the-asus-tf101-tablet/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - android
   - asus transformer tf101

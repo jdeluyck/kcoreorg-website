@@ -1,8 +1,6 @@
 ---
 title: Turning a Youtube channel into a podcast
 date: 2024-05-25
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

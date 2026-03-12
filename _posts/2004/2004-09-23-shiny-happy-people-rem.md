@@ -2,14 +2,10 @@
 id: 46
 title: Shiny Happy People (REM)
 date: 2004-09-23T09:29:21+02:00
-author: Jan
-layout: single
 permalink: /2004/09/23/shiny-happy-people-rem/
-categories:
-  - Music
+categories: [Personal, Music]
 tags:
   - rem
-format: video
 ---
 Shiny happy people laughing  
 Meet me in the crowd  

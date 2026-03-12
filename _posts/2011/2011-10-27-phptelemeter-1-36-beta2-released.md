@@ -2,11 +2,8 @@
 id: 1327
 title: phptelemeter 1.36-beta2 released
 date: 2011-10-27T09:56:50+02:00
-author: Jan
-layout: single
 permalink: /2011/10/27/phptelemeter-1-36-beta2-released/
-categories:
-  - phptelemeter
+categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---

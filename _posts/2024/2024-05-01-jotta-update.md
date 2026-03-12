@@ -1,8 +1,6 @@
 ---
 title: Jottacloud - an update
 date: 2024-05-01
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

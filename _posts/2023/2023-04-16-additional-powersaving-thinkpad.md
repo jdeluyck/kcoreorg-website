@@ -1,10 +1,7 @@
 ---
 title: Additional powersaving using udev rules
 date: 2023-04-16
-author: Jan
-layout: single
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - lenovo thinkpad t14s gen3 amd
 ---

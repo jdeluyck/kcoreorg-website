@@ -2,14 +2,10 @@
 id: 64
 title: Tower of Song (Leonard Cohen)
 date: 2004-07-09T09:27:30+02:00
-author: Jan
-layout: single
 permalink: /2004/07/09/tower-of-song-leonard-cohen/
-categories:
-  - Music
+categories: [Personal, Music]
 tags:
   - leonard cohen
-format: video
 ---
 Well my friends are gone and my hair is grey  
 I ache in the places where I used to play  

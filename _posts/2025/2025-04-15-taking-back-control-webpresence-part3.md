@@ -1,8 +1,6 @@
 ---
 title: VPS Proxmox Love
 date: 2025-04-15
-author: Jan
-layout: single
 permalink: /2025/04/15/taking-back-control-webpresence-part3/
 categories:
   - Linux / Unix
@@ -85,7 +83,7 @@ $ sudo -u pdns pdnsutil create-zone 10.in-addr.arpa pdns.my-local-zone.local
 
 To configure it in Proxmox, I headed to Datacenter &rarr; SDN &rarr; Options &rarr; DNS and added 'powerdns'
 
-![Proxmox Datacenter SDN Options to add PowerDNS](/assets/images/2025/04/proxmoxve_sdn_dns.png){: .align-center}
+![Proxmox Datacenter SDN Options to add PowerDNS](/assets/img/posts/2025/04/proxmoxve_sdn_dns.png){: .align-center}
 
 * ID needs to match `server-id` in the PowerDNS config
 * API Key needs to match the `api-key` in the PowerDNS config
@@ -93,7 +91,7 @@ To configure it in Proxmox, I headed to Datacenter &rarr; SDN &rarr; Options &ra
 
 Then reconfigured the zone, under Datacenter &rarr; SDN &rarr; Zones, set the DNS and Reverse DNS servers to `pdns`, and added my `my-local-zone.local` zone under 'DNS Zone'.
 
-![Proxmox Datacenter SDN Zone DNS configuration](/assets/images/2025/04/proxmoxve_sdn_dns_zone.png){: .align-center}
+![Proxmox Datacenter SDN Zone DNS configuration](/assets/img/posts/2025/04/proxmoxve_sdn_dns_zone.png){: .align-center}
 
 ### Recursive DNS
 
@@ -151,7 +149,7 @@ The last two rules are there to make sure that traffic that hits `vnet0`, which 
 
 This is the architecture I came up with for this installment, and which is currently being used:
 
-![Architecture of my web hosting setup, using ProxmoxVE and Linux containers](/assets/images/2025/04/proxmox_website_hosting.png){: .align-center}
+![Architecture of my web hosting setup, using ProxmoxVE and Linux containers](/assets/img/posts/2025/04/proxmox_website_hosting.png){: .align-center}
 
 All traffic that hits the public IP address is forwarded to the IP address of the edge LXC. This LXC runs:
 * [caddy](https://caddyserver.com/) as reverse proxy for web traffic

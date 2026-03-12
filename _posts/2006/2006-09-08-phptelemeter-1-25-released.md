@@ -2,11 +2,8 @@
 id: 1361
 title: phptelemeter 1.25 released
 date: 2006-09-08T10:29:58+02:00
-author: Jan
-layout: single
 permalink: /2006/09/08/phptelemeter-1-25-released/
-categories:
-  - phptelemeter
+categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---

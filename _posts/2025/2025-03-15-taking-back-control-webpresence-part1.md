@@ -3,8 +3,6 @@ title: Reclaiming My Digital Sovereignty, Part 1 - VPS Trials and Container Trib
 date: 2025-03-15
 permalink: /2025/03/15/taking-back-control-webpresence-part1/
 last_modified_at: 2025-07-17
-author: Jan
-layout: single
 categories:
   - Linux / Unix
   - Networking
@@ -143,7 +141,7 @@ The final hurdle I bumped into was that for some obscure reason, my Traefik cont
 
 The architecture I had in mind was:
 
-![Architecture of my containerised web hosting setup, running on top of openSUSE MicroOS](/assets/images/2025/03/container_website_hosting.png){: .align-center}
+![Architecture of my containerised web hosting setup, running on top of openSUSE MicroOS](/assets/img/posts/2025/03/container_website_hosting.png){: .align-center}
 
 The outer (edge) layer would be comprised of:
 * [traefik](https://traefik.io/traefik/) as reverse proxy for web traffic
@@ -242,4 +240,3 @@ In the end I gave up, and switched everything over to using quadlets. This worke
 * The architecture I created above works, but it feels overly complex, and hard to maintain. There are a lot of pieces to juggle and keep up to date: 5 containers per hosting, 2 on the edge layer, and if I wanted to host additional (already containerised) workloads it'd mean having yet another set of containers to work with.
 
 To say the least, I am not sold on maintaining this... and will investigate another route. For the interested parties, I've uploaded my template for Mariadb to [Codeberg](https://codeberg.org/jdeluyck/container_hosting_quadlets).
-

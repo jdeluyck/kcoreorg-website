@@ -2,11 +2,8 @@
 id: 1284
 title: Pegasi Web Server (pws)
 date: 2004-03-13T19:47:02+02:00
-author: Jan
-layout: single
 permalink: /2004/03/13/pegasi-web-server-pws/
-categories:
-  - Random
+categories: [Software, Pegasi Web Server]
 tags:
   - hogent
   - java

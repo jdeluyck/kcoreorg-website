@@ -1,8 +1,6 @@
 ---
 title: 'Dark theme in Flatpak apps'
 date: 2022-11-16
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

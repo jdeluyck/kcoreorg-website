@@ -2,12 +2,10 @@
 id: 772
 title: Fixing the ACPI DSDT of an Acer Ferrari One 200
 date: 2012-01-01T13:33:35+02:00
-author: Jan
-layout: single
 permalink: /2012/01/01/fixing-the-acpi-dsdt-of-an-acer-ferrari-one-200/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
+  - linux
   - acer ferrari one 200
   - acpi
   - DSDT

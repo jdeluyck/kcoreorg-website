@@ -2,8 +2,6 @@
 id: 564
 title: Hosting move
 date: 2010-02-05T12:23:41+02:00
-author: Jan
-layout: single
 permalink: /2010/02/05/hosting-move/
 categories:
   - Networking

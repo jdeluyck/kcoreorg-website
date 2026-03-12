@@ -2,8 +2,6 @@
 id: 524
 title: 'Nacht van FCP&D'
 date: 2009-11-22T12:45:09+02:00
-author: Jan
-layout: single
 permalink: /2009/11/22/nacht-van-fcpd/
 categories:
   - 'Flemish Caledonian Pipes &amp; Drums'
@@ -12,7 +10,7 @@ tags:
   - 'fcp&amp;d'
   - pipeband
 ---
-![Nacht van FCP&D](/assets/images/2009/11/Nacht-met-tekst-sm.jpg "Nacht van FCP&D")
+![Nacht van FCP&D](/assets/img/posts/2009/11/Nacht-met-tekst-sm.jpg "Nacht van FCP&D")
 
 Another shameless advertisement for the upcoming [Nacht van FCP&D](http://www.glengarry.be/fcpd/geheugensteun.html) organised by the [Flemish Caledonian Pipes & Drums - Clan MacKenzie](http://www.fcpd.be/), for our 20<sup>th</sup> year anniversary. We're playing together with the Royal Fanfare St-Cecilia Teralfene.
 

@@ -2,8 +2,6 @@
 id: 152
 title: Blog action day!
 date: 2007-10-15T19:52:06+02:00
-author: Jan
-layout: single
 permalink: /2007/10/15/blog-action-day/
 categories:
   - Personal
@@ -18,4 +16,4 @@ I support it, but since I generally suck at writing things 'on demand', I'll jus
 The points that [Sade makes](http://sade.sadevil.org/blog/?p=119) I support completely.
 
 [url]: http://blogactionday.org
-[img]: /assets/images/2007/09/action_250x250.jpg "Bloggers Unite - Blog Action Day"
+[img]: /assets/img/posts/2007/09/action_250x250.jpg "Bloggers Unite - Blog Action Day"

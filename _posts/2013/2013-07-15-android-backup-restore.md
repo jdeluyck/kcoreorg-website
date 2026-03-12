@@ -2,11 +2,8 @@
 id: 1037
 title: 'Android Backup & Restore'
 date: 2013-07-15T12:16:59+02:00
-author: Jan
-layout: single
 permalink: /2013/07/15/android-backup-restore/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - android
   - backup manager

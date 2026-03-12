@@ -2,11 +2,8 @@
 id: 231
 title: 'Strange problems with windows 2k3...'
 date: 2008-04-16T11:03:04+02:00
-author: Jan
-layout: single
 permalink: /2008/04/16/strange-problems-with-windows-2k3/
-categories:
-  - Windows
+categories: [Technology & IT, Windows]
 tags:
   - problems
   - registry

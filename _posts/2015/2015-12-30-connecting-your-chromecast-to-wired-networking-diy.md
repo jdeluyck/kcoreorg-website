@@ -2,8 +2,6 @@
 id: 1119
 title: 'Connecting your Chromecast to wired networking - DIY'
 date: 2015-12-30T19:24:09+02:00
-author: Jan
-layout: single
 permalink: /2015/12/30/connecting-your-chromecast-to-wired-networking-diy/
 categories:
   - Chromecast

@@ -2,8 +2,6 @@
 id: 255
 title: CoRD and xrdp
 date: 2008-06-29T17:07:47+02:00
-author: Jan
-layout: single
 permalink: /2008/06/29/cord-and-xrdp/
 categories:
   - Apple / Mac OS

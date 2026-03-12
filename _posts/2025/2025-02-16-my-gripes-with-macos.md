@@ -1,14 +1,12 @@
 ---
 title: My gripes with macOs
 date: 2025-02-16
-author: Jan
-layout: single
-categories:
-  - Apple / Mac OS
-  - Rants
+categories: [Technology & IT, Apple]
 tags:
+  - rants
   - apple
   - macbook
+  - macos
 ---
 
 For work I have to use a Macbook. This is due to reasons I won't go into in this ~~rant~~blogpost, but suffice it to say that there's currently no other option. It's a Macbook Pro, previously an Intel variety, now it's one of the Apple Silicon persuation. 

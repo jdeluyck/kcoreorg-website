@@ -2,11 +2,8 @@
 id: 232
 title: Handy codes for Nokia E65
 date: 2008-04-23T09:29:18+02:00
-author: Jan
-layout: single
 permalink: /2008/04/23/handy-codes-for-nokia-e65/
-categories:
-  - Symbian
+categories: [Mobile & Gadgets, Symbian]
 tags:
   - bluetooth
   - codes

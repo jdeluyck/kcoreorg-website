@@ -2,8 +2,6 @@
 id: 200
 title: Signpost in Antwerp
 date: 2008-01-09T20:58:45+02:00
-author: Jan
-layout: single
 permalink: /2008/01/09/signpost-in-antwerp/
 categories:
   - Personal
@@ -13,11 +11,10 @@ tags:
   - antwerp
   - belgium
   - signpost
-format: image
 ---
 Go Belgium, with our super-duper hyper-effecient roads:
 
-![Signpost in Antwerp, Belgium](/assets/images/2008/01/belgium_signs-sm.jpg "Signpost in Antwerp, Belgium")
+![Signpost in Antwerp, Belgium](/assets/img/posts/2008/01/belgium_signs-sm.jpg "Signpost in Antwerp, Belgium")
 
 Oops?
 

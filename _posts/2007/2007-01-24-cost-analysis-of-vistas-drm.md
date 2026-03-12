@@ -2,8 +2,6 @@
 id: 101
 title: 'Cost analysis of Vista&apos;s DRM'
 date: 2007-01-24T08:13:59+02:00
-author: Jan
-layout: single
 permalink: /2007/01/24/cost-analysis-of-vistas-drm/
 categories:
   - Windows

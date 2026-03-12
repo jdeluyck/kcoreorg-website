@@ -2,8 +2,6 @@
 id: 253
 title: I can has weekend? Seems not.
 date: 2008-06-22T15:25:00+02:00
-author: Jan
-layout: single
 permalink: /2008/06/22/i-can-has-weekend-seems-not/
 categories:
   - Rants

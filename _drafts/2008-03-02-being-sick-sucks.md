@@ -2,8 +2,6 @@
 id: 221
 title: Being sick sucks!
 date: 2008-03-02T15:42:43+02:00
-author: Jan
-layout: single
 permalink: /2008/03/02/being-sick-sucks/
 categories:
   - Personal

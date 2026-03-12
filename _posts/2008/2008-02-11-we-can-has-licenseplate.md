@@ -2,8 +2,6 @@
 id: 218
 title: We can has licenseplate?
 date: 2008-02-11T19:50:10+02:00
-author: Jan
-layout: single
 permalink: /2008/02/11/we-can-has-licenseplate/
 categories:
   - Cars
@@ -12,9 +10,8 @@ tags:
   - license plate
   - mad dash
   - toyota prius
-format: image
 ---
-![Licenseplate reads YEZ-](/assets/images/2008/02/plate-sm.jpg)
+![Licenseplate reads YEZ-](/assets/img/posts/2008/02/plate-sm.jpg)
 
 Yez! We can! :p
 

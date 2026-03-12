@@ -2,8 +2,6 @@
 id: 704
 title: Adobe AIR 2.6 and Debian Sid 64-bit
 date: 2011-11-27T11:56:02+02:00
-author: Jan
-layout: single
 permalink: /2011/11/27/adobe-air-2-6-and-debian-sid-64-bit/
 categories:
   - Linux / Unix
@@ -54,11 +52,11 @@ After this, the installer went ahead and dumped AIR in `/opt/Adobe AIR`. (spaces
 
 Next hurdle: after installing Saezuri, I noticed it had a hideous black border:
 
-![Saezuri with black border](/assets/images/2011/11/saezuri-backborder1.png "Saezuri with black border")
+![Saezuri with black border](/assets/img/posts/2011/11/saezuri-backborder1.png "Saezuri with black border")
 
 ... completely not acceptable. Luckely, this was easily fixed by enabling [display compositing](http://en.wikipedia.org/wiki/Compositing_window_manager) in the XFCE settings. Another problem fixed:
 
-![Saezuri with transparancy](/assets/images/2011/11/saezuri-transparant.png "Saezuri with transparancy")
+![Saezuri with transparancy](/assets/img/posts/2011/11/saezuri-transparant.png "Saezuri with transparancy")
 
 
 The last problem I ran into is that AIR seems to default to [firefox](http://www.mozilla.org/en-US/firefox/new/) as the default browser. Since I'm not a firefox user (I do have it installed for those special occasions), that didn't do. After some more digging I found [a blog post](http://blog.andreaolivato.net/open-source/change-adobe-air-apps-default-browser.html) detailing how to change this: apparently Adobe decided that hardcoding firefox as a browser was a good idea. I fixed this by hex-editing the `libCore.so` file under `/opt/Adobe AIR/Versions/1.0`, changing the hardcoded 'firefox' by 'browser', and adding a symlink under `/usr/bin` pointing `browser` to `x-www-browser`:  

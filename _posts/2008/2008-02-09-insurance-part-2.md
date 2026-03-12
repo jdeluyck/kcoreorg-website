@@ -2,8 +2,6 @@
 id: 214
 title: 'Insurance - part 2'
 date: 2008-02-09T10:24:58+02:00
-author: Jan
-layout: single
 permalink: /2008/02/09/insurance-part-2/
 categories:
   - Cars

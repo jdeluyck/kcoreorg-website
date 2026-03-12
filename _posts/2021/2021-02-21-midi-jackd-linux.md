@@ -1,8 +1,6 @@
 ---
 title: 'Using JACK for lower-latency audio on Linux for piano practice'
 date: 2021-02-21
-author: Jan
-layout: single
 categories:
   - Music
   - Linux / Unix
@@ -47,14 +45,14 @@ server daemon. When you install Qjackctl it will automatically pull in jackd. Yo
 [pulseaudio-module-jack](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/#jackconnectivity),
 which gives integration between PulseAudio and JACK.
 
-![qjackctl default screenshot](/assets/images/2021/02/qjackctl-screenshot1.png "qjackctl default screenshot")
+![qjackctl default screenshot](/assets/img/posts/2021/02/qjackctl-screenshot1.png "qjackctl default screenshot")
 
 Installing them is easy: ```apt install qjackctl pulseaudio-module-jack```.
 
 ## Qjackctl configuration
 The parameters I changed in the config are:
 ### Setup Settings
-![qjackctl setup settings](/assets/images/2021/02/qjackctl-setup-settings.png "qjackctl setup settings")
+![qjackctl setup settings](/assets/img/posts/2021/02/qjackctl-setup-settings.png "qjackctl setup settings")
 
 | Item | Value | Description |
 | --- | --- | --- |
@@ -65,13 +63,13 @@ The parameters I changed in the config are:
 | Periods/Buffer | 2 | Number of periods (above) of playback latency. | 
 
 ### Setup Options
-![qjackctl setup options](/assets/images/2021/02/qjackctl-setup-options.png "qjackctl setup options")
+![qjackctl setup options](/assets/img/posts/2021/02/qjackctl-setup-options.png "qjackctl setup options")
 * [JACK startup script](#startup-script)
 * [JACK shutdown script](#shutdown-script)
 * patchbay persistence
 
 ### Setup Misc
-![qjackctl setup misc](/assets/images/2021/02/qjackctl-setup-misc.png "qjackctl setup misc")
+![qjackctl setup misc](/assets/img/posts/2021/02/qjackctl-setup-misc.png "qjackctl setup misc")
 * start JACK audio server on application startup
 * **don't** save JACK audio server configuration 
 * Enable D-BUS interface
@@ -109,9 +107,9 @@ This will stop FluidSynth, and mute the headset. To figure out the device to mut
 
 ### Patchbay configuration
 Configuring the routing in qjackctl is easily through the patchbay or through the graph.
-![qjackctl patchbay](/assets/images/2021/02/qjackctl-patchbay.png "qjackctl patchbay")
+![qjackctl patchbay](/assets/img/posts/2021/02/qjackctl-patchbay.png "qjackctl patchbay")
 
-![qjackctl graph](/assets/images/2021/02/qjackctl-graph.png "qjackctl graph")
+![qjackctl graph](/assets/img/posts/2021/02/qjackctl-graph.png "qjackctl graph")
 
 * The PulseAudio JACK sink will relay the output of your system to the system playback (the input from eg. Skype or Zoom)
 * Fluidsynth will take the MIDI input, and generate audio, which is sent to the system playback _and_ to the 

@@ -2,11 +2,8 @@
 id: 534
 title: Rooting the HTC Hero
 date: 2009-12-13T18:39:23+02:00
-author: Jan
-layout: single
 permalink: /2009/12/13/rooting-the-htc-hero/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - android
   - htc hero
@@ -88,6 +85,6 @@ Then, reboot your phone (power off and on).
 
 Restart your abd shell, and execute su in your adb shell: `su`, and on the phone it should come ask if you want to allow root permissions:
 
-![SU request](/assets/images/2007/10/su-snapshot.png "SU request")
+![SU request](/assets/img/posts/2007/10/su-snapshot.png "SU request")
 
 Tap "Allow", et voila, you now have a rooted phone.

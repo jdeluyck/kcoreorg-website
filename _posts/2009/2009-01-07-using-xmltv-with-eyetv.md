@@ -2,8 +2,6 @@
 id: 421
 title: Using XMLTV with EyeTV
 date: 2009-01-07T18:21:19+02:00
-author: Jan
-layout: single
 permalink: /2009/01/07/using-xmltv-with-eyetv/
 categories:
   - Apple / Mac OS

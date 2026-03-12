@@ -2,14 +2,11 @@
 id: 250
 title: 'Eels - Need Some Sleep'
 date: 2008-06-12T16:52:20+02:00
-author: Jan
-layout: single
 permalink: /2008/06/12/eels-need-some-sleep/
 categories:
   - Music
 tags:
   - eels
-format: video
 ---
 I need some sleep.  
 I can’t go on like this.  

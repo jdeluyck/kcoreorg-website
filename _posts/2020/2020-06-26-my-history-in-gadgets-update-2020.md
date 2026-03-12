@@ -1,10 +1,7 @@
 ---
 title: 'My history in gadgets - update 2020'
 date: 2020-06-26
-author: Jan
-layout: single
-categories:
-  - Android
+categories: [Mobile & Gadgets, History]
 tags:
   - android
   - gadget
@@ -23,5 +20,5 @@ _**Phone history:**_
 I upgraded from the OnePlus 6 (which is going to my girlfriend) and got the
 
 **[OnePlus 8 Pro](https://www.gsmarena.com/oneplus_8_pro-9919.php)  
-![](/assets/images/2020/06/oneplus-8-pro.png)**   
+![](/assets/img/posts/2020/06/oneplus-8-pro.png)**   
 through my employer at a nice discounted rate.

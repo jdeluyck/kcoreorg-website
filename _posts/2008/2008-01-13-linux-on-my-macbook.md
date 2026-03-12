@@ -2,8 +2,6 @@
 id: 203
 title: Linux on my MacBook
 date: 2008-01-13T21:42:47+02:00
-author: Jan
-layout: single
 permalink: /2008/01/13/linux-on-my-macbook/
 categories:
   - Apple / Mac OS

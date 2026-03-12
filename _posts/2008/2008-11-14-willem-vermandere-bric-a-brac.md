@@ -2,8 +2,6 @@
 id: 363
 title: 'Willem Vermandere - Bric A brac'
 date: 2008-11-14T20:26:19+02:00
-author: Jan
-layout: single
 permalink: /2008/11/14/willem-vermandere-bric-a-brac/
 categories:
   - Music

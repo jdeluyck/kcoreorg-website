@@ -2,11 +2,8 @@
 id: 683
 title: How to RUU your Desire
 date: 2011-06-19T15:38:06+02:00
-author: Jan
-layout: single
 permalink: /2011/06/19/how-to-ruu-your-desire/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - android
   - htc desire

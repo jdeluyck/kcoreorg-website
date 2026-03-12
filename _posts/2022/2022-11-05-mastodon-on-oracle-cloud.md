@@ -1,8 +1,6 @@
 ---
 title: 'Deploying a Mastodon server on Oracle Cloud'
 date: 2022-11-05
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:
@@ -109,4 +107,4 @@ DEEPL_PLAN=free
 
 and restart the mastodon processes. You now will see a Translate button which will send the toot to be translated to the language configured in the web interface ;)
 
-![Mastodon Translate](/assets/images/2022/11/mastodon_translate.png)
+![Mastodon Translate](/assets/img/posts/2022/11/mastodon_translate.png)

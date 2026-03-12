@@ -2,14 +2,10 @@
 id: 50
 title: Memories (Within Temptation)
 date: 2005-01-19T13:14:37+02:00
-author: Jan
-layout: single
 permalink: /2005/01/19/memories-within-temptation/
-categories:
-  - Music
+categories: [Personal, Music]
 tags:
   - within temptation
-format: video
 ---
 In this world you tried  
 Not leaving me behind.  

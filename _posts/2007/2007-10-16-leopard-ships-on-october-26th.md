@@ -2,8 +2,6 @@
 id: 153
 title: Leopard ships on october 26th
 date: 2007-10-16T18:17:14+02:00
-author: Jan
-layout: single
 permalink: /2007/10/16/leopard-ships-on-october-26th/
 categories:
   - Apple / Mac OS
@@ -21,4 +19,4 @@ I've already preordered my copy of this operating system, which has [over 300 im
 Now go [order yours](http://store.apple.com/Catalog/US/Images/intlstoreroutingpage.html?cid=AOSA10000022132)! ;) (just kidding ;p)
 
 [url]: http://www.apple.com/macosx/
-[img]: /assets/images/2007/10/leopard-arriving-1026-hero-20071016.jpg "Mac OS X - Arriving 26th!" 
+[img]: /assets/img/posts/2007/10/leopard-arriving-1026-hero-20071016.jpg "Mac OS X - Arriving 26th!"

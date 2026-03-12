@@ -1,8 +1,6 @@
 ---
 title: Using Hetzner Storageboxes as backup targets for Restic/Rclone
 date: 2023-02-01
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

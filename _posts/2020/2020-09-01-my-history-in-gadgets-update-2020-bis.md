@@ -1,10 +1,7 @@
 ---
 title: 'My history in gadgets - update 2020 bis'
 date: 2020-09-01
-author: Jan
-layout: single
-categories:
-  - Android
+categories: [Mobile & Gadgets, History]
 tags:
   - android
   - gadget
@@ -24,6 +21,5 @@ _**Tablet history:**_
 My partner took over my Samsung Galaxy Tab S6, and I upgraded to the
 
 **[Samsung Galaxy Tab S7+](https://www.gsmarena.com/samsung_galaxy_tab_s7+-10336.php)  
-![](/assets/images/2020/09/galaxy-tab-s7plus.png)**   
+![](/assets/img/posts/2020/09/galaxy-tab-s7plus.png)**   
 specifically for the bigger screen. I'm fairly active in music (choirs), so a bigger screen is a bonus.
-

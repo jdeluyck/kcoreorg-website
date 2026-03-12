@@ -2,8 +2,6 @@
 id: 174
 title: Prius prejudice
 date: 2007-11-17T12:22:09+02:00
-author: Jan
-layout: single
 permalink: /2007/11/17/prius-prejudice/
 categories:
   - Cars

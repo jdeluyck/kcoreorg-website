@@ -2,8 +2,6 @@
 id: 1929
 title: DIY ambilight with Hyperion and a Raspberry Pi
 date: 2017-05-15T11:19:51+02:00
-author: Jan
-layout: single
 permalink: /2017/05/15/diy-ambilight-with-hyperion-and-a-raspberry-pi/
 categories:
   - Linux / Unix
@@ -19,7 +17,7 @@ I found [this tutorial](http://awesomepi.com/diy-breath-taking-ambilight-for-you
 
 After attaching it to the back of the TV (with tape, to test), this is what you get:
 
-![Lights](/assets/images/2017/05/IMG_20170501_144742-1024x526.jpg) 
+![Lights](/assets/img/posts/2017/05/IMG_20170501_144742-1024x526.jpg) 
 
 To make it work for any HDMI input, I can refer you to [this tutorial](http://www.instructables.com/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/). It consists of using an HDMI splitter, convertor to AV, and an AV to USB convertor. This signal is piped into the Pi, where Hyperion can do it's magic with it.
 

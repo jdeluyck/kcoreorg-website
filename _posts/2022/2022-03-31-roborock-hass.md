@@ -1,10 +1,7 @@
 ---
 title: 'Adding the Xiaomi Roborock S7 to Home Assistant'
 date: 2022-03-31
-author: Jan
-layout: single
-categories:
-  - Home Automation
+categories: [Technology & IT, Home Automation]
 tags:
   - home assistant
   - roborock
@@ -19,11 +16,11 @@ Enter now a sibling from another parental company: [Xiaomi Roborock S7](https://
 Integrating it with Home Assistant means figuring out how to get the *cloud token* out of the cloud account, which can be done using [Piotr Machowski's Xiaomi Cloud Token Extractor](https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor). Using that tool to get the info, and configuring it manually in Home Assistant.
 
 When adding the [Xiaomi Miio integration](https://www.home-assistant.io/integrations/xiaomi_miio/), you need to enter your cloud username & password, check the right server, and definitely check the "Configure Manually" checkbox.
-![Xiaomi Mii Integration](/assets/images/2022/03/hass-xiaomi-integration.png)
+![Xiaomi Mii Integration](/assets/img/posts/2022/03/hass-xiaomi-integration.png)
 
 In the second screen you can then add the IP address of the robot, as well as it's cloud token.
 
-![Xiaomi Mii Integration](/assets/images/2022/03/hass-xiaomi-integration-advanced.png)
+![Xiaomi Mii Integration](/assets/img/posts/2022/03/hass-xiaomi-integration-advanced.png)
 
 Now, if like me you have your [IoT](https://en.wikipedia.org/wiki/Internet_of_things) devices on their own VLAN (heavily locked down), you're gonna hit a snag here: Home Assistant will complain it can't configure the device. Some searching easily came up with the reason: the robot won't respond to UDP packets coming from outside it's subnet. 
 

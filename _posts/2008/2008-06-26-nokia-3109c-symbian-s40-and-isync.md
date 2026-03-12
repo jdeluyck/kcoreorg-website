@@ -2,8 +2,6 @@
 id: 254
 title: 'Nokia 3109c (Symbian S40) and iSync...'
 date: 2008-06-26T21:21:09+02:00
-author: Jan
-layout: single
 permalink: /2008/06/26/nokia-3109c-symbian-s40-and-isync/
 categories:
   - Apple / Mac OS

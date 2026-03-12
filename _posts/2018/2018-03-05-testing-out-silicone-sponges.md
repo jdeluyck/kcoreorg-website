@@ -2,8 +2,6 @@
 id: 1972
 title: Testing out silicone sponges
 date: 2018-03-05T17:03:42+02:00
-author: Jan
-layout: single
 permalink: /2018/03/05/testing-out-silicone-sponges/
 categories:
   - Personal

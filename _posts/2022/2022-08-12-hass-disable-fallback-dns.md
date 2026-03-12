@@ -1,8 +1,6 @@
 ---
 title: 'Disabling Home Assistant fallback DNS'
 date: 2022-08-12
-author: Jan
-layout: single
 categories:
   - Home Automation
 tags:

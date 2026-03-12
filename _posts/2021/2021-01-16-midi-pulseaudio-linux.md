@@ -1,8 +1,6 @@
 ---
 title: 'Learning the piano, and playing with MIDI & PulseAudio on Linux'
 date: 2021-01-16
-author: Jan
-layout: single
 categories:
   - Music
   - Linux / Unix
@@ -78,13 +76,13 @@ client 128: 'FLUID Synth (21896)' [type=user,pid=21896]
     0 'Synth input port (21896:0)'
 ```
 
-![aconnectgui before linking](/assets/images/2021/01/aconnectgui-before.png "aconnectgui before linking")
+![aconnectgui before linking](/assets/img/posts/2021/01/aconnectgui-before.png "aconnectgui before linking")
 
 You can connect the two using
 ```bash
 $ aconnect 24:0 128:0
 ```
-![aconnectgui after linking](/assets/images/2021/01/aconnectgui-after.png "aconnectgui after linking")
+![aconnectgui after linking](/assets/img/posts/2021/01/aconnectgui-after.png "aconnectgui after linking")
 
 If you hit a key on the piano it will sound through the default audio output :)
 
@@ -114,7 +112,7 @@ $ pacmd list-clients
 ```
 
 It'll be visible in [pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/):
-![pavucontrol](/assets/images/2021/01/pulseaudio-fluidsynth-defaultout.png "apavucontrol")
+![pavucontrol](/assets/img/posts/2021/01/pulseaudio-fluidsynth-defaultout.png "apavucontrol")
 There you can also change which device it needs to output to.
 
 ### Headset configuration

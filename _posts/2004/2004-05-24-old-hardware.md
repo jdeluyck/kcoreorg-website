@@ -2,8 +2,6 @@
 id: 41
 title: Old hardware!
 date: 2004-05-24T17:57:19+02:00
-author: Jan
-layout: single
 permalink: /2004/05/24/old-hardware/
 categories:
   - Random

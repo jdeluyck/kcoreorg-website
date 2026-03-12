@@ -1,10 +1,7 @@
 ---
 title: 'Renaming volume groups on Debian'
 date: 2021-10-20
-author: Jan
-layout: single
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - vg
   - cloud-init
@@ -21,4 +18,4 @@ So, as a reminder to myself, and a small howto for whoever else runs into this s
 * Update the [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk): `update-initramfs -u -k all`
 * Update the [grub](https://en.wikipedia.org/wiki/GNU_GRUB) install: `update-grub`
 
-And reboot. 
+And reboot.

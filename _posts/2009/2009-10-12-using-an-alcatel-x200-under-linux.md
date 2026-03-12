@@ -2,8 +2,6 @@
 id: 490
 title: Using an Alcatel X200 under Linux
 date: 2009-10-12T19:39:06+02:00
-author: Jan
-layout: single
 permalink: /2009/10/12/using-an-alcatel-x200-under-linux/
 categories:
   - Linux / Unix

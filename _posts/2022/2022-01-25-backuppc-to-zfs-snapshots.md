@@ -1,8 +1,6 @@
 ---
 title: 'Using ZFS snapshots instead of BackupPC'
 date: 2022-01-25
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

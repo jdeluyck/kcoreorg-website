@@ -1,8 +1,6 @@
 ---
 title: 'Adding en_BE locale to Linux'
 date: 2022-05-15
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

@@ -2,11 +2,8 @@
 id: 100
 title: 'I sold it on eBay...'
 date: 2007-01-18T11:11:51+02:00
-author: Jan
-layout: single
 permalink: /2007/01/18/i-sold-it-on-ebay/
-categories:
-  - Personal
+categories: [Personal]
 tags:
   - cisco
   - ebay
@@ -23,7 +20,7 @@ So, I told him to ship the stuff back, I'd refund.
 
 Today, the item arrived. The package was incomplete (missing cables), and when testing the switch, everything worked _perfectly_.
 
-![console output](/assets/images/2007/01/screenshot_cisco-sm.jpg)
+![console output](/assets/img/posts/2007/01/screenshot_cisco-sm.jpg)
 
 That can so _piss me off_. People like that aren't worth your time. So, _be warned_ when selling stuff to the [snmc1800 eBay user](http://feedback.benl.ebay.be/ws/eBayISAPI.dll?ViewFeedback&userid=snmc1800)!
 

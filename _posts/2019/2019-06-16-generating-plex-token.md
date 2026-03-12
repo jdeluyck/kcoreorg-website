@@ -1,8 +1,6 @@
 ---
 title: Generating a Plex Auth Token using curl
 date: 2019-06-16T08:33:04+02:00
-author: Jan
-layout: single
 permalink: /2019/06/16/generating-plex-token-curl/
 categories:
   - Linux / Unix

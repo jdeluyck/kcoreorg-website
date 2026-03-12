@@ -2,8 +2,6 @@
 id: 442
 title: Autoswitching network interfaces
 date: 2009-03-08T19:50:03+02:00
-author: Jan
-layout: single
 permalink: /2009/03/08/autoswitching-network-interfaces/
 categories:
   - Linux / Unix

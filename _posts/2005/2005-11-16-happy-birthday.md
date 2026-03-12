@@ -2,11 +2,8 @@
 id: 72
 title: Happy birthday!
 date: 2005-11-16T06:22:39+02:00
-author: Jan
-layout: single
 permalink: /2005/11/16/happy-birthday/
-categories:
-  - Personal
+categories: [Personal]
 ---
 **<font color="#ff0000">Feliz Cumpleaños Cariño Diana!</font>**
 

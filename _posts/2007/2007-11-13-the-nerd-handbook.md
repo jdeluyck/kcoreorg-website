@@ -2,8 +2,6 @@
 id: 169
 title: The Nerd Handbook
 date: 2007-11-13T11:16:21+02:00
-author: Jan
-layout: single
 permalink: /2007/11/13/the-nerd-handbook/
 categories:
   - Random

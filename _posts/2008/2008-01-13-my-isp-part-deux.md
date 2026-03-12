@@ -2,8 +2,6 @@
 id: 202
 title: 'My ISP - Part deux'
 date: 2008-01-13T12:29:20+02:00
-author: Jan
-layout: single
 permalink: /2008/01/13/my-isp-part-deux/
 categories:
   - Networking

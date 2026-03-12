@@ -1,8 +1,6 @@
 ---
 title: 'Exit Synology'
 date: 2020-05-01
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:
@@ -47,10 +45,10 @@ Unfortunately, a few weeks back I got woken up by the alert buzzer of the NAS, a
 Ummmm....
 
 Looking in DSM:  
-![DSM](/assets/images/2020/05/dsm_storage_manager.jpeg)
+![DSM](/assets/img/posts/2020/05/dsm_storage_manager.jpeg)
 
 First I thought it might be a drive that had crashed, but nope:  
-![Drive status](/assets/images/2020/05/dsm_drive_status.jpeg)
+![Drive status](/assets/img/posts/2020/05/dsm_drive_status.jpeg)
 
 **F U C K.**
 

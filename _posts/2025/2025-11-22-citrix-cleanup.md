@@ -1,10 +1,7 @@
 ---
 title: Obtaining the Citrix Cleanup Tool
 date: 2025-11-22
-author: Jan
-layout: single
-categories:
-  - Windows
+categories: [Technology & IT, Windows]
 tags:
   - windows
   - citrix

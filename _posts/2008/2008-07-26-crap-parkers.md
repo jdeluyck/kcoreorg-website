@@ -2,8 +2,6 @@
 id: 261
 title: Crap parkers
 date: 2008-07-26T18:27:35+02:00
-author: Jan
-layout: single
 permalink: /2008/07/26/crap-parkers/
 categories:
   - Rants
@@ -17,4 +15,4 @@ Lately we've been encountering more and more of these idiots, so we're starting 
 
 Here's the first (ok, not \_that\_ crap, but it was crap enough that I couldn't get in anymore the regular way) - car on the left:
 
-![](/assets/images/2008/02/p7192353-sm.jpg)
+![](/assets/img/posts/2008/02/p7192353-sm.jpg)

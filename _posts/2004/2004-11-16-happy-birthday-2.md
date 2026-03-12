@@ -2,11 +2,8 @@
 id: 85
 title: Happy birthday!
 date: 2004-11-16T10:09:41+02:00
-author: Jan
-layout: single
 permalink: /2004/11/16/happy-birthday-2/
-categories:
-  - Personal
+categories: [Personal]
 ---
 <font color="red">**Feliz cumpleaños cariño!**</font>
 

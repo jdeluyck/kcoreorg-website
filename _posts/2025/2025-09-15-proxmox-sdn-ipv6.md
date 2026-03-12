@@ -1,8 +1,6 @@
 ---
 title: Enabling native IPv6 on Proxmox and LXC using SDN
 date: 2025-09-15
-author: Jan
-layout: single
 categories:
   - Linux / Unix
   - Networking
@@ -64,11 +62,11 @@ sudo -u pdns pdnsutil create-zone 2.2.2.2.1.1.1.1.c.b.d.f.ip6.arpa. pdns.my-loca
 
 Next I had to add the IPv6 range to the SDN configuration. The configuration is under Datacenter &rarr; SDN &rarr; VNets.
 
-![Proxmox Datacenter SDN IPV6 configuration](/assets/images/2025/09/proxmox_sdn_ipv6.png){: .align-center}
+![Proxmox Datacenter SDN IPV6 configuration](/assets/img/posts/2025/09/proxmox_sdn_ipv6.png){: .align-center}
 
 I added `fdbc:1111:2222::/64` as the range, and `fdbc:1111:2222::1` as the gateway. SNAT had to be enabled, too.
 
-![Proxmox Datacenter SDN IPV6 DHCP range](/assets/images/2025/09/proxmox_sdn_ipv6_range.png){: .align-center}
+![Proxmox Datacenter SDN IPV6 DHCP range](/assets/img/posts/2025/09/proxmox_sdn_ipv6_range.png){: .align-center}
 
 I configured the range `fdbc:1111:2222::100` to `fdbc:1111:2222::200` as DHCPv6 range.
 

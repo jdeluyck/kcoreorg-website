@@ -2,15 +2,12 @@
 id: 188
 title: 'Telenet pushed the button... and nothing happened'
 date: 2007-12-14T18:12:10+02:00
-author: Jan
-layout: single
 permalink: /2007/12/14/telenet-pushes-the-button-and-nothing-happens/
 categories:
   - Networking
 tags:
   - isp
   - telenet
-format: image
 ---
 [![Telenet drukt op de knop][img]][url]
 
@@ -22,4 +19,4 @@ They also increased the upload speed of the other subscriptions.
 So now these people will be able to get a lot faster on smallband (56kbit connection), or buy blocks to increase their limits... and increase Telenet's revenues - ofcourse!
 
 [url]: http://www.telenetdruktopdeknop.be
-[img]: /assets/images/2007/12/telenet-sm.jpg
+[img]: /assets/img/posts/2007/12/telenet-sm.jpg

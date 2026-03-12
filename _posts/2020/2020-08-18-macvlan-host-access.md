@@ -1,8 +1,6 @@
 ---
 title: 'Allowing macvlan-networked docker containers to access the host'
 date: 2020-08-18
-author: Jan
-layout: single
 categories:
   - Linux / Unix
   - Networking

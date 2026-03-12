@@ -2,11 +2,8 @@
 id: 1359
 title: phptelemeter 1.26 released
 date: 2006-10-30T10:29:07+02:00
-author: Jan
-layout: single
 permalink: /2006/10/30/phptelemeter-1-26-released/
-categories:
-  - phptelemeter
+categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---

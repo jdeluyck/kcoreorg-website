@@ -1,8 +1,6 @@
 ---
 title: Increasing Mastodon's post size
 date: 2022-12-18
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

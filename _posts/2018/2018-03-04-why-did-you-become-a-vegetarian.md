@@ -2,11 +2,8 @@
 id: 1967
 title: Why did you become a vegetarian?
 date: 2018-03-04T16:04:59+02:00
-author: Jan
-layout: single
 permalink: /2018/03/04/why-did-you-become-a-vegetarian/
-categories:
-  - Personal
+categories: [Life & Musings, Personal]
 tags:
   - food
   - vegetarian

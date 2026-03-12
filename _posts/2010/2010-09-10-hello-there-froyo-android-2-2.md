@@ -2,11 +2,8 @@
 id: 642
 title: Hello there, Froyo (Android 2.2)
 date: 2010-09-10T13:04:21+02:00
-author: Jan
-layout: single
 permalink: /2010/09/10/hello-there-froyo-android-2-2/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - android
   - aosp
@@ -22,7 +19,7 @@ Luckely, Google also releases the source code of Android, known as the [Android 
 
 The downside? This is a naked Android ROM, so no [HTC Sense](http://en.wikipedia.org/wiki/HTC_Sense) goodies. There are plenty of replacements in the Android Market though, like [LauncherPro (Plus)](http://www.launcherpro.com) with it's new widgets, [Dolphin HD](http://home.dolphin-browser.com/tunny/Home.htm) browser, and many more.
 
-![Android statues at Googleplex](/assets/images/2010/09/thumb_550_froyo-statue.jpeg "Android statues at Googleplex")
+![Android statues at Googleplex](/assets/img/posts/2010/09/thumb_550_froyo-statue.jpeg "Android statues at Googleplex")
 
   
 I've been running it since and I'm very happy with it!

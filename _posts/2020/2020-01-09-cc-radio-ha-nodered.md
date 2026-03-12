@@ -1,10 +1,7 @@
 ---
 title: 'Chromecast Radio with Home Assistant and Node-RED'
 date: 2020-01-09
-author: Jan
-layout: single
-categories:
-  - Home Automation
+categories: [Technology & IT, Home Automation]
 tags:
   - mopidy
   - dab
@@ -48,7 +45,7 @@ You'll have to modify this to match your CC devices. I also use condition cards 
 If you don't want that part, just throw everything else out ;)
 
 #### Vertical Stack:
-![lovelace card](/assets/images/2020/01/cc_radio.png "Lovelace card")
+![lovelace card](/assets/img/posts/2020/01/cc_radio.png "Lovelace card")
 
 ```yaml
 cards:
@@ -143,7 +140,7 @@ stop_cc_audio_radio:
 Node-RED is used in the backend to make the radio work.
 
 #### Visually
-![nodered flow](/assets/images/2020/01/nodered-flow.png "Node-RED flow")
+![nodered flow](/assets/img/posts/2020/01/nodered-flow.png "Node-RED flow")
 
 There are two flows:
 * CC Audio Radio: this flow determines which CC has been chosen, which radio stream, sets the volume and starts/stops playback.  

@@ -1,8 +1,6 @@
 ---
 title: 'Understanding LXC user/group mapping'
 date: 2022-02-05
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

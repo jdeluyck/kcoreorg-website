@@ -2,11 +2,8 @@
 id: 1339
 title: 'phptelemeter ...'
 date: 2005-03-10T10:14:49+02:00
-author: Jan
-layout: single
 permalink: /2005/03/10/phptelemeter/
-categories:
-  - phptelemeter
+categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---

@@ -2,11 +2,8 @@
 id: 1345
 title: phptelemeter 1.10 released
 date: 2006-02-28T10:20:41+02:00
-author: Jan
-layout: single
 permalink: /2006/02/28/phptelemeter-1-10-released/
-categories:
-  - phptelemeter
+categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---

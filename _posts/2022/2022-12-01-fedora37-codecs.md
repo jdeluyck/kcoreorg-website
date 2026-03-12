@@ -1,8 +1,6 @@
 ---
 title: 'Enabling H.246, H.256 and VC1 VA-API codecs in Fedora 37'
 date: 2022-12-01
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

@@ -1,8 +1,6 @@
 ---
 title: 'Adding a SLOG to ZFS'
 date: 2021-11-15
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:
@@ -24,11 +22,11 @@ To solve the problem of slow sync writes, you can implement what is known as a S
 
 ZFS writes without SLOG:
 
-![sync write without slog](/assets/images/2021/12/zfs-sync-write-no-slog.png)
+![sync write without slog](/assets/img/posts/2021/12/zfs-sync-write-no-slog.png)
 
 ZFS writes with SLOG:
 
-![sync write without slog](/assets/images/2021/12/zfs-sync-write-slog.png)
+![sync write without slog](/assets/img/posts/2021/12/zfs-sync-write-slog.png)
 
 Typically (always?) a SLOG device will be some sort of [flash memory](https://en.wikipedia.org/wiki/Flash_memory), or [Intel Optane](https://en.wikipedia.org/wiki/3D_XPoint). 
 
@@ -86,4 +84,3 @@ logs                                                       -      -      -      
 -----------------------------------------------------  -----  -----  -----  -----  -----  -----
 
 ```
-

@@ -2,14 +2,10 @@
 id: 51
 title: Our Farewell (Within Temptation)
 date: 2004-07-12T16:42:44+02:00
-author: Jan
-layout: single
 permalink: /2004/07/12/our-farewell-within-temptation/
-categories:
-  - Music
+categories: [Personal, Music]
 tags:
   - within temptation
-format: video
 ---
 In my hands  
 A legacy of memories  

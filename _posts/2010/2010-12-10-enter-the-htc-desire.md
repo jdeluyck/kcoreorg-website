@@ -2,11 +2,8 @@
 id: 665
 title: Enter the HTC Desire
 date: 2010-12-10T17:40:05+02:00
-author: Jan
-layout: single
 permalink: /2010/12/10/enter-the-htc-desire/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - alpharev
   - android

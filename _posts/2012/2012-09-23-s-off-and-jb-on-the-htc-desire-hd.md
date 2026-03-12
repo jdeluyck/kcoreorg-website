@@ -2,11 +2,8 @@
 id: 901
 title: S-OFF and Jellybean on the HTC Desire HD (Ace)
 date: 2012-09-23T08:04:23+02:00
-author: Jan
-layout: single
 permalink: /2012/09/23/s-off-and-jb-on-the-htc-desire-hd/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - '4.1.2'
   - aahk

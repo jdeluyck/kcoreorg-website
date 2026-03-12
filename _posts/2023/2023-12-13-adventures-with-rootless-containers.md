@@ -1,8 +1,6 @@
 ---
 title: Adventures with rootless Podman containers
 date: 2023-12-13
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

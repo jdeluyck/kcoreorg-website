@@ -2,12 +2,8 @@
 id: 851
 title: Magnificat by C.P.E. Bach
 date: 2012-03-15T18:46:18+02:00
-author: Jan
-layout: single
 permalink: /2012/03/15/magnificat-by-c-p-e-bach/
-categories:
-  - Chamberchoir Furiant
-  - Music
+categories: [Music, Chamberchoir Furiant]
 tags:
   - arte musicale
   - bach
@@ -26,6 +22,6 @@ by Carl Philipp Emanuel Bach
 
 on saturday, 26<sup>th</sup> of May, in the Sint-Pauluskerk in the Smidsestraat in Ghent.
 
-![Magnificat](/assets/images/2012/03/magnificat.jpg "Magnificat")
+![Magnificat](/assets/img/posts/2012/03/magnificat.jpg "Magnificat")
 
 [View Larger Map](http://maps.google.be/maps?q=51.039228,3.713395&num=1&ie=UTF8&t=m&ll=51.039478,3.712606&spn=0.009445,0.018239&z=15&source=embed)

@@ -2,8 +2,6 @@
 id: 328
 title: Mac mini PVR
 date: 2008-09-19T22:58:23+02:00
-author: Jan
-layout: single
 permalink: /2008/09/19/mac-mini-pvr/
 categories:
   - Apple / Mac OS

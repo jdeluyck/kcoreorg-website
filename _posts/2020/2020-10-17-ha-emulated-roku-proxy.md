@@ -1,8 +1,6 @@
 ---
 title: 'Chromecast Radio control using a Logitech Harmony Elite (and Home Assistant)'
 date: 2020-10-17
-author: Jan
-layout: single
 categories:
   - Home Automation
 tags:
@@ -119,7 +117,7 @@ drop-down [input_select](https://www.home-assistant.io/integrations/input_select
 
 #### Flow
 
-![Node-RED flow](/assets/images/2020/10/harmony_cc_radio_nodered_v2.png "Harmony CC Radio NodeRed v2 flow")
+![Node-RED flow](/assets/img/posts/2020/10/harmony_cc_radio_nodered_v2.png "Harmony CC Radio NodeRed v2 flow")
 
 #### Json export
 

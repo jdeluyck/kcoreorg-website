@@ -2,8 +2,6 @@
 id: 115
 title: 'Leopard delayed until october...'
 date: 2007-04-13T20:47:45+02:00
-author: Jan
-layout: single
 permalink: /2007/04/13/leopard-delayed-until-october/
 categories:
   - Apple / Mac OS

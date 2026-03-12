@@ -2,11 +2,8 @@
 id: 190
 title: 'Merry (x\|newton\|christ\|...)mas and happy new year!'
 date: 2007-12-25T13:53:21+02:00
-author: Jan
-layout: single
 permalink: /2007/12/25/merry-xnewtonchristmas-and-happy-newyears/
-categories:
-  - Personal
+categories: [Life & Musings, Personal]
 tags:
   - christmas
   - newtonmas

@@ -2,11 +2,8 @@
 id: 249
 title: Goodbye, Palm!
 date: 2008-06-09T13:15:58+02:00
-author: Jan
-layout: single
 permalink: /2008/06/09/goodbye-palm/
-categories:
-  - Palm
+categories: [Technology & IT, Palm]
 tags:
   - goodbye
   - Palm

@@ -1,10 +1,7 @@
 ---
 title: 'Activating VoLTE and VoWiFi on Orange (Belgium) on the OnePlus 8 Pro'
 date: 2020-06-29
-author: Jan
-layout: single
-categories:
-  - Android
+categories: [Mobile & Gadgets, History]
 tags:
   - android
   - oneplus 8 pro
@@ -35,28 +32,28 @@ You'll also need an older version of the [OnePlus Logkit](https://www.apkmirror.
 and [OnePlus Engineering Mode](https://www.apkmirror.com/apk/oneplus-ltd/engineermode/engineermode-v1-01-0-171117173719-25c8842-release/engineermode-v1-01-0-171117173719-25c8842-android-apk-download/) APK's. Download those on your phone and install them.
 
 After installing the APK's, dial #\*800\* on your phone.   
-![](/assets/images/2020/06/log_test.jpg)   
+![](/assets/img/posts/2020/06/log_test.jpg)   
 
 Tap "oneplus Logkit", and navigate to the bottom.
-![OnePlus LogTest Toolkit](/assets/images/2020/06/toolkit_main.jpg)  
+![OnePlus LogTest Toolkit](/assets/img/posts/2020/06/toolkit_main.jpg)  
 
 There, tap "Function switch", enable "VoLTE switch" (without rebooting), enable "VoWifi switch" and then reboot your phone.  
-![Toolkit Switches](/assets/images/2020/06/toolkit_switch.jpg)  
+![Toolkit Switches](/assets/img/posts/2020/06/toolkit_switch.jpg)  
 
 Now, you can go into "Settings" &rarr; "Wi-Fi &amp; network" &rarr; "SIM & network", select your SIM card slot that houses
 your Orange SIM, and activate "VoLTE" and "Wi-Fi Calling"  
-![Settings](/assets/images/2020/06/enhanced_communications.jpg)
+![Settings](/assets/img/posts/2020/06/enhanced_communications.jpg)
 
 To configure the modem profile, dial #\*801\* and switch on "Full port switch".  
-![](/assets/images/2020/06/fullport_switch.jpg)
+![](/assets/img/posts/2020/06/fullport_switch.jpg)
 
 Plug in your phone and start "QPST" on your Windows PC.  
-![QPST](/assets/images/2020/06/qpst.png)   
+![QPST](/assets/img/posts/2020/06/qpst.png)   
 This should show your phone as a COM port. In the example above, COM4.
 
 Next, start "PDC". On the drop-down at the top (next to Device) select your device. This should load the list of 
 available profiles.  
-![PDC](/assets/images/2020/06/pdc.png)  
+![PDC](/assets/img/posts/2020/06/pdc.png)  
 
 Find **Oversea-Commercial_DS** in the list, right click it and pick "Deactivate" &rarr; "Sub0", and "Sub1".  
 Search for the **Telefonica_UK_Commercial**, right click it and pick "SetSelectedConfig" &rarr; "Sub0" and "Sub1".   

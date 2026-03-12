@@ -2,8 +2,6 @@
 id: 32
 title: New year in Madrid
 date: 2006-01-08T01:04:19+02:00
-author: Jan
-layout: single
 permalink: /2006/01/08/newyear-in-madrid/
 categories:
   - Travels
@@ -25,10 +23,10 @@ The first of the new year we didn't do anything really. Not that there was anyth
 
 On the 2nd of january we went shopping for a [cute fondue set](http://www.princess.nl/en/products/600/611/368/Classic_2-in-1_Combi_Fondue.html) for making a fondue sometime during the next days. Really the only thing we did. Yeah, we're lazy :P
 
-The next day (3rd) we went to a lovely Artisans market in Madrid, where I bought [a penguin shaped candle](/assets/images/2006/01/IMG_1221.jpg) for myself, and a 1/12" doggie for mum.  
+The next day (3rd) we went to a lovely Artisans market in Madrid, where I bought [a penguin shaped candle](/assets/img/posts/2006/01/IMG_1221.jpg) for myself, and a 1/12" doggie for mum.  
 In the evening we had to rushrush because I decided last-minute to buy a [portable dvd player](http://www.bestbuy-int.com/default.asp?s=fichaProd&IdProductos=168&idSector=10) for on the hotel and on the flights - so they're less boring.
 
-The 4th of january we didn't do much. Diana made a very tasty ciabatta at home, which we ate with the lovely cheese fondue in the evening. Diana also made the beginning of the [Roscon de Reyes](/assets/images/2006/01/roscon2006-me.jpg) - traditional cake for the three wisemen day.
+The 4th of january we didn't do much. Diana made a very tasty ciabatta at home, which we ate with the lovely cheese fondue in the evening. Diana also made the beginning of the [Roscon de Reyes](/assets/img/posts/2006/01/roscon2006-me.jpg) - traditional cake for the three wisemen day.
 
 The fifth we finished the actual Roscon, and it came out very nice! Other than that, it was really quiet that day, as it also was the the sixth... the sixth I had to leave unfortunately, and I miss Diana very much...
 

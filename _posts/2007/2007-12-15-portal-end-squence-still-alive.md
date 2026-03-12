@@ -2,8 +2,6 @@
 id: 189
 title: 'Portal end squence... Still Alive!'
 date: 2007-12-15T21:56:21+02:00
-author: Jan
-layout: single
 permalink: /2007/12/15/portal-end-squence-still-alive/
 categories:
   - Videos
@@ -11,7 +9,6 @@ tags:
   - halflife
   - portal
   - valvesoftware
-format: video
 ---
 I recently bought [Portal](http://orange.half-life2.com/portal.html) - a puzzle game (based on the [Source engine](http://www.valvesoftware.com/sourcelicense/default.htm)) by [Valve](http://www.valvesoftware.com/). The game in itself is fun, but even more fun was the end sequence!
 

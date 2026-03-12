@@ -1,16 +1,14 @@
 ---
 title: SSH'ing to Unifi equipment with Fedora 37
 date: 2023-03-27
-author: Jan
-layout: single
-categories:
-  - Linux / Unix
-  - Networking
+categories: [Technology & IT, Networking]
 tags:
   - fedora
   - unifi
   - ubiquiti
   - ssh
+  - linux
+  - networking
 ---
 
 Connecting to Unifi equipment ([Switch 8](https://store.ui.com/products/unifi-switch-8)/[AP AC Pro](https://store.ui.com/collections/unifi-network-wireless/products/uap-ac-pro)) from Fedora37 fails out of the box with a very useful error `Bad server host key: Invalid key length`. This is because the `dropbear` used on these devices is woefully out of date, and still requires the use of ssh-rsa (with SHA1), which has been [deprecated by OpenSSH in 2021](https://www.openssh.com/txt/release-8.8),

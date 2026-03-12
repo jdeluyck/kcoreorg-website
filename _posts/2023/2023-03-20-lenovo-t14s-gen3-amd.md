@@ -1,8 +1,6 @@
 ---
 title: Lenovo Thinkpad T14s Gen3 (AMD)
 date: 2023-03-20
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:
@@ -12,9 +10,9 @@ tags:
 
 [10 years](/2013/04/07/dell-xps-13-and-debian-sid) ago I bought a [Dell XPS13 L322x](https://en.wikipedia.org/wiki/Dell_XPS#XPS_13_(L322X,_Early_2013)) ultrabook as a replacement for my white [Macbook 2,1](https://en.wikipedia.org/wiki/MacBook_(2006%E2%80%932012)). This week I replaced the Dell with something newer: a [Lenovo Thinkpad T14s Gen3 (AMD)](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadt/thinkpad-t14s-gen-3-(14-inch-amd)/len101t0015).
 
-![Dell XPS13 on top of Lenovo Thinkpad T14s Gen3 AMD](/assets/images/2023/03/thinkpad_box.jpg)
+![Dell XPS13 on top of Lenovo Thinkpad T14s Gen3 AMD](/assets/img/posts/2023/03/thinkpad_box.jpg)
 
-![Dell XPS13 on top of Lenovo Thinkpad T14s Gen3 AMD](/assets/images/2023/03/thinkpad.jpg)
+![Dell XPS13 on top of Lenovo Thinkpad T14s Gen3 AMD](/assets/img/posts/2023/03/thinkpad.jpg)
 
 Reasons to replace it:
 * Noticeable delays on the CPU side
@@ -37,7 +35,7 @@ Reasons to replace it:
 | Weight             | 1.32kg | 1.23kg |
 
 
-![Dell XPS13 on top of Lenovo Thinkpad T14s Gen3 AMD](/assets/images/2023/03/dell_on_thinkpad.jpg)
+![Dell XPS13 on top of Lenovo Thinkpad T14s Gen3 AMD](/assets/img/posts/2023/03/dell_on_thinkpad.jpg)
 
 It's a little bit bigger, as you can see on the picture.
 

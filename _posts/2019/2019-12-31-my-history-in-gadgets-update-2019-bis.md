@@ -1,10 +1,7 @@
 ---
 title: 'My history in gadgets - update 2019 bis'
 date: 2019-12-31T12:12:12
-author: Jan
-layout: single
-categories:
-  - Android
+categories: [Mobile & Gadgets, History]
 tags:
   - android
   - gadget
@@ -23,5 +20,5 @@ _**Tablet history:**_
 I sold the Lenovo Tab4 10 (well, handed in for a cashback) and got the 
 
 **[Samsung Galaxy Tab S6](https://www.gsmarena.com/samsung_galaxy_tab_s6-9781.php)  
-![](/assets/images/2019/12/samsung-galaxy-tab-s6.png)**   
+![](/assets/img/posts/2019/12/samsung-galaxy-tab-s6.png)**   
 specifically because I wanted an active stylus for note-taking.

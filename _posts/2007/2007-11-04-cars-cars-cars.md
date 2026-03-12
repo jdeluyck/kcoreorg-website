@@ -2,8 +2,6 @@
 id: 159
 title: Cars, cars, cars
 date: 2007-11-04T19:29:14+02:00
-author: Jan
-layout: single
 permalink: /2007/11/04/cars-cars-cars/
 categories:
   - Cars

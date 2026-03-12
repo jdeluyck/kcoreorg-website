@@ -2,11 +2,8 @@
 id: 1156
 title: 'My history in gadgets - update 2016'
 date: 2016-07-15T07:43:59+02:00
-author: Jan
-layout: single
 permalink: /2016/07/15/my-history-in-gadgets-update-2016/
-categories:
-  - Android
+categories: [Mobile & Gadgets, History]
 tags:
   - android
   - gadget
@@ -20,6 +17,6 @@ _**Mobile phone history:**_
 I've retired the LG Nexus 5 (sold), and the Motorola E2 (LTE) (for now kept as a backup phone), and replaced them with:
 
 **[OnePlus 3](http://www.gsmarena.com/oneplus_3-7995.php)   
-![OnePlus 3](/assets/images/2016/06/oneplus-3-3.jpg "OnePlus 3")**
+![OnePlus 3](/assets/img/posts/2016/06/oneplus-3-3.jpg "OnePlus 3")**
 
 More on this powerhorse coming in the future!

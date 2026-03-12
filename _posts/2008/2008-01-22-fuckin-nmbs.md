@@ -2,8 +2,6 @@
 id: 207
 title: 'Fuckin&apos; NMBS'
 date: 2008-01-22T18:54:08+02:00
-author: Jan
-layout: single
 permalink: /2008/01/22/fuckin-nmbs/
 categories:
   - Personal

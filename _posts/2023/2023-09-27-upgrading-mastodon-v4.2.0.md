@@ -1,8 +1,6 @@
 ---
 title: Upgrading to Mastodon v4.2.0 and LibreTranslate
 date: 2023-09-27
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

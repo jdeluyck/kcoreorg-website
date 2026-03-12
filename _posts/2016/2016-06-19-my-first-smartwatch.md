@@ -2,8 +2,6 @@
 id: 1160
 title: 'My first smartwatch...'
 date: 2016-06-19T20:55:41+02:00
-author: Jan
-layout: single
 permalink: /2016/06/19/my-first-smartwatch/
 image: /wp-content/uploads/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-143x150.jpg
 categories:
@@ -19,12 +17,12 @@ tags:
   Something like this, perhaps...
 </p>
 
-![](/assets/images/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg) 
+![](/assets/img/posts/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg) 
 
 Nononono, definitely not. Neither an Apple product. My first foray into [wearables](https://en.wikipedia.org/wiki/Wearable_technology) 
 of the [smartwatch](https://en.wikipedia.org/wiki/Smartwatch) type is a [Pebble](http://www.pebble.com) [Time](https://www.pebble.com/pebble-time-smartwatch-features).
 
-![PBTime](/assets/images/2016/06/PBTime-300x169.png "PBTime") 
+![PBTime](/assets/img/posts/2016/06/PBTime-300x169.png "PBTime") 
 
 I'd been looking at smartwatches ever since the original [Pebble Kickstarter](https://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android) got launched. 
 I honestly found the watch ugly as _\*beep\*_, so I wasn't going for that one. After a while 
@@ -44,7 +42,7 @@ Bring around 2015, and Pebble got round to launching the [Pebble Time (Steel) Ki
 
 In the beginning of 2016, iBood had a sale of Pebble Time watches, at a pricepoint I could get round. So I ordered one (in black).
 
-![mypebble](/assets/images/2016/06/mypebble-300x300.jpg "mypebble") 
+![mypebble](/assets/img/posts/2016/06/mypebble-300x300.jpg "mypebble") 
 
 First thing I did was stick a [bezel](http://www.gadgetwraps.com/devices/smartwatch/pebble/pebble-time/pebble-time-matte-clear-bezel-skin/) and 
 [screen](http://www.gadgetwraps.com/devices/smart-watch/pebble-watch/pebble-time/full-screen-protector-pebble-time.html) protector from [GadgetWraps](http://www.gadgetwraps.com) on it, as I had read everywhere that the thing is very easy to damage. (you have _no idea_ how weird it feels to dunk a technologically advanced device in water - check the installation videos). After that I put it on, installed the [Pebble app](https://play.google.com/store/apps/details?id=com.getpebble.android.basalt&hl=en) and started tinkering away...
@@ -53,19 +51,19 @@ Things I absolutely love about this watch:
 
 * It's a watch. It's always readable. Even in the sun. The screen is always 'on' (not really, since it's [E-Ink](https://en.wikipedia.org/wiki/E_Ink)). I honestly prefer looking at my watch for the time than at my phone, definitely in a work context.
 * Even when the battery is nearly dead, it's still it's basic function: _a watch_. Forget that with the other devices.  
-![deadpebble](/assets/images/2016/06/deadpebble-1-300x169.png "deadpebble") 
+![deadpebble](/assets/img/posts/2016/06/deadpebble-1-300x169.png "deadpebble") 
 * It's battery is rated for 7 days. I've gotten 10 days out of it.
 * Waterproof up to 30m. I haven't tried this yet, but I'm not really bothering taking it off all the time I come near a water source.
 * Nearly monthly updates. Every month I've gotten new functionality :)
 * Step counter / fitness stuff (if I didn't have a Fitbit, I'd actually use it). First release was gimmicky, but every app update has been better and better.
 * The plethora of [watchfaces](https://apps.getpebble.com/en_US/watchfaces) and [watchapps](https://apps.getpebble.com/en_US/watchapps) you can find for it
 * ([Actionable](https://help.getpebble.com/customer/portal/articles/1819783-android---actionable-notifications)) notifications! This stops me from pulling out my phone and checking what the notification was for. If it's urgent, I'll get the phone if I can't make due with the canned responses. If it's not urgent, I'll ignore it and reply at a later time.  
-![pebble_gmail](/assets/images/2016/06/pebble_gmail-300x169.jpg "pebble_gmail") 
+![pebble_gmail](/assets/img/posts/2016/06/pebble_gmail-300x169.jpg "pebble_gmail") 
 * [Voice dictation](http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309). I'd never thought I'd actually use that, but while driving this is great - you get a notification, check it, quickly with a glance to your wrist, and with two button presses I can send a reply on it's way. It works fairly good, but well, [YMMV](https://www.urbandictionary.com/define.php?term=ymmv).  
-![pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am](/assets/images/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png "pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am")
+![pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am](/assets/img/posts/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png "pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am")
  
 * Music control. I use a streaming app on my phone, and being able to pause/skip songs without having to unlock my phone is bliss.  
-![pebble_music_green](/assets/images/2016/06/pebble_music_green-300x169.jpg "pebble_music_green") 
+![pebble_music_green](/assets/img/posts/2016/06/pebble_music_green-300x169.jpg "pebble_music_green") 
 
 I mentioned watchapps and watchfaces earlier... There are just too many to choose from. Anything that might be your fancy, it probably exists. Do keep in mind that animated watchfaces will eat the battery like crazy, so the less updates the screen has to put, the longer your Pebble will live.
 

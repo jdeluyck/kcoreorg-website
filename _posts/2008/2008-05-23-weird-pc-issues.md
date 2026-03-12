@@ -2,8 +2,6 @@
 id: 235
 title: 'Weird pc issues...'
 date: 2008-05-23T20:54:45+02:00
-author: Jan
-layout: single
 permalink: /2008/05/23/weird-pc-issues/
 categories:
   - Random

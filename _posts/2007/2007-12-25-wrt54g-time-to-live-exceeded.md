@@ -2,8 +2,6 @@
 id: 191
 title: wrt54g time to live exceeded?
 date: 2007-12-25T17:50:34+02:00
-author: Jan
-layout: single
 permalink: /2007/12/25/wrt54g-time-to-live-exceeded/
 categories:
   - Networking

@@ -2,8 +2,6 @@
 id: 963
 title: Dell XPS 13 and Debian Sid
 date: 2013-04-07T12:17:53+02:00
-author: Jan
-layout: single
 permalink: /2013/04/07/dell-xps-13-and-debian-sid/
 categories:
   - Linux / Unix
@@ -38,26 +36,26 @@ Spec comparison:
 
 The laptop arrived in a sortof-stylish black Dell box, unfortunately taped over with all kinds of deliver stickers. Oh well.
 
-![Box](/assets/images/2013/04/2013-03-18-18.01.14-1024x611.jpg)  
+![Box](/assets/img/posts/2013/04/2013-03-18-18.01.14-1024x611.jpg)  
 The box it was shipped in
 
 Inside you can see the box for the power cord, and the box with the actual laptop. Nicely packaged, pluspoints here, Dell ;)
 
-![](/assets/images/2013/04/2013-03-18-18.01.51-1024x768.jpg)  
+![](/assets/img/posts/2013/04/2013-03-18-18.01.51-1024x768.jpg)  
 Nicely packaged
 
-![](/assets/images/2013/04/2013-03-18-18.02.45-1024x670.jpg)  
+![](/assets/img/posts/2013/04/2013-03-18-18.02.45-1024x670.jpg)  
 Fancy Dell box containing the actual laptop
 
-![](/assets/images/2013/04/2013-03-18-18.03.03-1024x1013.jpg)  
+![](/assets/img/posts/2013/04/2013-03-18-18.03.03-1024x1013.jpg)  
 The actual laptop. Wrapped in plastic, protected with foam
 
-![](/assets/images/2013/04/2013-03-18-18.06.17-1024x917.jpg)  
+![](/assets/img/posts/2013/04/2013-03-18-18.06.17-1024x917.jpg)  
 All unpacked and ready to rock!
 
 It's also a bit smaller than my old Macbook, although they're both rated as being 13" laptops.
 
-![](/assets/images/2013/04/2013-03-18-18.12.45-1024x788.jpg)  
+![](/assets/img/posts/2013/04/2013-03-18-18.12.45-1024x788.jpg)  
 Dell XPS13 on top of my Macbook 2.1. Bit smaller. A lot lighter.
 
 Unfortunately, the laptop I got shipped originally had some issues: plenty of [backlight bleeding](http://www.pchardwarehelp.com/guides/backlight-bleeding.php), 

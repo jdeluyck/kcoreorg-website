@@ -2,8 +2,6 @@
 id: 1084
 title: Managing TP-Link easy smart switches from Linux
 date: 2015-08-30T18:44:46+02:00
-author: Jan
-layout: single
 permalink: /2015/08/30/managing-tp-link-easy-smart-switches-from-linux/
 categories:
   - Linux / Unix
@@ -26,7 +24,7 @@ After installation, You'll find a file called "Easy Smart Configuration Utility.
 
 To run it, you'll also need the [Oracle Java distribution](https://www.java.com/en/download/), as JavaFX is not yet part of [OpenJDK](http://openjdk.java.net/). Install that in your distribution of choice, and you'll be able to start the application using java -jar "Easy Smart Configuration Utility.jar" and it'll start right up.
 
-![tplink_easysmart](/assets/images/2015/08/tplink_easysmart.png "tplink_easysmart")
+![tplink_easysmart](/assets/img/posts/2015/08/tplink_easysmart.png "tplink_easysmart")
 
 Unfortunately, it doesn't work out of the box. The tool doesn't find any devices on the network, but they are there.  
 Checking with netstat, the tool bound itself on UDP port 29809, on the local ip address.

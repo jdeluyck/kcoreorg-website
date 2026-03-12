@@ -1,11 +1,8 @@
 ---
 title: Domains and DNS
 date: 2025-03-30
-author: Jan
-layout: single
 permalink: /2025/03/30/taking-back-control-webpresence-part2/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Networking]
 tags:
   - desec.io
   - ovh.fr

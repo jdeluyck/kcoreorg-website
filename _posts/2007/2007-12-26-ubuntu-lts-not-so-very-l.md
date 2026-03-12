@@ -2,8 +2,6 @@
 id: 194
 title: 'Ubuntu LTS... not so very L?'
 date: 2007-12-26T14:23:13+02:00
-author: Jan
-layout: single
 permalink: /2007/12/26/ubuntu-lts-not-so-very-l/
 categories:
   - Linux / Unix

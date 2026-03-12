@@ -1,8 +1,6 @@
 ---
 title: 'My history in gadgets - update 2022'
 date: 2022-08-01
-author: Jan
-layout: single
 categories:
   - Android
 tags:
@@ -26,7 +24,7 @@ _**Phone history:**_
 
 My partner took over the OnePlus Pro 8, and I upgraded to the
 **[Samsung Galaxy S22 Ultra](https://www.gsmarena.com/samsung_galaxy_s22_ultra_5g-11251.php)  
-![](/assets/images/2022/08/samsung-s22-ultra.png)**
+![](/assets/img/posts/2022/08/samsung-s22-ultra.png)**
 
 
 
@@ -35,5 +33,4 @@ _**Tablet history:**_
 My partner also took over my Samsung Galaxy Tab S7+ (we sold the S6), and I upgraded to the
 
 **[Samsung Galaxy Tab S8+](https://www.gsmarena.com/samsung_galaxy_tab_s7+-10336.php)  
-![](/assets/images/2022/08/galaxy-tab-s8plus.png)**   
-
+![](/assets/img/posts/2022/08/galaxy-tab-s8plus.png)**

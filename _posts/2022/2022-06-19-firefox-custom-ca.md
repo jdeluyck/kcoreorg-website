@@ -1,10 +1,7 @@
 ---
 title: 'Adding custom certificate authorities to Firefox on Android'
 date: 2022-06-19
-author: Jan
-layout: single
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - firefox
   - certificate authority

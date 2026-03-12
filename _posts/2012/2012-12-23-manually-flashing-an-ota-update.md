@@ -2,11 +2,8 @@
 id: 942
 title: Manually flashing an OTA-update
 date: 2012-12-23T20:52:22+02:00
-author: Jan
-layout: single
 permalink: /2012/12/23/manually-flashing-an-ota-update/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - android
   - htc one x
@@ -25,7 +22,8 @@ Requirements to manually update your phone:
   * [HTCDev.com](http://www.htcdev.com) unlocked bootloader.
   * [Clockworkmod Recovery (Touch)](https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager&hl=en) installed on the phone
 
-This **will wipe** your phone. Making a backup is **not** optional.
+>This **will wipe** your phone. Making a backup is **not** optional.
+{: .prompt-warning }
 
 Download the update. In my case it was [3.14.401.31](http://fotadl.htc.com/OTA_ENDEAVOR_U_JB_45_S_HTC_Europe_3.14.401.31_R-3.14.401.27_release_302022scz3ve3d2k8wy15p.zip). Unzip it somewhere. In the same directory, you'll find a file called `firmware.zip`. Unzip this too.
 

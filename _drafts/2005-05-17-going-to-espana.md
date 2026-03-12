@@ -2,11 +2,8 @@
 id: 78
 title: Going to España
 date: 2005-05-17T13:11:17+02:00
-author: Jan
-layout: single
 permalink: /2005/05/17/going-to-espana/
-categories:
-  - Personal
+categories: [Personal]
 ---
 I'm going to Spaaaaaaaaaiiiiiiiiin again to see my girl on the 27th of May!
 

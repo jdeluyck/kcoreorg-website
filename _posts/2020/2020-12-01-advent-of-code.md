@@ -1,8 +1,6 @@
 ---
 title: 'Advent of Code'
 date: 2020-12-01
-author: Jan
-layout: single
 categories:
   - Coding
 tags:

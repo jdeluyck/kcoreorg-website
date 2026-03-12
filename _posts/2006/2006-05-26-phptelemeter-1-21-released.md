@@ -2,11 +2,8 @@
 id: 1351
 title: phptelemeter 1.21 released
 date: 2006-05-26T10:24:18+02:00
-author: Jan
-layout: single
 permalink: /2006/05/26/phptelemeter-1-21-released/
-categories:
-  - phptelemeter
+categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---

@@ -2,8 +2,6 @@
 id: 234
 title: Funpidgin
 date: 2008-05-16T23:11:51+02:00
-author: Jan
-layout: single
 permalink: /2008/05/16/funpidgin/
 categories:
   - Linux / Unix

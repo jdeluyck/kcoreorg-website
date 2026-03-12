@@ -1,8 +1,6 @@
 ---
 title: Moving the elephant in the room
 date: 2025-04-30
-author: Jan
-layout: single
 permalink: /2025/04/30/taking-back-control-webpresence-part4/
 categories:
   - Linux / Unix

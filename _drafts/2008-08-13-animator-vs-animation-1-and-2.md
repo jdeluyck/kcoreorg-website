@@ -2,13 +2,10 @@
 id: 269
 title: 'Animator vs Animation I & II'
 date: 2008-08-13T16:54:26+02:00
-author: Jan
-layout: single
 permalink: /2008/08/13/animator-vs-animation-1-and-2/
 categories:
   - Videos
 tags:
   - animation vs animator
-format: video
 published: false
 ---

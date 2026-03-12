@@ -2,14 +2,11 @@
 id: 227
 title: 'Sweeney Todd - A Little Priest'
 date: 2008-03-20T22:03:06+02:00
-author: Jan
-layout: single
 permalink: /2008/03/20/sweeney-todd-a-little-priest/
 categories:
   - Music
 tags:
   - sweeney todd
-format: video
 ---
 We went to see [Sweeney Todd: The Demon Barber of Fleet Street](http://www.imdb.com/title/tt0408236/) the other week.. a good (if rather grim) musical!
 

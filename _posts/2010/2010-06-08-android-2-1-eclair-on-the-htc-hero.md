@@ -2,11 +2,8 @@
 id: 625
 title: 'Android 2.1 (Eclair) on the HTC Hero...'
 date: 2010-06-08T18:30:36+02:00
-author: Jan
-layout: single
 permalink: /2010/06/08/android-2-1-eclair-on-the-htc-hero/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - android
   - eclair
@@ -26,7 +23,7 @@ I had to use the [GoldCard](http://wiki.xda-developers.com/index.php?pagename=El
 
 After using the phone now for two days, it feels mightily fast, snappy... it's a total new phone.
 
-![Gigantic Android, Donut, Cupcake and Eclair at the GooglePlex](/assets/images/2010/06/Android-history-2.jpg "Gigantic Android, Donut, Cupcake and Eclair at the GooglePlex")
+![Gigantic Android, Donut, Cupcake and Eclair at the GooglePlex](/assets/img/posts/2010/06/Android-history-2.jpg "Gigantic Android, Donut, Cupcake and Eclair at the GooglePlex")
 
   
 Goodie!

@@ -2,11 +2,8 @@
 id: 494
 title: phptelemeter 1.34 released
 date: 2009-08-02T21:21:04+02:00
-author: Jan
-layout: single
 permalink: /2009/08/02/phptelemeter-1-34-released/
-categories:
-  - phptelemeter
+categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---

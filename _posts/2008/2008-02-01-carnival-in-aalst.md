@@ -2,13 +2,10 @@
 id: 211
 title: Carnival in Aalst
 date: 2008-02-01T18:10:16+02:00
-author: Jan
-layout: single
 permalink: /2008/02/01/carnival-in-aalst/
 categories:
   - Personal
   - Rants
-format: image
 ---
 Yay. Soon it'll be [Aalst Carnaval](http://www.aalst.be/carnaval/), a so-called cultural feast. I rather call it a drunkfest, since there's actually very little culture and loads of drinking going on.
 
@@ -18,6 +15,6 @@ Also, don't think of going to Aalst during carnival season with a bike - unless 
 
 Here's a nice pic of the trainstation of Aalst, all dressed up for the occasion:
 
-![Aalst Train Station](/assets/images/2008/02/01022008_G-sm.jpg "Aalst Train Station")
+![Aalst Train Station](/assets/img/posts/2008/02/01022008_G-sm.jpg "Aalst Train Station")
   
 Can't you tell I _love_ carnival?!

@@ -2,8 +2,6 @@
 id: 437
 title: World of Goo!
 date: 2009-03-07T19:40:40+02:00
-author: Jan
-layout: single
 permalink: /2009/03/07/world-of-goo/
 categories:
   - Personal
@@ -12,7 +10,6 @@ tags:
   - game
   - linux
   - world of goo
-format: video
 ---
 A good friend of mine introduced me to a new game: [World Of Goo!](http://www.worldofgoo.com)
 

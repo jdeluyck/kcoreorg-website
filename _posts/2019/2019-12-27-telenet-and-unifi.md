@@ -1,17 +1,15 @@
 ---
 title: 'Telenet and Unifi'
 date: 2019-12-27
-author: Jan
-layout: single
-categories:
-  - Networking
+categories: [Technology & IT, Networking]
 tags:
   - unifi
   - telenet
+  - networking
 ---
 Some months back a friend of mine wanted to switch over to the [Unifi](https://unifi-network.ui.com/) platform (which I've been using now for about a year), and get it to play nice with his [Telenet ISP](https://telenet.be) setup aswell.
 
-![Network diagram](/assets/images/2019/12/unifi-telenet-diagram.png)
+![Network diagram](/assets/img/posts/2019/12/unifi-telenet-diagram.png)
 
 This means:
 * Getting WAN IP addresses to the [Telenet Digicorders](https://www2.telenet.be/nl/klantenservice/de-telenet-decoders-overzicht-technische-specificaties/)

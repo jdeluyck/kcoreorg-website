@@ -1,10 +1,7 @@
 ---
 title: 'My history in gadgets - update 2025'
 date: 2025-02-19
-author: Jan
-layout: single
-categories:
-  - Android
+categories: [Mobile & Gadgets, History]
 tags:
   - android
   - gadget
@@ -27,7 +24,7 @@ _**Phone history:**_
 
 My partner took over the Samsung Galaxy S22 Ultra, and I upgraded to the
 **[Samsung Galaxy S25 Ultra](https://www.gsmarena.com/samsung_galaxy_s25_ultra-13322.php)  
-![](/assets/images/2025/02/samsung-galaxy-s25-ultra.png)**
+![](/assets/img/posts/2025/02/samsung-galaxy-s25-ultra.png)**
 
 The OnePlus 8 Pro will be sold in the near future.
 
@@ -36,7 +33,7 @@ _**Tablet history:**_
 My partner also took over my Samsung Galaxy Tab S8+ (we sold the S7+), and I upgraded to the
 
 **[Samsung Galaxy Tab S10+](https://www.gsmarena.com/samsung_galaxy_tab_s10+-13363.php)  
-![](/assets/images/2025/02/galaxy-tab-s10-plus.png)**   
+![](/assets/img/posts/2025/02/galaxy-tab-s10-plus.png)**   
 
 
 Both of these upgrades were mostly to get everything back to a supported OS level.

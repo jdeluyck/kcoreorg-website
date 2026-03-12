@@ -2,14 +2,10 @@
 id: 62
 title: The Swan Song (Within Temptation)
 date: 2004-11-12T20:29:29+02:00
-author: Jan
-layout: single
 permalink: /2004/11/12/the-swan-song-within-temptation/
-categories:
-  - Music
+categories: [Personal, Music]
 tags:
   - within temptation
-format: video
 ---
 Winter has come for me, can't carry on.  
 The chains to my life are strong but soon they'll be gone.  

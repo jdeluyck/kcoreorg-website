@@ -1,10 +1,7 @@
 ---
 title: Using Cloudflare ZeroTrust and mTLS to securely access Home Assistant via the internet
 date: 2024-06-28
-author: Jan
-layout: single
-categories:
-  - Home Automation
+categories: [Technology & IT, Home Automation]
 tags:
   - home assistant
   - cloudflare
@@ -39,7 +36,7 @@ Luckely there's an [add-on for cloudflared](https://github.com/brenner-tobias/ad
 * Add the repository to Home Assistant.
 * Install the Cloudflared add-on.
 * Set a hostname in the configuration.
-  ![Screenshot of the Home Assistant add-on for Cloudflared, showing the configuration of the tunnel name](/assets/images/2024/06/homeassistant_cloudflare_addon_configuration.png)
+  ![Screenshot of the Home Assistant add-on for Cloudflared, showing the configuration of the tunnel name](/assets/img/posts/2024/06/homeassistant_cloudflare_addon_configuration.png)
 * Start the add-on.
 * Check the log of the add-on. It'll ask you to open a URL to authenticate with Cloudflare and then proceed to create the tunnel for you.
 
@@ -67,27 +64,27 @@ By installing an [mTLS](https://en.wikipedia.org/wiki/Mutual_authentication#mTLS
 
 You can create an mTLS certificate by navigating in the Cloudflare dashboard to your account &rarr; your website &rarr; SSL/TLS &rarr; Client Certificates. There click on "Create Certificate".
 
-![Screenshot of the Cloudflare interface to create a Client Certificate](/assets/images/2024/06/cloudflare_mtls_1_create_certificate.png)
+![Screenshot of the Cloudflare interface to create a Client Certificate](/assets/img/posts/2024/06/cloudflare_mtls_1_create_certificate.png)
 
 You can keep these settings as they are. Click "Create".
 
-![Screenshot of the Cloudflare interface where you can save the newly created client certificate](/assets/images/2024/06/cloudflare_mtls_2_save_certificate.png)
+![Screenshot of the Cloudflare interface where you can save the newly created client certificate](/assets/img/posts/2024/06/cloudflare_mtls_2_save_certificate.png)
 
 Next copy the certificate and the private key in two seperate files and store those somewhere on your filesystem. In my example, I use `mtls.key.pem` for the private key, and `mtls.cert.pem` for the certificate.
 
 After this you'll see the certificate in the list in the Cloudflare dashboard.
 
-![Screenshot of the Cloudflare interface where you can see the newly created client certificate](/assets/images/2024/06/cloudflare_mtls_3_new_certtificate_added.png)
+![Screenshot of the Cloudflare interface where you can see the newly created client certificate](/assets/img/posts/2024/06/cloudflare_mtls_3_new_certtificate_added.png)
 
 ### Adding the hostname of your tunnel to the mTLS configuration
 
 Another thing you need to do (which I missed and caused me to waste a lot of time) is to add the hostname for which you want cloudflare to issue a "client certificate request" to the browser or app. This is done in the same interface, that inconspicuous "Edit" link that's there...
 
-![Screenshot of the Cloudflare interface, highlighting the "Edit" part where to add hosts to enable mTLS on](/assets/images/2024/06/cloudflare_mtls_4_add_hostname.png)
+![Screenshot of the Cloudflare interface, highlighting the "Edit" part where to add hosts to enable mTLS on](/assets/img/posts/2024/06/cloudflare_mtls_4_add_hostname.png)
 
 Once you click "Edit" you can add the full hostname.
 
-![Screenshot of the Cloudflare interface, after filling in a hostname in the field to enable mTLS](/assets/images/2024/06/cloudflare_mtls_5_hostname_added.png)
+![Screenshot of the Cloudflare interface, after filling in a hostname in the field to enable mTLS](/assets/img/posts/2024/06/cloudflare_mtls_5_hostname_added.png)
 
 Click "Save" and you're good to go.
 
@@ -107,7 +104,7 @@ Right now anyone can connect to your hosted Home Assistant URL, regardless if th
 
 Head over to your account &rarr; your website &rarr; Security &rarr; WAF.  Next choose "Custom rules".
 
-![Screenshot of the Cloudflare interface showing there are no custom WAF rules at this time](/assets/images/2024/06/cloudflare_waf_1_initial.png)
+![Screenshot of the Cloudflare interface showing there are no custom WAF rules at this time](/assets/img/posts/2024/06/cloudflare_waf_1_initial.png)
 
 Click on "Create rule".
 
@@ -117,7 +114,7 @@ Give the rule a name and under "If incoming requests match..." specify:
 
 Under "Then take action" specify "Skip" on "All remaining custom rules".
 
-![Screenshot of the Cloudflare interface with the skip WAF rule](/assets/images/2024/06/cloudflare_waf_2_skip_rule.png)
+![Screenshot of the Cloudflare interface with the skip WAF rule](/assets/img/posts/2024/06/cloudflare_waf_2_skip_rule.png)
 
 Hit "Deploy", and "Create rule" to create the second rule to block the traffic.
 
@@ -126,17 +123,17 @@ Once again, give it a name and under "If incoming requests match..." specify:
 
 Under "Then take action" specify "Block". Deploy.
 
-![Screenshot of the Cloudflare interface with the block WAF rule](/assets/images/2024/06/cloudflare_waf_3_block_rule.png)
+![Screenshot of the Cloudflare interface with the block WAF rule](/assets/img/posts/2024/06/cloudflare_waf_3_block_rule.png)
 
 You should end up with two rules like this:
 
-![Screenshot of the Cloudflare interface showing all the WAF rules](/assets/images/2024/06/cloudflare_waf_4_rule_overview.png)
+![Screenshot of the Cloudflare interface showing all the WAF rules](/assets/img/posts/2024/06/cloudflare_waf_4_rule_overview.png)
 
 It's important that the skip rule is before the block rule. If not, edit the rules and change the order.
 
 Now if you browse to the URL you specified for your Home Assistant tunnel, you should be greeted by a lovely block page:
 
-![Screenshot of the Cloudflare "Sorry you have been blocked" page](/assets/images/2024/06/cloudflare_blocked_page.png)
+![Screenshot of the Cloudflare "Sorry you have been blocked" page](/assets/img/posts/2024/06/cloudflare_blocked_page.png)
 
 Next up, regaining access!
 
@@ -148,19 +145,19 @@ To be able to browse to this URL we'll need to add the client certificate to you
 
 In [Firefox](https://www.mozilla.org/en-US/firefox/), click on the menu on the right and navigate to Settings &rarr; Privacy &amp; Security and scroll down to "Certificates". There click on "View Certificates". Hit "Import", specify the you created earlier (`mtls_client_cert.pfx`), and enter the password. Afterwards you'll end up with something like this:
 
-![Screenshot of the Mozilla Firefox Certificate manager](/assets/images/2024/06/mozilla_certificate_manager.png)
+![Screenshot of the Mozilla Firefox Certificate manager](/assets/img/posts/2024/06/mozilla_certificate_manager.png)
 
 For [Chromium](https://www.chromium.org/) (and I think pretty much all Chromium based browsers), open the menu and navigate to Settings &rarr; Privacy and security &rarr; Security and scroll down to "Manage certificates". Same story here, hit "Import", specify the file and password, and it'll be added.
 
-![Screenshot of the Chromium Certificate manager](/assets/images/2024/06/chromium_certificate_manager.png)
+![Screenshot of the Chromium Certificate manager](/assets/img/posts/2024/06/chromium_certificate_manager.png)
 
 Once you've imported the certificate restart your browser, and if you browse back to the URL, you should be asked for the certificate to use. 
 
-![Screenshot of the popup of Mozilla Firefox asking for the certificate to identify with](/assets/images/2024/06/mozilla_certificate_popup.png)
+![Screenshot of the popup of Mozilla Firefox asking for the certificate to identify with](/assets/img/posts/2024/06/mozilla_certificate_popup.png)
 
 Specify it and you'll be right in :)
 
-![Screenshot of the Home Assistant login screen](/assets/images/2024/06/homeassistant_login.png)
+![Screenshot of the Home Assistant login screen](/assets/img/posts/2024/06/homeassistant_login.png)
 
 ### Android
 
@@ -176,6 +173,6 @@ On your mobile device, open the Home Assistant Companion app, open the menu and 
 
 In case you want the app to use a different url when connected to your home WiFi, specify the SSID under "Home Network WiFi SSID" and add the internal URL under "Internal Connection URL".
 
-![Screenshot of the Home Assistant Companian App Connection Information screen](/assets/images/2024/06/homeassistant_companion_app_connection_information.png)
+![Screenshot of the Home Assistant Companian App Connection Information screen](/assets/img/posts/2024/06/homeassistant_companion_app_connection_information.png)
 
 Next time you'll start Home Assistant when not connected to your home WiFi, you'll also get a popup asking for a client certificate. Specify it and you'll be right at home in your Home Assistant!

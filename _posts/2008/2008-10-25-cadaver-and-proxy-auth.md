@@ -2,8 +2,6 @@
 id: 348
 title: Cadaver and proxy auth
 date: 2008-10-25T20:55:08+02:00
-author: Jan
-layout: single
 permalink: /2008/10/25/cadaver-and-proxy-auth/
 categories:
   - Linux / Unix

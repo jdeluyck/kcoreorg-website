@@ -2,8 +2,6 @@
 id: 1129
 title: Replacing OS X with Linux on my Mac Mini 2,1
 date: 2016-01-24T16:46:01+02:00
-author: Jan
-layout: single
 permalink: /2016/01/24/replacing-os-x-with-linux-on-my-mac-mini-21/
 categories:
   - Apple / Mac OS

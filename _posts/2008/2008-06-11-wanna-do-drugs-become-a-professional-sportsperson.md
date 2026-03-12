@@ -2,8 +2,6 @@
 id: 246
 title: Wanna do drugs? Become a professional sportsperson!
 date: 2008-06-11T18:26:12+02:00
-author: Jan
-layout: single
 permalink: /2008/06/11/wanna-do-drugs-become-a-professional-sportsperson/
 categories:
   - Politics

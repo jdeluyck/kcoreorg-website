@@ -2,8 +2,6 @@
 id: 220
 title: Smog-alert!
 date: 2008-02-18T19:37:41+02:00
-author: Jan
-layout: single
 permalink: /2008/02/18/smog-alert/
 categories:
   - Cars
@@ -15,11 +13,10 @@ tags:
   - flanders
   - government
   - smog alert
-format: image
 ---
 Today the government of Flanders imposed another "Smog alert", atleast until tomorrow evening.
 
-![Smog!](/assets/images/2008/02/large_220795.jpg "Smog!")
+![Smog!](/assets/img/posts/2008/02/large_220795.jpg "Smog!")
 
 What is this, you might ask?When the amount of [fine dust](http://en.wikipedia.org/wiki/Particulate) in the air exceeds the european limit (40 µg/m³), a speed limit of 90 kph is imposed on certain roads, to reduce this.
 

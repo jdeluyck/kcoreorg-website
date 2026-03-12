@@ -2,14 +2,11 @@
 id: 258
 title: 'Fixkes - Lievelingsdier'
 date: 2008-07-10T18:03:48+02:00
-author: Jan
-layout: single
 permalink: /2008/07/10/fixkes-lievelingsdier/
 categories:
   - Music
 tags:
   - fixkes
-format: video
 ---
 **Fixkes - Lievelingsdier**
 

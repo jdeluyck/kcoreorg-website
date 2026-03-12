@@ -1,8 +1,6 @@
 ---
 title: Moving from Hetzner Storageboxes to Jottacloud
 date: 2024-01-06
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

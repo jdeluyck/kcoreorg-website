@@ -2,8 +2,6 @@
 id: 170
 title: '... and back to Apple...'
 date: 2007-11-14T11:06:00+02:00
-author: Jan
-layout: single
 permalink: /2007/11/14/and-back-to-apple/
 categories:
   - Apple / Mac OS

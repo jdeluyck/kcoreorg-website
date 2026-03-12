@@ -1,8 +1,6 @@
 ---
-title: Testing out an iPad Pro 12.9\"
+title: Testing out an iPad Pro 12.9"
 date: 2019-03-27T18:33:04+02:00
-author: Jan
-layout: single
 permalink: /2019/03/27/testing-out-an-ipad-pro/
 categories:
   - Apple / Mac OS
@@ -54,4 +52,4 @@ figured out that you need to do this using Safari - since there's no way to get 
 for sheet music) is extremely pretty... but incredibly inpractical to use.
 * Base functionality seems to be missing. It feels incomplete.
 
-People will probably disagree with me and say that it's _the_ tablet, but... not for me. 
+People will probably disagree with me and say that it's _the_ tablet, but... not for me.

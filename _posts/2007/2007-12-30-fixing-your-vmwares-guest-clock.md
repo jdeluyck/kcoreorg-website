@@ -2,8 +2,6 @@
 id: 196
 title: 'Fixing your VMWare&apos;s guest clock'
 date: 2007-12-30T13:47:05+02:00
-author: Jan
-layout: single
 permalink: /2007/12/30/fixing-your-vmwares-guest-clock/
 categories:
   - Virtualisation

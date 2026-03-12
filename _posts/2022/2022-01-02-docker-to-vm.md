@@ -1,8 +1,6 @@
 ---
 title: 'Moving docker to a VM'
 date: 2022-01-02
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:
@@ -17,7 +15,7 @@ In the original design of my [Proxmox box](/2020/05/07/enter-zfs/) I opted for r
 
 One of the bonusses of running native on the host is that I/O is really good.
 
-![I/O when running on the host](/assets/images/2022/01/io-docker-native.png)
+![I/O when running on the host](/assets/img/posts/2022/01/io-docker-native.png)
 
 (making lots of abstractions here)
 
@@ -44,6 +42,6 @@ After making sure the shares are there, everything runs fine...ish.
 I find that - even though I have a [SLOG](/2021/11/15/adding-slog-zfs/) on my pool, it's still - at times - rather slow when doing heavy I/O.
 I'll have to do something about that. While KVM is quite optimized, you're still passing all those I/O operations through several layers extra vs on top of the hardware itself. 
 
-![I/O when running on a VM](/assets/images/2022/01/io-docker-vm.png)
+![I/O when running on a VM](/assets/img/posts/2022/01/io-docker-vm.png)
 
 So, hmm. Thinking to do.

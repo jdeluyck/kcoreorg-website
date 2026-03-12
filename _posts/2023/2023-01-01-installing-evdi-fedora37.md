@@ -1,8 +1,6 @@
 ---
 title: Installing Displaylink drivers on Fedora 37
 date: 2023-01-01
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:

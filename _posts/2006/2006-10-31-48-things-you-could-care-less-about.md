@@ -2,11 +2,8 @@
 id: 79
 title: 48 Things You Could Care Less About
 date: 2006-10-31T22:05:22+02:00
-author: Jan
-layout: single
 permalink: /2006/10/31/48-things-you-could-care-less-about/
-categories:
-  - Personal
+categories: [Personal]
 ---
 I saw it from my [SO's site](http://sade.sadevil.org/blog/?p=83#more-83), so I'm gonna include it here!
 

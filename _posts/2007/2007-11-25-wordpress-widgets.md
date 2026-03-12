@@ -2,8 +2,6 @@
 id: 179
 title: WordPress Widgets!
 date: 2007-11-25T18:38:55+02:00
-author: Jan
-layout: single
 permalink: /2007/11/25/wordpress-widgets/
 categories:
   - WordPress

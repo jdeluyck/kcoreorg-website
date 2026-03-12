@@ -2,11 +2,8 @@
 id: 1156
 title: 'My history in gadgets - update 2019'
 date: 2019-06-26T17:22:59+02:00
-author: Jan
-layout: single
 permalink: /2019/06/26/my-history-in-gadgets-update-2019/
-categories:
-  - Android
+categories: [Mobile & Gadgets, History]
 tags:
   - android
   - gadget
@@ -24,11 +21,11 @@ _**Mobile phone history:**_
 I've since sold the OnePlus 3 to my nephew (after getting a battery replacement) and replaced it with:
 
 **[OnePlus 6](https://www.gsmarena.com/oneplus_6-9109.php)<br>
-![](/assets/images/2019/06/oneplus-6.png)**
+![](/assets/img/posts/2019/06/oneplus-6.png)**
 
 _**Tablet history:**_
 
 I sold the Transformer TF101 and replaced it with:
 
 **[Lenovo Tab4 10](https://www.gsmarena.com/lenovo_tab_4_10-8604.php)<br>
-![](/assets/images/2019/06/lenovo-tab4-10.png)**
+![](/assets/img/posts/2019/06/lenovo-tab4-10.png)**

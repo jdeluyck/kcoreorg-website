@@ -1,8 +1,6 @@
 ---
 title: Switching to Traefik and step-ca (from nginx-proxy)
 date: 2023-10-30
-author: Jan
-layout: single
 categories:
   - Linux / Unix
 tags:
