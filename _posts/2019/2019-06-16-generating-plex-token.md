@@ -2,10 +2,9 @@
 title: Generating a Plex Auth Token using curl
 date: 2019-06-16T08:33:04+02:00
 permalink: /2019/06/16/generating-plex-token-curl/
-categories:
-  - Linux / Unix
-  - Home Automation
+categories: [Technology & IT, Linux]
 tags:
+  - linux
   - plex
   - curl
   - home assistant
@@ -30,6 +29,4 @@ https://plex.tv/users/sign_in.json
 replacing the stuff between <> with your actual values.
 
 When you run this command, you'll get some json back, in which you need to look for `"authToken":"osadjfs5928aosdjfosX"`.
-This string will be the authentication token you will need to give to Home Assistant. 
-
-
+This string will be the authentication token you will need to give to Home Assistant.

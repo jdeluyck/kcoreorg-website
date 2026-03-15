@@ -2,7 +2,7 @@
 title: Code storage
 date: 2025-06-15
 permalink: /2025/06/15/taking-back-control-webpresence-part6/
-categories: [Technology & IT, Coding]
+categories: [Technology & IT, Virtualisation]
 tags:
   - linux
   - sourceforge

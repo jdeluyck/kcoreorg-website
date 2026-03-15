@@ -3,9 +3,7 @@ id: 73
 title: 'What I&apos;ve been doing...'
 date: 2005-10-27T15:05:39+02:00
 permalink: /2005/10/27/what-ive-been-doing/
-categories:
-  - Personal
-  - WordPress
+categories: [Life & Musings, Personal]
 tags:
   - firmware
   - linux
@@ -36,4 +34,3 @@ That's about it!
 [webrings-1.0.zip](/assets/files/2005/10/webrings-1.0.zip)
 [countdown-2.0.zip](/assets/files/2005/10/countdown-2.0.zip)
 [sphpblog2wp-0.1.zip](/assets/files/2005/10/sphpblog2wp-0.1.zip)
-

@@ -3,9 +3,7 @@ id: 524
 title: 'Nacht van FCP&D'
 date: 2009-11-22T12:45:09+02:00
 permalink: /2009/11/22/nacht-van-fcpd/
-categories:
-  - 'Flemish Caledonian Pipes &amp; Drums'
-  - Music
+categories: [Hobbies & Interests, Flemish Caledonian Pipes & Drums "Clan MacKenzie"]
 tags:
   - 'fcp&amp;d'
   - pipeband

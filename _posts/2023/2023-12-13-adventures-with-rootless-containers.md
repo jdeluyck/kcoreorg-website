@@ -1,8 +1,7 @@
 ---
 title: Adventures with rootless Podman containers
 date: 2023-12-13
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Virtualisation]
 tags:
   - containers
   - docker

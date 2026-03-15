@@ -3,9 +3,10 @@ id: 39
 title: Cavies de luxe
 date: 2006-09-30T15:45:11+02:00
 permalink: /2006/09/30/cavies-de-luxe/
-categories:
-  - Cavies
+categories: [Life & Musings, Pets]
 tags:
+  - cavies
+  - guinea pigs
   - cage
 ---
 Seems they did like the [changes](/2006/09/16/the-cavy-cage/) I made to their cage... I had to modify a bit still, because appareantely they took to pooping on one corner of the cage, where the stairs used to be. Oh well, moved to the other side, and I added some cardboardish panels to the sides of their 'loft' so the hay doesn't spill out so much anymore :)  

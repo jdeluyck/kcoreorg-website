@@ -1,8 +1,7 @@
 ---
 title: 'Migrating Proxmox/ZFS from raidz1 to mirrors'
 date: 2022-01-15
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - zfs
   - proxmox

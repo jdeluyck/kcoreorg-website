@@ -1,8 +1,7 @@
 ---
 title: 'My history in gadgets - update 2022'
 date: 2022-08-01
-categories:
-  - Android
+categories: [Mobile & Gadgets, History]
 tags:
   - android
   - gadget

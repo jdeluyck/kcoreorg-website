@@ -3,8 +3,7 @@ id: 59
 title: Allnighters at work
 date: 2005-04-07T15:22:07+02:00
 permalink: /2005/04/07/allnighters-at-work/
-categories:
-  - Work
+categories: [Life & Musings, Personal]
 tags:
   - allnighters
   - multicast

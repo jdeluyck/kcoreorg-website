@@ -3,8 +3,7 @@ id: 160
 title: Geen kerstgedoe voor 15 december!
 date: 2007-11-05T20:13:52+02:00
 permalink: /2007/11/05/geen-kerstgedoe-voor-15-december/
-categories:
-  - Personal
+categories: [Life & Musings, Personal]
 tags:
   - christmas
   - humo

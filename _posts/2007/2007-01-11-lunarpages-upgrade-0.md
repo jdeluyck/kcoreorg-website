@@ -3,8 +3,7 @@ id: 98
 title: Lunarpages upgrade :0 :)
 date: 2007-01-11T10:36:55+02:00
 permalink: /2007/01/11/lunarpages-upgrade-0/
-categories:
-  - Networking
+categories: [Life & Musings, Site Updates]
 tags:
   - lunarpages
 ---

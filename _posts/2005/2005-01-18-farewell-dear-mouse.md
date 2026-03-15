@@ -3,8 +3,7 @@ id: 65
 title: Farewell, dear mouse!
 date: 2005-01-18T12:18:31+02:00
 permalink: /2005/01/18/farewell-dear-mouse/
-categories:
-  - Random
+categories: [Technology & IT, Hardware]
 tags:
   - dead
   - mouse

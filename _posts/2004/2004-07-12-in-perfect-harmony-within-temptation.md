@@ -3,7 +3,7 @@ id: 48
 title: In Perfect Harmony (Within Temptation)
 date: 2004-07-12T16:44:52+02:00
 permalink: /2004/07/12/in-perfect-harmony-within-temptation/
-categories: [Personal, Music]
+categories: [Hobbies & Interests, Music]
 tags:
   - within temptation
 ---

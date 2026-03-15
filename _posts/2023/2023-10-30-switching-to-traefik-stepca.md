@@ -1,8 +1,7 @@
 ---
 title: Switching to Traefik and step-ca (from nginx-proxy)
 date: 2023-10-30
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Networking]
 tags:
   - containers
   - traefik

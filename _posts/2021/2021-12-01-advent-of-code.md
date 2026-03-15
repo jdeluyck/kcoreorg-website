@@ -1,8 +1,7 @@
 ---
 title: 'Advent of Code'
 date: 2021-12-01
-categories:
-  - Coding
+categories: [Development & Web, Coding]
 tags:
   - python
   - advent of code

@@ -3,9 +3,10 @@ id: 322
 title: RIP Richard Wright
 date: 2008-09-15T22:07:01+02:00
 permalink: /2008/09/15/rip-richard-wright/
-categories:
-  - Music
+categories: [Life & Musings, Personal]
 tags:
+  - pianist
+  - musician
   - pink floyd
   - richard wright
 ---

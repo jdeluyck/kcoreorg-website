@@ -8,7 +8,6 @@ categories:
 tags:
   - 'c#'
   - microsoft
-format: link
 ---
 See [http://www.alenz.org/mirror/khason/why-microsoft-can-blow-off-with-c.html](http://www.alenz.org/mirror/khason/why-microsoft-can-blow-off-with-c.html)
 

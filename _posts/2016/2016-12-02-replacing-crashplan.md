@@ -3,8 +3,7 @@ id: 1884
 title: Replacing Crashplan
 date: 2016-12-02T11:05:53+02:00
 permalink: /2016/12/02/replacing-crashplan/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - arm
   - attic

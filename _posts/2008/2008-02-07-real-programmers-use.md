@@ -3,8 +3,7 @@ id: 213
 title: 'Real programmers use...'
 date: 2008-02-07T20:11:16+02:00
 permalink: /2008/02/07/real-programmers-use/
-categories:
-  - Comics
+categories: [Hobbies & Interests, Comics]
 tags:
   - butterflies
   - comic

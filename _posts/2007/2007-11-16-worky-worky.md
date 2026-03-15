@@ -3,8 +3,7 @@ id: 172
 title: Worky worky!
 date: 2007-11-16T08:30:35+02:00
 permalink: /2007/11/16/worky-worky/
-categories:
-  - Work
+categories: [Life & Musings, Personal]
 tags:
   - work
 ---

@@ -3,8 +3,7 @@ id: 153
 title: Leopard ships on october 26th
 date: 2007-10-16T18:17:14+02:00
 permalink: /2007/10/16/leopard-ships-on-october-26th/
-categories:
-  - Apple / Mac OS
+categories: [Technology & IT, Apple]
 tags:
   - apple
   - leopard

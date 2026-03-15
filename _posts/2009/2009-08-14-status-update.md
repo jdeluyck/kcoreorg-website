@@ -3,8 +3,7 @@ id: 476
 title: Status update!
 date: 2009-08-14T13:08:06+02:00
 permalink: /2009/08/14/status-update/
-categories:
-  - Personal
+categories: [Life & Musings, Personal]
 tags:
   - apple
   - ghent

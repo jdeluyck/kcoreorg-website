@@ -3,10 +3,9 @@ id: 255
 title: CoRD and xrdp
 date: 2008-06-29T17:07:47+02:00
 permalink: /2008/06/29/cord-and-xrdp/
-categories:
-  - Apple / Mac OS
-  - Linux / Unix
+categories: [Technology & IT, Apple]
 tags:
+  - linux
   - beta
   - cord
   - mac os x

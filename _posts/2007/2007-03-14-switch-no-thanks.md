@@ -3,10 +3,10 @@ id: 108
 title: Switch? No thanks.
 date: 2007-03-14T19:27:01+02:00
 permalink: /2007/03/14/switch-no-thanks/
-categories:
-  - Apple / Mac OS
-  - Rants
+categories: [Life & Musings, Personal]
 tags:
+  - apple
+  - rants
   - macbook
   - switch
 ---

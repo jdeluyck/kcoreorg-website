@@ -1,8 +1,7 @@
 ---
 title: 'Adding a SLOG to ZFS'
 date: 2021-11-15
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - zfs
   - proxmox

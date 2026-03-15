@@ -3,8 +3,10 @@ id: 471
 title: In Memoriam
 date: 2009-07-20T15:38:23+02:00
 permalink: /2009/07/20/in-memoriam/
-categories:
-  - Cavies
+categories: [Life & Musings, Pets]
+tags:
+  - cavies
+  - guinea pigs
 ---
 ![Macchiatto - In Memoriam](/assets/img/posts/2009/07/Macchiatto-InMemoriam-sm.jpg "Macchiatto - In Memoriam")
 

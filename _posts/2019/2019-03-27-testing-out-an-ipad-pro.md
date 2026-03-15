@@ -2,9 +2,7 @@
 title: Testing out an iPad Pro 12.9"
 date: 2019-03-27T18:33:04+02:00
 permalink: /2019/03/27/testing-out-an-ipad-pro/
-categories:
-  - Apple / Mac OS
-  - Android
+categories: [Technology & IT, Apple]
 tags:
   - ipad pro
   - sheet music

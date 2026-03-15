@@ -3,8 +3,7 @@ id: 366
 title: Having fun replacing a backup battery in a laptop
 date: 2008-11-16T18:11:55+02:00
 permalink: /2008/11/16/having-fun-replacing-a-backup-battery-in-a-laptop/
-categories:
-  - Random
+categories: [Technology & IT, Hardware]
 tags:
   - acer travelmate 803
   - backup

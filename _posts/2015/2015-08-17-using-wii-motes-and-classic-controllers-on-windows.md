@@ -3,8 +3,7 @@ id: 1088
 title: Using WiiMotes (and classic controllers) on Windows
 date: 2015-08-17T12:44:30+02:00
 permalink: /2015/08/17/using-wii-motes-and-classic-controllers-on-windows/
-categories:
-  - Windows
+categories: [Technology & IT, Windows]
 tags:
   - classic controller
   - drivers

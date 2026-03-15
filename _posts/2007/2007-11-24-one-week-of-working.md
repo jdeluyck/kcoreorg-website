@@ -3,8 +3,7 @@ id: 178
 title: One week of working!
 date: 2007-11-24T17:46:31+02:00
 permalink: /2007/11/24/one-week-of-working/
-categories:
-  - Work
+categories: [Life & Musings, Personal]
 tags:
   - delays
   - trains

@@ -3,10 +3,9 @@ id: 181
 title: Thank you for polluting
 date: 2007-11-30T21:19:42+02:00
 permalink: /2007/11/30/thank-you-for-polluting/
-categories:
-  - Personal
-  - Rants
+categories: [Life & Musings, Personal]
 tags:
+  - rants
   - cars
   - polluting
   - stupid people

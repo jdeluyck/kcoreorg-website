@@ -3,13 +3,11 @@ id: 1972
 title: Testing out silicone sponges
 date: 2018-03-05T17:03:42+02:00
 permalink: /2018/03/05/testing-out-silicone-sponges/
-categories:
-  - Personal
+categories: [Life & Musings, Personal]
 tags:
   - disposable sponges
   - scrubbies
   - silicone sponges
-format: link
 ---
 I was reading some stories (don't ask my where anymore - might have been on [reddit](https://www.reddit.com/) or [Lifehacker](https://lifehacker.com/)) about silicone sponges to replace (the often gross) disposable sponges we used in the kitchen. Sounded like a great idea - something that you don't need to throw away, that doesn't become a bacterial warzone, durable.. but after trying it out I'll be going back to the disposables.
 

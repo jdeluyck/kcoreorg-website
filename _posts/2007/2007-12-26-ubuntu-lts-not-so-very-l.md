@@ -3,8 +3,7 @@ id: 194
 title: 'Ubuntu LTS... not so very L?'
 date: 2007-12-26T14:23:13+02:00
 permalink: /2007/12/26/ubuntu-lts-not-so-very-l/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - bug
   - lts

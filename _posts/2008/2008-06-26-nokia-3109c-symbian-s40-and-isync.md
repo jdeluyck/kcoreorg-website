@@ -3,14 +3,13 @@ id: 254
 title: 'Nokia 3109c (Symbian S40) and iSync...'
 date: 2008-06-26T21:21:09+02:00
 permalink: /2008/06/26/nokia-3109c-symbian-s40-and-isync/
-categories:
-  - Apple / Mac OS
-  - Symbian
+categories: [Technology & IT, Apple]
 tags:
   - nokia 3109c
   - apple
   - isync
   - mac os x
+  - symbian
   - symbian s40
 ---
 I got a company phone, a [Nokia](http://www.nokia.com) [3109 Classic](http://www.nokia.co.uk/A4423231), which is nothing less nothing more than a standard company phone. It doesn't have all the bells and whistles I'd like to have, but it works.

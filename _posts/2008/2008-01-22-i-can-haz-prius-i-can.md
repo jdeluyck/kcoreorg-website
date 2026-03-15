@@ -3,8 +3,7 @@ id: 206
 title: I can haz Prius? I can!
 date: 2008-01-22T18:51:09+02:00
 permalink: /2008/01/22/i-can-haz-prius-i-can/
-categories:
-  - Cars
+categories: [Life & Musings, Personal]
 tags:
   - early delivery
   - garage holvoet

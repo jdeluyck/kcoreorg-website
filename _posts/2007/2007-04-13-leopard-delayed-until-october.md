@@ -3,9 +3,9 @@ id: 115
 title: 'Leopard delayed until october...'
 date: 2007-04-13T20:47:45+02:00
 permalink: /2007/04/13/leopard-delayed-until-october/
-categories:
-  - Apple / Mac OS
+categories: [Technology & IT, Apple]
 tags:
+  - leopard
   - delayed
   - iphone
   - mac os x

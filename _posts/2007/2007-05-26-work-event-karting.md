@@ -3,8 +3,7 @@ id: 125
 title: 'Work-event: Karting!'
 date: 2007-05-26T22:06:00+02:00
 permalink: /2007/05/26/work-event-karting/
-categories:
-  - Work
+categories: [Life & Musings, Personal]
 tags:
   - karting
   - work

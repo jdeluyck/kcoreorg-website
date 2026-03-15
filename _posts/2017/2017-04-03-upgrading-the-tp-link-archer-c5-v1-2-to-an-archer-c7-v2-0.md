@@ -3,8 +3,7 @@ id: 1918
 title: Upgrading the TP-Link Archer C5 (v1.2) to an Archer C7 (v2.0)
 date: 2017-04-03T16:25:56+02:00
 permalink: /2017/04/03/upgrading-the-tp-link-archer-c5-v1-2-to-an-archer-c7-v2-0/
-categories:
-  - Networking
+categories: [Technology & IT, Networking]
 tags:
   - openwrt
   - tp-link archer c5

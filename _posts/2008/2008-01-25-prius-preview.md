@@ -3,8 +3,7 @@ id: 209
 title: Prius Preview
 date: 2008-01-25T20:39:03+02:00
 permalink: /2008/01/25/prius-preview/
-categories:
-  - Cars
+categories: [Life & Musings, Personal]
 tags:
   - toyota prius
 ---

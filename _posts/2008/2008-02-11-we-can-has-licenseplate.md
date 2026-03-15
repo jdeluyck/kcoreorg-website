@@ -3,8 +3,7 @@ id: 218
 title: We can has licenseplate?
 date: 2008-02-11T19:50:10+02:00
 permalink: /2008/02/11/we-can-has-licenseplate/
-categories:
-  - Cars
+categories: [Life & Musings, Personal]
 tags:
   - cars
   - license plate

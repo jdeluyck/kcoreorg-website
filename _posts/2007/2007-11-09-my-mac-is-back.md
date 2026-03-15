@@ -3,8 +3,7 @@ id: 164
 title: My Mac is Back!
 date: 2007-11-09T17:45:28+02:00
 permalink: /2007/11/09/my-mac-is-back/
-categories:
-  - Apple / Mac OS
+categories: [Technology & IT, Apple]
 tags:
   - apple
   - bezel

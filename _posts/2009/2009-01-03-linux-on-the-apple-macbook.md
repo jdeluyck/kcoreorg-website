@@ -3,8 +3,7 @@ id: 416
 title: Linux on the Apple Macbook
 date: 2009-01-03T12:24:00+02:00
 permalink: /2009/01/03/linux-on-the-apple-macbook/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - apple
   - debian

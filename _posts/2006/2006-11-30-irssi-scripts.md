@@ -3,8 +3,10 @@ id: 1288
 title: Irssi scripts
 date: 2006-11-30T20:51:21+02:00
 permalink: /2006/11/30/irssi-scripts/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
+tags:
+  - linux
+  - irssi
 ---
 I recently started using the wonderful textbased IRC client called [Irssi](http://irssi.org/). It's console based, scriptable in [Perl](http://www.perl.com/), fast, low memory footprint.. really nice for the average geek ;p
 
@@ -41,4 +43,3 @@ To use it, download the script, dump it in e.g. `~/.irssi/scripts`, and load it 
 
 ### Download
 [active_dcc-1.0.zip](/assets/files/2006/11/active_dcc-1.0.zip)
-

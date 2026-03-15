@@ -1,8 +1,7 @@
 ---
 title: 'Using WireGuard on Synology DiskStations'
 date: 2019-12-29
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - wireguard
   - synology diskstation

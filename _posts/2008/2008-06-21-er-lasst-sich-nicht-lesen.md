@@ -3,8 +3,7 @@ id: 251
 title: Er lässt sich nicht lesen
 date: 2008-06-21T20:28:26+02:00
 permalink: /2008/06/21/er-lasst-sich-nicht-lesen/
-categories:
-  - Comics
+categories: [Hobbies & Interests, Comics]
 tags:
   - art
   - megatokyo

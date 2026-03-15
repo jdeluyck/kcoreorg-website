@@ -1,8 +1,7 @@
 ---
 title: 'Chromecast Radio control using a Logitech Harmony Elite (and Home Assistant)'
 date: 2020-10-17
-categories:
-  - Home Automation
+categories: [Technology & IT, Home Automation]
 tags:
   - logitech harmony remote
   - home assistant

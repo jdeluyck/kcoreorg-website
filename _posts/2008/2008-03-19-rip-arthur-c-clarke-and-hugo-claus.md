@@ -3,8 +3,7 @@ id: 224
 title: R.I.P. Arthur C. Clarke and Hugo Claus
 date: 2008-03-19T18:29:58+02:00
 permalink: /2008/03/19/rip-arthur-c-clarke-and-hugo-claus/
-categories:
-  - Random
+categories: [Life & Musings, Personal]
 tags:
   - arthur c. clarke
   - died

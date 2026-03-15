@@ -3,8 +3,7 @@ id: 228
 title: Coffee and tea in Ghent!
 date: 2008-03-30T16:08:26+02:00
 permalink: /2008/03/30/coffee-and-tea-in-ghent/
-categories:
-  - Random
+categories: [Life & Musings, Personal]
 ---
 Yesterday, when walking through Ghent, we discovered a new shop specialised in coffee and tea: [Simon L&eacute;velt](http://www.simonlevelt.nl/KoffieWinkel/Products.aspx?coi=3021&pg=3917) on the [Kleine Vismarkt (nr. 5) in Ghent](http://maps.google.com/maps?f=q&hl=en&geocode=&q=Kleine+Vismarkt,+9000+Gent,+Gent&sll=37.0625,-95.677068&sspn=35.957999,77.431641&ie=UTF8&z=16). It's a small shop easily passed, but really worth a visit.
 

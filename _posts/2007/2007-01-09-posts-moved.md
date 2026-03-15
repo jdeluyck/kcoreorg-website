@@ -3,8 +3,7 @@ id: 96
 title: Posts moved
 date: 2007-01-09T13:12:31+02:00
 permalink: /2007/01/09/posts-moved/
-categories:
-  - Personal
+categories: [Life & Musings, Site Updates]
 ---
 Hello!
 

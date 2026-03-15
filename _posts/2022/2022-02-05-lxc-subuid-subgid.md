@@ -1,8 +1,7 @@
 ---
 title: 'Understanding LXC user/group mapping'
 date: 2022-02-05
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Virtualisation]
 tags:
   - lxc
   - proxmox
@@ -95,5 +94,3 @@ UID 1002 is mapped to 1002, and for 1 UIDs.
  This now matches with what's in `/etc/subuid`, and should work ;)
 
  A restart of the container later the UID's should be mapped correctly.
-
-

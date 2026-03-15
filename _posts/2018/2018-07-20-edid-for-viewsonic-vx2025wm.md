@@ -3,8 +3,7 @@ id: 2009
 title: EDID for ViewSonic Vx2025wm
 date: 2018-07-20T18:33:04+02:00
 permalink: /2018/07/20/edid-for-viewsonic-vx2025wm/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - corrupt
   - edid

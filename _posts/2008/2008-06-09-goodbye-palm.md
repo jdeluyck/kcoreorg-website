@@ -6,7 +6,8 @@ permalink: /2008/06/09/goodbye-palm/
 categories: [Technology & IT, Palm]
 tags:
   - goodbye
-  - Palm
+  - palm
+  - palm tx
 ---
 
 "Goodbye, my trusty Palm!  

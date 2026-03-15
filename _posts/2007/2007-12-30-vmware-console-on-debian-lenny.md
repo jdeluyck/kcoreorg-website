@@ -3,9 +3,7 @@ id: 195
 title: Vmware console on Debian Lenny
 date: 2007-12-30T13:40:11+02:00
 permalink: /2007/12/30/vmware-console-on-debian-lenny/
-categories:
-  - Linux / Unix
-  - Virtualisation
+categories: [Technology & IT, Virtualisation]
 tags:
   - debian
   - linux

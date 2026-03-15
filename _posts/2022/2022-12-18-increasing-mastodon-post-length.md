@@ -1,8 +1,7 @@
 ---
 title: Increasing Mastodon's post size
 date: 2022-12-18
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Virtualisation]
 tags:
   - mastodon
   - fediverse

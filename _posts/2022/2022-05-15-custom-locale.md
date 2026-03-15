@@ -1,8 +1,7 @@
 ---
 title: 'Adding en_BE locale to Linux'
 date: 2022-05-15
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - locale
   - fedora

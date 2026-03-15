@@ -3,9 +3,11 @@ id: 211
 title: Carnival in Aalst
 date: 2008-02-01T18:10:16+02:00
 permalink: /2008/02/01/carnival-in-aalst/
-categories:
-  - Personal
-  - Rants
+categories: [Life & Musings, Personal]
+tags:
+  - rant
+  - carnival
+  - aalst
 ---
 Yay. Soon it'll be [Aalst Carnaval](http://www.aalst.be/carnaval/), a so-called cultural feast. I rather call it a drunkfest, since there's actually very little culture and loads of drinking going on.
 

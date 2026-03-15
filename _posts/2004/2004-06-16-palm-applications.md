@@ -5,6 +5,7 @@ date: 2004-06-16T10:09:43+02:00
 permalink: /2004/06/16/palm-applications/
 categories: [Technology & IT, Palm]
 tags:
+  - palm
   - palm tungsten t3
   - software
 ---

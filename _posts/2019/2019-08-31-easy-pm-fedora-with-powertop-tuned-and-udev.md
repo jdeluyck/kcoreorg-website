@@ -1,8 +1,7 @@
 ---
 title: 'Easy power management on Fedora with powertop, tuned and udev'
 date: 2019-08-31T16:05:59+02:00
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - fedora
   - udev

@@ -1,8 +1,7 @@
 ---
 title: 'Automatically unlocking SSH keys with passphrases in KDE'
 date: 2022-05-18
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - ssh
   - passphrase

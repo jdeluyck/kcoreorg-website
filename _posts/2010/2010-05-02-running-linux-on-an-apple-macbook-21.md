@@ -3,8 +3,7 @@ id: 1300
 title: Running Linux on an Apple Macbook 2,1
 date: 2010-05-02T09:13:51+02:00
 permalink: /2010/05/02/running-linux-on-an-apple-macbook-21/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - apple
   - debian
@@ -17,7 +16,7 @@ Note: I no longer have this device.
 
 **DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that's \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
 
-## PCI Specs
+### PCI Specs
 ```
 00:00.0 Host bridge: Intel Corporation Mobile 945GM/PM/GMS, 943/940GML and 945GT Express Memory Controller Hub (rev 03)
 00:02.0 VGA compatible controller: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller (rev 03)

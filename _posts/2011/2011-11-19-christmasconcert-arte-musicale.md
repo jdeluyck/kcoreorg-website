@@ -3,9 +3,7 @@ id: 697
 title: Christmasconcert Arte Musicale
 date: 2011-11-19T10:07:09+02:00
 permalink: /2011/11/19/christmasconcert-arte-musicale/
-categories:
-  - Chamberchoir Furiant
-  - Music
+categories: [Hobbies & Interests, Chamberchoir Furiant]
 tags:
   - arte musicale
   - chamberchoir furiant

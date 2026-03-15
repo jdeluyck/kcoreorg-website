@@ -3,8 +3,7 @@ id: 278
 title: Cloning woes
 date: 2008-08-30T19:49:28+02:00
 permalink: /2008/08/30/cloning-woes/
-categories:
-  - Apple / Mac OS
+categories: [Technology & IT, Apple]
 tags:
   - carbon copy cloner
   - mac os x

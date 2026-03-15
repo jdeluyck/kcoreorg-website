@@ -1,10 +1,9 @@
 ---
 title: 'Learning the piano, and playing with MIDI & PulseAudio on Linux'
 date: 2021-01-16
-categories:
-  - Music
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
+  - music
   - midi
   - linux
   - roland rd-700gx

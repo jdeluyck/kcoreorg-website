@@ -3,8 +3,7 @@ id: 335
 title: 'R.E.M. - Find The River'
 date: 2008-09-30T22:08:58+02:00
 permalink: /2008/09/30/rem-find-the-river/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - rem
 ---

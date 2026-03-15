@@ -3,8 +3,7 @@ id: 579
 title: Multiseat on Debian
 date: 2010-04-04T16:10:08+02:00
 permalink: /2010/04/04/multiseat-on-debian/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - debian
   - kdm

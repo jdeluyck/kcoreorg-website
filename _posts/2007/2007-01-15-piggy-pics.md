@@ -3,8 +3,10 @@ id: 99
 title: Piggy Pics
 date: 2007-01-15T09:17:22+02:00
 permalink: /2007/01/15/piggy-pics/
-categories:
-  - Cavies
+categories: [Life & Musings, Pets]
+tags:
+  - cavies
+  - guinea pigs
 ---
 'ear ye! 'ear ye!
 

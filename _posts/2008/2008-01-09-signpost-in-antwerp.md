@@ -3,11 +3,10 @@ id: 200
 title: Signpost in Antwerp
 date: 2008-01-09T20:58:45+02:00
 permalink: /2008/01/09/signpost-in-antwerp/
-categories:
-  - Personal
-  - Politics
-  - Rants
+categories: [Life & Musings, Personal]
 tags:
+  - politics
+  - rants
   - antwerp
   - belgium
   - signpost

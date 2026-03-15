@@ -3,10 +3,10 @@ id: 1892
 title: Using a Yubikey for account security
 date: 2016-12-05T07:19:10+02:00
 permalink: /2016/12/05/using-a-yubikey-for-account-security/
-categories:
-  - Linux / Unix
-  - Windows
+categories: [Technology & IT, Linux]
 tags:
+  - windows
+  - linux
   - 2 factor
   - 2fa
   - authentication

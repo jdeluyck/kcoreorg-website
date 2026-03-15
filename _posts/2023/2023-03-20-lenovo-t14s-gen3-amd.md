@@ -1,8 +1,7 @@
 ---
 title: Lenovo Thinkpad T14s Gen3 (AMD)
 date: 2023-03-20
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Hardware]
 tags:
   - lenovo thinkpad t14s gen3 amd
   - dell xps 13 l322x

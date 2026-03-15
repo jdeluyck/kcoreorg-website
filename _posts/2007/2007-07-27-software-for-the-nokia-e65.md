@@ -7,7 +7,6 @@ categories: [Mobile & Gadgets, Symbian]
 tags:
   - nokia e65
   - software
-format: link
 ---
 After owning my Nokia E65 for about a month, here's the list of apps I installed on it:
 

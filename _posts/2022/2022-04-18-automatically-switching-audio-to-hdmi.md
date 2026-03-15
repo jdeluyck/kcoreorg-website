@@ -1,8 +1,7 @@
 ---
 title: 'Automatically switching audio to HDMI on Linux'
 date: 2022-04-18
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - pulseaudio
 ---

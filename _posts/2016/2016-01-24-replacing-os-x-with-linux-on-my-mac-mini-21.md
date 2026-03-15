@@ -3,9 +3,11 @@ id: 1129
 title: Replacing OS X with Linux on my Mac Mini 2,1
 date: 2016-01-24T16:46:01+02:00
 permalink: /2016/01/24/replacing-os-x-with-linux-on-my-mac-mini-21/
-categories:
-  - Apple / Mac OS
-  - Linux / Unix
+categories: [Technology & IT, Linux]
+tags:
+  - linux
+  - mac mini
+  - debian
 ---
 I still had an old [Mac Mini](https://en.wikipedia.org/wiki/Mac_Mini) (model 2,1) - which I bought during a period of experimentation with different operating systems -  connected to the TV, running [Mac OS X Lion](https://en.wikipedia.org/wiki/Mac_OS_X_Lion). Not Apple's finest installment of OS X, truth be told.
 

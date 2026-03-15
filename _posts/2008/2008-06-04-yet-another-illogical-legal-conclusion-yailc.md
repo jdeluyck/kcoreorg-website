@@ -3,10 +3,10 @@ id: 245
 title: Yet Another Illogical Legal Conclusion (YAILC)
 date: 2008-06-04T22:11:45+02:00
 permalink: /2008/06/04/yet-another-illogical-legal-conclusion-yailc/
-categories:
-  - Politics
-  - Rants
+categories: [Life & Musings, Personal]
 tags:
+  - politics
+  - rants
   - ebay
   - fake
   - fine

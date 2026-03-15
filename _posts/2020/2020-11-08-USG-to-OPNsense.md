@@ -1,8 +1,7 @@
 ---
 title: 'Migrating from the Ubiquiti USG to OPNsense on a PCEngines APU2E4'
 date: 2020-11-08
-categories:
-  - Networking
+categories: [Technology & IT, Networking]
 tags:
   - ubiquiti usg
   - unifi security gateway

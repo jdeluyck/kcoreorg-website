@@ -1,8 +1,7 @@
 ---
 title: 'Moving docker to a VM'
 date: 2022-01-02
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Virtualisation]
 tags:
   - containers
   - docker

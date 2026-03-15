@@ -3,8 +3,7 @@ id: 179
 title: WordPress Widgets!
 date: 2007-11-25T18:38:55+02:00
 permalink: /2007/11/25/wordpress-widgets/
-categories:
-  - WordPress
+categories: [Development & Web, Coding]
 tags:
   - countdown
   - kcore.org

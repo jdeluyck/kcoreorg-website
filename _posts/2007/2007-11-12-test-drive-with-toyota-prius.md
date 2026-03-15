@@ -3,8 +3,7 @@ id: 167
 title: Test-drive with Toyota Prius
 date: 2007-11-12T16:48:57+02:00
 permalink: /2007/11/12/test-drive-with-toyota-prius/
-categories:
-  - Cars
+categories: [Life & Musings, Personal]
 tags:
   - garage holvoet
   - hybrid

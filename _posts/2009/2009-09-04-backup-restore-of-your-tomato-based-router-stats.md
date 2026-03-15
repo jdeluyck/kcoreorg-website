@@ -3,8 +3,7 @@ id: 482
 title: 'Backup & restore of your Tomato-based router statistics'
 date: 2009-09-04T19:09:26+02:00
 permalink: /2009/09/04/backup-restore-of-your-tomato-based-router-stats/
-categories:
-  - Networking
+categories: [Technology & IT, Networking]
 tags:
   - backup
   - restore

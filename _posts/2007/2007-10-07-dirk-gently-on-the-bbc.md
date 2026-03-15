@@ -3,14 +3,12 @@ id: 148
 title: Dirk Gently on the BBC
 date: 2007-10-07T12:23:04+02:00
 permalink: /2007/10/07/dirk-gently-on-the-bbc/
-categories:
-  - Random
+categories: [Life & Musings, Personal]
 tags:
   - audiobook
   - bbc
   - dirk gently
   - holistic detective agency
-format: link
 ---
 [BBC 4 Radio](http://www.bbc.co.uk/radio4/) is running [Dirk Gently's Holistic Detective Agency](http://en.wikipedia.org/wiki/Dirk_Gently's_Holistic_Detective_Agency) as [an audiobook series](http://www.bbc.co.uk/radio4/dirkgently/)!
 

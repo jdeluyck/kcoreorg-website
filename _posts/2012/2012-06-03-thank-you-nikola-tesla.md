@@ -3,11 +3,11 @@ id: 865
 title: Thank you, Nikola Tesla!
 date: 2012-06-03T10:49:41+02:00
 permalink: /2012/06/03/thank-you-nikola-tesla/
-categories:
-  - Comics
+categories: [Hobbies & Interests, Comics]
 tags:
   - historical
   - Nicola Tesla
+  - the oatmeal
 ---
 [The Oatmeal](http://theoatmeal.com) recently had a nice post on [Nikola Tesla](http://theoatmeal.com/comics/tesla), one of the greatest minds that ever lived. We owe a ton to that guy, even though he's often not credited for it. Hell, you wouldn't even be reading this without him.
 

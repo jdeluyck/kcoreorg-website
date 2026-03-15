@@ -1,8 +1,7 @@
 ---
 title: 'Deploying a Mastodon server on Oracle Cloud'
 date: 2022-11-05
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Virtualisation]
 tags:
   - mastodon
   - fediverse

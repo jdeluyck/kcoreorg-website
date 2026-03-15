@@ -3,9 +3,10 @@ id: 123
 title: Birds, little birds!
 date: 2007-05-20T12:26:07+02:00
 permalink: /2007/05/20/birds-little-birds/
-categories: [Personal]
+categories: [Life & Musings, Pets]
 tags:
   - birds
+  - zebra finches
 ---
 We've (well, my parents really) have had some [Zebra Finches](http://en.wikipedia.org/wiki/Zebra_Finch) for a while. They never really did any real breeding, but last time they seemed more serious about the matter. And yes, we got ourselfs some little birds!  
 ![bird](/assets/img/posts/2007/05/IMG_3280-sm-300x225.jpg) 

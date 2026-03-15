@@ -1,12 +1,12 @@
 ---
 title: 'Managing your digital/paper documents with Paperless-ng'
 date: 2021-05-08
-categories:
-  - Random
+categories: [Technology & IT, Virtualisation]
 tags:
   - paperless-ng
   - ocr
   - docker
+  - productivity
 ---
 
 Close to when we were moving I decided to do something about my rather huge paper archive (bills, receipts, ...).

@@ -1,10 +1,9 @@
 ---
 title: 'Using JACK for lower-latency audio on Linux for piano practice'
 date: 2021-02-21
-categories:
-  - Music
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
+  - music
   - midi
   - linux
   - piano

@@ -3,11 +3,9 @@ id: 134
 title: Lulzkat tranlashun!
 date: 2007-08-10T16:25:12+02:00
 permalink: /2007/08/10/lulzkat-tranlashun/
-categories:
-  - Random
+categories: [Life & Musings, Personal]
 tags:
   - lolcat
   - translate
-format: link
 ---
 Wanna learn Lolcatian? Then try the [lolcat translator](http://speaklolcat.com/)!

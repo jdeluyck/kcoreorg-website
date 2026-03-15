@@ -3,7 +3,7 @@ id: 63
 title: Take This Waltz (Leonard Cohen)
 date: 2004-06-09T21:53:51+02:00
 permalink: /2004/06/09/take-this-waltz-leonard-cohen/
-categories: [Personal, Music]
+categories: [Hobbies & Interests, Music]
 tags:
   - leonard cohen
 ---

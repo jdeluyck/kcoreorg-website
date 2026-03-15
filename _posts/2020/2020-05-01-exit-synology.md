@@ -1,8 +1,7 @@
 ---
 title: 'Exit Synology'
 date: 2020-05-01
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - synology
   - btrfs

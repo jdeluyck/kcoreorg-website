@@ -3,8 +3,7 @@ id: 133
 title: Uhm.. thanks CTG ;)
 date: 2007-08-09T15:11:50+02:00
 permalink: /2007/08/09/uhm-thanks-ctg/
-categories:
-  - Work
+categories: [Life & Musings, Personal]
 tags:
   - work
 ---
