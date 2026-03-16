@@ -1,5 +1,4 @@
 ---
-id: 131
 title: Software for the Nokia E65
 date: 2007-07-27T10:00:00+02:00
 permalink: /2007/07/27/software-for-the-nokia-e65/

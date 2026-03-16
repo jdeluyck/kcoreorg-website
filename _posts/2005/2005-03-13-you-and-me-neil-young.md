@@ -1,5 +1,4 @@
 ---
-id: 45
 title: You And Me (Neil Young)
 date: 2005-03-13T21:41:15+02:00
 permalink: /2005/03/13/you-and-me-neil-young/

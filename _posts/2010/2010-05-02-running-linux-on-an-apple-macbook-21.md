@@ -1,5 +1,4 @@
 ---
-id: 1300
 title: Running Linux on an Apple Macbook 2,1
 date: 2010-05-02T09:13:51+02:00
 permalink: /2010/05/02/running-linux-on-an-apple-macbook-21/

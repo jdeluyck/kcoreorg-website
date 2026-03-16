@@ -1,5 +1,4 @@
 ---
-id: 51
 title: Our Farewell (Within Temptation)
 date: 2004-07-12T16:42:44+02:00
 permalink: /2004/07/12/our-farewell-within-temptation/

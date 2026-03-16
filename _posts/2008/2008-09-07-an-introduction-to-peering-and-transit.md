@@ -1,5 +1,4 @@
 ---
-id: 287
 title: An introduction to peering and transit
 date: 2008-09-07T20:50:03+02:00
 permalink: /2008/09/07/an-introduction-to-peering-and-transit/

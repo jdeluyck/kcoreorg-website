@@ -1,5 +1,4 @@
 ---
-id: 640
 title: phptelemeter 1.36 beta 1 released
 date: 2010-07-18T12:55:55+02:00
 permalink: /2010/07/18/phptelemeter-1-36-beta-1-released/

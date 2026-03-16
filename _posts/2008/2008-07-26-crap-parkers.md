@@ -1,5 +1,4 @@
 ---
-id: 261
 title: Crap parkers
 date: 2008-07-26T18:27:35+02:00
 permalink: /2008/07/26/crap-parkers/

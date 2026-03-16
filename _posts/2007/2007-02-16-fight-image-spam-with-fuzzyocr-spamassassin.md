@@ -1,5 +1,4 @@
 ---
-id: 105
 title: 'Fight image spam with FuzzyOCR & Spamassassin'
 date: 2007-02-16T12:33:09+02:00
 permalink: /2007/02/16/fight-image-spam-with-fuzzyocr-spamassassin/

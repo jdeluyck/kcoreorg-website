@@ -1,5 +1,4 @@
 ---
-id: 983
 title: 'O hai - a new look'
 date: 2013-04-06T17:13:26+02:00
 permalink: /2013/04/06/o-hai-a-new-look/

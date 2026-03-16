@@ -1,5 +1,4 @@
 ---
-id: 278
 title: Cloning woes
 date: 2008-08-30T19:49:28+02:00
 permalink: /2008/08/30/cloning-woes/

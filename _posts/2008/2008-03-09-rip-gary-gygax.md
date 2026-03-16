@@ -1,5 +1,4 @@
 ---
-id: 222
 title: R.I.P. Gary Gygax
 date: 2008-03-09T16:41:23+02:00
 permalink: /2008/03/09/rip-gary-gygax/

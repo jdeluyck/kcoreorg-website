@@ -1,5 +1,4 @@
 ---
-id: 168
 title: Nokia E65 software update
 date: 2007-11-13T10:39:00+02:00
 permalink: /2007/11/13/nokia-e65-software-update/

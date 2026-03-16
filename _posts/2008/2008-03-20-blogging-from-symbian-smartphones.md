@@ -1,5 +1,4 @@
 ---
-id: 225
 title: Blogging from Symbian Smartphones
 date: 2008-03-20T08:20:13+02:00
 permalink: /2008/03/20/blogging-from-symbian-smartphones/

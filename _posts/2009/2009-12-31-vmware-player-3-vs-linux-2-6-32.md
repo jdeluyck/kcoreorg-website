@@ -1,5 +1,4 @@
 ---
-id: 551
 title: VMWare Player 3 vs Linux 2.6.32
 date: 2009-12-31T13:04:43+02:00
 permalink: /2009/12/31/vmware-player-3-vs-linux-2-6-32/

@@ -1,5 +1,4 @@
 ---
-id: 1295
 title: Running Linux on an Acer TravelMate 800 series laptop
 date: 2006-08-23T08:19:33+02:00
 permalink: /2006/08/23/running-linux-on-an-acer-travelmate-800-series-laptop/

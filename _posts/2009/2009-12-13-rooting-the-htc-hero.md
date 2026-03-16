@@ -1,5 +1,4 @@
 ---
-id: 534
 title: Rooting the HTC Hero
 date: 2009-12-13T18:39:23+02:00
 permalink: /2009/12/13/rooting-the-htc-hero/

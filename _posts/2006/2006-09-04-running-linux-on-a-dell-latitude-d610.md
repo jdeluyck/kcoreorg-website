@@ -1,5 +1,4 @@
 ---
-id: 1298
 title: Running Linux on a Dell Latitude D610
 date: 2006-09-04T09:00:28+02:00
 permalink: /2006/09/04/running-linux-on-a-dell-latitude-d610/

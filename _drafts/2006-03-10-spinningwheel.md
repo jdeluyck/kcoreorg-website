@@ -1,5 +1,4 @@
 ---
-id: 57
 title: Spinningwheel!
 date: 2006-03-10T21:10:09+02:00
 permalink: /2006/03/10/spinningwheel/

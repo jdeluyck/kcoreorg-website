@@ -1,5 +1,4 @@
 ---
-id: 228
 title: Coffee and tea in Ghent!
 date: 2008-03-30T16:08:26+02:00
 permalink: /2008/03/30/coffee-and-tea-in-ghent/

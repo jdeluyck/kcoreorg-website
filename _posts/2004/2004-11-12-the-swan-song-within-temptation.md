@@ -1,5 +1,4 @@
 ---
-id: 62
 title: The Swan Song (Within Temptation)
 date: 2004-11-12T20:29:29+02:00
 permalink: /2004/11/12/the-swan-song-within-temptation/

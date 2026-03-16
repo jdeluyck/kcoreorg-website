@@ -1,5 +1,4 @@
 ---
-id: 140
 title: 'It&apos;s oh so quiet...'
 date: 2007-09-06T10:45:14+02:00
 permalink: /2007/09/06/its-oh-so-quiet/

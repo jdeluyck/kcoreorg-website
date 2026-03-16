@@ -1,5 +1,4 @@
 ---
-id: 211
 title: Carnival in Aalst
 date: 2008-02-01T18:10:16+02:00
 permalink: /2008/02/01/carnival-in-aalst/

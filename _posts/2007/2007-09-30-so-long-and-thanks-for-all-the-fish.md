@@ -1,5 +1,4 @@
 ---
-id: 146
 title: 'So long... and thanks for all the fish!'
 date: 2007-09-30T11:46:34+02:00
 permalink: /2007/09/30/so-long-and-thanks-for-all-the-fish/

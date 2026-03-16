@@ -1,5 +1,4 @@
 ---
-id: 226
 title: Arrrrrrrr!
 date: 2008-03-20T21:46:37+02:00
 permalink: /2008/03/20/arrrrrrrr/

@@ -1,5 +1,4 @@
 ---
-id: 199
 title: Cage change
 date: 2008-01-06T13:33:32+02:00
 permalink: /2008/01/06/cage-change/

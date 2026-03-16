@@ -1,5 +1,4 @@
 ---
-id: 1357
 title: phptelemeter 1.27 released
 date: 2006-12-12T10:27:41+02:00
 permalink: /2006/12/12/phptelemeter-1-27-released/

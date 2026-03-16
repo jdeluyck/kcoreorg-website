@@ -1,5 +1,4 @@
 ---
-id: 55
 title: RIAA Settlements for 5$?
 date: 2005-05-18T09:58:13+02:00
 permalink: /2005/05/18/riaa-settlements-for-5/

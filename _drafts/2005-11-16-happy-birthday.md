@@ -1,5 +1,4 @@
 ---
-id: 72
 title: Happy birthday!
 date: 2005-11-16T06:22:39+02:00
 permalink: /2005/11/16/happy-birthday/

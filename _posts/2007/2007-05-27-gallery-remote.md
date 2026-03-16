@@ -1,5 +1,4 @@
 ---
-id: 124
 title: Gallery-Remote
 date: 2007-05-27T13:01:00+02:00
 permalink: /2007/05/27/gallery-remote/

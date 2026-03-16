@@ -1,5 +1,4 @@
 ---
-id: 659
 title: Phone versus gingerbread
 date: 2010-12-26T16:29:19+02:00
 permalink: /2010/12/26/phone-versus-gingerbread/

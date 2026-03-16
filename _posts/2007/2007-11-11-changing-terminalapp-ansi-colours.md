@@ -1,5 +1,4 @@
 ---
-id: 165
 title: Changing Terminal.app ANSI colours
 date: 2007-11-11T13:54:31+02:00
 permalink: /2007/11/11/changing-terminalapp-ansi-colours/

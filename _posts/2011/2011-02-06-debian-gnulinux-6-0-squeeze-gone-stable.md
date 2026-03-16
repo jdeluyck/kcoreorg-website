@@ -1,5 +1,4 @@
 ---
-id: 675
 title: 'Debian GNU/Linux 6.0 "Squeeze" gone stable ;)'
 date: 2011-02-06T09:29:10+02:00
 permalink: /2011/02/06/debian-gnulinux-6-0-squeeze-gone-stable/

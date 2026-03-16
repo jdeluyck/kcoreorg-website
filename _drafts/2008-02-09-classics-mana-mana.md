@@ -1,5 +1,4 @@
 ---
-id: 216
 title: 'Classics... Mah Nà Mah Nà!'
 date: 2008-02-09T20:36:54+02:00
 permalink: /2008/02/09/classics-mana-mana/

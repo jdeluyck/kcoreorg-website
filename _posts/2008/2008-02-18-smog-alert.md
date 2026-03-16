@@ -1,5 +1,4 @@
 ---
-id: 220
 title: Smog-alert!
 date: 2008-02-18T19:37:41+02:00
 permalink: /2008/02/18/smog-alert/

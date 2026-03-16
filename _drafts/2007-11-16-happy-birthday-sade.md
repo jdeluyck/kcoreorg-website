@@ -1,5 +1,4 @@
 ---
-id: 173
 title: Happy birthday Sade!
 date: 2007-11-16T09:00:00+02:00
 permalink: /2007/11/16/happy-birthday-sade/

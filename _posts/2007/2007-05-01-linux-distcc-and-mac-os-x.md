@@ -1,5 +1,4 @@
 ---
-id: 121
 title: Linux, distcc and Mac OS X
 date: 2007-05-01T15:50:18+02:00
 permalink: /2007/05/01/linux-distcc-and-mac-os-x/

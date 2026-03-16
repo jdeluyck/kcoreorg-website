@@ -1,5 +1,4 @@
 ---
-id: 1964
 title: WP Table Of Contents plugins
 date: 2018-02-15T07:09:02+02:00
 permalink: /2018/02/15/wp-table-of-contents-plugins/

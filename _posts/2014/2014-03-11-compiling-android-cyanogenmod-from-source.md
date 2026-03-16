@@ -1,5 +1,4 @@
 ---
-id: 1051
 title: Compiling Android / CyanogenMod from source
 date: 2014-03-11T15:14:27+02:00
 permalink: /2014/03/11/compiling-android-cyanogenmod-from-source/

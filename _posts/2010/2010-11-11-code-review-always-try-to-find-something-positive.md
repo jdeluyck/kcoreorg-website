@@ -1,5 +1,4 @@
 ---
-id: 645
 title: 'Code review - always try to find something positive'
 date: 2010-11-11T13:28:34+02:00
 permalink: /2010/11/11/code-review-always-try-to-find-something-positive/

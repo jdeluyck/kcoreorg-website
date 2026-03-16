@@ -1,5 +1,4 @@
 ---
-id: 73
 title: 'What I&apos;ve been doing...'
 date: 2005-10-27T15:05:39+02:00
 permalink: /2005/10/27/what-ive-been-doing/

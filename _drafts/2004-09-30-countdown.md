@@ -1,5 +1,4 @@
 ---
-id: 89
 title: 'Countdown...'
 date: 2004-09-30T08:57:00+02:00
 permalink: /2004/09/30/countdown/

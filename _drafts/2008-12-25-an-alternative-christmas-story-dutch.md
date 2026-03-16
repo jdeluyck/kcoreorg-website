@@ -1,5 +1,4 @@
 ---
-id: 414
 title: An alternative christmas story (dutch)
 date: 2008-12-25T15:22:50+02:00
 permalink: /2008/12/25/an-alternative-christmas-story-dutch/

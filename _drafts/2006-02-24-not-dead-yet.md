@@ -1,5 +1,4 @@
 ---
-id: 69
 title: Not dead yet
 date: 2006-02-24T16:53:01+02:00
 permalink: /2006/02/24/not-dead-yet/

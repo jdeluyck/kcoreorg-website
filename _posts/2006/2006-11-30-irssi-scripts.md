@@ -1,5 +1,4 @@
 ---
-id: 1288
 title: Irssi scripts
 date: 2006-11-30T20:51:21+02:00
 permalink: /2006/11/30/irssi-scripts/

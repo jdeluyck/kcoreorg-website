@@ -1,5 +1,4 @@
 ---
-id: 111
 title: 'Destructive critters...'
 date: 2007-03-21T20:43:52+02:00
 permalink: /2007/03/21/destructive-critters/

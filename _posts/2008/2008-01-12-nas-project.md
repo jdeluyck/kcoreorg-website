@@ -1,5 +1,4 @@
 ---
-id: 201
 title: NAS Project
 date: 2008-01-12T13:30:08+02:00
 permalink: /2008/01/12/nas-project/

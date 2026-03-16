@@ -1,5 +1,4 @@
 ---
-id: 851
 title: Magnificat by C.P.E. Bach
 date: 2012-03-15T18:46:18+02:00
 permalink: /2012/03/15/magnificat-by-c-p-e-bach/

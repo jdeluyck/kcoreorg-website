@@ -1,5 +1,4 @@
 ---
-id: 83
 title: 'Our site... in the middle of the web...'
 date: 2005-01-18T12:22:21+02:00
 permalink: /2005/01/18/our-site-in-the-middle-of-the-web/

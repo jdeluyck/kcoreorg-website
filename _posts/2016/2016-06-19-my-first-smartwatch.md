@@ -1,5 +1,4 @@
 ---
-id: 1160
 title: 'My first smartwatch...'
 date: 2016-06-19T20:55:41+02:00
 permalink: /2016/06/19/my-first-smartwatch/

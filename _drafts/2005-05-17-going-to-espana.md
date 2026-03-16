@@ -1,5 +1,4 @@
 ---
-id: 78
 title: Going to España
 date: 2005-05-17T13:11:17+02:00
 permalink: /2005/05/17/going-to-espana/

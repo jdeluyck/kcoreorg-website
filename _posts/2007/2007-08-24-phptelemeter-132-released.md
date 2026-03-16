@@ -1,5 +1,4 @@
 ---
-id: 138
 title: phptelemeter 1.32 released
 date: 2007-08-24T10:37:41+02:00
 permalink: /2007/08/24/phptelemeter-132-released/

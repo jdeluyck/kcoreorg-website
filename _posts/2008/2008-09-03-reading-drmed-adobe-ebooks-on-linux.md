@@ -1,5 +1,4 @@
 ---
-id: 282
 title: 'Reading DRM&apos;ed Adobe Ebooks on Linux'
 date: 2008-09-03T21:11:27+02:00
 permalink: /2008/09/03/reading-drmed-adobe-ebooks-on-linux/

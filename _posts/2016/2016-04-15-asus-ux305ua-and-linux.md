@@ -1,5 +1,4 @@
 ---
-id: 1147
 title: ASUS UX305UA and Linux
 date: 2016-04-15T13:45:46+02:00
 permalink: /2016/04/15/asus-ux305ua-and-linux/

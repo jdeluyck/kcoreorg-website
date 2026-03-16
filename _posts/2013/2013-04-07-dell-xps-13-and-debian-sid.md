@@ -1,5 +1,4 @@
 ---
-id: 963
 title: Dell XPS 13 and Debian Sid
 date: 2013-04-07T12:17:53+02:00
 permalink: /2013/04/07/dell-xps-13-and-debian-sid/

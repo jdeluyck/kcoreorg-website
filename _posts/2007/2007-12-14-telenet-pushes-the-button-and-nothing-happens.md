@@ -1,5 +1,4 @@
 ---
-id: 188
 title: 'Telenet pushed the button... and nothing happened'
 date: 2007-12-14T18:12:10+02:00
 permalink: /2007/12/14/telenet-pushes-the-button-and-nothing-happens/

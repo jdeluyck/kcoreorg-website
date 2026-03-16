@@ -1,5 +1,4 @@
 ---
-id: 129
 title: Vmware and Linux-2.6.22
 date: 2007-07-20T15:57:40+02:00
 permalink: /2007/07/20/vmware-and-linux-2622/

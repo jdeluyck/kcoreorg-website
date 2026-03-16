@@ -1,5 +1,4 @@
 ---
-id: 1084
 title: Managing TP-Link easy smart switches from Linux
 date: 2015-08-30T18:44:46+02:00
 permalink: /2015/08/30/managing-tp-link-easy-smart-switches-from-linux/

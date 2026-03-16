@@ -1,5 +1,4 @@
 ---
-id: 32
 title: New year in Madrid
 date: 2006-01-08T01:04:19+02:00
 permalink: /2006/01/08/newyear-in-madrid/

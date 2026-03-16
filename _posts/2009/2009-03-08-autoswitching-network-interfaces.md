@@ -1,5 +1,4 @@
 ---
-id: 442
 title: Autoswitching network interfaces
 date: 2009-03-08T19:50:03+02:00
 permalink: /2009/03/08/autoswitching-network-interfaces/

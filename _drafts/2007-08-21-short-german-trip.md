@@ -1,5 +1,4 @@
 ---
-id: 135
 title: Short German Trip
 date: 2007-08-21T10:26:48+02:00
 permalink: /2007/08/21/short-german-trip/

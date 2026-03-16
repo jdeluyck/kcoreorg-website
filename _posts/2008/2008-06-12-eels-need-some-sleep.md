@@ -1,5 +1,4 @@
 ---
-id: 250
 title: 'Eels - Need Some Sleep'
 date: 2008-06-12T16:52:20+02:00
 permalink: /2008/06/12/eels-need-some-sleep/

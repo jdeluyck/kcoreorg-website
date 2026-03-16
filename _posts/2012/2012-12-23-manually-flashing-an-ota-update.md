@@ -1,5 +1,4 @@
 ---
-id: 942
 title: Manually flashing an OTA-update
 date: 2012-12-23T20:52:22+02:00
 permalink: /2012/12/23/manually-flashing-an-ota-update/

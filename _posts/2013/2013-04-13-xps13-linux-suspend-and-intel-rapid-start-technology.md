@@ -1,5 +1,4 @@
 ---
-id: 1008
 title: XPS13, Linux, suspend and Intel Rapid Start Technology
 date: 2013-04-13T20:07:05+02:00
 permalink: /2013/04/13/xps13-linux-suspend-and-intel-rapid-start-technology/

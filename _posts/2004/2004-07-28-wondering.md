@@ -1,5 +1,4 @@
 ---
-id: 74
 title: 'Wondering...'
 date: 2004-07-28T22:58:21+02:00
 permalink: /2004/07/28/wondering/

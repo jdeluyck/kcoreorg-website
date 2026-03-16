@@ -1,5 +1,4 @@
 ---
-id: 128
 title: Using Voipfone.co.uk on Nokia E65
 date: 2007-07-06T21:11:42+02:00
 permalink: /2007/07/06/using-voipfonecouk-on-nokia-e65/

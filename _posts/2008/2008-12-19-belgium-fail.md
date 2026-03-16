@@ -1,5 +1,4 @@
 ---
-id: 380
 title: 'Belgium: FAIL!'
 date: 2008-12-19T20:55:55+02:00
 permalink: /2008/12/19/belgium-fail/

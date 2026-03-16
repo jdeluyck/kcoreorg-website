@@ -1,5 +1,4 @@
 ---
-id: 1349
 title: phptelemeter 1.20 released
 date: 2006-05-19T10:23:20+02:00
 permalink: /2006/05/19/phptelemeter-1-20-released/

@@ -1,5 +1,4 @@
 ---
-id: 189
 title: 'Portal end squence... Still Alive!'
 date: 2007-12-15T21:56:21+02:00
 permalink: /2007/12/15/portal-end-squence-still-alive/

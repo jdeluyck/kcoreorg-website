@@ -1,5 +1,4 @@
 ---
-id: 269
 title: 'Animator vs Animation I & II'
 date: 2008-08-13T16:54:26+02:00
 permalink: /2008/08/13/animator-vs-animation-1-and-2/

@@ -1,5 +1,4 @@
 ---
-id: 175
 title: Death to reality tv!
 date: 2007-11-17T12:42:02+02:00
 permalink: /2007/11/17/death-to-reality-tv/

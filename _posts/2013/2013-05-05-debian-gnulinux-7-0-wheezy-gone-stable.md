@@ -1,5 +1,4 @@
 ---
-id: 1022
 title: 'Debian GNU/Linux 7.0 "Wheezy" gone stable'
 date: 2013-05-05T09:32:52+02:00
 permalink: /2013/05/05/debian-gnulinux-7-0-wheezy-gone-stable/

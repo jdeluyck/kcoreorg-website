@@ -1,5 +1,4 @@
 ---
-id: 27
 title: There and back again
 date: 2005-11-15T19:48:27+02:00
 permalink: /2005/11/15/there-and-back-again/

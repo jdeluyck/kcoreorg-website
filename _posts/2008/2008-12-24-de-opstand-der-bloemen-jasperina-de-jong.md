@@ -1,5 +1,4 @@
 ---
-id: 390
 title: 'De Opstand Der Bloemen - Jasperina De Jong'
 date: 2008-12-24T15:26:52+02:00
 permalink: /2008/12/24/de-opstand-der-bloemen-jasperina-de-jong/

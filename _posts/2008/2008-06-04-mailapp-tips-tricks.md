@@ -1,5 +1,4 @@
 ---
-id: 244
 title: 'Mail.app tips & tricks'
 date: 2008-06-04T22:01:21+02:00
 permalink: /2008/06/04/mailapp-tips-tricks/

@@ -1,5 +1,4 @@
 ---
-id: 94
 title: To Spain and back again!
 date: 2004-12-12T20:46:03+02:00
 permalink: /2004/12/12/to-spain-and-back-again/

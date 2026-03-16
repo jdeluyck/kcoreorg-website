@@ -1,5 +1,4 @@
 ---
-id: 152
 title: Blog action day!
 date: 2007-10-15T19:52:06+02:00
 permalink: /2007/10/15/blog-action-day/

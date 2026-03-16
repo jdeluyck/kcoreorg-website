@@ -1,5 +1,4 @@
 ---
-id: 143
 title: How nerdy are you?
 date: 2007-09-09T00:43:35+02:00
 permalink: /2007/09/09/how-nerdy-are-you/

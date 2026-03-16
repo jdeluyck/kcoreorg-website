@@ -1,5 +1,4 @@
 ---
-id: 177
 title: 'Mac is back... again...'
 date: 2007-11-24T17:39:44+02:00
 permalink: /2007/11/24/mac-is-back-again/

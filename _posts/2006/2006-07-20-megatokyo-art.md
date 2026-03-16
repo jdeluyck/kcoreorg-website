@@ -1,5 +1,4 @@
 ---
-id: 53
 title: Megatokyo art!
 date: 2006-07-20T08:28:41+02:00
 permalink: /2006/07/20/megatokyo-art/

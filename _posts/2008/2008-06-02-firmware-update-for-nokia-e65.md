@@ -1,5 +1,4 @@
 ---
-id: 242
 title: Firmware update for Nokia E65
 date: 2008-06-02T21:41:58+02:00
 permalink: /2008/06/02/firmware-update-for-nokia-e65/
