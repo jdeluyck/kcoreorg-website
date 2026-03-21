@@ -1,7 +1,6 @@
 ---
 title: Why you should use Syncthing
 date: 2017-04-26T09:18:41+02:00
-permalink: /2017/04/26/why-you-should-use-syncthing/
 categories: [Technology & IT, Linux]
 tags:
   - linux

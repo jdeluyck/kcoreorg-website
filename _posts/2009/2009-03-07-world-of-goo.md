@@ -1,7 +1,6 @@
 ---
 title: World of Goo!
 date: 2009-03-07T19:40:40+02:00
-permalink: /2009/03/07/world-of-goo/
 categories: [Life & Musings, Gaming]
 tags:
   - addictive

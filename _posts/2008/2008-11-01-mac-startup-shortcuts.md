@@ -1,7 +1,6 @@
 ---
 title: Mac startup shortcuts
 date: 2008-11-01T14:31:22+02:00
-permalink: /2008/11/01/mac-startup-shortcuts/
 categories: [Technology & IT, Apple]
 tags:
   - boot time keys

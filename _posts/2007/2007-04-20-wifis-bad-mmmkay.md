@@ -1,7 +1,6 @@
 ---
 title: 'WiFi&apos;s bad, mmmkay?'
 date: 2007-04-20T11:30:23+02:00
-permalink: /2007/04/20/wifis-bad-mmmkay/
 categories: [Life & Musings, Personal]
 tags:
   - rants

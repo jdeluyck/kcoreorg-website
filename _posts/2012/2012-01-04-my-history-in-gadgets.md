@@ -1,7 +1,6 @@
 ---
 title: 'My history in gadgets...'
 date: 2012-01-04T12:29:59+02:00
-permalink: /2012/01/04/my-history-in-gadgets/
 categories: [Mobile & Gadgets, History]
 tags:
   - android

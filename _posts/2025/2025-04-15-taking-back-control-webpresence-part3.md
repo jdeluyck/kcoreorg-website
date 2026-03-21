@@ -1,7 +1,6 @@
 ---
 title: VPS Proxmox Love
 date: 2025-04-15
-permalink: /2025/04/15/taking-back-control-webpresence-part3/
 categories: [Technology & IT, Virtualisation]
 tags:
   - virtualisation

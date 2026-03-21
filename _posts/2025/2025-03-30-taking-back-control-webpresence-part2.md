@@ -1,7 +1,6 @@
 ---
 title: Domains and DNS
 date: 2025-03-30
-permalink: /2025/03/30/taking-back-control-webpresence-part2/
 categories: [Technology & IT, Networking]
 tags:
   - desec.io

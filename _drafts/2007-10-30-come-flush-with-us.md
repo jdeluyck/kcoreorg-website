@@ -1,7 +1,6 @@
 ---
 title: Come flush with us!
 date: 2007-10-30T21:59:37+02:00
-permalink: /2007/10/30/come-flush-with-us/
 categories:
   - Travels
 tags:

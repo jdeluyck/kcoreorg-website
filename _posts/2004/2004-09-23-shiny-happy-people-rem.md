@@ -1,7 +1,6 @@
 ---
 title: Shiny Happy People (REM)
 date: 2004-09-23T09:29:21+02:00
-permalink: /2004/09/23/shiny-happy-people-rem/
 categories: [Hobbies & Interests, Music]
 tags:
   - rem

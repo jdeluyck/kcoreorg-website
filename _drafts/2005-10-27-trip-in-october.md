@@ -1,7 +1,6 @@
 ---
 title: 'Trip in October...'
 date: 2005-10-27T16:25:04+02:00
-permalink: /2005/10/27/trip-in-october/
 categories:
   - Travels
 ---

@@ -1,7 +1,6 @@
 ---
 title: Birds, little birds!
 date: 2007-05-20T12:26:07+02:00
-permalink: /2007/05/20/birds-little-birds/
 categories: [Life & Musings, Pets]
 tags:
   - birds

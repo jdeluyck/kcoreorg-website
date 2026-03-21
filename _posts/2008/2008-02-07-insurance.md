@@ -1,7 +1,6 @@
 ---
 title: Insurance!
 date: 2008-02-07T19:32:38+02:00
-permalink: /2008/02/07/insurance/
 categories: [Life & Musings, Personal]
 tags:
   - cars

@@ -1,7 +1,6 @@
 ---
 title: Carnival in Aalst
 date: 2008-02-01T18:10:16+02:00
-permalink: /2008/02/01/carnival-in-aalst/
 categories: [Life & Musings, Personal]
 tags:
   - rant

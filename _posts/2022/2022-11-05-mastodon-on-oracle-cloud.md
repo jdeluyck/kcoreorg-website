@@ -76,7 +76,6 @@ Next I needed to add a `host-meta` file to my Jekyll hosted website (which is ac
 ```yaml
 ---
 layout: null
-permalink: /.well-known/host-meta
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <XRD xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">

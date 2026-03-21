@@ -1,7 +1,6 @@
 ---
 title: Boys with Toys
 date: 2006-06-15T15:44:40+02:00
-permalink: /2006/06/15/boys-with-toys/
 categories: [Technology & IT, Palm]
 tags:
   - palm

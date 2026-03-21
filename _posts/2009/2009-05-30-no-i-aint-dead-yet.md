@@ -1,7 +1,6 @@
 ---
 title: 'No, I ain&apos;t dead yet...'
 date: 2009-05-30T09:43:34+02:00
-permalink: /2009/05/30/no-i-aint-dead-yet/
 categories: [Life & Musings, Personal]
 tags:
   - not dead yet

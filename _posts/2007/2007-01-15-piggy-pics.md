@@ -1,7 +1,6 @@
 ---
 title: Piggy Pics
 date: 2007-01-15T09:17:22+02:00
-permalink: /2007/01/15/piggy-pics/
 categories: [Life & Musings, Pets]
 tags:
   - cavies

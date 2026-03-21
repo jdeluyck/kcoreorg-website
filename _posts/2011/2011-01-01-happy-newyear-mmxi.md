@@ -1,7 +1,6 @@
 ---
 title: Happy New year MMXI !
 date: 2011-01-01T16:22:37+02:00
-permalink: /2011/01/01/happy-newyear-mmxi/
 categories: [Life & Musings, Personal]
 tags:
   - new year

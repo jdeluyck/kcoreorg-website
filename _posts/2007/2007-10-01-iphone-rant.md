@@ -1,7 +1,6 @@
 ---
 title: iPhone rant
 date: 2007-10-01T17:46:32+02:00
-permalink: /2007/10/01/iphone-rant/
 categories: [Technology & IT, Apple]
 tags:
   - apple

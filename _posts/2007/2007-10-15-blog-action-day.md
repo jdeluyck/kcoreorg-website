@@ -1,7 +1,6 @@
 ---
 title: Blog action day!
 date: 2007-10-15T19:52:06+02:00
-permalink: /2007/10/15/blog-action-day/
 categories: [Life & Musings, Personal]
 ---
 Today is [Blog Action Day](http://blogactionday.org), to bring awareness about the environment and the problems that we (human beans_^W_beings) are causing.

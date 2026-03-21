@@ -1,7 +1,6 @@
 ---
 title: 'The Human Equation - Day Twelve: Trauma (Aryeon)'
 date: 2004-09-01T16:05:33+02:00
-permalink: /2004/09/01/the-human-equation-day-twelve-trauma-aryeon/
 categories: [Hobbies & Interests, Music]
 tags:
   - ayreon

@@ -1,7 +1,6 @@
 ---
 title: 'Mad dash - continued'
 date: 2008-01-31T13:21:29+02:00
-permalink: /2008/01/31/mad-dash-continued/
 categories: [Life & Musings, Personal]
 tags:
   - certificate

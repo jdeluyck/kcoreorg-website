@@ -1,7 +1,6 @@
 ---
 title: 'Fuckin&apos; NMBS'
 date: 2008-01-22T18:54:08+02:00
-permalink: /2008/01/22/fuckin-nmbs/
 categories: [Life & Musings, Personal]
 tags:
   - rants

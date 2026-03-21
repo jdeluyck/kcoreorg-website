@@ -1,7 +1,6 @@
 ---
 title: 'Fixkes - Lievelingsdier'
 date: 2008-07-10T18:03:48+02:00
-permalink: /2008/07/10/fixkes-lievelingsdier/
 categories: [Hobbies & Interests, Music]
 tags:
   - fixkes

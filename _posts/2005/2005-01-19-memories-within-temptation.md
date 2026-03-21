@@ -1,7 +1,6 @@
 ---
 title: Memories (Within Temptation)
 date: 2005-01-19T13:14:37+02:00
-permalink: /2005/01/19/memories-within-temptation/
 categories: [Hobbies & Interests, Music]
 tags:
   - within temptation

@@ -1,7 +1,6 @@
 ---
 title: Happy Xmess!
 date: 2014-12-24T10:55:39+02:00
-permalink: /2014/12/24/happy-xmess/
 categories: [Life & Musings, Personal]
 tags:
   - xmas

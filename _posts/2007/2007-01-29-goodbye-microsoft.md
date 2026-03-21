@@ -1,7 +1,6 @@
 ---
 title: Goodbye Microsoft!
 date: 2007-01-29T21:37:44+02:00
-permalink: /2007/01/29/goodbye-microsoft/
 categories: [Technology & IT, Linux]
 tags:
   - debian

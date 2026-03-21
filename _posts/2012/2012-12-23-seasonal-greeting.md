@@ -1,7 +1,6 @@
 ---
 title: Seasonal greetings!
 date: 2012-12-23T20:56:38+02:00
-permalink: /2012/12/23/seasonal-greeting/
 categories: [Life & Musings, Personal]
 tags:
   - newtonmas

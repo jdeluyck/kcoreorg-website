@@ -1,7 +1,6 @@
 ---
 title: GPRS/3G connections using Mac OS X
 date: 2007-10-07T20:23:06+02:00
-permalink: /2007/10/07/gprs3g-connections-using-mac-os-x/
 categories: [Technology & IT, Apple]
 tags:
   - g3

@@ -1,7 +1,6 @@
 ---
 title: 'Connecting your Chromecast to wired networking - DIY'
 date: 2015-12-30T19:24:09+02:00
-permalink: /2015/12/30/connecting-your-chromecast-to-wired-networking-diy/
 categories: [Technology & IT, Hardware]
 tags:
   - chromecast

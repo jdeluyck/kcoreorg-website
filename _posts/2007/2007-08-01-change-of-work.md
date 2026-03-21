@@ -1,7 +1,6 @@
 ---
 title: Change of work!
 date: 2007-08-01T16:39:44+02:00
-permalink: /2007/08/01/change-of-work/
 categories: [Life & Musings, Personal]
 tags:
   - employment

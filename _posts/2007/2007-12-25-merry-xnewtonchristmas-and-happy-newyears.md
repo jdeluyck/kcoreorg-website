@@ -1,7 +1,6 @@
 ---
 title: 'Merry (x\|newton\|christ\|...)mas and happy new year!'
 date: 2007-12-25T13:53:21+02:00
-permalink: /2007/12/25/merry-xnewtonchristmas-and-happy-newyears/
 categories: [Life & Musings, Personal]
 tags:
   - christmas

@@ -1,7 +1,6 @@
 ---
 title: I can has weekend? Seems not.
 date: 2008-06-22T15:25:00+02:00
-permalink: /2008/06/22/i-can-has-weekend-seems-not/
 categories: [Life & Musings, Personal]
 tags:
   - crap weekend

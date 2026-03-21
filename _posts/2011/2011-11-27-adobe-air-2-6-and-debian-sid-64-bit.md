@@ -1,7 +1,6 @@
 ---
 title: Adobe AIR 2.6 and Debian Sid 64-bit
 date: 2011-11-27T11:56:02+02:00
-permalink: /2011/11/27/adobe-air-2-6-and-debian-sid-64-bit/
 categories: [Technology & IT, Linux]
 tags:
   - 64 bit

@@ -1,7 +1,6 @@
 ---
 title: More Multitouch from Jeff Han
 date: 2007-02-16T08:12:53+02:00
-permalink: /2007/02/16/more-multitouch-from-jeff-han/
 categories: [Technology & IT, Hardware]
 tags:
   - multitouch

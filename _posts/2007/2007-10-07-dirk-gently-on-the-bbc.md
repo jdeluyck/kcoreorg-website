@@ -1,7 +1,6 @@
 ---
 title: Dirk Gently on the BBC
 date: 2007-10-07T12:23:04+02:00
-permalink: /2007/10/07/dirk-gently-on-the-bbc/
 categories: [Life & Musings, Personal]
 tags:
   - audiobook

@@ -1,7 +1,6 @@
 ---
 title: 'Spri... err... cd cleanup!'
 date: 2007-09-15T19:53:54+02:00
-permalink: /2007/09/15/spri-err-cd-cleanup/
 categories: [Life & Musings, Personal]
 tags:
   - cleanup

@@ -1,7 +1,6 @@
 ---
 title: Tower of Song (Leonard Cohen)
 date: 2004-07-09T09:27:30+02:00
-permalink: /2004/07/09/tower-of-song-leonard-cohen/
 categories: [Hobbies & Interests, Music]
 tags:
   - leonard cohen

@@ -1,7 +1,6 @@
 ---
 title: 'Fixkes - kvraagetaan'
 date: 2008-07-10T18:10:40+02:00
-permalink: /2008/07/10/fixkes-kvraagetaan/
 categories: [Hobbies & Interests, Music]
 tags:
   - fixkes

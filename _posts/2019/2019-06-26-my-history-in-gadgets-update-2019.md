@@ -1,7 +1,6 @@
 ---
 title: 'My history in gadgets - update 2019'
 date: 2019-06-26T17:22:59+02:00
-permalink: /2019/06/26/my-history-in-gadgets-update-2019/
 categories: [Mobile & Gadgets, History]
 tags:
   - android

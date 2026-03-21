@@ -1,7 +1,6 @@
 ---
 title: 'Oh, I forgot...'
 date: 2007-04-13T18:42:44+02:00
-permalink: /2007/04/13/oh-i-forgot/
 categories: [Technology & IT, Linux]
 tags:
   - debian

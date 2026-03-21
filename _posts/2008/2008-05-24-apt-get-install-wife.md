@@ -1,7 +1,6 @@
 ---
 title: 'apt-get install wife...'
 date: 2008-05-24T19:40:01+02:00
-permalink: /2008/05/24/apt-get-install-wife/
 categories: [Hobbies & Interests, Comics]
 tags:
   - wife

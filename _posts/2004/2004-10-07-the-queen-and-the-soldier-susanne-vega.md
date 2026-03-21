@@ -1,7 +1,6 @@
 ---
 title: The Queen and The Soldier (Susanne Vega)
 date: 2004-10-07T23:48:17+02:00
-permalink: /2004/10/07/the-queen-and-the-soldier-susanne-vega/
 categories: [Hobbies & Interests, Music]
 tags:
   - susanne vega

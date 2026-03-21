@@ -1,7 +1,6 @@
 ---
 title: 'My history in gadgets - update 2014'
 date: 2014-05-12T00:00:10+02:00
-permalink: /2014/05/12/my-history-in-gadgets-update-2014/
 categories: [Mobile & Gadgets, History]
 tags:
   - android

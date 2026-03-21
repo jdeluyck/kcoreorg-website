@@ -1,7 +1,6 @@
 ---
 title: Thank you, Nikola Tesla!
 date: 2012-06-03T10:49:41+02:00
-permalink: /2012/06/03/thank-you-nikola-tesla/
 categories: [Hobbies & Interests, Comics]
 tags:
   - historical

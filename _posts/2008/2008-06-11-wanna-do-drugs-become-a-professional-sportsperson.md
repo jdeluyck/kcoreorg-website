@@ -1,7 +1,6 @@
 ---
 title: Wanna do drugs? Become a professional sportsperson!
 date: 2008-06-11T18:26:12+02:00
-permalink: /2008/06/11/wanna-do-drugs-become-a-professional-sportsperson/
 categories: [Life & Musings, Personal]
 tags:
   - rants

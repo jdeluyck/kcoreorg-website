@@ -1,7 +1,6 @@
 ---
 title: The Scope Of Horror
 date: 2007-11-20T22:05:47+02:00
-permalink: /2007/11/20/the-scope-of-horror/
 categories:
   - Random
 tags:

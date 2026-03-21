@@ -1,7 +1,6 @@
 ---
 title: 'What we&apos;ve been doing...'
 date: 2007-09-03T12:06:05+02:00
-permalink: /2007/09/03/what-weve-been-doing/
 categories:
   - Travels
 tags:

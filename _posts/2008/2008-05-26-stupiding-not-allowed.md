@@ -1,7 +1,6 @@
 ---
 title: Stupiding not allowed
 date: 2008-05-26T21:45:22+02:00
-permalink: /2008/05/26/stupiding-not-allowed/
 categories: [Hobbies & Interests, Comics]
 tags:
   - stupiding

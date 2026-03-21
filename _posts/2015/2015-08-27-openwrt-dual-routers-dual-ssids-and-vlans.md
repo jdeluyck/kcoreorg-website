@@ -1,7 +1,6 @@
 ---
 title: OpenWRT, dual routers, dual SSIDs and VLANS
 date: 2015-08-27T12:51:11+02:00
-permalink: /2015/08/27/openwrt-dual-routers-dual-ssids-and-vlans/
 categories: [Technology & IT, Networking]
 tags:
   - barrier breaker

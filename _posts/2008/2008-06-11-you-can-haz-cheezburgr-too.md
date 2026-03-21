@@ -1,7 +1,6 @@
 ---
 title: You can haz cheezburgr too!
 date: 2008-06-11T18:47:54+02:00
-permalink: /2008/06/11/you-can-haz-cheezburgr-too/
 categories: [Hobbies & Interests, Comics]
 tags:
   - cat

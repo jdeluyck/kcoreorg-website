@@ -1,7 +1,6 @@
 ---
 title: Cadaver and proxy auth
 date: 2008-10-25T20:55:08+02:00
-permalink: /2008/10/25/cadaver-and-proxy-auth/
 categories: [Technology & IT, Linux]
 tags:
   - cadaver

@@ -1,7 +1,6 @@
 ---
 title: 'If you get this...'
 date: 2010-02-22T20:32:20+02:00
-permalink: /2010/02/22/if-you-get-this/
 categories: [Hobbies & Interests, Comics]
 tags:
   - geek and poke

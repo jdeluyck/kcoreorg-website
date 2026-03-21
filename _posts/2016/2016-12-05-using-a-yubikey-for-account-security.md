@@ -1,7 +1,6 @@
 ---
 title: Using a Yubikey for account security
 date: 2016-12-05T07:19:10+02:00
-permalink: /2016/12/05/using-a-yubikey-for-account-security/
 categories: [Technology & IT, Linux]
 tags:
   - windows

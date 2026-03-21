@@ -1,7 +1,6 @@
 ---
 title: 'Weird pc issues...'
 date: 2008-05-23T20:54:45+02:00
-permalink: /2008/05/23/weird-pc-issues/
 categories: [Technology & IT, Hardware]
 tags:
   - abit kn9-sli

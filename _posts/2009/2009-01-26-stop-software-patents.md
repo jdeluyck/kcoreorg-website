@@ -1,7 +1,6 @@
 ---
 title: Stop Software Patents
 date: 2009-01-26T13:18:45+02:00
-permalink: /2009/01/26/stop-software-patents/
 categories: [Life & Musings, Personal]
 tags:
   - eu

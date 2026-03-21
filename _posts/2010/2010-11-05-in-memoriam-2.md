@@ -1,7 +1,6 @@
 ---
 title: In Memoriam
 date: 2010-11-05T23:28:26+02:00
-permalink: /2010/11/05/in-memoriam-2/
 categories: [Life & Musings, Pets]
 tags:
   - cavies

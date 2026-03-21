@@ -1,7 +1,6 @@
 ---
 title: 'The Gift - part 2'
 date: 2005-11-15T20:25:18+02:00
-permalink: /2005/11/15/the-gift-part-2/
 categories: [Personal]
 tags:
   - gift

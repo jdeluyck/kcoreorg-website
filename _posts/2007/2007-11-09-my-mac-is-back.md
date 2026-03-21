@@ -1,7 +1,6 @@
 ---
 title: My Mac is Back!
 date: 2007-11-09T17:45:28+02:00
-permalink: /2007/11/09/my-mac-is-back/
 categories: [Technology & IT, Apple]
 tags:
   - apple

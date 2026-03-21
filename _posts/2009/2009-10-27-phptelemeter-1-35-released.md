@@ -1,7 +1,6 @@
 ---
 title: phptelemeter 1.35 released!
 date: 2009-10-27T21:28:43+02:00
-permalink: /2009/10/27/phptelemeter-1-35-released/
 categories: [Software, phpTelemeter]
 tags:
   - phptelemeter

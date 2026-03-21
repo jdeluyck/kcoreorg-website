@@ -1,7 +1,6 @@
 ---
 title: 'Nokia 3109c and Snow Leopard (iSync 3.1)...'
 date: 2009-11-11T13:51:31+02:00
-permalink: /2009/11/11/nokia-3109c-and-snow-leopard-isync-3-1/
 categories: [Technology & IT, Apple]
 tags:
   - nokia 3109c

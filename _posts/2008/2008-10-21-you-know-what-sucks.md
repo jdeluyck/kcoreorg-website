@@ -1,7 +1,6 @@
 ---
 title: 'You know what sucks...'
 date: 2008-10-21T20:09:09+02:00
-permalink: /2008/10/21/you-know-what-sucks/
 categories: [Life & Musings, Personal]
 tags:
   - bathroom

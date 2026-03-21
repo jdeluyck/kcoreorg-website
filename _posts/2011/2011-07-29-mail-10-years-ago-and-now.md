@@ -1,7 +1,6 @@
 ---
 title: 'Mail, 10 years ago and now...'
 date: 2011-07-29T12:27:44+02:00
-permalink: /2011/07/29/mail-10-years-ago-and-now/
 categories: [Hobbies & Interests, Comics]
 tags:
   - email

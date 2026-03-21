@@ -1,7 +1,6 @@
 ---
 title: 'Android Backup & Restore'
 date: 2013-07-15T12:16:59+02:00
-permalink: /2013/07/15/android-backup-restore/
 categories: [Mobile & Gadgets, Android]
 tags:
   - android

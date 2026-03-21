@@ -1,7 +1,6 @@
 ---
 title: 'Spam is evil...'
 date: 2009-06-21T11:12:10+02:00
-permalink: /2009/06/21/spam-is-evil/
 categories: [Life & Musings, Site Updates]
 tags:
   - wordpress

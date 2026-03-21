@@ -1,7 +1,6 @@
 ---
 title: Updating Boot Camp to 2.1
 date: 2009-02-16T21:55:28+02:00
-permalink: /2009/02/16/updating-boot-camp-to-21/
 categories: [Technology & IT, Windows]
 tags:
   - boot camp

@@ -1,7 +1,6 @@
 ---
 title: 'O hai - a new look'
 date: 2013-04-06T17:13:26+02:00
-permalink: /2013/04/06/o-hai-a-new-look/
 categories: [Life & Musings, Site Updates]
 ---
 It was about time to update the theme here a bit... so welcome to the new look ;)

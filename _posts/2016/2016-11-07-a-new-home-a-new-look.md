@@ -1,7 +1,6 @@
 ---
 title: A new home, a new look
 date: 2016-11-07T21:06:16+02:00
-permalink: /2016/11/07/a-new-home-a-new-look/
 categories: [Life & Musings, Site Updates]
 tags:
   - blog

@@ -1,7 +1,6 @@
 ---
 title: Trains and the lack of being on time
 date: 2007-12-26T09:23:15+02:00
-permalink: /2007/12/26/trains-and-the-lack-of-being-on-time/
 categories: [Life & Musings, Personal]
 tags:
   - cancellations

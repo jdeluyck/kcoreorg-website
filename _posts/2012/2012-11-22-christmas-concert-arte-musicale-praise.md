@@ -1,7 +1,6 @@
 ---
 title: 'Christmas concert Arte Musicale - Praise'
 date: 2012-11-22T20:10:59+02:00
-permalink: /2012/11/22/christmas-concert-arte-musicale-praise/
 categories: [Hobbies & Interests, Chamberchoir Furiant]
 tags:
   - arte musicale

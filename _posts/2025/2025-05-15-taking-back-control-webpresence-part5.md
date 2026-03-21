@@ -2,7 +2,6 @@
 title: Tunnels using Pangolin
 date: 2025-05-15
 last_modified_at: 2025-06-20
-permalink: /2025/05/15/taking-back-control-webpresence-part5/
 categories: [Technology & IT, Networking]
 tags:
   - linux

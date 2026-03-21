@@ -1,7 +1,6 @@
 ---
 title: Reflect theme for Symbian
 date: 2007-07-27T09:31:58+02:00
-permalink: /2007/07/27/reflect-theme-for-symbian/
 categories: [Mobile & Gadgets, Symbian]
 tags:
   - symbian

@@ -1,7 +1,6 @@
 ---
 title: Second Life
 date: 2007-01-28T16:42:58+02:00
-permalink: /2007/01/28/second-life/
 categories: [Life & Musings, Personal]
 tags:
   - crap

@@ -1,7 +1,6 @@
 ---
 title: Svchost hogging yer cpu
 date: 2007-06-17T17:28:18+02:00
-permalink: /2007/06/17/svchost-hogging-yer-cpu/
 categories: [Technology & IT, Windows]
 tags:
   - cpu

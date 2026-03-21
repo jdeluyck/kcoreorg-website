@@ -1,7 +1,6 @@
 ---
 title: Bigger disk!
 date: 2008-08-29T18:49:43+02:00
-permalink: /2008/08/29/bigger-disk/
 categories: [Technology & IT, Apple]
 tags:
   - carbon copy cloner

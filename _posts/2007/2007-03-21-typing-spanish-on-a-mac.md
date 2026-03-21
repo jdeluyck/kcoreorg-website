@@ -1,7 +1,6 @@
 ---
 title: Typing spanish on a Mac
 date: 2007-03-21T15:05:52+02:00
-permalink: /2007/03/21/typing-spanish-on-a-mac/
 categories: [Technology & IT, Apple]
 tags:
   - mac os x

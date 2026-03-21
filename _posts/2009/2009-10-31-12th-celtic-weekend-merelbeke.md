@@ -1,7 +1,6 @@
 ---
 title: '12th Celtic Weekend - Merelbeke'
 date: 2009-10-31T13:10:50+02:00
-permalink: /2009/10/31/12th-celtic-weekend-merelbeke/
 categories: [Hobbies & Interests, Flemish Caledonian Pipes & Drums "Clan MacKenzie"]
 tags:
   - celtic weekend

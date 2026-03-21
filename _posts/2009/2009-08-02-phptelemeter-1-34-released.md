@@ -1,7 +1,6 @@
 ---
 title: phptelemeter 1.34 released
 date: 2009-08-02T21:21:04+02:00
-permalink: /2009/08/02/phptelemeter-1-34-released/
 categories: [Software, phpTelemeter]
 tags:
   - phptelemeter

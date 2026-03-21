@@ -1,7 +1,6 @@
 ---
 title: Now-reading for WordPress 2.7
 date: 2008-12-23T11:50:30+02:00
-permalink: /2008/12/23/now-reading-for-wordpress-27/
 categories: [Software, WordPress]
 tags:
   - now reading

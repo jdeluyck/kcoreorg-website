@@ -1,7 +1,6 @@
 ---
 title: Gmail goes IMAP
 date: 2007-10-24T17:09:27+02:00
-permalink: /2007/10/24/gmail-goes-imap/
 categories: [Technology & IT, Networking]
 tags:
   - gmail

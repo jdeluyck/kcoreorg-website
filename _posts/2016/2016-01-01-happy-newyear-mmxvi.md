@@ -1,7 +1,6 @@
 ---
 title: Happy new year MMXVI !
 date: 2016-01-01T00:00:08+02:00
-permalink: /2016/01/01/happy-newyear-mmxvi/
 categories: [Life & Musings, Personal]
 tags:
   - new year

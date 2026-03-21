@@ -1,7 +1,6 @@
 ---
 title: 'Work - the neverending story'
 date: 2007-10-30T19:59:51+02:00
-permalink: /2007/10/30/work-the-neverending-story/
 categories: [Life & Musings, Personal]
 tags:
   - cars

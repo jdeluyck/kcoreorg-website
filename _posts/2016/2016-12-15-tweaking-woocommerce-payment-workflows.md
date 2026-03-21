@@ -1,7 +1,6 @@
 ---
 title: Tweaking WooCommerce payment workflows
 date: 2016-12-15T13:32:49+02:00
-permalink: /2016/12/15/tweaking-woocommerce-payment-workflows/
 categories: [Development & Web, Coding]
 tags:
   - BACS

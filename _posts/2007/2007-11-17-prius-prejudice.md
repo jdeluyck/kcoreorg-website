@@ -1,7 +1,6 @@
 ---
 title: Prius prejudice
 date: 2007-11-17T12:22:09+02:00
-permalink: /2007/11/17/prius-prejudice/
 categories: [Life & Musings, Personal]
 tags:
   - cars

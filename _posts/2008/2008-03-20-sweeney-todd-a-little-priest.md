@@ -1,7 +1,6 @@
 ---
 title: 'Sweeney Todd - A Little Priest'
 date: 2008-03-20T22:03:06+02:00
-permalink: /2008/03/20/sweeney-todd-a-little-priest/
 categories: [Hobbies & Interests, Music]
 tags:
   - sweeney todd

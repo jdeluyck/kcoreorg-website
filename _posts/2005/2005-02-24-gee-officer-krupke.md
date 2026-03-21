@@ -1,7 +1,6 @@
 ---
 title: Gee, Officer Krupke!
 date: 2005-02-24T15:58:32+02:00
-permalink: /2005/02/24/gee-officer-krupke/
 categories: [Hobbies & Interests, Music]
 tags:
   - west side story

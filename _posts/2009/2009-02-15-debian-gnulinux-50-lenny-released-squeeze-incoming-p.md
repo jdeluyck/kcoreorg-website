@@ -1,7 +1,6 @@
 ---
 title: 'Debian GNU/Linux 5.0 "Lenny" released, Squeeze incoming :p'
 date: 2009-02-15T22:00:10+02:00
-permalink: /2009/02/15/debian-gnulinux-50-lenny-released-squeeze-incoming-p/
 categories: [Technology & IT, Linux]
 tags:
   - debian

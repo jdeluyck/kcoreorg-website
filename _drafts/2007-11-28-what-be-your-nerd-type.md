@@ -1,7 +1,6 @@
 ---
 title: What be your nerd type?
 date: 2007-11-28T21:26:08+02:00
-permalink: /2007/11/28/what-be-your-nerd-type/
 categories:
   - Personal
 tags:

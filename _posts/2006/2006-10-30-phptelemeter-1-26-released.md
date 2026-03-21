@@ -1,7 +1,6 @@
 ---
 title: phptelemeter 1.26 released
 date: 2006-10-30T10:29:07+02:00
-permalink: /2006/10/30/phptelemeter-1-26-released/
 categories: [Software, phpTelemeter]
 tags:
   - phptelemeter

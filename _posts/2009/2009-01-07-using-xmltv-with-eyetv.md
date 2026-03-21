@@ -1,7 +1,6 @@
 ---
 title: Using XMLTV with EyeTV
 date: 2009-01-07T18:21:19+02:00
-permalink: /2009/01/07/using-xmltv-with-eyetv/
 categories: [Technology & IT, Apple]
 tags:
   - eyetv

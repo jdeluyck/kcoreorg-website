@@ -1,7 +1,6 @@
 ---
 title: 'The Gift - Part 1'
 date: 2005-11-06T09:36:39+02:00
-permalink: /2005/11/06/the-gift-part-1/
 categories: [Personal]
 ---
 I was talking a while back about them gifts...

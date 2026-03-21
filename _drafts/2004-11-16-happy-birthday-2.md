@@ -1,7 +1,6 @@
 ---
 title: Happy birthday!
 date: 2004-11-16T10:09:41+02:00
-permalink: /2004/11/16/happy-birthday-2/
 categories: [Personal]
 ---
 <font color="red">**Feliz cumpleaños cariño!**</font>

@@ -1,7 +1,6 @@
 ---
 title: VMWare server 2.0 with kernel 2.6.28
 date: 2008-12-25T14:13:35+02:00
-permalink: /2008/12/25/vmware-server-20-with-kernel-2628/
 categories: [Technology & IT, Virtualisation]
 tags:
   - linux

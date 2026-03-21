@@ -1,7 +1,6 @@
 ---
 title: Copying files and dirs with tar
 date: 2008-06-21T20:37:54+02:00
-permalink: /2008/06/21/copying-files-and-dirs-with-tar/
 categories: [Technology & IT, Linux]
 tags:
   - copy files

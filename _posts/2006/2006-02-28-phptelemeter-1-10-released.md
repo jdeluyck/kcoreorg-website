@@ -1,7 +1,6 @@
 ---
 title: phptelemeter 1.10 released
 date: 2006-02-28T10:20:41+02:00
-permalink: /2006/02/28/phptelemeter-1-10-released/
 categories: [Software, phpTelemeter]
 tags:
   - phptelemeter

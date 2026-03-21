@@ -1,7 +1,6 @@
 ---
 title: Automounting SMB/CIFS shares on Mac OS X
 date: 2008-09-20T22:26:19+02:00
-permalink: /2008/09/20/automounting-smbcifs-shares-on-mac-os-x/
 categories: [Technology & IT, Apple]
 tags:
   - apple

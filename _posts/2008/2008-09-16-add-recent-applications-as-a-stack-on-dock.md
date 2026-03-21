@@ -1,7 +1,6 @@
 ---
 title: Add recent applications as a Stack on Dock
 date: 2008-09-16T20:41:38+02:00
-permalink: /2008/09/16/add-recent-applications-as-a-stack-on-dock/
 categories: [Technology & IT, Apple]
 tags:
   - dock
