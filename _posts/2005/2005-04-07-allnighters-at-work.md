@@ -7,6 +7,7 @@ tags:
   - multicast
   - work
 ---
+
 Okay, first time I spend an entire night at work, because of a multicast routing problem. It took us a while to diagnose and to figure out where it went wrong and why it did... And having spent a 12h shift before, and then after would've been quite deadly ;p
 
 We got a temporary fix in place in the end, tho the real cause still needs investigating (don't you love multicast - NOT)

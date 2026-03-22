@@ -11,6 +11,7 @@ tags:
   - x360ce
   - xbox360 controller
 ---
+
 After the latest lan-party with some friends, where we played a lot of [Rocket League](http://rocketleague.psyonix.com/), it dawned on me that this game (and numerous others) is probably a lot easier to play with a [game controller](https://en.wikipedia.org/wiki/Game_controller) instead of the mouse/keyboard combination. And as I have the [WiiMote](https://en.wikipedia.org/wiki/Wii_Remote) and the [Wii Classic Controller](https://en.wikipedia.org/wiki/Wii_Remote#Classic_Controller) lying around, I thought I'd have a go at getting these to work on Windows (as opposed to buying something new).
 
 ![640px-Wii-Classic-Controller-White](/assets/img/posts/2015/08/640px-Wii-Classic-Controller-White.jpg "640px-Wii-Classic-Controller-White")  

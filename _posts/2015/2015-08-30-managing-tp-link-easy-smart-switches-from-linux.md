@@ -7,12 +7,13 @@ tags:
   - linux
   - tp-link tl-sg105e
 ---
+
 I've recently acquired some [TP-Link 'Easy Smart' managed switches](http://www.tp-link.com/en/products/biz-list-41.html) - cheap, decently built (metal casing), and a lot of features above the usual unmanaged stuff:
 
-  * Effective network monitoring via Port Mirroring, Loop Prevention and Cable Diagnostics
-  * Port and tag-based QoS enable smooth latency-sensitive traffic
-  * Abundant VLAN features improve network security via traffic segmentation
-  * IGMP Snooping optimizes multicast applications
+* Effective network monitoring via Port Mirroring, Loop Prevention and Cable Diagnostics
+* Port and tag-based QoS enable smooth latency-sensitive traffic
+* Abundant VLAN features improve network security via traffic segmentation
+* IGMP Snooping optimizes multicast applications
 
 Unfortunately, it uses a [windows application](http://www.tp-link.com/en/download/TL-SG105E.html#Easy_Smart_Configuration_Utility) to manage the switches - the 5 and 8 port varieties don't have a usable built-in web server to manage them. Luckely, there's a way to make that still work on Linux ;) as it seems that it's just a [JavaFX](https://en.wikipedia.org/wiki/JavaFX) application. The only thing you'll ever need a windows installation for (or use Wine) is to install the actual application.
 
@@ -47,6 +48,7 @@ It seems the tool binds to the local IP instead of the 'any ip', [0.0.0.0](https
 ```bash
 # iptables -t nat -A PREROUTING -p udp -d 255.255.255.255 --dport 29809 -j DNAT --to [your ip address]:29809
 ```
+
 And don't forget to enable IP forwarding
 
 ```bash

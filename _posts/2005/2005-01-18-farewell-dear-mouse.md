@@ -6,6 +6,7 @@ tags:
   - dead
   - mouse
 ---
+
 ... and on this fair day, my trusty 'old' USB Logitech optical mouse ceased to process electrical inputs.. henceforth it shall go to silicon heaven with all the other mice and electrical appliances.
 
 Let us grieve in peace.
