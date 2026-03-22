@@ -12,6 +12,7 @@ tags:
   - site
   - ssl
 ---
+
 I finally decided to retire my custom-written CMS (wrote it back in 2003, when I had more free time), which - while obviously fantastic, super advanced, and capable of making coffee for you - had some drawbacks. Mostly being that it was a pain to use and update content with.
 
 I also maintained a blog, on [another domain](https://sadevil.org/), which was being updated more frequently than this site.

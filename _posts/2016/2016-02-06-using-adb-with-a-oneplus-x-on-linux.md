@@ -9,7 +9,9 @@ tags:
   - linux
   - oneplus x
 ---
+
 ... is not really that hard. Just annoying. Since OnePlus' USB ID is not in the default adb list, you need to add it yourself:  
+
 ```bash
 echo "0x2a70" >> ~/.android/adb_usb.ini
 ```
