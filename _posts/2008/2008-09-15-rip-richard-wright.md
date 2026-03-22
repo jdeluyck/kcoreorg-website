@@ -1,5 +1,5 @@
 ---
-title: RIP Richard Wright
+title: R.I.P. Richard Wright
 date: 2008-09-15T22:07:01+02:00
 categories: [Life & Musings, Personal]
 tags:
