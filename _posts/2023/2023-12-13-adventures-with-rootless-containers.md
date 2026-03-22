@@ -27,17 +27,17 @@ The main differences would be that Podman is daemonless (no central management d
 
 There are several things to keep in mind when running rootless Podman, as you can find on their GitHub: [https://github.com/containers/podman/blob/main/rootless.md](https://github.com/containers/podman/blob/main/rootless.md)
 
-# Debian Stable.. or Fedora Server?
+## Debian Stable.. or Fedora Server?
 
 [Debian](https://www.debian.org/) [Stable](https://wiki.debian.org/DebianStable) (currently [Bookworm](https://wiki.debian.org/DebianBookworm)) is my VM OS of choice, and I originally started off with that but soon discovered that the version of podman was rather old (4.3.1 as of writing), which didn't support some fancy new features I wanted to test. So I decided to switch to [Fedora 39 Server](https://fedoraproject.org/server/download) - since Red Hat was the original author, it seemed to make sense to got this way.
 
 I did not opt for [RedHat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) (of which you can run up to 16 nodes [for free](https://developers.redhat.com/articles/faqs-no-cost-red-hat-enterprise-linux) in a home lab), [CentOS Stream](https://www.centos.org/centos-stream/) or one of the RHEL alternatives like [AlmaLinux](https://almalinux.org/) or [Rocky Linux](https://rockylinux.org/), because the enterprise class of Linux Distributions bring a slow pace of feature-updates with them. The whole point was that I wanted to test the latest version of Podman ;)
 
-# Installing Podman
+## Installing Podman
 
 Installing it is really simple: `$ sudo dnf install podman` and you're good to go. 
 
-# Moving rootless storage
+## Moving rootless storage
 
 Podman uses two storage locations, depending on the mode you're using.
 
@@ -54,7 +54,7 @@ $ sudo chmod -R 0700 /var/lib/containers/user/podman
 $ sudo chown -R podman:podman /var/lib/containers/user/podman
 ```
 
-## SeLinux...
+### SeLinux...
 
 Since this is a linux distribution which has its origins with Red Hat, it has [SeLinux](https://github.com/SELinuxProject) enabled. And since SeLinux gives all kinds of nice additional protections, we want to keep that enabled.
 
@@ -77,7 +77,7 @@ $ sudo restorecon -RvF /var/lib/containers/user
 
 now all files created in those directories should keep the correct file contexts for my user to be able to access them.
 
-## Configuring Podman to use the new location
+### Configuring Podman to use the new location
 
 By default Podman will stick to its known location under `$HOME`. This is configurable using the `storage.conf` file, which podman will look for in `/usr/share/containers/storage.conf` (rootful) or `/home/<user>/.config/containers/storage.conf` (rootless).
 
@@ -90,7 +90,7 @@ rootless_storage_path = "/var/lib/containers/user/podman/storage"
 ```
 
 
-# Managing containers using Quadlet
+## Managing containers using Quadlet
 
 One of the newer features (4.4+) in Podman I really wanted to try out was [Quadlet](https://www.redhat.com/sysadmin/quadlet-podman). 
 
@@ -144,7 +144,7 @@ Don't forget to reload the systemd daemon with `systemctl --user daemon-reload` 
 
 In case you're wondering what Quadlet thinks of your files, you can have a sneak peek with the command `/usr/libexec/podman/quadlet --dryrun -user`.
 
-## Real-world example for Traefik
+### Real-world example for Traefik
 
 As I'm running [Traefik](/2023/10/30/switching-to-traefik-stepca/) I created the following files for it and put them under `/home/podman/.config/containers/systemd/traefik` (you can use subdirectories to keep it clean):
 
@@ -202,7 +202,7 @@ TZ=Europe/Brussels
 
 which is part of the Traefik container environment.
 
-## More SeLinux... 
+### More SeLinux... 
 
 The attentive reader might have spotted the line `SecurityLabelType=traefik.process` in my Traefik podman unit file above.
 
@@ -261,7 +261,7 @@ $ sudo semodule -i traefik.cil /usr/share/udica/templates/base_container.cil
 
 after which Traefik gets allowed through by SeLinux.
 
-# Using NFS with Podman
+## Using NFS with Podman
 
 Another fun exercise comes when you want to use an NFS mount with Podman in a rootless way.
 
@@ -277,7 +277,7 @@ Mount=type=bind,src=/path/to/nfs-mount,dst=/nfs-mount
 ```
 This makes the directory available in the container under `/nfs-mount`, but.. well, there's a gotcha there. 
 
-## User Namespaces
+### User Namespaces
 Your container will be running in a [user namespace](https://www.redhat.com/sysadmin/rootless-podman-user-namespace-modes) specific to the container. Those namespaces allow you to specify a user-id (UID) and a group-id (GID) mapping to run containers.
 
 You can find the UIDs and GIDs assigned to your user in `/etc/subuid` and `/etc/subgid`. 
@@ -315,15 +315,15 @@ PodmanArgs=--uidmap +1000:@1000:1 --gidmap +1000:@1000:1
 
 now this UID and GID will be available inside your container.
 
-# Other things to keep in mind
+## Other things to keep in mind
 
-## Enabling the podman socket file
+### Enabling the podman socket file
 
 In case you have some container that requires `docker.sock` (or here `podman.sock`), you can enable it using `systemctl --user enable --now podman.sock`. 
 
 The socket file will be available as `/run/user/<UID>/podman/podman.sock`.
 
-## Allowing containers to linger
+### Allowing containers to linger
 
 By default systemd will not allow our user to run long-living processes - so we need to allow this in rootless mode. You can configure this with [loginctl](https://www.freedesktop.org/software/systemd/man/latest/loginctl.html).
 
@@ -331,7 +331,7 @@ By default systemd will not allow our user to run long-living processes - so we 
 $ sudo loginctl enable-linger podman
 ```
 
-## Using privileged ports
+### Using privileged ports
 
 By default, Linux won't allow unprivileged users to bind to privileged ports (<1024).
 

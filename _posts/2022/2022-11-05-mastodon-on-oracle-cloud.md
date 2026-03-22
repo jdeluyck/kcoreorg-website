@@ -13,13 +13,13 @@ I've been meaning to test out [Mastodon](https://joinmastodon.org/) again for a 
 Since Twitter is now owned by someone who's hellbent on burning the platform down, it looked like the perfect time to set one up. 
 Last time I tested it I went with one of the more [established mastodon servers](https://joinmastodon.org/servers), but since they're all being swamped with a twitter-exodus, I figured I'd spin my own.
 
-# Getting a VM
+## Getting a VM
 I'm running my instance on an Oracle Cloud Ampere A1 instance, in their [always free](https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm) tier. Will this truly be always free? I'm not sure, but at the moment it is. Good enough for now.
 
 When setting up the VM, make sure you also configure [IPv6](https://www.51sec.org/2021/09/20/enable-ipv6-on-oracle-cloud-infrastructure/) on it. This will allow IPv6 fediverse servers to connect to your instance, and you to connect to other IPv6 ones.
 Additionaly, configure the security group so that port 80 and 443 is open for both IPv4 (source CIDR 0.0.0.0/0) and IPv6 (source CIDR ::/0).
 
-## Configuring the host firewall
+### Configuring the host firewall
 All Oracle Cloud VM's come with an iptables firewall in place. To open op ports you need to modify the firewall rules on the guest. To do this edit `/etc/iptables/rules.v4` and add 
 
 ```shell
@@ -53,14 +53,14 @@ COMMIT
 
 To reload the rules, execute `iptables-restore < /etc/iptables/rules.v4` and `ip6tables-restore < /etc/iptables/rules.v6`.
 
-# Installing Mastodon
+## Installing Mastodon
 I followed the instructions on their main page: [Running your own server](https://docs.joinmastodon.org/user/run-your-own/). Please keep in mind that this does require some commitment to keeping it up-to-date, so if you don't want that please look for a hosted instance.
 
-## Homedir permissions
+### Homedir permissions
 Make sure your webserver (I used the excellent nginx) can actually read the mastodon homedir. If you follow the installation instructions linked above, execute
   `chmod o+x /home/mastodon` to fix that.
 
-## Serving a different domain
+### Serving a different domain
 I configured Mastodon to run under a subdomain of my domain (fedi.kcore.org), but I wanted people to find me (and to toot from) my main domain, kcore.org. 
 The instructions on [GitHub](https://github.com/felx/mastodon-documentation/blob/master/Running-Mastodon/Serving_a_different_domain.md) are fairly straightforward:
 
@@ -87,12 +87,12 @@ It's important you don't use the `.md` extension, otherwise this file will be re
 
 This will tell mastodon where it can find your specific instance. 
 
-## Adding search
+### Adding search
 To enable search we need an [elasticsearc]() instance for our instance. [The manual](https://docs.joinmastodon.org/admin/optional/elasticsearch/) comes with instructions on how to enable this. 
 
 Keep in mind that full text search is not a feature in mastodon - which is by design.
 
-## Adding translations
+### Adding translations
 Since Mastodon 4.0(?) it's possible to add a translation service for toots.
 
 I did not find any public documentation, but going by [Github PR #19218](https://github.com/mastodon/mastodon/pull/19218) I was able to configure [DeepL](https://www.deepl.com/).

@@ -23,7 +23,7 @@ tags:
 
 I was [running](/2022/11/05/mastodon-on-oracle-cloud/) my [Mastodon](https://joinmastodon.org/) instance on the [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/), but as detailed in part 1, it was time to move away and close down my Oracle account.
 
-# Moving Mastodon
+## Moving Mastodon
 
 Since the instance on Oracle Cloud was a different architecture - [aarch64](https://en.wikipedia.org/wiki/AArch64) vs [x86_64](https://en.wikipedia.org/wiki/X86-64) - I was fearing some issues when transferring the data. In the end, it was really simple:
 
@@ -33,7 +33,7 @@ Since the instance on Oracle Cloud was a different architecture - [aarch64](http
 
 It really was that easy. Kudos to the creators for having great documentation!
 
-# Moving Object Storage
+## Moving Object Storage
 
 I was also using [Backblaze B2](https://www.backblaze.com/cloud-storage) as an object storage, together with [Cloudflare](https://www.cloudflare.com) - they are both part of the [Bandwidth Alliance](https://www.cloudflare.com/partners/technology-partners/backblaze/), a partnership where you pay no egress costs from Backblaze. 
 

@@ -8,7 +8,7 @@ tags:
   - libretranslate
 ---
 
-# Upgrade to 4.2.0
+## Upgrade to 4.2.0
 
 [Mastodon](https://joinmastodon.org/) recently reached version [v4.2.0](https://github.com/mastodon/mastodon/releases/tag/v4.2.0), which comes with a bunch of interesting new features!
 
@@ -16,7 +16,7 @@ Upgrading from v4.1.9 was fairly painless, and it comes down to following the in
 
 (*note: I updated the post to reflect the small difference for Mastodon v4.2.0*+*)
 
-# LibreTranslate 
+## LibreTranslate 
 
 Another change I made was changing from [DeepL](https://www.deepl.com/) to [LibreTranslate](https://libretranslate.com/), a self-hostable translation service. Since I host Mastodon bare-vm (no Docker), I also installed this on the host itself.
 

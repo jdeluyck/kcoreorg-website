@@ -19,7 +19,7 @@ tags:
 
 One of the additional services I use of Cloudflare (besides DNS) is [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/), part of their [Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_architecture) offering. Very practical, but also very much locks you into using their DNS. I use this for a couple of services amonst which is [Home Assistant](https://www.home-assistant.io/)  as detailed on [this blog post](/2024/06/28/using-cloudflare-zerotrust-and-mtls-with-home-assistant-via-the-internet/).
 
-# Pangolin
+## Pangolin
 
 I came across [Pangolin](https://github.com/fosrl/pangolin) via someone on Mastodon (I don't remember who):
 
@@ -38,7 +38,7 @@ It offers:
 
 While this offers a subset of the features of Cloudflare Tunnels, it does not offer functionality for mTLS. This needed to be tackled through different means.
 
-## Configuration
+### Configuration
 
 Deploying it was [well documented](https://docs.fossorial.io/Getting%20Started/quick-install) - I went with the [manual install](https://docs.fossorial.io/Getting%20Started/Manual%20Install%20Guides/docker-compose) as I prefered to have more control over it.
 
@@ -46,7 +46,7 @@ The [config file options](https://docs.fossorial.io/Pangolin/Configuration/confi
 
 After deploying it, I added a reverse proxy definition in my [caddy](/2025/04/15/taking-back-control-webpresence-part3/#caddy---web-requests) Configuration and everything started to work :)
 
-## Tunneling
+### Tunneling
 
 Adding a tunnel was straightforward:
 
@@ -61,7 +61,7 @@ Adding a tunnel was straightforward:
 
 4. Deploy Newt on your target, and see it connect :)
 
-# mTLS with VaulTLS
+## mTLS with VaulTLS
 
 On the [Selfh.st](https://selfh.st) [weekly newsletter](https://selfh.st/tag/weekly/) I came across a new project called [VaulTLS](https://github.com/7ritn/VaulTLS):
 > a modern solution for managing mTLS (mutual TLS) certificates with ease. It provides a centralized platform for generating, managing, and distributing client TLS certificates for your home lab.".

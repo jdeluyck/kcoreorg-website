@@ -40,6 +40,8 @@ Note: I no longer have this device.
 
 Here's a [detailed pci listing](/assets/files/2010/05/apple-macbook-pcilisting.txt).
 
+## Subsystems
+
 ### Linux 2.6.x kernel
 
 The latest 2.6 kernel is: [2.6.39.4](https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz).  

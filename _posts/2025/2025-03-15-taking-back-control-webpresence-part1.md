@@ -30,13 +30,13 @@ Some of the things I want to move:
 * Object storage (Backblaze)
 * Random hosted solutions ([UptimeRobot](https://uptimerobot.com/), [Healthchecks](https://healtchecks.io), ...)
 
-# VPS Hosting
+## VPS Hosting
 
 The first thing to pick was a hoster: after some searching I came across [Netcup](https://www.netcup.com/en/?ref=270183) (affiliate link), a hoster based out of Germany, which regularly has deals on their hosting packages. I picked up one of those deals - a VPS 1000 G11 SE - 4 core x86, 8GB RAM, 512GB storage. It's hosted in [Nürnberg](https://en.wikipedia.org/wiki/Nuremberg). 
 
 Bonus of Netcup: You can  upload your own [disk images](https://helpcenter.netcup.com/en/wiki/server/media#upload-custom-image) or [DVD images](https://helpcenter.netcup.com/en/wiki/server/media#own-dvds) to use in the server control panel. This allows you to install whatever OS you want, as long as it fits on the architecture (x86_64).
 
-# Which Linux distribution?
+## Which Linux distribution?
 
 So, I had a box. Now, what to run on it? I had the initial idea to go with a fully containerised setup - not going the kubernetes route as I only have one box (k8s is a great ecosystem, but heavily overused IMHO), staying with Docker/Podman. 
 
@@ -44,11 +44,11 @@ I quickly found [openSUSE MicroOS](https://microos.opensuse.org/), an immutable 
 
 The key to adding packages to the base OS is the command `transactional-update pkg install <pkg>` and rebooting.
 
-# Ready, get set, go!
+## Ready, get set, go!
 
 So, I now had a box, with a Linux distribution, and a container runtime. Since I wanted to keep things simple I decided to see how far I'd get with  [podman-compose](https://docs.podman.io/en/latest/markdown/podman-compose.1.html), a podman replacement for [docker compose](https://docs.docker.com/compose/).
 
-## Where are my containers at?! (after a reboot)
+### Where are my containers at?! (after a reboot)
 
 `podman-compose` isn't quite like `docker compose`, which is also due to the different nature of `podman` vs `docker`. It has no central daemon which is used to spawn all your containers at boot time - so while testing out my first containers, I noticed they were gone when the box rebooted after downloading updates. Luckily this is [easily solved](https://github.com/containers/podman-compose/issues/587):
 
@@ -58,7 +58,7 @@ podman-compose -f your-container-file.yaml systemd -a register
 systemctl --user enable --now podman-compose@your-container-file
 ```
 
-## What... is your ~~favourite color~~ source IP?
+### What... is your ~~favourite color~~ source IP?
 
 Another thing I noticed was that my ingress reverse-proxy [Traefik](https://traefik.io/traefik/) was not seeing the correct source IP - it was just showing the internal IP address - which is also due to the non-root way podman works. 
 
@@ -109,7 +109,7 @@ Notify=true
 Volume=%t/podman/podman.sock:/var/run/docker.sock
 ```
 
-## Quadlet, why you so slow?!
+### Quadlet, why you so slow?!
 
 Next up I was noticing that it took forever to start a container using a quadlet. Strangely enough, I've never had this on the Fedora box on which I run containers in my homelab.
 
@@ -131,12 +131,12 @@ WantedBy=multi-user.target
 
 and by enabling it through `systemctl enable --now podman-network-online-dummy`
 
-## Obscure IP problems... but only with dhcp?
+### Obscure IP problems... but only with dhcp?
 
 The final hurdle I bumped into was that for some obscure reason, my Traefik container would stop serving LetsEncrypt certificates, and only offer the built-in self-signed one. After quite some searching I found out that there's some weird issue with the network activation - the container would start up before NetworkManager had gotten an IP from the DHCP server. Statically defining the IP address fixed the issue, or adding a startup delay in the container quadlets. I filed [issue #25656](https://github.com/containers/podman/issues/25656), and as a workaround set it to static configuration.
 
 
-# Architecture
+## Architecture
 
 The architecture I had in mind was:
 
@@ -153,14 +153,14 @@ Each website hosting would have its own set of containers:
 * [PostgreSQL](https://hub.docker.com/_/postgres) with [PgAdmin](https://www.pgadmin.org/download/pgadmin-4-container/)
 * [linuxserver.io openssh](https://docs.linuxserver.io/images/docker-openssh-server/) 
 
-## Outer (edge) layer
+### Outer (edge) layer
 
-### Traefik - web requests
+#### Traefik - web requests
 
 I've been using Traefik for a while in my own homelab, so I also wanted to use it on the internet. The idea is that you just assign the necessary labels to your containers, and Traefik will do the rest.
 This worked fine most of the time, there being some hickups when dealing with selfsigned certificates and so on, but that's all fairly well documented on the internet.
 
-### sshpiper - ssh reverse proxy
+#### sshpiper - ssh reverse proxy
 
 Another thing I wanted - which is common in the shared webhosting space - is a way to give other people besides me a way to upload files. I didn't want to grant them access to the underlying system, just to "their" webspace. Ideally using an encrypted protocol like SSH.
 
@@ -189,12 +189,12 @@ This policy was loaded with the command
 $ sudo semodule -i sshpiper.cil /usr/share/udica/templates/base_container.cil
 ```
 
-## Inner layer (hosting)
+### Inner layer (hosting)
 
 The Nginx, php-fpm and openssh containers would be mounting the same set of volumes, allowing an end-user to ssh into the openssh container and update the files where needed.
 I also would mount the database and php-fpm sockets between the containers to minimize the use of network connectivity and possibilities for abuse - even through it's all on my own private box.
 
-### Database management (PgAdmin and phpMyAdmin)
+#### Database management (PgAdmin and phpMyAdmin)
 
 I wanted to offer pgadmin and phpmyadmin on a subdirectory of the domain, with [basicauth](https://doc.traefik.io/traefik/middlewares/http/basicauth/) in place. The latter is easy, the former less so, because the path that you add is passed on to the destination.
 
@@ -225,11 +225,11 @@ For phpMyAdmin I bumped into the problem that the `pmadb`, where it will store c
 
 You can put these scripts in a directory and mount it under `/docker-entrypoint-initdb.d`. More info can be found on the [mariadb dockerhub](https://hub.docker.com/_/mariadb) page, under "Initializing the database contents".
 
-### OpenSSH
+#### OpenSSH
 
 By default the linuxserver.io openssh container starts off as root, later switching to the user-id and group-id specified. This created some additional hurdles, as I always want the files to be owned by the hosting owner. My solution was to add a [custom script](https://www.linuxserver.io/blog/2019-09-14-customizing-our-containers) that would make sure the mounted hosting directory had [setgid (set group id)](https://en.wikipedia.org/wiki/Setuid#When_set_on_a_directory) on it.
 
-# Musings after transferring a few sites...
+## Musings after transferring a few sites...
 
 * My initial attempts on doing all this with `podman-compose` weren't successful. The documentation isn't clear, I ran into more than one problem regarding variable interpolation (some would be interpolated, others not), and other things which are somewhat supported but not really. 
 In the end I gave up, and switched everything over to using quadlets. This worked without issues.

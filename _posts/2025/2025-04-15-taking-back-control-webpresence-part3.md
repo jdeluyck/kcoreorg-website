@@ -27,7 +27,7 @@ I was browsing some hosting-forums, and I saw somebody mentioning using [Linux C
 
 *Wait, what?* Why hadn't I thought of that? An LXC container in the end is just that, a container (with a whole OS in it). And I'm using it a lot with [ProxmoxVE](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) in my homelab...
 
-# Hello Proxmox
+## Hello Proxmox
 
 Installing ProxmoxVE was surprisingly easy: upload the ISO to netcup, boot, go through the installer, done :)
 
@@ -36,7 +36,7 @@ After installation I immediately added a [wireguard](https://www.wireguard.com/)
 **You really need to lock down the web interface immediately.**
 {: .notice--warning}
 
-## Configuring internal DHCP for ProxmoxVE
+### Configuring internal DHCP for ProxmoxVE
 
 In a normal configuration Proxmox doesn't hand out IP addresses, it assumes you'll either statically assign them or use a DHCP server which already resides on your network. Since I didn't want to do the former, and only had 1 IP address, I needed to configure a Proxmox simple zone. The tutorial [Setup Simple Zone with SNAT and DHCP](https://pve.proxmox.com/wiki/Setup_Simple_Zone_With_SNAT_and_DHCP) explains how to do this, and I mostly followed this adjusting for my own preferences.
 
@@ -44,9 +44,9 @@ Don't forget to install `dnsmasq` first!
 
 This configuration will give an additional `vnet0` interface (or however you decide to name it) which you can then use to run your LXC's - they will get an IP address from the range defined, and outbound traffic will be automatically handled.
 
-## Adding DNS
+### Adding DNS
 
-### Authoritative DNS 
+#### Authoritative DNS 
 
 Being lazy I wanted DNS too. Hey, there's [support for that](https://pve.proxmox.com/pve-docs/chapter-pvesdn.html#pvesdn_dns_plugin_powerdns) in Proxmox, using eg. [PowerDNS](https://www.powerdns.com/)!
 
@@ -92,7 +92,7 @@ Then reconfigured the zone, under Datacenter &rarr; SDN &rarr; Zones, set the DN
 
 ![Proxmox Datacenter SDN Zone DNS configuration](/assets/img/posts/2025/04/proxmoxve_sdn_dns_zone.png){: .align-center}
 
-### Recursive DNS
+#### Recursive DNS
 
 I also added a [recursive DNS server](https://www.cloudflare.com/learning/dns/what-is-recursive-dns/) (the PowerDNS recursor) which I pointed for my `my-local-zone.local` to my authoritative DNS server. For all other requests the recursor will query the [root servers](https://en.wikipedia.org/wiki/Root_name_server)
 
@@ -118,11 +118,11 @@ dhcp-dns-server <ip address of your PowerDNS LXC>
 ```
 under the subnet definition.
 
-## Backups
+### Backups
 
 I already had [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview) running for my homelab, so I added this new ProxmoxVE instance as an additional source - using the VPN tunnel to send the backups.
 
-## Forwarding traffic to an LXC
+### Forwarding traffic to an LXC
 
 As I wanted to forward the incoming traffic to a specific LXC, I needed to add some additional [iptables](https://www.netfilter.org/projects/iptables/index.html) rules (Proxmox only has [nftables](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page) as a [tech preview](https://pve.proxmox.com/pve-docs/pve-firewall.8.html#pve_firewall_nft)):
 
@@ -144,7 +144,7 @@ post-down iptables -t nat -D PREROUTING -p tcp -i vnet0 --dport 443 --destinatio
 The first three rules route traffic hitting port 80 (http), 443 (https) and 2222 (sshpiper) to my edge LXC.
 The last two rules are there to make sure that traffic that hits `vnet0`, which is destined for the public IP address of my VPS, gets routed back to the edge LXC. This is needed to eg. allow traffic between services by targeting their public names.
 
-# Architecture v2
+## Architecture v2
 
 This is the architecture I came up with for this installment, and which is currently being used:
 
@@ -166,34 +166,34 @@ I have a separate MariaDB LXC which houses
 There's also an LXC for running containers, small things which don't warrant their own fullblown OS.
 
 Each LXC container runs a copy of [Debian Stable](https://www.debian.org/releases/stable/).
-## Outer (edge) layer
+### Outer (edge) layer
 
-### Caddy - web requests
+#### Caddy - web requests
 
 While I'm using Traefik on my homelab, I had heard a lot of good about [Caddy](https://caddy.server) and its ease of use. So why not try it out. I wasn't disapointed!
 
 Support for [https://letsencrypt.org/](Let's Encrypt) is automatic, adding configuration sections is super easy.
 Per site I deploy I add a file with the reverse proxy definition to the webhost LXC, and the rest is magic.
 
-### sshpiper - ssh reverse proxy
+#### sshpiper - ssh reverse proxy
 
 I cannot add add much to what I wrote in [part 1](/2025/03/15/taking-back-control-webpresence-part1/#sshpiper---ssh-reverse-proxy), but since it is now running natively instead of containerised, the setup was easier. I also switched from using the [yaml](https://github.com/tg123/sshpiper/tree/master/plugin/yaml) plugin to to the [workdir](https://github.com/tg123/sshpiper/tree/master/plugin/workingdir) plugin.
 
-## Inner layer (hosting)
+### Inner layer (hosting)
 
-### Webhosting LXC
+#### Webhosting LXC
 
 The webhosting is being handled through Apache2 and php-fpm, both installed on Debian Stable. Each site gets its own php-fpm pool, with its own user. Files can be written by endusers using SSH/SFTP/SCP with their specific userid, proxied through sshpiper. Selfsigned certificates are used between Caddy and Apache2.
 
-### Database LXC
+#### Database LXC
 
 The database LXC is currently only configured for Mariadb, and next to it phpMyAdmin is configured (with basicauth being handled by Caddy).
 
-# Automating it all
+## Automating it all
 
 I've mostly reused my existing [ansible](https://en.wikipedia.org/wiki/Ansible_%28software%29) playbooks and roles for my homelab. 
 
-# Musings after transferring a few sites...
+## Musings after transferring a few sites...
 
 * Everything just works. It is easy, comprehensible, I can wrap my head around it
 * Ansible keeps it from being tedious. Debian [unattended upgrades](https://wiki.debian.org/UnattendedUpgrades) keep things patched

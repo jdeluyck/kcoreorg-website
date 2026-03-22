@@ -68,4 +68,5 @@ To send the snapshots over, I use `syncoid` in a cron job that runs every 20 min
 
 Additionaly, a daily [restic](https://restic.net/) job sends the latest snapshots to [BackBlace B2](https://www.backblaze.com/cloud-storage), where they live even longer and with finer granularity. This way I have an easy restore method locally, and if needed I can just mount the restic respository and copy out the single file that I need to restore, costing me only the money to get that one file (and a bit of overhead).
 
-**Always practice good backups. Have a local copy on-site, and make sure you have atleast an additional copy off-site.**
+>**Always practice good backups. Have a local copy on-site, and make sure you have atleast an additional copy off-site.**
+{: .prompt-info }

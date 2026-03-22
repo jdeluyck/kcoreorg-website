@@ -19,7 +19,8 @@ Cleaning up some cruft returned me to 5TB, but still, that was going to decrease
 
 I picked up two [WD Red Plus](https://www.westerndigital.com/en-ie/products/internal-drives/wd-red-plus-sata-3-5-hdd#WD140EFGX) 14TB drives to add to the system, as a mirror. Should you buy these drives, make sure they're the Plus or Pro variants, as the normal ones now use [Shingled Magnetic Recording (SMR)](https://en.wikipedia.org/wiki/Shingled_magnetic_recording), which just does [not play nice with ZFS](https://arstechnica.com/gadgets/2020/06/western-digitals-smr-disks-arent-great-but-theyre-not-garbage/).
 
-As always: **make sure you have (working) backups!**
+>As always: **make sure you have (working) backups!**
+{: .prompt-warning }
 
 When picking raidz1 I did a *conversion-ish* from the [Synology Hybrid Raid (SHR)](https://kb.synology.com/en-uk/DSM/tutorial/What_is_Synology_Hybrid_RAID_SHR) to ZFS - single disk fault tolerance, net high storage capacity. I also had heard that there would be a thing like [raidz expansion](https://arstechnica.com/gadgets/2021/06/raidz-expansion-code-lands-in-openzfs-master/) in the future, so .. ok.
 

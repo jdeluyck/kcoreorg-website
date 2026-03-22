@@ -21,7 +21,7 @@ The DNS services I use are also located at Cloudflare, for all domains.
 
 Time to change that..
 
-# Doing the domain registrar shuffle
+## Doing the domain registrar shuffle
 
 For the .org domains it's fairly straightforward - any domain registrar could do, as long as they're based out of Europe and don't have a ridiculously high fee for the domains. I settled on [OVH](https://www.ovhcloud.com/) - their prices feel reasonable.
 
@@ -36,7 +36,7 @@ Once the domain is transferred, don't forget to update the nameservers to point 
 
 *ideally I'd get rid of the .org domains, but that requires a bit more work since they are in use all over the place.*
 
-# DNS Services
+## DNS Services
 
 DNS Services are being provided by Cloudflare. It works, don't get me wrong, but .. I want it elsewhere. I could use the services that are offered by most domain registrars (OVH has theirs), but ideally I'd have it at a 3<super>rd</super> party so I can just change registrars without having to deal with changing everything all the time.
 
@@ -46,7 +46,7 @@ Registration is easy: go to the site, click "Create Account" and fill the necess
 
 In case you have more than one domain you want to move there you'll have to contact them using support to increase your quota. While this adds a little bit of friction, I do understand that they want to avoid abuse of their free service.
 
-# DNS as Code using dnscontrol
+## DNS as Code using dnscontrol
 
 I had not heard of [dnscontrol](https://dnscontrol.org/) until I read this [blog post](https://tobru.ch/authoritative-dns-with-desec-and-dns-control/) by [Tobias Brunner](https://tobru.ch/about/) detailing how he uses it. I really like this "dns-as-code" approach, even though it uses typescript. 
 
