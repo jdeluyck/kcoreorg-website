@@ -71,4 +71,4 @@ All I actually did was copy this block in the existing MetaClasses.plist:
 </dict>
 ```
 
-Since WP keeps on braking my indentation, just download it here: [MetaClasses.plist](/assets/files/2009/11/MetaClasses.plist)
+Since WP keeps on breaking my indentation, just download it here: [MetaClasses.plist](/assets/files/2009/11/MetaClasses.plist)
