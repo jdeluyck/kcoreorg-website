@@ -1,5 +1,5 @@
 ---
-title: Increasing Mastodon's post size
+title: Increasing Mastodons post size
 date: 2022-12-18
 categories: [Technology & IT, Virtualisation]
 tags:
