@@ -9,5 +9,3 @@ I've just released phptelemeter 1.27. This release includes the following chang
 
   * Fixed dommel_web parser since they no longer count upload.
   * Fixed telemeter_web parser, they changed some small things.
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

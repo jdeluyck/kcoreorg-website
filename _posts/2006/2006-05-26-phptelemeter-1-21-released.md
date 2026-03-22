@@ -11,5 +11,3 @@ I've just released phptelemeter 1.21. This release includes the following chang
   * Removed some useless debugging code
   * Fixed bug in calculation code
   * Added skynet_web parser for Skynet
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

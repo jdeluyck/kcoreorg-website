@@ -7,10 +7,10 @@ tags:
 ---
 I've started a new project, a php based 'meter reader', for Telenet, to be able to get the usage statistics in an easy way instead of having to log into their site all the time...
 
-The releases will be posted on SourceForge, [here](https://sourceforge.net/projects/phptelemeter/files/phptelemeter/).
+The releases will be posted on CodeBerg, [here](https://codeberg.org/jdeluyck/phptelemeter).
 
-There's a [README too](https://sourceforge.net/p/phptelemeter/code/ci/master/tree/README)!
+There's a [README too](https://codeberg.org/jdeluyck/phptelemeter/src/branch/master/README)!
 
-You can find the [Changelog here](https://sourceforge.net/p/phptelemeter/code/ci/master/tree/ChangeLog).
+You can find the [Changelog here](https://codeberg.org/jdeluyck/phptelemeter/src/branch/master/ChangeLog).
 
 &nbsp;

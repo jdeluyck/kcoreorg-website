@@ -18,5 +18,3 @@ After nearly 8 months of no release (if you don't count the 1.33-beta1), I've ju
   * Fixed telemeter_web parser
   * Added more error codes to the telemeter4tools parser
   * Fixed scarlet parser
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

@@ -10,5 +10,3 @@ I've just released phptelemeter 1.23. This release includes the following chang
   * Added parser upccz_web for UPC in the Czech Republic (written by Miroslav Suchÿ)
   * Made phptelemeter PHP5 compatible.
   * Added detection of positions in the webpage for the telemeter_web parser (less prone to error on page changes)
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

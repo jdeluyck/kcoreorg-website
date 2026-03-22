@@ -14,5 +14,3 @@ I've just released phptelemeter 1.10. This release includes the following chang
   * Corrected telemeter_web parser for changes in the Telemeter web page
   * Fixed wrongly used obsolete daily parameter when using -daily
   * Patched NuSOAP library to allow http proxy connections (didn't work earlier)
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

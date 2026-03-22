@@ -12,6 +12,4 @@ I've released [phptelemeter 1.36, beta 1](http://phptelemeter.kcore.org/). Beta 
   * Dropped the xmlparser library, it's no longer needed for telemeter4tools
   * Updated gpl2 license link
   * Fixed telemeter_web parser after Telenet updates. 
-  * Fixed telemeter4tools parser after API updates. 
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).
+  * Fixed telemeter4tools parser after API updates.

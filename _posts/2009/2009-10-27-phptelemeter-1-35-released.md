@@ -9,5 +9,3 @@ I've just released [phptelemeter 1.35](http://phptelemeter.kcore.org/). This ver
 
   * Added support for Mobile Vikings
   * Added unlimited support for Dommel accounts bug report: 2886030)
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

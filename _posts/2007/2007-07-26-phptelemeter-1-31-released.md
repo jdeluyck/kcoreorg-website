@@ -20,5 +20,3 @@ I've just released phptelemeter 1.31. This version includes the following change
   * Added no_output publisher which gives no output (for use with warn-mail)
   * Implemented including files in the config file. (feature request: 1671787)
   * Implemented password encryption/obfuscation. (feature request: 1674607)
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

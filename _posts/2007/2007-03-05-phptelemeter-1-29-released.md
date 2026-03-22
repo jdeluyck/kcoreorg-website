@@ -14,5 +14,3 @@ I've just released phptelemeter 1.29. This version includes the following change
   * Increased # of accounts to 99 (request from YvesDM)
   * Fixed dommel_web parser to work with new counter
   * Reformatted documentation to fit on 80-char wide terminals
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

@@ -10,5 +10,3 @@ I've just released phptelemeter 1.30. This version includes the following change
   * Replaced gregoriantojd() calls with something else, fixes phptelemeter if php is compiled without -enable-calendar. (feature request: 1684526)
   * Changed Telenet parsers: Telenet now has one fix quota instead of separate upload/download (fixes: 1671798)
   * Updated publishers to work with a history of one quota and separate quotas (also for Telenet)
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

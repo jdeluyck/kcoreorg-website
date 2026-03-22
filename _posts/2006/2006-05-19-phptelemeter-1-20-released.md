@@ -11,5 +11,3 @@ I've just released phptelemeter 1.20. This release includes the following chang
   * Implemented multi-parser usuage - this requires a configuration file change!
   * Added dommel_web parser for the Dommel.com ISP
   * Added configuration parameter for file output extension
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

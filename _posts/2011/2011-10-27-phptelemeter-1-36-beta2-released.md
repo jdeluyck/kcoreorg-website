@@ -15,5 +15,3 @@ I've just released phptelemeter 1.36-beta2. This version includes the following 
   * The edpnet_web parser is dropped for now - I haven't been able to figure out sofar how to make it work again against their new AJAX-drive site
   * Fixed telemeter4tools parser, telenet's WSDL is faulty...
   * Added reset\_date to mobilevikings\_api parser
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

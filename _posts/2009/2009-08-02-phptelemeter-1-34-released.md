@@ -16,5 +16,3 @@ I've just released [phptelemeter 1.34](http://phptelemeter.kcore.org/). This ver
   * Added mysql publisher (feature request: 1671210)
   * Limited warn-percentage to 2 digits after the comma (feature request: 1936213)
   * Added reset date to over-limit notification mails (feature request: 1837559)
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

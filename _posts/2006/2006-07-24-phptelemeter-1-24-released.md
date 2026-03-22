@@ -9,5 +9,3 @@ I've just released phptelemeter 1.24. This release includes the following chang
 
   * Added detection of overusage on Dommel parser
   * Added detection of 'Access Denied' errors on Skynet parser
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

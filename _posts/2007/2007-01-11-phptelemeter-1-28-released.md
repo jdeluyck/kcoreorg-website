@@ -13,5 +13,3 @@ I've just released phptelemeter 1.28. This version includes the following change
   * Removed useless variable from parser_telemeter4tools
   * Fixed error handling in scarlet_web parser
   * Fixed off-by-one bug in the last day before reset in the scarlet_web parser.
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).

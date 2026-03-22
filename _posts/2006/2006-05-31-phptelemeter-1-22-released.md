@@ -10,5 +10,3 @@ I've just released phptelemeter 1.22. This release includes the following chang
   * Added scarlet_web parser for Scarlet
   * Made skynet_web parser less prone to error on webpage changes
   * Cleaned up telenet_web parser a bit
-
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).
