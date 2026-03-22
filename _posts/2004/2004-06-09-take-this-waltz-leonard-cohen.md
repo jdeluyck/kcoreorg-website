@@ -5,6 +5,7 @@ categories: [Hobbies & Interests, Music]
 tags:
   - leonard cohen
 ---
+
 Now in Vienna there's ten pretty women  
 There's a shoulder where Death comes to cry  
 There's a lobby with nine hundred windows  

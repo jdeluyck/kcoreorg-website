@@ -7,6 +7,7 @@ tags:
   - dell d610
   - linux
 ---
+
 This page documents my attempts (and successes!) to get Linux fully working on a Dell D610 laptop.
 
 NOTE: The information contained herein assumes that you know how to work from the commandline, patch kernels and compile programs.
@@ -33,7 +34,7 @@ Integrated Bluetooth
 
 ### PCI Specs
 
-```
+```text
 0000:00:00.0 Host bridge: Intel Corporation Mobile 915GM/PM/GMS/910GML Express Processor to DRAM Controller (rev 03)
 0000:00:02.0 VGA compatible controller: Intel Corporation Mobile 915GM/GMS/910GML Express Graphics Controller (rev 03)
 0000:00:02.1 Display controller: Intel Corporation Mobile 915GM/GMS/910GML Express Graphics Controller (rev 03)
@@ -67,9 +68,9 @@ Hardware: this is the Intel 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB chip.
 
 USB worked out of the box by loading the following modules:
 
-  * `usb-uhci` (USB 1.x support)
-  * `ehci-hcd` (USB 2 support)
-  * `usbcore` (which is automatically loaded by the previous ones)
+* `usb-uhci` (USB 1.x support)
+* `ehci-hcd` (USB 2 support)
+* `usbcore` (which is automatically loaded by the previous ones)
 
 It is advisable to install [the hotplug system](http://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](http://packages.debian.org/hotplug) package.
 
@@ -103,7 +104,7 @@ Hardware: Intel Corporation Mobile 915GM/GMS/910GML Express Graphics Controller
 
 To make it working just set your video driver to `i810`:
 
-```
+```text
 Section "Device"
 			Identifier	"Generic Video Card"
 			Driver		"i810"
@@ -112,7 +113,8 @@ Section "Device"
 
 The screen section looks like this:
 
-```Section "Screen"
+```text
+Section "Screen"
 			Identifier	"Default Screen"
 			Device		"Generic Video Card"
 			Monitor		"Generic Monitor"
@@ -169,7 +171,7 @@ DMA is automagically enabled. I use `hdparm` to set an extra parameter: `hdparm 
 
 Explanation:
 
-  * -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
+* -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
 
 For Debian; check the [hdparm](http://packages.debian.org/hdparm) package.
 
@@ -219,10 +221,10 @@ To get the `smsc-ircc2` module, you need to enable `ISA Support` in the `Bus Opt
 
 Here's what you need to do:
 
-  1. Enable the port in the BIOS, and assign it to e.g. COM2
-  2. Disable the tty port in linux: `setserial /dev/ttyS1 uart none`
-  3. Load the smsc-ircc2 module with the correct parameters: `modprobe smsc-ircc2 ircc_irq=3 ircc_dma=3 ircc_sir=0x2f8 ircc_fir=0x280`
-  4. Launch irattach on the `irda0` device: `irattach irda0 -s`
+1. Enable the port in the BIOS, and assign it to e.g. COM2
+2. Disable the tty port in linux: `setserial /dev/ttyS1 uart none`
+3. Load the smsc-ircc2 module with the correct parameters: `modprobe smsc-ircc2 ircc_irq=3 ircc_dma=3 ircc_sir=0x2f8 ircc_fir=0x280`
+4. Launch irattach on the `irda0` device: `irattach irda0 -s`
 
 For Debian, I advise the [irda-utils](http://packages.debian.org/irda-utils) package.
 
@@ -231,12 +233,12 @@ For Debian, I advise the [irda-utils](http://packages.debian.org/irda-utils) pa
 This laptop has several 'function' and 'multimedia' keys, which are not mapped by the bios but generate scancodes.  
 These include:
 
-  * Volume up (`Fn-PgUp`)
-  * Volume down (`Fn-PgDown`)
-  * Mute (`Fn-End`)
-  * Hibernate (`Fn-F1`)
-  * Battery (`Fn-F3`)
-  * Eject CD (`Fn-F10`)
+* Volume up (`Fn-PgUp`)
+* Volume down (`Fn-PgDown`)
+* Mute (`Fn-End`)
+* Hibernate (`Fn-F1`)
+* Battery (`Fn-F3`)
+* Eject CD (`Fn-F10`)
 
 Normally the Mute, Eject CD, Battery and Hibernate buttons don't generate key-up events, causing the, to 'hang'. You can solve that problem by using [this](/assets/files/2006/09/dell-d610-d610-fnkeys-fix.patch_.txt) kernel patch. (apply it by using `cat d610-fnkeys-fix.patch | patch -p1` in the kernel sourcedir)
 
@@ -263,7 +265,7 @@ On kernels < 2.6.16 you have to apply [this patch](http://tpctl.sourceforge.net/
 
 To get the display back to life, you have to use vbetool (debian package [vbetool](http://packages.debian.org/vbetool)).
 
-I use the following [suspend](/assets/files/2006/09/dell-d610-acpi-events-suspend.txt) script in `/etc/acpi/events` 
+I use the following [suspend](/assets/files/2006/09/dell-d610-acpi-events-suspend.txt) script in `/etc/acpi/events`
 (which is triggered when I press my suspend button), and this [suspend2ram](/assets/files/2006/09/dell-d610-suspend2ram.txt) script to do the actual suspending.
 
 ### Touchpad in XFree86/X.Org
@@ -279,7 +281,7 @@ adding the line `Load "synaptics"` in the module section.
 3. Add/Replace in the InputDevice-section for the touchpad the
 following lines:
 
-```
+```text
 Section "InputDevice"
   Driver        "synaptics"
   Identifier    "Mouse[1]"
@@ -312,7 +314,7 @@ Change the Identifier to the same name as in the ServerLayout-section.
 
 4. Add the "CorePointer" option to the InputDevice line at the ServerLayout section:
 
-```
+```text
 Section "ServerLayout"
 ...
 InputDevice "Mouse[1]"  "CorePointer"
@@ -335,18 +337,18 @@ What we basically do is `echo 0x80000001 > /proc/acpi/video/VID/LCD/state`, whic
 
 ## Links
 
-  * Dell: [http://www.dell.com](http://www.dell.com/)
-  * Centrino: [http://www.intel.com/home/notebook/centrino/index.htm](http://www.intel.com/home/notebook/centrino/index.htm)
-  * 915resolution: [http://www.geocities.com/stomljen/](http://www.geocities.com/stomljen/)/li>
-  * Intel PRO/Wireless 2915AB linux driver: [http://ipw2200.sourceforge.net/](http://ipw2200.sourceforge.net/)
-  * Hotkeys program: [http://ftp.debian.org/debian/pool/main/h/hotkeys/](http://ftp.debian.org/debian/pool/main/h/hotkeys/)
-  * Kernel: [http://www.kernel.org](http://www.kernel.org/)
-  * Linux on mobile computers: [http://www.tuxmobil.com/](http://www.tuxmobil.com/)
-  * Linux-on-laptops: [http://www.linux-on-laptops.com](http://www.linux-on-laptops.com/)
-  * Linux hotplug: [http://linux-hotplug.sourceforge.net/](http://linux-hotplug.sourceforge.net/)
-  * SATA and Linux: [http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux](http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux)
-  * PCMCIAUtils (2.6.12+ kernels): [http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html)
-  * Synaptics Touchpad driver for XFree86/Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
-  * Winmodems on linux: [http://www.linmodems.org/](http://www.linmodems.org/)
-  * Linuxant modem drivers: [http://www.linuxant.com/drivers/hsf/index.php](http://www.linuxant.com/drivers/hsf/index.php)
-  * Linuxant: [http://www.linuxant.com/](http://www.linuxant.com/)
+* Dell: [http://www.dell.com](http://www.dell.com/)
+* Centrino: [http://www.intel.com/home/notebook/centrino/index.htm](http://www.intel.com/home/notebook/centrino/index.htm)
+* 915resolution: [http://www.geocities.com/stomljen/](http://www.geocities.com/stomljen/)/li>
+* Intel PRO/Wireless 2915AB linux driver: [http://ipw2200.sourceforge.net/](http://ipw2200.sourceforge.net/)
+* Hotkeys program: [http://ftp.debian.org/debian/pool/main/h/hotkeys/](http://ftp.debian.org/debian/pool/main/h/hotkeys/)
+* Kernel: [http://www.kernel.org](http://www.kernel.org/)
+* Linux on mobile computers: [http://www.tuxmobil.com/](http://www.tuxmobil.com/)
+* Linux-on-laptops: [http://www.linux-on-laptops.com](http://www.linux-on-laptops.com/)
+* Linux hotplug: [http://linux-hotplug.sourceforge.net/](http://linux-hotplug.sourceforge.net/)
+* SATA and Linux: [http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux](http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux)
+* PCMCIAUtils (2.6.12+ kernels): [http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html)
+* Synaptics Touchpad driver for XFree86/Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
+* Winmodems on linux: [http://www.linmodems.org/](http://www.linmodems.org/)
+* Linuxant modem drivers: [http://www.linuxant.com/drivers/hsf/index.php](http://www.linuxant.com/drivers/hsf/index.php)
+* Linuxant: [http://www.linuxant.com/](http://www.linuxant.com/)

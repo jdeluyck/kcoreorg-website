@@ -6,6 +6,7 @@ tags:
   - linux
   - irssi
 ---
+
 I recently started using the wonderful textbased IRC client called [Irssi](http://irssi.org/). It's console based, scriptable in [Perl](http://www.perl.com/), fast, low memory footprint.. really nice for the average geek ;p
 
 As it does come with a [nice collection of scripts](http://irssi.org/scripts/), some holes were still left for it to be really to my liking. So I took up some perl scripting, and created some scrips of my own.
@@ -20,7 +21,7 @@ Okay, there are plenty of good away scripts for Irssi, yet none did what I wante
 
 To use it, download the script, dump it in e.g. `~/.irssi/scripts`, and load it in Irssi with `/run yaiaways`. After this you can set some options which you can see with `/set away_`:
 
-```
+```ini
 [yaiaways]
 away_reason = Away from keyboard
 away_nick_suffix = [afk]
@@ -29,6 +30,7 @@ away_nick_suffix = [afk]
 When you now call `/away` (without a reason) the script will use the 'Away from keyboard' text as your reason, and mark your nick with '[afk]' at the end. Feel free to change those things.
 
 ### Download
+
 [yaiaways-0.2.zip](/assets/files/2006/11/yaiaways-0.2.zip)
 
 ## active_dcc.pl - shows DCC info in the active window
@@ -40,4 +42,5 @@ This script is basically a copy-n-paste of Geert Hauwaert's [active_notice.pl](h
 To use it, download the script, dump it in e.g. `~/.irssi/scripts`, and load it in Irssi with `/run active_dcc`.
 
 ### Download
+
 [active_dcc-1.0.zip](/assets/files/2006/11/active_dcc-1.0.zip)

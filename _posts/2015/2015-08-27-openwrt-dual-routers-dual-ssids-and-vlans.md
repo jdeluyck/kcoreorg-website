@@ -54,7 +54,7 @@ After rebooting both devices, your trunk _should_ be up and running. Normal traf
 
 You can view the incoming vlan tags on the device (eth0, eth1, _not_ the bridge!) using tcpdump:
 
-```text
+```shell
 # tcpdump -enni [dev]
 ```
 

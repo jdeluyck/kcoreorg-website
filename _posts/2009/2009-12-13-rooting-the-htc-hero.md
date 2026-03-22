@@ -44,7 +44,7 @@ After a while adb should return to the prompt. Should mean your phone has been f
     ```
 
 Your phone should greet you with:
-```
+```text
 [+] Using newer pipe\_inode\_info layout  
 Opening: /proc/564/fd/3  
 SUCCESS: Enjoy the shell.  
@@ -64,7 +64,7 @@ mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system
 (this returns no output)
 
 And now executing `mount` should return a line like:
-```
+```bash
 /dev/block/mtdblock3 /system yaffs2 **rw** 0 0
 ```
 

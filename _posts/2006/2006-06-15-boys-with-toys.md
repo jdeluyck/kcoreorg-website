@@ -6,6 +6,7 @@ tags:
   - palm
   - palm tx
 ---
+
 YAY! My new toy got delivered today!
 
 ![Palm TX](/assets/img/posts/2006/06/tx_1.png "Palm TX")

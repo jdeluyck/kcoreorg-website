@@ -32,7 +32,7 @@ Now it's time to power off your phone. Press and hold the Volume-Down button and
 
 You'll then get:
 
-```
+```text
 Parsing......................[SD zip]
  1. BOOTLOADER
  2. RADIO_V2
@@ -53,7 +53,7 @@ Here, you can press Volume-Up, and the flashing will commence.
 
 It will reboot a few times, and then you should get:
 
-```
+```text
 Update complete
 So you want to reboot device?
 <vol Up> Yes

@@ -58,8 +58,8 @@ As you can see above, 4.6.0-rc3 is available, but since it's a prerelease kerne
 
 For good measure, you can even throw the latest iwlwifi firmware (not packaged yet in Debian) in the mix (found on [GitHub](https://github.com/OpenELEC/iwlwifi-firmware/tree/master/firmware)):  
 
-```text
-# wget https://github.com/OpenELEC/iwlwifi-firmware/raw/master/firmware/iwlwifi-7265D-21.ucode -O /lib/firmware/iwlwifi-7265D-21.ucode
+```shell
+# wget https://github.com/OpenELEC/iwlwifi-firmware/raw/master/firmware/iwlwifi-7265D-21.ucode -O /lib/firmware/iwlwifi-7265D-21.ucode
 ```
 
 Next, reboot, and things should look a lot better already. Right now everything will work, except..

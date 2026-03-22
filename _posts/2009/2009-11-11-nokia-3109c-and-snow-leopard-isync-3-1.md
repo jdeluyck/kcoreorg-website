@@ -15,7 +15,7 @@ Easy fix though: follow the steps in my previous post, and attached to this post
 
 All I actually did was copy this block in the existing MetaClasses.plist:
 
-```
+```xml
 <key>com.nokia.3109</key>
 <dict>
         <key>Identification</key>

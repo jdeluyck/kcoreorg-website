@@ -5,6 +5,7 @@ categories: [Hobbies & Interests, Music]
 tags:
   - leonard cohen
 ---
+
 Well my friends are gone and my hair is grey  
 I ache in the places where I used to play  
 And I'm crazy for love but I'm not coming on  

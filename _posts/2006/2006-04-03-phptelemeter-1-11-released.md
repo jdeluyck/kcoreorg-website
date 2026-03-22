@@ -5,6 +5,7 @@ categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---
+
 I've just released phptelemeter 1.11. This release includes the following changes:
 
-  * Fixed telemeter_web parser for telemeter changes
+* Fixed telemeter_web parser for telemeter changes

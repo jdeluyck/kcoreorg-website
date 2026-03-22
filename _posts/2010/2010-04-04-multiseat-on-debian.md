@@ -53,7 +53,7 @@ After everything is installed, you need to modify your xorg.conf file.
 
 #### ServerFlags
 
-```
+```text
 Section "ServerFlags"
         Option      "DefaultServerLayout" "seat0"
         Option      "AllowMouseOpenFail"  "true"
@@ -65,7 +65,7 @@ The AutoAddDevices line is important, otherwise we can't map the devices to the 
 
 #### The actual graphic chips/cards:
 
-```
+```text
 Section "Device"
         Identifier  "ATI RadeonHD 4850"
         Driver      "ati"
@@ -94,7 +94,7 @@ So you can see that the HD3200 is on address 1:5 and the HD4580 is on address 2:
 
 #### The monitors (nothing fancy)
 
-```
+```text
 Section "Monitor"
         Identifier   "Viewsonic Vx2025wm"
         Option      "DPMS"
@@ -108,7 +108,7 @@ EndSection
 
 #### Screen section (mapping monitors and cards)
 
-```
+```text
 Section "Screen"
         Identifier        "Screen0"
         Device            "ATI RadeonHD 4850"
@@ -124,7 +124,7 @@ EndSection
 
 #### Next, the ServerLayout sections, one per seat:
 
-```
+```text
 Section "ServerLayout"
         Identifier     "seat0"
         Screen      0  "Screen0" 0 0
@@ -142,7 +142,7 @@ EndSection
 
 #### Next, the input devices:
 
-```
+```text
 Section "InputDevice"
     Identifier     "Keyboard0"
     Driver         "evdev"

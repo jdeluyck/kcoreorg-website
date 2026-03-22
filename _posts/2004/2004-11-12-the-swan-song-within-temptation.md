@@ -5,6 +5,7 @@ categories: [Hobbies & Interests, Music]
 tags:
   - within temptation
 ---
+
 Winter has come for me, can't carry on.  
 The chains to my life are strong but soon they'll be gone.  
 I'll spread my wings one more time.

@@ -15,7 +15,7 @@ Note: I no longer have this device.
 **DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that's \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
 
 ### PCI Specs
-```
+```text
 00:00.0 Host bridge: Intel Corporation Mobile 945GM/PM/GMS, 943/940GML and 945GT Express Memory Controller Hub (rev 03)
 00:02.0 VGA compatible controller: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller (rev 03)
 00:02.1 Display controller: Intel Corporation Mobile 945GM/GMS/GME, 943/940GML Express Integrated Graphics Controller (rev 03)
@@ -82,7 +82,7 @@ a decent framebuffer console. Load the `i915` module, and you're set.
 Hardware: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller
 
 To make it working just set your video driver to `intel`:
-```
+```text
 Section "Device"
 			Identifier	"Generic Video Card"
 			Driver		"intel"
@@ -173,7 +173,7 @@ This is an AppleTouch touchpad. You can use it with [this driver](http://w1.894.
 
 Add the following to the `/etc/X11/xorg.conf` file:
 
-```
+```text
 Section "InputDevice"
         Identifier      "AppleTouch"
         Driver          "synaptics"

@@ -16,7 +16,7 @@ To get it working, you'll first need to verify that your suspend to ram and susp
 
 The solution is relatively easy, thanks to the internet ;) I got most of the info here, on the ArchLinux [forums](https://bbs.archlinux.org/viewtopic.php?pid=1420279#p1420279) / [wiki](https://wiki.archlinux.org/index.php/Power_management). create the following systemd unit file (in `/etc/systemd/system`), called `suspend-to-hibernate.service`. After some testing I ended up with this file:
 
-```text
+```ini
 [Unit]
 Description=Delayed hibernation trigger
 Documentation=https://bbs.archlinux.org/viewtopic.php?pid=1420279#p1420279

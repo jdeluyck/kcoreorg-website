@@ -6,6 +6,7 @@ tags:
   - art
   - megatokyo
 ---
+
 One of my favourite web comics, [MegaTokyo](http://www.megatokyo.com/), published a really very beautiful DPD (Dead Piro Day, a 'filler' image that's used when there's no real episode) of Miho, one of the characters of the Story.
 
 [![DPD][dpd]][link]

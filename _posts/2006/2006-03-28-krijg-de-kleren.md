@@ -5,6 +5,7 @@ categories: [Hobbies & Interests, Music]
 tags:
   - jasperina de jong
 ---
+
 Thanks to my [mum](http://foefel.kcore.org/blog) I discovered and can appreciate [Jasperina De Jong](http://www.jasperina.net) (a dutch cabaretier, who no longer performs unfortunately) a lot.
 
 One of the very good ones from her musical [De Engel Van Amsterdam](http://www.boudewijndegroot.nl/bdgtea.htm) (The Angel from Amsterdam) is this song, Krijg De Kleren.

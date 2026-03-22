@@ -5,6 +5,7 @@ categories: [Hobbies & Interests, Music]
 tags:
   - within temptation
 ---
+
 In a world so far away  
 At the end of a closing day  
 A little child was born and raised  
