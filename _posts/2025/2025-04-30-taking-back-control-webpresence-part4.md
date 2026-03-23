@@ -13,10 +13,7 @@ tags:
   - b2
   - tebi.io
   - tebi
----
-
-*Ground control to Mastodon... Ground control to Mastodon...*
-
+description: Ground control to Mastodon... Ground control to Mastodon...
 ---
 
 *This is the fourth installment of a series of posts about taking back control of my web presence. [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) is about hosting, [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) talks about DNS and in [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox.*

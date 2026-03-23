@@ -11,11 +11,7 @@ tags:
   - codeberg
   - git
   - source
----
-
-<!-- markdownlint-disable-next-line -->
-*Code, and where to store it*
-
+description: Code, and where to store it
 ---
 
 *This is the sixth installment of a series of posts about taking back control of my web presence. [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) is about hosting, [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) talks about DNS, in [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox, in [Part 4](/2025/04/30/taking-back-control-webpresence-part4/) I move Mastodon around while in [Part 5](/2025/05/15/taking-back-control-webpresence-part5/) I Tunnel All The Things with Pangolin.*

@@ -7,11 +7,7 @@ tags:
   - ovh.fr
   - dns
   - dnscontrol
----
-
-<!-- markdownlint-disable-next-line -->
-*It's always a DNS problem, even when it isn't.*
-
+description: It's always a DNS problem, even when it isn't.
 ---
 
 <!-- markdownlint-disable-next-line -->

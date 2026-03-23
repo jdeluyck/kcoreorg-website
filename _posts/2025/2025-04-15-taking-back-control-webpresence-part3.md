@@ -13,11 +13,7 @@ tags:
   - proxmox virtual environment
   - caddy
   - sshpiper
----
-
-<!-- markdownlint-disable-next-line -->
-*Where I (re?)discovered Proxmox for LXC hosting on a VPS*
-
+description: Where I (re?)discovered Proxmox for LXC hosting on a VPS
 ---
 
 *This is the third installment of a series of posts about taking back control of my web presence. [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) is about hosting, [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) talks about DNS.*
