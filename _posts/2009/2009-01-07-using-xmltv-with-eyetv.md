@@ -10,6 +10,7 @@ tags:
   - tvtv
   - xmltv
 ---
+
 I bought an [Elgato EyeTV Hybrid](http://www.elgato.com/elgato/na/mainmenu/products/hybrid/product1.en.html) a [while back](https://kcore.org/2008/09/19/mac-mini-pvr/), and I was using the [tvtv.co.uk](http://www.tvtv.co.uk) service to get my [EPG](http://en.wikipedia.org/wiki/Electronic_program_guide) (Electronic Program Guide) data.
 
 This, however, and unfortunately, stopped updating for Belgian channels on the 1st of january. Shitty, since I use that data to have EyeTV automatically record stuff for me. I've contacted tvtv, no reaction sofar.

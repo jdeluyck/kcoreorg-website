@@ -6,6 +6,7 @@ tags:
   - art
   - megatokyo
 ---
+
 Another very beautiful "Dead Piro Day" comic, from [Megatokyo](http://www.Megatokyo.com).
 
 [![Er lässt sich nicht lesen](/assets/img/posts/2008/02/1133_G-sm.png)](http://www.megatokyo.com/strip/1133)

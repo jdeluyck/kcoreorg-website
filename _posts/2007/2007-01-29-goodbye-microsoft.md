@@ -6,6 +6,7 @@ tags:
   - debian
   - microsoft
 ---
+
 Now we have a very simple way for the Windows-people to turn to linux: A windows installer to install [Debian](http://www.debian.org) ;)
 
 [http://goodbye-microsoft.com/](http://goodbye-microsoft.com/)

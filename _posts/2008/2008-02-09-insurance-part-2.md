@@ -9,6 +9,7 @@ tags:
   - insurance
   - plates
 ---
+
 I do hate insurance companies.
 
 Seems now the offer they made me was wrong, since I've driven leasing cars all my life, and so they can't note me down as being a takeover of a contract. Hence, you end up in a more expensive scale. Oh well, It's signed, the offer is still the best one I got.

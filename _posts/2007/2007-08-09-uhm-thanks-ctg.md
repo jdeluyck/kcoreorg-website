@@ -5,6 +5,7 @@ categories: [Life & Musings, Personal]
 tags:
   - work
 ---
+
 I know some companies are thankful when an employee chooses to work for them (like I did - choosing to go work for CTG)... but it's a first that the employer actually sends flowers to your home address with a thank you note :P
 
 ![Flowers as they were delivered](/assets/img/posts/2007/08/IMG_3562-sm.jpg "Flowers as they were delivered")

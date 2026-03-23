@@ -11,6 +11,7 @@ tags:
   - sco
   - wifi
 ---
+
 In case you don't hate [SCO](http://www.sco.com/) yet (or don't know them), they're a company that [sued IBM because they had allegedly put SCO code into the Linux kernel](http://en.wikipedia.org/wiki/SCO_v._IBM_Linux_lawsuit). The whole thing still has to be proven, point, counterpoint, yadda yadda yadda. Basically they want to make everyone pay a license to them if you use linux. Old news.
 
 Newer news: [SCO wants to ban open WiFi networks](http://www.computerworld.com/blogs/node/5400), because it would allow people to download... wait for it... omg... _porn!_

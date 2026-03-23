@@ -8,6 +8,7 @@ tags:
   - mac os x
   - pvr
 ---
+
 I recently acquired a [Mac Mini](http://www.apple.com/macmini/), which I'm going to use as a [PVR](http://en.wikipedia.org/wiki/PVR).
 
 Together with an [Elgato](http://www.elgato.com/) [EyeTV Hybrid](http://www.elgato.com/elgato/na/mainmenu/products/hybrid.en.html) it works perfectly, attached to my good old analogue 21" Sony TV .

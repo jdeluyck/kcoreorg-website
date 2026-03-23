@@ -7,6 +7,7 @@ tags:
   - lts
   - ubuntu
 ---
+
 [Ubuntu](http://www.ubuntu.com/) has these versions of it's distribution they label LTS: [Long Term Support](https://wiki.ubuntu.com/LTS). Now seems that if you use an LTS, and want to go to the next LTS... you'll have the pleasure of either breaking your system, or reinstalling from scratch.
 
 [Majorly big bug](https://blueprints.launchpad.net/ubuntu/+spec/lts-upgrades)?

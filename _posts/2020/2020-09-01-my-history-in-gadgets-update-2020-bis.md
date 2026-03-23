@@ -8,9 +8,10 @@ tags:
   - samsung galaxy tab s6
   - samsung galaxy tab s7+
 ---
-An second update on the [My history in gadgets](/2012/01/04/my-history-in-gadgets), 
+
+An second update on the [My history in gadgets](/2012/01/04/my-history-in-gadgets),
 the [2014](/2014/05/12/my-history-in-gadgets-update-2014/),
- [2015](/2015/06/02/my-history-in-gadgets-update-2015), 
+ [2015](/2015/06/02/my-history-in-gadgets-update-2015),
  [2016](/2016/07/15/my-history-in-gadgets-update-2016/),
  [2019](/2019/06/26/my-history-in-gadgets-update-2019/),
 [2019 bis](/2019/12/31/my-history-in-gadgets-update-2019-bis/) and
@@ -21,5 +22,5 @@ _**Tablet history:**_
 My partner took over my Samsung Galaxy Tab S6, and I upgraded to the
 
 **[Samsung Galaxy Tab S7+](https://www.gsmarena.com/samsung_galaxy_tab_s7+-10336.php)  
-![](/assets/img/posts/2020/09/galaxy-tab-s7plus.png)**   
+![Samsung Galaxy Tab S7+](/assets/img/posts/2020/09/galaxy-tab-s7plus.png)**
 specifically for the bigger screen. I'm fairly active in music (choirs), so a bigger screen is a bonus.

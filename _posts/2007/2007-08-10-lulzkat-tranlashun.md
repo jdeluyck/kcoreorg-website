@@ -6,4 +6,5 @@ tags:
   - lolcat
   - translate
 ---
+
 Wanna learn Lolcatian? Then try the [lolcat translator](http://speaklolcat.com/)!

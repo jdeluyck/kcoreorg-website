@@ -6,6 +6,7 @@ tags:
   - nokia e65
   - firmware update
 ---
+
 I've just updated [my list of applications I use](/2007/07/27/software-for-the-nokia-e65/) on my Nokia E65. Go take a peek!
 
 ;)

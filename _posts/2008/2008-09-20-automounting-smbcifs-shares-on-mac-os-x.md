@@ -8,12 +8,13 @@ tags:
   - hints
   - mac os x
 ---
-For my PVR/HTMAC project, I wanted to auto-mount several shares from my NAS. After some searching I ran across [this hint](http://www.macosxhints.com/article.php?story=20071028194033157) on the [Mac OS X Hints]() website, which works perfectly:
+
+For my PVR/HTMAC project, I wanted to auto-mount several shares from my NAS. After some searching I ran across [this hint](http://www.macosxhints.com/article.php?story=20071028194033157) on the [Mac OS X Hints](http://www.macosxhints.com/) website, which works perfectly:
 
 Basically, you add the shares you want to mount to the /etc/fstab file, with this syntax:
 
 > excalibur:/music x url net,automounted,url==cifs://guest:@excalibur/music 0 0  
 > excalibur:/photos x url net,automounted,url==cifs://guest:@excalibur/photos 0 0  
-> excalibur:/videos x url net,automounted,url==cifs://guest:@excalibur/videos 0 0 
+> excalibur:/videos x url net,automounted,url==cifs://guest:@excalibur/videos 0 0
 
 That way, those shares will allways be mounted under /Network/Servers, and always available, starting boot-time. Works like a charm ;)

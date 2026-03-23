@@ -12,6 +12,7 @@ tags:
   - government
   - smog alert
 ---
+
 Today the government of Flanders imposed another "Smog alert", atleast until tomorrow evening.
 
 ![Smog!](/assets/img/posts/2008/02/large_220795.jpg "Smog!")
@@ -24,8 +25,8 @@ Also, completely accidental, the amount of speed-checks increases tenfold, and t
 
 I do agree that we need to do something about this problem - but not the short half-assed "solution" our government imposes (drive slower for 2 days) which only serves to increase their revenue through speeding tickets - but a real structural solution. Like:
 
-  * higher taxes on the polluting cars
-  * promoting the ecologically sound cars
-  * making public transport usable for more people
+* higher taxes on the polluting cars
+* promoting the ecologically sound cars
+* making public transport usable for more people
 
 I'm sure there are a lot more options, but these would be a start...

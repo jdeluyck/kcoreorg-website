@@ -8,6 +8,7 @@ tags:
   - lockscreen
   - pin
 ---
+
 You've just reconfigured the security lockscreen settings on your (rooted) android phone, and then forgotten eg. the PIN code to unlock it? It happened to me yesterday.
 
 Luckely(?) there's an easy way around it, if you have adb activated:

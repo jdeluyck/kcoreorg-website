@@ -8,6 +8,7 @@ tags:
   - magnet
   - tags
 ---
+
 ![I Can Haz?](/assets/img/posts/2008/02/IMG_4186-sm.jpg "I Can Haz?")
 
 Since [I can haz cheezburger?](http://icanhascheezburger.com/) is part of my daily dose of humour, and they sold [fun lolspeak magnets](http://icanhascheezburger.com/2008/06/02/lolspeak-magnets-r-heer/), I decided to purchase a pack.

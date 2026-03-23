@@ -7,6 +7,7 @@ tags:
   - leopard
   - mac os x
 ---
+
 Apple has confirmed the 26th as the releasedate for Leopard!
 
 [![Mac OS X - Arriving 26th!][img]][url]

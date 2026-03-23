@@ -89,7 +89,7 @@ I'm using the following configuration with `step-ca`, which is installed under `
 }
 ```
 
-This can probably be improved, but it Works For Me<sup>TM</sup>.
+This can probably be improved, but it Works For Me™️.
 
 ## Traefik
 
@@ -148,34 +148,35 @@ entryPoints:
 ```
 
 ### Environment
+
 Certain things you still need to configure using the environment variables.
 
-| Environment variable | Value | Notes |
-| --- | --- | --- |
+| Environment variable | Value                           | Notes                                                      |
+| -------------------- | ------------------------------- | ---------------------------------------------------------- |
 | LEGO_CA_CERTIFICATES | /etc/traefik/ca_certificate.pem | Certificate needed to validate the connection to `step-ca` |
-| TZ | Europe/Brussels | Your timezone for logs in the right timezone |
+| TZ                   | Europe/Brussels                 | Your timezone for logs in the right timezone               |
 
 ### Dashboard
 
-I wanted a functioning [Traefik Dashboard](https://doc.traefik.io/traefik/operations/dashboard/), but also hosted securely. This means configuring the necessary routes in Traefik to route this correctly. 
+I wanted a functioning [Traefik Dashboard](https://doc.traefik.io/traefik/operations/dashboard/), but also hosted securely. This means configuring the necessary routes in Traefik to route this correctly.
 
 Traefik works it magic using [container labels](https://doc.traefik.io/traefik/routing/providers/docker/), so we need to add some labels on the Traefik container itself:
 
-| Label | Value | Notes |
-| --- | --- | --- |
-| traefik.http.routers.dashboard.rule | "Host('traefik.myhome.lan') && (PathPrefix('/api') \|\| PathPrefix('/dashboard'))" | Router Rule for Dashboard and API | 
-| traefik.http.routers.dashboard.service| "api@internal" | Route the dashboard to the internal service |
-| traefik.http.routers.dashboard.middlewares| "auth" | Enable [BasicAuth authentication](https://doc.traefik.io/traefik/middlewares/http/basicauth/) |
-| traefik.http.middlewares.auth.basicauth.users | "MyUser:passwordHash" | User:password string, generated with `htpasswd` |
+| Label                                         | Value                                                                              | Notes                                                                                         |
+| --------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| traefik.http.routers.dashboard.rule           | "Host('traefik.myhome.lan') && (PathPrefix('/api') \|\| PathPrefix('/dashboard'))" | Router Rule for Dashboard and API                                                             |
+| traefik.http.routers.dashboard.service        | "api@internal"                                                                     | Route the dashboard to the internal service                                                   |
+| traefik.http.routers.dashboard.middlewares    | "auth"                                                                             | Enable [BasicAuth authentication](https://doc.traefik.io/traefik/middlewares/http/basicauth/) |
+| traefik.http.middlewares.auth.basicauth.users | "MyUser:passwordHash"                                                              | User:password string, generated with `htpasswd`                                               |
 
 ### Container configuration
 
 Since I don't want Traefik to pick up all containers by default, I added the `exposedByDefault: false` setting. To enable Traefik-ing a container, you'll need to add a label to them:
 
-| Label | Value | Notes |
-| --- | --- | --- |
-| traefik.enable | true | Tell Traefik to handle this container |
-| traefik.http.routers.mycontainer.rule | "Host('mycontainer.myhome.lan')" | The container hostname | 
-| traefik.http.services.mycontainer.loadbalancer.server.port | 80 | The port the container itself listens on |
+| Label                                                      | Value                            | Notes                                    |
+| ---------------------------------------------------------- | -------------------------------- | ---------------------------------------- |
+| traefik.enable                                             | true                             | Tell Traefik to handle this container    |
+| traefik.http.routers.mycontainer.rule                      | "Host('mycontainer.myhome.lan')" | The container hostname                   |
+| traefik.http.services.mycontainer.loadbalancer.server.port | 80                               | The port the container itself listens on |
 
 That should be all that is necessary to get Traefik to route `mycontainer.myhome.lan` to your container :)

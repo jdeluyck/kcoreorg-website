@@ -3,6 +3,7 @@ title: Blog action day!
 date: 2007-10-15T19:52:06+02:00
 categories: [Life & Musings, Personal]
 ---
+
 Today is [Blog Action Day](http://blogactionday.org), to bring awareness about the environment and the problems that we (human beans_^W_beings) are causing.
 
 I support it, but since I generally suck at writing things 'on demand', I'll just spread the word:

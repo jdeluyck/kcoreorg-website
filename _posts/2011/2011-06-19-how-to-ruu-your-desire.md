@@ -10,6 +10,7 @@ tags:
   - stock
   - unroot
 ---
+
 I've always been a fan of the 3rd party roms that are available for the different Android based phones.  
 Unfortunately, it seems mine has developed a bit of a quirk: sometimes, when unplugging the USB cable, it will reboot. Or it no longer detects it as 'external storage' when putting it in USB-drive mode.
 
@@ -19,7 +20,7 @@ Unfortunately the RUU utility for my Desire didn't want to cooperate - it didn't
 
 Fortunately, I found an alternative way to RUU it. It does require a windows pc, but here's the procedure:
 
-First, download the correct RUU from [Shipped-Roms.com](http://shipped-roms.com/index.php?category=android). In my case, I downloaded the `RUU_Bravo_Froyo_HTC_WWE_2.29.405.5_Radio_32.49.00.32U_5.11.05.27_release_159811_signed.exe` file. 
+First, download the correct RUU from [Shipped-Roms.com](http://shipped-roms.com/index.php?category=android). In my case, I downloaded the `RUU_Bravo_Froyo_HTC_WWE_2.29.405.5_Radio_32.49.00.32U_5.11.05.27_release_159811_signed.exe` file.
 
 Next, download [Procmon](http://technet.microsoft.com/en-us/sysinternals/bb896645), from the Microsoft Technet Site. We'll use this to find out where the RUU extracts it's files.
 
@@ -28,7 +29,7 @@ Look back in procmon, and you should have some lines there linking to rom.zip. R
 
 Now, copy this file on your phone's SD card (in the root), and rename it to PB99IMG.ZIP.
 
-Now it's time to power off your phone. Press and hold the Volume-Down button and power it back on. After a few seconds you should be dumped in the HBOOT, and it will scan your SD card for zipfiles, and when it finds the PB99IMG.ZIP, it'll start loading it. 
+Now it's time to power off your phone. Press and hold the Volume-Down button and power it back on. After a few seconds you should be dumped in the HBOOT, and it will scan your SD card for zipfiles, and when it finds the PB99IMG.ZIP, it'll start loading it.
 
 You'll then get:
 

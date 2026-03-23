@@ -7,14 +7,15 @@ tags:
   - lunarpages
   - ovh
 ---
-I've moved hosting, from [Lunar Pages](http://www.lunarpages.com/) to [OVH](http://www.ovh.co.uk). Lunar Pages is a good hosting, but their [overselling](http://en.wikipedia.org/wiki/Overselling#Web_Hosting) and price hikes in the last few years made me look for something else. 
 
-Other reasons: 
+I've moved hosting, from [Lunar Pages](http://www.lunarpages.com/) to [OVH](http://www.ovh.co.uk). Lunar Pages is a good hosting, but their [overselling](http://en.wikipedia.org/wiki/Overselling#Web_Hosting) and price hikes in the last few years made me look for something else.
 
-  * speed: transfers are a LOT faster (especially in peak hours)
-  * SSH access ;)
-  * Full DNS zone access
-  * Cheaper prices for domain names
-  * ...
+Other reasons:
+
+* speed: transfers are a LOT faster (especially in peak hours)
+* SSH access ;)
+* Full DNS zone access
+* Cheaper prices for domain names
+* ...
 
 If you encounter any oddities, feel free to let me know...

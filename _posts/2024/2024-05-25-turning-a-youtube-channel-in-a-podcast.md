@@ -16,8 +16,9 @@ Luckely they have a podcast version, which is available from wherever you get yo
 Some days they also do an [Overtime](https://www.youtube.com/@HackerVideo/streams) section which is only broadcast on YouTube. I only listen to podcasts in the car, and at that point I don't want to deal with the horrible YouTube app, the ads, ... I just want those parts as a podcast.
 
 Luckely, the solution is fairly simple:
+
 * [yt-dlp](https://github.com/yt-dlp/yt-dlp) to download it
-* [GenRSS](https://github.com/amsehili/genRSS) to turn it into an RSS feed 
+* [GenRSS](https://github.com/amsehili/genRSS) to turn it into an RSS feed
 * [nginx](https://nginx.org) to serve it as a web page (so my podcast app can download it)
 * and a tiny bit of scripting.
 
@@ -45,6 +46,7 @@ genRSS --metadata --sort-creation --host http://${HOSTNAME}/~${USER} --dirname $
 ```
 
 Notes:
+
 * This has been scheduled with cron to run every week, a few hours after the show has aired.
 * To avoid re-downloading all the livestreams every time this script runs I use the `--download-archive` feature, which keeps track of what has and has not been downloaded.
 * To limit the amount of diskspace in use, I delete the files after 90 days.

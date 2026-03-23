@@ -25,9 +25,9 @@ quite as hard as you'd think it is.
 tutorials out there.
 So instead of inventing the wheel yet again, you can just go look at
 [this one](http://forum.xda-developers.com/nexus-4/general/guide-cm11-how-to-build-cyanogenmod-11-t2515305), or
-[here](http://wiki.cyanogenmod.org/w/Development) or
-[here](http://www.usoftphone.com/t115104.html).
+[on the cyanogen wiki](http://wiki.cyanogenmod.org/w/Development) or
+[on the usoftphone site](http://www.usoftphone.com/t115104.html).
 Or you can just go and [Google it](http://lmgtfy.com/?q=building+cm+from+source) ;)
 
 You can find the thread for [my unofficial builds](http://forum.xda-developers.com/showthread.php?t=2467013) on [XDA Developers](http://www.xda-developers.com/).  
-The [git](https://en.wikipedia.org/wiki/Git_%28software%29) repository with all my sources can be found [here](http://github.com/jdeluyck/), on GitHub.
+The [git](https://en.wikipedia.org/wiki/Git_%28software%29) repository with all my sources can be found [on github](http://github.com/jdeluyck/).

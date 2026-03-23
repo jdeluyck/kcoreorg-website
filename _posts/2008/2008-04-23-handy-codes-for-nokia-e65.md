@@ -11,13 +11,14 @@ tags:
   - reset
   - wlan
 ---
+
 Mostly because I keep forgetting...
 
 Type in the following codes to find out:
 
-  * WLAN MAC address: *#62209526#
-  * Bluetooth MAC address: *#2820#
-  * Software version and release number of the device: *#0000#
-  * EMEI: *#06#
+* WLAN MAC address: *#62209526#
+* Bluetooth MAC address: *#2820#
+* Software version and release number of the device: *#0000#
+* EMEI: *#06#
 
 To do a hard reset (full erase + reset to factory settings); type *#7370# (look in your manual for the default access code)

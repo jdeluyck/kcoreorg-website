@@ -8,6 +8,7 @@ tags:
   - linux
   - macbook
 ---
+
 I was bored recently, and decided to install Linux on my Macbook. I opted for the distribution I like best - [Debian](http://www.debian.org) ([unstable/Sid](http://www.debian.org/releases/unstable/)).
 
 After some twiddling it all works rather well, I'm amazed how well ;) Even suspend to ram works flawlessly! (that was a different case a year ago, when I last had linux on a laptop). The only things I still have to get working is the framebuffer console (so I get something better than 80x25), and the infrared. Nothing very high on the agenda, though :)

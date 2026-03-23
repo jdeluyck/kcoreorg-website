@@ -9,6 +9,7 @@ tags:
   - vmware server 2.0
   - vsock
 ---
+
 I just finished updating my machine to the latest Linux kernel, [2.6.28](http://marc.info/?l=linux-kernel&m=123016280131543&w=2). All worked, except for [VMWare Server](http://www.vmware.com/products/server/) (which was still at 1.0.8). Since 2.0 has been released, time for an upgrade!
 
 Downloaded, installed, configuration didn't work for the vsock module. Actually, it built, but failed to load due to some missing symbols. After some digging I came across the following patch that modifies the vmware-config.pl script:
@@ -21,7 +22,7 @@ Downloaded, installed, configuration didn't work for the vsock module. Actually,
 @@ -4121,6 +4121,11 @@
      return 'no';
    }
- 
+
 +  if ($name eq 'vsock') {
 +    print wrap("VMWare config patch VSOCK!\n");
 +    system(shell_string($gHelper{'mv'}) . ' -vi ' . shell_string($build_dir . '/../Module.symvers') . ' ' . shell_string($build_dir . '/vsock-only/' ));

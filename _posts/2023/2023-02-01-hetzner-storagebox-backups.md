@@ -18,9 +18,10 @@ I do keep some (too much?) history on my backups - I can go back years - and thi
 
 Another round of investigations led me to the [Hetzner Storage Box](https://www.hetzner.com/storage/storage-box). A storage box reacheable over a lot of protocols - FTP(S), SFTP, SCP, Samba/CIFS, [BorgBackup](https://www.borgbackup.org/) (with which I've dabbled in the past), Restic, Rclone, rsync over SSH, WebDAV, ... Sizes go from 1TB up to 20TB, at a affordable flat-fee. The fee for 5TiB (€155/y) is lower than what I would be paying at E2 ($200/y), while giving me more flexibility (protocol support). I know I could've stayed at the 2TiB plan at E2, and pay the extra on top, but somehow I'm still a littlI've dealt with Hetzner in the past and never been dissapointed.
 
-To minimize backup down-time, I spun up a [CX11 Cloud server](https://www.hetzner.com/cloud), installed rclone on it, and copied the data from iDrive E2 over to the StorageBox. Copying went fairly fast, and after a verification from my home network, I've now switched completely over to using Hetzner. To make it easier for myself, I created two sub-accounts on the storagebox, so that the two backup mechanisms I'm using are properly segregated. 
+To minimize backup down-time, I spun up a [CX11 Cloud server](https://www.hetzner.com/cloud), installed rclone on it, and copied the data from iDrive E2 over to the StorageBox. Copying went fairly fast, and after a verification from my home network, I've now switched completely over to using Hetzner. To make it easier for myself, I created two sub-accounts on the storagebox, so that the two backup mechanisms I'm using are properly segregated.
 
 My rclone config for Hetzner looks like
+
 ```ini
 [hetzner_sub1]
 type = sftp

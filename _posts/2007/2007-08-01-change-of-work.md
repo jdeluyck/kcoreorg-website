@@ -6,8 +6,9 @@ tags:
   - employment
   - work
 ---
+
 I'm changing employers...
 
-![Change of work](http://tickers.TickerFactory.com/ezt/d/4;15;7/st/20071001/e/one+month+of+vacationtime/dt/6/k/0473/blk-event.png) 
+![Change of work](http://tickers.TickerFactory.com/ezt/d/4;15;7/st/20071001/e/one+month+of+vacationtime/dt/6/k/0473/blk-event.png)
 
 And taking a month of vacation in between both ;)

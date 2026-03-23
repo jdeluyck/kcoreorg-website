@@ -5,7 +5,8 @@ categories: [Hobbies & Interests, Music]
 tags:
   - jasperina de jong
 ---
-From the musical "De Engel van Amsterdam". 
+
+From the musical "De Engel van Amsterdam".
 
 It's actually frightfully actual, still, since as much as we think we can make our own decisions, we're usually steered from above without really noticing.
 

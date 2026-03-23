@@ -7,6 +7,7 @@ tags:
   - evil
   - spam
 ---
+
 ... see? Even WordPress thinks so.
 
 [![Spam is evil!](/assets/img/posts/2009/06/spam-is-evil1.png "Spam is evil!")](/assets/img/posts/2009/06/spam-is-evil1.png)

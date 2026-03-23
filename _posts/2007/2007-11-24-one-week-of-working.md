@@ -7,6 +7,7 @@ tags:
   - trains
   - work
 ---
+
 After one week of working again, here's a quick .. urr.. reviewish kind of thingy:
 
 Trains suck. Really. Comon, it can't be THAT hard to get a train to be on time for atleast the majority of time, not the other way around. I've taken the train 10 times this week, of which it was too late 7 times. Not what I'd call a good track record. (track record.. get it? .. nevermind)

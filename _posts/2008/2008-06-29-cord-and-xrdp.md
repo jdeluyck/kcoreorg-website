@@ -10,6 +10,7 @@ tags:
   - rdp
   - xrdp
 ---
+
 I was trying to get [xrdp](http://xrdp.sourceforge.net/) running on my Linux box, so I could takeover the screen from the outside world. The [rdp protocol](http://en.wikipedia.org/wiki/Remote_Desktop_Protocol) is a (huge) bit more performant than [VNC](http://en.wikipedia.org/wiki/Vnc), which is why I wanted to use it.
 
 Today I was trying for the 3rd time to get it to work, using [CoRD](http://cord.sourceforge.net/) as an RDP client, but I never got any image back - the client started, I saw the connection being built up, but I never got any image over. Starting [rdesktop](http://www.rdesktop.org/) locally gave me the output I expected.

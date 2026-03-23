@@ -6,6 +6,7 @@ tags:
   - debian
   - stable
 ---
+
 ![Debian Logo](/assets/img/posts/2007/04/Debian_logo.png)
 
 ... but [Debian](http://www.debian.org) Etch got [released last week](http://www.debian.org/News/2007/20070408). Yay! :)

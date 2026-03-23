@@ -7,6 +7,7 @@ tags:
   - isp
   - telenet
 ---
+
 [![Telenet drukt op de knop][img]][url]
 
 [Telenet](http://www.telenet.be) has launched a big campaign, known as [Telenet drukt op de knop](http://www.telenetdruktopdeknop.be) (Telenet pushes the button) touting that their product line would be dramatically altered. Rumours flew around like a scrapping of the limits they impose, doubling of speeds, ...

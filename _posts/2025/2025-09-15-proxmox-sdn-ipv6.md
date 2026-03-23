@@ -17,8 +17,8 @@ tags:
 In my original deployment of [Proxmox](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) on my VPS I only enabled [IPv4](https://en.wikipedia.org/wiki/IPv4), and I was using [socat](http://www.dest-unreach.org/socat/) to forward traffic from the [IPv6](https://en.wikipedia.org/wiki/IPv6) address of the host to the internal IPv4 addresses of the containers. Not ideal, since this masks the external IP addresses, and also creates some latency and additional CPU load when processing IPv6.
 
 ## Forwarding traffic with socat
-With socat I had a [systemd](https://systemd.io/) service file per port that I wanted to forward traffic between IPv6 and IPv4. For example, to forward HTTPS traffic (TCP/443) to 10.10.0.1, I created `/etc/systemd/system/socat-443.service`:
 
+With socat I had a [systemd](https://systemd.io/) service file per port that I wanted to forward traffic between IPv6 and IPv4. For example, to forward HTTPS traffic (TCP/443) to 10.10.0.1, I created `/etc/systemd/system/socat-443.service`:
 
 ```ini
 [Unit]
@@ -82,7 +82,8 @@ I [asked](https://forum.proxmox.com/threads/vnet-with-ipv6-subnet.170112/) on th
 After the reconfiguration outgoing traffic from LXC over IPv6 to the internet worked out of the box, but I also needed to add some additional [ip6tables](https://linux.die.net/man/8/ip6tables) rules on the Proxmox host to forward incoming traffic to the right container.
 
 I added this to `/etc/network/interfaces`, under the `iface vmbr0 inet6 static` line:
-```
+
+```text
 post-up ip6tables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 80 -j DNAT --to-destination <IPv6-of-LXC>
 post-up ip6tables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 443 -j DNAT --to-destination <IPv6-of-LXC>
 post-up ip6tables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 2222 -j DNAT --to-destination <IPv6-of-LXC>

@@ -6,6 +6,7 @@ tags:
   - cisco
   - ebay
 ---
+
 A while back (basically, in december) I decided to [sell my Cisco Catalyst C2924-XL switch](http://cgi.benl.ebay.be/ws/eBayISAPI.dll?ViewItem&ih=012&sspagename=STRK%3AMESO%3AIT&viewitem=&item=220052958051&rd=1&rd=1) on eBay. Since I've done plenty of auctions before there, no problem! So, the item got sold to someone from the [EasyHost](http://www.snmc.eu) company. Fine by me, I don't really care who buys my stuff, as long as they follow up ;)
 
 Sofar so good. Payment got in swiftly, I shipped out the switch the same week. I didn't hear anything, so I thought everything was okay.

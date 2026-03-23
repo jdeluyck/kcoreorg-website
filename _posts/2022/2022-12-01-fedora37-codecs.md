@@ -16,20 +16,24 @@ Luckely, installing a build that enables those is fairly easy:
 
 1. Enable [RPMFusion](https://rpmfusion.org/Configuration)
 2. Install mesa with the codecs enabled
+
 ```bash
-$ sudo dnf install mesa-va-drivers-freeworld mesa-vdpau-drivers-freeworld
+sudo dnf install mesa-va-drivers-freeworld mesa-vdpau-drivers-freeworld
 ```
+
 or swap it out if it's already installed
+
 ```bash
-$ sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
-$ sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
+sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
+sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 ```
 
 3. Install some additional codecs
-  ```bash
-$ sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
-$ sudo dnf groupupdate sound-and-video
-$ sudo dnf install @multimedia @sound-and-video ffmpeg-libs gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav lame\*
+
+```bash
+sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+sudo dnf groupupdate sound-and-video
+sudo dnf install @multimedia @sound-and-video ffmpeg-libs gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav lame\*
 ```
 
 and you should be good to go.

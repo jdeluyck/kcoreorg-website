@@ -5,6 +5,7 @@ categories: [Hobbies & Interests, Comics]
 tags:
   - code review
 ---
-[![Code review](/assets/img/posts/2010/11/6a00d8341d3df553ef013488a2d48f970c-me.jpg "Code review")](http://geekandpoke.typepad.com/geekandpoke/2010/11/how-to-make-a-good-code-review.html) 
-  
+
+[![Code review](/assets/img/posts/2010/11/6a00d8341d3df553ef013488a2d48f970c-me.jpg "Code review")](http://geekandpoke.typepad.com/geekandpoke/2010/11/how-to-make-a-good-code-review.html)
+
 &copy; [Geek And Poke](http://geekandpoke.typepad.com), ofcourse!

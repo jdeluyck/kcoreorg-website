@@ -6,6 +6,7 @@ tags:
   - macbook
   - repair
 ---
+
 Grmble.
 
 Yesterday I picked up my macbook, which [recently returned from repair](/2007/11/09/my-mac-is-back/), and a screw fell out. wtf?

@@ -8,6 +8,7 @@ tags:
   - linux
   - world of goo
 ---
+
 A good friend of mine introduced me to a new game: [World Of Goo!](http://www.worldofgoo.com)
 
 I've finished the demo, and it's damned addictive ;)

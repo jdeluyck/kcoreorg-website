@@ -6,4 +6,5 @@ tags:
   - newtonmas
   - new year
 ---
-![](/assets/img/posts/2012/12/xmass12-13-sm.png)
+
+![Happy newyear!](/assets/img/posts/2012/12/xmass12-13-sm.png)

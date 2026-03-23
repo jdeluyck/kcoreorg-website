@@ -7,6 +7,7 @@ tags:
   - patch
   - webdav
 ---
+
 At work we regularly have to send over files to $vendor. $Vendor has two ways of accepting files: [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), and [Webdav](http://en.wikipedia.org/wiki/WebDAV) (over [https](http://en.wikipedia.org/wiki/Https)). Since our company's policy is to not send things out unencrypted, we have to go the webdav way. It's also the policy to send things over our internetproxy if possible.
 
 After some searching for a console-based webdav client we ran across [cadaver](http://www.webdav.org/cadaver/), a lightweight client that seemed to do the trick. It has proxy support, so great ;)

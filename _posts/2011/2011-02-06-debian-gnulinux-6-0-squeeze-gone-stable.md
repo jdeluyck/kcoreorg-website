@@ -6,6 +6,7 @@ tags:
   - debian
   - stable
 ---
+
 ![Debian](/assets/img/posts/2011/02/debian_logo.png)
 
 [Debian](http://www.debian.org) Squeeze got [released today](http://www.debian.org/News/2011/20110205a). Yay! :)

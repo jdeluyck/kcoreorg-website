@@ -9,6 +9,7 @@ tags:
   - iphone 3g
   - stone
 ---
+
 ![rock vs iphone](/assets/img/posts/2008/10/stone-vs-iphone.png "rock vs iphone")
 
 So true... ;)

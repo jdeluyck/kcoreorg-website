@@ -6,6 +6,7 @@ tags:
   - cavies
   - guinea pigs
 ---
+
 'ear ye! 'ear ye!
 
 I've just added some more pics of our piggies. As always, they can be found in [our gallery](https://sadevil.org/piwigo/index.php/category/73-our_little_critters).

@@ -9,8 +9,8 @@ tags:
 ---
 
 "Goodbye, my trusty Palm!  
-May you bring joy to your new owner and know many more years of use!" 
-  
+May you bring joy to your new owner and know many more years of use!"
+
 ... and there was much rejoicing ...
 
 (Yeah, I sold my Palm T\|X - Didn't use it anymore since I got the E65...)

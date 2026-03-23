@@ -5,7 +5,6 @@ categories: [Hobbies & Interests, Music]
 tags:
   - fixkes
 ---
-**Fixkes - Lievelingsdier**
 
 Een zebra, daar gad'is over  
 Ne gorilla zal wel willen  

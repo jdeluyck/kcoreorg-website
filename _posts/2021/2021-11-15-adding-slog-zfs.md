@@ -10,6 +10,7 @@ tags:
 ---
 
 I've noticed that quite a few of my VM workloads and NFS workloads are rather slow on my [Proxmox box](/2020/05/07/enter-zfs/), due to the facts that
+
 1. it's sitting on spinning rust (also known as hard disk drives)
 2. a lot of those are synchronous writes
 
@@ -27,9 +28,10 @@ ZFS writes with SLOG:
 
 ![sync write without slog](/assets/img/posts/2021/12/zfs-sync-write-slog.png)
 
-Typically (always?) a SLOG device will be some sort of [flash memory](https://en.wikipedia.org/wiki/Flash_memory), or [Intel Optane](https://en.wikipedia.org/wiki/3D_XPoint). 
+Typically (always?) a SLOG device will be some sort of [flash memory](https://en.wikipedia.org/wiki/Flash_memory), or [Intel Optane](https://en.wikipedia.org/wiki/3D_XPoint).
 
 This SLOG device needs to tick quite a few boxes:
+
 * needs to be FAST. Faster than your other media
 * needs to have a high write endurance. A lot of writes will happen to it. Consumer SSD's will be worn really quick
 * needs to be able to deal with a power outage. If power goes out before it's had a chance to flush it's buffers, you're still hosed. This is usually called Power Loss Protection, or PLP
@@ -41,7 +43,7 @@ As Intel Optane is really out of my budget, I settled on two secondhand Dell
 
 These two SSD's are added to my ZFS pool in a mirror, so that should one of them die, there's still the other one in place, and my writes are safe.
 
-Now, you have those fancy SSD's installed, how do you add a SLOG? 
+Now, you have those fancy SSD's installed, how do you add a SLOG?
 I partitioned my SSD's so that I had an 8GB partition on both, and added them to the pool:
 
 ```sh

@@ -9,10 +9,12 @@ tags:
   - dnscontrol
 ---
 
+<!-- markdownlint-disable-next-line -->
 *It's always a DNS problem, even when it isn't.*
 
 ---
 
+<!-- markdownlint-disable-next-line -->
 *The first part where I ramble about VPS providers and a containers can be found [here](/2025/03/15/taking-back-control-webpresence-part1/).*
 
 I have several domains in use, spread over the [.org](https://en.wikipedia.org/wiki/.org) and [.be](https://en.wikipedia.org/wiki/.be) TLD's. The .org ones are currently registered at [Cloudflare](https://cloudflare.com), the .be ones at a local registrar.
@@ -26,6 +28,7 @@ Time to change that..
 For the .org domains it's fairly straightforward - any domain registrar could do, as long as they're based out of Europe and don't have a ridiculously high fee for the domains. I settled on [OVH](https://www.ovhcloud.com/) - their prices feel reasonable.
 
 Moving the domains from Cloudflare to OVH is easy:
+
 1. Unlock the domain at Cloudflare
 2. Copy the transfer code
 3. Initiate a transfer at OVH, supplying the transfer code when asked
@@ -48,15 +51,16 @@ In case you have more than one domain you want to move there you'll have to cont
 
 ## DNS as Code using dnscontrol
 
-I had not heard of [dnscontrol](https://dnscontrol.org/) until I read this [blog post](https://tobru.ch/authoritative-dns-with-desec-and-dns-control/) by [Tobias Brunner](https://tobru.ch/about/) detailing how he uses it. I really like this "dns-as-code" approach, even though it uses typescript. 
+I had not heard of [dnscontrol](https://dnscontrol.org/) until I read this [blog post](https://tobru.ch/authoritative-dns-with-desec-and-dns-control/) by [Tobias Brunner](https://tobru.ch/about/) detailing how he uses it. I really like this "dns-as-code" approach, even though it uses typescript.
 
 (In a later stage I'm planning to include this into some CI/CD workflow, but I'm not quite there yet.)
 
-I recommend reading the [Getting Started](https://docs.dnscontrol.org/getting-started/) section of their documentation, as it walks you through how to set up all the necessary configuration. 
+I recommend reading the [Getting Started](https://docs.dnscontrol.org/getting-started/) section of their documentation, as it walks you through how to set up all the necessary configuration.
 
 First you'll need to get the credentials set-up in the `creds.json` file. This file contains the necessary API keys to be able to manage the DNS records. You can check [the documentation](https://docs.dnscontrol.org/provider/index) to see how to get the necessary info.
 
 Typically this file will contain something like
+
 ```json
 {
   "bind": {
@@ -79,6 +83,7 @@ Typically this file will contain something like
 ```
 
 You'll also need a `dnsconfig.js` file, which is the main config file of dnscontrol.
+
 ```typescript
 
 // Providers:
@@ -115,6 +120,7 @@ require ("domains/kcore.org.js");
 As you can see this is plain typescript. You can create global variables, functions, ... to use later in the definitions of your specific domains.
 
 For the domain listed above a possible configuration could be
+
 ```typescript
 D("kcore.org", REG_NONE, DnsProvider(DNS_DESEC), DefaultTTL(3600),
 	FASTMAIL_DKIM_RECORDS("kcore.org"),
@@ -124,16 +130,20 @@ D("kcore.org", REG_NONE, DnsProvider(DNS_DESEC), DefaultTTL(3600),
 );
 ```
 
-The initial domain specific configuration you can easily import using 
+The initial domain specific configuration you can easily import using
+
 ```shell
-$ dnscontrol get-zones --format=js bind BIND yourdomain.tld > domain.js
+dnscontrol get-zones --format=js bind BIND yourdomain.tld > domain.js
 ```
 
 Once you have a configuration that looks about right, you can preview it using
+
 ```shell
-$ dnscontrol preview
+dnscontrol preview
 ```
+
 and push it with
+
 ```shell
-$ dnscontrol push
+dnscontrol push
 ```

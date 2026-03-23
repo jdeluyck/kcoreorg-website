@@ -9,4 +9,5 @@ tags:
   - transit
   - networking
 ---
+
 An interesting read on [Ars Technica](http://arstechnica.com/): [How the 'Net works: an introduction to peering and transit](http://arstechnica.com/guides/other/peering-and-transit.ars/).

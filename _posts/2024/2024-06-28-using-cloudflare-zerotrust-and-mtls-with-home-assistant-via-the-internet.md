@@ -11,11 +11,12 @@ tags:
 
 I'm a big fan of [Home Assistant](https://home-assistant.io), and until now I only had it accessible from inside my own network. Outside access was only possible through a [WireGuard](https://www.wireguard.com/) VPN.
 This works, but isn't very practical - definitely when I quickly want to check something, or need to diagnose something while on the road, having to toggle the VPN &amp; hope that the DNS resolution works (which sometimes it doesn't) - the extra hoops make it annoying.
-Add to that that the location features of Home Assistant aren't useful until the location of the device is updated in Home Assistant... 
+Add to that that the location features of Home Assistant aren't useful until the location of the device is updated in Home Assistant...
 
 A thread on a forum I frequent about WAN connectivity to Home Assistant made me wonder if there weren't better ways to get it to work.
 
 One thing I definitely *didn't* want to do was just put it out on the internet, port forwarding from my router. That's just begging to be hacked that way:
+
 * Anyone can "knock on the door" (load the interface).
 * The interface might not be as hardened against attacks.
 * Bugs happen. In everything.
@@ -23,7 +24,7 @@ One thing I definitely *didn't* want to do was just put it out on the internet, 
 
 So I definitely wanted to put a reverse proxy in front of it and preferrably also only make it accessible from my own mobile devices (Android based, I don't own any Apple smartphones/tablets).
 
-One thing that exists is [Home Assistant Cloud](https://www.nabucasa.com/), offered by Nabu Casa - the company behind Home Assistant - through which you also support the Home Assistant project. 
+One thing that exists is [Home Assistant Cloud](https://www.nabucasa.com/), offered by Nabu Casa - the company behind Home Assistant - through which you also support the Home Assistant project.
 
 This does not tick the box of 'only accessible by my devices', so I went looking further.
 
@@ -32,7 +33,9 @@ This does not tick the box of 'only accessible by my devices', so I went looking
 I already use a [Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/) for another project, so I figured this might be a good candidate.
 
 ### Setting up cloudflared on Home Assistant
+
 Luckely there's an [add-on for cloudflared](https://github.com/brenner-tobias/addon-cloudflared) for Home Assistant by Tobias Brenner, which makes it a case of point-and-click to get this up and running:
+
 * Add the repository to Home Assistant.
 * Install the Cloudflared add-on.
 * Set a hostname in the configuration.
@@ -45,6 +48,7 @@ The documentation is on [GitHub](https://github.com/brenner-tobias/addon-cloudfl
 ✨ Magic! 🪄
 
 ### Configuring Home Assistant to accept the proxied traffic
+
 Home Assistant by default will not allow you to connect from (reverse) proxies. To allow this, you'll need to change your `configuration.yaml` file, as per the [documentation](https://github.com/brenner-tobias/addon-cloudflared/blob/main/cloudflared/DOCS.md#home-assistant-configuration).
 
 You'll need to add this and restart Home Assistant:
@@ -55,11 +59,13 @@ http:
   trusted_proxies:
     - 172.30.33.0/24
 ```
+
 (or modify the existing `http:` stanza if present).
 
 At this point Home Assistant will be available through the hostname you configured, but open to the entire internet. Time to change that!
 
 ### Creating an mTLS client certificate
+
 By installing an [mTLS](https://en.wikipedia.org/wiki/Mutual_authentication#mTLS) client certificate on your clients you'll be able to tell Cloudflare "this is a device I own", and Cloudflare can use that information to allow you in.
 
 You can create an mTLS certificate by navigating in the Cloudflare dashboard to your account &rarr; your website &rarr; SSL/TLS &rarr; Client Certificates. There click on "Create Certificate".
@@ -93,22 +99,25 @@ Click "Save" and you're good to go.
 Your browser won't be able to use the PEM certificates you exported earlier, because it requires both the private key and the certificate to be able to add them.
 
 You can easily convert it using `openssl`:
+
 ```shell
-$ openssl pkcs12 -export -out mtls_client_cert.pfx -inkey mtls.key.pem -in mtls.cert.pem
+openssl pkcs12 -export -out mtls_client_cert.pfx -inkey mtls.key.pem -in mtls.cert.pem
 ```
 
-When asked for a password, specify one to your liking  but don't leave it blank (and don't forget it, you'll need it later).
+When asked for a password, specify one to your liking but don't leave it blank (and don't forget it, you'll need it later).
 
 ### Configuring WAF Rules
+
 Right now anyone can connect to your hosted Home Assistant URL, regardless if they have a certificate or not. To remedy this, you need to configure some [Web Application Firewall](https://en.wikipedia.org/wiki/Web_application_firewall) rules.
 
-Head over to your account &rarr; your website &rarr; Security &rarr; WAF.  Next choose "Custom rules".
+Head over to your account &rarr; your website &rarr; Security &rarr; WAF. Next choose "Custom rules".
 
 ![Screenshot of the Cloudflare interface showing there are no custom WAF rules at this time](/assets/img/posts/2024/06/cloudflare_waf_1_initial.png)
 
 Click on "Create rule".
 
 Give the rule a name and under "If incoming requests match..." specify:
+
 * "Client Certificate Verified" equals "yes" (slider set to green)
 * "Hostname" equals "`myfancyhostname.kcore.org`"
 
@@ -119,6 +128,7 @@ Under "Then take action" specify "Skip" on "All remaining custom rules".
 Hit "Deploy", and "Create rule" to create the second rule to block the traffic.
 
 Once again, give it a name and under "If incoming requests match..." specify:
+
 * "Hostname" equals "`myfancyhostname.kcore.org`"
 
 Under "Then take action" specify "Block". Deploy.
@@ -151,7 +161,7 @@ For [Chromium](https://www.chromium.org/) (and I think pretty much all Chromium 
 
 ![Screenshot of the Chromium Certificate manager](/assets/img/posts/2024/06/chromium_certificate_manager.png)
 
-Once you've imported the certificate restart your browser, and if you browse back to the URL, you should be asked for the certificate to use. 
+Once you've imported the certificate restart your browser, and if you browse back to the URL, you should be asked for the certificate to use.
 
 ![Screenshot of the popup of Mozilla Firefox asking for the certificate to identify with](/assets/img/posts/2024/06/mozilla_certificate_popup.png)
 
@@ -163,7 +173,7 @@ Specify it and you'll be right in :)
 
 You'll need to copy the `mtls_client_cert.pfx` file over to your device in some way. I sent a [Signal](https://signal.org/) message to myself :)
 
-It's rather annoying to show any screenshots since most vendors have their own tweaks to the interface. 
+It's rather annoying to show any screenshots since most vendors have their own tweaks to the interface.
 
 In the Android settings search for "User certificates", which should bring you to a screen that contains the option "Install from device storage". Once on this screen, specify "VPN and app user certificate", browse to where you downloaded the file and enter the password.
 

@@ -22,49 +22,57 @@ One caveat: I also wanted to access some of my host filesystems inside LXC, and 
 Binding a local filesystem is easy: shutdown the container, then edit `/etc/pve/lxc/XXX.conf`, with XXX being your container identifier in Proxmox.
 To this file, you add:
 
-```
+```text
 mp0: /local/data,mp=/mount/data
 ```
-This will make the host filesystem under `/local/data` show up as `/mount/data/` on the guest LXC. 
+
+This will make the host filesystem under `/local/data` show up as `/mount/data/` on the guest LXC.
 
 Problem: the data is written by different processes, with users that do not map with LXC. You'll notice that the directory is not accessible - the onmious **Access Denied**!
 
 By default LXC starts with different UID/GID's, starting (on Proxmox) with UID 100000 and GID 100000, to properly segregate the different containers/processes.
-You could open up the files on the host OS, going `chmod -R 777 /local/data` everywhere, but that's a **Really Bad Idea**<sup>TM</sup>.
+You could open up the files on the host OS, going `chmod -R 777 /local/data` everywhere, but that's a **Really Bad Idea**™️.
 
 Luckely LXC comes with support for id mapping! This allows us to tell LXC that it should map specific host UID/GID's into the guest container.
 It took me a bit to wrap my head around how it actually works, though.
 
 ## Telling LXC which ID's need to be mapped
+
 ### Configuring the host to allow mapping
+
 On the host OS, there are two files which play a major role: `/etc/subuid` and `/etc/subgid`. These contain the mappings of the UID's that can be remapped.
 
 By default they contain:
-```
+
+```text
 root:100000:65536
 ```
-which means that the user/group root can map from UID/GID `100000`, and for `65536` consequitive ID's. 
+
+which means that the user/group root can map from UID/GID `100000`, and for `65536` consequitive ID's.
 
 Keeping in mind that LXC is started as `root` on Proxmox, this will mean that inside LXC a process started with UID 0 will be remapped to UID 100000 on the host, UID 1 will be 100001, UID 65536 will be 165536. Same with groups.
 
 Now, if we want to allow a container to map to a UID/GID on the host, we'll have to specifically allow it. Say, you want to actually use UID 1002, and make it match the host UID. In that case, we add this to `/etc/subuid`:
 
-```
+```text
 root:1002:1
 ```
 
 This means that user root can map UID 1002, and it can do that for 1 sequential UID. So *only* 1002.
 
 Now, say that you want to map UID 1002-1005.
-```
+
+```text
 root:1002:4
 ```
+
 Read: root can map from 1002 onwards, and for a max of 4 UID's. This is 1002, 1003, 1004 and 1005.
 
 ### Configuring the container
+
 In `/etc/lxc/pve/XXX.conf`, you need to add a line telling LXC to map the UID/GID. For example, to map UID 1002:
 
-```
+```text
 lxc.idmap: u 0    100000 1002
 lxc.idmap: u 1002 1002   1
 lxc.idmap: u 1003 101003 64533

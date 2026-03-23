@@ -8,6 +8,7 @@ tags:
   - mad dash
   - toyota prius
 ---
+
 ![Licenseplate reads YEZ-](/assets/img/posts/2008/02/plate-sm.jpg)
 
 Yez! We can! :p

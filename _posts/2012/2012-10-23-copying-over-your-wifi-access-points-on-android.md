@@ -7,11 +7,12 @@ tags:
   - wifi
   - wpa_supplicant
 ---
+
 In case you have just bought a new phone, rooted it, and want to copy over all your wifi access points, there are a few options:
 
-  * Use the synchronisation to Google to have them keep a backup. Not my favourite, since it tends to restore just a bit too much (like all the apps you already removed before)
-  * Use a tool like [Titanium Backup](http://www.titaniumtrack.com/titanium-backup.html), but I've noticed that this doesn't always work between phones. On the same one, sure.
-  * Manually copy them over. This is the way I usually go, and it works well.
+* Use the synchronisation to Google to have them keep a backup. Not my favourite, since it tends to restore just a bit too much (like all the apps you already removed before)
+* Use a tool like [Titanium Backup](http://www.titaniumtrack.com/titanium-backup.html), but I've noticed that this doesn't always work between phones. On the same one, sure.
+* Manually copy them over. This is the way I usually go, and it works well.
 
 First, copy the original files over: (do this for both phones)
 
@@ -26,12 +27,12 @@ First, copy the original files over: (do this for both phones)
     cp wpa_supplicant.conf /mnt/sdcard
     ```
 
-3. Pull the file to your computer somewhere:  `adb pull /mnt/sdcard/wpa_supplicant.conf /tmp/wpa_supplicant.old`
+3. Pull the file to your computer somewhere: `adb pull /mnt/sdcard/wpa_supplicant.conf /tmp/wpa_supplicant.old`
 Repeat this for the new phone, but in the last step, you should pull it to `/tmp/wpa_supplicant.new`.
-  
+
 Now, edit the `/tmp/wpa_supplicant.old` file, and remove everything that doesn't read
 
-```
+```text
 network={
         ssid="mynetwork"
         psk="mysupersecretkey"
@@ -45,9 +46,10 @@ network={
 }
 ```
 
-Next, we want to add this to the new file. Easy peasy: `cat /tmp/wpa_supplicant.old >> /tmp/wpa_supplicant.new`. 
+Next, we want to add this to the new file. Easy peasy: `cat /tmp/wpa_supplicant.old >> /tmp/wpa_supplicant.new`.
 
 The last thing to do is put the new file on the new phone, and reset it's permissions:  
+
 ```bash
 adb push /tmp/wpa_supplicant.new /mnt/sdcard/wpa_supplicant.conf
 adb shell

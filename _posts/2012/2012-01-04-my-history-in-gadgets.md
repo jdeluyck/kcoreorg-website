@@ -27,6 +27,7 @@ tags:
   - transformer
   - palm tungsten tx
 ---
+
 As a geek, I've always been quite the gadget freak. The fact that my father was also interested in the newest toys didn't help.
 
 A quick list of my gadgets and phones over the years:

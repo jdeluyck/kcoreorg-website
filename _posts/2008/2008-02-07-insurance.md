@@ -7,6 +7,7 @@ tags:
   - expensive
   - insurance
 ---
+
 Ok,
 
 After passing by some companies with car insurance, I can now say that I has decided! I've asked for the final papers to be made up so I can sign and get the plates.

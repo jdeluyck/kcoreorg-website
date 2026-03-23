@@ -7,10 +7,11 @@ tags:
   - garage holvoet
   - toyota prius
 ---
+
 Wh00t!
 
-I just got called from [Toyota](http://www.toyota.be/) [Garage Holvoet](http://www.toyota.be/holvoet)... Our Prius is in! Two months early! 
+I just got called from [Toyota](http://www.toyota.be/) [Garage Holvoet](http://www.toyota.be/holvoet)... Our Prius is in! Two months early!
 
-Wh00t! 
+Wh00t!
 
 We can haz car!

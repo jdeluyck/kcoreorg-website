@@ -10,7 +10,7 @@ Some additional powertweaks - courtesey of [syrjala on Phoronix](https://www.pho
 
 Add this to eg. `/etc/udev/rules.d/99-custom-powersaving.rules`
 
-```
+```txt
 ACTION=="add|change", SUBSYSTEM=="pci|usb", TEST=="power/control", ATTR{power/control}="auto"
 ACTION=="add|change", SUBSYSTEM=="pci|usb", TEST=="power/wakeup", ATTR{power/wakeup}="disabled"
 ACTION=="add|change", SUBSYSTEM=="usb", TEST=="product", TEST=="power/autosuspend_delay_ms", ATTR{product}=="*[kK]eyboard*", ATTR{power/autosuspend_delay_ms}="30000"

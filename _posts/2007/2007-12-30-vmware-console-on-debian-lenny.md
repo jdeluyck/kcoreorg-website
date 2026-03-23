@@ -7,6 +7,7 @@ tags:
   - linux
   - vmware
 ---
+
 I just installed [VMWare](http://www.vmware.com/) [server](http://www.vmware.com/products/server/) on my gf's linux-laptop, but the server console didn't want to start for some reason... Just came back to the command line, nothing happening.
 
 Running vmware as  

@@ -8,6 +8,7 @@ tags:
   - christmas
   - kamerkoor furiant
 ---
+
 As some of you might (not) know, I've recently joined a choir, called [Furiant](http://www.furiant.be/), which is part of the [Arte Musicale](http://www.artemusicale.be) group. (I already play in a pipe band (the [Flemish Caledonian Pipes & Drums](http://www.fcpd.be)))
 
 On the 26th of december, we're giving a christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.

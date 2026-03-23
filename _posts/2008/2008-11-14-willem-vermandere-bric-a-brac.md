@@ -5,6 +5,7 @@ categories: [Hobbies & Interests, Music]
 tags:
   - willem vermandere
 ---
+
 ‘t is niet den auto, ‘t is de reis  
 niet de tafel, ‘t is de spijs  
 niet den oven, ‘t is de koek  

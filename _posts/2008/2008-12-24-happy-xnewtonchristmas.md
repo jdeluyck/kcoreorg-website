@@ -10,6 +10,7 @@ tags:
   - norad
   - xmas
 ---
+
 It's that time of the year again, where we all are (supposed to be) happy, cheery, exchange gifts, blabla you know, what not :p
 
 Well, at any rate, I hope that you all will have a nice evening tonight, and a joyful new years!

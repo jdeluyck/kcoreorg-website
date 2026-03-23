@@ -11,6 +11,7 @@ tags:
   - stupid belgian government
   - tom boonen
 ---
+
 I can get so goddamn annoyed at our local sport-crazy people...
 
 The latest idiocy: [Tom Boonen](http://en.wikipedia.org/wiki/Tom_Boonen), a professional cyclist, has been caught (outside of a sports event) using [cocaine](http://en.wikipedia.org/wiki/Cocaine). Using this drug is an offence, punishable by law.

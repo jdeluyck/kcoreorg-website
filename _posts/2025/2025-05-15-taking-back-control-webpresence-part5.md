@@ -17,7 +17,7 @@ tags:
 
 *This is the fifth installment of a series of posts about taking back control of my web presence. [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) is about hosting, [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) talks about DNS, in [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox and in [Part 4](/2025/04/30/taking-back-control-webpresence-part4/) I move Mastodon around.*
 
-One of the additional services I use of Cloudflare (besides DNS) is [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/), part of their [Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_architecture) offering. Very practical, but also very much locks you into using their DNS. I use this for a couple of services amonst which is [Home Assistant](https://www.home-assistant.io/)  as detailed on [this blog post](/2024/06/28/using-cloudflare-zerotrust-and-mtls-with-home-assistant-via-the-internet/).
+One of the additional services I use of Cloudflare (besides DNS) is [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/), part of their [Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_architecture) offering. Very practical, but also very much locks you into using their DNS. I use this for a couple of services amonst which is [Home Assistant](https://www.home-assistant.io/) as detailed on [this blog post](/2024/06/28/using-cloudflare-zerotrust-and-mtls-with-home-assistant-via-the-internet/).
 
 ## Pangolin
 
@@ -30,6 +30,7 @@ I came across [Pangolin](https://github.com/fosrl/pangolin) via someone on Masto
 > Pangolin is a self-hosted tunneled reverse proxy server with identity and access control, designed to securely expose private resources on distributed networks. Acting as a central hub, it connects isolated networks — even those behind restrictive firewalls — through encrypted tunnels, enabling easy access to remote services without opening ports.
 
 It offers:
+
 * reverse proxy functionalities through wireguard tunnels
 * site-to-site connectivity via a wireguard client [Newt](https://github.com/fosrl/newt)
 * dentity and access management with SSO,
@@ -72,7 +73,7 @@ I deployed VaulTLS, configured a user and created some certificates, downloaded 
 
 The configuration in caddy needed some adjusting:
 
-```
+```text
 myhost.myfqdn {
   tls {
     client_auth {

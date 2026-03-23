@@ -12,7 +12,7 @@ I've studied [Applied Computer Sciences](https://www.hogent.be/toekomstige-stude
 I'm mostly busy dealing with technology - be it at home, on Linux, Android, cloud, related to some hardware projects, software, or at work.
 
 In 2001, after graduating, I went to work for Tri-enniuM (which no longer exists), as a consultant for Reuters real-time trading environments. 
-I've since moved on, and now work for [KBC](https://www.kbc.com/en), as a systems engineer - where I've been busy with the architecture of our Linux / Unix platforms and providing 3<sup>rd</sup> level support for our in-house customers, and currently working on building our cloud portfolio.
+I've since moved on, and now work for [KBC](https://www.kbc.com/en), as a systems engineer - where I've been busy with the architecture of our Linux / Unix platforms and providing 3ʳᵈ level support for our in-house customers, and currently working on building our cloud portfolio.
 
 In my spare time I'm also a singer (tenor) at [Kamerkoor Furiant](https://artemusicale.be/ensembles/kamerkoor-furiant/) in Ghent and Koor-u-wel (a small pop choir), an aspiring [crossfitter](https://en.wikipedia.org/wiki/CrossFit) at [Crossfit Endgame](https://www.crossfitendgame.be/) (mostly to keep my sanity :P). I'm also learning the piano, which has been long on my todo-list.
 

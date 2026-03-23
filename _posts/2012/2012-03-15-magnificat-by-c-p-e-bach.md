@@ -12,13 +12,14 @@ tags:
   - ghent baroque players
   - magnificat
 ---
+
 The choir [Cantabile](http://www.cantabile.be), together with [Furiant](http://www.furiant.be) and the Ghent Baroque Players are performing:
 
 [Magnificat](http://en.wikipedia.org/wiki/Magnificat)
 
 by Carl Philipp Emanuel Bach
 
-on saturday, 26<sup>th</sup> of May, in the Sint-Pauluskerk in the Smidsestraat in Ghent.
+on saturday, 26ᵗʰ of May, in the Sint-Pauluskerk in the Smidsestraat in Ghent.
 
 ![Magnificat](/assets/img/posts/2012/03/magnificat.jpg "Magnificat")
 

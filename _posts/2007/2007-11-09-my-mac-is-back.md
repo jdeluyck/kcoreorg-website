@@ -9,6 +9,7 @@ tags:
   - macbook
   - repair
 ---
+
 I put it in for repair after hairline cracks started appearing in the front bezel and on the bottom.
 
 Apple replaced the complete shell, so now it stinks new again :p

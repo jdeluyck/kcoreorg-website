@@ -24,15 +24,16 @@ I picked up two [WD Red Plus](https://www.westerndigital.com/en-ie/products/inte
 
 When picking raidz1 I did a *conversion-ish* from the [Synology Hybrid Raid (SHR)](https://kb.synology.com/en-uk/DSM/tutorial/What_is_Synology_Hybrid_RAID_SHR) to ZFS - single disk fault tolerance, net high storage capacity. I also had heard that there would be a thing like [raidz expansion](https://arstechnica.com/gadgets/2021/06/raidz-expansion-code-lands-in-openzfs-master/) in the future, so .. ok.
 
-Fast forward nearly two years: I need to add storage, raidz1 expansion hasn't landed yet, I find the I/O is slow with VM's (adding a [SLOG](/2021/11/15/adding-slog-zfs/) made that better), scrubbing takes forever... not ideal. 
+Fast forward nearly two years: I need to add storage, raidz1 expansion hasn't landed yet, I find the I/O is slow with VM's (adding a [SLOG](/2021/11/15/adding-slog-zfs/) made that better), scrubbing takes forever... not ideal.
 
-So, perhaps, conversion to mirrors would be a way to go forward? But how to do this without losing my data? 
+So, perhaps, conversion to mirrors would be a way to go forward? But how to do this without losing my data?
 
 ZFS makes that really easy with snapshots and [zfs send](https://openzfs.github.io/openzfs-docs/man/8/zfs-send.8.html) - [zfs receive](https://openzfs.github.io/openzfs-docs/man/8/zfs-receive.8.html) :)
 
-Additionally, moving my Proxmox root off of the data disks also seemed like a Good Idea<sup>TM</sup>.
+Additionally, moving my Proxmox root off of the data disks also seemed like a Good Idea™️.
 
 ## Migrating the boot (EFI) partition
+
 Proxmox boots using [EFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) on my system. This means that the EFI firmware in the mainboard will go look for an [EFI system partition](https://en.wikipedia.org/wiki/EFI_system_partition) where the bootloader is stored. In the case of Proxmox [systemd-boot](https://www.freedesktop.org/wiki/Software/systemd/systemd-boot/) is used.
 
 I created a new EFI partition on both SLOG SSD's (512MB), and used the Proxmox [proxmox-boot-tool](https://pve.proxmox.com/wiki/Host_Bootloader#sysboot_proxmox_boot_tool) to format and add them to the list of partitions that it needs to keep in sync. This way, whenever a disk dies, you can still boot of another.
@@ -45,13 +46,14 @@ I created a new EFI partition on both SLOG SSD's (512MB), and used the Proxmox [
 # proxmox-boot-tool init /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_BTTV335209Y0100FGN-part2
 
 ```
+
 Profit!
 
 I actually did the same on the two new 14TB drives, so that any drive contains a copy of my bootloader.
 
 ## Migrating the root filesystem
-The SLOG device I picked has a total capacity of 100GB, of at this point 8GB was being used. I opted to [create another mirrored zpool](https://openzfs.github.io/openzfs-docs/man/8/zpool-create.8.htm) on the SSD's for 30GB called `syspool`.
 
+The SLOG device I picked has a total capacity of 100GB, of at this point 8GB was being used. I opted to [create another mirrored zpool](https://openzfs.github.io/openzfs-docs/man/8/zpool-create.8.htm) on the SSD's for 30GB called `syspool`.
 
 Once the pool was created, it was just a question of creating a [snapshot](https://openzfs.github.io/openzfs-docs/man/8/zfs-snapshot.8.html) and using `zfs send | zfs receive` on the zfs datasets. Ideally also using `--props` so `zfs send` sends along all properties of the zfs datasets, and `-u` so `zfs receive` doesn't automatically mount the new dataset.
 
@@ -62,6 +64,7 @@ Once that's done, the final tasks were mounting the new root dataset, making sur
 I did run into the problem where zfs didn't automatically import my new setup, but that was remediated by updating the cache file, which you can do by running `zpool set cachefile=/etc/zfs/zpool.cache syspool`.
 
 ## Migrating the other data
+
 I created a new zpool called `datapool` on a mirror of the two new 14TB drives, and used the same `zfs send | zfs receive` magic on them to move the data over, slowly emptying the raidz1. I did have to move data from the server to several other machines to be able to fit it all.
 
 If you're lazy (like a good IT'er), you might like [Jim Salter](https://jrs-s.net/)'s [sanoid/syncoid](https://github.com/jimsalterjrs/sanoid) tool. This allows for very easy `zfs send | zfs receive`-ing, local or remote.
@@ -93,18 +96,17 @@ config:
             ata-INTEL_SSDSC2BA100G3R_BTTV3343004X100FGN-part4  ONLINE       0     0     0
 ```
 
-so there are now four mirrors: three for the datapool, and one for the SLOG. 
+so there are now four mirrors: three for the datapool, and one for the SLOG.
 
 After extending the pool, it's a matter of making sure all data lands back on it.
 
 ## Rebalancing the datapool
 
-Doing things like this had the drawback that while all the space was there, the 2x6TB mirrors were empty and 2x14TB mirror was actually full, not giving me all the benefits of being able to spread out the I/O's over the six disks. 
+Doing things like this had the drawback that while all the space was there, the 2x6TB mirrors were empty and 2x14TB mirror was actually full, not giving me all the benefits of being able to spread out the I/O's over the six disks.
 
-The trick to fix this lies once again with snapshots and `zfs send | zfs receive`. Using this will make zfs read the data and write it back to the pool, spreading the datablocks over all the available disks. 
+The trick to fix this lies once again with snapshots and `zfs send | zfs receive`. Using this will make zfs read the data and write it back to the pool, spreading the datablocks over all the available disks.
 
 To rebalance, create the snapshot, and send it to a new location on the datapool (using the same parameters as before). Afterwards *(and after checking your data)* you can destroy the old copy, and use [zfs rename](https://openzfs.github.io/openzfs-docs/man/8/zfs-rename.8.htm) to put the dataset in it's old location.
-
 
 ## Final cleaning up
 

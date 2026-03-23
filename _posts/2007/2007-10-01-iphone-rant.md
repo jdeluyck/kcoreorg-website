@@ -9,15 +9,16 @@ tags:
   - rant
   - simlocked
 ---
+
 Really. What's up with [iPhone](http://www.apple.com/iphone/) owners these days? They buy an overpriced piece of equipment, knowing:
 
-  * it's SIM-locked
-  * it's a closed platform, no 3rd party apps
-  * it's SIM-locked
-  * you can't change the battery yourself
-  * did I say it's SIM-locked?
-  * Apple tells them they might void their warranty when modifying the iPhone
-  * it's still SIM-locked. To AT&T.
+* it's SIM-locked
+* it's a closed platform, no 3rd party apps
+* it's SIM-locked
+* you can't change the battery yourself
+* did I say it's SIM-locked?
+* Apple tells them they might void their warranty when modifying the iPhone
+* it's still SIM-locked. To AT&T.
 
 So, looks like they've been warned. But they don't care, go ahead, and after a while the necessary unlock programs were created (kudos to the [devteams](http://iphone.fiveforty.net/wiki/index.php/Main_Page) who did this, it's a nice feat of engineering), and iPhones where unlocked, new 3rd party applications were created, the works. Nice.
 

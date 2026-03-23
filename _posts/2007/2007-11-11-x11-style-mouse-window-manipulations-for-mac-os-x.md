@@ -7,9 +7,10 @@ tags:
   - mouse
   - x11
 ---
+
 In short, I finally found a way to manipulate windows under Mac OS X like you can in X11:
 
-  * ALT+left mouse button: move window around
-  * ALT+right mouse button: resize window
+* ALT+left mouse button: move window around
+* ALT+right mouse button: resize window
 
 Well, [NuclearMouse](http://developers-club.com/posts/59968/) (a [SIMBL](http://culater.net/software/SIMBL/SIMBL.php) plugin) makes it happen!

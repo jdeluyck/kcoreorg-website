@@ -6,6 +6,7 @@ tags:
   - eu
   - software patents
 ---
+
 [![Stop Software Patents](/assets/img/posts/2009/11/ssp-336-280.png "Stop Software Patents")](http://stopsoftwarepatents.eu/)
 
 Yes, I signed this petition!

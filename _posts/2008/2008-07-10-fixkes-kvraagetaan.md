@@ -5,7 +5,6 @@ categories: [Hobbies & Interests, Music]
 tags:
   - fixkes
 ---
-**Fixkes - kvraagetaan**
 
 Makkik binnen makkik binnen om een lieke te beginnen  
 Over de dinges die kik mij ammaal herinner  
@@ -22,9 +21,9 @@ En al wa ge zegt da waarde zelf
 Me a broek in den helft  
 Het was zo simpel ammaal  
 Zo simpel ammaal  
-Zo simpel as ik vraag het aan 
+Zo simpel as ik vraag het aan
 
-Kvraagetaan 
+Kvraagetaan
 
 Er was nog gene gsm gene vtm  
 En niemand die a hannibal of murdock wilde zen  
@@ -41,9 +40,9 @@ En buurman wa doet u nu
 Veur ons allereerste tetjes  
 Het was zo simpel ammaal  
 Zo simpel ammaal  
-Zo simpel as ik vraag het aan 
+Zo simpel as ik vraag het aan
 
-Kvraagetaan 
+Kvraagetaan
 
 Derde couplet potteke potteke potteke vet  
 De g’ed al honderd was men eerste brevet  

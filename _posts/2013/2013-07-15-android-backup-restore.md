@@ -6,12 +6,13 @@ tags:
   - android
   - backup manager
 ---
+
 You've just gotten your shiny new Android Phone, and you want to migrate to it. There are several options, including [Titanium Backup](http://matrixrewriter.com/android/) to move stuff, but Google also has you covered (party): Android Backup & Restore. You can find this setting on your phone, under "Settings" and "Backup & Restore". This thing backups several things, but far from all:
 
-  * Your installed (Google Play) apps
-  * WiFi accesspoints & passwords ([if this is a good thing](http://arstechnica.com/security/2013/07/does-nsa-know-your-wifi-password-android-backups-may-give-it-to-them/), is another question)
-  * Certain application settings (this is application dependent)
-  * Probably more...
+* Your installed (Google Play) apps
+* WiFi accesspoints & passwords ([if this is a good thing](http://arstechnica.com/security/2013/07/does-nsa-know-your-wifi-password-android-backups-may-give-it-to-them/), is another question)
+* Certain application settings (this is application dependent)
+* Probably more...
 
 This feature is known to be a bit of a battery drainer, so many people leave it off by default. This is ofcourse a [PITA](http://www.urbandictionary.com/define.php?term=PITA) when you want to move - as your phone won't start backing up immediately after you tap the option.
 

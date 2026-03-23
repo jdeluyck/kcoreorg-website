@@ -6,6 +6,7 @@ tags:
   - cavies
   - guinea pigs
 ---
+
 ![Nero - In Memoriam](/assets/img/posts/2010/11/Nero_Memories_1000-me.jpg "Nero - In Memoriam")
 
 Today we had to put Nero to sleep. Unfortunately he caught an infection, for which we treated him, but it was too late. He never really got better, and we couldn't see him suffer any more. We're gonna miss him very much, our little pooter.

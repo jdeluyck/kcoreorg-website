@@ -7,17 +7,18 @@ tags:
   - dommel
   - isp
 ---
+
 An update after my [previous ISP post](/2007/02/21/my-isp/):
 
-  * July 2007 
+* July 2007
       * Increase of data transfer for netconnect to 75gb
-  * October 2007 
+* October 2007
       * Increase in prices :( BOOO! Well, only with a few euro's, but still... :(
-  * November 2007 
+* November 2007
       * Change in newsservice, now allowing more connections and dedicated text-news server ;)
-  * December 2007 
+* December 2007
       * Increase of data transfer for netconnect to 100gb, netconnect + boostpack to 120gb
-  * January 2008 
+* January 2008
       * Increased upload traffic in all accounts to 448kbit
       * Increased data transfer with the boostpack to 150gb
       * Increased download speed (2048kbit) on mediumband with boostpack

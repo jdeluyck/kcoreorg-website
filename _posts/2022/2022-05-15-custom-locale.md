@@ -15,19 +15,19 @@ A while ago I came across [this GitHub gist of Yannick Vanhaeren](https://gist.g
 ## Debian / Ubuntu installation instructions
 
 ```bash
-$ curl -o /tmp/en_BE https://gist.githubusercontent.com/yvh/630368018d7c683aca8da9e2baf7bfb9/raw/48d0bf07c296fabb8d927317e2a1ac0a271c313b/en_BE
-$ sudo cp /tmp/en_BE /usr/share/i18n/locales/en_BE
-$ sudo localedef -i en_BE -c -f UTF-8 en_BE
-$ echo "en_BE.UTF-8 UTF-8" | sudo tee -a /etc/locale.gen
-$ sudo locale-gen
+curl -o /tmp/en_BE https://gist.githubusercontent.com/yvh/630368018d7c683aca8da9e2baf7bfb9/raw/48d0bf07c296fabb8d927317e2a1ac0a271c313b/en_BE
+sudo cp /tmp/en_BE /usr/share/i18n/locales/en_BE
+sudo localedef -i en_BE -c -f UTF-8 en_BE
+echo "en_BE.UTF-8 UTF-8" | sudo tee -a /etc/locale.gen
+sudo locale-gen
 ```
 
 ## Fedora installation instructions
 
 ```bash
-$ curl -o /tmp/en_BE https://gist.githubusercontent.com/yvh/630368018d7c683aca8da9e2baf7bfb9/raw/48d0bf07c296fabb8d927317e2a1ac0a271c313b/en_BE
-$ sudo cp /tmp/en_BE /usr/share/i18n/locales/en_BE
-$ sudo dnf install glibc-locale-source
-$ sudo localedef -i en_BE -c -f UTF-8 en_BE
-$ localectl set-locale en_BE
+curl -o /tmp/en_BE https://gist.githubusercontent.com/yvh/630368018d7c683aca8da9e2baf7bfb9/raw/48d0bf07c296fabb8d927317e2a1ac0a271c313b/en_BE
+sudo cp /tmp/en_BE /usr/share/i18n/locales/en_BE
+sudo dnf install glibc-locale-source
+sudo localedef -i en_BE -c -f UTF-8 en_BE
+localectl set-locale en_BE
 ```

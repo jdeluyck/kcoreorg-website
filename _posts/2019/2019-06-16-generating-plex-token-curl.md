@@ -9,6 +9,7 @@ tags:
   - home assistant
   - authentication token
 ---
+
 I recently started using [Plex](https://www.plex.tv/), and since I'm also using [Home Assistant](https://www.home-assistant.io/), and Home Assistant
 can do stuff with Plex, I wanted to combine the two.
 
@@ -25,6 +26,7 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded; charset=utf-8"
 --data-urlencode "user[login]=<YOURUSERHERE>" \
 https://plex.tv/users/sign_in.json
 ```
+
 replacing the stuff between <> with your actual values.
 
 When you run this command, you'll get some json back, in which you need to look for `"authToken":"osadjfs5928aosdjfosX"`.

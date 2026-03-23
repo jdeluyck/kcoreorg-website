@@ -8,13 +8,15 @@ tags:
   - linux
   - macbook
 ---
+
 This page documents my attempts (and successes!) to get Linux fully working on an Intel-based Apple MacBook, 2007 model.
 
 Note: I no longer have this device.
 
 **DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that's \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
 
-### PCI Specs
+## PCI Specs
+
 ```text
 00:00.0 Host bridge: Intel Corporation Mobile 945GM/PM/GMS, 943/940GML and 945GT Express Memory Controller Hub (rev 03)
 00:02.0 VGA compatible controller: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller (rev 03)
@@ -53,8 +55,8 @@ Hardware: this is the Intel Corporation 82801G (ICH7 Family) USB chip.
 
 USB worked out of the box by loading the following modules:
 
-  * `usb-uhci` (USB 1.x support)
-  * `ehci-hcd` (USB 2 support)
+* `usb-uhci` (USB 1.x support)
+* `ehci-hcd` (USB 2 support)
 
 It is required to install the [udev](http://packages.debian.org/udev) package.
 
@@ -82,6 +84,7 @@ a decent framebuffer console. Load the `i915` module, and you're set.
 Hardware: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller
 
 To make it working just set your video driver to `intel`:
+
 ```text
 Section "Device"
 			Identifier	"Generic Video Card"
@@ -113,7 +116,7 @@ DMA is automagically enabled. I use `hdparm` to set an extra parameter: `hdparm 
 
 Explanation:
 
-  * -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
+* -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
 
 For Debian; check the [hdparm](http://packages.debian.org/hdparm) package.
 
@@ -149,7 +152,7 @@ This laptop has several function keys which allow for the changing of the volume
 
 After installation of [pommed](http://www.technologeek.org/projects/pommed/), these keys work perfectly.
 
-Debian users can install the [pommed](http://packages.debian.org/pommed) and [gpomme(http://packages.debian.org/gpomme) packages.
+Debian users can install the [pommed](http://packages.debian.org/pommed) and [gpomme](http://packages.debian.org/gpomme) packages.
 
 ### (Userspace) Software Suspend
 
@@ -210,13 +213,13 @@ Debian users can install the [xserver-xorg-input-synaptics](http://packages.debi
 
 ## Links
 
-  * Apple: [http://www.apple.com](http://www.apple.com/)
-  * Hotkeys program: [http://www.technologeek.org/projects/pommed/](http://www.technologeek.org/projects/pommed/)
-  * Kernel: [http://www.kernel.org](http://www.kernel.org/)
-  * Linux on mobile computers: [http://www.tuxmobil.org/](http://www.tuxmobil.org/)
-  * Linux-on-laptops: [http://www.linux-on-laptops.com](http://www.linux-on-laptops.com/)
-  * Synaptics Touchpad driver for Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
-  * iSight firmware tools: [http://bersace03.free.fr/ift/](http://bersace03.free.fr/ift/)
-  * Madwifi-project: [http://www.madwifi-project.org](http://www.madwifi-project.org/)
-  * Linux USB Video Class driver for iSight: [http://linux-uvc.berlios.de/](http://www.ideasonboard.org/uvc/)
-  * Userspace VESA framebuffer: [http://dev.gentoo.org/~spock/projects/uvesafb/](http://dev.gentoo.org/~spock/projects/uvesafb/)
+* Apple: [http://www.apple.com](http://www.apple.com/)
+* Hotkeys program: [http://www.technologeek.org/projects/pommed/](http://www.technologeek.org/projects/pommed/)
+* Kernel: [http://www.kernel.org](http://www.kernel.org/)
+* Linux on mobile computers: [http://www.tuxmobil.org/](http://www.tuxmobil.org/)
+* Linux-on-laptops: [http://www.linux-on-laptops.com](http://www.linux-on-laptops.com/)
+* Synaptics Touchpad driver for Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
+* iSight firmware tools: [http://bersace03.free.fr/ift/](http://bersace03.free.fr/ift/)
+* Madwifi-project: [http://www.madwifi-project.org](http://www.madwifi-project.org/)
+* Linux USB Video Class driver for iSight: [http://linux-uvc.berlios.de/](http://www.ideasonboard.org/uvc/)
+* Userspace VESA framebuffer: [http://dev.gentoo.org/~spock/projects/uvesafb/](http://dev.gentoo.org/~spock/projects/uvesafb/)

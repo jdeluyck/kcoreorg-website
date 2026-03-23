@@ -8,6 +8,7 @@ tags:
   - gingerbread
   - phone
 ---
-[![Phone vs gingerbread](/assets/img/posts/2010/11/6a00d8341d3df553ef0148c6ddb6e6970c-me.jpg "Phone vs gingerbread")](http://geekandpoke.typepad.com/geekandpoke/2010/12/the-geekpoke-christmas-tip-of-the-year.html) 
-  
+
+[![Phone vs gingerbread](/assets/img/posts/2010/11/6a00d8341d3df553ef0148c6ddb6e6970c-me.jpg "Phone vs gingerbread")](http://geekandpoke.typepad.com/geekandpoke/2010/12/the-geekpoke-christmas-tip-of-the-year.html)
+
 &copy; [Geek And Poke](http://geekandpoke.typepad.com), ofcourse!

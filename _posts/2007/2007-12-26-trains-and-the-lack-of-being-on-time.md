@@ -9,15 +9,16 @@ tags:
   - trains
   - rants
 ---
-In Belgium, if you want to get somewhere on time - don't take the train. 
+
+In Belgium, if you want to get somewhere on time - don't take the train.
 
 For the third year counting, the trains have been even less on time. According to the NMBS/SNCB, 89.3% of all trains arrives on time (this is 1.5% less then last year). This is a very wrong way of calculating, since this doesn't take into account:
 
-  * delays up to 5 minutes
-  * cancelled trains
-  * missed connections
+* delays up to 5 minutes
+* cancelled trains
+* missed connections
 
-If you take all that into account, only **47% of all the trains in 2007 was on time**! 
+If you take all that into account, only **47% of all the trains in 2007 was on time**!
 
 (source: [vrtnieuws.net](http://www.vrtnieuws.net/cm/vrtnieuws.net/nieuws/binnenland/071226_Stiptheid_Spoor))
 

@@ -23,6 +23,7 @@ In the end it was more work than I had anticipated:
 * Reworking the `feed.xml` file so the output is more like what Minimal Mistakes generates - avoiding RSS readers to mark the old posts as new.
 * Cleaning out the [front matter](https://jekyllrb.com/docs/front-matter/) which contained left-overs from my [wordpress to jekyll migration](/2019/06/26/a-new-home/).
 * Adjusting the markdown heading level so it shows up properly in the table of content.
+* Linted everything using [rumdl](https://rumdl.dev).
 * Probably some other stuff that I forgot about
 
 I'm happy with the end result. If you're reading this via RSS, you shouldn't notice much ;)

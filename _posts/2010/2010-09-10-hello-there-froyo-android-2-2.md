@@ -9,6 +9,7 @@ tags:
   - htc hero
   - xda
 ---
+
 Google released Android 2.2 - codename Froyo (for [Frozen Yoghurt](http://en.wikipedia.org/wiki/Frozen_yogurt)), giving Android users a nice speedboost.
 
 Unfortunately, HTC decided they're not going to release Froyo for the trusty old HTC Hero. And since I have one of those, I'm basically screwed.
@@ -19,5 +20,4 @@ The downside? This is a naked Android ROM, so no [HTC Sense](http://en.wikipedia
 
 ![Android statues at Googleplex](/assets/img/posts/2010/09/thumb_550_froyo-statue.jpeg "Android statues at Googleplex")
 
-  
 I've been running it since and I'm very happy with it!

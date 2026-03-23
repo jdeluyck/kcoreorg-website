@@ -8,9 +8,10 @@ tags:
   - sncb
   - strike
 ---
+
 The Belgian National Railways (known as [NMBS](http://www.nmbs.be)/[SNCB](http://www.sncb.be)) really totally suck. Completely and utterly.
 
-Today, yet another strike in Brussels South station, causing endless delays and cancellations. 
+Today, yet another strike in Brussels South station, causing endless delays and cancellations.
 
 Do you think the managers of the railways notice this? Ofcourse not. They might even get another bonus for ending a strike without having to give anything to the employees. The only ones who suffer are the travellers, who after a long day of work just want to get home.
 

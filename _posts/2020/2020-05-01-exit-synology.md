@@ -11,6 +11,7 @@ tags:
   - raid5
 published: true
 ---
+
 I have/had a [Synology DS916+](https://www.synology.com/en-global/support/download/DS916+#docs) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage).
 This is an Intel based NAS with 4 disk bays, running on Synology's [Disk Station Manager](https://www.synology.com/en-global/dsm) - a nice piece
 of software that offers an easy way to manage the device, and run [additional software](https://www.synology.com/en-global/dsm/packages) on top of it.
@@ -33,11 +34,11 @@ This ran pretty smoothly for about two years and ten months.
 
 Unfortunately, a few weeks back I got woken up by the alert buzzer of the NAS, and a not-so-nice email in my inbox:
 > Volume 1 (NAS) on NAS has crashed
-> 
+>
 > Dear user,
-> 
+>
 > Because volume 1 (NAS) on NAS has crashed, it is possible that more files may be corrupted under this circumstance. Please go to Storage Manager > Volume for more information.
-> 
+>
 > Sincerely,
 > Synology DiskStation
 
@@ -51,13 +52,13 @@ First I thought it might be a drive that had crashed, but nope:
 
 **F U C K.**
 
-Checking the volume itself, half of my stuff was reachable through CIFS/NFS, most of it just hung or errored out. 
+Checking the volume itself, half of my stuff was reachable through CIFS/NFS, most of it just hung or errored out.
 
 **Double F.**
 
 Checking on the NAS itself (through SSH), I got greeted with a plethora of beautiful errors:
 
-```
+```text
 [  167.232649] BTRFS critical (device dm-0): corrupt node, bad key order: block=9652607500288, root=1, slot=0
 [  167.243484] md/raid:md2: syno_raid5_self_heal_retry_read(7178): No suitable device for self healing retry read at sector 17769522016 (leng:8, retry: 2/2, request_cnt:3)
 [  167.260348] md/raid:md2: syno_raid5_self_heal_retry_read(7178): No suitable device for self healing retry read at sector 17769522024 (leng:8, retry: 2/2, request_cnt:3)
@@ -97,20 +98,21 @@ Checking on the NAS itself (through SSH), I got greeted with a plethora of beaut
 [  213.432438]  [<ffffffff814b9dc4>] ? system_call_fastpath+0x22/0x27
 [  213.439384] ---[ end trace a2b1ccbcbf5597c4 ]---
 ```
+
 and a mass of other btrfs errors.
 
-Logging a ticket with Synology was useless: the only thing they told me was to recreate the volume and restore from backups.   
-WTF. Not acceptable. I also asked them for the reason what might have caused this failure. The reply that I got was that probably 
+Logging a ticket with Synology was useless: the only thing they told me was to recreate the volume and restore from backups.
+WTF. Not acceptable. I also asked them for the reason what might have caused this failure. The reply that I got was that probably
 one or more disks failed.
 
-First try to get the volume back was to use the `btrfs check` on the nas itself. This failed because the volume was still 
+First try to get the volume back was to use the `btrfs check` on the nas itself. This failed because the volume was still
 mounted, and I couldn't get it unmounted.  
 Second try was with `btrfs scrub`, but that failed rather quickly too with an I/O error.
 
-After this I removed the disks from the NAS and plugged them in my desktop. To rule out issues with the disks, I 
+After this I removed the disks from the NAS and plugged them in my desktop. To rule out issues with the disks, I
 ran [`badblocks`](https://en.wikipedia.org/wiki/Badblocks) on them -
-nothing came out - all disks are healthy (which they should be - the 
-[MTBF](https://en.wikipedia.org/wiki/Mean_time_between_failures) of 
+nothing came out - all disks are healthy (which they should be - the
+[MTBF](https://en.wikipedia.org/wiki/Mean_time_between_failures) of
 [WD Red](https://shop.westerndigital.com/en-ie/products/internal-drives/wd-red-sata-hdd) drives is a lot higher than
 the lifetime I've had them).
 
@@ -118,7 +120,7 @@ Second try with `btrfs check`, but again, no dice. `btrfs restore` managed to ge
 more than when I mounted the filesystem readonly and copied off the things that I could.
 
 I even checked with the helpful people on the [#btrfs](irc://irc.freenode.net:6667/btrfs) channel on [Freenode](https://freenode.net/), but they also didn't see a way out.
-It doesn't help that Synology uses their own fork of btrfs. 
+It doesn't help that Synology uses their own fork of btrfs.
 It should also be noted that Synology runs btrfs on top of [mdraid](https://www.thomas-krenn.com/en/wiki/Linux_Software_RAID_Information) - something often done to get rid of the
 btrfs [write hole](https://btrfs.wiki.kernel.org/index.php/RAID56) when using RAID 5/6 (for which a patch was issued) - which causes btrfs to have no idea
 about the state of the underlying disks. This might have contributed to the issue - who knows.
@@ -126,7 +128,8 @@ about the state of the underlying disks. This might have contributed to the issu
 Before you ask - the mdadm RAID array was also fine - no corruption there.
 
 After digging more through the logs, I came across this:
-```
+
+```text
 2020-04-19T03:01:47+02:00 cube kernel: [949231.381433] ata1: device unplugged sstatus 0x0
 2020-04-19T03:01:47+02:00 cube kernel: [949231.386516] ata2: device unplugged sstatus 0x0
 2020-04-19T03:01:47+02:00 cube kernel: [949231.391616] ata2.00: exception Emask 0x10 SAct 0x0 SErr 0x4090000 action 0xe frozen
@@ -180,20 +183,21 @@ After digging more through the logs, I came across this:
 ```
 
 All four disks disconnected from the hardware bus at the same time, causing massive btrfs corruption.
-After updating the Synology ticket they accepted that this was a NAS failure, and I've shipped the NAS to them 
+After updating the Synology ticket they accepted that this was a NAS failure, and I've shipped the NAS to them
 for replacement. Luckely it's still (just) in warranty.
 
 While this looks like a hardware failure, I'm left with a bunch of questions:
+
 * What exactly happened to have all disks disconnect from the bus the same time?
-* Why did this happen only after nearly three years? 
+* Why did this happen only after nearly three years?
 * Why did this manage to eat my entire btrfs volume?
 * Is btrfs even production ready? [This battle test](https://www.unixsheikh.com/articles/battle-testing-data-integrity-verification-with-zfs-btrfs-and-mdadm-dm-integrity.html)
-would say 'yes', but .. I'm not sure. 
+would say 'yes', but .. I'm not sure.
 
 Somehow I don't feel very confident with Synology anymore. Definitely not with btrfs on the Synology boxes.
 
 I'll be replacing this setup with a home built NAS running [ZFS on Linux](https://zfsonlinux.org/). I've had excellent
 experiences with ZFS on Solaris, and what I'm reading about ZFS on Linux and FreeBSD only confirms my feelings.  
 
-**Update**: Synology replaced the DS916+ with a [DS918+](https://www.synology.com/en-global/products/DS918+), but I 
+**Update**: Synology replaced the DS916+ with a [DS918+](https://www.synology.com/en-global/products/DS918+), but I
 decided to sell it and go forward with my custom build.

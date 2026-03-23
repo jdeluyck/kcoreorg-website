@@ -6,6 +6,7 @@ tags:
   - debian 7.0
   - stable
 ---
+
 ![Debian](http://www.debian.org/logos/openlogo-nd-100.png)  
 [Debian](http://www.debian.org) Wheezy has been [released today](http://www.debian.org/News/2013/20130504).
 

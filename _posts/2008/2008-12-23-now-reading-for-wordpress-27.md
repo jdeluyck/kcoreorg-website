@@ -6,6 +6,7 @@ tags:
   - now reading
   - wordpress
 ---
+
 After upgrading the blog to [WordPress 2.7](http://wordpress.org/), the [Now Reading](http://robm.me.uk/projects/plugins/wordpress/now-reading) plugin didn't work very well anymore.
 
 The developer is also kinda busy right now, and hasn't updated his plugin yet for 2.7.

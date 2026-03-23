@@ -5,4 +5,5 @@ categories: [Life & Musings, Personal]
 tags:
   - not dead yet
 ---
+
 I'm just extremely busy lately - mostly preparing for moving to a new place.

@@ -9,6 +9,7 @@ tags:
   - belgium
   - signpost
 ---
+
 Go Belgium, with our super-duper hyper-effecient roads:
 
 ![Signpost in Antwerp, Belgium](/assets/img/posts/2008/01/belgium_signs-sm.jpg "Signpost in Antwerp, Belgium")
