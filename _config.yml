@@ -218,7 +218,8 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
-  - "rumdl_cache"
+  - ".rumdl_cache"
+  - ".rumdl.toml"
 
 jekyll-archives:
   enabled: [categories, tags]
