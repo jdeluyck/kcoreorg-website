@@ -39,11 +39,11 @@ Proxmox boots using [EFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmw
 I created a new EFI partition on both SLOG SSD's (512MB), and used the Proxmox [proxmox-boot-tool](https://pve.proxmox.com/wiki/Host_Bootloader#sysboot_proxmox_boot_tool) to format and add them to the list of partitions that it needs to keep in sync. This way, whenever a disk dies, you can still boot of another.
 
 ```bash
-# proxmox-boot-tool format /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_BTTV3343004X100FGN-part2
-# proxmox-boot-tool format /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_BTTV335209Y0100FGN-part2
+proxmox-boot-tool format /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_BTTV3343004X100FGN-part2
+proxmox-boot-tool format /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_BTTV335209Y0100FGN-part2
 
-# proxmox-boot-tool init /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_BTTV3343004X100FGN-part2
-# proxmox-boot-tool init /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_BTTV335209Y0100FGN-part2
+proxmox-boot-tool init /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_BTTV3343004X100FGN-part2
+proxmox-boot-tool init /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_BTTV335209Y0100FGN-part2
 
 ```
 
@@ -74,7 +74,8 @@ Once the old pool was empty, I [destroyed the old zpool](https://openzfs.github.
 I ended up with this topology:
 
 ```sh
-# zpool status datapool
+zpool status datapool
+
   pool: datapool
  state: ONLINE
 config:

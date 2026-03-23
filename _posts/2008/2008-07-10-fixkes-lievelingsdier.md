@@ -1,5 +1,5 @@
 ---
-title: 'Fixkes - Lievelingsdier'
+title: 'Lievelingsdier (Fixkes)'
 date: 2008-07-10T18:03:48+02:00
 categories: [Hobbies & Interests, Music]
 tags:

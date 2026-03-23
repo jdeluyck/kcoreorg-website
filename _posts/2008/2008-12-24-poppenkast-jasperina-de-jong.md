@@ -1,5 +1,5 @@
 ---
-title: 'Poppenkast - Jasperina De Jong'
+title: 'Poppenkast (Jasperina De Jong)'
 date: 2008-12-24T15:58:06+02:00
 categories: [Hobbies & Interests, Music]
 tags:

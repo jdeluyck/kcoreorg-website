@@ -1,5 +1,5 @@
 ---
-title: 'Eels - Need Some Sleep'
+title: 'Need Some Sleep (Eels)'
 date: 2008-06-12T16:52:20+02:00
 categories: [Hobbies & Interests, Music]
 tags:

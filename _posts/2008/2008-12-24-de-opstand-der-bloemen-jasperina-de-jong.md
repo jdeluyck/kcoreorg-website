@@ -1,5 +1,5 @@
 ---
-title: 'De Opstand Der Bloemen - Jasperina De Jong'
+title: 'De Opstand Der Bloemen (Jasperina De Jong)'
 date: 2008-12-24T15:26:52+02:00
 categories: [Hobbies & Interests, Music]
 tags:

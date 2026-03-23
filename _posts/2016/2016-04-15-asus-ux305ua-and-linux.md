@@ -19,14 +19,14 @@ After installing the base system via a [netinstall](https://www.debian.org/devel
 After this, I'd recommend adding a line for unstable _and_ experimental to your apt sources:
 
 ```bash
-# echo "deb http://httpredir.debian.org/debian/ unstable main contrib non-free" > /etc/apt/sources.list.d/unstable.list
-# echo "deb http://httpredir.debian.org/debian/ experimental main contrib non-free" > /etc/apt/sources.list.d/experimental.list
+echo "deb http://httpredir.debian.org/debian/ unstable main contrib non-free" > /etc/apt/sources.list.d/unstable.list
+echo "deb http://httpredir.debian.org/debian/ experimental main contrib non-free" > /etc/apt/sources.list.d/experimental.list
 ```
 
 and then upgrading your system to the latest unstable:  
 
 ```bash
-# apt-get update && apt-get dist-upgrade
+apt-get update && apt-get dist-upgrade
 ```
 
 This will result in you getting a linux-4.5 kernel and a boatload of updated drivers (eg. Xorg)
@@ -38,7 +38,8 @@ This you'll need to do manually (experimental never auto-upgrades, because of th
 First, find out the latest kernel
 
 ```bash
-# apt-cache search linux-image-4 | grep amd64
+apt-cache search linux-image-4 | grep amd64
+
 linux-headers-4.5.0-1-amd64 - Header files for Linux 4.5.0-1-amd64
 linux-image-4.5.0-1-amd64 - Linux 4.5 for 64-bit PCs
 linux-image-4.5.0-1-amd64-dbg - Debugging symbols for Linux 4.5.0-1-amd64
@@ -53,13 +54,13 @@ linux-image-4.4.0-1-grsec-amd64 - Linux 4.4 for 64-bit PCs, Grsecurity protectio
 As you can see above, 4.6.0-rc3 is available, but since it's a prerelease kernel it's not automatically installed. We want it, and with it, a bunch of firmware packages (to make sure we have the latest)  
 
 ```bash
-# apt-get install -t experimental linux-image-4.6.0-rc3-amd64 firmware-linux firmware-iwlwifi firmware-misc-nonfree intel-microcode  
+apt-get install -t experimental linux-image-4.6.0-rc3-amd64 firmware-linux firmware-iwlwifi firmware-misc-nonfree intel-microcode  
 ```
 
 For good measure, you can even throw the latest iwlwifi firmware (not packaged yet in Debian) in the mix (found on [GitHub](https://github.com/OpenELEC/iwlwifi-firmware/tree/master/firmware)):  
 
 ```shell
-# wget https://github.com/OpenELEC/iwlwifi-firmware/raw/master/firmware/iwlwifi-7265D-21.ucode -O /lib/firmware/iwlwifi-7265D-21.ucode
+wget https://github.com/OpenELEC/iwlwifi-firmware/raw/master/firmware/iwlwifi-7265D-21.ucode -O /lib/firmware/iwlwifi-7265D-21.ucode
 ```
 
 Next, reboot, and things should look a lot better already. Right now everything will work, except..

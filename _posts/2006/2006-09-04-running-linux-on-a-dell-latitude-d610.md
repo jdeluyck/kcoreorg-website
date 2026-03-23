@@ -32,7 +32,7 @@ SoundBlaster-Pro and MS DirectSound compatible
 56K ITU V.92 data/fax software modem; Wake-on-Ring ready  
 Integrated Bluetooth
 
-### PCI Specs
+## PCI Specs
 
 ```text
 0000:00:00.0 Host bridge: Intel Corporation Mobile 915GM/PM/GMS/910GML Express Processor to DRAM Controller (rev 03)
@@ -56,6 +56,8 @@ Integrated Bluetooth
 ```
 
 Here's a [detailed pci listing](/assets/files/2006/09/dell-d610-pcilisting.txt).
+
+## Subsystems
 
 ### Linux 2.6.x kernel
 

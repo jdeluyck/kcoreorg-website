@@ -12,6 +12,7 @@ tags:
 I've just added some more pics of our piggies. As always, they can be found in [our gallery](https://sadevil.org/piwigo/index.php/category/73-our_little_critters).
 
 ![Piggy](/assets/img/posts/2007/01/IMG_2993-sm.jpg)
+
 ![Piggy](/assets/img/posts/2007/01/IMG_2992-sm.jpg)
 
 Cute :)

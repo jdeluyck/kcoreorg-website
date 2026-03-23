@@ -36,7 +36,8 @@ udp6   0       0       [your ip address]:29809  :::*                  
 Checking with tcpdump showed that the traffic was returning, but since our tool is only listening on the local ip, and not the UDP broadcast address, it never sees anything.
 
 ```bash
-# tcpdump udp port 29809
+tcpdump udp port 29809
+
 tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on wlp1s0, link-type EN10MB (Ethernet), capture size 262144 bytes
 09:35:48.652235 IP [your ip address].29809 &gt; 255.255.255.255.29808: UDP, length 36
@@ -46,13 +47,13 @@ listening on wlp1s0, link-type EN10MB (Ethernet), capture size 262144 bytes
 It seems the tool binds to the local IP instead of the 'any ip', [0.0.0.0](https://en.wikipedia.org/wiki/0.0.0.0), so you need to locally forward the traffic incoming on the port to your local ip. To do this, execute this command (and/or add it to your local firewall script):
 
 ```bash
-# iptables -t nat -A PREROUTING -p udp -d 255.255.255.255 --dport 29809 -j DNAT --to [your ip address]:29809
+iptables -t nat -A PREROUTING -p udp -d 255.255.255.255 --dport 29809 -j DNAT --to [your ip address]:29809
 ```
 
 And don't forget to enable IP forwarding
 
 ```bash
-# echo 1 > /proc/sys/net/ipv4/ip_forward
+echo 1 > /proc/sys/net/ipv4/ip_forward
 ```
 
 Now you should be able to find and configure the switches in your local network.

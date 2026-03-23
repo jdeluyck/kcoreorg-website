@@ -10,7 +10,7 @@ I've just released phptelemeter 1.36-beta2. This version includes the following 
 
 * Added support to set timezone from the application as opposed to systemwide via php.ini
 * Removed call-time pass-by-reference function calls (deprecated in php 5.3)
-* Corrected 'php version too low' error to actually ask for php >= 5.0.0
+* Corrected 'php version too low' error to actually ask for php &ge; 5.0.0
 * Added subaccount parameter to account section, to select the actual account in case there are multiple under the same login
 * Updated mobilevikings_api parser to new API (2.0)
 * The edpnet_web parser is dropped for now - I haven't been able to figure out sofar how to make it work again against their new AJAX-drive site

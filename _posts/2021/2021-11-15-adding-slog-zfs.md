@@ -47,13 +47,14 @@ Now, you have those fancy SSD's installed, how do you add a SLOG?
 I partitioned my SSD's so that I had an 8GB partition on both, and added them to the pool:
 
 ```sh
-# zpool add datapool log mirror /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_SSD1100FGN-part1 /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_SSD2100FGN-part1 
+zpool add datapool log mirror /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_SSD1100FGN-part1 /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_SSD2100FGN-part1 
 ``` 
 
 This command should return quickly. You can check the status of the SLOG using `zpool status -v`:
 
 ```sh
-# zpool status -v
+zpool status -v
+
   pool: datapool
  state: ONLINE
 config:
@@ -72,7 +73,8 @@ errors: No known data errors
 And you can mirror the usage with `zpool iostat -v 1`
 
 ```sh
-# zpool iostat -v 1
+zpool iostat -v 1
+
                                                          capacity     operations     bandwidth 
 pool                                                   alloc   free   read  write   read  write
 -----------------------------------------------------  -----  -----  -----  -----  -----  -----

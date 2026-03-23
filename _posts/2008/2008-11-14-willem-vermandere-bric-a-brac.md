@@ -1,5 +1,5 @@
 ---
-title: 'Willem Vermandere - Bric A brac'
+title: 'Bric A brac - Willem Vermandere'
 date: 2008-11-14T20:26:19+02:00
 categories: [Hobbies & Interests, Music]
 tags:

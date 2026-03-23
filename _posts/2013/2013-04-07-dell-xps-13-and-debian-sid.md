@@ -170,7 +170,7 @@ I had the issue mostly in [Opera](http://www.opera.com), [IceDove](https://en.wi
 
 In Opera you can just set the default zoom level. I put this at 120%, everything is readable now.  
 For Thunderbird, I can advise installing the [ViewAbout](https://addons.mozilla.org/en-us/thunderbird/addon/viewabout/) extension,
-and then looking in View -> ViewAbout -> about:config for the setting layout.css.devPixelsPerPx, and setting this to "1.2".  
+and then looking in View &rarr; ViewAbout &rarr; about:config for the setting layout.css.devPixelsPerPx, and setting this to "1.2".  
 For XTerm, I added this to .Xresources (in my home directory):
 
 ```text

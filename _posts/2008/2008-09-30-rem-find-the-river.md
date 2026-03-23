@@ -1,5 +1,5 @@
 ---
-title: 'R.E.M. - Find The River'
+title: 'Find The River (R.E.M.)'
 date: 2008-09-30T22:08:58+02:00
 categories: [Hobbies & Interests, Music]
 tags:

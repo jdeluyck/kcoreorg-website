@@ -353,4 +353,4 @@ In case you need this (like for Traefik above), you'll need to ajust the [sysctl
 sudo sysctl net.ipv4.ip_unprivileged_port_start=80
 ```
 
-This will allow unprivileged processes to bind to any port >= 80.
+This will allow unprivileged processes to bind to any port &ge; 80.

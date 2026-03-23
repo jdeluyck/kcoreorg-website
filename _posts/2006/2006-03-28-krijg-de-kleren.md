@@ -1,5 +1,5 @@
 ---
-title: 'Krijg de kleren...'
+title: 'Krijg de kleren (Jasperina De Jong)'
 date: 2006-03-28T17:49:32+02:00
 categories: [Hobbies & Interests, Music]
 tags:

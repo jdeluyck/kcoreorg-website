@@ -1,5 +1,5 @@
 ---
-title: 'Fixkes - kvraagetaan'
+title: 'Kvraagetaan (Fixkes)'
 date: 2008-07-10T18:10:40+02:00
 categories: [Hobbies & Interests, Music]
 tags:
