@@ -56,3 +56,10 @@
 .site-subtitle {
   font-family: "Open Sans" !important;
 }
+
+/* post description */
+header .post-desc {
+  /*  font-size: 1.125rem;
+  line-height: 1.6;*/
+  font-style: italic;
+}
