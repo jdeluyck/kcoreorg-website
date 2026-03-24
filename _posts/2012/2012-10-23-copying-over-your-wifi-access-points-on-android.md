@@ -28,9 +28,9 @@ First, copy the original files over: (do this for both phones)
     ```
 
 3. Pull the file to your computer somewhere: `adb pull /mnt/sdcard/wpa_supplicant.conf /tmp/wpa_supplicant.old`
-Repeat this for the new phone, but in the last step, you should pull it to `/tmp/wpa_supplicant.new`.
+Repeat this for the new phone, but in the last step, you should pull it to `/tmp/wpa_supplicant.new`{: .filepath}.
 
-Now, edit the `/tmp/wpa_supplicant.old` file, and remove everything that doesn't read
+Now, edit the `/tmp/wpa_supplicant.old`{: .filepath} file, and remove everything that doesn't read
 
 ```text
 network={

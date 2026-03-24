@@ -41,9 +41,9 @@ Installing it is really simple: `$ sudo dnf install podman` and you're good to g
 
 Podman uses two storage locations, depending on the mode you're using.
 
-In rootful mode, all containers and container-related storage is in `/var/lib/containers/storage`. In rootless mode, this changes to the users home directory: `/home/<user>/.local/share/containers/storage`.
+In rootful mode, all containers and container-related storage is in `/var/lib/containers/storage`{: .filepath}. In rootless mode, this changes to the users home directory: `/home/<user>/.local/share/containers/storage`{: .filepath}.
 
-I wasn't too keen on having my container storage under the home directory of the user (let's say I use the `podman` user), so I opted to create a new logical volume and mounted it under `/var/lib/containers/user`.
+I wasn't too keen on having my container storage under the home directory of the user (let's say I use the `podman` user), so I opted to create a new logical volume and mounted it under `/var/lib/containers/user`{: .filepath}.
 
 Inside this directory I created a subdirectory per user that would run containers. I also adjusted the rights so that the user would be able to read its containers but not the other stuff.
 
@@ -58,7 +58,7 @@ sudo chown -R podman:podman /var/lib/containers/user/podman
 
 Since this is a linux distribution which has its origins with Red Hat, it has [SeLinux](https://github.com/SELinuxProject) enabled. And since SeLinux gives all kinds of nice additional protections, we want to keep that enabled.
 
-Checking `/etc/selinux/targeted/contexts/files/file_contexts`, I found out which additional selinux contexts I had to add to the newly created directories:
+Checking `/etc/selinux/targeted/contexts/files/file_contexts`{: .filepath}, I found out which additional selinux contexts I had to add to the newly created directories:
 
 ```shell
 sudo semanage fcontext --add --type container_ro_file_t '/var/lib/containers/user/[^/]+/storage/overlay(/.*)?'
@@ -80,7 +80,7 @@ now all files created in those directories should keep the correct file contexts
 
 ### Configuring Podman to use the new location
 
-By default Podman will stick to its known location under `$HOME`. This is configurable using the `storage.conf` file, which podman will look for in `/usr/share/containers/storage.conf` (rootful) or `/home/<user>/.config/containers/storage.conf` (rootless).
+By default Podman will stick to its known location under `$HOME`. This is configurable using the `storage.conf` file, which podman will look for in `/usr/share/containers/storage.conf`{: .filepath} (rootful) or `/home/<user>/.config/containers/storage.conf`{: .filepath} (rootless).
 
 I created the `.config/containers` directory and added the `storage.conf` file there with the following contents:
 
@@ -98,7 +98,7 @@ Quadlet is a tool that allows you to run containers under systemd in a declarati
 
 You then manage containers using the standard `systemctl` commands - `systemctl --user start <container>`, `systemctl --user stop <container>`, ... Logging will likewise be captured using journald, and can be queried using `journalctl --user -u <containername>.service`
 
-Quadlet will look for the files under `/etc/containers/systemd/` or `/usr/share/containers/systemd/` (rootful) or `/home/<user>/.config/containers/systemd/`, `/etc/containers/systemd/users/<UID>` or `/etc/containers/systemd/users/`.
+Quadlet will look for the files under `/etc/containers/systemd/`{: .filepath} or `/usr/share/containers/systemd/`{: .filepath} (rootful) or `/home/<user>/.config/containers/systemd/`{: .filepath}, `/etc/containers/systemd/users/<UID>`{: .filepath} or `/etc/containers/systemd/users/`{: .filepath}.
 
 A typical quadlet for a volume `container-config.volume` might look like this:
 
@@ -146,7 +146,7 @@ In case you're wondering what Quadlet thinks of your files, you can have a sneak
 
 ### Real-world example for Traefik
 
-As I'm running [Traefik](/2023/10/30/switching-to-traefik-stepca/) I created the following files for it and put them under `/home/podman/.config/containers/systemd/traefik` (you can use subdirectories to keep it clean):
+As I'm running [Traefik](/2023/10/30/switching-to-traefik-stepca/) I created the following files for it and put them under `/home/podman/.config/containers/systemd/traefik`{: .filepath} (you can use subdirectories to keep it clean):
 
 `traefik-config.volume`
 
@@ -227,7 +227,7 @@ At a later stage I also found that Traefik was missing more permissions:
 * Listening on port 80/443
 * Connecting to other containers on specific named ports
 
-This showed up in `/var/log/audit/audit.log`:
+This showed up in `/var/log/audit/audit.log`{: .filepath}:
 
 ```text
 type=AVC msg=audit(1701978311.528:183202): avc:  denied  { node_bind } for  pid=759524 comm="traefik" saddr=::1 scontext=system_u:system_r:podman-socket.process:s0:c762,c794 tcontext=system_u:object_r:node_t:s0 tclass=tcp_socket permissive=0
@@ -271,7 +271,7 @@ after which Traefik gets allowed through by SeLinux.
 
 Another fun exercise comes when you want to use an NFS mount with Podman in a rootless way.
 
-Podman cannot mount NFS shares as a normal user, so you will need to add the NFS share to `/etc/fstab`:
+Podman cannot mount NFS shares as a normal user, so you will need to add the NFS share to `/etc/fstab`{: .filepath}:
 
 ```shell
 nfsserver:/nfs-mount    /path/to/nfs-mount  nfs     nofail,x-systemd.automount,x-systemd.requires=network-online.target,x-systemd.mount-timeout=10s
@@ -283,23 +283,23 @@ Then you can add it to the container using a [bind mount](https://docs.podman.io
 Mount=type=bind,src=/path/to/nfs-mount,dst=/nfs-mount
 ```
 
-This makes the directory available in the container under `/nfs-mount`, but.. well, there's a gotcha there.
+This makes the directory available in the container under `/nfs-mount`{: .filepath}, but.. well, there's a gotcha there.
 
 ### User Namespaces
 
 Your container will be running in a [user namespace](https://www.redhat.com/sysadmin/rootless-podman-user-namespace-modes) specific to the container. Those namespaces allow you to specify a user-id (UID) and a group-id (GID) mapping to run containers.
 
-You can find the UIDs and GIDs assigned to your user in `/etc/subuid` and `/etc/subgid`.
+You can find the UIDs and GIDs assigned to your user in `/etc/subuid`{: .filepath} and `/etc/subgid`{: .filepath}.
 
 For instance, for my `podman` user, this was automatically added:
 
-`/etc/subuid`
+`/etc/subuid`{: .filepath}
 
 ```text
 podman:100000:65536
 ```
 
-`/etc/subgid`
+`/etc/subgid`{: .filepath}
 
 ```text
 podman:100000:65536
@@ -312,7 +312,7 @@ For our specific usecase this is causing issues as the files on the NFS mount ar
 
 Luckely, with [recent additions to podman](https://github.com/containers/podman/issues/18333) you can easily add UIDs and GIDs to the namespace of the container (without having to specify the complete mapping) using [`--uidmap`](https://docs.podman.io/en/latest/markdown/podman-run.1.html#uidmap-flags-container-uid-from-uid-amount) and [`--gidmap`](https://docs.podman.io/en/latest/markdown/podman-run.1.html#gidmap-flags-container-uid-from-uid-amount).
 
-First you need to add the specific additional UIDs and GIDs to `/etc/subuid` and `/etc/subgid`, in the format `username:uid/gid:amount`. So if you want to just add UID 1000, that would be `podman:1000:1`.
+First you need to add the specific additional UIDs and GIDs to `/etc/subuid`{: .filepath} and `/etc/subgid`{: .filepath}, in the format `username:uid/gid:amount`. So if you want to just add UID 1000, that would be `podman:1000:1`.
 
 To tell podman that these UIDs and GIDs are now available for use, you'll have to jump through a few steps:
 
@@ -333,7 +333,7 @@ now this UID and GID will be available inside your container.
 
 In case you have some container that requires `docker.sock` (or here `podman.sock`), you can enable it using `systemctl --user enable --now podman.sock`.
 
-The socket file will be available as `/run/user/<UID>/podman/podman.sock`.
+The socket file will be available as `/run/user/<UID>/podman/podman.sock`{: .filepath}.
 
 ### Allowing containers to linger
 

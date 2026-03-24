@@ -64,7 +64,7 @@ A solution for this is to use [podman socket activation](https://github.com/cont
 
 Create the necessary [systemd socket](https://www.freedesktop.org/software/systemd/man/latest/systemd.socket.html) files:
 
-For HTTP: `/etc/systemd/system/http.socket`:
+For HTTP: `/etc/systemd/system/http.socket`{: .filepath}:
 
 ```ini
 [Socket]
@@ -77,7 +77,7 @@ Service=traefik.service
 WantedBy=sockets.target
 ```
 
-For HTTPS: `/etc/systemd/system/https.socket`
+For HTTPS: `/etc/systemd/system/https.socket`{: .filepath}
 
 ```ini
 [Socket]
@@ -92,7 +92,7 @@ WantedBy=sockets.target
 
 You also need to start Traefik through systemd (by using [Quadlets](https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html)):
 
-`/etc/systemd/system/traefik.service`
+`/etc/systemd/system/traefik.service`{: .filepath}
 
 ```ini
 [Unit]
@@ -116,7 +116,7 @@ Next up I was noticing that it took forever to start a container using a quadlet
 
 Searching some more pointed me to a [known issue](https://github.com/containers/podman/issues/24796), where systemd will wait for the `network-online` target to be active, which actually never happens for user sessions due to a dependency issue. I invite you to read the issue (and linked issues), but in the end I solved this by adding an additional systemd service:
 
-`/etc/systemd/system/podman-network-online-dummy.service`
+`/etc/systemd/system/podman-network-online-dummy.service`{: .filepath}
 
 ```ini
 [Unit] 
@@ -227,7 +227,7 @@ and used the following labels on the container:
 
 For phpMyAdmin I bumped into the problem that the `pmadb`, where it will store configuration settings and some caches, didn't exist. I created it using an `initdb` script, which is launched at mariadb container initialisation time.
 
-You can put these scripts in a directory and mount it under `/docker-entrypoint-initdb.d`. More info can be found on the [mariadb dockerhub](https://hub.docker.com/_/mariadb) page, under "Initializing the database contents".
+You can put these scripts in a directory and mount it under `/docker-entrypoint-initdb.d`{: .filepath}. More info can be found on the [mariadb dockerhub](https://hub.docker.com/_/mariadb) page, under "Initializing the database contents".
 
 #### OpenSSH
 

@@ -74,7 +74,7 @@ I'm going to keep an eye on the current Fedora37 kernel, and revert to stable wh
 
 As an added bonus, the kernel 6.3 (in rawhide at the moment of writing) also has support for the [AMD pstate EPP driver](https://lore.kernel.org/lkml/Y8iv56PPKkhEsL02@amd.com/T/), which gives a lot better PowerPerWatt.
 
-To enable this, add `amd_pstate=active` to the `GRUB_CMDLINE_LINUX` line in `/etc/default/grub` so it reads `GRUB_CMDLINE_LINUX="rhgb quiet amd_pstate=active"`. Afterwards, run
+To enable this, add `amd_pstate=active` to the `GRUB_CMDLINE_LINUX` line in `/etc/default/grub`{: .filepath} so it reads `GRUB_CMDLINE_LINUX="rhgb quiet amd_pstate=active"`. Afterwards, run
 
 ```shell
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg

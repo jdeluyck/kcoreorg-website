@@ -157,7 +157,7 @@ this modem is made by [Agere](http://www.agere.com/) (a Lucent subsidiary).
 You can get it to work by using the latest release from [the smartlink driver](http://linmodems.technion.ac.il/packages/smartlink/):  
 Compile the driver (`make`) and install it (`make install`). Next, start the `slmodemd` daemon with the following parameters:  
 `slmodemd -c <COUNTRY>`  
-This will start the daemon and link it to the `/dev/ttySL0` port. Now you can use that for dialout.  
+This will start the daemon and link it to the `/dev/ttySL0`{: .filepath} port. Now you can use that for dialout.  
 For more info, see [this email on linmodems.org](http://linmodems.org/cgi-bin/ezmlm-cgi?1:mss:11960:nhnjjijpeieggabidgof)
 
 Another way to get this to work is by using ALSA and enabling the `Intel i8x0/MX440; SiS 7013; NForce; AMD768/8111 modems` option in the kernel. Then you can just load `slmodemd` with the `--alsa` parameter.
@@ -168,7 +168,7 @@ For Debian, look for the [sl-modem-daemon](http://packages.debian.org/sl-modem-d
 
 Hardware: MATSHITA UJDA740 DVD/CDRW, burns CDR4s at 24x.
 
-You can use `/dev/hdx` (the cdrom device) directly for cd burning.
+You can use `/dev/hdx`{: .filepath} (the cdrom device) directly for cd burning.
 
 ### BlueTooth
 
@@ -265,7 +265,7 @@ Here's what you need to do:
 3. Load the nsc-ircc module with the correct parameters: `modprobe nsc-ircc io=0x2f8 irq=3 dma=1`
 4. Launch irattach on the `irda0` device: `irattach irda0 -s`
 
-Now you should be able to connect e.g. a palmpilot on `/dev/ircomm0`. Atleast, it works for me.
+Now you should be able to connect e.g. a palmpilot on `/dev/ircomm0`{: .filepath}. Atleast, it works for me.
 
 **UPDATE:** Johannes Zellner has informed me that this laptop can indeed do SIR, but you need to limit the baud speed.  
 I haven't tested this myself, email follows:
@@ -304,8 +304,8 @@ These include:
 * Setup (opens a program to change some bios settings)
 * Change power mode
 
-I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [acertm800.def](#) file in `/usr/share/hotplug/` and then starting hotkeys as  
-`hotkeys --no-splash --cdrom-dev=none --osd=off` from your `.xsession` file.
+I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [acertm800.def](#) file in `/usr/share/hotplug/`{: .filepath} and then starting hotkeys as  
+`hotkeys --no-splash --cdrom-dev=none --osd=off` from your `.xsession`{: .filepath} file.
 
 Debian users can install the [hotkeys](http://packages.debian.org/hotkeys) package.
 
@@ -318,7 +318,7 @@ Not yet tried.
 This works pretty well starting kernel `2.6.12`.  
 You can't use the [ATI](http://www.ati.com/) [fglrx](https://support.ati.com/ics/support/default.asp?deptID=894) driver, and you can't use the Radeon framebuffer.
 
-I use the following [suspend](#) script in `/etc/acpi/events`
+I use the following [suspend](#) script in `/etc/acpi/events`{: .filepath}
 (which is triggered when I press my suspend button), and this [suspend2ram](#)
 script to do the actual suspending.
 

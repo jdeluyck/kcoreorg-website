@@ -23,7 +23,7 @@ summarizes how to do this. You also need to setup the right routes to make this 
 I use `192.168.1.192/26` as the range where I run my macvlan containers. `192.168.1.254` is reserved for the macvlan interface.
 My DNS container runs in the non-reserved space, though, on IP address `192.168.1.2`.
 
-For my own references, to add this to `/etc/network/interfaces` use the following syntax, adapting to the right
+For my own references, to add this to `/etc/network/interfaces`{: .filepath} use the following syntax, adapting to the right
 subnet and interface:
 
 ```text

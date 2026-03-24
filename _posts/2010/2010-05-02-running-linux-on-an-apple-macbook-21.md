@@ -174,7 +174,7 @@ You can use the touchpad with gpm, using the `exps2` driver.
 
 This is an AppleTouch touchpad. You can use it with [this driver](http://w1.894.telia.com/~u89404340/touchpad/).
 
-Add the following to the `/etc/X11/xorg.conf` file:
+Add the following to the `/etc/X11/xorg.conf`{: .filepath} file:
 
 ```text
 Section "InputDevice"

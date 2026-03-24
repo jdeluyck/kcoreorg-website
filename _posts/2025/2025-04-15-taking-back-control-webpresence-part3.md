@@ -57,7 +57,7 @@ sudo sqlite3 /var/lib/powerdns/pdns.sqlite3 < /usr/share/doc/pdns-backend-sqlite
 sudo chown -R pdns:pdns /var/lib/powerdns
 ```
 
-Added `/etc/powerdns/pdns.d/custom.conf`
+Added `/etc/powerdns/pdns.d/custom.conf`{: .filepath}
 
 ```ini
 api=yes
@@ -99,7 +99,7 @@ I also added a [recursive DNS server](https://www.cloudflare.com/learning/dns/wh
 sudo apt install pdns-recursor
 ```
 
-Added this to `/etc/powerdns/recursor.d/custom.conf`:
+Added this to `/etc/powerdns/recursor.d/custom.conf`{: .filepath}:
 
 ```ini
 forward-zones=<my-local-zone.local>.=127.0.0.1:5353,10.in-addr.arpa=127.0.0.1:5353
@@ -112,7 +112,7 @@ dnssec=process-no-validate
 
 (the `dnssec=process-no-validate` is because I have - *sofar* - not configured DNSSEC properly on my PowerDNS authoritative server. It's on the todo list)
 
-As per [Setup simple Zone With SNAT and DHCP](https://pve.proxmox.com/wiki/Setup_Simple_Zone_With_SNAT_and_DHCP#Custom_DNS), you'll need to modify `/etc/pve/sdn/subnets.cfg` and add
+As per [Setup simple Zone With SNAT and DHCP](https://pve.proxmox.com/wiki/Setup_Simple_Zone_With_SNAT_and_DHCP#Custom_DNS), you'll need to modify `/etc/pve/sdn/subnets.cfg`{: .filepath} and add
 
 ```text
 dhcp-dns-server <ip address of your PowerDNS LXC>
@@ -128,7 +128,7 @@ I already had [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmo
 
 As I wanted to forward the incoming traffic to a specific LXC, I needed to add some additional [iptables](https://www.netfilter.org/projects/iptables/index.html) rules (Proxmox only has [nftables](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page) as a [tech preview](https://pve.proxmox.com/pve-docs/pve-firewall.8.html#pve_firewall_nft)):
 
-I added this to `/etc/network/interfaces` under `iface vmbr0 inet static`
+I added this to `/etc/network/interfaces`{: .filepath} under `iface vmbr0 inet static`
 
 ```text
 post-up iptables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 80 -j DNAT --to-destination <IPv4-of-LXC>

@@ -59,7 +59,7 @@ Once the pool was created, it was just a question of creating a [snapshot](https
 
 The zfs datasets I decided to copy were `rpool/ROOT` and `rpool/ROOT/pve-1`. Those now live as `syspool/ROOT` and `syspool/ROOT/pve-1`.
 
-Once that's done, the final tasks were mounting the new root dataset, making sure that `/etc/kernel/cmdline` was updated to reflect the new zpool name and rebooting.
+Once that's done, the final tasks were mounting the new root dataset, making sure that `/etc/kernel/cmdline`{: .filepath} was updated to reflect the new zpool name and rebooting.
 
 I did run into the problem where zfs didn't automatically import my new setup, but that was remediated by updating the cache file, which you can do by running `zpool set cachefile=/etc/zfs/zpool.cache syspool`.
 

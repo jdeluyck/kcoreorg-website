@@ -22,7 +22,7 @@ Additionaly, configure the security group so that port 80 and 443 is open for bo
 
 ### Configuring the host firewall
 
-All Oracle Cloud VM's come with an iptables firewall in place. To open op ports you need to modify the firewall rules on the guest. To do this edit `/etc/iptables/rules.v4` and add
+All Oracle Cloud VM's come with an iptables firewall in place. To open op ports you need to modify the firewall rules on the guest. To do this edit `/etc/iptables/rules.v4`{: .filepath} and add
 
 ```shell
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
@@ -35,7 +35,7 @@ before the line
 -A INPUT -j REJECT --reject-with icmp-host-prohibited
 ```
 
-Likewise, edit `/etc/iptables/rules.v6`, which will probably contain no rules, and add
+Likewise, edit `/etc/iptables/rules.v6`{: .filepath}, which will probably contain no rules, and add
 
 ```shell
 -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
@@ -71,7 +71,7 @@ Make sure your webserver (I used the excellent nginx) can actually read the mast
 I configured Mastodon to run under a subdomain of my domain (fedi.kcore.org), but I wanted people to find me (and to toot from) my main domain, kcore.org.
 The instructions on [GitHub](https://github.com/felx/mastodon-documentation/blob/master/Running-Mastodon/Serving_a_different_domain.md) are fairly straightforward:
 
-Modify `/home/mastodon/live/.env.production` and add
+Modify `/home/mastodon/live/.env.production`{: .filepath} and add
 
 ```ini
 LOCAL_DOMAIN="topdomain.org"

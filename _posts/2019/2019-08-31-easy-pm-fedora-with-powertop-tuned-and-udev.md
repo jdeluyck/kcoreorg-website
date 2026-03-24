@@ -101,7 +101,7 @@ no_turbo=1
 
 ( Further tweaks of the profile are left as an exercise to the reader, but there's plenty of info to be found using your favourite search engine.)
 
-Now, to automatically trigger the profile, you can add the necessary rules to udev in the file `/etc/udev/rules.d/10-power.rules`:
+Now, to automatically trigger the profile, you can add the necessary rules to udev in the file `/etc/udev/rules.d/10-power.rules`{: .filepath}:
 
 ```bash
 SUBSYSTEM=="power_supply", ATTR{online}=="0", RUN+="/usr/sbin/tuned-adm profile powersave-laptop"

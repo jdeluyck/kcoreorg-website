@@ -18,9 +18,9 @@ After an afternoon of fiddling around with several things, I came up with the re
 The details (tailored to [Debian](http://www.debian.org) [Sid](http://www.debian.org/releases/unstable/)):
 
 1. Install ifplugd and guessnet: `apt-get install ifplugd guessnet`
-2. Configure the interface you want ifplugd to monitor. For me, this is eth0 (wired ethernet). You can do this by editing `/etc/default/ifplugd` and adding eth0 in the `INTERFACES` field.  
+2. Configure the interface you want ifplugd to monitor. For me, this is eth0 (wired ethernet). You can do this by editing `/etc/default/ifplugd`{: .filepath} and adding eth0 in the `INTERFACES` field.  
 Restart ifplugd (`/etc/init.d/ifplugd restart`)
-3. Edit your `/etc/network/interfaces` file the way you like it. I'm using multiple wireless entries with guessnet:
+3. Edit your `/etc/network/interfaces`{: .filepath} file the way you like it. I'm using multiple wireless entries with guessnet:
 
     ```text
     mapping ath0
@@ -47,7 +47,7 @@ Restart ifplugd (`/etc/init.d/ifplugd restart`)
     ```
 
     For syntax info, see `man guessnet`
-4. Replace the script in `/etc/ifplugd/action.d` with something more usable. The installed script only calls ifup or ifdown depending on what's happening. What we want is to ifdown the interface, and ifup the other.
+4. Replace the script in `/etc/ifplugd/action.d`{: .filepath} with something more usable. The installed script only calls ifup or ifdown depending on what's happening. What we want is to ifdown the interface, and ifup the other.
 Something like this:
 
     ```bash
@@ -105,6 +105,6 @@ Something like this:
     ``` 
 
 Now, every time ifplugd configures up eth0, ath0 is automatically deconfigured, and vice versa.  
-The actual configuration of the interfaces is still in `/etc/network/interfaces`, so you can still handle it by hand if you want to.
+The actual configuration of the interfaces is still in `/etc/network/interfaces`{: .filepath}, so you can still handle it by hand if you want to.
 
 As always, it works fine for me, but [YMMV](http://en.wiktionary.org/wiki/YMMV), and [TIMTOWTDI](http://en.wiktionary.org/wiki/TIMTOWTDI)!

@@ -24,13 +24,13 @@ Most of the info you need can be found in the [tutorial on running a TLS certifi
 
 ### Root / intermediate CA certificates
 
-One important thing to remember (and this bit me) _if you're not starting from scratch_ is to make sure you have a trusted/known root CA certificate, intermediate CA and key installed in the container volume. I dropped an intermediate certificate under `/home/step/certs`.
+One important thing to remember (and this bit me) _if you're not starting from scratch_ is to make sure you have a trusted/known root CA certificate, intermediate CA and key installed in the container volume. I dropped an intermediate certificate under `/home/step/certs`{: .filepath}.
 
 Make sure to correctly configure the `dnsNames` section, as this will determine on which hostnames `step-ca` will answer.
 
 ### Config
 
-I'm using the following configuration with `step-ca`, which is installed under `/home/step/config/ca.json` when I instantiate the container:
+I'm using the following configuration with `step-ca`, which is installed under `/home/step/config/ca.json`{: .filepath} when I instantiate the container:
 
 ```json
 {
@@ -106,7 +106,7 @@ Remember to put your root CA certificate somewhere where Traefik can find it. Wi
 ### Config
 
 As with `step-ca`, you can specify a lot of things on the environment variables. I'm not a huge fan of doing that so I also put the necessary config files.
-I map the `/etc/traefik` directory to a volume where I add my files.
+I map the `/etc/traefik`{: .filepath} directory to a volume where I add my files.
 
 The main one is `traefik.yml`:
 

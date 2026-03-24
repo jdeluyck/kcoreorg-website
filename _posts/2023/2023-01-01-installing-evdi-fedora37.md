@@ -40,7 +40,7 @@ At this point the build will fail because of compatibility issues with the lates
 
 Next, to get the displaylink driver:
 
-* download the official Ubuntu driver from [https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu](https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu) somewhere. `/tmp` for instance.
+* download the official Ubuntu driver from [https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu](https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu) somewhere. `/tmp`{: .filepath} for instance.
 * install it:
 
   **Before executing `displaylink-installer.sh` you should review that it does not do anything nefarious!**

@@ -34,7 +34,7 @@ or in our example:
    ```
 
 4. Configure your linux box for IP forwarding: `sysctl -e net.ipv4.ip_forward=1`
-(and add this to your `/etc/sysctl.conf` file), and configuring your firewall (iptables) for masquerading:  
+(and add this to your `/etc/sysctl.conf`{: .filepath} file), and configuring your firewall (iptables) for masquerading:  
 `iptables -t nat -A POSTROUTING -s 10.0.0.0/255.255.255.0 -o eth0 -j MASQUERADE`
 5. Next, download [NStun.sh](http://www.doeshosting.com/code/NStun.sh), a very handy script that does all the hard work of changing the routes and so on :p
 You'll want to change the script: change the first lines as the script reads, and lower, change the

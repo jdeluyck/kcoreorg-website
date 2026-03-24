@@ -18,7 +18,7 @@ Unfortunately, Linux just complained that it didn't get a proper
 [EDID](https://en.wikipedia.org/wiki/Extended_Display_Identification_Data) out of it, and refused to activate it - might
 also explain why Windows doesn't recognise it as a [PnP](https://en.wikipedia.org/wiki/Plug_and_play) monitor - I guess the chip fried somewhere along the way.
 
-This was found in the `/var/log/messages`:
+This was found in the `/var/log/messages`{: .filepath}:
 
 ```text
 May 16 19:57:29 odin kernel: nouveau 0000:01:00.0: DVI-I-1: EDID is invalid:
@@ -40,12 +40,12 @@ Luckely, it's rather easy to override your screen's EDID in Linux, allowing you 
 
 To activate this (these instructions are for Fedora, but they'll probably apply to any distro):
 
-1. Copy it to `/usr/lib/firmware/edid` (make this directory if needed) - and unpack it
+1. Copy it to `/usr/lib/firmware/edid`{: .filepath} (make this directory if needed) - and unpack it
 2. Modify your initramfs to include this firmware, since we're going to need it early on in the boot.  
-    Fedora uses [dracut](https://dracut.wiki.kernel.org/index.php/Main_Page) - so put this in eg. `/etc/dracut.conf.d/viewsonic_edid.conf`:  
+    Fedora uses [dracut](https://dracut.wiki.kernel.org/index.php/Main_Page) - so put this in eg. `/etc/dracut.conf.d/viewsonic_edid.conf`{: .filepath}:  
     `install_items+=" /usr/lib/firmware/edid/viewsonic_vx2025wm_edid.bin"`
 3. Rebuild your initramfs: `dracut -f`
-4. Assuming you're using [grub](https://www.gnu.org/software/grub/), modify your default kernel boot line in `/etc/default/grub` and append `drm.edid_firmware=DVI-I-1:edid/viewsonic_vx2025wm_edid.bin` on the line that starts with `GRUB_CMDLINE_LINUX`. You can find the connector the display is on in the messages output above.  
+4. Assuming you're using [grub](https://www.gnu.org/software/grub/), modify your default kernel boot line in `/etc/default/grub`{: .filepath} and append `drm.edid_firmware=DVI-I-1:edid/viewsonic_vx2025wm_edid.bin` on the line that starts with `GRUB_CMDLINE_LINUX`. You can find the connector the display is on in the messages output above.  
     In the end, mine reads: `GRUB_CMDLINE_LINUX="rd.lvm.lv=fedora_odin/root rd.lvm.lv=fedora_odin/swap rhgb quiet drm.edid_firmware=DVI-I-1:edid/viewsonic_vx2025wm_edid.bin"`
 5. Regenerate your grub config. For [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) booting systems, use `grub2-mkconfig > /boot/efi/EFI/fedora/grub.cfg`, otherwise use `grub2-mkconfig > /boot/grub2/grub.cfg`.
 6. Reboot

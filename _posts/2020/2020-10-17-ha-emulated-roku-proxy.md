@@ -49,7 +49,7 @@ I do have a Linux [VM](https://en.wikipedia.org/wiki/Virtual_machine) on both ne
 
 ### Proxy config
 
-After activating the integration through the web interface, you'll need to edit `/config/.storage/core.config_entries`,
+After activating the integration through the web interface, you'll need to edit `/config/.storage/core.config_entries`{: .filepath},
 and add an `advertise_ip` entry under `data` with the IP address of your proxy.
 
 ```json

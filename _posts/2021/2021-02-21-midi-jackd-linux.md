@@ -33,7 +33,7 @@ Installing FluidSynth is as easy as `apt install fluidsynth` and adding the line
 OTHER_OPTS='-a jack -m alsa_seq -r 44100'
 ```
 
-to `/etc/defaults/fluidsynth`
+to `/etc/defaults/fluidsynth`{: .filepath}
 
 Why did I pick a sampling rate of 44kHz? Because this is what my headset works with.  
 I've also [removed the auto-start](/2021/01/16/midi-pulseaudio-linux/#installing-fluidsynth) as I want this to only be
@@ -136,7 +136,7 @@ setup to an XML file which can then be used at JACK startup so that it routes th
 
 ## Soundcard selection
 
-Figuring out the soundcard to pass to ```amixer``` and JACK can be done by checking ```/proc/asound/cards```
+Figuring out the soundcard to pass to `amixer` and JACK can be done by checking `/proc/asound/cards`{: .filepath}
 
 ```shell
 $ cat /proc/asound/cards

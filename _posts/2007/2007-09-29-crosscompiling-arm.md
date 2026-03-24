@@ -14,9 +14,9 @@ Here's a simple howto on how to install an [ARM](http://en.wikipedia.org/wiki/AR
 
 1. Install crosscompiler packages from [http://debian.speedblue.org/](http://debian.speedblue.org/)
 2. Create a virtual deb package extraction directory:
-      1. Create the directory `/usr/arm-deb`
-      2. Create the directory `/usr/arm-deb/usr`
-      3. Create the following symlinks in `/usr/arm-deb/usr`:
+      1. Create the directory `/usr/arm-deb`{: .filepath}
+      2. Create the directory `/usr/arm-deb/usr`{: .filepath}
+      3. Create the following symlinks in `/usr/arm-deb/usr`{: .filepath}:
           1. `ln -s /usr/arm/bin /usr/arm-deb/usr/bin`
           2. `ln -s /usr/arm/lib /usr/arm-deb/usr/lib`
           3. `ln -s /usr/arm/include /usr/arm-deb/usr/include`

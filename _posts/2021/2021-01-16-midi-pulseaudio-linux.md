@@ -46,7 +46,7 @@ Installing fluidsynth is as easy as `apt install fluidsynth` and adding the line
 OTHER_OPTS='-a pulseaudio -m alsa_seq -g 10 -r 48000'
 ```
 
-to `/etc/defaults/fluidsynth`
+to `/etc/defaults/fluidsynth`{: .filepath}
 
 This will make fluidsynth use pulseaudio as the audio driver versus it's default of jackd.
 

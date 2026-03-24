@@ -18,7 +18,7 @@ In my original deployment of [Proxmox](https://www.proxmox.com/en/products/proxm
 
 ## Forwarding traffic with socat
 
-With socat I had a [systemd](https://systemd.io/) service file per port that I wanted to forward traffic between IPv6 and IPv4. For example, to forward HTTPS traffic (TCP/443) to 10.10.0.1, I created `/etc/systemd/system/socat-443.service`:
+With socat I had a [systemd](https://systemd.io/) service file per port that I wanted to forward traffic between IPv6 and IPv4. For example, to forward HTTPS traffic (TCP/443) to 10.10.0.1, I created `/etc/systemd/system/socat-443.service`{: .filepath}:
 
 ```ini
 [Unit]
@@ -73,7 +73,7 @@ I configured the range `fdbc:1111:2222::100` to `fdbc:1111:2222::200` as DHCPv6 
 At this point I noticed that when I reconfigured the network interfaces in Proxmox they would get assigned an IPv6 address in the PVE IPAM, the IP address would never be offered to the actual LXC, causing it to hang a while waiting for the IPv6 address.
 Brand new interfaces/LXCs did not have this issue.
 
-After some digging I found out that the IPv6 address was not being added to the `/etc/dnsmasq.d/<zone name>/ethers` file - adding the address and reapplying the SDN (Datacenter &rarr; SDN &rarr; Apply) made things work.
+After some digging I found out that the IPv6 address was not being added to the `/etc/dnsmasq.d/<zone name>/ethers`{: .filepath} file - adding the address and reapplying the SDN (Datacenter &rarr; SDN &rarr; Apply) made things work.
 
 I [asked](https://forum.proxmox.com/threads/vnet-with-ipv6-subnet.170112/) on the [Proxmox forums](https://forum.proxmox.com) where it was confirmed this is a problem. I created [bug 6749](https://bugzilla.proxmox.com/show_bug.cgi?id=6749) about it - hopefully it'll be fixed soon, but the workaround works.
 
@@ -81,7 +81,7 @@ I [asked](https://forum.proxmox.com/threads/vnet-with-ipv6-subnet.170112/) on th
 
 After the reconfiguration outgoing traffic from LXC over IPv6 to the internet worked out of the box, but I also needed to add some additional [ip6tables](https://linux.die.net/man/8/ip6tables) rules on the Proxmox host to forward incoming traffic to the right container.
 
-I added this to `/etc/network/interfaces`, under the `iface vmbr0 inet6 static` line:
+I added this to `/etc/network/interfaces`{: .filepath}, under the `iface vmbr0 inet6 static` line:
 
 ```text
 post-up ip6tables -t nat -A PREROUTING -p tcp -i vmbr0 --dport 80 -j DNAT --to-destination <IPv6-of-LXC>

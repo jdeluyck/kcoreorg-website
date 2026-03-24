@@ -11,7 +11,7 @@ If you're using VMWare on a variable-speed processor (like all most modern cpu's
 
 The fix for that is easy, and specified in [this knowledgebase article](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1591):
 
-Add to `/etc/vmware/config` the following lines:  
+Add to `/etc/vmware/config`{: .filepath} the following lines:  
 
 ```text
 host.cpukHz = 1700000

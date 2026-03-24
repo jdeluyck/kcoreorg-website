@@ -151,9 +151,9 @@ NOTE: You have to compile your kernel **without `CONFIG_4KSTACKS`!** If you use 
 
 Hardware: SONY DVD+-RW DW-Q58A.
 
-To get this device working with the SATA driver, put `libata.atapi_enabled=1` in your kernel parameters, in your boot loader (which usually is `/etc/lilo.conf` or `/boot/grub/menu.lst`.
+To get this device working with the SATA driver, put `libata.atapi_enabled=1` in your kernel parameters, in your boot loader (which usually is `/etc/lilo.conf`{: .filepath} or `/boot/grub/menu.lst`{: .filepath}.
 
-You can use `/dev/scd0` (the cdrom device) directly for cd burning.
+You can use `/dev/scd0`{: .filepath} (the cdrom device) directly for cd burning.
 
 ### BlueTooth
 
@@ -197,7 +197,7 @@ Driver status: native linux driver available at [http://ipw2200.sourceforge.net/
 The native driver works out of the box. Just extract, compile (using `make; make install`) and run `modprobe ipw2200`.  
 For information on how to configure your wlan card, please see the above website.
 
-If you want your nifty wlan led to light, add `led=1` to the modprobe line, or add `options ipw2200 led=1` to a file in `/etc/modprobe.d/`.
+If you want your nifty wlan led to light, add `led=1` to the modprobe line, or add `options ipw2200 led=1` to a file in `/etc/modprobe.d/`{: .filepath}.
 
 For Debian there are the [ipw2200-source](http://packages.debian.org/ipw2200-source) and [ieee80211-source](http://packages.debian.org/ieee80211-source) packages available, which simplifies following up on new releases.
 
@@ -246,8 +246,8 @@ Normally the Mute, Eject CD, Battery and Hibernate buttons don't generate key-up
 
 The last three keys generate scancodes, but no keycodes by default. To fix this, you can map them using `setkeycodes`. You can also use [this init.d script](/assets/files/2006/09/dell-d610-d610init.txt).
 
-I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [delld610.def](/assets/files/2006/09/dell-d610-delld610.def_.txt) file in `/usr/share/hotplug/` and then starting hotkeys as  
-`hotkeys --no-splash --cdrom-dev=/dev/scd0 --osd=off` from your `.xsession` file. I also use [a seperate script](/assets/files/2006/09/dell-d610-kdialog_acpi_batt_status.txt) to get the ACPI Battery status into a kdialog window, this is mapped to the Battery Status key.
+I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [delld610.def](/assets/files/2006/09/dell-d610-delld610.def_.txt) file in `/usr/share/hotplug/`{: .filepath} and then starting hotkeys as  
+`hotkeys --no-splash --cdrom-dev=/dev/scd0 --osd=off` from your `.xsession`{: .filepath} file. I also use [a seperate script](/assets/files/2006/09/dell-d610-kdialog_acpi_batt_status.txt) to get the ACPI Battery status into a kdialog window, this is mapped to the Battery Status key.
 
 Debian users can install the [hotkeys](http://packages.debian.org/hotkeys) package.
 
@@ -267,7 +267,7 @@ On kernels < 2.6.16 you have to apply [this patch](http://tpctl.sourceforge.net/
 
 To get the display back to life, you have to use vbetool (debian package [vbetool](http://packages.debian.org/vbetool)).
 
-I use the following [suspend](/assets/files/2006/09/dell-d610-acpi-events-suspend.txt) script in `/etc/acpi/events`
+I use the following [suspend](/assets/files/2006/09/dell-d610-acpi-events-suspend.txt) script in `/etc/acpi/events`{: .filepath}
 (which is triggered when I press my suspend button), and this [suspend2ram](/assets/files/2006/09/dell-d610-suspend2ram.txt) script to do the actual suspending.
 
 ### Touchpad in XFree86/X.Org
@@ -275,7 +275,7 @@ I use the following [suspend](/assets/files/2006/09/dell-d610-acpi-events-suspen
 This is a ALPS touchpad. You can use it with [this driver](http://w1.894.telia.com/~u89404340/touchpad/).  
 Extract from the `INSTALL` file:
 
-1. Copy the driver-module `synaptics_drv.o` into the XFree-module path eg. `/usr/X11R6/lib/modules/input/`.
+1. Copy the driver-module `synaptics_drv.o` into the XFree-module path eg. `/usr/X11R6/lib/modules/input/`{: .filepath}.
 
 2. Load the driver by changig the XFree configuration file through
 adding the line `Load "synaptics"` in the module section.
@@ -333,7 +333,7 @@ There's a BIOS bug in this laptop which causes the display to stay blank when th
 
 For this to work, you need to activate the `video` ACPI module.
 
-Install this [lidswitch event script](/assets/files/2006/09/dell-d610-lidswitch.txt) in `/etc/acpi/events`, and [lidswitch trigger script](/assets/files/2006/09/dell-d610-lidswitch.sh_.txt) in `/etc/acpi`.
+Install this [lidswitch event script](/assets/files/2006/09/dell-d610-lidswitch.txt) in `/etc/acpi/events`{: .filepath}, and [lidswitch trigger script](/assets/files/2006/09/dell-d610-lidswitch.sh_.txt) in `/etc/acpi`{: .filepath}.
 
 What we basically do is `echo 0x80000001 > /proc/acpi/video/VID/LCD/state`, which reactivates the LCD screen.
 

@@ -55,7 +55,7 @@ $ for pkg in $(sudo -u libretranslate /home/libretranslate/.local/bin/argospm se
 done
 ```
 
-* Add a `systemd` unit file under `/etc/systemd/system/libretranslate.service`:
+* Add a `systemd` unit file under `/etc/systemd/system/libretranslate.service`{: .filepath}:
 
 ```ini
 [Unit]

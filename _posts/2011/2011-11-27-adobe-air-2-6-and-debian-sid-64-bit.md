@@ -16,12 +16,12 @@ _(Sidenote: Adobe has decided to [discontinue AIR for Linux](http://kb2.adobe.co
 
 It didn't really go all that smooth, so here's the process:
 
-First, download the Adobe AIR 2.6 runtime from [http://kb2.adobe.com/cps/853/cpsid_85304.html](http://kb2.adobe.com/cps/853/cpsid_85304.html). Save it somewhere (like `/tmp`).  
+First, download the Adobe AIR 2.6 runtime from [http://kb2.adobe.com/cps/853/cpsid_85304.html](http://kb2.adobe.com/cps/853/cpsid_85304.html). Save it somewhere (like `/tmp`{: .filepath}).  
 Next, open a terminal and make it executable: `chmod +x /tmp/AdobeAIRInstaller.bin`
 
-Normally, now, you can try to install it: `/tmp/AdobeAIRInstaller.bin`. This should popup a dialog, telling you it's going to install it. Unfortunatly at this point, I ran into a problem: it didn't find either [Gnome Keyring](http://live.gnome.org/GnomeKeyring) or [KDE Kwallet](http://userbase.kde.org/KDE_Wallet_Manager), even though I have both installed on my system. After some digging, I recalled that AIR is a 32-bit framework, so I would need the 32-bit libraries for it to work.  
-While leaving the installer open, I went to look for the extracted directory, which was found under `/tmp/air.w9qZiT`, where, in one of the subdirectories I found a bunch of binaries which ended looking for libraries like `libkwallet.so.1`.  
-I found the needed libraries in the i386 packages [kdelibs4c2a](http://packages.debian.org/squeeze/kdelibs4c2a) and [libqt3-mt](http://packages.debian.org/squeeze/libqt3-mt) (which are for [Debian Squeeze](http://www.debian.org/releases/squeeze/)...), extracted them and put them in `/usr/lib32`:
+Normally, now, you can try to install it: `/tmp/AdobeAIRInstaller.bin`{: .filepath}. This should popup a dialog, telling you it's going to install it. Unfortunatly at this point, I ran into a problem: it didn't find either [Gnome Keyring](http://live.gnome.org/GnomeKeyring) or [KDE Kwallet](http://userbase.kde.org/KDE_Wallet_Manager), even though I have both installed on my system. After some digging, I recalled that AIR is a 32-bit framework, so I would need the 32-bit libraries for it to work.  
+While leaving the installer open, I went to look for the extracted directory, which was found under `/tmp/air.w9qZiT`{: .filepath}, where, in one of the subdirectories I found a bunch of binaries which ended looking for libraries like `libkwallet.so.1`.  
+I found the needed libraries in the i386 packages [kdelibs4c2a](http://packages.debian.org/squeeze/kdelibs4c2a) and [libqt3-mt](http://packages.debian.org/squeeze/libqt3-mt) (which are for [Debian Squeeze](http://www.debian.org/releases/squeeze/)...), extracted them and put them in `/usr/lib32`{: .filepath}:
 
 ```shell
 lrwxrwxrwx 1 root root      16 Aug  8  2010 libDCOP.so.4 -> libDCOP.so.4.2.0
@@ -48,7 +48,7 @@ export KDE_SESSION_VERSION=4
 
 (for Gnome, see the article)
 
-After this, the installer went ahead and dumped AIR in `/opt/Adobe AIR`. (spaces in a directory? Really, Adobe????)
+After this, the installer went ahead and dumped AIR in `/opt/Adobe AIR`{: .filepath}. (spaces in a directory? Really, Adobe????)
 
 Next hurdle: after installing Saezuri, I noticed it had a hideous black border:
 
@@ -58,7 +58,7 @@ Next hurdle: after installing Saezuri, I noticed it had a hideous black border:
 
 ![Saezuri with transparancy](/assets/img/posts/2011/11/saezuri-transparant.png "Saezuri with transparancy")
 
-The last problem I ran into is that AIR seems to default to [firefox](http://www.mozilla.org/en-US/firefox/new/) as the default browser. Since I'm not a firefox user (I do have it installed for those special occasions), that didn't do. After some more digging I found [a blog post](http://blog.andreaolivato.net/open-source/change-adobe-air-apps-default-browser.html) detailing how to change this: apparently Adobe decided that hardcoding firefox as a browser was a good idea. I fixed this by hex-editing the `libCore.so` file under `/opt/Adobe AIR/Versions/1.0`, changing the hardcoded 'firefox' by 'browser', and adding a symlink under `/usr/bin` pointing `browser` to `x-www-browser`:  
+The last problem I ran into is that AIR seems to default to [firefox](http://www.mozilla.org/en-US/firefox/new/) as the default browser. Since I'm not a firefox user (I do have it installed for those special occasions), that didn't do. After some more digging I found [a blog post](http://blog.andreaolivato.net/open-source/change-adobe-air-apps-default-browser.html) detailing how to change this: apparently Adobe decided that hardcoding firefox as a browser was a good idea. I fixed this by hex-editing the `libCore.so` file under `/opt/Adobe AIR/Versions/1.0`{: .filepath}, changing the hardcoded 'firefox' by 'browser', and adding a symlink under `/usr/bin`{: .filepath} pointing `browser` to `x-www-browser`:  
 `ln -s /usr/bin/x-www-browser /usr/bin/browser`  
 (`x-www-browser` is part of the Debian [alternatives system](http://www.debian-administration.org/articles/91), which allows for easy selection of default browsers and what not.)
 

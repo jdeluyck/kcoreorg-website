@@ -91,8 +91,8 @@ Digging a bit into this it seems that there's something odd going on with the ve
 
 I also [posted about this issue](https://forum.proxmox.com/threads/debian-13-lxc-networking-service-failed.169430/) on the [Proxmox forum](https://forum.proxmox.com), where they pointed out that using [dhcpcd-base](https://packages.debian.org/trixie/i386/dhcpcd-base) works, with some small tweaks to the system:
 
-* Modifying the `/etc/network/interfaces` file (and removing the line that reads `iface eth0 inet6 dhcp`)
-* Telling Proxmox not to manage the network configuration by touching `/etc/network/pve-ignore.interfaces`
+* Modifying the `/etc/network/interfaces`{: .filepath} file (and removing the line that reads `iface eth0 inet6 dhcp`)
+* Telling Proxmox not to manage the network configuration by touching `/etc/network/pve-ignore.interfaces`{: .filepath}
 
 ```shell
 sudo touch /etc/network/.pve-ignore.interfaces

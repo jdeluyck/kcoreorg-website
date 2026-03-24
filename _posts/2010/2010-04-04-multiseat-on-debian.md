@@ -41,7 +41,7 @@ So, the works:
 
 ## Requirements
 
-1. Get a spankingly fresh kernel. 2.6.33 at least, preferably newer. Compile it with KMS support enabled. Note that when you enable KMS support, you'll lose your console unless you compile in `[fbcon](http://www.mjmwired.net/kernel/Documentation/fb/fbcon.txt)`, but I advise against this, as this doesn't seem to play well with a multiseat setup.
+1. Get a spankingly fresh kernel. 2.6.33 at least, preferably newer. Compile it with KMS support enabled. Note that when you enable KMS support, you'll lose your console unless you compile in [fbcon](http://www.mjmwired.net/kernel/Documentation/fb/fbcon.txt), but I advise against this, as this doesn't seem to play well with a multiseat setup.
 2. Install the linux-firmware package or get the necessary firmwares for your cards (to get 3D acceleration)
 3. Get a decently fresh [Mesa](http://www.mesa3d.org/) (7.7 branch)
 4. Lastly, get a mjummy fresh xf86-video-ati driver.
@@ -177,7 +177,7 @@ Section "InputDevice"
 EndSection
 ```
 
-You need to change the device paths to match the devices you want, either by checking `/dev/input/by-path/` or by `/dev/input/by-id/`. The benefit of using `by-id` is that if you replug your devices, they'll still be mapped correctly. Since I have devices with the same ID, this didn't work for me.
+You need to change the device paths to match the devices you want, either by checking `/dev/input/by-path/`{: .filepath} or by `/dev/input/by-id/`{: .filepath}. The benefit of using `by-id` is that if you replug your devices, they'll still be mapped correctly. Since I have devices with the same ID, this didn't work for me.
 
 All these changes sofar should allow you to manually start up the X servers with the respective keyboard/mouse/screen settings. You should be able to test it with these commands:
 

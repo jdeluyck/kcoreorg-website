@@ -13,8 +13,8 @@ I'm prepping a lot of stuff with [cloud-init](https://cloud-init.io/) lately, an
 So, as a reminder to myself, and a small howto for whoever else runs into this stuff:
 
 * Rename the VG: `vgrename oldvgname newvgname`
-* Modify `/etc/fstab`, change all entries that have `oldvgname-<lvname>` to `newvgname-<lvname>`
-* Edit `/etc/initramfs-tools/conf.d/resume` and change the `RESUME=` entry to match the new vgname
+* Modify `/etc/fstab`{: .filepath}, change all entries that have `oldvgname-<lvname>` to `newvgname-<lvname>`
+* Edit `/etc/initramfs-tools/conf.d/resume`{: .filepath} and change the `RESUME=` entry to match the new vgname
 * Update the [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk): `update-initramfs -u -k all`
 * Update the [grub](https://en.wikipedia.org/wiki/GNU_GRUB) install: `update-grub`
 

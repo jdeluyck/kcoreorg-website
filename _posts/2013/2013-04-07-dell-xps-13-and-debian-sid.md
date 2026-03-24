@@ -88,10 +88,10 @@ an excellent document that details all the steps. Just be careful not to wipe ou
 
 Some time later, you'll get to reboot the system, and Debian should be the default choice to boot with the UEFI boot manager ;)
 
-At this point it's also highly recommended to add unstable and experimental sources to your `/etc/apt/sources.list` file -
+At this point it's also highly recommended to add unstable and experimental sources to your `/etc/apt/sources.list`{: .filepath} file -
 the testing distribution just installed it - ahem - _slightly outdated_ in software terms, and we'll definitely need a new kernel.
 
-Add this to `/etc/apt/sources.list` (replacing XX with your two-letter country code):
+Add this to `/etc/apt/sources.list`{: .filepath} (replacing XX with your two-letter country code):
 
 ```text
 deb http://ftp.XX.debian.org/debian/ sid main contrib non-free  
