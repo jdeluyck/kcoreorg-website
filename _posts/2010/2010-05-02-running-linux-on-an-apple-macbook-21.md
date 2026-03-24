@@ -76,7 +76,7 @@ Works out of the box with the ALSA module called `snd_hda_intel` module.
 
 Hardware: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller
 
-Since the inception of [kernel-mode-setting](http://en.wikipedia.org/wiki/Mode-setting) (KMS), no additional work is needed to get  
+Since the inception of [kernel-mode-setting](https://en.wikipedia.org/wiki/Mode-setting) (KMS), no additional work is needed to get  
 a decent framebuffer console. Load the `i915` module, and you're set.
 
 ### VGA X.Org

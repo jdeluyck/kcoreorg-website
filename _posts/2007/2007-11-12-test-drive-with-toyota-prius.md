@@ -16,7 +16,7 @@ Remarks:
 * Very smooth driving. You don't notice the engine starting or stopping unless you really pay attention
 * Comfy seats
 * Distracting multi-info display. It's too tempting to watch :p
-* The [CVT](http://en.wikipedia.org/wiki/Continuously_variable_transmission) is nice, but strange (normal since I'm used to driving [stick-shift](http://en.wikipedia.org/wiki/Stick_shift) cars)
+* The [CVT](https://en.wikipedia.org/wiki/Continuously_variable_transmission) is nice, but strange (normal since I'm used to driving [stick-shift](https://en.wikipedia.org/wiki/Stick_shift) cars)
 * Annoying beeping when driving backwards - it's a safety feature, since in this mode it's only running on electric power
 * Slow-ish feeling acceleration - but this could have been me. I'm very careful with other people's cars ;)
 * The absense of engine noise makes you drive too fast very easily - this is something to get used to

@@ -10,7 +10,7 @@ tags:
   - sid
 ---
 
-I purchased a [Dell](http://www.dell.be) [XPS 13 Ultrabook](http://www.dell.com/be/p/xps-13-l321x-mlk/pd), to replace my ageing [Apple](http://www.apple.com) [Macbook 2,1](http://en.wikipedia.org/wiki/MacBook). After six years of daily use, it's (over)due to retire.
+I purchased a [Dell](http://www.dell.be) [XPS 13 Ultrabook](http://www.dell.com/be/p/xps-13-l321x-mlk/pd), to replace my ageing [Apple](http://www.apple.com) [Macbook 2,1](https://en.wikipedia.org/wiki/MacBook). After six years of daily use, it's (over)due to retire.
 
 The reasons for not going for another Apple product:
 
@@ -61,7 +61,7 @@ and a wifi module that was broken - it would detect a wireless network for 1-2 m
 I called Dell, they sent round a technician... but after this repair, it was completely dead. So they shipped me a replacement, on which I'm typing this blog-post.
 
 Back to the actual laptop - it's a nice piece of hardware, but the Core i5 version comes shipped with
-[Windows 8](http://en.wikipedia.org/wiki/Windows_8), unfortunately. Luckely for us, it's easy to put something else on (or next) to it ;)  
+[Windows 8](https://en.wikipedia.org/wiki/Windows_8), unfortunately. Luckely for us, it's easy to put something else on (or next) to it ;)  
 (note: the Core i7 version is the 'developer' version, which is shipped with Ubuntu! :D It's called _Project Sputnik_)
 
 Steps to shrink the Windows 8 partition (if you want to keep it around, otherwise you can just wipe the entire SDD.
@@ -125,9 +125,9 @@ Download the patches too: `wget 'https://patchwork.kernel.org/patch/1859901/raw/
 `wget 'https://patchwork.kernel.org/patch/1859901/raw/' -O /usr/src/cypress-touchpad-v7.patch`  
 Now, go to the source directory `cd /usr/src/linux-3.8.5` and execute the script to rebuild the kernel with the two patches:
 `bash debian/bin/test-patches ../cypress-touchpad-v7.patch ../increase-struct-ps2dev-cmdbuf-to-8-bytes.patch`  
-Now go eat a pizza, make some coffee, solve a [theorem](http://en.wikipedia.org/wiki/Theorem) or so. It'll take a bit. When it finishes,
+Now go eat a pizza, make some coffee, solve a [theorem](https://en.wikipedia.org/wiki/Theorem) or so. It'll take a bit. When it finishes,
 you'll have another shiny kernel in /usr/src, which you can install with `dpkg -i linux-image-3.8-trunk-amd64_3.8.5-1~experimental.1a~test_amd64.deb`
-And [Bob's your uncle](http://en.wikipedia.org/wiki/Bob's_your_uncle).
+And [Bob's your uncle](https://en.wikipedia.org/wiki/Bob's_your_uncle).
 
 **Brightness level doesn't stick after a suspend/resume**  
 For this I made a custom suspend-resume hook for pm-utils. Add the following script as /etc/pm.d/sleep.d/00backlight
@@ -166,7 +166,7 @@ The [permanent fix](https://patchwork.kernel.org/patch/2102971/) is also schedul
 **Unreadable (way too tiny) fonts in applications**  
 This is actually a drawback from having a high-resolution screen: a lot fits on it, but the fonts are tiny.  
 I had the issue mostly in [Opera](http://www.opera.com), [IceDove](https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project)
-(a rebranded Thunderbird) and [XTerm](http://en.wikipedia.org/wiki/Xterm), my X Terminal of choice.
+(a rebranded Thunderbird) and [XTerm](https://en.wikipedia.org/wiki/Xterm), my X Terminal of choice.
 
 In Opera you can just set the default zoom level. I put this at 120%, everything is readable now.  
 For Thunderbird, I can advise installing the [ViewAbout](https://addons.mozilla.org/en-us/thunderbird/addon/viewabout/) extension,

@@ -10,7 +10,7 @@ tags:
 
 Finally!
 
-[Gmail](http://gmail.google.com) now offers secure [IMAP](http://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) access.
+[Gmail](http://gmail.google.com) now offers secure [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) access.
 
 To use this:
 

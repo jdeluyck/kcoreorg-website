@@ -10,7 +10,7 @@ tags:
   - sid
 ---
 
-Here's a simple howto on how to install an [ARM](http://en.wikipedia.org/wiki/ARM_architecture) crosscompiling environment on your Debian Unstable:
+Here's a simple howto on how to install an [ARM](https://en.wikipedia.org/wiki/ARM_architecture) crosscompiling environment on your Debian Unstable:
 
 1. Install crosscompiler packages from [http://debian.speedblue.org/](http://debian.speedblue.org/)
 2. Create a virtual deb package extraction directory:

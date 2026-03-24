@@ -54,7 +54,7 @@ Next hurdle: after installing Saezuri, I noticed it had a hideous black border:
 
 ![Saezuri with black border](/assets/img/posts/2011/11/saezuri-backborder1.png "Saezuri with black border")
 
-... completely not acceptable. Luckely, this was easily fixed by enabling [display compositing](http://en.wikipedia.org/wiki/Compositing_window_manager) in the XFCE settings. Another problem fixed:
+... completely not acceptable. Luckely, this was easily fixed by enabling [display compositing](https://en.wikipedia.org/wiki/Compositing_window_manager) in the XFCE settings. Another problem fixed:
 
 ![Saezuri with transparancy](/assets/img/posts/2011/11/saezuri-transparant.png "Saezuri with transparancy")
 

@@ -9,9 +9,9 @@ tags:
   - DSDT
 ---
 
-Last year I installed Debían on my mother in law's network (an [Acer Ferrari One 200](http://en.wikipedia.org/wiki/Acer_Ferrari_products#Acer_Ferrari_One)). The thing ran fine, but gave some "firmware bug?" warnings. Since no new BIOS' were available at that time, I left it at that.
+Last year I installed Debían on my mother in law's network (an [Acer Ferrari One 200](https://en.wikipedia.org/wiki/Acer_Ferrari_products#Acer_Ferrari_One)). The thing ran fine, but gave some "firmware bug?" warnings. Since no new BIOS' were available at that time, I left it at that.
 
-When doing my yearly checkup and update round, there still wasn't any new BIOS to be found. Annoying Acer! So I went around started digging in the [ACPI DSDT](http://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface) tables to see if I could fix anything.
+When doing my yearly checkup and update round, there still wasn't any new BIOS to be found. Annoying Acer! So I went around started digging in the [ACPI DSDT](https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface) tables to see if I could fix anything.
 
 To dump them, you can either use the [acpidump](https://01.org/linux-acpi/utilities) tool (`acpidump -b --table DSDT /tmp/dsdt.aml`) , or just do a `cat /sys/firmware/acpi/tables/DSDT /tmp/dsdt.aml`  
 Next, and decompile the thing with the `iasl` (Intel ACPI compiler/decompiler): `iasl -d dsdt.aml`. This should yield a file called `dsdt.dsl`, which is human readable. Sortof :p  

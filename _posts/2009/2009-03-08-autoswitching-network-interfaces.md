@@ -10,7 +10,7 @@ tags:
   - ifupdown
 ---
 
-Since I'm a lazy git, I want my laptop to automatically switch back & forth between my wired and wireless interfaces. Seems that stuff like [Network Manager](http://projects.gnome.org/NetworkManager/) can do that for you, but it's not really my thing. I don't like stuff where you need a [GUI](http://en.wikipedia.org/wiki/Graphical_user_interface) to configure it, a duplicaton of network configuration, and it also tends to hang my machine. No idea why, though.
+Since I'm a lazy git, I want my laptop to automatically switch back & forth between my wired and wireless interfaces. Seems that stuff like [Network Manager](http://projects.gnome.org/NetworkManager/) can do that for you, but it's not really my thing. I don't like stuff where you need a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) to configure it, a duplicaton of network configuration, and it also tends to hang my machine. No idea why, though.
 
 After an afternoon of fiddling around with several things, I came up with the recipe:  
 1 portion [ifplugd](http://0pointer.de/lennart/projects/ifplugd/), a good mix of [ifupdown](http://packages.debian.org/ifupdown) configuration with [guessnet](http://guessnet.alioth.debian.org/) mappings, and some home-grown scripts. Mix well, and let simmer over a hot stove for half an hour. ;)

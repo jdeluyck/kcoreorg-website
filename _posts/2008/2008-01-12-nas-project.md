@@ -22,7 +22,7 @@ I "recently" ordered (after doing some research) a [Raidsonic](http://www.raidso
 
 The NAS arrived a week ago, and I ordered two [Seagate](http://www.seagate.com) [Barracuda 7200.10 750gb](http://www.seagate.com/ww/v/index.jsp?vgnextoid=e2af99f4fa74c010VgnVCM100000dd04090aRCRD&locale=en-US) disks (model: ST3750640AS) to go in it. I prefer seagate for the 5 years of warranty they give on their disks. They arrived two days ago.
 
-Unfortunately, after initial stress tests I got the following [SMART](http://en.wikipedia.org/wiki/Self-Monitoring,_Analysis,_and_Reporting_Technology) errors (using smartctl, part of the wonderful [smartmontools](http://smartmontools.sourceforge.net/)) on one of the disks:
+Unfortunately, after initial stress tests I got the following [SMART](https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis,_and_Reporting_Technology) errors (using smartctl, part of the wonderful [smartmontools](http://smartmontools.sourceforge.net/)) on one of the disks:
 
 > SMART overall-health self-assessment test result: FAILED!  
 > Drive failure expected in less than 24 hours. SAVE ALL DATA.  

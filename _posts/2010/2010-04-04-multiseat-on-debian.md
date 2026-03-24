@@ -13,7 +13,7 @@ tags:
   - xf86-video-ati
 ---
 
-Since I have a rather well-scaled desktop PC (nothing really fancy by today's specs, but it's underused as it is), and my gf sometimes wants to use it, and sometimes we both want to use it at the same time, I decided to turn it into a [multiseat](http://en.wikipedia.org/wiki/Multiseat) configuration.
+Since I have a rather well-scaled desktop PC (nothing really fancy by today's specs, but it's underused as it is), and my gf sometimes wants to use it, and sometimes we both want to use it at the same time, I decided to turn it into a [multiseat](https://en.wikipedia.org/wiki/Multiseat) configuration.
 
 What's a multiseat? Basically you connect a second set of input peripherals (keyboard, mouse) and a second screen (and if necessary a second video card) and reconfigure it to act as a separate pc.  
 And with Linux, you just can, without a lot of trouble.
@@ -26,7 +26,7 @@ My hardware (that matters for this setup):
 
 * Mice: 2 simple Logitech usb mice
 * Keyboards: 2 usb keyboards (one [Cherry Cymotion Linux Master](http://reviews.cnet.com/keyboards/cherry-cymotion-master-linux/1707-3134_7-31539242.html) & one [labtec Ultraflat](http://www.labtec.com/index.cfm/gear/details/EUR/EN,crid=28,contentid=692))
-* Graphics: an onboard ATI Radeon HD 3200 (this is part of the [AMD 780](http://en.wikipedia.org/wiki/AMD_700_chipset_series) chipset) video chip on my Asrock motherboard (was originally disabled and enabled for this multiseat setup) and an addon ATI Radeon HD 4850 card (with an [RV700](http://en.wikipedia.org/wiki/Radeon_R700#Radeon_HD_4300.2FHD_4500) chip).
+* Graphics: an onboard ATI Radeon HD 3200 (this is part of the [AMD 780](https://en.wikipedia.org/wiki/AMD_700_chipset_series) chipset) video chip on my Asrock motherboard (was originally disabled and enabled for this multiseat setup) and an addon ATI Radeon HD 4850 card (with an [RV700](https://en.wikipedia.org/wiki/Radeon_R700#Radeon_HD_4300.2FHD_4500) chip).
 * Screens: two screens - in this case, one 20.1" [Viewsonic VX2025wm](http://hk.viewsonic.com/en/products/productspecs.php?id=234) and one 22" (newly purchased) [LG w2253TW](http://www.lg.com/uk/support/product/support-product-profile.jsp?customerModelCode=W2253TQ-PF&initialTab=documents&targetPage=support-product-profile#)
 
 Notes:
@@ -34,8 +34,8 @@ Notes:
 1. It is advised to use chips that can be driven with the same driver for a multiseat setup!
 2. If you use an onboard chipset (like I do), you'll need to change the boot order so that this chip is actually used as the primary device, otherwise it won't be initialised correctly.
 
-Originally I had the ATI binary driver [fglrx](http://en.wikipedia.org/wiki/Fglrx) installed, but this does _not_ play well with a multiseat setup. The initialisation of the second card causes the system to hardlock.  
-Since this driver doesn't work, I went for the [xf86-video-ati](http://www.x.org/wiki/radeon) driver, which is completely opensource, and in combination with a recent [kernel](http://www.kernel.org/) allows for [kernel mode setting](http://en.wikipedia.org/wiki/Mode-setting). You do need the firmware for the card, usually found in the firmware-linux packages of your favourite distribution.
+Originally I had the ATI binary driver [fglrx](https://en.wikipedia.org/wiki/Fglrx) installed, but this does _not_ play well with a multiseat setup. The initialisation of the second card causes the system to hardlock.  
+Since this driver doesn't work, I went for the [xf86-video-ati](http://www.x.org/wiki/radeon) driver, which is completely opensource, and in combination with a recent [kernel](http://www.kernel.org/) allows for [kernel mode setting](https://en.wikipedia.org/wiki/Mode-setting). You do need the firmware for the card, usually found in the firmware-linux packages of your favourite distribution.
 
 So, the works:
 
@@ -193,7 +193,7 @@ or
 
 ## KDM changes
 
-Now, since I want both the X servers to be available at boot time, and I'm using [KDE](http://www.kde.org/) anyway, I went with [KDM](http://en.wikipedia.org/wiki/KDE_Display_Manager).
+Now, since I want both the X servers to be available at boot time, and I'm using [KDE](http://www.kde.org/) anyway, I went with [KDM](https://en.wikipedia.org/wiki/KDE_Display_Manager).
 
 In the `[General]` section, look for a line reading:
 

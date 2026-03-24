@@ -9,7 +9,7 @@ tags:
   - xmas
 ---
 
-Depending on what you (don't) believe, today is [Xmas](http://en.wikipedia.org/wiki/Xmas), [Christmas](http://en.wikipedia.org/wiki/Christmas) or [newtonmas](http://www.paeps.cx/weblog/activism/newtonmas.html). Or even something completely different, if you want it to be!
+Depending on what you (don't) believe, today is [Xmas](https://en.wikipedia.org/wiki/Xmas), [Christmas](https://en.wikipedia.org/wiki/Christmas) or [newtonmas](http://www.paeps.cx/weblog/activism/newtonmas.html). Or even something completely different, if you want it to be!
 
 Whatever is your fancy, happy day to you and a good new year!
 

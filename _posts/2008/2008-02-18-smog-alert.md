@@ -17,7 +17,7 @@ Today the government of Flanders imposed another "Smog alert", atleast until tom
 
 ![Smog!](/assets/img/posts/2008/02/large_220795.jpg "Smog!")
 
-What is this, you might ask?When the amount of [fine dust](http://en.wikipedia.org/wiki/Particulate) in the air exceeds the european limit (40 µg/m³), a speed limit of 90 kph is imposed on certain roads, to reduce this.
+What is this, you might ask?When the amount of [fine dust](https://en.wikipedia.org/wiki/Particulate) in the air exceeds the european limit (40 µg/m³), a speed limit of 90 kph is imposed on certain roads, to reduce this.
 
 As posted by Wim in [this post (in dutch), about the smog-alert end of 2007](http://www.wimblog.be/smogalarm/), this is actually quite moot - you drive less fast for 3-4 days in a year, but keep polluting the same all the other days. It's also only mandatory in flanders, not in wallonia (go figure).
 

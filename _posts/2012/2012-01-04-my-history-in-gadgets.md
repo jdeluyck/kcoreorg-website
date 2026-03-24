@@ -34,37 +34,37 @@ A quick list of my gadgets and phones over the years:
 
 ## PDA history
 
-### [Psion Siena](http://en.wikipedia.org/wiki/Psion_Siena)
+### [Psion Siena](https://en.wikipedia.org/wiki/Psion_Siena)
 
 ![Psion Siena](/assets/img/posts/2012/01/240px-Psion_Siena_512k_4f08.jpg "Psion Siena"){: .normal}
 
 This I got as a gift, from my father. Used it a lot, but outgrew it rather quickly.
 
-### [Psion Series 3c](http://en.wikipedia.org/wiki/Psion_Series_3c)
+### [Psion Series 3c](https://en.wikipedia.org/wiki/Psion_Series_3c)
 
 ![Psion 3c](/assets/img/posts/2012/01/Psion_3c_open_17o06-300x258.jpg "Psion 3c"){: .normal}
 
 I've used this device though the majority of my school years, as a note-taker, game device, development device (I actually wrote code on that thing...). Used to also have several Flash SSD's for it.
 
-### [Palm m500](http://en.wikipedia.org/wiki/Palm_m500)  
+### [Palm m500](https://en.wikipedia.org/wiki/Palm_m500)  
 
 ![Palm m500](/assets/img/posts/2012/01/palm-m500.jpg "Palm m500"){: .normal}
 
 This PDA was the first one I bought after starting working. Used it to death. (not really, sold it)
 
-### [Psion Series 5](http://en.wikipedia.org/wiki/Psion_Series_5)
+### [Psion Series 5](https://en.wikipedia.org/wiki/Psion_Series_5)
 
 ![Psion Series 5](/assets/img/posts/2012/01/series51.jpeg "Psion Series 5"){: .normal}  
 
 This I got from a coworker, who didn't use it anymore since it no longer charged. I replaced the batteries, and sold it on, feeling that Psion's OS no longer appealed to me.
 
-### [Palm Tungsten T3](http://en.wikipedia.org/wiki/Tungsten_T3#Tungsten_T3)
+### [Palm Tungsten T3](https://en.wikipedia.org/wiki/Tungsten_T3#Tungsten_T3)
 
 ![Palm Tungsten T3](/assets/img/posts/2012/01/palm-t3-249x300.jpg "Palm Tungsten T3"){: .normal}
 
 As an upgrade for the m500, I got myself the T3. Quite a powerful machine for the time.
 
-### [Palm T|X](http://en.wikipedia.org/wiki/Palm_TX)
+### [Palm T|X](https://en.wikipedia.org/wiki/Palm_TX)
 
 ![Palm T\|X](/assets/img/posts/2012/01/tx_1.png "Palm T\|X"){: .normal}
 

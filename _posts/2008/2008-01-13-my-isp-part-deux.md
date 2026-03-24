@@ -22,6 +22,6 @@ An update after my [previous ISP post](/2007/02/21/my-isp/):
       * Increased upload traffic in all accounts to 448kbit
       * Increased data transfer with the boostpack to 150gb
       * Increased download speed (2048kbit) on mediumband with boostpack
-      * Started delivery of [Cityconnect](http://www.dommel.be/nl/adsl/adsl2.php?cust=home) - a new [ADSL2+](http://en.wikipedia.org/wiki/Asymmetric_Digital_Subscriber_Line_2_Plus) product line (available in Leuven only sofar...)
+      * Started delivery of [Cityconnect](http://www.dommel.be/nl/adsl/adsl2.php?cust=home) - a new [ADSL2+](https://en.wikipedia.org/wiki/Asymmetric_Digital_Subscriber_Line_2_Plus) product line (available in Leuven only sofar...)
 
 Needless to say, I'm still a very happy customer ;) But I am going to cancel my boostpack, since it no longer has use (I need the upstream speed, not the data transfer..)

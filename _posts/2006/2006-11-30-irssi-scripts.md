@@ -15,11 +15,11 @@ Disclaimer: These scripts are provided **as is**, without any guarantee of usabi
 
 ## yaiaways.pl - Yet Another Irssi Away Script
 
-Okay, there are plenty of good away scripts for Irssi, yet none did what I wanted, that is to put me away with a fixed message, change my nick with a certain suffix, and then when I'm back restore my old nick. None did that \*snif\*. But well, I hacked on the original [away.pl](http://irssi.org/scripts/scripts/away.pl) script and made my very own ;)
+Okay, there are plenty of good away scripts for Irssi, yet none did what I wanted, that is to put me away with a fixed message, change my nick with a certain suffix, and then when I'm back restore my old nick. None did that \*snif\*. But well, I hacked on the original [away.pl](https://github.com/irssi/scripts.irssi.org/blob/master/scripts/away.pl) script and made my very own ;)
 
 ### Usage
 
-To use it, download the script, dump it in e.g. `~/.irssi/scripts`, and load it in Irssi with `/run yaiaways`. After this you can set some options which you can see with `/set away_`:
+To use it, download the script, dump it in e.g. `~/.irssi/scripts`{: .filepath}, and load it in Irssi with `/run yaiaways`. After this you can set some options which you can see with `/set away_`:
 
 ```ini
 [yaiaways]
@@ -35,11 +35,11 @@ When you now call `/away` (without a reason) the script will use the 'Away from 
 
 ## active_dcc.pl - shows DCC info in the active window
 
-This script is basically a copy-n-paste of Geert Hauwaert's [active_notice.pl](http://www.irssi.org/scripts/scripts/active_notice.pl) script, but made to put DCC information in the active window.
+This script is basically a copy-n-paste of Geert Hauwaert's [active_notice.pl](https://github.com/irssi/scripts.irssi.org/blob/master/scripts/active_notice.pl) script, but made to put DCC information in the active window.
 
 ### Usage
 
-To use it, download the script, dump it in e.g. `~/.irssi/scripts`, and load it in Irssi with `/run active_dcc`.
+To use it, download the script, dump it in e.g. `~/.irssi/scripts`{: .filepath}, and load it in Irssi with `/run active_dcc`.
 
 ### Download
 
