@@ -10,10 +10,10 @@ tags:
   - wired network
 ---
 
-I've had a [Google Chromecast](https://www.google.com/chromecast/) ([1](https://en.wikipedia.org/wiki/Chromecast#First_generation)st</sup> generation</a>) for a while now, connected over WiFi. Works great, although sometimes the wireless reception cuts out, or the signal gets saturated. Since I'm mostly streaming from a device which sits less than 10 cm away, it is also rather stupid to have all those packets going back and forth to my router, causing unnecessary load.  
+I've had a [Google Chromecast](https://www.google.com/chromecast/) ([1](https://en.wikipedia.org/wiki/Chromecast#First_generation)st</sup> generation</a>) for a while now, connected over WiFi. Works great, although sometimes the wireless reception cuts out, or the signal gets saturated. Since I'm mostly streaming from a device which sits less than 10 cm away, it is also rather stupid to have all those packets going back and forth to my router, causing unnecessary load.  
 Google has a nifty solution, the [Ethernet Adapter for Chromecast](https://store.google.com/product/ethernet_adapter_for_chromecast), but it's 1. rather expensive for what it is (in my opinion), and 2. difficult to get your hands on (in Belgium, where I live).
 
-So, after some digging, enter a DYI solution that works ;) It costs about half, but requires more patience (for delivery).
+So, after some digging, enter a DYI solution that works ;) It costs about half, but requires more patience (for delivery).
 
 I ordered following pieces of DealExtreme, and had them ship here:
 

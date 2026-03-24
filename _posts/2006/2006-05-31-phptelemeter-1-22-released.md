@@ -6,7 +6,7 @@ tags:
   - phptelemeter
 ---
 
-I've just released phptelemeter 1.22. This release includes the following changes:
+I've just released phptelemeter 1.22. This release includes the following changes:
 
 * Added scarlet_web parser for Scarlet
 * Made skynet_web parser less prone to error on webpage changes

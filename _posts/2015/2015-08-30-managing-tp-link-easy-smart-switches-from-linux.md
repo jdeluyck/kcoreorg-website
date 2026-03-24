@@ -15,7 +15,7 @@ I've recently acquired some [TP-Link 'Easy Smart' managed switches](http://www.t
 * Abundant VLAN features improve network security via traffic segmentation
 * IGMP Snooping optimizes multicast applications
 
-Unfortunately, it uses a [windows application](http://www.tp-link.com/en/download/TL-SG105E.html#Easy_Smart_Configuration_Utility) to manage the switches - the 5 and 8 port varieties don't have a usable built-in web server to manage them. Luckely, there's a way to make that still work on Linux ;) as it seems that it's just a [JavaFX](https://en.wikipedia.org/wiki/JavaFX) application. The only thing you'll ever need a windows installation for (or use Wine) is to install the actual application.
+Unfortunately, it uses a [windows application](http://www.tp-link.com/en/download/TL-SG105E.html#Easy_Smart_Configuration_Utility) to manage the switches - the 5 and 8 port varieties don't have a usable built-in web server to manage them. Luckely, there's a way to make that still work on Linux ;) as it seems that it's just a [JavaFX](https://en.wikipedia.org/wiki/JavaFX) application. The only thing you'll ever need a windows installation for (or use Wine) is to install the actual application.
 
 After installation, You'll find a file called "Easy Smart Configuration Utility.exe" in the installation path. Copy that to your Linux installation, rename to .jar, and you're good to go.
 
@@ -30,7 +30,7 @@ Checking with netstat, the tool bound itself on UDP port 29809, on the local ip 
 $ PID=$(pgrep -f "java -jar Easy Smart Configuration Utility.jar"); netstat -lnput | grep -e Proto -e $PID
 
 Proto  Recv-Q  Send-Q  Local Address            Foreign Address  State  PID/Program name 
-udp6   0       0       [your ip address]:29809  :::*                    28529/java
+udp6   0       0       [your ip address]:29809  :::*                    28529/java
 ```
 
 Checking with tcpdump showed that the traffic was returning, but since our tool is only listening on the local ip, and not the UDP broadcast address, it never sees anything.
@@ -44,7 +44,7 @@ listening on wlp1s0, link-type EN10MB (Ethernet), capture size 262144 bytes
 09:35:48.961586 IP [switch ip address].29808 > 255.255.255.255.29809: UDP, length 159
 ```
 
-It seems the tool binds to the local IP instead of the 'any ip', [0.0.0.0](https://en.wikipedia.org/wiki/0.0.0.0), so you need to locally forward the traffic incoming on the port to your local ip. To do this, execute this command (and/or add it to your local firewall script):
+It seems the tool binds to the local IP instead of the 'any ip', [0.0.0.0](https://en.wikipedia.org/wiki/0.0.0.0), so you need to locally forward the traffic incoming on the port to your local ip. To do this, execute this command (and/or add it to your local firewall script):
 
 ```bash
 iptables -t nat -A PREROUTING -p udp -d 255.255.255.255 --dport 29809 -j DNAT --to [your ip address]:29809

@@ -33,7 +33,7 @@ After owning my Nokia E65 for about a month, here's the list of apps I installed
 
 You can get the Handy Alarm, Handy Keylock and Handy Taskman as the [Handy Essentials](http://nokia-e61-software.epocware.com/Handy_Essentials.html) pack.
 
-And ofcourse, some games:
+And ofcourse, some games:
 
 * [Frozen Bubble](http://fb-s60.sourceforge.net/)
 * [MiniBlaster](http://www.martin.st/software/blaster/)

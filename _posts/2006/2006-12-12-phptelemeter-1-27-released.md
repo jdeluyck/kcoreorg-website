@@ -6,7 +6,7 @@ tags:
   - phptelemeter
 ---
 
-I've just released phptelemeter 1.27. This release includes the following changes:
+I've just released phptelemeter 1.27. This release includes the following changes:
 
 * Fixed dommel_web parser since they no longer count upload.
 * Fixed telemeter_web parser, they changed some small things.

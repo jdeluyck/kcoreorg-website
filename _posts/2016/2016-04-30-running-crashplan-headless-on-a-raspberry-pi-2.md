@@ -9,16 +9,16 @@ tags:
   - raspberry pi
 ---
 
-In my grand scheme of "abuse all the low-power computing things!", I've moved my crashplan backups over to the [Raspberry Pi 2](https://en.wikipedia.org/wiki/Raspberry_Pi) (rpi2 for short). Installation is relatively painless: download the installer from [the crashplan site](https://www.code42.com/crashplan/download/), and unpack and execute. I installed mine under /opt/crashplan.
+In my grand scheme of "abuse all the low-power computing things!", I've moved my crashplan backups over to the [Raspberry Pi 2](https://en.wikipedia.org/wiki/Raspberry_Pi) (rpi2 for short). Installation is relatively painless: download the installer from [the crashplan site](https://www.code42.com/crashplan/download/), and unpack and execute. I installed mine under /opt/crashplan.
 
 Afterwards, there are some things to fix, though, as by default Crashplan is only supported on the Intel architecture:
 
 Install a working JRE (& dependencies for the GUI app should you want to launch it through X forwarding):
 
 ```bash
-apt-get install oracle-java8-jdk libswt-gtk-3-jni libswt-cairo-gtk-3-jni
+apt-get install oracle-java8-jdk libswt-gtk-3-jni libswt-cairo-gtk-3-jni
 rm /opt/crashplan/jre; ln -s /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/ /opt/crashplan/jre
-rm /opt/crashplan/lib/swt.jar; ln -s /usr/share/java/swt.jar /opt/crashplan/lib/swt.jar
+rm /opt/crashplan/lib/swt.jar; ln -s /usr/share/java/swt.jar /opt/crashplan/lib/swt.jar
 ```
 
 Replace some libraries by their recompiled variants - you can compile them yourself (thanks to [Jon Rogers](http://www.jonrogers.co.uk/2012/05/crashplan-on-the-raspberry-pi/) for the instructions) or download them straight from his site if you're lazy.  
@@ -46,4 +46,4 @@ And the desktop app (which you can forward to your local Linux pc via ssh -X use
 /opt/crashplan/bin/CrashPlanDesktop`
 ```  
 
-this does take forever to start. But it works. Or you can use [these instructions](https://support.code42.com/CrashPlan/4/Configuring/Using_CrashPlan_On_A_Headless_Computer) (from Crashplan Support) to administer it remotely.
+this does take forever to start. But it works. Or you can use [these instructions](https://support.code42.com/CrashPlan/4/Configuring/Using_CrashPlan_On_A_Headless_Computer) (from Crashplan Support) to administer it remotely.

@@ -12,11 +12,11 @@ tags:
   - rclone
 ---
 
-I've been a longtime user of [Crashplan](https://www.crashplan.com/en-us/), an easy-to-use cloud backup solution. It works well, and it _used_ to work also on nearly any platform that had a java run-time and some add-on opensource libraries. I've [used it for some time](/2016/04/30/running-crashplan-headless-on-a-raspberry-pi-2/) on my raspberry pi to automatically backup my data to the cloud. (Crashplan on ARM (the architecture of the raspberry pi) is an [unsupported configuration](https://support.code42.com/CrashPlan/4/Configuring/Beyond_The_Code_Unsupported_CrashPlan_Configurations) though).
+I've been a longtime user of [Crashplan](https://www.crashplan.com/en-us/), an easy-to-use cloud backup solution. It works well, and it _used_ to work also on nearly any platform that had a java run-time and some add-on opensource libraries. I've [used it for some time](/2016/04/30/running-crashplan-headless-on-a-raspberry-pi-2/) on my raspberry pi to automatically backup my data to the cloud. (Crashplan on ARM (the architecture of the raspberry pi) is an [unsupported configuration](https://support.code42.com/CrashPlan/4/Configuring/Beyond_The_Code_Unsupported_CrashPlan_Configurations) though).
 
 _Used to work_, past tense.
 
-[Code42](https://www.code42.com/) (the company behind Crashplan) decided to incorporate a new library (`libc42archive.so`) in the latest update of their client, version 4.8, which has no ARM counterpart. Only x86 (and amd_64) architectures are supported, removing a lot of devices which were able to run crashplan from the list. No source code is available, so this is basically a call to stop using Crashplan on anything other than Intel-compatible architectures. Bleh.  
+[Code42](https://www.code42.com/) (the company behind Crashplan) decided to incorporate a new library (`libc42archive.so`) in the latest update of their client, version 4.8, which has no ARM counterpart. Only x86 (and amd_64) architectures are supported, removing a lot of devices which were able to run crashplan from the list. No source code is available, so this is basically a call to stop using Crashplan on anything other than Intel-compatible architectures. Bleh.  
 (I opened a support ticket to ask them to restore compatibility, but I'm not holding my breath for it)
 
 I was able to keep it alive for some time by downgrading back to version 4.7 and making the upgrade directory immutable, but it seems that this trick has run it's course. The client needs to be version 4.8 or you aren't allowed to connect to the Crashplan back-end.
@@ -27,7 +27,7 @@ So, I needed a new solution. One with the requirements of being open source (I d
 * [Borgbackup](https://borgbackup.readthedocs.io/en/stable/) (a fork of [Attic](https://github.com/jborg/attic)), an archiving tool offering [deduplication](https://en.wikipedia.org/wiki/Data_deduplication), compression and encryption
 * [rclone](http://rclone.org/), which is rsync for cloud storage
 
-While Crashplan offered immediate push to the cloud, the workflow is now somewhat different: every day a script is triggered (via cron), which executes borgbackup against a USB-connected harddisk for my local (and optionally NFS-shared) data. This allows for fast backups, fast deduplication, and encryption. No data leaves my network at this point.  
+While Crashplan offered immediate push to the cloud, the workflow is now somewhat different: every day a script is triggered (via cron), which executes borgbackup against a USB-connected harddisk for my local (and optionally NFS-shared) data. This allows for fast backups, fast deduplication, and encryption. No data leaves my network at this point.  
 When all backups are done, the encrypted repository is synced (using rclone) to Backblaze B2, bringing my offsite backup in sync with the local repository.
 
 Using an intermediate USB harddisk is not ideal, but it gives me yet another copy of my data - which is convenient when I've just deleted a file that I really did want to keep.

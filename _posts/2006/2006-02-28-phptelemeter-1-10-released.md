@@ -6,7 +6,7 @@ tags:
   - phptelemeter
 ---
 
-I've just released phptelemeter 1.10. This release includes the following changes:
+I've just released phptelemeter 1.10. This release includes the following changes:
 
 * New feature: phptelemeter can now check if there's a new version available. It only loads the url found in phptelemeter.inc.php, so no worries. If you don't like it, just disable it and it won't do anything.
 * New feature: proxy support, with new keys. Please check the README.

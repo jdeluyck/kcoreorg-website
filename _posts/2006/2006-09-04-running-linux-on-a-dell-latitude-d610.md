@@ -228,7 +228,7 @@ Here's what you need to do:
 3. Load the smsc-ircc2 module with the correct parameters: `modprobe smsc-ircc2 ircc_irq=3 ircc_dma=3 ircc_sir=0x2f8 ircc_fir=0x280`
 4. Launch irattach on the `irda0` device: `irattach irda0 -s`
 
-For Debian, I advise the [irda-utils](http://packages.debian.org/irda-utils) package.
+For Debian, I advise the [irda-utils](http://packages.debian.org/irda-utils) package.
 
 ### Multimedia Keys
 

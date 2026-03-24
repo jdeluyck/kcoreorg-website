@@ -6,6 +6,6 @@ tags:
   - phptelemeter
 ---
 
-I've just released phptelemeter 1.25. This release includes the following bugfix:
+I've just released phptelemeter 1.25. This release includes the following bugfix:
 
 * Fixed skynet_web parser when used quota is < 1 gB.

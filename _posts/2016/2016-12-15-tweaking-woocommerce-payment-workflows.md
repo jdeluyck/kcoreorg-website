@@ -18,13 +18,13 @@ The latest modification was changing the workflow of the payment gateways - more
 The default flow for WooCommerce (for this gateway) is:
 
 1. Order is put in by customer
-2. Order is automatically flagged as _on-hold_, and a mail is sent out to the customer with the bank info
+2. Order is automatically flagged as _on-hold_, and a mail is sent out to the customer with the bank info
 3. Customer (supposedly) pays
-4. Store manager sees the payment, and flags order as _processing_ - another mail is sent out with the notification that it's being processed
-5. Store manager (hopefully) ships the product, flags the order as _completed _and another mail is sent out with 'order complete' status.
+4. Store manager sees the payment, and flags order as _processing_ - another mail is sent out with the notification that it's being processed
+5. Store manager (hopefully) ships the product, flags the order as _completed _and another mail is sent out with 'order complete' status.
 
-Now, for our uses, the _on-hold_ status is a bit superfluous (and we've had people getting confused by it).  
-We'd rather have it go straight to _processing_, and have that mail contain the bank information (only for BACS payments, ofcourse).
+Now, for our uses, the _on-hold_ status is a bit superfluous (and we've had people getting confused by it).  
+We'd rather have it go straight to _processing_, and have that mail contain the bank information (only for BACS payments, ofcourse).
 
 After some testing, I came up with two solutions: One very hacky, and not maintainable, the other better. Both solutions need to be inserted in your theme's `functions.php` file.
 
@@ -111,5 +111,5 @@ function add_order_email_instructions( $order, $sent_to_admin ) {
 }
 ```
 
-Still not as clean as I'd like, as we're still invoking an internal function, but atleast we're using the proper hooks
+Still not as clean as I'd like, as we're still invoking an internal function, but atleast we're using the proper hooks
 to tweak WooCommerce. I'll update if I ever find a better way to get to the bank details.
