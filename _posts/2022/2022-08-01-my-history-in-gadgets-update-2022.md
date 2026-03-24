@@ -20,15 +20,18 @@ the [2014](/2014/05/12/my-history-in-gadgets-update-2014/),
 [2020](/2020/06/26/my-history-in-gadgets-update-2020/) and
 [2020 bis](/2020/09/01/my-history-in-gadgets-update-2020-bis/) updates:
 
-_**Phone history:**_
+## Phone history
 
-My partner took over the OnePlus Pro 8, and I upgraded to the
-**[Samsung Galaxy S22 Ultra](https://www.gsmarena.com/samsung_galaxy_s22_ultra_5g-11251.php)  
-![Samsung Galaxy S22 Ultra](/assets/img/posts/2022/08/samsung-s22-ultra.png)**
+### [Samsung Galaxy S22 Ultra](https://www.gsmarena.com/samsung_galaxy_s22_ultra_5g-11251.php)
 
-_**Tablet history:**_
+![Samsung Galaxy S22 Ultra](/assets/img/posts/2022/08/samsung-s22-ultra.png){: .normal}
 
-My partner also took over my Samsung Galaxy Tab S7+ (we sold the S6), and I upgraded to the
+My partner took over the OnePlus Pro 8, and I upgraded to the Samsung Galaxy S22 Ultra.
 
-**[Samsung Galaxy Tab S8+](https://www.gsmarena.com/samsung_galaxy_tab_s7+-10336.php)  
-![Samsung Galaxy Tab S8+](/assets/img/posts/2022/08/galaxy-tab-s8plus.png)**
+## Tablet history
+
+### [Samsung Galaxy Tab S8+](https://www.gsmarena.com/samsung_galaxy_tab_s7+-10336.php)
+
+![Samsung Galaxy Tab S8+](/assets/img/posts/2022/08/galaxy-tab-s8plus.png){: .normal}
+
+My partner also took over my Samsung Galaxy Tab S7+ (we sold the S6), and I upgraded to the Samsung Galaxy Tab S8+.

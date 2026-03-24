@@ -11,11 +11,12 @@ tags:
 
 An update on the ["My history in gadgets"](/2012/01/04/my-history-in-gadgets/) post from a while back, and the [2014 update](/2014/05/12/my-history-in-gadgets-update-2014/):
 
-**_Mobile phone history:_**
+## Mobile phone history
 
-The Desire S I was using for work died (hboot corruption), and was replaced by:
+### [Motorola E2 (LTE)](http://www.gsmarena.com/motorola_moto_e_(2nd_gen)-6986.php)
 
-**[Motorola E2 (LTE)](http://www.gsmarena.com/motorola_moto_e_(2nd_gen)-6986.php)  
-![Motorola E2](/assets/img/posts/2015/08/motorola-moto-e-2015-1.jpg "Motorola E2")**
+![Motorola E2](/assets/img/posts/2015/08/motorola-moto-e-2015-1.jpg "Motorola E2"){: .normal}
+
+The Desire S I was using for work died (hboot corruption), and was replaced by the Motorola E2 (LTE).
 
 I know, boring, only one update ;)

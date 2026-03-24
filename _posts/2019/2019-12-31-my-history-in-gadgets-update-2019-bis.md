@@ -16,10 +16,10 @@ the [2014](/2014/05/12/my-history-in-gadgets-update-2014/),
  [2016](/2016/07/15/my-history-in-gadgets-update-2016/) and
  [2019](/2019/06/26/my-history-in-gadgets-update-2019/) updates:
 
-_**Tablet history:**_
+## Tablet history
 
-I sold the Lenovo Tab4 10 (well, handed in for a cashback) and got the
+### [Samsung Galaxy Tab S6](https://www.gsmarena.com/samsung_galaxy_tab_s6-9781.php)
 
-**[Samsung Galaxy Tab S6](https://www.gsmarena.com/samsung_galaxy_tab_s6-9781.php)  
-![Samsung Galaxy Tab S6](/assets/img/posts/2019/12/samsung-galaxy-tab-s6.png)**
-specifically because I wanted an active stylus for note-taking.
+![Samsung Galaxy Tab S6](/assets/img/posts/2019/12/samsung-galaxy-tab-s6.png){: .normal}
+
+I sold the Lenovo Tab4 10 (well, handed in for a cashback) and got the Samsung Galaxy Tab S6, specifically because I wanted an active stylus for note-taking.

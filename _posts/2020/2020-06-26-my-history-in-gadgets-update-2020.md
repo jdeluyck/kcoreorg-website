@@ -16,10 +16,10 @@ the [2014](/2014/05/12/my-history-in-gadgets-update-2014/),
  [2019](/2019/06/26/my-history-in-gadgets-update-2019/) and
 [2019 bis](/2019/12/31/my-history-in-gadgets-update-2019-bis/) updates:
 
-_**Phone history:**_
+## Phone history
 
-I upgraded from the OnePlus 6 (which is going to my girlfriend) and got the
+### [OnePlus 8 Pro](https://www.gsmarena.com/oneplus_8_pro-9919.php)
 
-**[OnePlus 8 Pro](https://www.gsmarena.com/oneplus_8_pro-9919.php)  
-![OnePlus 8 Pro](/assets/img/posts/2020/06/oneplus-8-pro.png)**
-through my employer at a nice discounted rate.
+![OnePlus 8 Pro](/assets/img/posts/2020/06/oneplus-8-pro.png){: .normal}
+
+I upgraded from the OnePlus 6 (which is going to my girlfriend) and got the OnePlus 8 Pro through my employer at a nice discounted rate.

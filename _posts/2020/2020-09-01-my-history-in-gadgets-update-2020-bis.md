@@ -17,10 +17,10 @@ the [2014](/2014/05/12/my-history-in-gadgets-update-2014/),
 [2019 bis](/2019/12/31/my-history-in-gadgets-update-2019-bis/) and
 [2020](/2020/06/26/my-history-in-gadgets-update-2020/) updates:
 
-_**Tablet history:**_
+## Tablet history
 
-My partner took over my Samsung Galaxy Tab S6, and I upgraded to the
+### [Samsung Galaxy Tab S7+](https://www.gsmarena.com/samsung_galaxy_tab_s7+-10336.php)
 
-**[Samsung Galaxy Tab S7+](https://www.gsmarena.com/samsung_galaxy_tab_s7+-10336.php)  
-![Samsung Galaxy Tab S7+](/assets/img/posts/2020/09/galaxy-tab-s7plus.png)**
-specifically for the bigger screen. I'm fairly active in music (choirs), so a bigger screen is a bonus.
+![Samsung Galaxy Tab S7+](/assets/img/posts/2020/09/galaxy-tab-s7plus.png){: .normal}
+
+My partner took over my Samsung Galaxy Tab S6, and I upgraded to the Samsung Galaxy Tab S7+, specifically for the bigger screen. I'm fairly active in music (choirs), so a bigger screen is a bonus.
