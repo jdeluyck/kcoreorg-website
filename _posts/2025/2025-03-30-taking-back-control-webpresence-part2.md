@@ -10,8 +10,7 @@ tags:
 description: It's always a DNS problem, even when it isn't.
 ---
 
-<!-- markdownlint-disable-next-line -->
-*The first part where I ramble about VPS providers and a containers can be found [here](/2025/03/15/taking-back-control-webpresence-part1/).*
+*This is the second installment of a series of posts about taking back control of my web presence. In [the first part](/2025/03/15/taking-back-control-webpresence-part1/) I ramble about VPS providers and containers.*
 
 I have several domains in use, spread over the [.org](https://en.wikipedia.org/wiki/.org) and [.be](https://en.wikipedia.org/wiki/.be) TLD's. The .org ones are currently registered at [Cloudflare](https://cloudflare.com), the .be ones at a local registrar.
 
