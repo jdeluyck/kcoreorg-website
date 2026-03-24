@@ -17,4 +17,4 @@ Today I was trying for the 3rd time to get it to work, using [CoRD](https://cord
 
 This gave me the idea of using [Microsoft Remote Desktop Connection Client for Mac 2 Public Beta](http://connect.microsoft.com/macrdc), to see if it might be a problem with the client... and yup, it is.
 
-Seems CoRD 0.4.3 (the current stable) is unable to handle the output of xrdp. I now installed the [0.5 beta 1](http://sourceforge.net/forum/forum.php?forum_id=790899) which works without any problems.
+Seems CoRD 0.4.3 (the current stable) is unable to handle the output of xrdp. I now installed the [0.5 beta 1](https://sourceforge.net/forum/forum.php?forum_id=790899) which works without any problems.

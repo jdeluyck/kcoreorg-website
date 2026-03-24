@@ -11,5 +11,5 @@ I've just released [phptelemeter 1.32](http://phptelemeter.kcore.org/). This ver
 * Added parser simulators for single and separate quotas, for easier development
 * Added option to change your publisher at runtime
 * Added a nice CSS theme to the html publisher (XHTML compliant)
-* Implemented state-tracking for emails (feature request: [1718771](http://sourceforge.net/tracker/index.php?func=detail&aid=1718771&group_id=149435&atid=774603))
-* Implemented red-hilighting when you pass a certain percentage (feature request: [1718774](http://sourceforge.net/tracker/index.php?func=detail&aid=1718774&group_id=149435&atid=774603))
+* Implemented state-tracking for emails (feature request: [1718771](https://sourceforge.net/tracker/index.php?func=detail&aid=1718771&group_id=149435&atid=774603))
+* Implemented red-hilighting when you pass a certain percentage (feature request: [1718774](https://sourceforge.net/tracker/index.php?func=detail&aid=1718774&group_id=149435&atid=774603))
