@@ -11,7 +11,7 @@ I can’t go on like this.
 I try counting sheep,  
 But there’s one I always miss.
 
-Everyone says I’m getting down too low
+Everyone says I’m getting down too low  
 Everyone says: "You just gotta let it go"  
 "You just gotta let it go"  
 I just gotta let it go
@@ -26,6 +26,6 @@ Everyone says: "You just gotta let it go"
 "You just gotta let it go"  
 I just gotta let it go
 
-You just gotta let it go
+You just gotta let it go  
 You just gotta let it go  
 You just gotta let it go

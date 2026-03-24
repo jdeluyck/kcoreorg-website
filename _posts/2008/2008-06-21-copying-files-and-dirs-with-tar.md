@@ -17,10 +17,12 @@ Copying a directory tree and its contents to another filesystem using tar will p
 
 To copy all of the files and subdirectories in the current working directory to the directory /destination, use:
 
-`tar cf - * | ( cd /destination; tar xfp -)`
+```bash
+tar cf - * | ( cd /destination; tar xfp -)
+```
 
-The first part of the command - tar - makes a tarball of all the files, and writes this to stdout. The second part of the command part will first change directory, and then extract the tarball in that location, reading from it's stdin.
+The first part of the command - `tar` - makes a tarball of all the files, and writes this to stdout. The second part of the command part will first change directory, and then extract the tarball in that location, reading from it's stdin.
 
 Since the cd and tar commands are contained within parentheses, their actions are performed together.
 
-The _p_ option in the tar command instructs tar to preserve the permission and ownership information, if possible. So if you want to move a lot of files around, it's advisable to do so with the root user to keep all them permissions!
+The _`p`_ option in the tar command instructs tar to preserve the permission and ownership information, if possible. So if you want to move a lot of files around, it's advisable to do so with the root user to keep all them permissions!

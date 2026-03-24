@@ -197,36 +197,53 @@ Now, since I want both the X servers to be available at boot time, and I'm using
 
 In the `[General]` section, look for a line reading:
 
-`StaticServers=:0`
+```ini
+StaticServers=:0
+```
 
 change it to:
 
-`StaticServers=:0,:1`
+```ini
+StaticServers=:0,:1
+```
 
 Also, change:
-`ReserveServers=:1,:2,:3`
+
+```ini
+ReserveServers=:1,:2,:3`
+```
 
 to:
 
-`ReserveServers=:2,:3`
+```ini
+ReserveServers=:2,:3`
+```
 
 Next, look for the `[X-:0-Core]` section, and copy the entire block, creating a second block with the section name `[X-:1-Core]`.
 
 In the `[X-:0-Core]` section, look for the line
 
-`ServerArgsLocal=-br -nolisten tcp`
+```ini
+ServerArgsLocal=-br -nolisten tcp`
+```
 
 and change it to
 
-`ServerArgsLocal=-br -nolisten tcp -layout seat0 -sharevts -novtswitch -isolateDevice PCI:2:0:0`
+```ini
+ServerArgsLocal=-br -nolisten tcp -layout seat0 -sharevts -novtswitch -isolateDevice PCI:2:0:0`
+```
 
 In the `[X-:1-Core]` section, look for the line
 
-`ServerArgsLocal=-br -nolisten tcp`
+```ini
+ServerArgsLocal=-br -nolisten tcp`
+```
 
 and change it to
 
-`ServerArgsLocal=-br -nolisten tcp -layout seat1 -sharevts -novtswitch -isolateDevice PCI:1:5:0`
+```ini
+ServerArgsLocal=-br -nolisten tcp -layout seat1 -sharevts -novtswitch -isolateDevice PCI:1:5:0`
+```
 
 One KDM restart later (`/etc/init.d/kdm restart`) you should have two X servers running, both on their respective screens!
 

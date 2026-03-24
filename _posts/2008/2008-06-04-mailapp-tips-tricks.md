@@ -26,12 +26,15 @@ Here are some handy things for Mail.app to fix some of it's shortcomings:
     You can type them in the "Email Address" field, separated by comma's.
 * "Go to next unread message":  
     Use something like [Fastscripts](http://www.red-sweater.com/fastscripts/) with the following AppleScript (from [Macscripter](http://macscripter.net/viewtopic.php?pid=62563#p62563))
-    > tell application "Mail" to try  
-    > tell message viewer 1 to set selected messages to {first message of beginning of (get selected mailboxes) whose read status is false}  
-    > activate  
-    > on error  
-    > beep  
-    > end try
+
+    ```text
+tell application "Mail" to try  
+tell message viewer 1 to set selected messages to {first message of beginning of (get selected mailboxes) whose read status is false}  
+activate  
+on error  
+beep  
+end try
+    ```
 
 What I still need:
 
