@@ -29,7 +29,7 @@ Don't forget to revert back to `DEFAULT` after you're done with your work.
 sudo update-crypto-policies --set DEFAULT
 ```
 
-Update: another way to fix this (which is less invasive) is to add the following to `~/.ssh/config`:
+Update: another way to fix this (which is less invasive) is to add the following to `~/.ssh/config`{: .filepath}:
 
 ```text
 host <ip range or hostname of your ubiquiti device>

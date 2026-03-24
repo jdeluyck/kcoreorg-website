@@ -22,7 +22,7 @@ Luckely, the solution is fairly simple:
 * [nginx](https://nginx.org) to serve it as a web page (so my podcast app can download it)
 * and a tiny bit of scripting.
 
-In this example I'm dumping the files in `~/public_html/oth-overtime`. I'm also hosting this just on a VM on my internal network.
+In this example I'm dumping the files in `~/public_html/oth-overtime`{: .filepath}. I'm also hosting this just on a VM on my internal network.
 
 You'll also need to get some image to show for the podcast. I picked the green mailbox which is used on a bunch of the live streams.
 
