@@ -12,7 +12,7 @@ _"Why did you become a vegetarian?"_ - It's one of those questions I get asked f
 
 (Bit of a backstory: I come from a rural home, so I'm no stranger to the 'meet your meat' kind of thing - I've fed, petted, played, and (helped) kill animals that were bred for their meat. Can't say I enjoyed the latter part, but it was a part of life.)
 
-My original reasons were very.. eh..  selfish: _I'm lazy_.
+My original reasons were very.. eh.. selfish: _I'm lazy_.
 
 As my girlfriend was living with me (at my parents house) during a sabbatical year she was taking, and combined with the odd hours I was working (two shifts), she cooked for the two of us. Already being a vegetarian, she cooked a veggy meal - but in no way opposed if I would want to cook a piece of meat. But, as I said: I'm lazy. It also opened up my palate to the wonderful world of vegetarian food, meat replacements, spices, ...
 

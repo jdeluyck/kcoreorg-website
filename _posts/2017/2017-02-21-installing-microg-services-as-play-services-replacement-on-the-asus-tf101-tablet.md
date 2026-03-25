@@ -11,7 +11,7 @@ tags:
   - nvidia tegra 2
 ---
 
-I still have an [Asus Transformer TF101](http://www.gsmarena.com/asus_transformer_tf101-3936.php) tablet in use - running MarshMallow - but after a Play Services upgrade, in which Google inserted some [NEON instructions](https://en.wikipedia.org/wiki/ARM_architecture#NEON) (which the TF101 does not support) , a lot of "Play Services has stopped working" popups showed up  - making the tablet nigh unusable. Initial tests blocking upgrade of the services yielded no success, and a lot of programs demand the newer versions of the services anyway.
+I still have an [Asus Transformer TF101](http://www.gsmarena.com/asus_transformer_tf101-3936.php) tablet in use - running MarshMallow - but after a Play Services upgrade, in which Google inserted some [NEON instructions](https://en.wikipedia.org/wiki/ARM_architecture#NEON) (which the TF101 does not support) , a lot of "Play Services has stopped working" popups showed up - making the tablet nigh unusable. Initial tests blocking upgrade of the services yielded no success, and a lot of programs demand the newer versions of the services anyway.
 
 In my searches I ran across the [microG Project](https://microg.org/) - "_A free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries_." Sounded interesting, so I went and tried it, with success, on the tablet. It runs faster, battery life is better, and it works for everything I use it for.
 
