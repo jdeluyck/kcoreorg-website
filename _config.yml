@@ -220,6 +220,8 @@ exclude:
   - "package*.json"
   - ".rumdl_cache"
   - ".rumdl.toml"
+  - ".wayback_cache.json"
+  - "tools/*"
 
 jekyll-archives:
   enabled: [categories, tags]

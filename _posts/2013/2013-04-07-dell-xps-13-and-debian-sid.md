@@ -10,7 +10,7 @@ tags:
   - sid
 ---
 
-I purchased a [Dell](http://www.dell.be) [XPS 13 Ultrabook](http://www.dell.com/be/p/xps-13-l321x-mlk/pd), to replace my ageing [Apple](https://www.apple.com/) [Macbook 2,1](https://en.wikipedia.org/wiki/MacBook). After six years of daily use, it's (over)due to retire.
+I purchased a [Dell](http://www.dell.be) [XPS 13 Ultrabook](http://www.dell.com/be/p/xps-13-l321x-mlk/pd), to replace my ageing [Apple](https://www.apple.com/) [Macbook 2,1](https://en.wikipedia.org/wiki/MacBook_(2006%E2%80%932012)). After six years of daily use, it's (over)due to retire.
 
 The reasons for not going for another Apple product:
 
