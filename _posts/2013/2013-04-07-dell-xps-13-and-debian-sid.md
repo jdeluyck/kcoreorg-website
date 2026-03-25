@@ -10,7 +10,7 @@ tags:
   - sid
 ---
 
-I purchased a [Dell](http://www.dell.be) [XPS 13 Ultrabook](http://www.dell.com/be/p/xps-13-l321x-mlk/pd), to replace my ageing [Apple](http://www.apple.com) [Macbook 2,1](https://en.wikipedia.org/wiki/MacBook). After six years of daily use, it's (over)due to retire.
+I purchased a [Dell](http://www.dell.be) [XPS 13 Ultrabook](http://www.dell.com/be/p/xps-13-l321x-mlk/pd), to replace my ageing [Apple](https://www.apple.com/) [Macbook 2,1](https://en.wikipedia.org/wiki/MacBook). After six years of daily use, it's (over)due to retire.
 
 The reasons for not going for another Apple product:
 
@@ -115,7 +115,7 @@ should this happen while the machine is in a backpack and start to heat up). I'v
 about it. The fix seems to be to disable "Smart Connect" in the BIOS. I've tried it here, seems to work.
 
 **Touchpad isn't recognized as a touchpad**  
-The patches to support the touchpad are on route to be included in [kernel 3.9](http://www.kernel.org), but (at the time of writing)
+The patches to support the touchpad are on route to be included in [kernel 3.9](https://www.kernel.org/), but (at the time of writing)
 that one hasn't been released yet. So we need to take the latest kernel available in Debian Experimental (3.8.5) and patch this with the driver.
 Luckely Debian has [The Linux Kernel Handbook](http://kernel-handbook.alioth.debian.org/ch-common-tasks.html) which explains how to do all this the proper Debian way ;)
 

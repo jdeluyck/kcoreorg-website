@@ -39,7 +39,7 @@ In the beginning of 2016, iBood had a sale of Pebble Time watches, at a pricepoi
 ![mypebble](/assets/img/posts/2016/06/mypebble-300x300.jpg "mypebble")
 
 First thing I did was stick a [bezel](http://www.gadgetwraps.com/devices/smartwatch/pebble/pebble-time/pebble-time-matte-clear-bezel-skin/) and
-[screen](http://www.gadgetwraps.com/devices/smart-watch/pebble-watch/pebble-time/full-screen-protector-pebble-time.html) protector from [GadgetWraps](http://www.gadgetwraps.com) on it, as I had read everywhere that the thing is very easy to damage. (you have _no idea_ how weird it feels to dunk a technologically advanced device in water - check the installation videos). After that I put it on, installed the [Pebble app](https://play.google.com/store/apps/details?id=com.getpebble.android.basalt&hl=en) and started tinkering away...
+[screen](http://www.gadgetwraps.com/devices/smart-watch/pebble-watch/pebble-time/full-screen-protector-pebble-time.html) protector from [GadgetWraps](https://www.gadgetwraps.com/) on it, as I had read everywhere that the thing is very easy to damage. (you have _no idea_ how weird it feels to dunk a technologically advanced device in water - check the installation videos). After that I put it on, installed the [Pebble app](https://play.google.com/store/apps/details?id=com.getpebble.android.basalt&hl=en) and started tinkering away...
 
 Things I absolutely love about this watch:
 

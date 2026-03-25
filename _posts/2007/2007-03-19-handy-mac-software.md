@@ -19,7 +19,7 @@ Freeware apps:
 * [Growl!](http://growl.info/): notification system
 * [iCyclone](http://www.alitacrew.org/icyclone/): fan controller
 * [iStumbler](http://www.istumbler.net/): network stumbling tool
-* [iTerm](http://iterm.sourceforge.net): the terminal redefined
+* [iTerm](https://iterm.sourceforge.net/): the terminal redefined
 * [KisMAC](http://kismac.de): Wireless Network Stumbler
 * [Monolingual](http://monolingual.sourceforge.net/): Delete unneccesary languages
 * [NeoOffice](http://www.neooffice.org): Office suite for Mac (based on OpenOffice)
@@ -39,7 +39,7 @@ Freeware apps:
 Non-free software:
 
 * [MenuCalendarClock](http://www.objectpark.net/mcc.html): unfolding menulet calendar with iCal integration
-* [Parallels](http://www.parallels.com): Virtualisation software
+* [Parallels](https://www.parallels.com/): Virtualisation software
 * [Roxio Toast](http://www.roxio.com/enu/products/toast/titanium/overview.html): CD/DVD burning
 * [Transmit](https://www.panic.com/transmit/): FTP/SCP client
 * [Unison](http://www.panic.com/unison/): Usenet (NNTP) client

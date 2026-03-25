@@ -13,7 +13,7 @@ tags:
   - magnificat
 ---
 
-The choir [Cantabile](http://www.cantabile.be), together with [Furiant](http://www.furiant.be) and the Ghent Baroque Players are performing:
+The choir [Cantabile](https://cantabile.be/), together with [Furiant](https://artemusicale.be/ensembles/kamerkoor-furiant/) and the Ghent Baroque Players are performing:
 
 [Magnificat](https://en.wikipedia.org/wiki/Magnificat)
 

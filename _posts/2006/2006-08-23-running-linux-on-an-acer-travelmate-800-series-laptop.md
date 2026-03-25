@@ -83,7 +83,7 @@ USB worked out of the box by loading the following modules:
 * `ehci-hcd` (USB 2 support)
 * `usbcore` (which is automatically loaded by the previous ones)
 
-It is advisable to install [the hotplug system](http://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](https://packages.debian.org/hotplug) package.
+It is advisable to install [the hotplug system](https://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](https://packages.debian.org/hotplug) package.
 
 ### 10/100 MBit ethernet LAN
 
@@ -174,7 +174,7 @@ You can use `/dev/hdx`{: .filepath} (the cdrom device) directly for cd burning.
 
 Hardeware: Cambridge Silicon Radio, Ltd - connected to the USB bus.
 
-Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install [hotplug](http://linux-hotplug.sourceforge.net/) the driver will be loaded automatically if you press the bluetooth button!
+Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install [hotplug](https://linux-hotplug.sourceforge.net/) the driver will be loaded automatically if you press the bluetooth button!
 
 Debian users might want to install the [bluetooth](https://packages.debian.org/bluetooth) package.
 
@@ -212,7 +212,7 @@ You need this if you don't want your CPU to eat your batteries empty. It's inclu
 
 It works perfectly after loading the `speedstep-centrino` and any of the `cpufreq-` modules.
 
-You can either install the `[cpufreqd](http://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
+You can either install the `[cpufreqd](https://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
 I use [this init script](#) to setup everything at bootup.
 
 For Debian, check the [cpufreqd](https://packages.debian.org/cpufreqd) or [powernowd](https://packages.debian.org/powernowd) packages.
@@ -238,7 +238,7 @@ For usage instructions, see [the Gentoo wiki](http://gentoo-wiki.com/Gentoo_Acer
 
 Hardware: O2 Micro, Inc. OZ711M1 SmartCardBus MultiMediaBay Controller
 
-You have to install the [pcmcia_cs](http://pcmcia-cs.sourceforge.net/) or (for recent kernels) the [pcmciautils](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html) package, and enable the `yenta_socket` module in the kernel.
+You have to install the [pcmcia_cs](https://pcmcia-cs.sourceforge.net/) or (for recent kernels) the [pcmciautils](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html) package, and enable the `yenta_socket` module in the kernel.
 
 For Debian, check the [pcmcia-cs](https://packages.debian.org/pcmcia-cs) or the [pcmciautils](https://packages.debian.org/pcmciautils) package.
 
@@ -378,15 +378,15 @@ Debian users can install the [xfree86-driver-synaptics](https://packages.debian.
 * Acer: [http://www.acer.com](http://www.acer.com/)
 * Centrino: [http://www.intel.com/home/notebook/centrino/index.htm](http://www.intel.com/home/notebook/centrino/index.htm)
 * CPUFreq CVS patches: [ftp://ftp.linux.org.uk/pub/linux/cpufreq/](ftp://ftp.linux.org.uk/pub/linux/cpufreq/)
-* Kernel: [http://www.kernel.org](http://www.kernel.org/)
+* Kernel: [www.kernel.org](https://www.kernel.org/)
 * Linux on mobile computers: [http://www.tuxmobil.com/](http://www.tuxmobil.com/)
-* Linux-on-laptops: [http://www.linux-on-laptops.com](http://www.linux-on-laptops.com/)
-* Linux hotplug: [http://linux-hotplug.sourceforge.net/](http://linux-hotplug.sourceforge.net/)
+* Linux-on-laptops: [linux-on-laptops.com](https://linux-on-laptops.com/)
+* Linux hotplug: [linux-hotplug.sourceforge.net](https://linux-hotplug.sourceforge.net/)
 * Modem manufacturer: [http://www.agere.com/](http://www.agere.com/)
 * Winmodems on linux: [http://www.linmodems.org/](http://www.linmodems.org/)
 * Smartlink Linux drivers: [http://linmodems.technion.ac.il/packages/smartlink/](http://linmodems.technion.ac.il/packages/smartlink/)
-* CPUFreq daemon: [http://cpufreqd.sourceforge.net/](http://cpufreqd.sourceforge.net/)
-* PCMCIA-CS Linux package: [http://pcmcia-cs.sourceforge.net/](http://pcmcia-cs.sourceforge.net/)
+* CPUFreq daemon: [cpufreqd.sourceforge.net](https://cpufreqd.sourceforge.net/)
+* PCMCIA-CS Linux package: [pcmcia-cs.sourceforge.net](https://pcmcia-cs.sourceforge.net/)
 * PCMCIAUtils (2.6.12+ kernels): [http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html)
 * SmartCard driver: [http://www.musclecard.com/sourcedrivers.html](http://www.musclecard.com/sourcedrivers.html)
 * Synaptics Touchpad driver for XFree86: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)

@@ -9,7 +9,7 @@ tags:
   - mtls
 ---
 
-I'm a big fan of [Home Assistant](https://home-assistant.io), and until now I only had it accessible from inside my own network. Outside access was only possible through a [WireGuard](https://www.wireguard.com/) VPN.
+I'm a big fan of [Home Assistant](https://www.home-assistant.io/), and until now I only had it accessible from inside my own network. Outside access was only possible through a [WireGuard](https://www.wireguard.com/) VPN.
 This works, but isn't very practical - definitely when I quickly want to check something, or need to diagnose something while on the road, having to toggle the VPN &amp; hope that the DNS resolution works (which sometimes it doesn't) - the extra hoops make it annoying.
 Add to that that the location features of Home Assistant aren't useful until the location of the device is updated in Home Assistant...
 

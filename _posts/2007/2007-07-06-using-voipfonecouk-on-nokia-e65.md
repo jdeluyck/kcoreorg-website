@@ -11,7 +11,7 @@ tags:
 
 I recently bought a [Nokia E65](http://europe.nokia.com/A4344227), a very classy, handy, and feature-packed phone. One of the reasons I went with this one is because it has WiFi, which I want to use for making internet-calls. The [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) client is a bit of [pita](http://www.auditmypc.com/acronym/PITA.asp) though to configure, but I finally managed to get it working.
 
-How to configure the [voipfone.co.uk](http://www.voipfone.co.uk) voip service:
+How to configure the [voipfone.co.uk](https://www.voipfone.co.uk/) voip service:
 
 > **General info:**  
 > Profile Name: Voipfone  

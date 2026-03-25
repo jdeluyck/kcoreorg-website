@@ -12,7 +12,7 @@ tags:
   - wonky
 ---
 
-In another episode of totally wonky legal battles, [eBay](http://www.ebay.com) was [found guilty](http://afp.google.com/article/ALeqM5ieVhlM9xNEzcmDtrdw6ToFLtkRAg) of selling counterfeit [Hermes](http://www.hermes.com/) handbags by a french court.
+In another episode of totally wonky legal battles, [eBay](https://www.ebay.com/) was [found guilty](http://afp.google.com/article/ALeqM5ieVhlM9xNEzcmDtrdw6ToFLtkRAg) of selling counterfeit [Hermes](http://www.hermes.com/) handbags by a french court.
 
 So, let me get this straight:
 

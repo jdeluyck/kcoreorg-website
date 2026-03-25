@@ -9,7 +9,7 @@ tags:
   - world of goo
 ---
 
-A good friend of mine introduced me to a new game: [World Of Goo!](http://www.worldofgoo.com)
+A good friend of mine introduced me to a new game: [World Of Goo!](http://worldofgoo.com/)
 
 I've finished the demo, and it's damned addictive ;)
 

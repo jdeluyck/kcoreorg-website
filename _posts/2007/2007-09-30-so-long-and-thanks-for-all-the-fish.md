@@ -7,7 +7,7 @@ tags:
   - work
 ---
 
-As some of you might already know, last friday was my last day of work for [Tri-enniuM](http://www.triennium.com/) (and ergo, [Reuters](http://www.reuters.com) and [KBC](http://www.kbc.be)). I went to say goodbye at our head-office in Rotterdam on the 25th, gave a farewell drink for the collegues at KBC on the 26th, and finally left the company on the 28th. It's still somewhat strange, being that this was my first job after leaving school. Oh well, we move on in life...
+As some of you might already know, last friday was my last day of work for [Tri-enniuM](http://www.triennium.com/) (and ergo, [Reuters](https://www.reuters.com) and [KBC](https://www.kbc.be)). I went to say goodbye at our head-office in Rotterdam on the 25th, gave a farewell drink for the collegues at KBC on the 26th, and finally left the company on the 28th. It's still somewhat strange, being that this was my first job after leaving school. Oh well, we move on in life...
 
 During my farewell drink I was pleasently surprised by Reuters: they gave me a bag of Reuters goodies (yeah, yeah, I can hear you people already, but they're nice and I appreciate the gesture and they'll come in handy!)
 

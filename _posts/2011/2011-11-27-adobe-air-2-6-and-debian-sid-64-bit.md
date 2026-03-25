@@ -37,7 +37,7 @@ lrwxrwxrwx 1 root root      17 Sep  5  2010 libqt-mt.so.3.3 -> libqt-mt.so.3.3.8
 -rw-r--r-- 1 root root 7515480 Sep  5  2010 libqt-mt.so.3.3.8
 ```
 
-Retry the installer, still didn't go further. After some more digging, I found [an article detailing the use of AIR on non-KDE and non-Gnome systems](http://kb2.adobe.com/cps/492/cpsid_49267.html) on the Adobe Knowledge base. (I use a mix of [Gnome](https://www.gnome.org/), [GTK](https://www.gtk.org/) and [KDE](https://kde.org/) apps, with [XFCE](http://www.xfce.org) as desktop environment)
+Retry the installer, still didn't go further. After some more digging, I found [an article detailing the use of AIR on non-KDE and non-Gnome systems](http://kb2.adobe.com/cps/492/cpsid_49267.html) on the Adobe Knowledge base. (I use a mix of [Gnome](https://www.gnome.org/), [GTK](https://www.gtk.org/) and [KDE](https://kde.org/) apps, with [XFCE](https://www.xfce.org/) as desktop environment)
 
 What I had to do was run the following commands before launching the installer:  
 

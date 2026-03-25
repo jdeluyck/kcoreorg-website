@@ -10,7 +10,7 @@ tags:
 
 **Note: This is at your own risk. If you fry your phone, your problem, not mine.**
 
-I recently got an [HTC](http://www.htc.com/) [Hero](http://www.htc.com/www/product/hero/overview.html). Great phone, I'm loving the [Android](http://www.android.com) platform. Pity that you don't have full access to it, and I actually wanted to merge my old phone (Nokia E65)'s SMS database into this one, so I needed full access.
+I recently got an [HTC](http://www.htc.com/) [Hero](http://www.htc.com/www/product/hero/overview.html). Great phone, I'm loving the [Android](https://www.android.com/) platform. Pity that you don't have full access to it, and I actually wanted to merge my old phone (Nokia E65)'s SMS database into this one, so I needed full access.
 
 (Un)fortunately, these days the HTC Hero comes with the latest firmware, 2.73.1100.5, which on the one hand makes rooting harder (fixes several bugs and [fastboot](http://android-dls.com/wiki/index.php?title=Fastboot) no longer works) but on the other hand makes the phone respond a lot better.
 

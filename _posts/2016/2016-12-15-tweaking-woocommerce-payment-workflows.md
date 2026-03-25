@@ -11,7 +11,7 @@ tags:
   - wordpress
 ---
 
-I'm playing part-time webmaster for the [choir](http://artemusicale.be/ensembles/kamerkoor-furiant/) I sing in, and as such, am getting up close and personal with [WooCommerce](https://woocommerce.com/). Quite a nifty shopping cart, but it does require a lot of tweaks to really make it work to your liking - unless you're willing to shell out a lot of cash.
+I'm playing part-time webmaster for the [choir](https://artemusicale.be/ensembles/kamerkoor-furiant/) I sing in, and as such, am getting up close and personal with [WooCommerce](https://woocommerce.com/). Quite a nifty shopping cart, but it does require a lot of tweaks to really make it work to your liking - unless you're willing to shell out a lot of cash.
 
 The latest modification was changing the workflow of the payment gateways - more specifically, the [BACS gateway](https://docs.woocommerce.com/document/bacs/) (Bank Account Clearing System - or as we mortals call it, [wire transfer](https://en.wikipedia.org/wiki/Wire_transfer)).
 

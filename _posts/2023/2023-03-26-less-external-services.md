@@ -13,7 +13,7 @@ tags:
 
 So back in 2019 I [moved the site](/2019/06/26/a-new-home/) from [WordPress](https://wordpress.org/) to [Jekyll](https://jekyllrb.com/) (using [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)), and from [Gandi](https://www.gandi.net/) to [AWS Serverless](https://aws.amazon.com/serverless/).
 
-About a year later I moved it to [Github Pages](https://pages.github.com/), which [supports Jekyll out of the box](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). Site was fronted with [Cloudflare](https://cloudflare.com) for HTTPS.
+About a year later I moved it to [Github Pages](https://pages.github.com/), which [supports Jekyll out of the box](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll). Site was fronted with [Cloudflare](https://www.cloudflare.com/) for HTTPS.
 
 Some changes I've done this week:
 

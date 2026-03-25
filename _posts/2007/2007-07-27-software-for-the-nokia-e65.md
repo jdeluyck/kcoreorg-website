@@ -26,8 +26,8 @@ After owning my Nokia E65 for about a month, here's the list of apps I installed
 * [Reflect Theme](/2007/07/27/reflect-theme-for-symbian/)
 * [Screenshot](https://www.antonypranata.com/screenshot/)
 * [TextQuick](http://mind-flip.com/textquick/index.html)
-* [TomTom](http://www.tomtom.com)
-* [Truphone](http://www.truphone.com)
+* [TomTom](https://www.tomtom.com/)
+* [Truphone](https://www.truphone.com/)
 * [Y-Browser](http://www.drjukka.com/YBrowser.html) (+ plugins)
 * [RemindMe](http://www.mobifunsoft.com/RemindMe.html)
 

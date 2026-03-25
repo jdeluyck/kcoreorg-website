@@ -21,7 +21,7 @@ The reasons I wanted to get rid of it:
 The only thing the device is used for is
 
 * [iTunes](https://www.apple.com/itunes/) to manage an [iPod classic](https://en.wikipedia.org/wiki/IPod_Classic), and to auto-rip newly bought CD's
-* Using [Videostream](http://getvideostream.com) to cast movies to our Chromecast
+* Using [Videostream](https://getvideostream.com/) to cast movies to our Chromecast
 * Playing music from the audio library to the connected amplifier
 
 Not much, really. So, in the end, being tired of the general slowness of the device, I bit the bullet, [exchanged](https://www.ifixit.com/Device/Mac_Mini_Model_A1176) the old 80GB hard disk with a newer and bigger model, and went on the journey to install Debian on it.

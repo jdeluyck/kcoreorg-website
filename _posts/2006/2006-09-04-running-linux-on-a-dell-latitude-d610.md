@@ -74,7 +74,7 @@ USB worked out of the box by loading the following modules:
 * `ehci-hcd` (USB 2 support)
 * `usbcore` (which is automatically loaded by the previous ones)
 
-It is advisable to install [the hotplug system](http://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](https://packages.debian.org/hotplug) package.
+It is advisable to install [the hotplug system](https://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](https://packages.debian.org/hotplug) package.
 
 These days you're actually better of installing the [udev](https://packages.debian.org/udev) package, which also handles hotplug.
 
@@ -142,7 +142,7 @@ This is rumored to work with the standard `i810` X.Org driver. Not tested.
 
 Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Modem Controller - Winmodem.
 
-This modem can be gotten to work using the [Linuxant](http://www.linuxant.com/) [HSF Softmodem drivers](http://www.linuxant.com/drivers/hsf/index.php). Unfortunately, they are payware.  
+This modem can be gotten to work using the [Linuxant](https://www.linuxant.com/) [HSF Softmodem drivers](https://www.linuxant.com/drivers/hsf/index.php). Unfortunately, they are payware.  
 They also have a limited-speed test driver, you can see if that works for you before deciding to buy the driver.
 
 NOTE: You have to compile your kernel **without `CONFIG_4KSTACKS`!** If you use this driver with 4K stacks enabled, it \_will\_ crash your system!
@@ -159,7 +159,7 @@ You can use `/dev/scd0`{: .filepath} (the cdrom device) directly for cd burning.
 
 Hardeware: Dell Wireless 350 Bluetooth - connected to the USB bus.
 
-Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install [hotplug](http://linux-hotplug.sourceforge.net/) the driver will be loaded automatically if you press the bluetooth button!
+Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install [hotplug](https://linux-hotplug.sourceforge.net/) the driver will be loaded automatically if you press the bluetooth button!
 
 Debian users might want to install the [buetooth](https://packages.debian.org/buetooth) package.
 
@@ -183,7 +183,7 @@ You need this if you don't want your CPU to eat your batteries empty. It's inclu
 
 It works perfectly after loading the `speedstep-centrino` and any of the `cpufreq-` modules.
 
-You can either install the `[cpufreqd](http://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
+You can either install the `[cpufreqd](https://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
 I use [this init script](/assets/files/2006/09/dell-d610-cpufreq_setup.txt) to setup everything at bootup.
 
 For Debian, check the [cpufreqd](https://packages.debian.org/cpufreqd) or [powernowd](https://packages.debian.org/powernowd) packages.
@@ -261,7 +261,7 @@ Not yet tried.
 
 This works pretty well - there are some caveats to take note off tho:
 
-[This site](http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux) has some hints with respect to the SATA side of suspending.
+[This site](https://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux) has some hints with respect to the SATA side of suspending.
 
 On kernels < 2.6.16 you have to apply [this patch](http://tpctl.sourceforge.net/tmp/sata_pm.2.6.15-rc6.patch) to get the SATA suspend/resume to work.
 
@@ -344,13 +344,13 @@ What we basically do is `echo 0x80000001 > /proc/acpi/video/VID/LCD/state`, whic
 * 915resolution: [http://www.geocities.com/stomljen/](http://www.geocities.com/stomljen/)/li>
 * Intel PRO/Wireless 2915AB linux driver: [http://ipw2200.sourceforge.net/](http://ipw2200.sourceforge.net/)
 * Hotkeys program: [http://ftp.debian.org/debian/pool/main/h/hotkeys/](http://ftp.debian.org/debian/pool/main/h/hotkeys/)
-* Kernel: [http://www.kernel.org](http://www.kernel.org/)
+* Kernel: [www.kernel.org](https://www.kernel.org/)
 * Linux on mobile computers: [http://www.tuxmobil.com/](http://www.tuxmobil.com/)
-* Linux-on-laptops: [http://www.linux-on-laptops.com](http://www.linux-on-laptops.com/)
-* Linux hotplug: [http://linux-hotplug.sourceforge.net/](http://linux-hotplug.sourceforge.net/)
-* SATA and Linux: [http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux](http://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux)
+* Linux-on-laptops: [linux-on-laptops.com](https://linux-on-laptops.com/)
+* Linux hotplug: [linux-hotplug.sourceforge.net](https://linux-hotplug.sourceforge.net/)
+* SATA and Linux: [www.thinkwiki.org](https://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux)
 * PCMCIAUtils (2.6.12+ kernels): [http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html)
 * Synaptics Touchpad driver for XFree86/Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
 * Winmodems on linux: [http://www.linmodems.org/](http://www.linmodems.org/)
-* Linuxant modem drivers: [http://www.linuxant.com/drivers/hsf/index.php](http://www.linuxant.com/drivers/hsf/index.php)
-* Linuxant: [http://www.linuxant.com/](http://www.linuxant.com/)
+* Linuxant modem drivers: [www.linuxant.com](https://www.linuxant.com/drivers/hsf/index.php)
+* Linuxant: [https://www.linuxant.com/](https://www.linuxant.com/)

@@ -6,4 +6,4 @@ categories: [Hobbies & Interests, Comics]
 
 ![Applying for an IT job...](/assets/img/posts/2012/06/itjobs.jpg)
 
-(&copy; [Explosm.net](http://explosm.net))
+(&copy; [Explosm.net](https://explosm.net/))

@@ -18,7 +18,7 @@ After the outcome of the recent US elections and the ass-kissing of Big Techâ„¢ï
 
 Some of the things I want to move:
 
-* static sites ([GitHub pages](https://pages.github.com/), [Backblaze B2](https://www.backblaze.com/cloud-storage) + [Cloudflare](https://cloudflare.com)
+* static sites ([GitHub pages](https://pages.github.com/), [Backblaze B2](https://www.backblaze.com/cloud-storage) + [Cloudflare](https://www.cloudflare.com/)
 * dynamic sites (all over the place)
 * code hosting ([GitHub](https://github.com))
 * my Mastodon instance ([Oracle Cloud](https://www.oracle.com/cloud/))

@@ -15,7 +15,7 @@ I "recently" ordered (after doing some research) a [Raidsonic](http://www.raidso
 * dual disk support with JBOD/Mirror/Stripe
 * runs linux
 * Samba/NFS/FTP/iTunes server
-* community site [http://www.nas-4220.org/](http://www.nas-4220.org)
+* community site [nas-4220.org](https://nas-4220.org/)
 * low power consumtion
 * quiet
 * ...

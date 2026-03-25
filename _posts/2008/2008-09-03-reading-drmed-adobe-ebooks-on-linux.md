@@ -8,7 +8,7 @@ tags:
   - linux
 ---
 
-Sade linked me to this nice ebook by [Neil Gaiman](http://www.neilgaiman.com/), [Neverwhere](http://www.harpercollinsebooks.com/5D480A75-62F5-4864-BC31-54620E34D7AC/10/125/en/NeilGaiman). Unfortunately, you need [Adobe](http://www.adobe.com/) [Digital Editions](http://www.adobe.com/products/digitaleditions/) for it, which only exists for Windows and Mac. Since she's a Linux user, that one didn't really fly with her.
+Sade linked me to this nice ebook by [Neil Gaiman](https://www.neilgaiman.com/), [Neverwhere](http://www.harpercollinsebooks.com/5D480A75-62F5-4864-BC31-54620E34D7AC/10/125/en/NeilGaiman). Unfortunately, you need [Adobe](http://www.adobe.com/) [Digital Editions](http://www.adobe.com/products/digitaleditions/) for it, which only exists for Windows and Mac. Since she's a Linux user, that one didn't really fly with her.
 
 So, to get that thing to work, here's a very low-tech way of doing it:
 
