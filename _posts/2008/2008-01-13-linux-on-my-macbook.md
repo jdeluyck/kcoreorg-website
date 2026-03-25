@@ -26,7 +26,7 @@ Things that need to work still:
 
 Sources I'm using at the moment:
 
-* [http://wiki.debian.org/MacBook](http://wiki.debian.org/MacBook)
+* [wiki.debian.org](https://wiki.debian.org/MacBook)
 * [http://wikigentoo.ksiezyc.pl/Apple_Mac_Pro.htm](http://wikigentoo.ksiezyc.pl/Apple_Mac_Pro.htm)
 
 I'll write a detailed post on this later... when I'm not uberly lazy ;)

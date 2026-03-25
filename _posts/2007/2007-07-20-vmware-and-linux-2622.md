@@ -29,7 +29,7 @@ How to fix this:
 
 And you're done!
 
-Thanks to the [Gentoo bug tracker](http://bugs.gentoo.org/show_bug.cgi?id=182595) and all persons posting on it for the 'fix'.
+Thanks to the [Gentoo bug tracker](https://bugs.gentoo.org/show_bug.cgi?id=182595) and all persons posting on it for the 'fix'.
 
 As per always, if it eats your cat, it's not my fault nor my problem! ;)
 

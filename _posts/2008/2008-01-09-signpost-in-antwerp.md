@@ -16,4 +16,4 @@ Go Belgium, with our super-duper hyper-effecient roads:
 
 Oops?
 
-(Picture courtesy of [Stijn Tintel](http://stijn.tintel.eu/blog/2008/01/09/gotta-love-belgium/))
+(Picture courtesy of [Stijn Tintel](https://stijn.tintel.eu/blog/2008/01/09/gotta-love-belgium/))

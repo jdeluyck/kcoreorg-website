@@ -7,8 +7,8 @@ tags:
   - wordpress
 ---
 
-After upgrading the blog to [WordPress 2.7](http://wordpress.org/), the [Now Reading](http://robm.me.uk/projects/plugins/wordpress/now-reading) plugin didn't work very well anymore.
+After upgrading the blog to [WordPress 2.7](https://wordpress.org/), the [Now Reading](http://robm.me.uk/projects/plugins/wordpress/now-reading) plugin didn't work very well anymore.
 
 The developer is also kinda busy right now, and hasn't updated his plugin yet for 2.7.
 
-No fear! Heliologue from the [A Modest Construct](http://heliologue.com/) blog has [updated the plugin to work for WP2.7](http://heliologue.com/2008/12/15/now-reading-for-wordpress-27/), and work it does!
+No fear! Heliologue from the [A Modest Construct](https://heliologue.com/) blog has [updated the plugin to work for WP2.7](http://heliologue.com/2008/12/15/now-reading-for-wordpress-27/), and work it does!

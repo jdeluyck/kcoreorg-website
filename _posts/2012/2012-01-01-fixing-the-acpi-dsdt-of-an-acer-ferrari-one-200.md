@@ -229,4 +229,4 @@ Compilation complete. 0 Errors, 0 Warnings, 0 Remarks, 1759 Optimizations
 
 Huzzah! And we get a spiffy `DSDT.aml` to boot ;) (literaly :P)
 
-Now, to make the kernel use this modified DSDT table, I had to recompile the kernel, and add the custom DSDT path in the configuration. More info on this can be found [on the Debian wiki](http://wiki.debian.org/OverridingDSDT), and I'm letting it up to the reader to execute this step - it's a good exercise ;-)
+Now, to make the kernel use this modified DSDT table, I had to recompile the kernel, and add the custom DSDT path in the configuration. More info on this can be found [on the Debian wiki](https://wiki.debian.org/OverridingDSDT), and I'm letting it up to the reader to execute this step - it's a good exercise ;-)

@@ -29,5 +29,5 @@ So instead of inventing the wheel yet again, you can just go look at
 [on the usoftphone site](http://www.usoftphone.com/t115104.html).
 Or you can just go and [Google it](http://lmgtfy.com/?q=building+cm+from+source) ;)
 
-You can find the thread for [my unofficial builds](http://forum.xda-developers.com/showthread.php?t=2467013) on [XDA Developers](http://www.xda-developers.com/).  
-The [git](https://en.wikipedia.org/wiki/Git_%28software%29) repository with all my sources can be found [on github](http://github.com/jdeluyck/).
+You can find the thread for [my unofficial builds](http://forum.xda-developers.com/showthread.php?t=2467013) on [XDA Developers](https://www.xda-developers.com/).  
+The [git](https://en.wikipedia.org/wiki/Git_%28software%29) repository with all my sources can be found [on github](https://github.com/jdeluyck/).

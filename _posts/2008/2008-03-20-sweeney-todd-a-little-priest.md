@@ -6,7 +6,7 @@ tags:
   - sweeney todd
 ---
 
-We went to see [Sweeney Todd: The Demon Barber of Fleet Street](http://www.imdb.com/title/tt0408236/) the other week.. a good (if rather grim) musical!
+We went to see [Sweeney Todd: The Demon Barber of Fleet Street](https://www.imdb.com/title/tt0408236/) the other week.. a good (if rather grim) musical!
 
 The Lyrics of my favourite song from the movie you can find below!  
 

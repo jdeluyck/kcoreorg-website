@@ -58,7 +58,7 @@ USB worked out of the box by loading the following modules:
 * `usb-uhci` (USB 1.x support)
 * `ehci-hcd` (USB 2 support)
 
-It is required to install the [udev](http://packages.debian.org/udev) package.
+It is required to install the [udev](https://packages.debian.org/udev) package.
 
 ### 10/100/1000 MBit ethernet LAN
 
@@ -106,7 +106,7 @@ Hardeware: Apple, Inc. Bluetooth HCI MacBookPro.
 
 Works perfectly with the `bluetooth` and `btusb` modules.
 
-Debian users might want to install the [bluetooth](http://packages.debian.org/buetooth) package.
+Debian users might want to install the [bluetooth](https://packages.debian.org/buetooth) package.
 
 ### Harddisk
 
@@ -118,7 +118,7 @@ Explanation:
 
 * -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
 
-For Debian; check the [hdparm](http://packages.debian.org/hdparm) package.
+For Debian; check the [hdparm](https://packages.debian.org/hdparm) package.
 
 ### Speedstep
 
@@ -126,9 +126,9 @@ You need this if you don't want your CPU to eat your batteries empty. It's inclu
 
 It works perfectly after loading the `acpi_cpufreq` and any of the `cpufreq-` modules.
 
-You can either install the `[cpufreqd](http://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).
+You can either install the `[cpufreqd](https://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).
 
-For Debian, check the [cpufreqd](http://packages.debian.org/cpufreqd) or [powernowd](http://packages.debian.org/powernowd) packages.
+For Debian, check the [cpufreqd](https://packages.debian.org/cpufreqd) or [powernowd](https://packages.debian.org/powernowd) packages.
 
 ### Wireless Lan
 
@@ -152,7 +152,7 @@ This laptop has several function keys which allow for the changing of the volume
 
 After installation of [pommed](http://www.technologeek.org/projects/pommed/), these keys work perfectly.
 
-Debian users can install the [pommed](http://packages.debian.org/pommed) and [gpomme](http://packages.debian.org/gpomme) packages.
+Debian users can install the [pommed](https://packages.debian.org/pommed) and [gpomme](https://packages.debian.org/gpomme) packages.
 
 ### (Userspace) Software Suspend
 
@@ -164,7 +164,7 @@ Doesn't work: suspend to disk (s2disk,s2both): causes a full system freeze, need
 
 Works with kernel supplied driver.
 
-You need to extract the firmware first from the Mac OS X driver, use [isight-firmware-tools](http://bersace03.free.fr/ift/). Debian users can use the [isight-firmware-tools](http://packages.debian.org/isight-firmware-tools) package.
+You need to extract the firmware first from the Mac OS X driver, use [isight-firmware-tools](http://bersace03.free.fr/ift/). Debian users can use the [isight-firmware-tools](https://packages.debian.org/isight-firmware-tools) package.
 
 ### Touchpad in console
 
@@ -209,15 +209,15 @@ Here's my [complete xorg.conf file](/assets/files/2010/05/apple-macbook-xorg.con
 It's advisable to run `syndaemon` after starting X, to prevent accidental taps while you're typing.  
 example: `syndaemon -i 2 -t -d`
 
-Debian users can install the [xserver-xorg-input-synaptics](http://packages.debian.org/xserver-xorg-input-synaptics) package.
+Debian users can install the [xserver-xorg-input-synaptics](https://packages.debian.org/xserver-xorg-input-synaptics) package.
 
 ## Links
 
-* Apple: [http://www.apple.com](http://www.apple.com/)
+* Apple: [www.apple.com](https://www.apple.com/)
 * Hotkeys program: [http://www.technologeek.org/projects/pommed/](http://www.technologeek.org/projects/pommed/)
-* Kernel: [http://www.kernel.org](http://www.kernel.org/)
+* Kernel: [www.kernel.org](https://www.kernel.org/)
 * Linux on mobile computers: [http://www.tuxmobil.org/](http://www.tuxmobil.org/)
-* Linux-on-laptops: [http://www.linux-on-laptops.com](http://www.linux-on-laptops.com/)
+* Linux-on-laptops: [https://linux-on-laptops.com](https://linux-on-laptops.com/)
 * Synaptics Touchpad driver for Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
 * iSight firmware tools: [http://bersace03.free.fr/ift/](http://bersace03.free.fr/ift/)
 * Madwifi-project: [http://www.madwifi-project.org](http://www.madwifi-project.org/)

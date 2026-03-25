@@ -25,7 +25,7 @@ So, I needed a new solution. One with the requirements of being open source (I d
 
 * [BackBlace B2](https://www.backblaze.com/cloud-storage), a low-cost [object storage](https://en.wikipedia.org/wiki/Object_storage) solution by [BackBlaze](https://www.backblaze.com/), for online storage. There's a cost to retrieve data, but as we only want to get that in case of emergency, it's not an issue.
 * [Borgbackup](https://borgbackup.readthedocs.io/en/stable/) (a fork of [Attic](https://github.com/jborg/attic)), an archiving tool offering [deduplication](https://en.wikipedia.org/wiki/Data_deduplication), compression and encryption
-* [rclone](http://rclone.org/), which is rsync for cloud storage
+* [rclone](https://rclone.org/), which is rsync for cloud storage
 
 While Crashplan offered immediate push to the cloud, the workflow is now somewhat different: every day a script is triggered (via cron), which executes borgbackup against a USB-connected harddisk for my local (and optionally NFS-shared) data. This allows for fast backups, fast deduplication, and encryption. No data leaves my network at this point.  
 When all backups are done, the encrypted repository is synced (using rclone) to Backblaze B2, bringing my offsite backup in sync with the local repository.

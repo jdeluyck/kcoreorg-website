@@ -32,7 +32,7 @@ If you're still here, I guess your CID matched.
 
 Now, in the extract of the OTA, find the file `updater-script` in the directory `META-INF/com/google/android`. In this we'll need to remove some code that doesn't work with recoveries other than the default HTC ones.
 
-Open the file with any decent text editor that preserves newlines (for windows, [Notepad++](http://notepad-plus-plus.org/) springs to mind, on Linux/Mac just use [vi](https://en.wikipedia.org/wiki/Vi)), and look for a textblock like this:
+Open the file with any decent text editor that preserves newlines (for windows, [Notepad++](https://notepad-plus-plus.org/) springs to mind, on Linux/Mac just use [vi](https://en.wikipedia.org/wiki/Vi)), and look for a textblock like this:
 
 ```text
 assert(check_cid(getprop("ro.cid"), "00000000" , "11111111" ,

@@ -46,7 +46,7 @@ In case you have more than one domain you want to move there you'll have to cont
 
 ## DNS as Code using dnscontrol
 
-I had not heard of [dnscontrol](https://dnscontrol.org/) until I read this [blog post](https://tobru.ch/authoritative-dns-with-desec-and-dns-control/) by [Tobias Brunner](https://tobru.ch/about/) detailing how he uses it. I really like this "dns-as-code" approach, even though it uses typescript.
+I had not heard of [dnscontrol](https://dnscontrol.org/) until I read this [blog post](https://www.tobru.ch/authoritative-dns-with-desec-and-dns-control/) by [Tobias Brunner](https://www.tobru.ch/about/) detailing how he uses it. I really like this "dns-as-code" approach, even though it uses typescript.
 
 (In a later stage I'm planning to include this into some CI/CD workflow, but I'm not quite there yet.)
 

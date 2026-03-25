@@ -8,7 +8,7 @@ tags:
   - proxy
 ---
 
-Just in case you ever find yourself in the [Brussels Airlines](http://www.brusselsairlines.com) VIP lounge (in [Brussels Airport](http://www.brusselsairport.be)), and you want to do something besides using IE on their internet pc's, here are the proxy settings (that you can use in eg. [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/)). I had to find a way to open a command box to get to the settings, but in the end I managed.
+Just in case you ever find yourself in the [Brussels Airlines](http://www.brusselsairlines.com) VIP lounge (in [Brussels Airport](http://www.brusselsairport.be)), and you want to do something besides using IE on their internet pc's, here are the proxy settings (that you can use in eg. [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/)). I had to find a way to open a command box to get to the settings, but in the end I managed.
 
 HTTP Proxy: 193.108.215.75  
 Proxy Port: 8080

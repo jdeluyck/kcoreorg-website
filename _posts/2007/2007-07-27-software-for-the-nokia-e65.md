@@ -21,10 +21,10 @@ After owning my Nokia E65 for about a month, here's the list of apps I installed
 * [Mail for Exchange](http://www.businesssoftware.nokia.com/mail_for_exchange_downloads.php)
 * [Opera Mobile](http://www.opera.com/products/mobile/products/s60/)
 * ~~Opera Mini~~
-* [PhoNetInfo](http://www.patrickfrei.ch/phonetinfo/)
-* [Putty](http://s2putty.sourceforge.net/)
+* [PhoNetInfo](https://www.patrickfrei.ch/phonetinfo/)
+* [Putty](https://s2putty.sourceforge.net/)
 * [Reflect Theme](/2007/07/27/reflect-theme-for-symbian/)
-* [Screenshot](http://www.antonypranata.com/screenshot/)
+* [Screenshot](https://www.antonypranata.com/screenshot/)
 * [TextQuick](http://mind-flip.com/textquick/index.html)
 * [TomTom](http://www.tomtom.com)
 * [Truphone](http://www.truphone.com)

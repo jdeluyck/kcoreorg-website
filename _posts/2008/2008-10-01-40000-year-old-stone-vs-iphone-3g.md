@@ -14,4 +14,4 @@ tags:
 
 So true... ;)
 
-(thanks to [Gh0sty](http://blog.ghosty.be/))
+(thanks to [Gh0sty](https://blog.ghosty.be/))

@@ -12,9 +12,9 @@ A few days onwards with my spiffy new macbook, I've discovered a lot of useful t
 Freeware apps:
 
 * [Adium](http://www.adiumx.com/): IM client
-* [Chmox](http://chmox.sourceforge.net/): CHM Viewer
+* [Chmox](https://chmox.sourceforge.net/): CHM Viewer
 * [ClearDock](http://unsanity.com/haxies/cleardock): changes/removes your dock background
-* [coconutBattery](http://coconut-flavour.com/coconutbattery/index.html): extensive battery information
+* [coconutBattery](https://coconut-flavour.com/coconutbattery/index.html): extensive battery information
 * [coconutWiFi](http://coconut-flavour.com/coconutwifi/index.html): detects (open) wifi networks and shows it in the menu bar
 * [Growl!](http://growl.info/): notification system
 * [iCyclone](http://www.alitacrew.org/icyclone/): fan controller
@@ -32,16 +32,16 @@ Freeware apps:
 * [uApp](http://www.eagle-of-liberty.com/uapp/index_en.php): uninstaller (removes prefs, ... too)
 * [UnrarX](http://www.unrarx.com/): RAR extractor
 * [VLC media player](http://www.videolan.org/vlc/): media player
-* [witch](http://www.manytricks.com/witch/): Window switcher (not just app switching)
+* [witch](https://manytricks.com/witch/): Window switcher (not just app switching)
 * [Xfolders](http://www.kai-heitkamp.com/cms_en/main.php?content=9&module=0&SprachID=1&uid=d96f9e3704277b05bb3345e167aa7afe): file manager
-* [XMeeting](http://xmeeting.sourceforge.net/): SIP/H.323 video conferencing client
+* [XMeeting](https://xmeeting.sourceforge.net/): SIP/H.323 video conferencing client
 
 Non-free software:
 
 * [MenuCalendarClock](http://www.objectpark.net/mcc.html): unfolding menulet calendar with iCal integration
 * [Parallels](http://www.parallels.com): Virtualisation software
 * [Roxio Toast](http://www.roxio.com/enu/products/toast/titanium/overview.html): CD/DVD burning
-* [Transmit](http://www.panic.com/transmit/): FTP/SCP client
+* [Transmit](https://www.panic.com/transmit/): FTP/SCP client
 * [Unison](http://www.panic.com/unison/): Usenet (NNTP) client
 
 Plugins:

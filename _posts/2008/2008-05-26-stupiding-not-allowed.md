@@ -8,4 +8,4 @@ tags:
 
 ![No Stupiding](/assets/img/posts/2008/02/001ae99k-sm.gif "No Stupiding")
 
-(Thanks to [gh0sty](http://blog.ghosty.be/) for this one)
+(Thanks to [gh0sty](https://blog.ghosty.be/) for this one)

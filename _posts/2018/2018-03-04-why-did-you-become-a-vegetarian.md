@@ -23,7 +23,7 @@ These last few years, I'm actually quite happy that I don't eat meat anymore...
 
 * The food scandals going round (meat being sold of such quality that is way below what is allowed for consumption)
 * Horrible treatment of animals. (and I'm always cynically amused by the fact people don't realise just how bad animals are treated)
-* Waste of water with growing all the foods required to feed the proverbial 1kg of meat. In a world where water is becoming [scarcer and scarcer](http://www.bbc.com/news/business-42626790)
+* Waste of water with growing all the foods required to feed the proverbial 1kg of meat. In a world where water is becoming [scarcer and scarcer](https://www.bbc.com/news/business-42626790)
 * Pollution due to the transport of cattle all over the place (note: if you don't watch where your vegetables come from, you're likely just as bad of)
 
 Will I ever become a vegan? Probably not. I'm too fond of cheese!

@@ -12,7 +12,7 @@ tags:
   - mail.app
 ---
 
-I still haven't found any mail client I _really_ like on the Mac... I've been using [Thunderbird](http://www.mozilla.com/thunderbird/) now for a while, but it doesn't really have what I want in a mail client. I guess I'm spoiled, since I'm used to using [KMail](http://kontact.kde.org/kmail/) at home (and I'm forced to use [Lotus Notes](http://www.ibm.com/software/lotus/products/notes/) at work - a horrible client from a usability point of view).
+I still haven't found any mail client I _really_ like on the Mac... I've been using [Thunderbird](http://www.mozilla.com/thunderbird/) now for a while, but it doesn't really have what I want in a mail client. I guess I'm spoiled, since I'm used to using [KMail](https://kontact.kde.org/kmail/) at home (and I'm forced to use [Lotus Notes](http://www.ibm.com/software/lotus/products/notes/) at work - a horrible client from a usability point of view).
 
 Recently I've been trying to get [Mail.app](http://www.apple.com/macosx/features/mail.html) to work for me. It doesn't have quite all the bells and whistles I like, but after looking up some things online it's getting there.
 

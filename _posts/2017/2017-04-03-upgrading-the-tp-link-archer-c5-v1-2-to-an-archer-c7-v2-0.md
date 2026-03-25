@@ -19,7 +19,7 @@ Since I was looking at increasing the WiFi speeds in my home, I searched around 
 First, make sure you definitely have an Archer C5 version 1.2, with three antennas. Don't even try with another version.
 If it breaks, noone is to blame but you.
 
-You'll need to flash [DD-WRT](http://www.dd-wrt.com/site/index), [OpenWRT](https://openwrt.org/) or
+You'll need to flash [DD-WRT](https://www.dd-wrt.com/site/index), [OpenWRT](https://openwrt.org/) or
 [LEDE-Project](https://lede-project.org) (check the respective projects for instructions on how to do that) first.
 
 Next, download an Archer C7 firmware from [the TP-Link website](http://www.tp-link.com/en/download/Archer-C7_V2.html#Firmware).

@@ -35,18 +35,18 @@ Notes:
 2. If you use an onboard chipset (like I do), you'll need to change the boot order so that this chip is actually used as the primary device, otherwise it won't be initialised correctly.
 
 Originally I had the ATI binary driver [fglrx](https://en.wikipedia.org/wiki/Fglrx) installed, but this does _not_ play well with a multiseat setup. The initialisation of the second card causes the system to hardlock.  
-Since this driver doesn't work, I went for the [xf86-video-ati](http://www.x.org/wiki/radeon) driver, which is completely opensource, and in combination with a recent [kernel](http://www.kernel.org/) allows for [kernel mode setting](https://en.wikipedia.org/wiki/Mode-setting). You do need the firmware for the card, usually found in the firmware-linux packages of your favourite distribution.
+Since this driver doesn't work, I went for the [xf86-video-ati](http://www.x.org/wiki/radeon) driver, which is completely opensource, and in combination with a recent [kernel](https://www.kernel.org/) allows for [kernel mode setting](https://en.wikipedia.org/wiki/Mode-setting). You do need the firmware for the card, usually found in the firmware-linux packages of your favourite distribution.
 
 So, the works:
 
 ## Requirements
 
-1. Get a spankingly fresh kernel. 2.6.33 at least, preferably newer. Compile it with KMS support enabled. Note that when you enable KMS support, you'll lose your console unless you compile in [fbcon](http://www.mjmwired.net/kernel/Documentation/fb/fbcon.txt), but I advise against this, as this doesn't seem to play well with a multiseat setup.
+1. Get a spankingly fresh kernel. 2.6.33 at least, preferably newer. Compile it with KMS support enabled. Note that when you enable KMS support, you'll lose your console unless you compile in [fbcon](https://mjmwired.net/kernel/Documentation/fb/fbcon.txt), but I advise against this, as this doesn't seem to play well with a multiseat setup.
 2. Install the linux-firmware package or get the necessary firmwares for your cards (to get 3D acceleration)
-3. Get a decently fresh [Mesa](http://www.mesa3d.org/) (7.7 branch)
+3. Get a decently fresh [Mesa](https://mesa3d.org/) (7.7 branch)
 4. Lastly, get a mjummy fresh xf86-video-ati driver.
 
-Originally, I compiled all these and installed them over the existing binaries in /usr, but fortunately my favourite distribution [Debian](http://www.debian.org) has the necessary components in [Sid](http://www.debian.org/releases/unstable/) and [Experimental](http://wiki.debian.org/DebianExperimental). these days.
+Originally, I compiled all these and installed them over the existing binaries in /usr, but fortunately my favourite distribution [Debian](https://www.debian.org) has the necessary components in [Sid](https://www.debian.org/releases/unstable/) and [Experimental](https://wiki.debian.org/DebianExperimental). these days.
 
 ## Xorg.conf changes
 
@@ -193,7 +193,7 @@ or
 
 ## KDM changes
 
-Now, since I want both the X servers to be available at boot time, and I'm using [KDE](http://www.kde.org/) anyway, I went with [KDM](https://en.wikipedia.org/wiki/KDE_Display_Manager).
+Now, since I want both the X servers to be available at boot time, and I'm using [KDE](https://kde.org/) anyway, I went with [KDM](https://en.wikipedia.org/wiki/KDE_Display_Manager).
 
 In the `[General]` section, look for a line reading:
 
@@ -247,4 +247,4 @@ ServerArgsLocal=-br -nolisten tcp -layout seat1 -sharevts -novtswitch -isolateDe
 
 One KDM restart later (`/etc/init.d/kdm restart`) you should have two X servers running, both on their respective screens!
 
-Last but not least, kudos to [WKPG wiki](http://wpkg.org/) for the helpful article ;)
+Last but not least, kudos to [WKPG wiki](https://wpkg.org/) for the helpful article ;)

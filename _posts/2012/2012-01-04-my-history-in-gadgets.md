@@ -78,13 +78,13 @@ This was the last Palm device I owned, which I sold some years back.
 
 First phone. Came with three replaceable colour covers. Sold it to a friend in the end.
 
-### [Ericsson SH-888](http://www.gsmarena.com/ericsson_sh_888-112.php)
+### [Ericsson SH-888](https://www.gsmarena.com/ericsson_sh_888-112.php)
 
 ![Ericsson SH-888](/assets/img/posts/2012/01/ersh888b.gif "Ericsson SH-888"){: .normal}
 
 This one I stupidly forgot on a train (when I was in a rush...)
 
-### [Philips Savvy DB](http://www.gsmarena.com/philips_savvy_db-151.php)
+### [Philips Savvy DB](https://www.gsmarena.com/philips_savvy_db-151.php)
 
 ![Philips Savvy DB](/assets/img/posts/2012/01/phsavdbb.gif "Philips Savvy DB"){: .normal}
 
@@ -102,7 +102,7 @@ My first flip-phone, which I bought after starting working. Stayed with me until
 
 Bought as a replacement, but returned rather quickly (the next day), completely crappy design and non-intuitive use. The knob (command wheel) on the left was also a total fail.
 
-### [Nokia 3510i](http://www.gsmarena.com/nokia_3510i-344.php)
+### [Nokia 3510i](https://www.gsmarena.com/nokia_3510i-344.php)
 
 ![Nokia 3510i](/assets/img/posts/2012/01/no3510i_00.jpg "Nokia 3510i"){: .normal}
 
@@ -128,7 +128,7 @@ The only plus points for this phone are that it looks _damn_ good, and that it g
 This phone was purchased as part of a Vodaphone.es kit, since I had gotten to know my spanish girlfriend, and using a Spanish SIM in Belgium was cheaper for her to send me SMS'.  
 (it is _possibly_ the worst phone I've ever used.)
 
-### [Nokia E65](http://www.gsmarena.com/nokia_e65-1860.php)
+### [Nokia E65](https://www.gsmarena.com/nokia_e65-1860.php)
 
 ![Nokia E65](/assets/img/posts/2012/01/nokia-e65-00.jpg "Nokia E65"){: .normal}
 

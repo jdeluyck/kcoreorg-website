@@ -14,7 +14,7 @@ tags:
 
 A little while back I finally caved in to all the peer pressure and got my second Android phone, the [HTC Desire](http://www.htc.com/www/product/desire/overview.html). It's faster than the HTC Hero, which I've been using sofar. My girlfriend wanted that one, so it'll have a good home :) and I can keep it updated to the latest firmwares.
 
-One of the first things I did was root it with [Unrevoked](http://unrevoked.com/) - a nice one-stop-shop rooting tool, which also installs the [Clockworkmod](http://www.clockworkmod.com/) recovery, through which you can then install other ROMs.  
+One of the first things I did was root it with [Unrevoked](http://unrevoked.com/) - a nice one-stop-shop rooting tool, which also installs the [Clockworkmod](https://www.clockworkmod.com/) recovery, through which you can then install other ROMs.  
 (Why did I root it? Because I want full access to the phone. I want to use it for whatever I want, not whatever HTC wants me to do with it.)
 
 After that I stuck with the stock ROM for a (rather short) while, with the Sense shell. This did get on my nerves after a while, since I got used to [Launcher Pro](http://www.launcherpro.com/) and a bunch of other programs on my HTC Hero, and I did want the get some APP2SD aswell, so I could install more applications. Since I had good experience with [VillainRom](http://www.villainrom.co.uk/)'s FroydVillain (for the Hero), I looked there and found [SuperVillain](http://www.villainrom.co.uk/forum/showthread.php?2918-ROM-SuperVillain-1.0-(No-Sense-UI-speed-tweaked-based-on-VillainROM))), which is a Sense rom, but without Rosie (the Sense launcher) and with some extra things thrown in.

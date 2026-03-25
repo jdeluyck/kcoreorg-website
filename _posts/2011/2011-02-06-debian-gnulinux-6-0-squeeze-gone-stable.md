@@ -9,6 +9,6 @@ tags:
 
 ![Debian](/assets/img/posts/2011/02/debian_logo.png)
 
-[Debian](http://www.debian.org) Squeeze got [released today](http://www.debian.org/News/2011/20110205a). Yay! :)
+[Debian](http://www.debian.org) Squeeze got [released today](https://www.debian.org/News/2011/20110205a). Yay! :)
 
-And don't keep your breath, because the new [testing](http://www.debian.org/releases/wheezy/) branch is called **Wheezy**.
+And don't keep your breath, because the new [testing](https://www.debian.org/releases/wheezy/) branch is called **Wheezy**.

@@ -15,6 +15,6 @@ It's that time of the year again, where we all are (supposed to be) happy, cheer
 
 Well, at any rate, I hope that you all will have a nice evening tonight, and a joyful new years!
 
-Oh, and at [NORAD Tracks Santa](http://www.noradsanta.org/en/home.html) you can see where Santa is on his delivery round!
+Oh, and at [NORAD Tracks Santa](https://www.noradsanta.org/en/home.html) you can see where Santa is on his delivery round!
 
 Happy holidays!

@@ -10,7 +10,7 @@ tags:
 
 ![12th Celtic Weekend](/assets/img/posts/2009/11/fcpd_12_celtic_weekend-sm.jpg "12th Celtic Weekend")
 
-Shameless advertisement for the upcoming [12th Celtic Weekend](http://www.glengarry.be/fcpd/events.htm) organised by the [Flemish Caledonian Pipes & Drums - Clan MacKenzie](http://www.fcpd.be/), the pipeband where I play.
+Shameless advertisement for the upcoming [12th Celtic Weekend](http://www.glengarry.be/fcpd/events.htm) organised by the [Flemish Caledonian Pipes & Drums - Clan MacKenzie](https://www.fcpd.be/), the pipeband where I play.
 
 **Friday november 6 2009**  
 19:00 Official Opening  

@@ -16,7 +16,7 @@ Read [this wonderful Ars Technica article](http://arstechnica.com/journals/thumb
 
 You can find the lyrics below:
 
-**Still Alive by [Jonathan Coulton](http://www.jonathancoulton.com/)**  
+**Still Alive by [Jonathan Coulton](https://www.jonathancoulton.com/)**  
 This was a triumph  
 I'm making a note here  
 HUGE SUCCESS  

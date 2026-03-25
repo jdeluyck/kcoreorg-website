@@ -8,7 +8,7 @@ tags:
   - terminal.app
 ---
 
-I use [Irssi](http://www.irssi.org/) on my mac with Terminal.app in Leopard. All very nice, except that in Terminal.app, the dark gray colour used in my Irssi theme shows black. Black on black doesn't work very well.
+I use [Irssi](https://irssi.org/) on my mac with Terminal.app in Leopard. All very nice, except that in Terminal.app, the dark gray colour used in my Irssi theme shows black. Black on black doesn't work very well.
 
 So, I needed something to tweak Terminal.app's ANSI colours.
 

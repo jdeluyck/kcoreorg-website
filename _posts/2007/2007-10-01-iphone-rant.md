@@ -10,7 +10,7 @@ tags:
   - simlocked
 ---
 
-Really. What's up with [iPhone](http://www.apple.com/iphone/) owners these days? They buy an overpriced piece of equipment, knowing:
+Really. What's up with [iPhone](https://www.apple.com/iphone/) owners these days? They buy an overpriced piece of equipment, knowing:
 
 * it's SIM-locked
 * it's a closed platform, no 3rd party apps
@@ -22,7 +22,7 @@ Really. What's up with [iPhone](http://www.apple.com/iphone/) owners these days?
 
 So, looks like they've been warned. But they don't care, go ahead, and after a while the necessary unlock programs were created (kudos to the [devteams](http://iphone.fiveforty.net/wiki/index.php/Main_Page) who did this, it's a nice feat of engineering), and iPhones where unlocked, new 3rd party applications were created, the works. Nice.
 
-Next up, Apple comes with [a firmware update](http://www.appleinsider.com/articles/07/09/27/apple_iphone_update_1_1_1_offers_louder_volume_adds_itunes.html). Tells people that [this might brick their hacked iPhones](http://arstechnica.com/news.ars/post/20070924-apple-firmware-update-likely-to-make-unlocked-iphones-permanently-inoperable.html). Do people heed the warning given by Apple? Nope, they flash anyway, and then loudly complain that their iPhone has become a very expensive paperweight (this can luckely and easily be remedied, it seems).
+Next up, Apple comes with [a firmware update](https://appleinsider.com/articles/07/09/27/apple_iphone_update_1_1_1_offers_louder_volume_adds_itunes.html). Tells people that [this might brick their hacked iPhones](http://arstechnica.com/news.ars/post/20070924-apple-firmware-update-likely-to-make-unlocked-iphones-permanently-inoperable.html). Do people heed the warning given by Apple? Nope, they flash anyway, and then loudly complain that their iPhone has become a very expensive paperweight (this can luckely and easily be remedied, it seems).
 
 And then they want to go ahead and [sue Apple over it](http://www.engadget.com/2007/10/01/iphone-users-calling-for-class-action-lawsuit-over-firmware-v1-1/). Really. _Get a grip!_ You bought the piece of hardware which was locked, in more than one way, and you yourself decided to crack it wide open. Though luck than if it breaks - you get to keep all the pieces!
 

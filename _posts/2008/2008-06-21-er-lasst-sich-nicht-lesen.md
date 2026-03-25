@@ -7,8 +7,8 @@ tags:
   - megatokyo
 ---
 
-Another very beautiful "Dead Piro Day" comic, from [Megatokyo](http://www.Megatokyo.com).
+Another very beautiful "Dead Piro Day" comic, from [Megatokyo](https://www.Megatokyo.com).
 
-[![Er lässt sich nicht lesen](/assets/img/posts/2008/02/1133_G-sm.png)](http://www.megatokyo.com/strip/1133)
+[![Er lässt sich nicht lesen](/assets/img/posts/2008/02/1133_G-sm.png)](https://www.megatokyo.com/strip/1133)
 
 (artwork is &copy; 2008 Fred Gallagher - ofcourse!)

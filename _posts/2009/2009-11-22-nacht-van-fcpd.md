@@ -9,7 +9,7 @@ tags:
 
 ![Nacht van FCP&D](/assets/img/posts/2009/11/Nacht-met-tekst-sm.jpg "Nacht van FCP&D")
 
-Another shameless advertisement for the upcoming [Nacht van FCP&D](http://www.glengarry.be/fcpd/geheugensteun.html) organised by the [Flemish Caledonian Pipes & Drums - Clan MacKenzie](http://www.fcpd.be/), for our 20ᵗʰ year anniversary. We're playing together with the Royal Fanfare St-Cecilia Teralfene.
+Another shameless advertisement for the upcoming [Nacht van FCP&D](http://www.glengarry.be/fcpd/geheugensteun.html) organised by the [Flemish Caledonian Pipes & Drums - Clan MacKenzie](https://www.fcpd.be/), for our 20ᵗʰ year anniversary. We're playing together with the Royal Fanfare St-Cecilia Teralfene.
 
 The place to be? St-Bavo Humaniora, Lange Boomgaardstraat, in Ghent. The underground Reep parking is less than 100m away.
 

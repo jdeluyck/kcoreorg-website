@@ -7,4 +7,4 @@ tags:
   - translate
 ---
 
-Wanna learn Lolcatian? Then try the [lolcat translator](http://speaklolcat.com/)!
+Wanna learn Lolcatian? Then try the [lolcat translator](https://speaklolcat.com/)!

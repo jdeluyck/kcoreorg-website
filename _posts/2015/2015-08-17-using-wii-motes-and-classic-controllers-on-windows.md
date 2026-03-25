@@ -17,7 +17,7 @@ After the latest lan-party with some friends, where we played a lot of [Rocket L
 ![640px-Wii-Classic-Controller-White](/assets/img/posts/2015/08/640px-Wii-Classic-Controller-White.jpg "640px-Wii-Classic-Controller-White")  
 Wii Classic Controller
 
-Windows does recognize the WiiMote as some weird bluetooth device, but not as a functional controller. Some digging turned up [HID Wiimote driver, the Bachelor Thesis project](http://julianloehr.de/educational-work/hid-wiimote/) of [Julian Löhr](http://julianloehr.de/).  
+Windows does recognize the WiiMote as some weird bluetooth device, but not as a functional controller. Some digging turned up [HID Wiimote driver, the Bachelor Thesis project](https://www.julianloehr.de/educational-work/hid-wiimote/) of [Julian Löhr](https://www.julianloehr.de/).  
 For the installation instructions, please see the site of Julian - they're pretty detailed and tell you everything you need to know.
 
 As for mapping the output of the driver to something games understand, you'll need yet another tool: [x360ce](https://github.com/x360ce/x360ce). This translates whatever output you get from a driver, and makes the game/program in question think there's an [Xbox360 controller](https://en.wikipedia.org/wiki/Xbox_360_Controller) attached. For details on how x360ce works, check the github site.

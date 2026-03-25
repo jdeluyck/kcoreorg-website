@@ -19,6 +19,6 @@ I also maintained a blog, on [another domain](https://sadevil.org/), which was b
 
 So, to make matters easier on myself, I've merged the (old) articles with the blog and moved it to my main domain - [kcore.org](https://kcore.org/).
 
-I also threw in a new look (which - If you're reading this on RSS - you won't notice), activated SSL (thanks to [Let's Encrypt](https://letsencrypt.org/)), and installed a boatload of redirects to keep the [spice flowing](http://dune.wikia.com/wiki/Spice_Melange)!
+I also threw in a new look (which - If you're reading this on RSS - you won't notice), activated SSL (thanks to [Let's Encrypt](https://letsencrypt.org/)), and installed a boatload of redirects to keep the [spice flowing](https://dune.wikia.com/wiki/Spice_Melange)!
 
 Welcome! :)

@@ -12,7 +12,7 @@ tags:
   - tunnel
 ---
 
-Here's a short how-to to get the [iodine](http://code.kryo.se/iodine/) dns tunnel working on your Mac.
+Here's a short how-to to get the [iodine](https://code.kryo.se/iodine/) dns tunnel working on your Mac.
 
 In this short howto, I'll assume you'll be using a linux server to act as your gateway to the world. I'll also assume you've read the [iodine documentation](http://code.kryo.se/iodine/README.txt) and setup your DNS accordingly. For my example, I'll be using a (nonexistant) [DynDNS.org](http://www.dyndns.org) static DNS entry, _iodine.rulestheworld.tld_. I'll also assume that you'll be using a public internet address of _1.2.3.4_, and a private subnet of _10.0.0.1_.
 

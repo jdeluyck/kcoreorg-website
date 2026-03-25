@@ -67,7 +67,7 @@ Go into the application drawer, and look for an application calld "microG Settin
 
 ### Reinstall Google Play Store
 
-Download the Play Store from eg. [APKMirror](http://www.apkmirror.com/apk/google-inc/google-play-store/) to your PC. Rename it to `com.android.vending.apk`  
+Download the Play Store from eg. [APKMirror](https://www.apkmirror.com/apk/google-inc/google-play-store/) to your PC. Rename it to `com.android.vending.apk`  
 Execute the following with adb:
 
 ```bash

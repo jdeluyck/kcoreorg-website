@@ -9,7 +9,7 @@ tags:
   - holistic detective agency
 ---
 
-[BBC 4 Radio](http://www.bbc.co.uk/radio4/) is running [Dirk Gently's Holistic Detective Agency](https://en.wikipedia.org/wiki/Dirk_Gently's_Holistic_Detective_Agency) as [an audiobook series](http://www.bbc.co.uk/radio4/dirkgently/)!
+[BBC 4 Radio](http://www.bbc.co.uk/radio4/) is running [Dirk Gently's Holistic Detective Agency](https://en.wikipedia.org/wiki/Dirk_Gently's_Holistic_Detective_Agency) as [an audiobook series](https://www.bbc.co.uk/radio4/dirkgently/)!
 
 ![Dirk Gently](https://upload.wikimedia.org/wikipedia/en/5/59/Dirk_Gently_UK_front_cover.jpg)
 

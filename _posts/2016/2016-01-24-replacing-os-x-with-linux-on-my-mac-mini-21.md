@@ -30,17 +30,17 @@ So, the road to success was:
 
 1. download the [multiarch network install CD image](http://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/multi-arch/iso-cd/), burn it to a CD.
   (note that this link points to the daily built CD images, which might or might not be broken at any given day)  
-  Why multi-arch, you might ask? Why not use the x86_64 (64-bit) install image, as the Intel [Core2Duo](https://en.wikipedia.org/wiki/Intel_Core_2) is capable of handling this? Because Apple, [in all their wisdom](http://refit.sourceforge.net/info/apple_efi.html), decided to include a 32-bit EFI with a CPU capable of handling 64-bit code. So you get a bit of a schizophrenic situation. The multiarch CD image supports both 32-bit and 64-bit (U)EFI, and hence, it works for this device.
+  Why multi-arch, you might ask? Why not use the x86_64 (64-bit) install image, as the Intel [Core2Duo](https://en.wikipedia.org/wiki/Intel_Core_2) is capable of handling this? Because Apple, [in all their wisdom](https://refit.sourceforge.net/info/apple_efi.html), decided to include a 32-bit EFI with a CPU capable of handling 64-bit code. So you get a bit of a schizophrenic situation. The multiarch CD image supports both 32-bit and 64-bit (U)EFI, and hence, it works for this device.
 2. boot from said CD (press and hold the ALT button as soon as the grey screen appears on your Mac)
 3. profit!
 
 I installed:
 
-* [XFCE](http://www.xfce.org/) als a lightweight display manager
+* [XFCE](https://www.xfce.org/) als a lightweight display manager
 * [Lightdm](https://wiki.freedesktop.org/www/Software/LightDM/) as login manager (with [auto-login](https://wiki.debian.org/LightDM#Enable_autologin))
 * [Chrome](https://www.google.com/chrome/) as a browser (for Videostream),
 * [Clementine](https://www.clementine-player.org/) for audio manager.
-* [abcde](http://abcde.einval.com/wiki/) for automatic CD ripping - with configuration tips from [Andrews Corner](http://www.andrews-corner.org/abcde.html) ;)
+* [abcde](https://abcde.einval.com/wiki/) for automatic CD ripping - with configuration tips from [Andrews Corner](http://www.andrews-corner.org/abcde.html) ;)
 * [TeamViewer](https://www.teamviewer.com/) for remote access outside of the local network
 * [x11vnc](http://www.karlrunge.com/x11vnc/) for VNC access to the logged-in session
 

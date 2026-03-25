@@ -56,7 +56,7 @@ It's also a bit smaller than my old Macbook, although they're both rated as bein
 ![Size difference with macbook 2.1](/assets/img/posts/2013/04/2013-03-18-18.12.45-1024x788.jpg)  
 Dell XPS13 on top of my Macbook 2.1. Bit smaller. A lot lighter.
 
-Unfortunately, the laptop I got shipped originally had some issues: plenty of [backlight bleeding](http://www.pchardwarehelp.com/guides/backlight-bleeding.php),
+Unfortunately, the laptop I got shipped originally had some issues: plenty of [backlight bleeding](https://www.pchardwarehelp.com/guides/backlight-bleeding.php),
 and a wifi module that was broken - it would detect a wireless network for 1-2 minutes after powerup, and then nothing.  
 I called Dell, they sent round a technician... but after this repair, it was completely dead. So they shipped me a replacement, on which I'm typing this blog-post.
 
@@ -76,14 +76,14 @@ You can enable everything again after shrinking the partition.
 
 This will leave us with a nice amount of storage to put Linux on.
 
-Now, download the [Debian](http://www.debian.org) [Testing](http://www.debian.org/releases/testing/) [latest weekly dvd 1](http://cdimage.debian.org/cdimage/weekly-builds/)
+Now, download the [Debian](http://www.debian.org) [Testing](https://www.debian.org/releases/testing/) [latest weekly dvd 1](https://cdimage.debian.org/cdimage/weekly-builds/)
 for amd64. You'll also need a USB stick of 8GiB (4.5 is needed). Format that stick as FAT32, and copy _the content of the DVD image_ on the stick (not the actual ISO).
 
 After this is done, you can reboot the laptop. When you see the Dell logo flash on the screen, quickly hit F12 (repeatedly).
 This will present you with the boot menu, where you can choose what to boot. I recommend to pick 'Legacy mode', and from there
 'USB storage'. Normally this will boot the Debian installer from the memory stick.
 
-To install Debian, I refer you to the [Debian Installation Manual](http://www.debian.org/releases/stable/installmanual),
+To install Debian, I refer you to the [Debian Installation Manual](https://www.debian.org/releases/stable/installmanual),
 an excellent document that details all the steps. Just be careful not to wipe out the existing Windows partition, should you want to keep it ;)
 
 Some time later, you'll get to reboot the system, and Debian should be the default choice to boot with the UEFI boot manager ;)
@@ -105,9 +105,9 @@ and check for the latest kernel release, right now that is linux-image-3.8-trunk
 Now, to fix some of the issues I've encountered:
 
 **Non-functional wifi**  
-On another laptop (or in Windows), download the [firmware-iwlwifi](http://packages.debian.org/search?keywords=firmware-iwlwifi) package.
-Install it - a reboot later you should be able to configure the wireless interface. You might also need [wpasupplicant](http://packages.debian.org/search?keywords=wpasupplicant)
-if you use encryption on your network. (I'm lazy, so I downloaded all the packages needed for [wicd](http://packages.debian.org/search?keywords=wicd) and configured stuff that way.)
+On another laptop (or in Windows), download the [firmware-iwlwifi](https://packages.debian.org/search?keywords=firmware-iwlwifi) package.
+Install it - a reboot later you should be able to configure the wireless interface. You might also need [wpasupplicant](https://packages.debian.org/search?keywords=wpasupplicant)
+if you use encryption on your network. (I'm lazy, so I downloaded all the packages needed for [wicd](https://packages.debian.org/search?keywords=wicd) and configured stuff that way.)
 
 **Laptop wakes from suspend out of the blue**  
 I've encountered a few times that the machine came out of suspend without any trigger from me - highly annoying (and dangerous,
@@ -171,7 +171,7 @@ I had the issue mostly in [Opera](http://www.opera.com), [IceDove](https://en.wi
 In Opera you can just set the default zoom level. I put this at 120%, everything is readable now.  
 For Thunderbird, I can advise installing the [ViewAbout](https://addons.mozilla.org/en-us/thunderbird/addon/viewabout/) extension,
 and then looking in View &rarr; ViewAbout &rarr; about:config for the setting layout.css.devPixelsPerPx, and setting this to "1.2".  
-For XTerm, I added this to .Xresources (in my home directory):
+For XTerm, I added this to `.Xresources`{: .filepath } (in my home directory):
 
 ```text
 XTerm*faceName: Dejavu Sans Mono  

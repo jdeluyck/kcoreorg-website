@@ -7,9 +7,9 @@ tags:
   - irssi
 ---
 
-I recently started using the wonderful textbased IRC client called [Irssi](http://irssi.org/). It's console based, scriptable in [Perl](http://www.perl.com/), fast, low memory footprint.. really nice for the average geek ;p
+I recently started using the wonderful textbased IRC client called [Irssi](https://irssi.org/). It's console based, scriptable in [Perl](https://www.perl.com/), fast, low memory footprint.. really nice for the average geek ;p
 
-As it does come with a [nice collection of scripts](http://irssi.org/scripts/), some holes were still left for it to be really to my liking. So I took up some perl scripting, and created some scrips of my own.
+As it does come with a [nice collection of scripts](https://scripts.irssi.org), some holes were still left for it to be really to my liking. So I took up some perl scripting, and created some scrips of my own.
 
 Disclaimer: These scripts are provided **as is**, without any guarantee of usability. I guarantee nothing, if it blows up your pc you get to keep all the pieces! If they work, that's even better, but I don't guarantee anything. You've got the source, read it, and judge for yourself
 
