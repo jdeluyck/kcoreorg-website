@@ -74,9 +74,9 @@ USB worked out of the box by loading the following modules:
 * `ehci-hcd` (USB 2 support)
 * `usbcore` (which is automatically loaded by the previous ones)
 
-It is advisable to install [the hotplug system](http://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](http://packages.debian.org/hotplug) package.
+It is advisable to install [the hotplug system](http://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](https://packages.debian.org/hotplug) package.
 
-These days you're actually better of installing the [udev](http://packages.debian.org/udev) package, which also handles hotplug.
+These days you're actually better of installing the [udev](https://packages.debian.org/udev) package, which also handles hotplug.
 
 ### 10/100/1000 MBit ethernet LAN
 
@@ -90,7 +90,7 @@ Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Audio Cont
 
 What can I say? It worked perfectly with the ALSA module called `snd_intel8x0` module.
 
-For Debian, install the [alsa-base](http://packages.debian.org/alsa-base) and [alsa-utils](http://packages.debian.org/alsa-utils) packages.
+For Debian, install the [alsa-base](https://packages.debian.org/alsa-base) and [alsa-utils](https://packages.debian.org/alsa-utils) packages.
 
 ### VGA Framebuffer console
 
@@ -129,7 +129,7 @@ Section "Screen"
 ```
 
 To get the 1400x1050 resolution working, you have to patch the video bios. There's a utility for that called [915resolution](http://www.geocities.com/stomljen/).  
-(for debian install the [915resolution](http://packages.debian.org/915resolution) package). The command to run at every bootup is `915resolution 3c 1400 1050`.  
+(for debian install the [915resolution](https://packages.debian.org/915resolution) package). The command to run at every bootup is `915resolution 3c 1400 1050`.  
 After this, X will accept the resolution.
 
 Here's my [complete xorg.conf](/assets/files/2006/09/dell-d610-xorg-conf.txt) file
@@ -161,7 +161,7 @@ Hardeware: Dell Wireless 350 Bluetooth - connected to the USB bus.
 
 Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install [hotplug](http://linux-hotplug.sourceforge.net/) the driver will be loaded automatically if you press the bluetooth button!
 
-Debian users might want to install the [buetooth](http://packages.debian.org/buetooth) package.
+Debian users might want to install the [buetooth](https://packages.debian.org/buetooth) package.
 
 ### Harddisk
 
@@ -175,7 +175,7 @@ Explanation:
 
 * -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
 
-For Debian; check the [hdparm](http://packages.debian.org/hdparm) package.
+For Debian; check the [hdparm](https://packages.debian.org/hdparm) package.
 
 ### Speedstep
 
@@ -186,7 +186,7 @@ It works perfectly after loading the `speedstep-centrino` and any of the `cpufre
 You can either install the `[cpufreqd](http://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
 I use [this init script](/assets/files/2006/09/dell-d610-cpufreq_setup.txt) to setup everything at bootup.
 
-For Debian, check the [cpufreqd](http://packages.debian.org/cpufreqd) or [powernowd](http://packages.debian.org/powernowd) packages.
+For Debian, check the [cpufreqd](https://packages.debian.org/cpufreqd) or [powernowd](https://packages.debian.org/powernowd) packages.
 
 ### Wireless Lan
 
@@ -199,7 +199,7 @@ For information on how to configure your wlan card, please see the above website
 
 If you want your nifty wlan led to light, add `led=1` to the modprobe line, or add `options ipw2200 led=1` to a file in `/etc/modprobe.d/`{: .filepath}.
 
-For Debian there are the [ipw2200-source](http://packages.debian.org/ipw2200-source) and [ieee80211-source](http://packages.debian.org/ieee80211-source) packages available, which simplifies following up on new releases.
+For Debian there are the [ipw2200-source](https://packages.debian.org/ipw2200-source) and [ieee80211-source](https://packages.debian.org/ieee80211-source) packages available, which simplifies following up on new releases.
 
 ### PCMCIA
 
@@ -207,7 +207,7 @@ Hardware: Texas Instruments PCI6515 Cardbus Controller
 
 You have to install the [pcmciautils](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html) package, and enable the `yenta_socket` module in the kernel.
 
-For Debian, check the [pcmciautils](http://packages.debian.org/pcmciautils) package.
+For Debian, check the [pcmciautils](https://packages.debian.org/pcmciautils) package.
 
 ### SmartCard reader
 
@@ -228,7 +228,7 @@ Here's what you need to do:
 3. Load the smsc-ircc2 module with the correct parameters: `modprobe smsc-ircc2 ircc_irq=3 ircc_dma=3 ircc_sir=0x2f8 ircc_fir=0x280`
 4. Launch irattach on the `irda0` device: `irattach irda0 -s`
 
-For Debian, I advise the [irda-utils](http://packages.debian.org/irda-utils) package.
+For Debian, I advise the [irda-utils](https://packages.debian.org/irda-utils) package.
 
 ### Multimedia Keys
 
@@ -249,7 +249,7 @@ The last three keys generate scancodes, but no keycodes by default. To fix this,
 I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [delld610.def](/assets/files/2006/09/dell-d610-delld610.def_.txt) file in `/usr/share/hotplug/`{: .filepath} and then starting hotkeys as  
 `hotkeys --no-splash --cdrom-dev=/dev/scd0 --osd=off` from your `.xsession`{: .filepath} file. I also use [a seperate script](/assets/files/2006/09/dell-d610-kdialog_acpi_batt_status.txt) to get the ACPI Battery status into a kdialog window, this is mapped to the Battery Status key.
 
-Debian users can install the [hotkeys](http://packages.debian.org/hotkeys) package.
+Debian users can install the [hotkeys](https://packages.debian.org/hotkeys) package.
 
 Thanks to Alexander Wintermans for the extra info on getting this to work.
 
@@ -265,7 +265,7 @@ This works pretty well - there are some caveats to take note off tho:
 
 On kernels < 2.6.16 you have to apply [this patch](http://tpctl.sourceforge.net/tmp/sata_pm.2.6.15-rc6.patch) to get the SATA suspend/resume to work.
 
-To get the display back to life, you have to use vbetool (debian package [vbetool](http://packages.debian.org/vbetool)).
+To get the display back to life, you have to use vbetool (debian package [vbetool](https://packages.debian.org/vbetool)).
 
 I use the following [suspend](/assets/files/2006/09/dell-d610-acpi-events-suspend.txt) script in `/etc/acpi/events`{: .filepath}
 (which is triggered when I press my suspend button), and this [suspend2ram](/assets/files/2006/09/dell-d610-suspend2ram.txt) script to do the actual suspending.
@@ -325,7 +325,7 @@ InputDevice "Mouse[1]"  "CorePointer"
 
 Here's my [complete xorg.conf](/assets/files/2006/09/dell-d610-xorg-conf.txt) file
 
-Debian users can install the [xfree86-driver-synaptics](http://packages.debian.org/xfree86-driver-synaptics) package (for both XFree86 and X.Org).
+Debian users can install the [xfree86-driver-synaptics](https://packages.debian.org/xfree86-driver-synaptics) package (for both XFree86 and X.Org).
 
 ### LID-switch problem
 

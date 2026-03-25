@@ -76,7 +76,7 @@ You can enable everything again after shrinking the partition.
 
 This will leave us with a nice amount of storage to put Linux on.
 
-Now, download the [Debian](http://www.debian.org) [Testing](https://www.debian.org/releases/testing/) [latest weekly dvd 1](https://cdimage.debian.org/cdimage/weekly-builds/)
+Now, download the [Debian](https://www.debian.org) [Testing](https://www.debian.org/releases/testing/) [latest weekly dvd 1](https://cdimage.debian.org/cdimage/weekly-builds/)
 for amd64. You'll also need a USB stick of 8GiB (4.5 is needed). Format that stick as FAT32, and copy _the content of the DVD image_ on the stick (not the actual ISO).
 
 After this is done, you can reboot the laptop. When you see the Dell logo flash on the screen, quickly hit F12 (repeatedly).

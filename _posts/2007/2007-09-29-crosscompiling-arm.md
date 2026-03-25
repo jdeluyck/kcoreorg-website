@@ -24,7 +24,7 @@ Here's a simple howto on how to install an [ARM](https://en.wikipedia.org/wiki/A
 
 This will allow easy package extraction.
 
-Now, download the packages you need manually (from [http://packages.debian.org/](http://packages.debian.org/) and extract them in the directory using `dpkg -x <package file> /usr/arm-deb`
+Now, download the packages you need manually (from [https://packages.debian.org/](https://packages.debian.org/) and extract them in the directory using `dpkg -x <package file> /usr/arm-deb`
 
 To compile something, you first have to add /usr/arm/bin to your path (`export PATH=/usr/arm/bin:$PATH`), set include paths to those include files (`export CPPFLAGS="-I/usr/arm/include"`) and add
 `-host=arm-linux` to your `./configure`.

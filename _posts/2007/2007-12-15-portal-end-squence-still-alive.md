@@ -12,7 +12,7 @@ I recently bought [Portal](http://orange.half-life2.com/portal.html) - a puzzle 
 
 (warning - spoilers ahead - so finish the game first before watching this!)
 
-Read [this wonderful Ars Technica article](http://arstechnica.com/journals/thumbs.ars/2007/10/11/portal-has-the-best-song-in-modern-gaming-here-is-how-you-get-it-from-your-install) if you want to extract it from your Portal installation ;)
+Read [this wonderful Ars Technica article](https://arstechnica.com/journals/thumbs.ars/2007/10/11/portal-has-the-best-song-in-modern-gaming-here-is-how-you-get-it-from-your-install) if you want to extract it from your Portal installation ;)
 
 You can find the lyrics below:
 

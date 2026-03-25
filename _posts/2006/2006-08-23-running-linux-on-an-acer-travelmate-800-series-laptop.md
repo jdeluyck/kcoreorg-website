@@ -83,7 +83,7 @@ USB worked out of the box by loading the following modules:
 * `ehci-hcd` (USB 2 support)
 * `usbcore` (which is automatically loaded by the previous ones)
 
-It is advisable to install [the hotplug system](http://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](http://packages.debian.org/hotplug) package.
+It is advisable to install [the hotplug system](http://linux-hotplug.sourceforge.net/) so the necessary modules are loaded upon plugging. For Debian, install the [hotplug](https://packages.debian.org/hotplug) package.
 
 ### 10/100 MBit ethernet LAN
 
@@ -98,7 +98,7 @@ Hardware: Intel Corp. 82801DB AC'97 Audio Controller
 What can I say? It worked out of the box using the OSS/Free `i810_audio` module.  
 You can also use the ALSA module, called `snd_intel8x0` module. This is actually the preferred driver.
 
-For Debian, install the [alsa-base](http://packages.debian.org/alsa-base) and [alsa-utils](http://packages.debian.org/alsa-utils) packages.
+For Debian, install the [alsa-base](https://packages.debian.org/alsa-base) and [alsa-utils](https://packages.debian.org/alsa-utils) packages.
 
 ### VGA Framebuffer console
 
@@ -162,7 +162,7 @@ For more info, see [this email on linmodems.org](http://linmodems.org/cgi-bin/ez
 
 Another way to get this to work is by using ALSA and enabling the `Intel i8x0/MX440; SiS 7013; NForce; AMD768/8111 modems` option in the kernel. Then you can just load `slmodemd` with the `--alsa` parameter.
 
-For Debian, look for the [sl-modem-daemon](http://packages.debian.org/sl-modem-daemon) and [sl-modem-source](http://packages.debian.org/sl-modem-source) packages.
+For Debian, look for the [sl-modem-daemon](https://packages.debian.org/sl-modem-daemon) and [sl-modem-source](https://packages.debian.org/sl-modem-source) packages.
 
 ### CDRW/DVD
 
@@ -176,7 +176,7 @@ Hardeware: Cambridge Silicon Radio, Ltd - connected to the USB bus.
 
 Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install [hotplug](http://linux-hotplug.sourceforge.net/) the driver will be loaded automatically if you press the bluetooth button!
 
-Debian users might want to install the [bluetooth](http://packages.debian.org/bluetooth) package.
+Debian users might want to install the [bluetooth](https://packages.debian.org/bluetooth) package.
 
 I configured my Palm Tungsten T3 for Bluetooth sync, more info here: [http://howto.pilot-link.org/bluesync/](http://howto.pilot-link.org/bluesync/)
 
@@ -204,7 +204,7 @@ Explanation:
 * -a64: set sector-count for filesystem read-ahead
 * -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
 
-For Debian; check the [hdparm](http://packages.debian.org/hdparm) package.
+For Debian; check the [hdparm](https://packages.debian.org/hdparm) package.
 
 ### Speedstep
 
@@ -215,7 +215,7 @@ It works perfectly after loading the `speedstep-centrino` and any of the `cpufre
 You can either install the `[cpufreqd](http://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).  
 I use [this init script](#) to setup everything at bootup.
 
-For Debian, check the [cpufreqd](http://packages.debian.org/cpufreqd) or [powernowd](http://packages.debian.org/powernowd) packages.
+For Debian, check the [cpufreqd](https://packages.debian.org/cpufreqd) or [powernowd](https://packages.debian.org/powernowd) packages.
 
 ### Wireless Lan
 
@@ -226,7 +226,7 @@ Driver status: native linux driver available at [http://ipw2100.sourceforge.net/
 The native driver works out of the box. Just extract, compile (using `make; make install`) and run `modprobe ipw2100`.  
 For information on how to configure your wlan card, please see the above website.
 
-For Debian there are the [ipw2100-source](http://packages.debian.org/ipw2100-source) and [ieee80211-source](http://packages.debian.org/ieee80211-source) packages available, which simplifies following up on new releases.
+For Debian there are the [ipw2100-source](https://packages.debian.org/ipw2100-source) and [ieee80211-source](https://packages.debian.org/ieee80211-source) packages available, which simplifies following up on new releases.
 
 ### Acer Launchkeys
 
@@ -240,7 +240,7 @@ Hardware: O2 Micro, Inc. OZ711M1 SmartCardBus MultiMediaBay Controller
 
 You have to install the [pcmcia_cs](http://pcmcia-cs.sourceforge.net/) or (for recent kernels) the [pcmciautils](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html) package, and enable the `yenta_socket` module in the kernel.
 
-For Debian, check the [pcmcia-cs](http://packages.debian.org/pcmcia-cs) or the [pcmciautils](http://packages.debian.org/pcmciautils) package.
+For Debian, check the [pcmcia-cs](https://packages.debian.org/pcmcia-cs) or the [pcmciautils](https://packages.debian.org/pcmciautils) package.
 
 ### SmartCard reader
 
@@ -290,7 +290,7 @@ I haven't tested this myself, email follows:
 >     post-install nsc-ircc echo 115200 > /proc/sys/net/irda/max_baud_rate
 >
 
-For Debian, I advise the [irda-utils](http://packages.debian.org/irda-utils) package.
+For Debian, I advise the [irda-utils](https://packages.debian.org/irda-utils) package.
 
 ### Multimedia Keys
 
@@ -307,7 +307,7 @@ These include:
 I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [acertm800.def](#) file in `/usr/share/hotplug/`{: .filepath} and then starting hotkeys as  
 `hotkeys --no-splash --cdrom-dev=none --osd=off` from your `.xsession`{: .filepath} file.
 
-Debian users can install the [hotkeys](http://packages.debian.org/hotkeys) package.
+Debian users can install the [hotkeys](https://packages.debian.org/hotkeys) package.
 
 ### Software Suspend
 
@@ -371,7 +371,7 @@ InputDevice "Mouse[1]"  "CorePointer"
 
 Here's my [complete](/assets/files/2016/11/acer-xf86config-4.txt) XF86Config-4 file
 
-Debian users can install the [xfree86-driver-synaptics](http://packages.debian.org/xfree86-driver-synaptics) package (for both XFree86 and X.Org).
+Debian users can install the [xfree86-driver-synaptics](https://packages.debian.org/xfree86-driver-synaptics) package (for both XFree86 and X.Org).
 
 ## Links
 

@@ -15,7 +15,7 @@ Since I'm a lazy git, I want my laptop to automatically switch back & forth betw
 After an afternoon of fiddling around with several things, I came up with the recipe:  
 1 portion [ifplugd](http://0pointer.de/lennart/projects/ifplugd/), a good mix of [ifupdown](https://packages.debian.org/ifupdown) configuration with [guessnet](http://guessnet.alioth.debian.org/) mappings, and some home-grown scripts. Mix well, and let simmer over a hot stove for half an hour. ;)
 
-The details (tailored to [Debian](http://www.debian.org) [Sid](http://www.debian.org/releases/unstable/)):
+The details (tailored to [Debian](https://www.debian.org) [Sid](https://www.debian.org/releases/unstable/)):
 
 1. Install ifplugd and guessnet: `apt-get install ifplugd guessnet`
 2. Configure the interface you want ifplugd to monitor. For me, this is eth0 (wired ethernet). You can do this by editing `/etc/default/ifplugd`{: .filepath} and adding eth0 in the `INTERFACES` field.  
