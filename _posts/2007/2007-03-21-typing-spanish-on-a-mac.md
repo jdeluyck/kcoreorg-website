@@ -8,7 +8,7 @@ tags:
   - spanish
 ---
 
-I finally (well, no, I got the answer from [my thread](https://www.mac-forums.com/forums/showthread.php?p=353661) on [mac-forums.com](https://www.mac-forums.com)) found how to type spanish characters on Mac OS X (thanks to the wonderful [Study Spanish](http://www.studyspanish.com/accents/typing.htm#mac) site):
+I finally (well, no, I got the answer from [my thread](https://www.mac-forums.com/threads/how-to-type-international-characters-on-the-macbook.56914/#post-353661) on [mac-forums.com](https://www.mac-forums.com)) found how to type spanish characters on Mac OS X (thanks to the wonderful [Study Spanish](http://www.studyspanish.com/accents/typing.htm#mac) site):
 
 > To get accents on the Mac, hold down the [Option key](https://en.wikipedia.org/wiki/Option_key), and while holding it down, type the letter e; then release those keys and type the letter that you want the accent to appear on:
 > 

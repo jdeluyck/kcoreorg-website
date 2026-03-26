@@ -8,11 +8,11 @@ tags:
   - valvesoftware
 ---
 
-I recently bought [Portal](http://orange.half-life2.com/portal.html) - a puzzle game (based on the [Source engine](http://www.valvesoftware.com/sourcelicense/default.htm)) by [Valve](https://www.valvesoftware.com/). The game in itself is fun, but even more fun was the end sequence!
+I recently bought [Portal](https://store.steampowered.com/sub/469/) - a puzzle game (based on the [Source engine](https://en.wikipedia.org/wiki/Source_%28game_engine%29)) by [Valve](https://www.valvesoftware.com/). The game in itself is fun, but even more fun was the end sequence!
 
 (warning - spoilers ahead - so finish the game first before watching this!)
 
-Read [this wonderful Ars Technica article](https://arstechnica.com/journals/thumbs.ars/2007/10/11/portal-has-the-best-song-in-modern-gaming-here-is-how-you-get-it-from-your-install) if you want to extract it from your Portal installation ;)
+Read [this wonderful Ars Technica article](https://arstechnica.com/gaming/2007/10/portal-has-the-best-song-in-modern-gaming-here-is-how-you-get-it-from-your-install/) if you want to extract it from your Portal installation ;)
 
 You can find the lyrics below:
 

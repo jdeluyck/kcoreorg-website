@@ -22,4 +22,6 @@ Because I keep forgetting them, here's a list of buttons you can press during a 
 | Option                      | choose startup disk at boot time                                                                  |
 | Option-Command-Shift-Delete | Bypass primary startup volume and seek a different startup volume (such as a CD or external disk) |
 
-See also [Apple article HT1343](http://support.apple.com/kb/HT1343)
+See also [Apple article HT1343](http://web.archive.org/web/20081027174245/http://support.apple.com/kb/HT1343)[^ia1]
+
+[^ia1]: Internet Archive snapshot. Original URL: http://support.apple.com/kb/HT1343 <!-- markdownlint-disable-line MD034 -->

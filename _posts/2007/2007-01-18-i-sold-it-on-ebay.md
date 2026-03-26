@@ -21,7 +21,7 @@ Today, the item arrived. The package was incomplete (missing cables), and when t
 
 ![console output](/assets/img/posts/2007/01/screenshot_cisco-sm.jpg)
 
-That can so _piss me off_. People like that aren't worth your time. So, _be warned_ when selling stuff to the [snmc1800 eBay user](http://feedback.benl.ebay.be/ws/eBayISAPI.dll?ViewFeedback&userid=snmc1800)!
+That can so _piss me off_. People like that aren't worth your time. So, _be warned_ when selling stuff to the [snmc1800 eBay user](https://feedback.benl.ebay.be/fdbk/feedback_profile/snmc1800)!
 
 And he won't be getting his money back until he ships me the cables.
 

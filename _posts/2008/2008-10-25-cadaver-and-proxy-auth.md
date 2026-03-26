@@ -14,6 +14,8 @@ After some searching for a console-based webdav client we ran across [cadaver](h
 
 What isn't so great is that it doesn't have any way to supply the proxy authentication in a non-interactive way, which is crucial to allow us to script this file transfer.
 
-Today I took the time to create a [patch](http://lists.manyfish.co.uk/pipermail/cadaver/2008-October/000035.html) that allows just that - setting the proxy info in advance. It also includes a parameter to trust the server certificate implicitly, otherwise it was yet another step where cadaver would come and ask for user input.
+Today I took the time to create a [patch](https://web.archive.org/web/20090105172846/http://lists.manyfish.co.uk/pipermail/cadaver/2008-October/000035.html)[^ia1] that allows just that - setting the proxy info in advance. It also includes a parameter to trust the server certificate implicitly, otherwise it was yet another step where cadaver would come and ask for user input.
 
 Now it works like a charm! :)
+
+[^ia1]: Internet Archive snapshot. Original URL: http://lists.manyfish.co.uk/pipermail/cadaver/2008-October/000035.html <!-- markdownlint-disable-line MD034 -->

@@ -10,12 +10,12 @@ tags:
   - ifupdown
 ---
 
-Since I'm a lazy git, I want my laptop to automatically switch back & forth between my wired and wireless interfaces. Seems that stuff like [Network Manager](http://projects.gnome.org/NetworkManager/) can do that for you, but it's not really my thing. I don't like stuff where you need a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) to configure it, a duplicaton of network configuration, and it also tends to hang my machine. No idea why, though.
+Since I'm a lazy git, I want my laptop to automatically switch back & forth between my wired and wireless interfaces. Seems that stuff like [Network Manager](https://wiki.gnome.org/Projects/NetworkManager) can do that for you, but it's not really my thing. I don't like stuff where you need a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) to configure it, a duplicaton of network configuration, and it also tends to hang my machine. No idea why, though.
 
 After an afternoon of fiddling around with several things, I came up with the recipe:  
-1 portion [ifplugd](http://0pointer.de/lennart/projects/ifplugd/), a good mix of [ifupdown](https://packages.debian.org/ifupdown) configuration with [guessnet](http://guessnet.alioth.debian.org/) mappings, and some home-grown scripts. Mix well, and let simmer over a hot stove for half an hour. ;)
+1 portion [ifplugd](http://0pointer.de/lennart/projects/ifplugd/), a good mix of [ifupdown](https://packages.debian.org/ifupdown) configuration with [guessnet](https://sources.debian.org/src/guessnet/) mappings, and some home-grown scripts. Mix well, and let simmer over a hot stove for half an hour. ;)
 
-The details (tailored to [Debian](https://www.debian.org) [Sid](https://www.debian.org/releases/unstable/)):
+The details (tailored to [Debian](https://www.debian.org) [Sid](https://www.debian.org/releases/sid/)):
 
 1. Install ifplugd and guessnet: `apt-get install ifplugd guessnet`
 2. Configure the interface you want ifplugd to monitor. For me, this is eth0 (wired ethernet). You can do this by editing `/etc/default/ifplugd`{: .filepath} and adding eth0 in the `INTERFACES` field.  

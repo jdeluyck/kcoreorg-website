@@ -8,7 +8,7 @@ tags:
   - linux
 ---
 
-I recently purchased an [Alcatel Onetouch X200](http://www.my-onetouch.com/global/content/view/full/1850) [3G](https://en.wikipedia.org/wiki/3G) USB modem, to be able to use internet on various locations where there is no wired or wifi available. Works fine under Windows/Mac OS X, bit more of a hassle under Linux.
+I recently purchased an [Alcatel Onetouch X200](https://web.archive.org/web/20090730044001/http://www.my-onetouch.com:80/global/content/view/full/1850)[^ia1] [3G](https://en.wikipedia.org/wiki/3G) USB modem, to be able to use internet on various locations where there is no wired or wifi available. Works fine under Windows/Mac OS X, bit more of a hassle under Linux.
 
 Here are some hints on how to get it to work:
 
@@ -20,3 +20,5 @@ Here are some hints on how to get it to work:
     You can find a nice list of GSM modem AT codes on [gsm-modem.de](http://www.gsm-modem.de/gsm-modem-faq.html).
 
 Thats about it!
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.my-onetouch.com/global/content/view/full/1850 <!-- markdownlint-disable-line MD034 -->

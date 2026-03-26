@@ -14,6 +14,6 @@ Then I wanted to update to Boot Camp 2.1, to be able to update windows to SP3.
 
 Big nono. Didn't want to install. Update constantly failed, no matter what.
 
-After some googling, I ran across [this post](http://forums.macrumors.com/showpost.php?p=5697863&postcount=2) on the [MacRumors Forums](https://forums.macrumors.com/), which basically says that to install it, you need to open up your registry editor (start &rarr; run &rarr; regedit.exe), do a search for "Boot Camp Services" and locate the key which reads "Language". Modify it, and change the Decimal value to 1033 (hex 409).
+After some googling, I ran across [this post](https://forums.macrumors.com/threads/boot-camp-2-1-update-doesnt-install.510141/?post=5697863#post-5697863) on the [MacRumors Forums](https://forums.macrumors.com/), which basically says that to install it, you need to open up your registry editor (start &rarr; run &rarr; regedit.exe), do a search for "Boot Camp Services" and locate the key which reads "Language". Modify it, and change the Decimal value to 1033 (hex 409).
 
 Restart the installer after this, and it'll install. Go figure.

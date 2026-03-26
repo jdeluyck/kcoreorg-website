@@ -12,9 +12,11 @@ Apple has confirmed the 26th as the releasedate for Leopard!
 
 [![Mac OS X - Arriving 26th!][img]][url]
 
-I've already preordered my copy of this operating system, which has [over 300 improvements](http://www.apple.com/macosx/features/300.html).
+I've already preordered my copy of this operating system, which has [over 300 improvements](https://web.archive.org/web/20071016170507/http://www.apple.com/macosx/features/300.html)[^ia1].
 
 Now go [order yours](https://store.apple.com/Catalog/US/Images/intlstoreroutingpage.html?cid=AOSA10000022132)! ;) (just kidding ;p)
 
 [url]: http://www.apple.com/macosx/
 [img]: /assets/img/posts/2007/10/leopard-arriving-1026-hero-20071016.jpg "Mac OS X - Arriving 26th!"
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.apple.com/macosx/features/300.html <!-- markdownlint-disable-line MD034 -->

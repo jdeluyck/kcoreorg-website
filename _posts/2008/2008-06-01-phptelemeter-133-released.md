@@ -6,7 +6,7 @@ tags:
   - phptelemeter
 ---
 
-After nearly 8 months of no release (if you don't count the 1.33-beta1), I've just released [phptelemeter 1.33](http://phptelemeter.kcore.org/). This version includes the following changes:
+After nearly 8 months of no release (if you don't count the 1.33-beta1), I've just released [phptelemeter 1.33](http://web.archive.org/web/20081121080807/http://phptelemeter.kcore.org/)[^ia1]. This version includes the following changes:
 
 * Added red-hilighting support to plaintext_graphonly publisher
 * Moved the publisher parameter to a new [publisher] section, allowing for publisher-specific config settings
@@ -19,3 +19,5 @@ After nearly 8 months of no release (if you don't count the 1.33-beta1), I've ju
 * Fixed telemeter_web parser
 * Added more error codes to the telemeter4tools parser
 * Fixed scarlet parser
+
+[^ia1]: Internet Archive snapshot. Original URL: http://phptelemeter.kcore.org/ <!-- markdownlint-disable-line MD034 -->

@@ -12,6 +12,8 @@ I use [Irssi](https://irssi.org/) on my mac with Terminal.app in Leopard. All ve
 
 So, I needed something to tweak Terminal.app's ANSI colours.
 
-Luckely, I found [TerminalColor](http://culater.net/software/TerminalColors/TerminalColors.php), a [SIMBL](http://culater.net/software/SIMBL/SIMBL.php) bundle for Terminal.app. Unfortunately, it didn't work with Leopard, but I found this [developizers blog post](http://developizers.blogspot.com/2007/11/terminal-colors-in-leopard.html) on how to make it work!
+Luckely, I found [TerminalColor](https://web.archive.org/web/20060203124250/http://www.culater.net:80/software/TerminalColors/TerminalColors.php)[^ia1], a [SIMBL](https://github.com/msolo/simbl/wiki) bundle for Terminal.app. Unfortunately, it didn't work with Leopard, but I found this [developizers blog post](http://developizers.blogspot.com/2007/11/terminal-colors-in-leopard.html) on how to make it work!
 
 Yay!
+
+[^ia1]: Internet Archive snapshot. Original URL: http://culater.net/software/TerminalColors/TerminalColors.php <!-- markdownlint-disable-line MD034 -->

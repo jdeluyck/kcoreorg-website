@@ -9,4 +9,4 @@ tags:
 
 ![Debian Logo](/assets/img/posts/2007/04/Debian_logo.png)
 
-... but [Debian](https://www.debian.org) Etch got [released last week](https://www.debian.org/News/2007/20070408). Yay! :)
+... but [Debian](https://www.debian.org) Etch got [released last week](https://chronicles.debian.org/www/News/2007/20070408). Yay! :)

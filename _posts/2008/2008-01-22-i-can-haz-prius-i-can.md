@@ -10,7 +10,7 @@ tags:
 
 Wh00t!
 
-I just got called from [Toyota](http://www.toyota.be/) [Garage Holvoet](http://www.toyota.be/holvoet)... Our Prius is in! Two months early!
+I just got called from [Toyota](https://www.toyota.be/) [Garage Holvoet](https://toyota-holvoet.be/)... Our Prius is in! Two months early!
 
 Wh00t!
 

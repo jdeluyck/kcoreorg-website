@@ -9,7 +9,7 @@ tags:
   - seagate
 ---
 
-I "recently" ordered (after doing some research) a [Raidsonic](http://www.raidsonic.de) [Icybox NAS](http://www.raidsonic.de/en/pages/products/external_cases.php?we_objectID=5052) (full model: IB-NAS4220-B). I chose it because of:
+I "recently" ordered (after doing some research) a [Raidsonic](http://www.raidsonic.de) [Icybox NAS](https://web.archive.org/web/20071018214637/http://raidsonic.de:80/en/pages/products/external_cases.php?we_objectID=5052)[^ia1] (full model: IB-NAS4220-B). I chose it because of:
 
 * gigabit ethernet port
 * dual disk support with JBOD/Mirror/Stripe
@@ -20,9 +20,9 @@ I "recently" ordered (after doing some research) a [Raidsonic](http://www.raidso
 * quiet
 * ...
 
-The NAS arrived a week ago, and I ordered two [Seagate](http://www.seagate.com) [Barracuda 7200.10 750gb](http://www.seagate.com/ww/v/index.jsp?vgnextoid=e2af99f4fa74c010VgnVCM100000dd04090aRCRD&locale=en-US) disks (model: ST3750640AS) to go in it. I prefer seagate for the 5 years of warranty they give on their disks. They arrived two days ago.
+The NAS arrived a week ago, and I ordered two [Seagate](https://www.seagate.com) [Barracuda 7200.10 750gb](https://www.seagate.com/support/disc/manuals/sata/100402371a.pdf) disks (model: ST3750640AS) to go in it. I prefer seagate for the 5 years of warranty they give on their disks. They arrived two days ago.
 
-Unfortunately, after initial stress tests I got the following [SMART](https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis,_and_Reporting_Technology) errors (using smartctl, part of the wonderful [smartmontools](http://smartmontools.sourceforge.net/)) on one of the disks:
+Unfortunately, after initial stress tests I got the following [SMART](https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis,_and_Reporting_Technology) errors (using smartctl, part of the wonderful [smartmontools](https://www.smartmontools.org/)) on one of the disks:
 
 > SMART overall-health self-assessment test result: FAILED!  
 > Drive failure expected in less than 24 hours. SAVE ALL DATA.  
@@ -37,3 +37,5 @@ The vendor-specific Attribute is:
 which isn't very healthy :(
 
 The disk is packed up and ready to be shipped back to the store...
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.raidsonic.de/en/pages/products/external_cases.php?we_objectID=5052 <!-- markdownlint-disable-line MD034 -->

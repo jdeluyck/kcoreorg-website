@@ -12,9 +12,9 @@ tags:
   - mail.app
 ---
 
-I still haven't found any mail client I _really_ like on the Mac... I've been using [Thunderbird](https://www.thunderbird.net/en-US/) now for a while, but it doesn't really have what I want in a mail client. I guess I'm spoiled, since I'm used to using [KMail](https://kontact.kde.org/kmail/) at home (and I'm forced to use [Lotus Notes](http://www.ibm.com/software/lotus/products/notes/) at work - a horrible client from a usability point of view).
+I still haven't found any mail client I _really_ like on the Mac... I've been using [Thunderbird](https://www.thunderbird.net/en-US/) now for a while, but it doesn't really have what I want in a mail client. I guess I'm spoiled, since I'm used to using [KMail](https://kontact.kde.org/kmail/) at home (and I'm forced to use [Lotus Notes](https://en.wikipedia.org/w/index.php?title=HCL_Notes) at work - a horrible client from a usability point of view).
 
-Recently I've been trying to get [Mail.app](http://www.apple.com/macosx/features/mail.html) to work for me. It doesn't have quite all the bells and whistles I like, but after looking up some things online it's getting there.
+Recently I've been trying to get [Mail.app](https://web.archive.org/web/20071018033645/http://www.apple.com:80/macosx/features/mail.html)[^ia1] to work for me. It doesn't have quite all the bells and whistles I like, but after looking up some things online it's getting there.
 
 Here are some handy things for Mail.app to fix some of it's shortcomings:
 
@@ -25,7 +25,7 @@ Here are some handy things for Mail.app to fix some of it's shortcomings:
 * Adding multiple mail addresses (aliases) to one mail account:  
     You can type them in the "Email Address" field, separated by comma's.
 * "Go to next unread message":  
-    Use something like [Fastscripts](http://www.red-sweater.com/fastscripts/) with the following AppleScript (from [Macscripter](http://macscripter.net/viewtopic.php?pid=62563#p62563))
+    Use something like [Fastscripts](https://redsweater.com//fastscripts/) with the following AppleScript (from [Macscripter](https://www.macscripter.net/t/mail-app-next-unread-message/44881/2))
 
     ```text
 tell application "Mail" to try  
@@ -42,3 +42,5 @@ What I still need:
 * An easy way to switch from mailbox to mailbox through all the ones with unread messages
 
 Let's see if I find some way to fix those two... especially the threading.
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.apple.com/macosx/features/mail.html <!-- markdownlint-disable-line MD034 -->

@@ -19,4 +19,4 @@ May he rest in peace.
 
 ![RIP Gary Gygax](/assets/img/posts/2008/02/uf011309-sm.gif)
 
-(Comic &copy; [http://www.userfriendly.org](http://www.userfriendly.org))
+(Comic &copy; [UserFriendly](https://en.wikipedia.org/wiki/User_Friendly))

@@ -10,7 +10,7 @@ tags:
   - vsock
 ---
 
-I just finished updating my machine to the latest Linux kernel, [2.6.28](https://marc.info/?l=linux-kernel&m=123016280131543&w=2). All worked, except for [VMWare Server](http://www.vmware.com/products/server/) (which was still at 1.0.8). Since 2.0 has been released, time for an upgrade!
+I just finished updating my machine to the latest Linux kernel, [2.6.28](https://marc.info/?l=linux-kernel&m=123016280131543&w=2). All worked, except for [VMWare Server](https://en.wikipedia.org/wiki/VMware_Server) (which was still at 1.0.8). Since 2.0 has been released, time for an upgrade!
 
 Downloaded, installed, configuration didn't work for the vsock module. Actually, it built, but failed to load due to some missing symbols. After some digging I came across the following patch that modifies the vmware-config.pl script:
 
@@ -47,4 +47,6 @@ Downloaded, installed, configuration didn't work for the vsock module. Actually,
 To use it, download [vmware-configplpatch.txt](/assets/files/2008/12/vmware-configplpatch.txt), and run  
 `cat vmware-configplpatch.txt | patch -p0`, and rerun the VMWare configuration script.
 
-Thanks to [this post](http://ubuntuforums.org/showpost.php?p=6267637&postcount=17) on the [Ubuntu Forums](http://ubuntuforums.org/) for the solution!
+Thanks to [this post](http://ubuntuforums.org/showpost.php?p=6267637&postcount=17) on the [Ubuntu Forums](http://web.archive.org/web/20081226074739/http://ubuntuforums.org:80/)[^ia1] for the solution!
+
+[^ia1]: Internet Archive snapshot. Original URL: http://ubuntuforums.org/ <!-- markdownlint-disable-line MD034 -->

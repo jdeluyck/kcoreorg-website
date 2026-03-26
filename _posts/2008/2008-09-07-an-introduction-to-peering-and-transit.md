@@ -10,4 +10,4 @@ tags:
   - networking
 ---
 
-An interesting read on [Ars Technica](https://arstechnica.com/): [How the 'Net works: an introduction to peering and transit](https://arstechnica.com/guides/other/peering-and-transit.ars/).
+An interesting read on [Ars Technica](https://arstechnica.com/): [How the 'Net works: an introduction to peering and transit](https://arstechnica.com/features/2008/09/peering-and-transit/).

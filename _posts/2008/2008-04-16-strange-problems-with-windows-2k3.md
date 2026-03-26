@@ -58,7 +58,7 @@ System log:
 > 0018: 00 00 00 00 00 00 00 00 ........  
 > 0020: 00 00 00 00 00 00 00 00 ........
 
-The only thing this machine is running is [Platform Symphony](http://www.platform.com), GRID computing software. This setup is identical on 4 other machines, which don't show any problems.
+The only thing this machine is running is [Platform Symphony](http://web.archive.org/web/20080422091306/http://www.platform.com/)[^ia1], GRID computing software. This setup is identical on 4 other machines, which don't show any problems.
 
 After numerous googles I still haven't found a reason or a solution. I've tried:
 
@@ -68,3 +68,5 @@ After numerous googles I still haven't found a reason or a solution. I've tried:
 * tried UHCleaner - doesn't seem to work on 64bit
 * checked registry settings - all are identical
 * ...
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.platform.com <!-- markdownlint-disable-line MD034 -->

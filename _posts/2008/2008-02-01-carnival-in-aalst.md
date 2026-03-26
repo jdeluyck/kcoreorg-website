@@ -8,7 +8,7 @@ tags:
   - aalst
 ---
 
-Yay. Soon it'll be [Aalst Carnaval](http://www.aalst.be/carnaval/), a so-called cultural feast. I rather call it a drunkfest, since there's actually very little culture and loads of drinking going on.
+Yay. Soon it'll be [Aalst Carnaval](http://web.archive.org/web/20080102113753/http://www.aalst.be:80/carnaval/)[^ia1], a so-called cultural feast. I rather call it a drunkfest, since there's actually very little culture and loads of drinking going on.
 
 The cultural part are the processions, made with styrofoam about events in the world. They're usually fun and wellmade. Unfortunately, there's also the other part, where people behave like pigs, trash everything they can (even the ceilings of the train stations have to suffer and be utterly destroyed), drink themselves to hell, let their kids alone home even though they're not even 5 year old, etc etc. I can't say much good about it, I find it a horrible waste of taxpayer money and wish they would either make the people that want to attend it pay a fee, or scrap it all together.
 
@@ -19,3 +19,5 @@ Here's a nice pic of the trainstation of Aalst, all dressed up for the occasion:
 ![Aalst Train Station](/assets/img/posts/2008/02/01022008_G-sm.jpg "Aalst Train Station")
 
 Can't you tell I _love_ carnival?!
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.aalst.be/carnaval/ <!-- markdownlint-disable-line MD034 -->

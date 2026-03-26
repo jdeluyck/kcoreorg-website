@@ -20,12 +20,15 @@ Really. What's up with [iPhone](https://www.apple.com/iphone/) owners these days
 * Apple tells them they might void their warranty when modifying the iPhone
 * it's still SIM-locked. To AT&T.
 
-So, looks like they've been warned. But they don't care, go ahead, and after a while the necessary unlock programs were created (kudos to the [devteams](http://iphone.fiveforty.net/wiki/index.php/Main_Page) who did this, it's a nice feat of engineering), and iPhones where unlocked, new 3rd party applications were created, the works. Nice.
+So, looks like they've been warned. But they don't care, go ahead, and after a while the necessary unlock programs were created (kudos to the [devteams](http://web.archive.org/web/20071001154545/http://iphone.fiveforty.net:80/wiki/index.php/Main_Page)[^ia2] who did this, it's a nice feat of engineering), and iPhones where unlocked, new 3rd party applications were created, the works. Nice.
 
-Next up, Apple comes with [a firmware update](https://appleinsider.com/articles/07/09/27/apple_iphone_update_1_1_1_offers_louder_volume_adds_itunes.html). Tells people that [this might brick their hacked iPhones](https://arstechnica.com/news.ars/post/20070924-apple-firmware-update-likely-to-make-unlocked-iphones-permanently-inoperable.html). Do people heed the warning given by Apple? Nope, they flash anyway, and then loudly complain that their iPhone has become a very expensive paperweight (this can luckely and easily be remedied, it seems).
+Next up, Apple comes with [a firmware update](https://appleinsider.com/articles/07/09/27/apple_iphone_update_1_1_1_offers_louder_volume_adds_itunes.html). Tells people that [this might brick their hacked iPhones](https://arstechnica.com/gadgets/2007/09/apple-firmware-update-likely-to-make-unlocked-iphones-permanently-inoperable/). Do people heed the warning given by Apple? Nope, they flash anyway, and then loudly complain that their iPhone has become a very expensive paperweight (this can luckely and easily be remedied, it seems).
 
-And then they want to go ahead and [sue Apple over it](https://www.engadget.com/2007/10/01/iphone-users-calling-for-class-action-lawsuit-over-firmware-v1-1/). Really. _Get a grip!_ You bought the piece of hardware which was locked, in more than one way, and you yourself decided to crack it wide open. Though luck than if it breaks - you get to keep all the pieces!
+And then they want to go ahead and [sue Apple over it](https://www.engadget.com/2007-10-01-iphone-users-calling-for-class-action-lawsuit-over-firmware-v1-1.html). Really. _Get a grip!_ You bought the piece of hardware which was locked, in more than one way, and you yourself decided to crack it wide open. Though luck than if it breaks - you get to keep all the pieces!
 
 If you wanted to tinker with it, buy a phone with a platform that is open.
 
-EDIT: I've stumbled over [this blog entry](http://diveintomark.org/archives/2007/10/04/if-wishes-were-iphones) which makes the point nicely.
+EDIT: I've stumbled over [this blog entry](https://web.archive.org/web/20071011001108/http://diveintomark.org:80/archives/2007/10/04/if-wishes-were-iphones)[^ia1] which makes the point nicely.
+
+[^ia1]: Internet Archive snapshot. Original URL: http://diveintomark.org/archives/2007/10/04/if-wishes-were-iphones <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: http://iphone.fiveforty.net/wiki/index.php/Main_Page <!-- markdownlint-disable-line MD034 -->

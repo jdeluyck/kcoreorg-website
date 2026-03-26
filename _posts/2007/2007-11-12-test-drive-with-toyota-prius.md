@@ -8,7 +8,7 @@ tags:
   - toyota prius
 ---
 
-Today I managed to get a testdrive with the [Toyota](http://www.toyota.be/) [Prius](http://nl.toyota.be/cars/new_cars/prius/index.aspx) (thanks to [Garage Holvoet](http://netnl.toyota.be/dealers/A5F3CA4D-E065-11D2-9822-006094F96CDD/) in Dendermonde).
+Today I managed to get a testdrive with the [Toyota](https://www.toyota.be/) [Prius](http://nl.toyota.be/cars/new_cars/prius/index.aspx) (thanks to [Garage Holvoet](https://toyota-holvoet.be/) in Dendermonde).
 
 Remarks:
 

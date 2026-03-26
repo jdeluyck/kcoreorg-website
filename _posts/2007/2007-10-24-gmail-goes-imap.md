@@ -10,11 +10,11 @@ tags:
 
 Finally!
 
-[Gmail](http://gmail.google.com) now offers secure [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) access.
+[Gmail](https://mail.google.com) now offers secure [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) access.
 
 To use this:
 
-1. [Activate IMAP](http://mail.google.com/support/bin/answer.py?answer=77695) on your Gmail account
-2. [Configure your favourite mail client](http://mail.google.com/support/bin/answer.py?answer=75726) for IMAP access
+1. [Activate IMAP](https://support.google.com/mail/answer/7126229?visit_id=639100659154816719-1742707203&rd=1) on your Gmail account
+2. [Configure your favourite mail client](https://support.google.com/mail/answer/7126229?visit_id=639100659997168890-40113064&rd=1) for IMAP access
 
 Done ;)

@@ -6,7 +6,7 @@ tags:
   - phptelemeter
 ---
 
-I've just released [phptelemeter 1.34](http://phptelemeter.kcore.org/). This version includes the following changes:
+I've just released [phptelemeter 1.34](http://web.archive.org/web/20081121080807/http://phptelemeter.kcore.org/)[^ia1]. This version includes the following changes:
 
 * Fixed telemeter4tools parser.
 * Added a check for the new scarlet unlimited accounts
@@ -17,3 +17,5 @@ I've just released [phptelemeter 1.34](http://phptelemeter.kcore.org/). This ver
 * Added mysql publisher (feature request: 1671210)
 * Limited warn-percentage to 2 digits after the comma (feature request: 1936213)
 * Added reset date to over-limit notification mails (feature request: 1837559)
+
+[^ia1]: Internet Archive snapshot. Original URL: http://phptelemeter.kcore.org/ <!-- markdownlint-disable-line MD034 -->

@@ -9,8 +9,11 @@ tags:
   - smartphones
 ---
 
-I've recently [discovered a new python based blogging client](http://www.smstextnews.com/2008/03/the_fastest_symbian_developer_on_the_planet_and_my_wordpress_client.html) for Symbian S60 3rd edition based phones.
+I've recently [discovered a new python based blogging client](http://web.archive.org/web/20080322001617/http://www.smstextnews.com:80/2008/03/the_fastest_symbian_developer_on_the_planet_and_my_wordpress_client.html)[^ia1] for Symbian S60 3rd edition based phones.
 
 It's still very beta, but it works nicely!
 
-Check it out at [http://scribe.na.nu/](http://scribe.na.nu/)
+Check it out at [web.archive.org](https://web.archive.org/web/20081216015124/http://scribe.na.nu:80/)[^ia2]
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.smstextnews.com/2008/03/the_fastest_symbian_developer_on_the_planet_and_my_wordpress_client.html <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: http://scribe.na.nu/ <!-- markdownlint-disable-line MD034 -->

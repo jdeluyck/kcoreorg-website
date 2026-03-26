@@ -27,6 +27,8 @@ Things that need to work still:
 Sources I'm using at the moment:
 
 * [wiki.debian.org](https://wiki.debian.org/MacBook)
-* [http://wikigentoo.ksiezyc.pl/Apple_Mac_Pro.htm](http://wikigentoo.ksiezyc.pl/Apple_Mac_Pro.htm)
+* [web.archive.org](https://web.archive.org/web/20180526150855/http://wikigentoo.ksiezyc.pl:80/Apple_Mac_Pro.htm)[^ia1]
 
 I'll write a detailed post on this later... when I'm not uberly lazy ;)
+
+[^ia1]: Internet Archive snapshot. Original URL: http://wikigentoo.ksiezyc.pl/Apple_Mac_Pro.htm <!-- markdownlint-disable-line MD034 -->

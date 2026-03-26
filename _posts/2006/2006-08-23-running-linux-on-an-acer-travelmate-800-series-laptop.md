@@ -98,7 +98,7 @@ Hardware: Intel Corp. 82801DB AC'97 Audio Controller
 What can I say? It worked out of the box using the OSS/Free `i810_audio` module.  
 You can also use the ALSA module, called `snd_intel8x0` module. This is actually the preferred driver.
 
-For Debian, install the [alsa-base](https://packages.debian.org/alsa-base) and [alsa-utils](https://packages.debian.org/alsa-utils) packages.
+For Debian, install the [alsa-base](https://packages.debian.org/alsa-base) and [alsa-utils](https://packages.debian.org/search?keywords=alsa-utils) packages.
 
 ### VGA Framebuffer console
 
@@ -139,26 +139,26 @@ Section "Screen"
 EndSection
 ```
 
-An alternative driver is [ATI](http://www.ati.com/)'s [FireGL](https://support.ati.com/ics/support/default.asp?deptID=894) driver.  
-Debian users can look [on this blog](http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html) for downloading and building the package.
+An alternative driver is [ATI](http://www.ati.com/)'s [FireGL](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2] driver.  
+Debian users can look [on this blog](http://web.archive.org/web/20060428063633/http://xoomer.virgilio.it:80/flavio.stanchina/debian/fglrx-installer.html)[^ia3] for downloading and building the package.
 
 Here's my [complete](/assets/files/2016/11/acer-xf86config-4.txt)XF86Config-4 file.
 
 ### TV Out
 
-This is rumored to work with [ATI](http://www.ati.com/)'s [FireGL](https://support.ati.com/ics/support/default.asp?deptID=894) driver. I haven't confirmed this, tho.
+This is rumored to work with [ATI](http://www.ati.com/)'s [FireGL](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2] driver. I haven't confirmed this, tho.
 
 ### Modem
 
 Hardware: Intel Corp. 82801DB AC'97 Modem Controller - Winmodem.
 
-this modem is made by [Agere](http://www.agere.com/) (a Lucent subsidiary).
+this modem is made by [Agere](http://web.archive.org/web/20060825144755/http://www.agere.com/)[^ia4] (a Lucent subsidiary).
 
-You can get it to work by using the latest release from [the smartlink driver](http://linmodems.technion.ac.il/packages/smartlink/):  
+You can get it to work by using the latest release from [the smartlink driver](http://web.archive.org/web/20060824035416/http://linmodems.technion.ac.il:80/packages/smartlink/)[^ia5]:  
 Compile the driver (`make`) and install it (`make install`). Next, start the `slmodemd` daemon with the following parameters:  
 `slmodemd -c <COUNTRY>`  
 This will start the daemon and link it to the `/dev/ttySL0`{: .filepath} port. Now you can use that for dialout.  
-For more info, see [this email on linmodems.org](http://linmodems.org/cgi-bin/ezmlm-cgi?1:mss:11960:nhnjjijpeieggabidgof)
+For more info, see [web.archive.org](https://web.archive.org/web/20050305165811/http://linmodems.org:80/cgi-bin/ezmlm-cgi?1:mss:11960:nhnjjijpeieggabidgof)[^ia6]
 
 Another way to get this to work is by using ALSA and enabling the `Intel i8x0/MX440; SiS 7013; NForce; AMD768/8111 modems` option in the kernel. Then you can just load `slmodemd` with the `--alsa` parameter.
 
@@ -178,7 +178,7 @@ Works perfectly with the `bluez` and `hci-usb` modules. In fact, if you install 
 
 Debian users might want to install the [bluetooth](https://packages.debian.org/bluetooth) package.
 
-I configured my Palm Tungsten T3 for Bluetooth sync, more info here: [http://howto.pilot-link.org/bluesync/](http://howto.pilot-link.org/bluesync/)
+I configured my Palm Tungsten T3 for Bluetooth sync, more info here: [web.archive.org](http://web.archive.org/web/20080516222130/http://howto.pilot-link.org/bluesync/)[^ia7]
 
 ### FireWire (IEEE 1394)
 
@@ -221,7 +221,7 @@ For Debian, check the [cpufreqd](https://packages.debian.org/cpufreqd) or [power
 
 Hardware: Intel Corp. PRO/Wireless LAN 2100 3B Mini PCI Adapter
 
-Driver status: native linux driver available at [http://ipw2100.sourceforge.net/](http://ipw2100.sourceforge.net/)
+Driver status: native linux driver available at [sourceforge.net](https://sourceforge.net/projects/ipw2100/)
 
 The native driver works out of the box. Just extract, compile (using `make; make install`) and run `modprobe ipw2100`.  
 For information on how to configure your wlan card, please see the above website.
@@ -232,13 +232,13 @@ For Debian there are the [ipw2100-source](https://packages.debian.org/ipw2100-so
 
 Most of these you can get to work with the [acerhk](http://www.informatik.hu-berlin.de/~tauber/acerhk/) driver.
 
-For usage instructions, see [the Gentoo wiki](http://gentoo-wiki.com/Gentoo_Acer_Travelmate_803LCi_Manual#Acer_Launchkeys_.26_AcerHK)
+For usage instructions, see [the Gentoo wiki](https://web.archive.org/web/20050225051603/http://gentoo-wiki.com:80/Gentoo_Acer_Travelmate_803LCi_Manual)[^ia8]
 
 ### PCMCIA
 
 Hardware: O2 Micro, Inc. OZ711M1 SmartCardBus MultiMediaBay Controller
 
-You have to install the [pcmcia_cs](https://pcmcia-cs.sourceforge.net/) or (for recent kernels) the [pcmciautils](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html) package, and enable the `yenta_socket` module in the kernel.
+You have to install the [pcmcia_cs](https://pcmcia-cs.sourceforge.net/) or (for recent kernels) the [pcmciautils](https://web.archive.org/web/20050330220449/http://kernel.org:80/pub/linux/utils/kernel/pcmcia/pcmcia.html)[^ia9] package, and enable the `yenta_socket` module in the kernel.
 
 For Debian, check the [pcmcia-cs](https://packages.debian.org/pcmcia-cs) or the [pcmciautils](https://packages.debian.org/pcmciautils) package.
 
@@ -246,7 +246,7 @@ For Debian, check the [pcmcia-cs](https://packages.debian.org/pcmcia-cs) or the 
 
 Hardware: O2 Micro, Inc. OZ711Mx MultiMediaBay Accelerator
 
-There's a driver available at [http://www.musclecard.com/sourcedrivers.html](http://www.musclecard.com/sourcedrivers.html)
+There's a driver available at [web.archive.org](https://web.archive.org/web/20050620083613/http://www.musclecard.com:80/sourcedrivers.html)[^ia10]
 
 I haven't tried it out yet tho.
 
@@ -304,7 +304,7 @@ These include:
 * Setup (opens a program to change some bios settings)
 * Change power mode
 
-I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [acertm800.def](#) file in `/usr/share/hotplug/`{: .filepath} and then starting hotkeys as  
+I used the [hotkeys](https://web.archive.org/web/20050404023439/http://ftp.debian.org:80/debian/pool/main/h/hotkeys/)[^ia11] for it, with this [acertm800.def](#) file in `/usr/share/hotplug/`{: .filepath} and then starting hotkeys as  
 `hotkeys --no-splash --cdrom-dev=none --osd=off` from your `.xsession`{: .filepath} file.
 
 Debian users can install the [hotkeys](https://packages.debian.org/hotkeys) package.
@@ -316,17 +316,17 @@ Not yet tried.
 ### Suspend to RAM
 
 This works pretty well starting kernel `2.6.12`.  
-You can't use the [ATI](http://www.ati.com/) [fglrx](https://support.ati.com/ics/support/default.asp?deptID=894) driver, and you can't use the Radeon framebuffer.
+You can't use the [ATI](http://www.ati.com/) [fglrx](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2] driver, and you can't use the Radeon framebuffer.
 
 I use the following [suspend](#) script in `/etc/acpi/events`{: .filepath}
 (which is triggered when I press my suspend button), and this [suspend2ram](#)
 script to do the actual suspending.
 
-[At this blog](http://www.doesi.gmxhome.de/linux/tm800s3/s3.html) you can find more information which might help you get it working.
+[At this blog](http://web.archive.org/web/20060813205451/http://www.doesi.gmxhome.de:80/linux/tm800s3/s3.html)[^ia12] you can find more information which might help you get it working.
 
 ### Touchpad in XFree86/X.Org
 
-This is a Synaptics touchpad. You can use it with [this driver](http://w1.894.telia.com/~u89404340/touchpad/).  
+This is a Synaptics touchpad. You can use it with [this driver](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia13].  
 Extract from the `INSTALL` file:
 
 ```text
@@ -375,27 +375,42 @@ Debian users can install the [xfree86-driver-synaptics](https://packages.debian.
 
 ## Links
 
-* Acer: [http://www.acer.com](http://www.acer.com/)
+* Acer: [https://www.acer.com](https://www.acer.com/)
 * Centrino: [http://www.intel.com/home/notebook/centrino/index.htm](http://www.intel.com/home/notebook/centrino/index.htm)
 * CPUFreq CVS patches: [ftp://ftp.linux.org.uk/pub/linux/cpufreq/](ftp://ftp.linux.org.uk/pub/linux/cpufreq/)
 * Kernel: [www.kernel.org](https://www.kernel.org/)
-* Linux on mobile computers: [http://www.tuxmobil.com/](http://www.tuxmobil.com/)
+* Linux on mobile computers: [web.archive.org](http://web.archive.org/web/20050405231417/http://www.tuxmobil.com:80/)[^ia1]
 * Linux-on-laptops: [linux-on-laptops.com](https://linux-on-laptops.com/)
 * Linux hotplug: [linux-hotplug.sourceforge.net](https://linux-hotplug.sourceforge.net/)
-* Modem manufacturer: [http://www.agere.com/](http://www.agere.com/)
+* Modem manufacturer: [web.archive.org](http://web.archive.org/web/20060825144755/http://www.agere.com/)[^ia4]
 * Winmodems on linux: [http://www.linmodems.org/](http://www.linmodems.org/)
-* Smartlink Linux drivers: [http://linmodems.technion.ac.il/packages/smartlink/](http://linmodems.technion.ac.il/packages/smartlink/)
+* Smartlink Linux drivers: [web.archive.org](http://web.archive.org/web/20060824035416/http://linmodems.technion.ac.il:80/packages/smartlink/)[^ia5]
 * CPUFreq daemon: [cpufreqd.sourceforge.net](https://cpufreqd.sourceforge.net/)
 * PCMCIA-CS Linux package: [pcmcia-cs.sourceforge.net](https://pcmcia-cs.sourceforge.net/)
-* PCMCIAUtils (2.6.12+ kernels): [http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html)
-* SmartCard driver: [http://www.musclecard.com/sourcedrivers.html](http://www.musclecard.com/sourcedrivers.html)
-* Synaptics Touchpad driver for XFree86: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
-* Intel PRO/Wireless 2100 linux driver: [http://ipw2100.sourceforge.net/](http://ipw2100.sourceforge.net/)
-* Palm Bluetooth Synchronisation: [http://howto.pilot-link.org/bluesync/](http://howto.pilot-link.org/bluesync/)
+* PCMCIAUtils (2.6.12+ kernels): [web.archive.org](https://web.archive.org/web/20050330220449/http://kernel.org:80/pub/linux/utils/kernel/pcmcia/pcmcia.html)[^ia9]
+* SmartCard driver: [web.archive.org](https://web.archive.org/web/20050620083613/http://www.musclecard.com:80/sourcedrivers.html)[^ia10]
+* Synaptics Touchpad driver for XFree86: [web.archive.org](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia13]
+* Intel PRO/Wireless 2100 linux driver: [sourceforge.net](https://sourceforge.net/projects/ipw2100/)
+* Palm Bluetooth Synchronisation: [web.archive.org](http://web.archive.org/web/20080516222130/http://howto.pilot-link.org/bluesync/)[^ia7]
 * ATI: [http://www.ati.com/](http://www.ati.com/)
-* ATI FireGL Linux driver: [https://support.ati.com/ics/support/default.asp?deptID=894](https://support.ati.com/ics/support/default.asp?deptID=894)
-* Debian package for ATI drivers: [http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html](http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html)
+* ATI FireGL Linux driver: [web.archive.org](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2]
+* Debian package for ATI drivers: [web.archive.org](http://web.archive.org/web/20060428063633/http://xoomer.virgilio.it:80/flavio.stanchina/debian/fglrx-installer.html)[^ia3]
 * Acer Launchkeys Driver: [http://www.informatik.hu-berlin.de/~tauber/acerhk/](http://www.informatik.hu-berlin.de/~tauber/acerhk/)
-* Gentoo Acer TM803 wiki: [http://gentoo-wiki.com/Gentoo_Acer_Travelmate_803LCi_Manual](http://gentoo-wiki.com/Gentoo_Acer_Travelmate_803LCi_Manual)
-* Using S3 - supend to ram: [http://www.doesi.gmxhome.de/linux/tm800s3/s3.html](http://www.doesi.gmxhome.de/linux/tm800s3/s3.html)
-* Hotkeys program: [http://ftp.debian.org/debian/pool/main/h/hotkeys/](http://ftp.debian.org/debian/pool/main/h/hotkeys/)
+* Gentoo Acer TM803 wiki: [web.archive.org](http://web.archive.org/web/20060818040300/http://gentoo-wiki.com:80/Gentoo_Acer_Travelmate_803LCi_Manual)[^ia14]
+* Using S3 - supend to ram: [web.archive.org](http://web.archive.org/web/20060813205451/http://www.doesi.gmxhome.de:80/linux/tm800s3/s3.html)[^ia12]
+* Hotkeys program: [web.archive.org](https://web.archive.org/web/20050404023439/http://ftp.debian.org:80/debian/pool/main/h/hotkeys/)[^ia11]
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.tuxmobil.com/ <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: https://support.ati.com/ics/support/default.asp?deptID=894 <!-- markdownlint-disable-line MD034 -->
+[^ia3]: Internet Archive snapshot. Original URL: http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html <!-- markdownlint-disable-line MD034 -->
+[^ia4]: Internet Archive snapshot. Original URL: http://www.agere.com/ <!-- markdownlint-disable-line MD034 -->
+[^ia5]: Internet Archive snapshot. Original URL: http://linmodems.technion.ac.il/packages/smartlink/ <!-- markdownlint-disable-line MD034 -->
+[^ia6]: Internet Archive snapshot. Original URL: http://linmodems.org/cgi-bin/ezmlm-cgi?1:mss:11960:nhnjjijpeieggabidgof <!-- markdownlint-disable-line MD034 -->
+[^ia7]: Internet Archive snapshot. Original URL: http://howto.pilot-link.org/bluesync/ <!-- markdownlint-disable-line MD034 -->
+[^ia8]: Internet Archive snapshot. Original URL: http://gentoo-wiki.com/Gentoo_Acer_Travelmate_803LCi_Manual#Acer_Launchkeys_.26_AcerHK <!-- markdownlint-disable-line MD034 -->
+[^ia9]: Internet Archive snapshot. Original URL: http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html <!-- markdownlint-disable-line MD034 -->
+[^ia10]: Internet Archive snapshot. Original URL: http://www.musclecard.com/sourcedrivers.html <!-- markdownlint-disable-line MD034 -->
+[^ia11]: Internet Archive snapshot. Original URL: http://ftp.debian.org/debian/pool/main/h/hotkeys/ <!-- markdownlint-disable-line MD034 -->
+[^ia12]: Internet Archive snapshot. Original URL: http://www.doesi.gmxhome.de/linux/tm800s3/s3.html <!-- markdownlint-disable-line MD034 -->
+[^ia13]: Internet Archive snapshot. Original URL: http://w1.894.telia.com/~u89404340/touchpad/ <!-- markdownlint-disable-line MD034 -->
+[^ia14]: Internet Archive snapshot. Original URL: http://gentoo-wiki.com/Gentoo_Acer_Travelmate_803LCi_Manual <!-- markdownlint-disable-line MD034 -->

@@ -90,7 +90,7 @@ Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Audio Cont
 
 What can I say? It worked perfectly with the ALSA module called `snd_intel8x0` module.
 
-For Debian, install the [alsa-base](https://packages.debian.org/alsa-base) and [alsa-utils](https://packages.debian.org/alsa-utils) packages.
+For Debian, install the [alsa-base](https://packages.debian.org/alsa-base) and [alsa-utils](https://packages.debian.org/search?keywords=alsa-utils) packages.
 
 ### VGA Framebuffer console
 
@@ -128,7 +128,7 @@ Section "Screen"
 		EndSection
 ```
 
-To get the 1400x1050 resolution working, you have to patch the video bios. There's a utility for that called [915resolution](http://www.geocities.com/stomljen/).  
+To get the 1400x1050 resolution working, you have to patch the video bios. There's a utility for that called [915resolution](http://web.archive.org/web/20060705013350/http://www.geocities.com:80/stomljen/)[^ia1].  
 (for debian install the [915resolution](https://packages.debian.org/915resolution) package). The command to run at every bootup is `915resolution 3c 1400 1050`.  
 After this, X will accept the resolution.
 
@@ -142,7 +142,7 @@ This is rumored to work with the standard `i810` X.Org driver. Not tested.
 
 Hardware: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Modem Controller - Winmodem.
 
-This modem can be gotten to work using the [Linuxant](https://www.linuxant.com/) [HSF Softmodem drivers](https://www.linuxant.com/drivers/hsf/index.php). Unfortunately, they are payware.  
+This modem can be gotten to work using the [Linuxant](https://www.linuxant.com/company/) [HSF Softmodem drivers](https://www.linuxant.com/drivers/hsf/index.php). Unfortunately, they are payware.  
 They also have a limited-speed test driver, you can see if that works for you before deciding to buy the driver.
 
 NOTE: You have to compile your kernel **without `CONFIG_4KSTACKS`!** If you use this driver with 4K stacks enabled, it \_will\_ crash your system!
@@ -192,20 +192,20 @@ For Debian, check the [cpufreqd](https://packages.debian.org/cpufreqd) or [power
 
 Hardware: Intel Corporation PRO/Wireless 2915ABG MiniPCI Adapter
 
-Driver status: native linux driver available at [http://ipw2200.sourceforge.net/](http://ipw2200.sourceforge.net/)
+Driver status: native linux driver available at [sourceforge.net](https://sourceforge.net/projects/ipw2200/)
 
 The native driver works out of the box. Just extract, compile (using `make; make install`) and run `modprobe ipw2200`.  
 For information on how to configure your wlan card, please see the above website.
 
 If you want your nifty wlan led to light, add `led=1` to the modprobe line, or add `options ipw2200 led=1` to a file in `/etc/modprobe.d/`{: .filepath}.
 
-For Debian there are the [ipw2200-source](https://packages.debian.org/ipw2200-source) and [ieee80211-source](https://packages.debian.org/ieee80211-source) packages available, which simplifies following up on new releases.
+For Debian there are the [ipw2200-source](https://packages.debian.org/search?keywords=ipw2200-source) and [ieee80211-source](https://packages.debian.org/ieee80211-source) packages available, which simplifies following up on new releases.
 
 ### PCMCIA
 
 Hardware: Texas Instruments PCI6515 Cardbus Controller
 
-You have to install the [pcmciautils](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html) package, and enable the `yenta_socket` module in the kernel.
+You have to install the [pcmciautils](https://web.archive.org/web/20050330220449/http://kernel.org:80/pub/linux/utils/kernel/pcmcia/pcmcia.html)[^ia3] package, and enable the `yenta_socket` module in the kernel.
 
 For Debian, check the [pcmciautils](https://packages.debian.org/pcmciautils) package.
 
@@ -246,7 +246,7 @@ Normally the Mute, Eject CD, Battery and Hibernate buttons don't generate key-up
 
 The last three keys generate scancodes, but no keycodes by default. To fix this, you can map them using `setkeycodes`. You can also use [this init.d script](/assets/files/2006/09/dell-d610-d610init.txt).
 
-I used the [hotkeys](http://ftp.debian.org/debian/pool/main/h/hotkeys/) for it, with this [delld610.def](/assets/files/2006/09/dell-d610-delld610.def_.txt) file in `/usr/share/hotplug/`{: .filepath} and then starting hotkeys as  
+I used the [hotkeys](https://web.archive.org/web/20050404023439/http://ftp.debian.org:80/debian/pool/main/h/hotkeys/)[^ia4] for it, with this [delld610.def](/assets/files/2006/09/dell-d610-delld610.def_.txt) file in `/usr/share/hotplug/`{: .filepath} and then starting hotkeys as  
 `hotkeys --no-splash --cdrom-dev=/dev/scd0 --osd=off` from your `.xsession`{: .filepath} file. I also use [a seperate script](/assets/files/2006/09/dell-d610-kdialog_acpi_batt_status.txt) to get the ACPI Battery status into a kdialog window, this is mapped to the Battery Status key.
 
 Debian users can install the [hotkeys](https://packages.debian.org/hotkeys) package.
@@ -263,7 +263,7 @@ This works pretty well - there are some caveats to take note off tho:
 
 [This site](https://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux) has some hints with respect to the SATA side of suspending.
 
-On kernels < 2.6.16 you have to apply [this patch](http://tpctl.sourceforge.net/tmp/sata_pm.2.6.15-rc6.patch) to get the SATA suspend/resume to work.
+On kernels < 2.6.16 you have to apply [this patch](http://web.archive.org/web/20060719223929/http://tpctl.sourceforge.net:80/tmp/sata_pm.2.6.15-rc6.patch)[^ia5] to get the SATA suspend/resume to work.
 
 To get the display back to life, you have to use vbetool (debian package [vbetool](https://packages.debian.org/vbetool)).
 
@@ -272,7 +272,7 @@ I use the following [suspend](/assets/files/2006/09/dell-d610-acpi-events-suspen
 
 ### Touchpad in XFree86/X.Org
 
-This is a ALPS touchpad. You can use it with [this driver](http://w1.894.telia.com/~u89404340/touchpad/).  
+This is a ALPS touchpad. You can use it with [this driver](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia6].  
 Extract from the `INSTALL` file:
 
 1. Copy the driver-module `synaptics_drv.o` into the XFree-module path eg. `/usr/X11R6/lib/modules/input/`{: .filepath}.
@@ -341,16 +341,23 @@ What we basically do is `echo 0x80000001 > /proc/acpi/video/VID/LCD/state`, whic
 
 * Dell: [www.dell.com](https://www.dell.com/)
 * Centrino: [http://www.intel.com/home/notebook/centrino/index.htm](http://www.intel.com/home/notebook/centrino/index.htm)
-* 915resolution: [http://www.geocities.com/stomljen/](http://www.geocities.com/stomljen/)/li>
-* Intel PRO/Wireless 2915AB linux driver: [http://ipw2200.sourceforge.net/](http://ipw2200.sourceforge.net/)
-* Hotkeys program: [http://ftp.debian.org/debian/pool/main/h/hotkeys/](http://ftp.debian.org/debian/pool/main/h/hotkeys/)
+* 915resolution: [web.archive.org](http://web.archive.org/web/20060705013350/http://www.geocities.com:80/stomljen/)[^ia1]/li>
+* Intel PRO/Wireless 2915AB linux driver: [sourceforge.net](https://sourceforge.net/projects/ipw2200/)
+* Hotkeys program: [web.archive.org](https://web.archive.org/web/20050404023439/http://ftp.debian.org:80/debian/pool/main/h/hotkeys/)[^ia4]
 * Kernel: [www.kernel.org](https://www.kernel.org/)
-* Linux on mobile computers: [http://www.tuxmobil.com/](http://www.tuxmobil.com/)
+* Linux on mobile computers: [web.archive.org](http://web.archive.org/web/20050405231417/http://www.tuxmobil.com:80/)[^ia2]
 * Linux-on-laptops: [linux-on-laptops.com](https://linux-on-laptops.com/)
 * Linux hotplug: [linux-hotplug.sourceforge.net](https://linux-hotplug.sourceforge.net/)
 * SATA and Linux: [www.thinkwiki.org](https://www.thinkwiki.org/wiki/Problems_with_SATA_and_Linux)
-* PCMCIAUtils (2.6.12+ kernels): [http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html](http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html)
-* Synaptics Touchpad driver for XFree86/Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
+* PCMCIAUtils (2.6.12+ kernels): [web.archive.org](https://web.archive.org/web/20050330220449/http://kernel.org:80/pub/linux/utils/kernel/pcmcia/pcmcia.html)[^ia3]
+* Synaptics Touchpad driver for XFree86/Xorg: [web.archive.org](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia6]
 * Winmodems on linux: [http://www.linmodems.org/](http://www.linmodems.org/)
 * Linuxant modem drivers: [www.linuxant.com](https://www.linuxant.com/drivers/hsf/index.php)
-* Linuxant: [https://www.linuxant.com/](https://www.linuxant.com/)
+* Linuxant: [www.linuxant.com](https://www.linuxant.com/company/)
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.geocities.com/stomljen/ <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: http://www.tuxmobil.com/ <!-- markdownlint-disable-line MD034 -->
+[^ia3]: Internet Archive snapshot. Original URL: http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html <!-- markdownlint-disable-line MD034 -->
+[^ia4]: Internet Archive snapshot. Original URL: http://ftp.debian.org/debian/pool/main/h/hotkeys/ <!-- markdownlint-disable-line MD034 -->
+[^ia5]: Internet Archive snapshot. Original URL: http://tpctl.sourceforge.net/tmp/sata_pm.2.6.15-rc6.patch <!-- markdownlint-disable-line MD034 -->
+[^ia6]: Internet Archive snapshot. Original URL: http://w1.894.telia.com/~u89404340/touchpad/ <!-- markdownlint-disable-line MD034 -->

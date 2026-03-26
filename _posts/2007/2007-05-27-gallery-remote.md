@@ -9,7 +9,7 @@ tags:
   - sid
 ---
 
-I was trying to get [GalleryRemote](http://gallery.menalto.com/wiki/Gallery_Remote) installed today on my Linux installation (because for obscure reasons, using the java applet in gallery directly crashes my browsers), which wouldn't run. Attempting to run the installer gave obscure errors like:  
+I was trying to get [GalleryRemote](http://web.archive.org/web/20070601174803/http://gallery.menalto.com:80/wiki/Gallery_Remote)[^ia1] installed today on my Linux installation (because for obscure reasons, using the java applet in gallery directly crashes my browsers), which wouldn't run. Attempting to run the installer gave obscure errors like:  
 
 ```text
 awk: error while loading shared libraries: libm.so.6: cannot open shared object file: No such file or directory
@@ -38,3 +38,5 @@ cat Gallery_Remote.orig | sed "s/export LD_ASSUME_KERNEL/#xport LD_ASSUME_KERNEL
     ```
 
 Now you should be all set to use GalleryRemote!
+
+[^ia1]: Internet Archive snapshot. Original URL: http://gallery.menalto.com/wiki/Gallery_Remote <!-- markdownlint-disable-line MD034 -->
