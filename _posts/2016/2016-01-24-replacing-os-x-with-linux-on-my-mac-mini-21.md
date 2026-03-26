@@ -8,7 +8,7 @@ tags:
   - debian
 ---
 
-I still had an old [Mac Mini](https://en.wikipedia.org/wiki/Mac_Mini) (model 2,1) - which I bought during a period of experimentation with different operating systems - connected to the TV, running [Mac OS X Lion](https://en.wikipedia.org/wiki/Mac_OS_X_Lion). Not Apple's finest installment of OS X, truth be told.
+I still had an old [Mac Mini](https://en.wikipedia.org/wiki/Mac_Mini#Intel_polycarbonate_(2006%E2%80%932009)) (model 2,1) - which I bought during a period of experimentation with different operating systems - connected to the TV, running [Mac OS X Lion](https://en.wikipedia.org/wiki/Mac_OS_X_Lion). Not Apple's finest installment of OS X, truth be told.
 
 The reasons I wanted to get rid of it:
 
