@@ -13,7 +13,7 @@ An update on the ["My history in gadgets"](/2012/01/04/my-history-in-gadgets/) p
 
 ## Mobile phone history
 
-### [Motorola E2 (LTE)](http://www.gsmarena.com/motorola_moto_e_(2nd_gen)-6986.php)
+### [Motorola E2 (LTE)](https://www.gsmarena.com/motorola_moto_e_(2nd_gen)-6986.php)
 
 ![Motorola E2](/assets/img/posts/2015/08/motorola-moto-e-2015-1.jpg "Motorola E2"){: .normal}
 

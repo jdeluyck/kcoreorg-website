@@ -8,7 +8,7 @@ tags:
   - valvesoftware
 ---
 
-I recently bought [Portal](http://orange.half-life2.com/portal.html) - a puzzle game (based on the [Source engine](http://www.valvesoftware.com/sourcelicense/default.htm)) by [Valve](http://www.valvesoftware.com/). The game in itself is fun, but even more fun was the end sequence!
+I recently bought [Portal](http://orange.half-life2.com/portal.html) - a puzzle game (based on the [Source engine](http://www.valvesoftware.com/sourcelicense/default.htm)) by [Valve](https://www.valvesoftware.com/). The game in itself is fun, but even more fun was the end sequence!
 
 (warning - spoilers ahead - so finish the game first before watching this!)
 

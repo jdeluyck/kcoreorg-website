@@ -13,7 +13,7 @@ An update on the "[My history in gadgets](/2012/01/04/my-history-in-gadgets/)", 
 
 ## Mobile phone history
 
-### [OnePlus 3](http://www.gsmarena.com/oneplus_3-7995.php)
+### [OnePlus 3](https://www.gsmarena.com/oneplus_3-7995.php)
 
 ![OnePlus 3](/assets/img/posts/2016/06/oneplus-3-3.jpg "OnePlus 3"){: .normal}
 

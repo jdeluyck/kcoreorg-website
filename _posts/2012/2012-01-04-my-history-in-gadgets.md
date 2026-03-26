@@ -72,7 +72,7 @@ This was the last Palm device I owned, which I sold some years back.
 
 ## Mobile phone history
 
-### [Ericsson GA-318](http://www.gsmarena.com/ericsson_ga_318-99.php)
+### [Ericsson GA-318](https://www.gsmarena.com/ericsson_ga_318-99.php)
 
 ![Ericsson GA-318](/assets/img/posts/2012/01/erga318b.gif "Ericsson GA-318"){: .normal}
 
@@ -90,13 +90,13 @@ This one I stupidly forgot on a train (when I was in a rush...)
 
 This one I got from my parents as a replacement for the SH-888 I lost. Stayed with me for quite some time.
 
-### [Ericsson T28 World](http://www.gsmarena.com/ericsson_t28_world-118.php)
+### [Ericsson T28 World](https://www.gsmarena.com/ericsson_t28_world-118.php)
 
 ![Ericsson T28 World](/assets/img/posts/2012/01/ert28wb.gif "Ericsson T28 World"){: .normal}
 
 My first flip-phone, which I bought after starting working. Stayed with me until the hinge system broke, causing the phone to shutdown when opening the flip.
 
-### [Sony CMD-J70](http://www.gsmarena.com/sony_cmd_j70-280.php)
+### [Sony CMD-J70](https://www.gsmarena.com/sony_cmd_j70-280.php)
 
 ![Sony CMD-J70](/assets/img/posts/2012/01/soj70.gif "Sony CMD-J70"){: .normal}
 
@@ -108,20 +108,20 @@ Bought as a replacement, but returned rather quickly (the next day), completely 
 
 My first foray into the Nokia world of phones. Nifty phone, worked quite nicely.
 
-### [Nokia 6100](http://www.gsmarena.com/nokia_6100-368.php)
+### [Nokia 6100](https://www.gsmarena.com/nokia_6100-368.php)
 
 ![Nokia 6100](/assets/img/posts/2012/01/no6100_00.jpg "Nokia 6100"){: .normal}
 
 Replaced the Nokia 3510i, since I wanted something with a bit more memory (for SMS').
 
-### [Motorola RAZR V3](http://www.gsmarena.com/motorola_razr_v3-853.php)
+### [Motorola RAZR V3](https://www.gsmarena.com/motorola_razr_v3-853.php)
 
 ![Motorola RAZR V3](/assets/img/posts/2012/01/motorolav3_black.jpg "Motorola RAZR V3"){: .normal}
 
 The first Motorola phone I bought, which, in retrospect, wasn't a really well thought through purchase. The Motorola OS on these devices _sucks_. I still have it, the hinge sometimes fails (keyboard doesn't react), but sturdy as a rock (once dropped it three floors...).  
 The only plus points for this phone are that it looks _damn_ good, and that it got me into the modding scene, as the Motorola OS was quite modifiable (flexing, anyone? :P)
 
-### [Sagem MyX3-2](http://www.gsmarena.com/sagem_my_x3_2-631.php)
+### [Sagem MyX3-2](https://www.gsmarena.com/sagem_my_x3_2-631.php)
 
 ![Sagem MyX3-2](/assets/img/posts/2012/01/samyx32_00.jpg "Sagem MyX3-2"){: .normal}
 
@@ -134,13 +134,13 @@ This phone was purchased as part of a Vodaphone.es kit, since I had gotten to kn
 
 _My first Smartphone_ (damn that sounds cheesy...). Still have it, use it as my work phone.
 
-### [HTC Hero](http://www.gsmarena.com/htc_hero-2861.php)
+### [HTC Hero](https://www.gsmarena.com/htc_hero-2861.php)
 
 ![HTC Hero](/assets/img/posts/2012/01/htc-hero-0.jpg "HTC Hero"){: .normal}
 
 My first foray into the Android world, as my E65 was starting to show its age. Perhaps purchased a bit too early. Got me into Android modding and flashing.
 
-### [HTC Desire](http://www.gsmarena.com/htc_desire-3077.php)
+### [HTC Desire](https://www.gsmarena.com/htc_desire-3077.php)
 
 ![HTC Desire](/assets/img/posts/2012/01/HTC-Desire-1.jpg "HTC Desire"){: .normal}
 

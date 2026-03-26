@@ -339,7 +339,7 @@ What we basically do is `echo 0x80000001 > /proc/acpi/video/VID/LCD/state`, whic
 
 ## Links
 
-* Dell: [http://www.dell.com](http://www.dell.com/)
+* Dell: [www.dell.com](https://www.dell.com/)
 * Centrino: [http://www.intel.com/home/notebook/centrino/index.htm](http://www.intel.com/home/notebook/centrino/index.htm)
 * 915resolution: [http://www.geocities.com/stomljen/](http://www.geocities.com/stomljen/)/li>
 * Intel PRO/Wireless 2915AB linux driver: [http://ipw2200.sourceforge.net/](http://ipw2200.sourceforge.net/)

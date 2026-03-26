@@ -12,7 +12,7 @@ tags:
   - s-off
 ---
 
-I acquired a secondhand [HTC Desire HD](http://www.gsmarena.com/htc_desire_hd-3468.php), a nice phone (albeit a bit heavy). Comes with Android 2.3 (Gingerbread) and Sense. I'm personally not much of a Sense fan, and I wanted to move to a newer Android release, so I looked around on how to achieve S-OFF.
+I acquired a secondhand [HTC Desire HD](https://www.gsmarena.com/htc_desire_hd-3468.php), a nice phone (albeit a bit heavy). Comes with Android 2.3 (Gingerbread) and Sense. I'm personally not much of a Sense fan, and I wanted to move to a newer Android release, so I looked around on how to achieve S-OFF.
 
 In the end, it's fairly easy, thanks to the [Advanced Ace Hack Kit](http://tau.shadowchild.nl/aahk) (AAHK now for short).
 

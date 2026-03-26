@@ -10,9 +10,9 @@ tags:
   - htc desire s
 ---
 
-On the [HTC Desire S](http://www.gsmarena.com/htc_desire_s-3776.php), I've been using an
+On the [HTC Desire S](https://www.gsmarena.com/htc_desire_s-3776.php), I've been using an
 [unofficial build](http://forum.xda-developers.com/showthread.php?t=2031694)
-(made by [Flinny](http://forum.xda-developers.com/member.php?u=4350964)) of
+(made by [Flinny](https://xdaforums.com/m/flinny.4350964/)) of
 [CyanogenMod 10](http://cyanogenmod.com/) for a while - happily so.  
 
 Unfortunately the author is/was a bit strapped for time, and development slowed down
