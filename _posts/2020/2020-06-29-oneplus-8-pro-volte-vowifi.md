@@ -10,7 +10,7 @@ tags:
   - orange belgium
 ---
 
-[Orange](https://orange.be), my ISP, supports [VoLTE (Voice over LTE)](https://en.wikipedia.org/wiki/Voice_over_LTE) and
+[Orange](https://www.orange.be/), my ISP, supports [VoLTE (Voice over LTE)](https://en.wikipedia.org/wiki/Voice_over_LTE) and
 [VoWiFi (Voice over WiFi)](https://en.wikipedia.org/wiki/Voice_over_WLAN) on a
 [limited set of devices](https://www.orange.be/nl/zelfstandigen/hulp/technische-ondersteuning/mobiele-telefonie/ik-ondervind-netwerkproblemen-buiten-wat-kan-ik).
 Unfortunately, OnePlus is not one of the manufacturers.
