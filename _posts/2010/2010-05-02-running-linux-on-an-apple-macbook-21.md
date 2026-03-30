@@ -172,7 +172,7 @@ You can use the touchpad with gpm, using the `exps2` driver.
 
 ### Touchpad in X.Org
 
-This is an AppleTouch touchpad. You can use it with [this driver](http://w1.894.telia.com/~u89404340/touchpad/).
+This is an AppleTouch touchpad. You can use it with [this driver](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia1].
 
 Add the following to the `/etc/X11/xorg.conf`{: .filepath} file:
 
@@ -218,8 +218,10 @@ Debian users can install the [xserver-xorg-input-synaptics](https://packages.deb
 * Kernel: [www.kernel.org](https://www.kernel.org/)
 * Linux on mobile computers: [http://www.tuxmobil.org/](http://www.tuxmobil.org/)
 * Linux-on-laptops: [https://linux-on-laptops.com](https://linux-on-laptops.com/)
-* Synaptics Touchpad driver for Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
+* Synaptics Touchpad driver for Xorg: [web.archive.org](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia1]
 * iSight firmware tools: [http://bersace03.free.fr/ift/](http://bersace03.free.fr/ift/)
 * Madwifi-project: [http://www.madwifi-project.org](http://www.madwifi-project.org/)
 * Linux USB Video Class driver for iSight: [http://linux-uvc.berlios.de/](http://www.ideasonboard.org/uvc/)
 * Userspace VESA framebuffer: [docs.kernel.org](https://docs.kernel.org/fb/uvesafb.html)
+
+[^ia1]: Internet Archive snapshot. Original URL: http://w1.894.telia.com/~u89404340/touchpad/ <!-- markdownlint-disable-line MD034 -->

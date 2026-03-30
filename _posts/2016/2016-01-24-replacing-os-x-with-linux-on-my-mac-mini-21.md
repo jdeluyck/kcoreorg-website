@@ -40,8 +40,10 @@ I installed:
 * [Lightdm](https://wiki.freedesktop.org/www/Software/LightDM/) as login manager (with [auto-login](https://wiki.debian.org/LightDM#Enable_autologin))
 * [Chrome](https://www.google.com/chrome/) as a browser (for Videostream),
 * [Clementine](https://www.clementine-player.org/) for audio manager.
-* [abcde](https://abcde.einval.com/wiki/) for automatic CD ripping - with configuration tips from [Andrews Corner](http://www.andrews-corner.org/abcde.html) ;)
+* [abcde](https://abcde.einval.com/wiki/) for automatic CD ripping - with configuration tips from [Andrews Corner](https://web.archive.org/web/20150211062839/http://www.andrews-corner.org/abcde.html)[^ia1] ;)
 * [TeamViewer](https://www.teamviewer.com/) for remote access outside of the local network
 * [x11vnc](http://www.karlrunge.com/x11vnc/) for VNC access to the logged-in session
 
 All in all it works rather nicely. The only problems I ran into was with respect to the iPod management, which was solved by resetting the iPod with iTunes for windows, which formatted the device as [VFAT](https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32), instead of Mac OS' [HFS+](https://en.wikipedia.org/wiki/HFS_Plus).
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.andrews-corner.org/abcde.html <!-- markdownlint-disable-line MD034 -->

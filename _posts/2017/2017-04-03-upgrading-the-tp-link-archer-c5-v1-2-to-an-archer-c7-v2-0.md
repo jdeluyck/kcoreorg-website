@@ -14,7 +14,7 @@ save for some limitations which are introduced through software. These limitatio
 (450Mbps for the C7) and a 876Mbps cap on 5GHz (1300Mbps on the C7). Not that much, but still enough to be worth tinkering for.  
 Since I was looking at increasing the WiFi speeds in my home, I searched around a bit, and found out on
 [Stefan Thesen's blog](https://blog.thesen.eu/wie-aus-einem-tp-link-archer-c5-ac1200-ein-archer-c7-ac1750-wurde/) and
-[Hagensieker's blog](http://www.hagensieker.com/archerc5toc7/index.php) that it is perfectly possible :)
+[Hagensieker's blog](https://web.archive.org/web/20161020041717/http://hagensieker.com/archerc5toc7/index.php)[^ia2] that it is perfectly possible :)
 
 First, make sure you definitely have an Archer C5 version 1.2, with three antennas. Don't even try with another version.
 If it breaks, noone is to blame but you.
@@ -31,7 +31,7 @@ Now, remove the first 256 bytes, which is the bootloader (which we don't need to
 dd if=ArcherC7v2_v3_en_3_14_1_up_boot(141110).bin of=tplink_mod.bin skip=257 bs=512
 ```
 
-(In case you don't trust doing it yourself, you can also [download the firmware from the blog of Stefan](http://thesen.eu/files/tplink_mod.bin))
+(In case you don't trust doing it yourself, you can also [download the firmware from the blog of Stefan](http://web.archive.org/web/20201229162340/http://thesen.eu/files/tplink_mod.bin)[^ia1])
 
 Next, you can transmit this (using SFTP) to your router, and then force flash it:
 
@@ -44,3 +44,6 @@ This will flash the firmware, and reboot the router. You'll have to reconnect to
 Afterwards you can either upgrade to the latest C7 firmware, or whichever 3rd party firmware you want. I reflashed to [LEDE-Project](https://lede-project.org).
 
 Initial testing showed an improvement in WiFi throughput speeds - so I'm happy with my 'new' C7 :)
+
+[^ia1]: Internet Archive snapshot. Original URL: http://thesen.eu/files/tplink_mod.bin <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: http://www.hagensieker.com/archerc5toc7/index.php <!-- markdownlint-disable-line MD034 -->

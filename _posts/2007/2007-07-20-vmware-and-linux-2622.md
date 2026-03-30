@@ -20,7 +20,7 @@ If you're rolling your own kernels, and upgraded to 2.6.22, you might have bumpe
 
 How to fix this:
 
-1. Download the [vmware-any-any-update110.tar.gz](http://knihovny.cvut.cz/ftp/pub/vmware/vmware-any-any-update110.tar.gz) update. Unpack in /tmp
+1. Download the [vmware-any-any-update110.tar.gz](https://crux.nu/ports/contrib/2.3/vmware-server/vmware-any-any-update110.tar.gz) update. Unpack in /tmp
 2. Go into the vmware-any-any-update110 directory, and untar the vmmon.tar file (tar xvf vmmon.tar)
 3. Execute the following command:  
     sed -i 's!# include <asm>!!g' vmmon-only/common/hostKernel.h</asm>

@@ -152,7 +152,9 @@ config interface 'guest'
 
 Source information:
 
-* [Post on rpc.one.pl](https://translate.google.com/translate?sl=pl&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Frpc.one.pl%2Findex.php%2Flista-artykulow%2F34-openwrt%2F81-konfiguracja-switch-vlan-na-podstawie-swconfig-w-routerze-wr1043nd-pod-openwrt&edit-text=) (Google Translate, [original Polish](http://rpc.one.pl/index.php/lista-artykulow/34-openwrt/81-konfiguracja-switch-vlan-na-podstawie-swconfig-w-routerze-wr1043nd-pod-openwrt))
+* [Post on rpc.one.pl](https://translate.google.com/translate?sl=pl&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Frpc.one.pl%2Findex.php%2Flista-artykulow%2F34-openwrt%2F81-konfiguracja-switch-vlan-na-podstawie-swconfig-w-routerze-wr1043nd-pod-openwrt&edit-text=) (Google Translate, [original Polish](http://web.archive.org/web/20150726020803/http://rpc.one.pl:80/index.php/lista-artykulow/34-openwrt/81-konfiguracja-switch-vlan-na-podstawie-swconfig-w-routerze-wr1043nd-pod-openwrt)[^ia2])
 * [forum.archive.openwrt.org](https://forum.archive.openwrt.org/viewtopic.php?id=43882)
 
 [^ia1]: Internet Archive snapshot. Original URL: http://www.tp-link.com/en/products/details/cat-9_Archer-C5.html <!-- markdownlint-disable-line MD034 -->
+
+[^ia2]: Internet Archive snapshot. Original URL: http://rpc.one.pl/index.php/lista-artykulow/34-openwrt/81-konfiguracja-switch-vlan-na-podstawie-swconfig-w-routerze-wr1043nd-pod-openwrt <!-- markdownlint-disable-line MD034 -->

@@ -17,8 +17,8 @@ So, after some digging, enter a DYI solution that works ;) It costs about half, 
 
 I ordered following pieces of DealExtreme, and had them ship here:
 
-* [Micro USB 2.0 OTG Host Flash Disk Cable with Micro Power](http://www.dx.com/p/cy-u2-266-bk-micro-usb-2-0-otg-host-flash-disk-cable-with-micro-power-for-samsung-galaxy-s3-s4-i9500-352112)
-* [USB 2.0 10/100Mbps RJ45 LAN Ethernet Network Adapter Dongle](http://www.dx.com/p/usb-2-0-10-100mbps-rj45-lan-ethernet-network-adapter-dongle-34691)
+* [Micro USB 2.0 OTG Host Flash Disk Cable with Micro Power](https://www.amazon.com/Cable-Micro-Flash-Power-Tablet/dp/B0CFJ5F6CC)
+* [USB 2.0 10/100Mbps RJ45 LAN Ethernet Network Adapter Dongle](https://www.amazon.com/usb-2-0-ethernet-adapter/s?k=usb+2.0+ethernet+adapter)
 
 To install it all: plug the mini-USB power supply (delivered with the Chromecast) into the blue plug, the network dongle into the normal USB plug, and the black connector into the Chromecast. (And an ethernet cable into the network dongle, duh). It should automatically pick up the fact that it's now connected via ethernet, and other than that... it just works. Enjoy ;)
 

@@ -19,6 +19,6 @@ If you pick another region in the settings, the ROM will pick the most restricti
 There are two ways to get around this:
 
 * Building OpenWRT from source, and enabling this option
-* Using [reghack](http://luci.subsignal.org/~jow/reghack/) to patch the drivers (see the [README](http://luci.subsignal.org/~jow/reghack/README.txt) on how to do this)
+* Using [reghack](https://github.com/Luminger/reghack) to patch the drivers (see the [README](https://github.com/Luminger/reghack/blob/master/README.txt) on how to do this)
 
 I only recently learned of reghack (thanks, [Stijn](https://stijn.tintel.eu/blog/)!) which works nicely ;)
