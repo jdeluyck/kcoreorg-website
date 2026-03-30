@@ -10,7 +10,7 @@ tags:
   - authentication token
 ---
 
-I recently started using [Plex](https://www.plex.tv/), and since I'm also using [Home Assistant](https://www.home-assistant.io/), and Home Assistant
+I recently started using [Plex](https://watch.plex.tv/), and since I'm also using [Home Assistant](https://www.home-assistant.io/), and Home Assistant
 can do stuff with Plex, I wanted to combine the two.
 
 For this, you need to generate an Authentication Token so that Home Assistant is seen as a client by Plex.

@@ -11,7 +11,7 @@ tags:
 
 I've bought an HTC Hero a while back. [Rooted](/2009/12/13/rooting-the-htc-hero/) it too, so I could edit the sms database. Loving the phone.
 
-Then [HTC](https://www.htc.com/) promised us (owners) an upgrade from Cupcake ([Android 1.5](http://developer.android.com/sdk/android-1.5.html)) to Eclair ([Android 2.1](http://developer.android.com/sdk/android-2.1.html)), scheduled for March 2010. Since Eclair has a ton of additional features and bugfixes, this was a biggy.
+Then [HTC](https://www.htc.com/) promised us (owners) an upgrade from Cupcake ([Android 1.5](https://web.archive.org/web/20090430101121/http://developer.android.com:80/sdk/android-1.5.html)[^ia1]) to Eclair ([Android 2.1](https://web.archive.org/web/20100114194657/http://developer.android.com:80/sdk/android-2.1.html)[^ia2]), scheduled for March 2010. Since Eclair has a ton of additional features and bugfixes, this was a biggy.
 
 Then HTC postponed it to beginning of April. End of April. May. June.  
 On the 4th HTC started rolling out the update for Asia, and we still had to wait in Europe. That's when I got fedup with waiting.
@@ -25,3 +25,6 @@ After using the phone now for two days, it feels mightily fast, snappy... it's a
 ![Gigantic Android, Donut, Cupcake and Eclair at the GooglePlex](/assets/img/posts/2010/06/Android-history-2.jpg "Gigantic Android, Donut, Cupcake and Eclair at the GooglePlex")
 
 Goodie!
+
+[^ia1]: Internet Archive snapshot. Original URL: http://developer.android.com/sdk/android-1.5.html <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: http://developer.android.com/sdk/android-2.1.html <!-- markdownlint-disable-line MD034 -->

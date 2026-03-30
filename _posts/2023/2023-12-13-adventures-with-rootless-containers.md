@@ -92,7 +92,7 @@ rootless_storage_path = "/var/lib/containers/user/podman/storage"
 
 ## Managing containers using Quadlet
 
-One of the newer features (4.4+) in Podman I really wanted to try out was [Quadlet](https://www.redhat.com/sysadmin/quadlet-podman).
+One of the newer features (4.4+) in Podman I really wanted to try out was [Quadlet](https://www.redhat.com/en/blog/quadlet-podman).
 
 Quadlet is a tool that allows you to run containers under systemd in a declarative way. You basically write [podman unit files](https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html) for containers, volumes, networks, ... and let Quadlet convert them on the fly to actual systemd service files.
 
@@ -287,7 +287,7 @@ This makes the directory available in the container under `/nfs-mount`{: .filepa
 
 ### User Namespaces
 
-Your container will be running in a [user namespace](https://www.redhat.com/sysadmin/rootless-podman-user-namespace-modes) specific to the container. Those namespaces allow you to specify a user-id (UID) and a group-id (GID) mapping to run containers.
+Your container will be running in a [user namespace](https://www.redhat.com/en/blog/rootless-podman-user-namespace-modes) specific to the container. Those namespaces allow you to specify a user-id (UID) and a group-id (GID) mapping to run containers.
 
 You can find the UIDs and GIDs assigned to your user in `/etc/subuid`{: .filepath} and `/etc/subgid`{: .filepath}.
 

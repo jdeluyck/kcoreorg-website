@@ -12,11 +12,11 @@ tags:
   - rclone
 ---
 
-I've been a longtime user of [Crashplan](https://www.crashplan.com/en-us/), an easy-to-use cloud backup solution. It works well, and it _used_ to work also on nearly any platform that had a java run-time and some add-on opensource libraries. I've [used it for some time](/2016/04/30/running-crashplan-headless-on-a-raspberry-pi-2/) on my raspberry pi to automatically backup my data to the cloud. (Crashplan on ARM (the architecture of the raspberry pi) is an [unsupported configuration](https://support.code42.com/CrashPlan/4/Configuring/Beyond_The_Code_Unsupported_CrashPlan_Configurations) though).
+I've been a longtime user of [Crashplan](https://web.archive.org/web/20160527001405/https://www.crashplan.com/en-us/)[^ia2], an easy-to-use cloud backup solution. It works well, and it _used_ to work also on nearly any platform that had a java run-time and some add-on opensource libraries. I've [used it for some time](/2016/04/30/running-crashplan-headless-on-a-raspberry-pi-2/) on my raspberry pi to automatically backup my data to the cloud. (Crashplan on ARM (the architecture of the raspberry pi) is an [unsupported configuration](https://support.code42.com/CrashPlan/4/Configuring/Beyond_The_Code_Unsupported_CrashPlan_Configurations) though).
 
 _Used to work_, past tense.
 
-[Code42](https://www.code42.com/) (the company behind Crashplan) decided to incorporate a new library (`libc42archive.so`) in the latest update of their client, version 4.8, which has no ARM counterpart. Only x86 (and amd_64) architectures are supported, removing a lot of devices which were able to run crashplan from the list. No source code is available, so this is basically a call to stop using Crashplan on anything other than Intel-compatible architectures. Bleh.  
+[Code42](http://web.archive.org/web/20161209005729/http://www.code42.com:80/?)[^ia1] (the company behind Crashplan) decided to incorporate a new library (`libc42archive.so`) in the latest update of their client, version 4.8, which has no ARM counterpart. Only x86 (and amd_64) architectures are supported, removing a lot of devices which were able to run crashplan from the list. No source code is available, so this is basically a call to stop using Crashplan on anything other than Intel-compatible architectures. Bleh.  
 (I opened a support ticket to ask them to restore compatibility, but I'm not holding my breath for it)
 
 I was able to keep it alive for some time by downgrading back to version 4.7 and making the upgrade directory immutable, but it seems that this trick has run it's course. The client needs to be version 4.8 or you aren't allowed to connect to the Crashplan back-end.
@@ -55,3 +55,6 @@ fusermount -u /<mountpoint>
  when you're finished.
 
 I've uploaded the script to my [scripts repository](https://codeberg.org/jdeluyck/scripts) on [Codeberg](https://codeberg.org).
+
+[^ia1]: Internet Archive snapshot. Original URL: https://www.code42.com/ <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: https://www.crashplan.com/en-us/ <!-- markdownlint-disable-line MD034 -->

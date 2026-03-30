@@ -9,7 +9,7 @@ tags:
   - raspberry pi
 ---
 
-In my grand scheme of "abuse all the low-power computing things!", I've moved my crashplan backups over to the [Raspberry Pi 2](https://en.wikipedia.org/wiki/Raspberry_Pi) (rpi2 for short). Installation is relatively painless: download the installer from [the crashplan site](https://www.code42.com/crashplan/download/), and unpack and execute. I installed mine under /opt/crashplan.
+In my grand scheme of "abuse all the low-power computing things!", I've moved my crashplan backups over to the [Raspberry Pi 2](https://en.wikipedia.org/wiki/Raspberry_Pi) (rpi2 for short). Installation is relatively painless: download the installer from [the crashplan site](https://web.archive.org/web/20150106061124/http://www.code42.com:80/crashplan/download/)[^ia1], and unpack and execute. I installed mine under /opt/crashplan.
 
 Afterwards, there are some things to fix, though, as by default Crashplan is only supported on the Intel architecture:
 
@@ -47,3 +47,5 @@ And the desktop app (which you can forward to your local Linux pc via ssh -X use
 ```  
 
 this does take forever to start. But it works. Or you can use [these instructions](https://support.code42.com/CrashPlan/4/Configuring/Using_CrashPlan_On_A_Headless_Computer) (from Crashplan Support) to administer it remotely.
+
+[^ia1]: Internet Archive snapshot. Original URL: https://www.code42.com/crashplan/download/ <!-- markdownlint-disable-line MD034 -->

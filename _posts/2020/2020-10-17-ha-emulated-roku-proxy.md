@@ -11,7 +11,7 @@ tags:
 ---
 
 Building further on my [CC Radio](/2020/01/09/cc-radio-ha-nodered/), I wanted to integrate this
-with my [Logitech Harmony Elite (+hub)](https://www.logitech.com/en-gb/product/harmony-elite) remote, so that no
+with my [Logitech Harmony Elite (+hub)](https://support.myharmony.com/en-be/elite) remote, so that no
 interaction is needed with Home Assistant itself to work the radio.
 
 The solution consists of several parts:
@@ -41,7 +41,7 @@ Channel-Up and Channel-Down buttons on the Harmony Remote...
 
 [Emulated Roku](https://www.home-assistant.io/integrations/emulated_roku/) to the rescue!
 
-This basically fakes a [Roku Media Player](https://www.roku.com/), which you can then use together with the Harmony Remote.  
+This basically fakes a [Roku Media Player](https://www.roku.com/intl), which you can then use together with the Harmony Remote.  
 
 Configuring the integration in Home Assistant is detailed in the documentation. I did have to do some additional steps,
 since my Home Assistant is on a different network than the Harmony Hub.

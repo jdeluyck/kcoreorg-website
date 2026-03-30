@@ -12,7 +12,7 @@ tags:
 
 I recently got an [HTC](https://www.htc.com/) [Hero](http://www.htc.com/www/product/hero/overview.html). Great phone, I'm loving the [Android](https://www.android.com/) platform. Pity that you don't have full access to it, and I actually wanted to merge my old phone (Nokia E65)'s SMS database into this one, so I needed full access.
 
-(Un)fortunately, these days the HTC Hero comes with the latest firmware, 2.73.1100.5, which on the one hand makes rooting harder (fixes several bugs and [fastboot](http://android-dls.com/wiki/index.php?title=Fastboot) no longer works) but on the other hand makes the phone respond a lot better.
+(Un)fortunately, these days the HTC Hero comes with the latest firmware, 2.73.1100.5, which on the one hand makes rooting harder (fixes several bugs and [fastboot](http://web.archive.org/web/20100103112843/http://android-dls.com/wiki/index.php?title=Fastboot)[^ia1] no longer works) but on the other hand makes the phone respond a lot better.
 
 After some twiddling and reading on the [XDA Developers Forum](https://xdaforums.com/), I came up with this recipe:
 
@@ -20,7 +20,7 @@ After some twiddling and reading on the [XDA Developers Forum](https://xdaforums
 
 * asroot2.zip (current root exploid for Android, works on HTC Hero): [http://forum.xda-developers.com/attachment.php?attachmentid=244212&d=1257621154](http://forum.xda-developers.com/attachment.php?attachmentid=244212&d=1257621154)
 * Superuser.zip (for the su binary and the Superuser.apk): [http://forum.xda-developers.com/attachment.php?attachmentid=211569&d=1249225060](http://forum.xda-developers.com/attachment.php?attachmentid=211569&d=1249225060)
-* Android SDK (for the HTC Hero, it's the 1.5 platform): [http://developer.android.com/sdk/android-1.5.html](http://developer.android.com/sdk/android-1.5.html)
+* Android SDK (for the HTC Hero, it's the 1.5 platform): [web.archive.org](https://web.archive.org/web/20090430101121/http://developer.android.com:80/sdk/android-1.5.html)[^ia2]
 
 **Howto:**
 
@@ -97,3 +97,6 @@ Restart your abd shell, and execute su in your adb shell: `su`, and on the phone
 ![SU request](/assets/img/posts/2007/10/su-snapshot.png "SU request")
 
 Tap "Allow", et voila, you now have a rooted phone.
+
+[^ia1]: Internet Archive snapshot. Original URL: http://android-dls.com/wiki/index.php?title=Fastboot <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: http://developer.android.com/sdk/android-1.5.html <!-- markdownlint-disable-line MD034 -->

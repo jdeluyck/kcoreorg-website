@@ -203,6 +203,6 @@ I've mostly reused my existing [ansible](https://en.wikipedia.org/wiki/Ansible_%
 ## Musings after transferring a few sites
 
 * Everything just works. It is easy, comprehensible, I can wrap my head around it
-* Ansible keeps it from being tedious. Debian [unattended upgrades](https://wiki.debian.org/UnattendedUpgrades) keep things patched
+* Ansible keeps it from being tedious. Debian [unattended upgrades](https://wiki.debian.org/PeriodicUpdates) keep things patched
 
 I like it!

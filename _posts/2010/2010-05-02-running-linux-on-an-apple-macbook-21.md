@@ -222,4 +222,4 @@ Debian users can install the [xserver-xorg-input-synaptics](https://packages.deb
 * iSight firmware tools: [http://bersace03.free.fr/ift/](http://bersace03.free.fr/ift/)
 * Madwifi-project: [http://www.madwifi-project.org](http://www.madwifi-project.org/)
 * Linux USB Video Class driver for iSight: [http://linux-uvc.berlios.de/](http://www.ideasonboard.org/uvc/)
-* Userspace VESA framebuffer: [http://dev.gentoo.org/~spock/projects/uvesafb/](http://dev.gentoo.org/~spock/projects/uvesafb/)
+* Userspace VESA framebuffer: [docs.kernel.org](https://docs.kernel.org/fb/uvesafb.html)

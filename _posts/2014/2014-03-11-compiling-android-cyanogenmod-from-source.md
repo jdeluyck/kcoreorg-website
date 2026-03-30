@@ -13,7 +13,7 @@ tags:
 On the [HTC Desire S](https://www.gsmarena.com/htc_desire_s-3776.php), I've been using an
 [unofficial build](https://xdaforums.com/t/rom-23-03-14-flinny-saga-andromadus-cm11-0-alpha5.2031694/)
 (made by [Flinny](https://xdaforums.com/m/flinny.4350964/)) of
-[CyanogenMod 10](http://cyanogenmod.com/) for a while - happily so.  
+[CyanogenMod 10](https://en.wikipedia.org/wiki/CyanogenMod) for a while - happily so.  
 
 Unfortunately the author is/was a bit strapped for time, and development slowed down
 significantly at the time. Updates for CM 10.1 and later were not forthcoming.  

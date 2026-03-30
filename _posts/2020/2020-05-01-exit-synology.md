@@ -20,7 +20,7 @@ The reason I picked this device was because my experiences with Synology had bee
 could trust Synology with my data. The added features of the software and ease of use were nice, too.  
 (as always, you do need to have backups of your important data - I practice the [3-2-1 backup strategy](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/)).
 
-My configuration was pretty standard - 4 disks in a [Synology Hybrid RAID (SHR)](https://www.synology.com/en-uk/knowledgebase/DSM/tutorial/Storage/What_is_Synology_Hybrid_RAID_SHR),
+My configuration was pretty standard - 4 disks in a [Synology Hybrid RAID (SHR)](https://kb.synology.com/en-uk/DSM/tutorial/What_is_Synology_Hybrid_RAID_SHR),
 a variant of [RAID 5](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5) which allowed for easy resizing of the
 RAID array when bigger disks are inserted.
 
@@ -191,7 +191,7 @@ While this looks like a hardware failure, I'm left with a bunch of questions:
 * What exactly happened to have all disks disconnect from the bus the same time?
 * Why did this happen only after nearly three years?
 * Why did this manage to eat my entire btrfs volume?
-* Is btrfs even production ready? [This battle test](https://www.unixsheikh.com/articles/battle-testing-data-integrity-verification-with-zfs-btrfs-and-mdadm-dm-integrity.html)
+* Is btrfs even production ready? [This battle test](https://unixdigest.com/articles/battle-testing-zfs-btrfs-and-mdadm-dm.html)
 would say 'yes', but .. I'm not sure.
 
 Somehow I don't feel very confident with Synology anymore. Definitely not with btrfs on the Synology boxes.
@@ -199,5 +199,5 @@ Somehow I don't feel very confident with Synology anymore. Definitely not with b
 I'll be replacing this setup with a home built NAS running [ZFS on Linux](https://zfsonlinux.org/). I've had excellent
 experiences with ZFS on Solaris, and what I'm reading about ZFS on Linux and FreeBSD only confirms my feelings.  
 
-**Update**: Synology replaced the DS916+ with a [DS918+](https://www.synology.com/en-global/products/DS918+), but I
+**Update**: Synology replaced the DS916+ with a [DS918+](https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/18-year/DS918+/enu/Synology_DS918_Plus_Data_Sheet_enu.pdf), but I
 decided to sell it and go forward with my custom build.

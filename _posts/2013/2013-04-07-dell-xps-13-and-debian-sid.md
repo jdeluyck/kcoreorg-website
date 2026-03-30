@@ -117,7 +117,7 @@ about it. The fix seems to be to disable "Smart Connect" in the BIOS. I've tried
 **Touchpad isn't recognized as a touchpad**  
 The patches to support the touchpad are on route to be included in [kernel 3.9](https://www.kernel.org/), but (at the time of writing)
 that one hasn't been released yet. So we need to take the latest kernel available in Debian Experimental (3.8.5) and patch this with the driver.
-Luckely Debian has [The Linux Kernel Handbook](http://kernel-handbook.alioth.debian.org/ch-common-tasks.html) which explains how to do all this the proper Debian way ;)
+Luckely Debian has [The Linux Kernel Handbook](https://kernel-team.pages.debian.net/kernel-handbook/) which explains how to do all this the proper Debian way ;)
 
 First, install the necessary build packages: `apt-get install build-essential fakeroot devscripts && apt-get build-dep linux-3.8`  
 Next, get the kernel sourcecode: `apt-get source linux-image-3.8-trunk-amd64 -t experimental`  

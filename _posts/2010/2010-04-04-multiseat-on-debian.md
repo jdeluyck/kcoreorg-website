@@ -27,7 +27,7 @@ My hardware (that matters for this setup):
 * Mice: 2 simple Logitech usb mice
 * Keyboards: 2 usb keyboards (one [Cherry Cymotion Linux Master](https://web.archive.org/web/20101104040703/http://reviews.cnet.com:80/keyboards/cherry-cymotion-master-linux/1707-3134_7-31539242.html)[^ia1] & one [labtec Ultraflat](http://www.labtec.com/index.cfm/gear/details/EUR/EN,crid=28,contentid=692))
 * Graphics: an onboard ATI Radeon HD 3200 (this is part of the [AMD 780](https://en.wikipedia.org/wiki/AMD_700_chipset_series) chipset) video chip on my Asrock motherboard (was originally disabled and enabled for this multiseat setup) and an addon ATI Radeon HD 4850 card (with an [RV700](https://en.wikipedia.org/wiki/Radeon_R700#Radeon_HD_4300.2FHD_4500) chip).
-* Screens: two screens - in this case, one 20.1" [Viewsonic VX2025wm](http://hk.viewsonic.com/en/products/productspecs.php?id=234) and one 22" (newly purchased) [LG w2253TW](http://www.lg.com/uk/support/product/support-product-profile.jsp?customerModelCode=W2253TQ-PF&initialTab=documents&targetPage=support-product-profile#)
+* Screens: two screens - in this case, one 20.1" [Viewsonic VX2025wm](https://www.viewsonic.com/eu/products/sheet/VX2025wm) and one 22" (newly purchased) [LG w2253TW](http://www.lg.com/uk/support/product/support-product-profile.jsp?customerModelCode=W2253TQ-PF&initialTab=documents&targetPage=support-product-profile#)
 
 Notes:
 
@@ -46,7 +46,7 @@ So, the works:
 3. Get a decently fresh [Mesa](https://mesa3d.org/) (7.7 branch)
 4. Lastly, get a mjummy fresh xf86-video-ati driver.
 
-Originally, I compiled all these and installed them over the existing binaries in /usr, but fortunately my favourite distribution [Debian](https://www.debian.org) has the necessary components in [Sid](https://www.debian.org/releases/unstable/) and [Experimental](https://wiki.debian.org/DebianExperimental). these days.
+Originally, I compiled all these and installed them over the existing binaries in /usr, but fortunately my favourite distribution [Debian](https://www.debian.org) has the necessary components in [Sid](https://www.debian.org/releases/sid/) and [Experimental](https://wiki.debian.org/DebianExperimental). these days.
 
 ## Xorg.conf changes
 

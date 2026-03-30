@@ -20,7 +20,7 @@ of the [smartwatch](https://en.wikipedia.org/wiki/Smartwatch) type is a [Pebble]
 
 I'd been looking at smartwatches ever since the original [Pebble Kickstarter](https://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android) got launched.
 I honestly found the watch ugly as _\*beep\*_, so I wasn't going for that one. After a while
-the original Android Wear smartwatch (the [Motorola 360](https://www.motorola.com/us/products/moto-360)) got launched.
+the original Android Wear smartwatch (the [Motorola 360](https://en.wikipedia.org/wiki/Moto_360)) got launched.
 While it's a lot nicer on the eyes, it had several issues that I really didn't want to deal with (and still don't):
 the price tag, the size (and I really don't have small wrists), and the laughable battery life. I already tote around one
 device that I need to charge on a daily basis, don't need another that I really need to watch (pun intended)
@@ -53,7 +53,7 @@ Things I absolutely love about this watch:
 * The plethora of [watchfaces](https://apps.getpebble.com/en_US/watchfaces) and [watchapps](https://apps.getpebble.com/en_US/watchapps) you can find for it
 * ([Actionable](https://help.getpebble.com/customer/portal/articles/1819783-android---actionable-notifications)) notifications! This stops me from pulling out my phone and checking what the notification was for. If it's urgent, I'll get the phone if I can't make due with the canned responses. If it's not urgent, I'll ignore it and reply at a later time.  
 ![pebble_gmail](/assets/img/posts/2016/06/pebble_gmail-300x169.jpg "pebble_gmail")
-* [Voice dictation](http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309). I'd never thought I'd actually use that, but while driving this is great - you get a notification, check it, quickly with a glance to your wrist, and with two button presses I can send a reply on it's way. It works fairly good, but well, [YMMV](https://www.urbandictionary.com/define.php?term=ymmv).  
+* [Voice dictation](https://web.archive.org/web/20150905212824/http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309)[^ia1]. I'd never thought I'd actually use that, but while driving this is great - you get a notification, check it, quickly with a glance to your wrist, and with two button presses I can send a reply on it's way. It works fairly good, but well, [YMMV](https://www.urbandictionary.com/define.php?term=ymmv).  
 ![pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am](/assets/img/posts/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png "pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am")
 * Music control. I use a streaming app on my phone, and being able to pause/skip songs without having to unlock my phone is bliss.  
 ![pebble_music_green](/assets/img/posts/2016/06/pebble_music_green-300x169.jpg "pebble_music_green")
@@ -88,3 +88,5 @@ WatchFaces:
 * ... and the [Kiezel Watchfaces](https://apps.getpebble.com/en_US/developer/558e3fd4e3975e527b000055/1?native=false&query=kiezel%252520watchfaces)
 
 But there are so many more to explore.
+
+[^ia1]: Internet Archive snapshot. Original URL: http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309 <!-- markdownlint-disable-line MD034 -->

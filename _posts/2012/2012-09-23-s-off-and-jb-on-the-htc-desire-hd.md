@@ -31,6 +31,6 @@ Wait some more.
 
 The next thing I did was flash a new recovery (I'm a big fan of [4Ext Recovery](http://4ext.net/)),
 and after that downloaded the radio and the lastest version of JellyTime and the accompanying
-[Google Apps](http://goo.im/gapps/gapps-jb-20121011-signed.zip) and flashed those.
+[Google Apps](https://xdaforums.com/t/apps-gapps-20121011-jb-4-1-2.1960868/) and flashed those.
 
 A reboot later: _JellyBean on the HTC Desire HD_!

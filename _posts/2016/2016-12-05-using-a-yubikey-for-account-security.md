@@ -23,7 +23,7 @@ I got a Yubikey 4 half a year ago (during [Red Hat Summit 2016](https://www.redh
 * [Upload my GPG key](https://www.yubico.com/support/knowledge-base/categories/articles/use-yubikey-openpgp/) into the Yubikey (my public key is [on keybase](https://keybase.io/jandeluyck/pgp_keys.asc?fingerprint=43c08ece1fd57dd65b9dacc8f5aced06ef3ee450))
 * Configure it as a [second factor for SSH](https://developers.yubico.com/PGP/SSH_authentication/) connections
 * Configure it as a login token for my Linux machines.
-* Configure it as a [login token for my Windows](https://www.yubico.com/why-yubico/for-businesses/computer-login/windows-login/) machines (although I might wait for [Windows Hello](https://support.microsoft.com/en-us/help/17215/windows-10-what-is-hello) integration)
+* Configure it as a [login token for my Windows](https://support.yubico.com/s/article/Yubico-Login-for-Windows-configuration-guide) machines (although I might wait for [Windows Hello](https://www.microsoft.com/en-us/windows/tips/windows-hello) integration)
 * Change my [OTP](https://en.wikipedia.org/wiki/One-time_password) generator from [Google Authenticator](https://en.wikipedia.org/wiki/Google_Authenticator) to the [Yubico Authenticator](https://web.archive.org/web/20150416163923/https://developers.yubico.com/yubioath-desktop/)[^ia1] (also purchased a [Yubikey Neo](https://www.yubico.com/products/yubikey-hardware/yubikey-neo/) with [NFC](https://en.wikipedia.org/wiki/Near_field_communication) support as a backup key)
 
 If you have any more ideas on how to use the Yubikey, feel free to comment!

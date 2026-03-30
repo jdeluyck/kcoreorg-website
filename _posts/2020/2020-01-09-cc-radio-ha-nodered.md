@@ -47,7 +47,7 @@ Based of the [tutorial by Bob Visser on the HA Community](https://community.home
 
 ### Frontend
 
-I'm using [Lovelace](https://www.home-assistant.io/lovelace/), with the following vertical stack card:
+I'm using [Lovelace](https://www.home-assistant.io/dashboards/), with the following vertical stack card:
 You'll have to modify this to match your CC devices. I also use condition cards to not show the CC devices themselves when the device tracker lists them as being unavailable (`away`).
 If you don't want that part, just throw everything else out ;)
 

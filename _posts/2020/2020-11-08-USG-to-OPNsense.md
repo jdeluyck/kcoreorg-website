@@ -24,7 +24,7 @@ Ubiquiti actually has a lot of other products in the UniFi range:
 * The [UniFi UXG](https://community.ui.com/questions/Introducing-the-UniFi-Next-Gen-Gateway-Product-Line-Starting-with-UXG-Pro-/732dd4dd-10bf-463c-8622-382d77702872),
 in early access, and no non-rack version available
 
-They also have the [EdgeMax](https://www.ui.com/products/#edgemax) range, with many varieties of the
+They also have the [EdgeMax](https://store.ui.com/us/en/category/wired-edge-max-routing) range, with many varieties of the
 [EdgeRouter](https://www.ui.com/edgemax/edgerouter/).
 Unfortunately, this doesn't integrate with the UniFi controller, which was the big selling point of the USG.
 

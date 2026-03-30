@@ -11,7 +11,7 @@ tags:
   - networking
 ---
 
-Connecting to Unifi equipment ([Switch 8](https://store.ui.com/us/en/products/us-8)/[AP AC Pro](https://store.ui.com/us/en/products/uap-ac-pro)) from Fedora37 fails out of the box with a very useful error `Bad server host key: Invalid key length`. This is because the `dropbear` used on these devices is woefully out of date, and still requires the use of ssh-rsa (with SHA1), which has been [deprecated by OpenSSH in 2021](https://www.openssh.com/txt/release-8.8),
+Connecting to Unifi equipment ([Switch 8](https://store.ui.com/us/en/products/us-8)/[AP AC Pro](https://store.ui.com/us/en/products/uap-ac-pro)) from Fedora37 fails out of the box with a very useful error `Bad server host key: Invalid key length`. This is because the `dropbear` used on these devices is woefully out of date, and still requires the use of ssh-rsa (with SHA1), which has been [deprecated by OpenSSH in 2021](https://www.openssh.org/txt/release-8.8),
 
 To allow you to connect from your Fedora 37 install, you can use the `update-crypto-policies` command. This command is used to configure the policy used by all kinds of cryptographic backends on your system (such as TLS libraries, ...)
 

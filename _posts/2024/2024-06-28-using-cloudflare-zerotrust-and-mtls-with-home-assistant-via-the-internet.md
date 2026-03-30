@@ -30,7 +30,7 @@ This does not tick the box of 'only accessible by my devices', so I went looking
 
 ## Cloudflare has entered the building
 
-I already use a [Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/) for another project, so I figured this might be a good candidate.
+I already use a [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/) for another project, so I figured this might be a good candidate.
 
 ### Setting up cloudflared on Home Assistant
 
@@ -153,7 +153,7 @@ To be able to browse to this URL we'll need to add the client certificate to you
 
 ### Browsers
 
-In [Firefox](https://www.mozilla.org/en-US/firefox/), click on the menu on the right and navigate to Settings &rarr; Privacy &amp; Security and scroll down to "Certificates". There click on "View Certificates". Hit "Import", specify the you created earlier (`mtls_client_cert.pfx`), and enter the password. Afterwards you'll end up with something like this:
+In [Firefox](https://www.firefox.com/en-US/), click on the menu on the right and navigate to Settings &rarr; Privacy &amp; Security and scroll down to "Certificates". There click on "View Certificates". Hit "Import", specify the you created earlier (`mtls_client_cert.pfx`), and enter the password. Afterwards you'll end up with something like this:
 
 ![Screenshot of the Mozilla Firefox Certificate manager](/assets/img/posts/2024/06/mozilla_certificate_manager.png)
 

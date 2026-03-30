@@ -11,7 +11,7 @@ tags:
 ---
 
 I recently reinstalled Fedora on my desktop machine, which has (amongst others) a
-[ViewSonic Vx2025wm](https://www.viewsonic.com/uk/products/lcd/vx2025wm.php) screen connected to it. It's an oldie, but
+[ViewSonic Vx2025wm](https://www.viewsonic.com/uk/products/lcd/vx2025wm) screen connected to it. It's an oldie, but
 still works (quite well).
 
 Unfortunately, Linux just complained that it didn't get a proper

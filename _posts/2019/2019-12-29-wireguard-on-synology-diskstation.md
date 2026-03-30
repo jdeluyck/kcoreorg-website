@@ -9,7 +9,7 @@ tags:
   - openvpn
 ---
 
-I used to use [Synology VPN](https://www.synology.com/en-global/knowledgebase/DSM/help/VPNCenter/vpn_desc) on my NAS (in OpenVPN mode) as an entrypoint into my local network when I'm away from home. This worked fine, up to a few weeks ago - at that point I kept getting `AUTH FAILED` errors, even though nothing had changed.  
+I used to use [Synology VPN](https://kb.synology.com/en-global/DSM/help/VPNCenter/vpn_desc) on my NAS (in OpenVPN mode) as an entrypoint into my local network when I'm away from home. This worked fine, up to a few weeks ago - at that point I kept getting `AUTH FAILED` errors, even though nothing had changed.  
 
 Some searching let me to several posts both on the Synology forums and Reddit where other people remarked the same - and that the only way to fix it was to uninstall and reinstall the package. Posts going back years.  
 Not quite ideal.

@@ -28,7 +28,7 @@ Not much, really. So, in the end, being tired of the general slowness of the dev
 
 So, the road to success was:
 
-1. download the [multiarch network install CD image](http://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/multi-arch/iso-cd/), burn it to a CD.
+1. download the [multiarch network install CD image](https://cdimage.debian.org/cdimage/archive/11.1.0/multi-arch/iso-cd/), burn it to a CD.
   (note that this link points to the daily built CD images, which might or might not be broken at any given day)  
   Why multi-arch, you might ask? Why not use the x86_64 (64-bit) install image, as the Intel [Core2Duo](https://en.wikipedia.org/wiki/Intel_Core_2) is capable of handling this? Because Apple, [in all their wisdom](https://refit.sourceforge.net/info/apple_efi.html), decided to include a 32-bit EFI with a CPU capable of handling 64-bit code. So you get a bit of a schizophrenic situation. The multiarch CD image supports both 32-bit and 64-bit (U)EFI, and hence, it works for this device.
 2. boot from said CD (press and hold the ALT button as soon as the grey screen appears on your Mac)
