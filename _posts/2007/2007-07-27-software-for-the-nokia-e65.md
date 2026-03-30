@@ -9,7 +9,7 @@ tags:
 
 After owning my Nokia E65 for about a month, here's the list of apps I installed on it:
 
-* [Conversation](http://www.nokia.com/A4568203)
+* [Conversation](http://web.archive.org/web/20071011021726/http://www.nokia.com:80/A4568203)[^ia15]
 * [Device Status](https://web.archive.org/web/20071011035054/http://www.nokia.com:80/A4596393)[^ia1]
 * ~~Fring~~
 * [Gmail](http://web.archive.org/web/20070808152532/http://www.google.com:80/mobile/mail/index.html)[^ia2]
@@ -55,3 +55,5 @@ And ofcourse, some games:
 [^ia12]: Internet Archive snapshot. Original URL: http://mind-flip.com/textquick/index.html <!-- markdownlint-disable-line MD034 -->
 [^ia13]: Internet Archive snapshot. Original URL: http://www.drjukka.com/YBrowser.html <!-- markdownlint-disable-line MD034 -->
 [^ia14]: Internet Archive snapshot. Original URL: http://nokia-e61-software.epocware.com/Handy_Essentials.html <!-- markdownlint-disable-line MD034 -->
+
+[^ia15]: Internet Archive snapshot. Original URL: http://www.nokia.com/A4568203 <!-- markdownlint-disable-line MD034 -->

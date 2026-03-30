@@ -14,7 +14,7 @@ Something like this, perhaps...
 ![A picture of a 'smartwatch'](/assets/img/posts/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg){: .left }
 
 Nononono, definitely not. Neither an Apple product. My first foray into [wearables](https://en.wikipedia.org/wiki/Wearable_technology)
-of the [smartwatch](https://en.wikipedia.org/wiki/Smartwatch) type is a [Pebble](http://www.pebble.com) [Time](https://www.pebble.com/pebble-time-smartwatch-features).
+of the [smartwatch](https://en.wikipedia.org/wiki/Smartwatch) type is a [Pebble](https://en.wikipedia.org/wiki/Pebble_(watch)) [Time](https://www.pebble.com/pebble-time-smartwatch-features).
 
 ![PBTime](/assets/img/posts/2016/06/PBTime-300x169.png "PBTime")
 

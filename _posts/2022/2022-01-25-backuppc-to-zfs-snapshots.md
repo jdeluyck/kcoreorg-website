@@ -10,7 +10,7 @@ tags:
   - restic
 ---
 
-One of the docker containers I've been using is the wonderful [BackupPC](https://backuppc.github.io/backuppc) for agentless backups. This thing works quite well, allowing me to backup laptops around the house without too much hassle. It's a bit work to set it up properly, but it works and is fast.
+One of the docker containers I've been using is the wonderful [BackupPC](https://backuppc.github.io/backuppc/) for agentless backups. This thing works quite well, allowing me to backup laptops around the house without too much hassle. It's a bit work to set it up properly, but it works and is fast.
 
 If you want to backup BackupPC to a 3rd system, for instance a cloud provider, you need to backup the entire pool of files it creates. This also means that if your local BackupPC instance is broken, and you need to restore one file, you need to re-download the entire BackupPC repository.
 

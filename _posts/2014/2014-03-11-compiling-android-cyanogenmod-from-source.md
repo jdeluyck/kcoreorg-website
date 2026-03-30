@@ -11,7 +11,7 @@ tags:
 ---
 
 On the [HTC Desire S](https://www.gsmarena.com/htc_desire_s-3776.php), I've been using an
-[unofficial build](http://forum.xda-developers.com/showthread.php?t=2031694)
+[unofficial build](https://xdaforums.com/t/rom-23-03-14-flinny-saga-andromadus-cm11-0-alpha5.2031694/)
 (made by [Flinny](https://xdaforums.com/m/flinny.4350964/)) of
 [CyanogenMod 10](http://cyanogenmod.com/) for a while - happily so.  
 
@@ -24,10 +24,10 @@ quite as hard as you'd think it is.
 ~~First, you need to~~I was going to write a lengthy tutorial here, but there are plenty of
 tutorials out there.
 So instead of inventing the wheel yet again, you can just go look at
-[this one](http://forum.xda-developers.com/nexus-4/general/guide-cm11-how-to-build-cyanogenmod-11-t2515305), or
+[this one](https://xdaforums.com/t/guide-cm11-how-to-build-your-own-cyanogenmod-11-0-rom-from-sources-for-the-nexus-4.2515305/), or
 [on the cyanogen wiki](http://wiki.cyanogenmod.org/w/Development) or
 [on the usoftphone site](http://www.usoftphone.com/t115104.html).
 Or you can just go and [Google it](http://lmgtfy.com/?q=building+cm+from+source) ;)
 
-You can find the thread for [my unofficial builds](http://forum.xda-developers.com/showthread.php?t=2467013) on [XDA Developers](https://www.xda-developers.com/).  
+You can find the thread for [my unofficial builds](https://xdaforums.com/t/rom-unofficial-nightly-cm11-0-4-4-4_r2-20140716-cm10-2-20131220-for-saga.2467013/) on [XDA Developers](https://www.xda-developers.com/).  
 The [git](https://en.wikipedia.org/wiki/Git_%28software%29) repository with all my sources can be found [on github](https://github.com/jdeluyck/).

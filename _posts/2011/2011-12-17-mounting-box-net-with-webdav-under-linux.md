@@ -9,7 +9,7 @@ tags:
   - webdav
 ---
 
-I recently got a [Box](https://www.box.com/) account with 50 gB of online storage (see [this thread on XDA](http://forum.xda-developers.com/showthread.php?t=1383808) on how to get one).
+I recently got a [Box](https://www.box.com/) account with 50 gB of online storage (see [this thread on XDA](https://xdaforums.com/t/guide-get-5gb-storage-with-box-net-and-any-device.1383808/) on how to get one).
 
 To get it mounted under linux, install the `davfs2` package, add your credentials in `/etc/davfs2/secrets`{: .filepath} with the syntax:
 

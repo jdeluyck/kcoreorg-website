@@ -9,7 +9,7 @@ tags:
   - seagate
 ---
 
-I "recently" ordered (after doing some research) a [Raidsonic](http://www.raidsonic.de) [Icybox NAS](https://web.archive.org/web/20071018214637/http://raidsonic.de:80/en/pages/products/external_cases.php?we_objectID=5052)[^ia1] (full model: IB-NAS4220-B). I chose it because of:
+I "recently" ordered (after doing some research) a [Raidsonic](http://web.archive.org/web/20080115222126/http://www.raidsonic.de:80/)[^ia2] [Icybox NAS](https://web.archive.org/web/20071018214637/http://raidsonic.de:80/en/pages/products/external_cases.php?we_objectID=5052)[^ia1] (full model: IB-NAS4220-B). I chose it because of:
 
 * gigabit ethernet port
 * dual disk support with JBOD/Mirror/Stripe
@@ -39,3 +39,5 @@ which isn't very healthy :(
 The disk is packed up and ready to be shipped back to the store...
 
 [^ia1]: Internet Archive snapshot. Original URL: http://www.raidsonic.de/en/pages/products/external_cases.php?we_objectID=5052 <!-- markdownlint-disable-line MD034 -->
+
+[^ia2]: Internet Archive snapshot. Original URL: http://www.raidsonic.de <!-- markdownlint-disable-line MD034 -->

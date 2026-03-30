@@ -11,7 +11,7 @@ tags:
   - syncoid
 ---
 
-The [Proxmox box](/2020/05/07/enter-zfs/) at my home is also being used as a [NAS](https://en.wikipedia.org/wiki/Network-attached_storage), with Samba and NFS doing the sharing. It had 4 [WD Red](https://shop.westerndigital.com/en-ie/products/internal-drives/wd-red-sata-hdd) 6TB [PMR](https://en.wikipedia.org/wiki/Perpendicular_recording) drives, in a raidz1 configuration, giving me a net capacity of 18TB (give or take a few).
+The [Proxmox box](/2020/05/07/enter-zfs/) at my home is also being used as a [NAS](https://en.wikipedia.org/wiki/Network-attached_storage), with Samba and NFS doing the sharing. It had 4 [WD Red](https://www.westerndigital.com/en-ie/products/internal-drives/wd-red-sata-hdd) 6TB [PMR](https://en.wikipedia.org/wiki/Perpendicular_recording) drives, in a raidz1 configuration, giving me a net capacity of 18TB (give or take a few).
 
 This thing houses backups of other machines in the house and of machines in the cloud, several VM's, photos in RAW, videos created by my partner for her sidegig, ... and it was starting to get full (2TB remaining).
 

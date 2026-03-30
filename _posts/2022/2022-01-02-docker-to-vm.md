@@ -18,7 +18,7 @@ One of the bonusses of running native on the host is that I/O is really good.
 
 (making lots of abstractions here)
 
-Moving those over to a VM is fairly easy: you take your `/var/lib/docker`{: .filepath} directory, copy this over to a VM, set up docker and spawn off all your containers. You'll also have to make sure that whatever sources you need that were on the host (directories) are mounted using NFS, either using the guest OS, or as a [shared NFS volume](https://docs.docker.com/storage/volumes/#share-data-among-machines). Just make sure you actually pass the NFS version you want to use. In ansible, it ends up being something like:
+Moving those over to a VM is fairly easy: you take your `/var/lib/docker`{: .filepath} directory, copy this over to a VM, set up docker and spawn off all your containers. You'll also have to make sure that whatever sources you need that were on the host (directories) are mounted using NFS, either using the guest OS, or as a [shared NFS volume](https://docs.docker.com/engine/storage/volumes/). Just make sure you actually pass the NFS version you want to use. In ansible, it ends up being something like:
 
 ```yaml
 - name: Docker NFS volume

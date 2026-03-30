@@ -8,18 +8,18 @@ tags:
   - tp-link tl-sg105e
 ---
 
-I've recently acquired some [TP-Link 'Easy Smart' managed switches](http://www.tp-link.com/en/products/biz-list-41.html) - cheap, decently built (metal casing), and a lot of features above the usual unmanaged stuff:
+I've recently acquired some [TP-Link 'Easy Smart' managed switches](https://www.tp-link.com/en/business-networking/easy-smart-switch/) - cheap, decently built (metal casing), and a lot of features above the usual unmanaged stuff:
 
 * Effective network monitoring via Port Mirroring, Loop Prevention and Cable Diagnostics
 * Port and tag-based QoS enable smooth latency-sensitive traffic
 * Abundant VLAN features improve network security via traffic segmentation
 * IGMP Snooping optimizes multicast applications
 
-Unfortunately, it uses a [windows application](http://www.tp-link.com/en/download/TL-SG105E.html#Easy_Smart_Configuration_Utility) to manage the switches - the 5 and 8 port varieties don't have a usable built-in web server to manage them. Luckely, there's a way to make that still work on Linux ;) as it seems that it's just a [JavaFX](https://en.wikipedia.org/wiki/JavaFX) application. The only thing you'll ever need a windows installation for (or use Wine) is to install the actual application.
+Unfortunately, it uses a [windows application](https://www.tp-link.com/en/support/download/tl-sg105e/) to manage the switches - the 5 and 8 port varieties don't have a usable built-in web server to manage them. Luckely, there's a way to make that still work on Linux ;) as it seems that it's just a [JavaFX](https://en.wikipedia.org/wiki/JavaFX) application. The only thing you'll ever need a windows installation for (or use Wine) is to install the actual application.
 
 After installation, You'll find a file called "Easy Smart Configuration Utility.exe" in the installation path. Copy that to your Linux installation, rename to .jar, and you're good to go.
 
-To run it, you'll also need the [Oracle Java distribution](https://www.java.com/en/download/), as JavaFX is not yet part of [OpenJDK](http://openjdk.java.net/). Install that in your distribution of choice, and you'll be able to start the application using java -jar "Easy Smart Configuration Utility.jar" and it'll start right up.
+To run it, you'll also need the [Oracle Java distribution](https://www.java.com/en/download/), as JavaFX is not yet part of [OpenJDK](https://openjdk.org/). Install that in your distribution of choice, and you'll be able to start the application using java -jar "Easy Smart Configuration Utility.jar" and it'll start right up.
 
 ![tplink_easysmart](/assets/img/posts/2015/08/tplink_easysmart.png "tplink_easysmart")
 

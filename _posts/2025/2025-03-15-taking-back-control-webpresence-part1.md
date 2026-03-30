@@ -24,7 +24,7 @@ Some of the things I want to move:
 * my Mastodon instance ([Oracle Cloud](https://www.oracle.com/cloud/))
 * Domain registrar ([Cloudflare Registrar](https://www.cloudflare.com/products/registrar/))
 * DNS hosting (Cloudflare)
-* Reverse tunnels ([Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/))
+* Reverse tunnels ([Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/))
 * Object storage (Backblaze)
 * Random hosted solutions ([UptimeRobot](https://uptimerobot.com/), [Healthchecks](https://healtchecks.io), ...)
 
@@ -32,7 +32,7 @@ Some of the things I want to move:
 
 The first thing to pick was a hoster: after some searching I came across [Netcup](https://www.netcup.com/en/?ref=270183) (affiliate link), a hoster based out of Germany, which regularly has deals on their hosting packages. I picked up one of those deals - a VPS 1000 G11 SE - 4 core x86, 8GB RAM, 512GB storage. It's hosted in [Nürnberg](https://en.wikipedia.org/wiki/Nuremberg).
 
-Bonus of Netcup: You can upload your own [disk images](https://helpcenter.netcup.com/en/wiki/server/media#upload-custom-image) or [DVD images](https://helpcenter.netcup.com/en/wiki/server/media#own-dvds) to use in the server control panel. This allows you to install whatever OS you want, as long as it fits on the architecture (x86_64).
+Bonus of Netcup: You can upload your own [disk images](https://www.netcup.com/en/helpcenter/documentation/server/media#2.-images) or [DVD images](https://www.netcup.com/en/helpcenter/documentation/server/media#4.-dvd-drive) to use in the server control panel. This allows you to install whatever OS you want, as long as it fits on the architecture (x86_64).
 
 ## Which Linux distribution?
 
@@ -58,7 +58,7 @@ systemctl --user enable --now podman-compose@your-container-file
 
 ### What... is your ~~favourite color~~ source IP?
 
-Another thing I noticed was that my ingress reverse-proxy [Traefik](https://traefik.io/traefik/) was not seeing the correct source IP - it was just showing the internal IP address - which is also due to the non-root way podman works.
+Another thing I noticed was that my ingress reverse-proxy [Traefik](https://traefik.io/traefik) was not seeing the correct source IP - it was just showing the internal IP address - which is also due to the non-root way podman works.
 
 A solution for this is to use [podman socket activation](https://github.com/containers/podman/blob/main/docs/tutorials/socket_activation.md) with Traefik. I found a handy [tutorial by Erik Sjölund](https://github.com/eriksjolund/podman-traefik-socket-activation/blob/main/README.md). In short:
 
@@ -145,7 +145,7 @@ The architecture I had in mind was:
 
 The outer (edge) layer would be comprised of:
 
-* [traefik](https://traefik.io/traefik/) as reverse proxy for web traffic
+* [traefik](https://traefik.io/traefik) as reverse proxy for web traffic
 * [sshpiper](https://github.com/tg123/sshpiper) as reverse proxy for file transfer
 
 Each website hosting would have its own set of containers:

@@ -17,7 +17,7 @@ move to something else to fill my routing/firewalling needs.
 
 Ubiquiti actually has a lot of other products in the UniFi range:
 
-* the [UniFi Dream Machine](https://eu.store.ui.com/collections/unifi-network-routing-switching/products/unifi-dream-machine),
+* the [UniFi Dream Machine](https://eu.store.ui.com/eu/en/products/udm),
 
   which integrates too many functions into one device
 

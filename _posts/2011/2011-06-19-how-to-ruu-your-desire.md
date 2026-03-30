@@ -20,9 +20,9 @@ Unfortunately the RUU utility for my Desire didn't want to cooperate - it didn't
 
 Fortunately, I found an alternative way to RUU it. It does require a windows pc, but here's the procedure:
 
-First, download the correct RUU from [Shipped-Roms.com](http://shipped-roms.com/index.php?category=android). In my case, I downloaded the `RUU_Bravo_Froyo_HTC_WWE_2.29.405.5_Radio_32.49.00.32U_5.11.05.27_release_159811_signed.exe` file.
+First, download the correct RUU from [Shipped-Roms.com](http://web.archive.org/web/20110621153753/http://shipped-roms.com/index.php?category=android)[^ia1]. In my case, I downloaded the `RUU_Bravo_Froyo_HTC_WWE_2.29.405.5_Radio_32.49.00.32U_5.11.05.27_release_159811_signed.exe` file.
 
-Next, download [Procmon](http://technet.microsoft.com/en-us/sysinternals/bb896645), from the Microsoft Technet Site. We'll use this to find out where the RUU extracts it's files.
+Next, download [Procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon), from the Microsoft Technet Site. We'll use this to find out where the RUU extracts it's files.
 
 Now, launch procmon, and add a filter on "Path" for "rom.zip". Now you can launch the RUU updater, and click next until you get to the point where it wants the phone.  
 Look back in procmon, and you should have some lines there linking to rom.zip. Rightclick and pick "Jump To". This should open the directory where the rom.zip file is.
@@ -62,3 +62,5 @@ So you want to reboot device?
 ```
 
 Press Volume-Up again, and you should be greeted by a pristine out-of-the-box Desire :)
+
+[^ia1]: Internet Archive snapshot. Original URL: http://shipped-roms.com/index.php?category=android <!-- markdownlint-disable-line MD034 -->

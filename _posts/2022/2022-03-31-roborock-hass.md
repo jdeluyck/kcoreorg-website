@@ -7,7 +7,7 @@ tags:
   - roborock
 ---
 
-We've had an [iRobot Roomba 625](https://store.irobot.com/default/roomba-vacuuming-robot-vacuum-irobot-roomba-675/R675020.html) roving the house doing the vacuuming now for over two years and have been happy with having it around. It definitely helps keeping up the vacuuming, but it doesn't do anything else.
+We've had an [iRobot Roomba 625](https://www.irobot.com/en_US/roomba-vacuuming/robot-vacuum-irobot-roomba-675/R675020.html) roving the house doing the vacuuming now for over two years and have been happy with having it around. It definitely helps keeping up the vacuuming, but it doesn't do anything else.
 
 *Obviously* it's been integrated in Home Assistant, but I haven't done much with it. It's controllable without relying on the cloud that way though most of the time we start it using the iRobot app.
 
@@ -47,5 +47,5 @@ and that's it. Afterwards your Home Assistant should be able to query the robot,
 
 Recommended reads:
 
-* [https://smarthomepursuits.com/how-to-setup-configure-roborock-s7-with-home-assistant/](https://smarthomepursuits.com/how-to-setup-configure-roborock-s7-with-home-assistant/)
+* [smarthomepursuits.com](https://smarthomepursuits.com/how-to-setup-configure-roborock-s7-with-home-assistant)
 * [https://community.home-assistant.io/t/s7-mop-control/317393](https://community.home-assistant.io/t/s7-mop-control/317393)

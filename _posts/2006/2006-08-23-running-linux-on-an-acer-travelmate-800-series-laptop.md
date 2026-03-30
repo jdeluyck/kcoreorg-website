@@ -139,14 +139,14 @@ Section "Screen"
 EndSection
 ```
 
-An alternative driver is [ATI](http://www.ati.com/)'s [FireGL](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2] driver.  
+An alternative driver is [ATI](https://en.wikipedia.org/wiki/ATI_Technologies)'s [FireGL](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2] driver.  
 Debian users can look [on this blog](http://web.archive.org/web/20060428063633/http://xoomer.virgilio.it:80/flavio.stanchina/debian/fglrx-installer.html)[^ia3] for downloading and building the package.
 
 Here's my [complete](/assets/files/2016/11/acer-xf86config-4.txt)XF86Config-4 file.
 
 ### TV Out
 
-This is rumored to work with [ATI](http://www.ati.com/)'s [FireGL](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2] driver. I haven't confirmed this, tho.
+This is rumored to work with [ATI](https://en.wikipedia.org/wiki/ATI_Technologies)'s [FireGL](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2] driver. I haven't confirmed this, tho.
 
 ### Modem
 
@@ -316,7 +316,7 @@ Not yet tried.
 ### Suspend to RAM
 
 This works pretty well starting kernel `2.6.12`.  
-You can't use the [ATI](http://www.ati.com/) [fglrx](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2] driver, and you can't use the Radeon framebuffer.
+You can't use the [ATI](https://en.wikipedia.org/wiki/ATI_Technologies) [fglrx](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2] driver, and you can't use the Radeon framebuffer.
 
 I use the following [suspend](#) script in `/etc/acpi/events`{: .filepath}
 (which is triggered when I press my suspend button), and this [suspend2ram](#)
@@ -392,7 +392,7 @@ Debian users can install the [xfree86-driver-synaptics](https://packages.debian.
 * Synaptics Touchpad driver for XFree86: [web.archive.org](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia13]
 * Intel PRO/Wireless 2100 linux driver: [sourceforge.net](https://sourceforge.net/projects/ipw2100/)
 * Palm Bluetooth Synchronisation: [web.archive.org](http://web.archive.org/web/20080516222130/http://howto.pilot-link.org/bluesync/)[^ia7]
-* ATI: [http://www.ati.com/](http://www.ati.com/)
+* ATI: [en.wikipedia.org](https://en.wikipedia.org/wiki/ATI_Technologies)
 * ATI FireGL Linux driver: [web.archive.org](http://web.archive.org/web/20060813200214/http://support.ati.com:80/ics/support/default.asp?deptID=894)[^ia2]
 * Debian package for ATI drivers: [web.archive.org](http://web.archive.org/web/20060428063633/http://xoomer.virgilio.it:80/flavio.stanchina/debian/fglrx-installer.html)[^ia3]
 * Acer Launchkeys Driver: [http://www.informatik.hu-berlin.de/~tauber/acerhk/](http://www.informatik.hu-berlin.de/~tauber/acerhk/)

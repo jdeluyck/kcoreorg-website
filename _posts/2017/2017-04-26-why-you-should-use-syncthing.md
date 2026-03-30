@@ -14,6 +14,6 @@ tags:
   - syncthing
 ---
 
-I've been a user of [Dropbox](https://www.dropbox.com/) for ages, I've tried [Owncloud](https://owncloud.org/), I've tried [Box](https://www.box.com/), and probably numerous others that I've forgotten about, but in the past year I've migrated over to [Syncthing](https://syncthing.net/), and I haven't looked back. Opensource software, well designed protocol, complete ownership of your data, I could go on... but this post by [gbolo](https://linuxctl.com/) explains it perfectly!
+I've been a user of [Dropbox](https://www.dropbox.com/) for ages, I've tried [Owncloud](https://owncloud.com/), I've tried [Box](https://www.box.com/), and probably numerous others that I've forgotten about, but in the past year I've migrated over to [Syncthing](https://syncthing.net/), and I haven't looked back. Opensource software, well designed protocol, complete ownership of your data, I could go on... but this post by [gbolo](https://linuxctl.com/) explains it perfectly!
 
 [Syncthing - Why you should be using it](https://linuxctl.com/2017/04/syncthing---why-you-should-be-using-it/)

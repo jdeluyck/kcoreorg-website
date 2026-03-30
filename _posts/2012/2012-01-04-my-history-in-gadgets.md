@@ -148,7 +148,7 @@ This phone is my current phone, works wonders with the 3rd party ROMS you can fi
 
 ## Tablet History
 
-### [Asus Eee-Pad Transformer TF101](http://www.gsmarena.com/asus_eee_pad_transformer_tf101-3936.php)
+### [Asus Eee-Pad Transformer TF101](https://www.gsmarena.com/asus_transformer_tf101-3936.php)
 
 ![Asus Eee-Pad Transformer TF101](/assets/img/posts/2012/01/asus-transformer-1.jpg "Asus Eee-Pad Transformer TF101"){: .normal}
 

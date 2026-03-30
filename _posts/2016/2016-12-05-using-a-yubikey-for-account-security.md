@@ -24,10 +24,12 @@ I got a Yubikey 4 half a year ago (during [Red Hat Summit 2016](https://www.redh
 * Configure it as a [second factor for SSH](https://developers.yubico.com/PGP/SSH_authentication/) connections
 * Configure it as a login token for my Linux machines.
 * Configure it as a [login token for my Windows](https://www.yubico.com/why-yubico/for-businesses/computer-login/windows-login/) machines (although I might wait for [Windows Hello](https://support.microsoft.com/en-us/help/17215/windows-10-what-is-hello) integration)
-* Change my [OTP](https://en.wikipedia.org/wiki/One-time_password) generator from [Google Authenticator](https://en.wikipedia.org/wiki/Google_Authenticator) to the [Yubico Authenticator](https://developers.yubico.com/yubioath-desktop/) (also purchased a [Yubikey Neo](https://www.yubico.com/products/yubikey-hardware/yubikey-neo/) with [NFC](https://en.wikipedia.org/wiki/Near_field_communication) support as a backup key)
+* Change my [OTP](https://en.wikipedia.org/wiki/One-time_password) generator from [Google Authenticator](https://en.wikipedia.org/wiki/Google_Authenticator) to the [Yubico Authenticator](https://web.archive.org/web/20150416163923/https://developers.yubico.com/yubioath-desktop/)[^ia1] (also purchased a [Yubikey Neo](https://www.yubico.com/products/yubikey-hardware/yubikey-neo/) with [NFC](https://en.wikipedia.org/wiki/Near_field_communication) support as a backup key)
 
 If you have any more ideas on how to use the Yubikey, feel free to comment!
 
 Also, If you're not using 2 factor authentication yet, I urge you to start using it. It gives you a nice additional layer of account security, with limited hassle. It doesn't even have to cost you any money, if you're using a software solution. Checkout [twofactorauth.org](https://twofactorauth.org) for a (non-comprehensive) list of sites that support it!
 
 &nbsp;
+
+[^ia1]: Internet Archive snapshot. Original URL: https://developers.yubico.com/yubioath-desktop/ <!-- markdownlint-disable-line MD034 -->

@@ -8,7 +8,7 @@ tags:
   - the oatmeal
 ---
 
-[The Oatmeal](http://theoatmeal.com) recently had a nice post on [Nikola Tesla](https://theoatmeal.com/comics/tesla), one of the greatest minds that ever lived. We owe a ton to that guy, even though he's often not credited for it. Hell, you wouldn't even be reading this without him.
+[The Oatmeal](https://theoatmeal.com/) recently had a nice post on [Nikola Tesla](https://theoatmeal.com/comics/tesla), one of the greatest minds that ever lived. We owe a ton to that guy, even though he's often not credited for it. Hell, you wouldn't even be reading this without him.
 
 ![Nikola Tesla comic by The Oatmeal](/assets/img/posts/2012/06/1.jpg)
 ![Nikola Tesla comic by The Oatmeal](/assets/img/posts/2012/06/2.jpg)

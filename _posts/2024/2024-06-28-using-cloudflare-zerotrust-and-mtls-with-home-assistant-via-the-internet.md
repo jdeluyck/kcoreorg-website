@@ -34,7 +34,7 @@ I already use a [Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/)
 
 ### Setting up cloudflared on Home Assistant
 
-Luckely there's an [add-on for cloudflared](https://github.com/brenner-tobias/addon-cloudflared) for Home Assistant by Tobias Brenner, which makes it a case of point-and-click to get this up and running:
+Luckely there's an [add-on for cloudflared](https://github.com/homeassistant-apps/app-cloudflared) for Home Assistant by Tobias Brenner, which makes it a case of point-and-click to get this up and running:
 
 * Add the repository to Home Assistant.
 * Install the Cloudflared add-on.
@@ -43,13 +43,13 @@ Luckely there's an [add-on for cloudflared](https://github.com/brenner-tobias/ad
 * Start the add-on.
 * Check the log of the add-on. It'll ask you to open a URL to authenticate with Cloudflare and then proceed to create the tunnel for you.
 
-The documentation is on [GitHub](https://github.com/brenner-tobias/addon-cloudflared/blob/main/cloudflared/DOCS.md).
+The documentation is on [GitHub](https://github.com/homeassistant-apps/app-cloudflared/blob/main/cloudflared/DOCS.md).
 
 ✨ Magic! 🪄
 
 ### Configuring Home Assistant to accept the proxied traffic
 
-Home Assistant by default will not allow you to connect from (reverse) proxies. To allow this, you'll need to change your `configuration.yaml` file, as per the [documentation](https://github.com/brenner-tobias/addon-cloudflared/blob/main/cloudflared/DOCS.md#home-assistant-configuration).
+Home Assistant by default will not allow you to connect from (reverse) proxies. To allow this, you'll need to change your `configuration.yaml` file, as per the [documentation](https://github.com/homeassistant-apps/app-cloudflared/blob/main/cloudflared/DOCS.md).
 
 You'll need to add this and restart Home Assistant:
 

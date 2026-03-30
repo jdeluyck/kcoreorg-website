@@ -20,8 +20,8 @@ Requirements for the adventure:
 
 * HTC Desire HD, stock
 * [Advanced Ace Hack Kit](http://tau.shadowchild.nl/aahk)
-* A [recent radio](http://forum.xda-developers.com/showthread.php?t=877295): I use 12.68.60.29U_26.16.04.09
-* [JellyTime for DHD](http://forum.xda-developers.com/showthread.php?t=1778202)
+* A [recent radio](https://xdaforums.com/t/radio-latest-26-16-04-09-the-htc-desire-hd-radio-thread.877295/): I use 12.68.60.29U_26.16.04.09
+* [JellyTime for DHD](https://xdaforums.com/t/jellytime-for-dhd-inspire4g-4-2-2-r11-4-3-1-beta6-available.1778202/)
 
 First, read the "effen manual" that comes with the AAHK. Find the code, and once you're in the menu, pick option 1 - "Hack Ace".  
 Wait a bit.  

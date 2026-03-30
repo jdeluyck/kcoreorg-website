@@ -14,7 +14,7 @@ I recently got an [HTC](https://www.htc.com/) [Hero](http://www.htc.com/www/prod
 
 (Un)fortunately, these days the HTC Hero comes with the latest firmware, 2.73.1100.5, which on the one hand makes rooting harder (fixes several bugs and [fastboot](http://android-dls.com/wiki/index.php?title=Fastboot) no longer works) but on the other hand makes the phone respond a lot better.
 
-After some twiddling and reading on the [XDA Developers Forum](http://forum.xda-developers.com), I came up with this recipe:
+After some twiddling and reading on the [XDA Developers Forum](https://xdaforums.com/), I came up with this recipe:
 
 **Downloads needed:**
 

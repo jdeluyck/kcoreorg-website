@@ -50,7 +50,7 @@ I had not heard of [dnscontrol](https://dnscontrol.org/) until I read this [blog
 
 (In a later stage I'm planning to include this into some CI/CD workflow, but I'm not quite there yet.)
 
-I recommend reading the [Getting Started](https://docs.dnscontrol.org/getting-started/) section of their documentation, as it walks you through how to set up all the necessary configuration.
+I recommend reading the [Getting Started](https://docs.dnscontrol.org/getting-started/getting-started) section of their documentation, as it walks you through how to set up all the necessary configuration.
 
 First you'll need to get the credentials set-up in the `creds.json` file. This file contains the necessary API keys to be able to manage the DNS records. You can check [the documentation](https://docs.dnscontrol.org/provider/index) to see how to get the necessary info.
 

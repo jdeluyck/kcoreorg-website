@@ -45,7 +45,7 @@ Option overload - and I managed to _configure_ (read: screw up the configuration
 
 ## Linux installation
 
-Initial installation of [Fedora 37 (KDE Spin)](https://spins.fedoraproject.org/kde/download/index.html) was remarkably painless after I managed to boot the laptop with [SecureBoot](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-secure-boot) enabled off of my [Ventoy](https://www.ventoy.net/en/index.html) stick.
+Initial installation of [Fedora 37 (KDE Spin)](https://fedoraproject.org/kde/) was remarkably painless after I managed to boot the laptop with [SecureBoot](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-secure-boot) enabled off of my [Ventoy](https://www.ventoy.net/en/index.html) stick.
 
 ## Hardware issues
 

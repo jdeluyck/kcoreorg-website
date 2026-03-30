@@ -53,6 +53,6 @@ idle_timeout = 0
 
 `hetzner_sub1_encrypted` is the target used by rclone directly, while `hetzner sub2` is used by restic as a backend. Restic is doing the encryption there, so I don't need an additional layer by rclone.
 
-One thing I bumped into is that Hetzner only allows [10 connections (per sub-account) at the same time](https://docs.hetzner.com/robot/storage-box/general). If you go over this the connections get blocked - something that rclone nor restic like.
+One thing I bumped into is that Hetzner only allows [10 connections (per sub-account) at the same time](https://docs.hetzner.com/storage/storage-box/general/). If you go over this the connections get blocked - something that rclone nor restic like.
 After playing with the options with the amount of connections I've settled on
 `--fast-list --transfers 3 --checkers 6` for rclone, and `--fast-list --transfers 4 --checkers 4` for restic.

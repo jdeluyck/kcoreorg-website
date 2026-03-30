@@ -9,7 +9,7 @@ tags:
 ---
 
 I own a [TP-Link Archer C5](http://www.tp-link.com/us/products/details/cat-9_Archer-C5.html) router, version 1.2 -
-which is identical to the [TP-Link Archer C7](http://www.tp-link.com/us/products/details/cat-5506_Archer-C7.html), version 2.0,
+which is identical to the [TP-Link Archer C7](https://www.tp-link.com/us/home-networking/wifi-router/archer-c7/), version 2.0,
 save for some limitations which are introduced through software. These limitations include a 300Mbps cap on 2.4GHz
 (450Mbps for the C7) and a 876Mbps cap on 5GHz (1300Mbps on the C7). Not that much, but still enough to be worth tinkering for.  
 Since I was looking at increasing the WiFi speeds in my home, I searched around a bit, and found out on
@@ -22,7 +22,7 @@ If it breaks, noone is to blame but you.
 You'll need to flash [DD-WRT](https://www.dd-wrt.com/site/index), [OpenWRT](https://openwrt.org/) or
 [LEDE-Project](https://lede-project.org) (check the respective projects for instructions on how to do that) first.
 
-Next, download an Archer C7 firmware from [the TP-Link website](http://www.tp-link.com/en/download/Archer-C7_V2.html#Firmware).
+Next, download an Archer C7 firmware from [the TP-Link website](https://www.tp-link.com/en/support/download/archer-c7/v2/).
 I downloaded version 3.14.1 (141110) - which contains the firmware in the file `ArcherC7v2_v3_en_3_14_1_up_boot(141110).bin`
 
 Now, remove the first 256 bytes, which is the bootloader (which we don't need to flash it):

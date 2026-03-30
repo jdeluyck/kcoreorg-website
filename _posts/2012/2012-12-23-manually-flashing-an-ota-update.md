@@ -10,13 +10,13 @@ tags:
   - over the air update
 ---
 
-I recently acquired a second-hand [HTC One X](https://www.gsmarena.com/htc_one_x-4320.php). A week or two back HTC decided to release the JellyBean update for the phone, all was well. Yesterday, another update was sighted on [XDA](http://forum.xda-developers.com/showthread.php?t=2058826), and since it seems like this one gives better battery life, I didn't feel like waiting another 3-5 weeks before it became available in my country, so I searched on how to manually flash an [OTA](https://en.wikipedia.org/wiki/Over-the-air_programming).
+I recently acquired a second-hand [HTC One X](https://www.gsmarena.com/htc_one_x-4320.php). A week or two back HTC decided to release the JellyBean update for the phone, all was well. Yesterday, another update was sighted on [XDA](https://xdaforums.com/t/3-14-401-31-rolling-out.2058826/), and since it seems like this one gives better battery life, I didn't feel like waiting another 3-5 weeks before it became available in my country, so I searched on how to manually flash an [OTA](https://en.wikipedia.org/wiki/Over-the-air_programming).
 
 _As always, this procedure comes with no guarantees it will work for you. It might as well decide to eat your cat, or turn your blood into liquid metal (if you don't have a cat)._  
 
 Requirements to manually update your phone:
 
-* The [Android SDK](http://developer.android.com/sdk/index.html), and all necessary drivers configured if needed (for Windows, this is required, and left as an exercise to the reader)
+* The [Android SDK](https://developer.android.com/studio#command-line-tools-only), and all necessary drivers configured if needed (for Windows, this is required, and left as an exercise to the reader)
 * HTC One X, with the correct CID. This goes without saying.
 * [HTCDev.com](http://www.htcdev.com) unlocked bootloader.
 * [Clockworkmod Recovery (Touch)](https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager&hl=en) installed on the phone

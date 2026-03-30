@@ -10,7 +10,7 @@ tags:
 
 This post is more a reminder for myself than anything else ;)
 
-I'm running [a few docker containers](/2020/05/07/enter-zfs/) on a [macvlan](https://docs.docker.com/network/macvlan/)
+I'm running [a few docker containers](/2020/05/07/enter-zfs/) on a [macvlan](https://docs.docker.com/engine/network/drivers/macvlan/)
 network so that they can be assigned IP addresses in my main address space.
 
 One of the drawbacks of using macvlan is that the container can't contact the host, and vice versa. This is annoying when

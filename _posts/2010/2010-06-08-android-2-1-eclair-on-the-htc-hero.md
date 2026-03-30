@@ -16,9 +16,9 @@ Then [HTC](https://www.htc.com/) promised us (owners) an upgrade from Cupcake ([
 Then HTC postponed it to beginning of April. End of April. May. June.  
 On the 4th HTC started rolling out the update for Asia, and we still had to wait in Europe. That's when I got fedup with waiting.
 
-Thanks to the wonderful guys over at [XDA-Developers](https://www.xda-developers.com/) and this [Complete Newbie Guide to Install a Custom Rom](http://forum.xda-developers.com/showthread.php?t=645253), I now have [VillainRom10](http://www.villainrom.co.uk/viewtopic.php?f=64&t=1002&start=0) installed, which is basically a repackaged official 2.1 rom from HTC.
+Thanks to the wonderful guys over at [XDA-Developers](https://www.xda-developers.com/) and this [Complete Newbie Guide to Install a Custom Rom](https://xdaforums.com/t/guide-complete-newbie-guide-to-root-install-a-custom-rom-updated-26-08.645253/), I now have [VillainRom10](http://www.villainrom.co.uk/viewtopic.php?f=64&t=1002&start=0) installed, which is basically a repackaged official 2.1 rom from HTC.
 
-I had to use the [GoldCard](https://xdaforums.com/t/prj-elf-elfin-unbricker-gold-card-online.437996/) method to downgrade my Hero (specified in the Guide - worked perfectly with a Sandisk 2gb SD card), and install the drivers from [this thread](http://forum.xda-developers.com/showthread.php?t=647353) for the RUU (Rom Update Utility) to find the Hero in bootloader mode. Other than that, it's a smooth sailing.
+I had to use the [GoldCard](https://xdaforums.com/t/prj-elf-elfin-unbricker-gold-card-online.437996/) method to downgrade my Hero (specified in the Guide - worked perfectly with a Sandisk 2gb SD card), and install the drivers from [this thread](https://xdaforums.com/t/guide-how-to-setup-correct-hero-drivers-for-x86-x64-users.647353/) for the RUU (Rom Update Utility) to find the Hero in bootloader mode. Other than that, it's a smooth sailing.
 
 After using the phone now for two days, it feels mightily fast, snappy... it's a total new phone.
 

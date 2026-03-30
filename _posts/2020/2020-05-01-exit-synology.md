@@ -113,7 +113,7 @@ After this I removed the disks from the NAS and plugged them in my desktop. To r
 ran [`badblocks`](https://en.wikipedia.org/wiki/Badblocks) on them -
 nothing came out - all disks are healthy (which they should be - the
 [MTBF](https://en.wikipedia.org/wiki/Mean_time_between_failures) of
-[WD Red](https://shop.westerndigital.com/en-ie/products/internal-drives/wd-red-sata-hdd) drives is a lot higher than
+[WD Red](https://www.westerndigital.com/en-ie/products/internal-drives/wd-red-sata-hdd) drives is a lot higher than
 the lifetime I've had them).
 
 Second try with `btrfs check`, but again, no dice. `btrfs restore` managed to get some things back, but not many - nothing
@@ -122,7 +122,7 @@ more than when I mounted the filesystem readonly and copied off the things that 
 I even checked with the helpful people on the [#btrfs](irc://irc.freenode.net:6667/btrfs) channel on [Freenode](https://freenode.net/), but they also didn't see a way out.
 It doesn't help that Synology uses their own fork of btrfs.
 It should also be noted that Synology runs btrfs on top of [mdraid](https://www.thomas-krenn.com/en/wiki/Linux_Software_RAID_Information) - something often done to get rid of the
-btrfs [write hole](https://btrfs.wiki.kernel.org/index.php/RAID56) when using RAID 5/6 (for which a patch was issued) - which causes btrfs to have no idea
+btrfs [write hole](https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/RAID56.html) when using RAID 5/6 (for which a patch was issued) - which causes btrfs to have no idea
 about the state of the underlying disks. This might have contributed to the issue - who knows.
 
 Before you ask - the mdadm RAID array was also fine - no corruption there.

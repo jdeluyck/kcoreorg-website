@@ -29,7 +29,7 @@ There are several things to keep in mind when running rootless Podman, as you ca
 
 ## Debian Stable.. or Fedora Server?
 
-[Debian](https://www.debian.org/) [Stable](https://wiki.debian.org/DebianStable) (currently [Bookworm](https://wiki.debian.org/DebianBookworm)) is my VM OS of choice, and I originally started off with that but soon discovered that the version of podman was rather old (4.3.1 as of writing), which didn't support some fancy new features I wanted to test. So I decided to switch to [Fedora 39 Server](https://fedoraproject.org/server/download) - since Red Hat was the original author, it seemed to make sense to got this way.
+[Debian](https://www.debian.org/) [Stable](https://wiki.debian.org/DebianStable) (currently [Bookworm](https://wiki.debian.org/DebianBookworm)) is my VM OS of choice, and I originally started off with that but soon discovered that the version of podman was rather old (4.3.1 as of writing), which didn't support some fancy new features I wanted to test. So I decided to switch to [Fedora 39 Server](https://fedoraproject.org/server/download/) - since Red Hat was the original author, it seemed to make sense to got this way.
 
 I did not opt for [RedHat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) (of which you can run up to 16 nodes [for free](https://developers.redhat.com/articles/faqs-no-cost-red-hat-enterprise-linux) in a home lab), [CentOS Stream](https://www.centos.org/centos-stream/) or one of the RHEL alternatives like [AlmaLinux](https://almalinux.org/) or [Rocky Linux](https://rockylinux.org/), because the enterprise class of Linux Distributions bring a slow pace of feature-updates with them. The whole point was that I wanted to test the latest version of Podman ;)
 
@@ -243,7 +243,7 @@ After some searching I came across [udica](https://github.com/containers/udica),
 
 On Fedora, its a `sudo dnf install udica` away.
 
-I used [this RHEL post on udica](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_selinux/creating-selinux-policies-for-containers_using-selinux) together with [another post on `audit2allow`](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security-enhanced_linux/sect-security-enhanced_linux-fixing_problems-allowing_access_audit2allow) to create a specific policy for Traefik.
+I used [this RHEL post on udica](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_selinux/creating-selinux-policies-for-containers_using-selinux) together with [another post on `audit2allow`](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/security-enhanced_linux/sect-security-enhanced_linux-fixing_problems-allowing_access_audit2allow) to create a specific policy for Traefik.
 
 In the end I came up with the following policy, that allows Traefik to connect to the socket file, allows it to bind on port 80/443 and connect out towards other ports.
 

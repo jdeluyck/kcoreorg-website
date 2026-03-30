@@ -14,7 +14,7 @@ description: It's all about the Tunnels, baby!
 
 *This is the fifth installment of a series of posts about taking back control of my web presence. [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) is about hosting, [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) talks about DNS, in [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox and in [Part 4](/2025/04/30/taking-back-control-webpresence-part4/) I move Mastodon around.*
 
-One of the additional services I use of Cloudflare (besides DNS) is [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/), part of their [Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_architecture) offering. Very practical, but also very much locks you into using their DNS. I use this for a couple of services amonst which is [Home Assistant](https://www.home-assistant.io/) as detailed on [this blog post](/2024/06/28/using-cloudflare-zerotrust-and-mtls-with-home-assistant-via-the-internet/).
+One of the additional services I use of Cloudflare (besides DNS) is [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/), part of their [Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_architecture) offering. Very practical, but also very much locks you into using their DNS. I use this for a couple of services amonst which is [Home Assistant](https://www.home-assistant.io/) as detailed on [this blog post](/2024/06/28/using-cloudflare-zerotrust-and-mtls-with-home-assistant-via-the-internet/).
 
 ## Pangolin
 
@@ -38,9 +38,9 @@ While this offers a subset of the features of Cloudflare Tunnels, it does not of
 
 ### Configuration
 
-Deploying it was [well documented](https://docs.fossorial.io/Getting%20Started/quick-install) - I went with the [manual install](https://docs.fossorial.io/Getting%20Started/Manual%20Install%20Guides/docker-compose) as I prefered to have more control over it.
+Deploying it was [well documented](https://docs.pangolin.net/self-host/quick-install) - I went with the [manual install](https://docs.pangolin.net/self-host/manual/docker-compose) as I prefered to have more control over it.
 
-The [config file options](https://docs.fossorial.io/Pangolin/Configuration/config) are also well documented.
+The [config file options](https://docs.pangolin.net/self-host/advanced/config-file) are also well documented.
 
 After deploying it, I added a reverse proxy definition in my [caddy](/2025/04/15/taking-back-control-webpresence-part3/#caddy---web-requests) Configuration and everything started to work :)
 

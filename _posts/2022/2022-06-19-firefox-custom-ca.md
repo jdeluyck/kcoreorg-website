@@ -8,7 +8,7 @@ tags:
   - ca
 ---
 
-In the past (before the [introduction of the new design/engine/...](https://blog.mozilla.org/en/products/firefox/introducing-a-new-firefox-for-android-experience/)), you were able to import [Certificate Authority certificates](https://en.wikipedia.org/wiki/Certificate_authority) without problems. The new version took that away, unfortunately.
+In the past (before the [introduction of the new design/engine/...](https://blog.mozilla.org/en/firefox/introducing-a-new-firefox-for-android-experience/)), you were able to import [Certificate Authority certificates](https://en.wikipedia.org/wiki/Certificate_authority) without problems. The new version took that away, unfortunately.
 
 After being fedup with getting warnings all the time for my home infrastructure (on which I use a custom CA with home-generated certificates), I finally found how to get this to work.
 

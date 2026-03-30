@@ -13,25 +13,25 @@ tags:
 
 I still have an [Asus Transformer TF101](https://www.gsmarena.com/asus_transformer_tf101-3936.php) tablet in use - running MarshMallow - but after a Play Services upgrade, in which Google inserted some [NEON instructions](https://en.wikipedia.org/wiki/ARM_architecture#NEON) (which the TF101 does not support) , a lot of "Play Services has stopped working" popups showed up - making the tablet nigh unusable. Initial tests blocking upgrade of the services yielded no success, and a lot of programs demand the newer versions of the services anyway.
 
-In my searches I ran across the [microG Project](https://microg.org/) - "_A free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries_." Sounded interesting, so I went and tried it, with success, on the tablet. It runs faster, battery life is better, and it works for everything I use it for.
+In my searches I ran across the [microG Project](https://github.com/microg/GmsCore/wiki) - "_A free-as-in-freedom re-implementation of Google’s proprietary Android user space apps and libraries_." Sounded interesting, so I went and tried it, with success, on the tablet. It runs faster, battery life is better, and it works for everything I use it for.
 
 Below you can find the steps I used. These apply to the Transformer TF101, and come with no guarantees whatsoever.
 
 ## Preparing the tablet
 
 * First, you'll need to uninstall both "Google Play Servics" and the "Google Play Store". Use something like Lucky Patcher, or Titanium Backup, or whatnot, to remove them.
-* Reflash the ROM for [KatKiss](https://forum.xda-developers.com/eee-pad-transformer/development/rom-t3318496) (I'm using 6.0.1 #29) and SuperSU (linked on the same page). _Do NOT install opengapps_!
+* Reflash the ROM for [KatKiss](https://xdaforums.com/t/rom-mm-6-0-1-katkiss-katshmallow-034-multiwindow.3318496/) (I'm using 6.0.1 #29) and SuperSU (linked on the same page). _Do NOT install opengapps_!
 * Install [F-Droid](https://f-droid.org/).  
     Make sure you enable "Expert Mode" and "Unstable updates" in the settings, as we need the latest version of the packages.
-* Add the repository for microG: `https://microg.org/fdroid/repo` (as described [on the microg site](https://microg.org/download.html))
+* Add the repository for microG: `https://microg.org/fdroid/repo` (as described [on the microg site](https://github.com/microg/GmsCore/wiki/Downloads))
 * Temporarily disable the F-Droid repository.
 * Install the following items using F-Droid:
       * microG Services Core
       * microG Service Framework Proxy
 * Re-enable the F-Droid repository, and install
-      * [UnifiedNlp (no GAPPS)](https://f-droid.org/repository/browse/?fdfilter=unifiednlp&fdid=com.google.android.gms)
-      * [Apple UnifiedNlp Backend](https://f-droid.org/repository/browse/?fdfilter=unifiednlp&fdid=org.microg.nlp.backend.apple) (or another backend)
-      * [NominatimNlpBackend](https://f-droid.org/repository/browse/?fdfilter=unifiednlp&fdid=org.microg.nlp.backend.nominatim)
+      * [UnifiedNlp (no GAPPS)](https://f-droid.org/packages/#q=unifiednlp)
+      * [Apple UnifiedNlp Backend](https://f-droid.org/en/packages/org.microg.nlp.backend.apple/) (or another backend)
+      * [NominatimNlpBackend](https://f-droid.org/en/packages/org.microg.nlp.backend.nominatim/)
 
 ### Patching the ROM to allow signature spoofing
 

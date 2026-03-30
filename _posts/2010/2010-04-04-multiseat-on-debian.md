@@ -25,7 +25,7 @@ I opted for the first option.
 My hardware (that matters for this setup):
 
 * Mice: 2 simple Logitech usb mice
-* Keyboards: 2 usb keyboards (one [Cherry Cymotion Linux Master](http://reviews.cnet.com/keyboards/cherry-cymotion-master-linux/1707-3134_7-31539242.html) & one [labtec Ultraflat](http://www.labtec.com/index.cfm/gear/details/EUR/EN,crid=28,contentid=692))
+* Keyboards: 2 usb keyboards (one [Cherry Cymotion Linux Master](https://web.archive.org/web/20101104040703/http://reviews.cnet.com:80/keyboards/cherry-cymotion-master-linux/1707-3134_7-31539242.html)[^ia1] & one [labtec Ultraflat](http://www.labtec.com/index.cfm/gear/details/EUR/EN,crid=28,contentid=692))
 * Graphics: an onboard ATI Radeon HD 3200 (this is part of the [AMD 780](https://en.wikipedia.org/wiki/AMD_700_chipset_series) chipset) video chip on my Asrock motherboard (was originally disabled and enabled for this multiseat setup) and an addon ATI Radeon HD 4850 card (with an [RV700](https://en.wikipedia.org/wiki/Radeon_R700#Radeon_HD_4300.2FHD_4500) chip).
 * Screens: two screens - in this case, one 20.1" [Viewsonic VX2025wm](http://hk.viewsonic.com/en/products/productspecs.php?id=234) and one 22" (newly purchased) [LG w2253TW](http://www.lg.com/uk/support/product/support-product-profile.jsp?customerModelCode=W2253TQ-PF&initialTab=documents&targetPage=support-product-profile#)
 
@@ -35,7 +35,7 @@ Notes:
 2. If you use an onboard chipset (like I do), you'll need to change the boot order so that this chip is actually used as the primary device, otherwise it won't be initialised correctly.
 
 Originally I had the ATI binary driver [fglrx](https://en.wikipedia.org/wiki/Fglrx) installed, but this does _not_ play well with a multiseat setup. The initialisation of the second card causes the system to hardlock.  
-Since this driver doesn't work, I went for the [xf86-video-ati](http://www.x.org/wiki/radeon) driver, which is completely opensource, and in combination with a recent [kernel](https://www.kernel.org/) allows for [kernel mode setting](https://en.wikipedia.org/wiki/Mode-setting). You do need the firmware for the card, usually found in the firmware-linux packages of your favourite distribution.
+Since this driver doesn't work, I went for the [xf86-video-ati](https://www.x.org/wiki/radeon/) driver, which is completely opensource, and in combination with a recent [kernel](https://www.kernel.org/) allows for [kernel mode setting](https://en.wikipedia.org/wiki/Mode-setting). You do need the firmware for the card, usually found in the firmware-linux packages of your favourite distribution.
 
 So, the works:
 
@@ -248,3 +248,5 @@ ServerArgsLocal=-br -nolisten tcp -layout seat1 -sharevts -novtswitch -isolateDe
 One KDM restart later (`/etc/init.d/kdm restart`) you should have two X servers running, both on their respective screens!
 
 Last but not least, kudos to [WKPG wiki](https://wpkg.org/) for the helpful article ;)
+
+[^ia1]: Internet Archive snapshot. Original URL: http://reviews.cnet.com/keyboards/cherry-cymotion-master-linux/1707-3134_7-31539242.html <!-- markdownlint-disable-line MD034 -->

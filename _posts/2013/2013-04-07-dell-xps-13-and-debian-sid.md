@@ -10,7 +10,7 @@ tags:
   - sid
 ---
 
-I purchased a [Dell](http://www.dell.be) [XPS 13 Ultrabook](http://www.dell.com/be/p/xps-13-l321x-mlk/pd), to replace my ageing [Apple](https://www.apple.com/) [Macbook 2,1](https://en.wikipedia.org/wiki/MacBook_(2006%E2%80%932012)). After six years of daily use, it's (over)due to retire.
+I purchased a [Dell](https://www.dell.com/nl-be) [XPS 13 Ultrabook](https://en.wikipedia.org/wiki/Dell_XPS#XPS_13_(L321X,_Early_2012)), to replace my ageing [Apple](https://www.apple.com/) [Macbook 2,1](https://en.wikipedia.org/wiki/MacBook_(2006%E2%80%932012)). After six years of daily use, it's (over)due to retire.
 
 The reasons for not going for another Apple product:
 
@@ -165,11 +165,11 @@ The [permanent fix](https://patchwork.kernel.org/patch/2102971/) is also schedul
 
 **Unreadable (way too tiny) fonts in applications**  
 This is actually a drawback from having a high-resolution screen: a lot fits on it, but the fonts are tiny.  
-I had the issue mostly in [Opera](http://www.opera.com), [IceDove](https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project)
+I had the issue mostly in [Opera](https://www.opera.com/), [IceDove](https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project)
 (a rebranded Thunderbird) and [XTerm](https://en.wikipedia.org/wiki/Xterm), my X Terminal of choice.
 
 In Opera you can just set the default zoom level. I put this at 120%, everything is readable now.  
-For Thunderbird, I can advise installing the [ViewAbout](https://addons.mozilla.org/en-us/thunderbird/addon/viewabout/) extension,
+For Thunderbird, I can advise installing the [ViewAbout](https://addons.thunderbird.net/en-us/thunderbird/addon/viewabout/) extension,
 and then looking in View &rarr; ViewAbout &rarr; about:config for the setting layout.css.devPixelsPerPx, and setting this to "1.2".  
 For XTerm, I added this to `.Xresources`{: .filepath } (in my home directory):
 

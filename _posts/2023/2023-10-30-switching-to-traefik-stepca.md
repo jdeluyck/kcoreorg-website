@@ -14,13 +14,13 @@ I've been using [nginx-proxy](https://github.com/nginx-proxy/nginx-proxy) as a r
 
 I've been planning to upgrade this setup for a while now, using [step-ca](https://smallstep.com/docs/step-ca/) as an [ACME](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment)-compatible backend for handing out certificates. No more me having to go and remember to put in the necessary files in the right location in my Ansible playbooks ;)
 
-Since [Traefik](https://traefik.io/traefik/) has also been on my to-look-at-and-play-with list, I decided to combine the two.
+Since [Traefik](https://traefik.io/traefik) has also been on my to-look-at-and-play-with list, I decided to combine the two.
 
 ## Smallstep step-ca
 
 `step-ca` is running as a docker container (using the [official image](https://hub.docker.com/r/smallstep/step-ca) in my environment), listening on port 9000, but not exposed to the outside world. I'm using a docker `.internal` network, so that the container is only visible inside the docker network, not outside.
 
-Most of the info you need can be found in the [tutorial on running a TLS certificate authority](https://smallstep.com/docs/tutorials/docker-tls-certificate-authority/index.html) on the smallstep website.
+Most of the info you need can be found in the [tutorial on running a TLS certificate authority](https://smallstep.com/docs/tutorials/docker-tls-certificate-authority/) on the smallstep website.
 
 ### Root / intermediate CA certificates
 
