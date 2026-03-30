@@ -27,7 +27,7 @@ My hardware (that matters for this setup):
 * Mice: 2 simple Logitech usb mice
 * Keyboards: 2 usb keyboards (one [Cherry Cymotion Linux Master](https://web.archive.org/web/20101104040703/http://reviews.cnet.com:80/keyboards/cherry-cymotion-master-linux/1707-3134_7-31539242.html)[^ia1] & one [labtec Ultraflat](http://www.labtec.com/index.cfm/gear/details/EUR/EN,crid=28,contentid=692))
 * Graphics: an onboard ATI Radeon HD 3200 (this is part of the [AMD 780](https://en.wikipedia.org/wiki/AMD_700_chipset_series) chipset) video chip on my Asrock motherboard (was originally disabled and enabled for this multiseat setup) and an addon ATI Radeon HD 4850 card (with an [RV700](https://en.wikipedia.org/wiki/Radeon_R700#Radeon_HD_4300.2FHD_4500) chip).
-* Screens: two screens - in this case, one 20.1" [Viewsonic VX2025wm](https://www.viewsonic.com/eu/products/sheet/VX2025wm) and one 22" (newly purchased) [LG w2253TW](http://www.lg.com/uk/support/product/support-product-profile.jsp?customerModelCode=W2253TQ-PF&initialTab=documents&targetPage=support-product-profile#)
+* Screens: two screens - in this case, one 20.1" [Viewsonic VX2025wm](https://www.viewsonic.com/eu/products/sheet/VX2025wm) and one 22" (newly purchased) [LG w2253TW](https://www.lg.com/levant_en/support/product/lg-W2253TQ-PF.AEU)
 
 Notes:
 

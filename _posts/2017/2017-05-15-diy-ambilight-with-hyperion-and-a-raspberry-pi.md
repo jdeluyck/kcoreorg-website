@@ -17,6 +17,8 @@ After attaching it to the back of the TV (with tape, to test), this is what you 
 
 ![Lights](/assets/img/posts/2017/05/IMG_20170501_144742-1024x526.jpg)
 
-To make it work for any HDMI input, I can refer you to [this tutorial](http://www.instructables.com/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/). It consists of using an HDMI splitter, convertor to AV, and an AV to USB convertor. This signal is piped into the Pi, where Hyperion can do it's magic with it.
+To make it work for any HDMI input, I can refer you to [this tutorial](https://web.archive.org/web/20160120230635/http://www.instructables.com:80/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/?)[^ia1]. It consists of using an HDMI splitter, convertor to AV, and an AV to USB convertor. This signal is piped into the Pi, where Hyperion can do it's magic with it.
 
 Quite happy with the end result ;)
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.instructables.com/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/ <!-- markdownlint-disable-line MD034 -->

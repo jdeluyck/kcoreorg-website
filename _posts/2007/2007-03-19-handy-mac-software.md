@@ -33,7 +33,7 @@ Freeware apps:
 * [UnrarX](https://web.archive.org/web/20060704233247/http://www.unrarx.com:80/)[^ia12]: RAR extractor
 * [VLC media player](http://www.videolan.org/vlc/): media player
 * [witch](https://manytricks.com/witch/): Window switcher (not just app switching)
-* [Xfolders](http://www.kai-heitkamp.com/cms_en/main.php?content=9&module=0&SprachID=1&uid=d96f9e3704277b05bb3345e167aa7afe): file manager
+* [Xfolders](https://www.macintoshrepository.org/33327-xfolders): file manager
 * [XMeeting](https://xmeeting.sourceforge.net/): SIP/H.323 video conferencing client
 
 Non-free software:

@@ -10,7 +10,7 @@ tags:
   - sid
 ---
 
-I wanted to get [Adobe AIR](https://en.wikipedia.org/wiki/Adobe_AIR) to work on my 64-bit [Debian Sid](https://www.debian.org/releases/sid/) installation, to try out some other [twitter](http://www.twitter.com/) clients, more specifically [Saezuri](https://playwell.jp/saezuri/). (On a side note: the offering of twitter clients on linux is ... mediocre. Bad, even. The ([imho](https://www.urbandictionary.com/define.php?term=imho)) best one is [Pino](http://web.archive.org/web/20111126121832/http://pino-app.appspot.com:80/)[^ia1], but it has problems of it's own).
+I wanted to get [Adobe AIR](https://en.wikipedia.org/wiki/Adobe_AIR) to work on my 64-bit [Debian Sid](https://www.debian.org/releases/sid/) installation, to try out some other [twitter](https://en.wikipedia.org/wiki/Twitter,_Inc.) clients, more specifically [Saezuri](https://playwell.jp/saezuri/). (On a side note: the offering of twitter clients on linux is ... mediocre. Bad, even. The ([imho](https://www.urbandictionary.com/define.php?term=imho)) best one is [Pino](http://web.archive.org/web/20111126121832/http://pino-app.appspot.com:80/)[^ia1], but it has problems of it's own).
 
 _(Sidenote: Adobe has decided to [discontinue AIR for Linux](http://kb2.adobe.com/cps/521/cpsid_52132.html).)_
 

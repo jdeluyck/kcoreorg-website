@@ -8,7 +8,7 @@ tags:
   - vmware
 ---
 
-I just installed [VMWare](https://www.vmware.com/) [server](http://www.vmware.com/products/server/) on my gf's linux-laptop, but the server console didn't want to start for some reason... Just came back to the command line, nothing happening.
+I just installed [VMWare](https://www.vmware.com/) [server](https://en.wikipedia.org/wiki/VMware_Server) on my gf's linux-laptop, but the server console didn't want to start for some reason... Just came back to the command line, nothing happening.
 
 Running vmware as  
 `LD_PRELOAD=/usr/lib/libdbus-1.so.3:$LD_PRELOAD vmware` made things work, strangely enough ;)

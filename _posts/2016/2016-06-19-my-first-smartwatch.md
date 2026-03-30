@@ -64,27 +64,27 @@ I mentioned watchapps and watchfaces earlier... There are just too many to choos
 
 WatchApps:
 
-* [Battery+](https://apps.getpebble.com/en_US/application/55197642d6fa6f2633000092)
-* [Swarm by Foursquare](https://apps.getpebble.com/en_US/application/52e0380f7f68b384ee000010)
-* [Timer+](https://apps.getpebble.com/en_US/application/54a1ba1afc5f23e4c000012d)
-* [Compass](https://apps.getpebble.com/en_US/application/540f7cafbc27450164000157)
-* [Metronome](https://apps.getpebble.com/en_US/application/569b571ddba9797f93000012) (I _am_ a music person ;))
-* [Email for Pebble](https://apps.getpebble.com/en_US/application/5691bdb1f72963ac6500001a)
-* [Weather](https://apps.getpebble.com/en_US/application/529eaee7d7894b8324000022)
-* [Snowy](https://apps.getpebble.com/en_US/application/561960c8a1dd2652af00000d)
+* [Battery+](https://apps.repebble.com/en_US/application/55197642d6fa6f2633000092)
+* [Swarm by Foursquare](https://apps.repebble.com/en_US/application/52e0380f7f68b384ee000010)
+* [Timer+](https://apps.repebble.com/en_US/application/54a1ba1afc5f23e4c000012d)
+* [Compass](https://apps.repebble.com/en_US/application/540f7cafbc27450164000157)
+* [Metronome](https://apps.repebble.com/en_US/application/569b571ddba9797f93000012) (I _am_ a music person ;))
+* [Email for Pebble](https://apps.repebble.com/en_US/application/5691bdb1f72963ac6500001a)
+* [Weather](https://apps.repebble.com/en_US/application/529eaee7d7894b8324000022)
+* [Snowy](https://apps.repebble.com/en_US/application/561960c8a1dd2652af00000d)
 
 WatchFaces:
 
-* [Duplicity](https://apps.getpebble.com/en_US/application/545e71fd80acf1a84400006b?)
-* [Retro PC](https://apps.getpebble.com/en_US/application/568167dce08e48268600002f) (just for the heck of it)
-* [Business Time](https://apps.getpebble.com/en_US/application/573da5e25253b1680800000d)
-* [Classique Exclusive Edition](https://apps.getpebble.com/en_US/application/56f2a4d1e4a8593d8f000003) (my favourite)
-* [Classic](https://apps.getpebble.com/en_US/application/52ca20c86e3cc2bc7d00003c)
-* [91 Dub v3.0](https://apps.getpebble.com/en_US/application/52b231c2b70e1c159500009b)
-* [Squared 4.0](https://apps.getpebble.com/en_US/application/52f014d342937dc4430000ee)
-* [Swiss Dark](https://apps.getpebble.com/en_US/application/56635d294ce70342e400007f)
-* [Thin](https://apps.getpebble.com/en_US/application/550ccb556caaed4e0100006d)
-* [Minimalism](https://apps.getpebble.com/en_US/application/56f93a5361a01637e5000036)
+* [Duplicity](https://apps.repebble.com/en_US/application/545e71fd80acf1a84400006b?)
+* [Retro PC](https://apps.repebble.com/en_US/application/568167dce08e48268600002f) (just for the heck of it)
+* [Business Time](https://apps.repebble.com/en_US/application/573da5e25253b1680800000d)
+* [Classique Exclusive Edition](https://apps.repebble.com/en_US/application/56f2a4d1e4a8593d8f000003) (my favourite)
+* [Classic](https://apps.repebble.com/en_US/application/52ca20c86e3cc2bc7d00003c)
+* [91 Dub v3.0](https://apps.repebble.com/en_US/application/52b231c2b70e1c159500009b)
+* [Squared 4.0](https://apps.repebble.com/en_US/application/52f014d342937dc4430000ee)
+* [Swiss Dark](https://apps.repebble.com/en_US/application/56635d294ce70342e400007f)
+* [Thin](https://apps.repebble.com/en_US/application/550ccb556caaed4e0100006d)
+* [Minimalism](https://apps.repebble.com/en_US/application/56f93a5361a01637e5000036)
 * ... and the [Kiezel Watchfaces](https://apps.getpebble.com/en_US/developer/558e3fd4e3975e527b000055/1?native=false&query=kiezel%252520watchfaces)
 
 But there are so many more to explore.

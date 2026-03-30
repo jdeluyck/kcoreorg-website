@@ -144,13 +144,13 @@ This also works pretty much out of the box. The kernel module to use is `ochi_13
 
 ### Infrared
 
-Currently not supported by the linux kernel. Possible patch: [is here](http://www.madingley.org/macmini/kernel/appleir-v1.1.c). Untested
+Currently not supported by the linux kernel. Possible patch: [is here](http://web.archive.org/web/20120308063924/http://www.madingley.org/macmini/kernel/appleir-v1.1.c)[^ia2]. Untested
 
 ### Multimedia Keys
 
 This laptop has several function keys which allow for the changing of the volume, brightness, ...
 
-After installation of [pommed](http://www.technologeek.org/projects/pommed/), these keys work perfectly.
+After installation of [pommed](https://github.com/richo/pommed), these keys work perfectly.
 
 Debian users can install the [pommed](https://packages.debian.org/pommed) and [gpomme](https://packages.debian.org/gpomme) packages.
 
@@ -214,14 +214,17 @@ Debian users can install the [xserver-xorg-input-synaptics](https://packages.deb
 ## Links
 
 * Apple: [www.apple.com](https://www.apple.com/)
-* Hotkeys program: [http://www.technologeek.org/projects/pommed/](http://www.technologeek.org/projects/pommed/)
+* Hotkeys program: [github.com](https://github.com/richo/pommed)
 * Kernel: [www.kernel.org](https://www.kernel.org/)
-* Linux on mobile computers: [http://www.tuxmobil.org/](http://www.tuxmobil.org/)
+* Linux on mobile computers: [web.archive.org](https://web.archive.org/web/20090210013601/http://tuxmobil.org:80/)[^ia3]
 * Linux-on-laptops: [https://linux-on-laptops.com](https://linux-on-laptops.com/)
 * Synaptics Touchpad driver for Xorg: [web.archive.org](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia1]
 * iSight firmware tools: [http://bersace03.free.fr/ift/](http://bersace03.free.fr/ift/)
-* Madwifi-project: [http://www.madwifi-project.org](http://www.madwifi-project.org/)
+* Madwifi-project: [github.com](https://github.com/proski/madwifi)
 * Linux USB Video Class driver for iSight: [http://linux-uvc.berlios.de/](http://www.ideasonboard.org/uvc/)
 * Userspace VESA framebuffer: [docs.kernel.org](https://docs.kernel.org/fb/uvesafb.html)
 
 [^ia1]: Internet Archive snapshot. Original URL: http://w1.894.telia.com/~u89404340/touchpad/ <!-- markdownlint-disable-line MD034 -->
+
+[^ia2]: Internet Archive snapshot. Original URL: http://www.madingley.org/macmini/kernel/appleir-v1.1.c <!-- markdownlint-disable-line MD034 -->
+[^ia3]: Internet Archive snapshot. Original URL: http://www.tuxmobil.org/ <!-- markdownlint-disable-line MD034 -->
