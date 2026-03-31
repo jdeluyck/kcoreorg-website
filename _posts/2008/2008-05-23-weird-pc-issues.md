@@ -18,6 +18,5 @@ The weird thing is, this problem only started after [switching cases](/2007/09/0
 
 I recently related this to some coworkers, and one of them still had a spare motherboard around... so I recently replaced my [Abit](https://www.abit.com.tw/) [KN9-SLI](https://theretroweb.com/motherboards/s/abit-kn9-sli)[^retroweb1] mainboard with an [Asus](https://www.asus.com/) [M2N-SLI Deluxe](https://theretroweb.com/motherboards/s/asus-m2n-sli-deluxe-102g)[^retroweb2] mainboard, and have had no problems since. I finally have a stable pc again! :)
 
-[^retroweb1]: Original URL: http://www.abit.com.tw/page/en/motherboard/motherboard_detail.php?pMODEL_NAME=KN9+SLI&fMTYPE=Socket%20AM2 <!-- markdownlint-disable-line MD034
-[^retroweb2]: Original URL: http://www.asus.com/products.aspx?l1=3&l2=101&l3=301&model=1160&modelmenu=1 <!-- markdownlint-disable-line MD034
--->
+[^retroweb1]: Original URL: http://www.abit.com.tw/page/en/motherboard/motherboard_detail.php?pMODEL_NAME=KN9+SLI&fMTYPE=Socket%20AM2 <!-- markdownlint-disable-line MD034 -->
+[^retroweb2]: Original URL: http://www.asus.com/products.aspx?l1=3&l2=101&l3=301&model=1160&modelmenu=1 <!-- markdownlint-disable-line MD034 -->
