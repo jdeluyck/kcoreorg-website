@@ -60,13 +60,13 @@ This I got from a coworker, who didn't use it anymore since it no longer charged
 
 ### [Palm Tungsten T3](https://en.wikipedia.org/wiki/Tungsten_T3#Tungsten_T3)
 
-![Palm Tungsten T3](/assets/img/posts/2012/01/palm-t3.jpg "Palm Tungsten T3"){: .normal}
+![Palm Tungsten T3](/assets/img/posts/2012/01/palm-t3-transparent.png "Palm Tungsten T3"){: .normal width="400" }
 
 As an upgrade for the m500, I got myself the T3. Quite a powerful machine for the time.
 
 ### [Palm T|X](https://en.wikipedia.org/wiki/Palm_TX)
 
-![Palm T\|X](/assets/img/posts/2006/06/tx_1.png "Palm T\|X"){: .normal}
+![Palm T\|X](/assets/img/posts/2006/06/tx_1.png "Palm T\|X"){: .normal width="400" }
 
 This was the last Palm device I owned, which I sold some years back.
 
