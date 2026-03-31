@@ -151,7 +151,8 @@ The last two rules are there to make sure that traffic that hits `vnet0`, which 
 
 This is the architecture I came up with for this installment, and which is currently being used:
 
-![Architecture of my web hosting setup, using ProxmoxVE and Linux containers](/assets/img/posts/2025/04/proxmox_website_hosting.png){: .align-center}
+![Architecture of my web hosting setup, using ProxmoxVE and Linux containers](/assets/img/posts/2025/04/proxmox_website_hosting.png){: .align-center .light}
+![Architecture of my web hosting setup, using ProxmoxVE and Linux containers](/assets/img/posts/2025/04/proxmox_website_hosting_dark.png){: .align-center .dark}
 
 All traffic that hits the public IP address is forwarded to the IP address of the edge LXC. This LXC runs:
 

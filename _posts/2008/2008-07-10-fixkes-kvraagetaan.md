@@ -59,3 +59,5 @@ Ik stop ermee wa is men schaai
 Het was zo simpel ammaal  
 Zo simpel ammaal  
 Zo simpel as ik vraag het aan
+
+{% include embed/youtube.html id='jyJ6BmkS694' %}

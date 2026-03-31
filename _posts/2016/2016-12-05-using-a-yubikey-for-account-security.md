@@ -32,6 +32,5 @@ Also, If you're not using 2 factor authentication yet, I urge you to start using
 
 &nbsp;
 
-[^ia1]: Internet Archive snapshot. Original URL: https://developers.yubico.com/yubioath-desktop/ <!-- markdownlint-disable-line MD034 -->
-
 [^ia2]: Internet Archive snapshot. Original URL: https://www.yubico.com/about/background/fido/ <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: https://developers.yubico.com/yubioath-desktop/ <!-- markdownlint-disable-line MD034 -->

@@ -76,3 +76,5 @@ It's your life!
 [Fear] Your ways cannot be justified
 
 (Chorus 2 - Pride)
+
+{% include embed/youtube.html id='TSKtHnt8lKI' %}

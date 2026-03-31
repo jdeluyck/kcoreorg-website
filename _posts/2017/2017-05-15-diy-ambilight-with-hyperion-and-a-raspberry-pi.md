@@ -15,7 +15,7 @@ I found [this tutorial](http://awesomepi.com/diy-breath-taking-ambilight-for-you
 
 After attaching it to the back of the TV (with tape, to test), this is what you get:
 
-![Lights](/assets/img/posts/2017/05/IMG_20170501_144742-1024x526.jpg)
+![Lights](/assets/img/posts/2017/05/IMG_20170501_144742.jpg)
 
 To make it work for any HDMI input, I can refer you to [this tutorial](https://web.archive.org/web/20160120230635/http://www.instructables.com:80/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/?)[^ia1]. It consists of using an HDMI splitter, convertor to AV, and an AV to USB convertor. This signal is piped into the Pi, where Hyperion can do it's magic with it.
 

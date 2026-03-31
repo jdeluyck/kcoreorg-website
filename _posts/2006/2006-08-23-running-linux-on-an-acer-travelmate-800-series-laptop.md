@@ -400,7 +400,6 @@ Debian users can install the [xfree86-driver-synaptics](https://packages.debian.
 * Using S3 - supend to ram: [web.archive.org](http://web.archive.org/web/20060813205451/http://www.doesi.gmxhome.de:80/linux/tm800s3/s3.html)[^ia12]
 * Hotkeys program: [web.archive.org](https://web.archive.org/web/20050404023439/http://ftp.debian.org:80/debian/pool/main/h/hotkeys/)[^ia11]
 
-[^ia1]: Internet Archive snapshot. Original URL: http://www.tuxmobil.com/ <!-- markdownlint-disable-line MD034 -->
 [^ia2]: Internet Archive snapshot. Original URL: https://support.ati.com/ics/support/default.asp?deptID=894 <!-- markdownlint-disable-line MD034 -->
 [^ia3]: Internet Archive snapshot. Original URL: http://xoomer.virgilio.it/flavio.stanchina/debian/fglrx-installer.html <!-- markdownlint-disable-line MD034 -->
 [^ia4]: Internet Archive snapshot. Original URL: http://www.agere.com/ <!-- markdownlint-disable-line MD034 -->
@@ -413,4 +412,5 @@ Debian users can install the [xfree86-driver-synaptics](https://packages.debian.
 [^ia11]: Internet Archive snapshot. Original URL: http://ftp.debian.org/debian/pool/main/h/hotkeys/ <!-- markdownlint-disable-line MD034 -->
 [^ia12]: Internet Archive snapshot. Original URL: http://www.doesi.gmxhome.de/linux/tm800s3/s3.html <!-- markdownlint-disable-line MD034 -->
 [^ia13]: Internet Archive snapshot. Original URL: http://w1.894.telia.com/~u89404340/touchpad/ <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: http://www.tuxmobil.com/ <!-- markdownlint-disable-line MD034 -->
 [^ia14]: Internet Archive snapshot. Original URL: http://gentoo-wiki.com/Gentoo_Acer_Travelmate_803LCi_Manual <!-- markdownlint-disable-line MD034 -->

@@ -12,6 +12,5 @@ Hmmm... In my quest for useless applications to put on a Palm, I've come across 
 
 I love it ;)  
 
-[^upirc-fn]: Internet Archive link, original: http://www.smittyware.com/palm/upirc/ <!-- markdownlint-disable-line MD034 -->
-
 [^ia1]: Internet Archive snapshot. Original URL: http://palmvnc2.free.fr/ <!-- markdownlint-disable-line MD034 -->
+[^upirc-fn]: Internet Archive link, original: http://www.smittyware.com/palm/upirc/ <!-- markdownlint-disable-line MD034 -->

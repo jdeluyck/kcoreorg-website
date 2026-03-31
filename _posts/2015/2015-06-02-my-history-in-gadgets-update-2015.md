@@ -15,7 +15,7 @@ An update on the ["My history in gadgets"](/2012/01/04/my-history-in-gadgets/) p
 
 ### [Motorola E2 (LTE)](https://www.gsmarena.com/motorola_moto_e_(2nd_gen)-6986.php)
 
-![Motorola E2](/assets/img/posts/2015/08/motorola-moto-e-2015-1.jpg "Motorola E2"){: .normal}
+![Motorola E2](/assets/img/posts/2015/08/motorola-moto-e2.png "Motorola E2"){: .normal}
 
 The Desire S I was using for work died (hboot corruption), and was replaced by the Motorola E2 (LTE).
 

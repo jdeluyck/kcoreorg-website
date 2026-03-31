@@ -34,26 +34,26 @@ Spec comparison:
 
 The laptop arrived in a sortof-stylish black Dell box, unfortunately taped over with all kinds of deliver stickers. Oh well.
 
-![Box](/assets/img/posts/2013/04/2013-03-18-18.01.14-1024x611.jpg)  
+![Box](/assets/img/posts/2013/04/2013-03-18-18.01.14.jpg)  
 The box it was shipped in
 
 Inside you can see the box for the power cord, and the box with the actual laptop. Nicely packaged, pluspoints here, Dell ;)
 
-![Packaging](/assets/img/posts/2013/04/2013-03-18-18.01.51-1024x768.jpg)  
+![Packaging](/assets/img/posts/2013/04/2013-03-18-18.01.51.jpg)  
 Nicely packaged
 
-![Inside box](/assets/img/posts/2013/04/2013-03-18-18.02.45-1024x670.jpg)  
+![Inside box](/assets/img/posts/2013/04/2013-03-18-18.02.45.jpg)  
 Fancy Dell box containing the actual laptop
 
-![Laptop](/assets/img/posts/2013/04/2013-03-18-18.03.03-1024x1013.jpg)  
+![Laptop](/assets/img/posts/2013/04/2013-03-18-18.03.03.jpg)  
 The actual laptop. Wrapped in plastic, protected with foam
 
-![Unboxing complete](/assets/img/posts/2013/04/2013-03-18-18.06.17-1024x917.jpg)  
+![Unboxing complete](/assets/img/posts/2013/04/2013-03-18-18.06.17.jpg)  
 All unpacked and ready to rock!
 
 It's also a bit smaller than my old Macbook, although they're both rated as being 13" laptops.
 
-![Size difference with macbook 2.1](/assets/img/posts/2013/04/2013-03-18-18.12.45-1024x788.jpg)  
+![Size difference with macbook 2.1](/assets/img/posts/2013/04/2013-03-18-18.12.45.jpg)  
 Dell XPS13 on top of my Macbook 2.1. Bit smaller. A lot lighter.
 
 Unfortunately, the laptop I got shipped originally had some issues: plenty of [backlight bleeding](https://www.pchardwarehelp.com/guides/backlight-bleeding.php),
@@ -104,17 +104,18 @@ and check for the latest kernel release, right now that is linux-image-3.8-trunk
 
 Now, to fix some of the issues I've encountered:
 
-**Non-functional wifi**  
+## Issues
+### Non-functional wifi
 On another laptop (or in Windows), download the [firmware-iwlwifi](https://packages.debian.org/search?keywords=firmware-iwlwifi) package.
 Install it - a reboot later you should be able to configure the wireless interface. You might also need [wpasupplicant](https://packages.debian.org/search?keywords=wpasupplicant)
 if you use encryption on your network. (I'm lazy, so I downloaded all the packages needed for [wicd](https://packages.debian.org/search?keywords=wicd) and configured stuff that way.)
 
-**Laptop wakes from suspend out of the blue**  
+### Laptop wakes from suspend out of the blue
 I've encountered a few times that the machine came out of suspend without any trigger from me - highly annoying (and dangerous,
 should this happen while the machine is in a backpack and start to heat up). I've found this [Bug report on Launchpad](https://bugs.launchpad.net/dell-sputnik/+bug/1161962)
 about it. The fix seems to be to disable "Smart Connect" in the BIOS. I've tried it here, seems to work.
 
-**Touchpad isn't recognized as a touchpad**  
+### Touchpad isn't recognized as a touchpad
 The patches to support the touchpad are on route to be included in [kernel 3.9](https://www.kernel.org/), but (at the time of writing)
 that one hasn't been released yet. So we need to take the latest kernel available in Debian Experimental (3.8.5) and patch this with the driver.
 Luckely Debian has [The Linux Kernel Handbook](https://kernel-team.pages.debian.net/kernel-handbook/) which explains how to do all this the proper Debian way ;)
@@ -129,7 +130,7 @@ Now go eat a pizza, make some coffee, solve a [theorem](https://en.wikipedia.org
 you'll have another shiny kernel in /usr/src, which you can install with `dpkg -i linux-image-3.8-trunk-amd64_3.8.5-1~experimental.1a~test_amd64.deb`
 And [Bob's your uncle](https://en.wikipedia.org/wiki/Bob's_your_uncle).
 
-**Brightness level doesn't stick after a suspend/resume**  
+### Brightness level doesn't stick after a suspend/resume
 For this I made a custom suspend-resume hook for pm-utils. Add the following script as /etc/pm.d/sleep.d/00backlight
 
 ```bash
@@ -163,7 +164,7 @@ This script will read the backlight brightness level upon suspend, and store it 
 
 The [permanent fix](https://patchwork.kernel.org/patch/2102971/) is also scheduled for kernel 3.9.
 
-**Unreadable (way too tiny) fonts in applications**  
+### Unreadable (way too tiny) fonts in applications
 This is actually a drawback from having a high-resolution screen: a lot fits on it, but the fonts are tiny.  
 I had the issue mostly in [Opera](https://www.opera.com/), [IceDove](https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project)
 (a rebranded Thunderbird) and [XTerm](https://en.wikipedia.org/wiki/Xterm), my X Terminal of choice.

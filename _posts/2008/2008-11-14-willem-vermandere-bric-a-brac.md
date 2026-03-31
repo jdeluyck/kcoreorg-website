@@ -59,3 +59,5 @@ dit is geen verhaal, ‘t is bric à brac
 niet het scheiden, ‘t is ‘t vaarwel  
 niet van buiten, ‘t is intern  
 niet de voorkant, ‘t is de kern...
+
+{% include embed/youtube.html id='nKvFNuJUw9s' %}

@@ -7,7 +7,7 @@ tags:
   - stable
 ---
 
-![Debian](/assets/img/posts/2011/02/debian_logo.png)
+![Debian](/assets/img/posts/2013/05/debian-openlogo.svg){: .normal }
 
 [Debian](https://www.debian.org) Lenny got [released today](https://chronicles.debian.org/www/News/2009/20090214). Yay! :)
 

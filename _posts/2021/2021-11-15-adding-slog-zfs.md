@@ -22,11 +22,13 @@ To solve the problem of slow sync writes, you can implement what is known as a S
 
 ZFS writes without SLOG:
 
-![sync write without slog](/assets/img/posts/2021/12/zfs-sync-write-no-slog.png)
+![sync write without slog](/assets/img/posts/2021/12/zfs-sync-write-no-slog.png){: .light }
+![sync write without slog](/assets/img/posts/2021/12/zfs-sync-write-no-slog-dark.png){: .dark }
 
 ZFS writes with SLOG:
 
-![sync write without slog](/assets/img/posts/2021/12/zfs-sync-write-slog.png)
+![sync write with slog](/assets/img/posts/2021/12/zfs-sync-write-slog.png){: .light }
+![sync write with slog](/assets/img/posts/2021/12/zfs-sync-write-slog-dark.png){: .dark }
 
 Typically (always?) a SLOG device will be some sort of [flash memory](https://en.wikipedia.org/wiki/Flash_memory), or [Intel Optane](https://en.wikipedia.org/wiki/3D_XPoint).
 

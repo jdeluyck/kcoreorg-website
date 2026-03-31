@@ -8,7 +8,8 @@ tags:
   - root
 ---
 
-**Note: This is at your own risk. If you fry your phone, your problem, not mine.**
+> Note: This is at your own risk. If you fry your phone, your problem, not mine.
+{: .prompt-warning }
 
 I recently got an [HTC](https://www.htc.com/) [Hero](https://en.wikipedia.org/wiki/HTC_Hero). Great phone, I'm loving the [Android](https://www.android.com/) platform. Pity that you don't have full access to it, and I actually wanted to merge my old phone (Nokia E65)'s SMS database into this one, so I needed full access.
 
@@ -16,13 +17,13 @@ I recently got an [HTC](https://www.htc.com/) [Hero](https://en.wikipedia.org/wi
 
 After some twiddling and reading on the [XDA Developers Forum](https://xdaforums.com/), I came up with this recipe:
 
-**Downloads needed:**
+## Downloads needed
 
 * asroot2.zip (current root exploid for Android, works on HTC Hero): [http://forum.xda-developers.com/attachment.php?attachmentid=244212&d=1257621154](http://forum.xda-developers.com/attachment.php?attachmentid=244212&d=1257621154)
 * Superuser.zip (for the su binary and the Superuser.apk): [http://forum.xda-developers.com/attachment.php?attachmentid=211569&d=1249225060](http://forum.xda-developers.com/attachment.php?attachmentid=211569&d=1249225060)
 * Android SDK (for the HTC Hero, it's the 1.5 platform): [web.archive.org](https://web.archive.org/web/20090430101121/http://developer.android.com:80/sdk/android-1.5.html)[^ia2]
 
-**Howto:**
+## Howto
 
 * Download the Android SDK, and install/extract it somewhere. I'm using Linux and put it under /home/<user>/android/
 * Download asroot2.zip, superuser.zip, and extract them in a directory of your choice. For instance, /tmp.

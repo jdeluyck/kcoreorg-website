@@ -38,6 +38,5 @@ which isn't very healthy :(
 
 The disk is packed up and ready to be shipped back to the store...
 
-[^ia1]: Internet Archive snapshot. Original URL: http://www.raidsonic.de/en/pages/products/external_cases.php?we_objectID=5052 <!-- markdownlint-disable-line MD034 -->
-
 [^ia2]: Internet Archive snapshot. Original URL: http://www.raidsonic.de <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: http://www.raidsonic.de/en/pages/products/external_cases.php?we_objectID=5052 <!-- markdownlint-disable-line MD034 -->

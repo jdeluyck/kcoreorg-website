@@ -42,7 +42,7 @@ This I got as a gift, from my father. Used it a lot, but outgrew it rather quick
 
 ### [Psion Series 3c](https://en.wikipedia.org/wiki/Psion_Series_3c)
 
-![Psion 3c](/assets/img/posts/2012/01/Psion_3c_open_17o06-300x258.jpg "Psion 3c"){: .normal}
+![Psion 3c](/assets/img/posts/2012/01/Psion_3c_open_17o06.jpg "Psion 3c"){: .normal}
 
 I've used this device though the majority of my school years, as a note-taker, game device, development device (I actually wrote code on that thing...). Used to also have several Flash SSD's for it.
 
@@ -60,13 +60,13 @@ This I got from a coworker, who didn't use it anymore since it no longer charged
 
 ### [Palm Tungsten T3](https://en.wikipedia.org/wiki/Tungsten_T3#Tungsten_T3)
 
-![Palm Tungsten T3](/assets/img/posts/2012/01/palm-t3-249x300.jpg "Palm Tungsten T3"){: .normal}
+![Palm Tungsten T3](/assets/img/posts/2012/01/palm-t3.jpg "Palm Tungsten T3"){: .normal}
 
 As an upgrade for the m500, I got myself the T3. Quite a powerful machine for the time.
 
 ### [Palm T|X](https://en.wikipedia.org/wiki/Palm_TX)
 
-![Palm T\|X](/assets/img/posts/2012/01/tx_1.png "Palm T\|X"){: .normal}
+![Palm T\|X](/assets/img/posts/2006/06/tx_1.png "Palm T\|X"){: .normal}
 
 This was the last Palm device I owned, which I sold some years back.
 

@@ -97,7 +97,8 @@ Traefik is (surprise!) also running as a Docker container using the [official im
 
 ### Docker socket file
 
-Please don't give Traefik read/write access to your docker socket file! It just needs to be able to read it, nothing more, so do add `:ro` in your volume spec.
+> Please don't give Traefik read/write access to your docker socket file! It just needs to be able to read it, nothing more, so do add `:ro` in your volume spec.
+{: .prompt-warning }
 
 ### CA Certificate
 

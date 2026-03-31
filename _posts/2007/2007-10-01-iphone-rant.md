@@ -30,5 +30,5 @@ If you wanted to tinker with it, buy a phone with a platform that is open.
 
 EDIT: I've stumbled over [this blog entry](https://web.archive.org/web/20071011001108/http://diveintomark.org:80/archives/2007/10/04/if-wishes-were-iphones)[^ia1] which makes the point nicely.
 
-[^ia1]: Internet Archive snapshot. Original URL: http://diveintomark.org/archives/2007/10/04/if-wishes-were-iphones <!-- markdownlint-disable-line MD034 -->
 [^ia2]: Internet Archive snapshot. Original URL: http://iphone.fiveforty.net/wiki/index.php/Main_Page <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: http://diveintomark.org/archives/2007/10/04/if-wishes-were-iphones <!-- markdownlint-disable-line MD034 -->

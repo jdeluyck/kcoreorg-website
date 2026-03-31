@@ -224,7 +224,6 @@ Debian users can install the [xserver-xorg-input-synaptics](https://packages.deb
 * Linux USB Video Class driver for iSight: [http://linux-uvc.berlios.de/](http://www.ideasonboard.org/uvc/)
 * Userspace VESA framebuffer: [docs.kernel.org](https://docs.kernel.org/fb/uvesafb.html)
 
-[^ia1]: Internet Archive snapshot. Original URL: http://w1.894.telia.com/~u89404340/touchpad/ <!-- markdownlint-disable-line MD034 -->
-
 [^ia2]: Internet Archive snapshot. Original URL: http://www.madingley.org/macmini/kernel/appleir-v1.1.c <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: http://w1.894.telia.com/~u89404340/touchpad/ <!-- markdownlint-disable-line MD034 -->
 [^ia3]: Internet Archive snapshot. Original URL: http://www.tuxmobil.org/ <!-- markdownlint-disable-line MD034 -->

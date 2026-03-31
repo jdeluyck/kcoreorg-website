@@ -13,7 +13,7 @@ tags:
 
 On the 26th of december we're giving our annual christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.
 
-[![Arte Musicale Christmasconcert - Priase](/assets/img/posts/2012/11/priase.png "Arte Musicale Christmasconcert - Priase")](/assets/img/posts/2012/11/priase.png)
+[![Arte Musicale Christmasconcert - Priase](/assets/img/posts/2012/11/praise.png "Arte Musicale Christmasconcert - Praise")](/assets/img/posts/2012/11/priase.png)
 
 Here's a handy google maps thingy to help you find us :)  
 

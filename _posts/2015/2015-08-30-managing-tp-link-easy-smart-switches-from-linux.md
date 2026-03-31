@@ -27,7 +27,7 @@ Unfortunately, it doesn't work out of the box. The tool doesn't find any devices
 Checking with netstat, the tool bound itself on UDP port 29809, on the local ip address.
 
 ```bash
-$ PID=$(pgrep -f "java -jar Easy Smart Configuration Utility.jar"); netstat -lnput | grep -e Proto -e $PID
+PID=$(pgrep -f "java -jar Easy Smart Configuration Utility.jar"); netstat -lnput | grep -e Proto -e $PID
 
 Proto  Recv-Q  Send-Q  Local Address            Foreign Address  State  PID/Program name 
 udp6   0       0       [your ip address]:29809  :::*                    28529/java

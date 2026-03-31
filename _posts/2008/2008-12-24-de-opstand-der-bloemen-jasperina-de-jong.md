@@ -56,3 +56,5 @@ Ons welzijn benadeelt ons leefklimaat schaadt
 Enkel natuurlijk mest is gezond  
 Mest van de koe of desnoods uit uw kont  
 Mijnheer de Bondt, mevrouw de Bondt
+
+{% include embed/youtube.html id='Mtq4h1fMhHE' %}

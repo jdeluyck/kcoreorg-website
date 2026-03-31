@@ -17,9 +17,7 @@ move to something else to fill my routing/firewalling needs.
 
 Ubiquiti actually has a lot of other products in the UniFi range:
 
-* the [UniFi Dream Machine](https://eu.store.ui.com/eu/en/products/udm),
-
-  which integrates too many functions into one device
+* the [UniFi Dream Machine](https://eu.store.ui.com/eu/en/products/udm), which integrates too many functions into one device
 
 * The [UniFi UXG](https://community.ui.com/questions/Introducing-the-UniFi-Next-Gen-Gateway-Product-Line-Starting-with-UXG-Pro-/732dd4dd-10bf-463c-8622-382d77702872),
 in early access, and no non-rack version available

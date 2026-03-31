@@ -15,7 +15,7 @@ An update on the "[My history in gadgets](/2012/01/04/my-history-in-gadgets/)", 
 
 ### [OnePlus 3](https://www.gsmarena.com/oneplus_3-7995.php)
 
-![OnePlus 3](/assets/img/posts/2016/06/oneplus-3-3.jpg "OnePlus 3"){: .normal}
+![OnePlus 3](/assets/img/posts/2016/06/oneplus-3.png "OnePlus 3"){: .normal}
 
 I've retired the LG Nexus 5 (sold) and the Motorola E2 (LTE) (for now kept as a backup phone), and replaced them with the OnePlus 3.
 

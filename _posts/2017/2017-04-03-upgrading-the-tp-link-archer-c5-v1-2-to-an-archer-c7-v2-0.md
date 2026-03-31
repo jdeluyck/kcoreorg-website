@@ -45,7 +45,6 @@ Afterwards you can either upgrade to the latest C7 firmware, or whichever 3rd pa
 
 Initial testing showed an improvement in WiFi throughput speeds - so I'm happy with my 'new' C7 :)
 
-[^ia1]: Internet Archive snapshot. Original URL: http://thesen.eu/files/tplink_mod.bin <!-- markdownlint-disable-line MD034 -->
 [^ia2]: Internet Archive snapshot. Original URL: http://www.hagensieker.com/archerc5toc7/index.php <!-- markdownlint-disable-line MD034 -->
-
 [^ia3]: Internet Archive snapshot. Original URL: https://lede-project.org <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: http://thesen.eu/files/tplink_mod.bin <!-- markdownlint-disable-line MD034 -->

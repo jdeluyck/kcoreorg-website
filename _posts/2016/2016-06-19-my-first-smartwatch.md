@@ -11,12 +11,13 @@ tags:
 ---
 
 Something like this, perhaps...
-![A picture of a 'smartwatch'](/assets/img/posts/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg){: .left }
+
+![A picture of a 'smartwatch'](/assets/img/posts/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg){: .normal }
 
 Nononono, definitely not. Neither an Apple product. My first foray into [wearables](https://en.wikipedia.org/wiki/Wearable_technology)
 of the [smartwatch](https://en.wikipedia.org/wiki/Smartwatch) type is a [Pebble](https://en.wikipedia.org/wiki/Pebble_(watch)) [Time](https://en.wikipedia.org/wiki/Pebble_Time#Features).
 
-![PBTime](/assets/img/posts/2016/06/PBTime-300x169.png "PBTime")
+![PBTime](/assets/img/posts/2016/06/PBTime-300x169.png "PBTime"){: .normal }
 
 I'd been looking at smartwatches ever since the original [Pebble Kickstarter](https://www.kickstarter.com/projects/597507018/pebble-e-paper-watch-for-iphone-and-android) got launched.
 I honestly found the watch ugly as _\*beep\*_, so I wasn't going for that one. After a while
@@ -36,7 +37,7 @@ Bring around 2015, and Pebble got round to launching the [Pebble Time (Steel) Ki
 
 In the beginning of 2016, iBood had a sale of Pebble Time watches, at a pricepoint I could get round. So I ordered one (in black).
 
-![mypebble](/assets/img/posts/2016/06/mypebble-300x300.jpg "mypebble")
+![mypebble](/assets/img/posts/2016/06/mypebble-300x300.jpg "mypebble"){: .normal }
 
 First thing I did was stick a [bezel](https://www.gadgetwraps.com/products/pebble-time-matte-clear-bezel-skin) and
 [screen](https://www.gadgetwraps.com/products/pebble-time-clear-screen-protector-2-pack) protector from [GadgetWraps](https://www.gadgetwraps.com/) on it, as I had read everywhere that the thing is very easy to damage. (you have _no idea_ how weird it feels to dunk a technologically advanced device in water - check the installation videos). After that I put it on, installed the [Pebble app](http://web.archive.org/web/20160706162004/https://play.google.com/store/apps/details?id=com.getpebble.android.basalt)[^ia2] and started tinkering away...
@@ -89,6 +90,5 @@ WatchFaces:
 
 But there are so many more to explore.
 
-[^ia1]: Internet Archive snapshot. Original URL: http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309 <!-- markdownlint-disable-line MD034 -->
-
 [^ia2]: Internet Archive snapshot. Original URL: https://play.google.com/store/apps/details?id=com.getpebble.android.basalt&hl=en <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309 <!-- markdownlint-disable-line MD034 -->

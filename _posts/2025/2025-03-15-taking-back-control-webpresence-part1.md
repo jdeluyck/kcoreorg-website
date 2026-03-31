@@ -141,7 +141,8 @@ The final hurdle I bumped into was that for some obscure reason, my Traefik cont
 
 The architecture I had in mind was:
 
-![Architecture of my containerised web hosting setup, running on top of openSUSE MicroOS](/assets/img/posts/2025/03/container_website_hosting.png){: .align-center}
+![Architecture of my containerised web hosting setup, running on top of openSUSE MicroOS](/assets/img/posts/2025/03/container_website_hosting.png){: .align-center .light}
+![Architecture of my containerised web hosting setup, running on top of openSUSE MicroOS](/assets/img/posts/2025/03/container_website_hosting_dark.png){: .align-center .dark}
 
 The outer (edge) layer would be comprised of:
 

@@ -7,7 +7,8 @@ tags:
   - stable
 ---
 
-![Debian](https://www.debian.org/logos/openlogo-nd-100.png)  
+![Debian](/assets/img/posts/2013/05/debian-openlogo.svg){: .normal }
+
 [Debian](https://www.debian.org) Wheezy has been [released today](https://chronicles.debian.org/www/News/2013/20130504).
 
 This release brings tons of new features, amongst which are multiarch support, several specific tools to deploy private clouds, an improved installer, and a complete set of multimedia codecs and front-ends which remove the need for third-party repositories.

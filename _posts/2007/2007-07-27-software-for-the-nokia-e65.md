@@ -41,19 +41,18 @@ And ofcourse, some games:
 * Snakes 3D
 * [S-Tris 2](https://web.archive.org/web/20061008224235/http://www.elementsgames.com:80/stris2/)[^ia5]
 
+[^ia15]: Internet Archive snapshot. Original URL: http://www.nokia.com/A4568203 <!-- markdownlint-disable-line MD034 -->
 [^ia1]: Internet Archive snapshot. Original URL: http://www.nokia.com/A4596393 <!-- markdownlint-disable-line MD034 -->
 [^ia2]: Internet Archive snapshot. Original URL: http://www.google.com/mobile/mail/index.html <!-- markdownlint-disable-line MD034 -->
-[^ia3]: Internet Archive snapshot. Original URL: http://www.opera.com/products/mobile/products/s60/ <!-- markdownlint-disable-line MD034 -->
-[^ia4]: Internet Archive snapshot. Original URL: http://fb-s60.sourceforge.net/ <!-- markdownlint-disable-line MD034 -->
-[^ia5]: Internet Archive snapshot. Original URL: http://www.elementsgames.com/stris2/ <!-- markdownlint-disable-line MD034 -->
 [^ia6]: Internet Archive snapshot. Original URL: http://www.google.com/gmm/index.html <!-- markdownlint-disable-line MD034 -->
 [^ia7]: Internet Archive snapshot. Original URL: http://nokia-e61-software.epocware.com/Handy_Alarm.html <!-- markdownlint-disable-line MD034 -->
 [^ia8]: Internet Archive snapshot. Original URL: http://nokia-e61-software.epocware.com/Handy_Keylock.html <!-- markdownlint-disable-line MD034 -->
 [^ia9]: Internet Archive snapshot. Original URL: http://nokia-e61-software.epocware.com/Handy_Profiles.html <!-- markdownlint-disable-line MD034 -->
 [^ia10]: Internet Archive snapshot. Original URL: http://nokia-e61-software.epocware.com/Handy_Taskman.html <!-- markdownlint-disable-line MD034 -->
 [^ia11]: Internet Archive snapshot. Original URL: http://www.businesssoftware.nokia.com/mail_for_exchange_downloads.php <!-- markdownlint-disable-line MD034 -->
+[^ia3]: Internet Archive snapshot. Original URL: http://www.opera.com/products/mobile/products/s60/ <!-- markdownlint-disable-line MD034 -->
 [^ia12]: Internet Archive snapshot. Original URL: http://mind-flip.com/textquick/index.html <!-- markdownlint-disable-line MD034 -->
 [^ia13]: Internet Archive snapshot. Original URL: http://www.drjukka.com/YBrowser.html <!-- markdownlint-disable-line MD034 -->
 [^ia14]: Internet Archive snapshot. Original URL: http://nokia-e61-software.epocware.com/Handy_Essentials.html <!-- markdownlint-disable-line MD034 -->
-
-[^ia15]: Internet Archive snapshot. Original URL: http://www.nokia.com/A4568203 <!-- markdownlint-disable-line MD034 -->
+[^ia4]: Internet Archive snapshot. Original URL: http://fb-s60.sourceforge.net/ <!-- markdownlint-disable-line MD034 -->
+[^ia5]: Internet Archive snapshot. Original URL: http://www.elementsgames.com/stris2/ <!-- markdownlint-disable-line MD034 -->

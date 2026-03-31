@@ -30,15 +30,15 @@ The pam configuration is added by default on fedora if you have the `pam-kwallet
 There are a few methods of autostarting things in KDE:
 
 * Applications: to select using the GUI
-* pre-startup scripts: those you put in `$HOME/.config/plasma-workspace/env`
-* logout scripts: those you put in `$HOME/.config/plasma-workspace/shutdown`
+* pre-startup scripts: those you put in `$HOME/.config/plasma-workspace/env`{: .filepath}
+* logout scripts: those you put in `$HOME/.config/plasma-workspace/shutdown`{: .filepath}
 * login scripts: to select using the GUI
 
 More info in the [KDE Userbase Startup and Shutdown](https://userbase.kde.org/System_Settings/Startup_and_Shutdown) page.
 
 ### Starting ssh-agent at KDE start
 
-Add the following to `$HOME/.config/plasma-workspace/env/ssh-agent-startup.sh`
+Add the following to `$HOME/.config/plasma-workspace/env/ssh-agent-startup.sh`{: .filepath}
 
 ```bash
 #!/bin/bash
@@ -54,7 +54,7 @@ fi
 
 ### Killing ssh-agent at KDE shutdown
 
-Add this to `$HOME/.config/plasma-workspace/shutdown/ssh-agent-shutdown.sh`
+Add this to `$HOME/.config/plasma-workspace/shutdown/ssh-agent-shutdown.sh`{: .filepath}
 
 ```bash
 #!/bin/sh

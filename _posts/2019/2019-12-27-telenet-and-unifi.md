@@ -10,12 +10,13 @@ tags:
 
 Some months back a friend of mine wanted to switch over to the [Unifi](https://ui.com/) platform (which I've been using now for about a year), and get it to play nice with his [Telenet ISP](https://telenet.be) setup aswell.
 
-![Network diagram](/assets/img/posts/2019/12/unifi-telenet-diagram.png)
+![Network diagram](/assets/img/posts/2019/12/unifi-telenet-diagram.png){: .light }
+![Network diagram](/assets/img/posts/2019/12/unifi-telenet-diagram-dark.png){: .dark }
 
 This means:
 
 * Getting WAN IP addresses to the [Telenet Digicorders](https://www2.telenet.be/residential/nl/klantenservice/tv-en-entertainment/kijken-via-decoder-of-kaartje/telenet-decoders:-technische-specificaties)
-* Getting a WAN IP to his [Unifi Secure Gateway](https://www.ui.com/unifi-routing/usg/)
+* Getting a WAN IP to his [Unifi Secure Gateway](https://dl.ubnt.com/datasheets/unifi/UniFi_Security_Gateway_DS.pdf)
 * Making the USG the DHCP server (and everything else) for the rest of the network
 * Making sure all the traffic from the LAN remains isolated from the WAN
 

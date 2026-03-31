@@ -42,3 +42,5 @@ All of my memories keep you near.
 Your silent whispers, silent tears.
 
 All my memories...
+
+{% include embed/youtube.html id='gsQIOgkZt68' %}

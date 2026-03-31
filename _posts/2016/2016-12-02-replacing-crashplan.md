@@ -56,5 +56,5 @@ fusermount -u /<mountpoint>
 
 I've uploaded the script to my [scripts repository](https://codeberg.org/jdeluyck/scripts) on [Codeberg](https://codeberg.org).
 
-[^ia1]: Internet Archive snapshot. Original URL: https://www.code42.com/ <!-- markdownlint-disable-line MD034 -->
 [^ia2]: Internet Archive snapshot. Original URL: https://www.crashplan.com/en-us/ <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: https://www.code42.com/ <!-- markdownlint-disable-line MD034 -->

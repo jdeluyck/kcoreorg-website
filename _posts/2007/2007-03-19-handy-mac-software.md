@@ -59,17 +59,17 @@ Widgets:
 
 If I find more, I'll list them here ;)
 
-[^ia1]: Internet Archive snapshot. Original URL: http://www.microsoft.com/mac/otherproducts/otherproducts.aspx?pid=remotedesktopclient <!-- markdownlint-disable-line MD034 -->
-[^ia2]: Internet Archive snapshot. Original URL: http://www.apple.com/downloads/macosx/productivity_tools/sidenote.html <!-- markdownlint-disable-line MD034 -->
-[^ia3]: Internet Archive snapshot. Original URL: http://www.roxio.com/enu/products/toast/titanium/overview.html <!-- markdownlint-disable-line MD034 -->
-[^ia4]: Internet Archive snapshot. Original URL: http://macupdate.com/info.php/id/16425 <!-- markdownlint-disable-line MD034 -->
-[^ia5]: Internet Archive snapshot. Original URL: http://www.apple.com/downloads/dashboard/status/istatpro.html <!-- markdownlint-disable-line MD034 -->
 [^ia6]: Internet Archive snapshot. Original URL: http://www.adiumx.com/ <!-- markdownlint-disable-line MD034 -->
 [^ia7]: Internet Archive snapshot. Original URL: http://unsanity.com/haxies/cleardock <!-- markdownlint-disable-line MD034 -->
 [^ia8]: Internet Archive snapshot. Original URL: http://kismac.de <!-- markdownlint-disable-line MD034 -->
 [^ia9]: Internet Archive snapshot. Original URL: http://www.titanium.free.fr/pgs2/english/onyx.html <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: http://www.microsoft.com/mac/otherproducts/otherproducts.aspx?pid=remotedesktopclient <!-- markdownlint-disable-line MD034 -->
 [^ia10]: Internet Archive snapshot. Original URL: http://www.conscius.de/~eidac/index.html <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: http://www.apple.com/downloads/macosx/productivity_tools/sidenote.html <!-- markdownlint-disable-line MD034 -->
 [^ia11]: Internet Archive snapshot. Original URL: http://www.stuffit.com/mac/expander/index.html <!-- markdownlint-disable-line MD034 -->
 [^ia12]: Internet Archive snapshot. Original URL: http://www.unrarx.com/ <!-- markdownlint-disable-line MD034 -->
+[^ia3]: Internet Archive snapshot. Original URL: http://www.roxio.com/enu/products/toast/titanium/overview.html <!-- markdownlint-disable-line MD034 -->
 [^ia13]: Internet Archive snapshot. Original URL: http://www.flip4mac.com/wmv.htm <!-- markdownlint-disable-line MD034 -->
+[^ia4]: Internet Archive snapshot. Original URL: http://macupdate.com/info.php/id/16425 <!-- markdownlint-disable-line MD034 -->
 [^ia14]: Internet Archive snapshot. Original URL: http://www.dashboardwidgets.com/showcase/details.php?wid=1510 <!-- markdownlint-disable-line MD034 -->
+[^ia5]: Internet Archive snapshot. Original URL: http://www.apple.com/downloads/dashboard/status/istatpro.html <!-- markdownlint-disable-line MD034 -->

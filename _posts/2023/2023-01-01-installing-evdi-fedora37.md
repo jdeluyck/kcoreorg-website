@@ -42,8 +42,8 @@ Next, to get the displaylink driver:
 
 * download the official Ubuntu driver from [https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu](https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu) somewhere. `/tmp`{: .filepath} for instance.
 * install it:
-
-  **Before executing `displaylink-installer.sh` you should review that it does not do anything nefarious!**
+  > Before executing `displaylink-installer.sh` you should review that it does not do anything nefarious! 
+  {: .prompt-warning }
 
   ```shell
   unzip DisplayLink\ USB\ Graphics\ Software\ for\ Ubuntu5.6.1-EXE.zip

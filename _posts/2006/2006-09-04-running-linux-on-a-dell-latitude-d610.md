@@ -356,8 +356,8 @@ What we basically do is `echo 0x80000001 > /proc/acpi/video/VID/LCD/state`, whic
 * Linuxant: [www.linuxant.com](https://www.linuxant.com/company/)
 
 [^ia1]: Internet Archive snapshot. Original URL: http://www.geocities.com/stomljen/ <!-- markdownlint-disable-line MD034 -->
-[^ia2]: Internet Archive snapshot. Original URL: http://www.tuxmobil.com/ <!-- markdownlint-disable-line MD034 -->
 [^ia3]: Internet Archive snapshot. Original URL: http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html <!-- markdownlint-disable-line MD034 -->
 [^ia4]: Internet Archive snapshot. Original URL: http://ftp.debian.org/debian/pool/main/h/hotkeys/ <!-- markdownlint-disable-line MD034 -->
 [^ia5]: Internet Archive snapshot. Original URL: http://tpctl.sourceforge.net/tmp/sata_pm.2.6.15-rc6.patch <!-- markdownlint-disable-line MD034 -->
 [^ia6]: Internet Archive snapshot. Original URL: http://w1.894.telia.com/~u89404340/touchpad/ <!-- markdownlint-disable-line MD034 -->
+[^ia2]: Internet Archive snapshot. Original URL: http://www.tuxmobil.com/ <!-- markdownlint-disable-line MD034 -->

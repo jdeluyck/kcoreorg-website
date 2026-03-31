@@ -60,3 +60,5 @@ Out in the distance her order was heard
 And the soldier was killed, still waiting for her word  
 And while the queen went on strangeling in the solitude she preferred  
 The battle continued on...
+
+{% include embed/youtube.html id='pcFa9VZxkBc' %}

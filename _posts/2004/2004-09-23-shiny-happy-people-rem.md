@@ -31,3 +31,5 @@ Gold and silver shine
 
 Shiny happy people holding hands  
 Shiny happy people laughing
+
+{% include embed/youtube.html id='YYOKMUTTDdA' %}
