@@ -53,7 +53,7 @@ I actually did the same on the two new 14TB drives, so that any drive contains a
 
 ## Migrating the root filesystem
 
-The SLOG device I picked has a total capacity of 100GB, of at this point 8GB was being used. I opted to [create another mirrored zpool](https://openzfs.github.io/openzfs-docs/man/8/zpool-create.8.htm) on the SSD's for 30GB called `syspool`.
+The SLOG device I picked has a total capacity of 100GB, of at this point 8GB was being used. I opted to [create another mirrored zpool](https://openzfs.github.io/openzfs-docs/man/master/8/zpool-create.8.html) on the SSD's for 30GB called `syspool`.
 
 Once the pool was created, it was just a question of creating a [snapshot](https://openzfs.github.io/openzfs-docs/man/8/zfs-snapshot.8.html) and using `zfs send | zfs receive` on the zfs datasets. Ideally also using `--props` so `zfs send` sends along all properties of the zfs datasets, and `-u` so `zfs receive` doesn't automatically mount the new dataset.
 
@@ -69,7 +69,7 @@ I created a new zpool called `datapool` on a mirror of the two new 14TB drives, 
 
 If you're lazy (like a good IT'er), you might like [Jim Salter](https://jrs-s.net/)'s [sanoid/syncoid](https://github.com/jimsalterjrs/sanoid) tool. This allows for very easy `zfs send | zfs receive`-ing, local or remote.
 
-Once the old pool was empty, I [destroyed the old zpool](https://openzfs.github.io/openzfs-docs/man/8/zpool-destroy.8.htm) *(you did check those backups, right?)*, and added the old drives back as mirrors.
+Once the old pool was empty, I [destroyed the old zpool](https://openzfs.github.io/openzfs-docs/man/master/8/zpool-destroy.8.html) *(you did check those backups, right?)*, and added the old drives back as mirrors.
 
 I ended up with this topology:
 
@@ -107,7 +107,7 @@ Doing things like this had the drawback that while all the space was there, the 
 
 The trick to fix this lies once again with snapshots and `zfs send | zfs receive`. Using this will make zfs read the data and write it back to the pool, spreading the datablocks over all the available disks.
 
-To rebalance, create the snapshot, and send it to a new location on the datapool (using the same parameters as before). Afterwards *(and after checking your data)* you can destroy the old copy, and use [zfs rename](https://openzfs.github.io/openzfs-docs/man/8/zfs-rename.8.htm) to put the dataset in it's old location.
+To rebalance, create the snapshot, and send it to a new location on the datapool (using the same parameters as before). Afterwards *(and after checking your data)* you can destroy the old copy, and use [zfs rename](https://openzfs.github.io/openzfs-docs/man/master/8/zfs-rename.8.html) to put the dataset in it's old location.
 
 ## Final cleaning up
 

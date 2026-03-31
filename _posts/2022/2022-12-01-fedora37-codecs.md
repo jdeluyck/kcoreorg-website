@@ -10,7 +10,7 @@ tags:
   - vc1
 ---
 
-For [legal reasons](https://www.phoronix.com/news/Fedora-Disable-Bad-VA-API) [Fedora 37](https://www.getfedora.org) decided to build [Mesa](https://mesa3d.org/) without support for H.246, H.256 and VC1 VA-API codecs. ([discussion thread](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/PYUYUCM3RGTTN4Q3QZIB4VUQFI77GE5X/))
+For [legal reasons](https://www.phoronix.com/news/Fedora-Disable-Bad-VA-API) [Fedora 37](https://www.fedoraproject.org/) decided to build [Mesa](https://mesa3d.org/) without support for H.246, H.256 and VC1 VA-API codecs. ([discussion thread](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/PYUYUCM3RGTTN4Q3QZIB4VUQFI77GE5X/))
 
 Luckely, installing a build that enables those is fairly easy:
 

@@ -9,7 +9,7 @@ tags:
   - skylake
 ---
 
-The [ASUS](https://www.asus.com/) [UX305UA](https://www.asus.com/us/Notebooks/ASUS-ZenBook-UX305UA/) is an ultrabook with the [Skylake microarchitecture](https://en.wikipedia.org/wiki/Skylake_(microarchitecture)) - the (as of writing) latest iteration in Intel processors. Unfortunately, Skylake support on Linux wasn't really a granted thing the time the device got released. Fortunately it's gotten a lot better of late.
+The [ASUS](https://www.asus.com/) [UX305UA](https://www.asus.com/supportonly/ux305ua/helpdesk_knowledge/) is an ultrabook with the [Skylake microarchitecture](https://en.wikipedia.org/wiki/Skylake_(microarchitecture)) - the (as of writing) latest iteration in Intel processors. Unfortunately, Skylake support on Linux wasn't really a granted thing the time the device got released. Fortunately it's gotten a lot better of late.
 
 After searching and reporting some bugs to the [Debian](https://www.debian.org/) [Bugtracker](https://www.debian.org/Bugs/), nearly everything works out of the box on Debian [Sid](https://www.debian.org/releases/sid/) (unstable), and probably soon on [Stretch](https://www.debian.org/releases/stretch/) (current testing). So if you're installing a new one now, I'd really suggest you go for Sid instead.
 

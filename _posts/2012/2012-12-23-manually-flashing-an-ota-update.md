@@ -19,7 +19,7 @@ Requirements to manually update your phone:
 * The [Android SDK](https://developer.android.com/studio#command-line-tools-only), and all necessary drivers configured if needed (for Windows, this is required, and left as an exercise to the reader)
 * HTC One X, with the correct CID. This goes without saying.
 * [HTCDev.com](http://www.htcdev.com) unlocked bootloader.
-* [Clockworkmod Recovery (Touch)](https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager&hl=en) installed on the phone
+* [Clockworkmod Recovery (Touch)](http://web.archive.org/web/20121230130853/https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager)[^ia1] installed on the phone
 
 >This **will wipe** your phone. Making a backup is **not** optional.
 {: .prompt-warning }
@@ -66,3 +66,5 @@ If you finished restoring the backup, you can now flash the OTA zip on the phone
 After this, you just need to reboot one more time, this time to the ROM itself. Let it finish upgrading all applications, and _tadaa_, your freshly upgraded phone.
 
 _This worked for me, might not work for you. No promises._
+
+[^ia1]: Internet Archive snapshot. Original URL: https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager&hl=en <!-- markdownlint-disable-line MD034 -->

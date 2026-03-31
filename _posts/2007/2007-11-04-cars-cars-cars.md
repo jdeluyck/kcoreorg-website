@@ -19,7 +19,7 @@ Half of my friends tell me to buy a new car (even my dad told me to buy a new on
 
 And what car to buy... I was doubting for a while to go with a [Toyota](https://nl.toyota.be/) [Auris](http://nl.toyota.be/cars/new_cars/auris/index.aspx), but the space when sitting with two is too little, it feels very cheaply built and the engine ain't that (the 1.4 diesel, the 2.0 is too expensive). So I scrapped Toyota, and right now the [Volkswagen](https://www.volkswagen.be/nl.html) [Golf](https://web.archive.org/web/20061211011052/http://be.volkswagen.com:80/vwcms_publish/vwcms/master_public/virtualmaster/be_nl/models/golf/golf_intro.html)[^ia1] ([On-Tour edition](https://web.archive.org/web/20061222023231/http://be.volkswagen.com:80/vwcms_publish/vwcms/master_public/virtualmaster/be_nl/models/golf/golf_intro/offres_speciales/Serie_speciale_Escape.html)[^ia2]) with extras. Very nice car, not cheap (unfortunately).
 
-Tomorrow I'll go and have a look at the [Kia](https://www.kia.com/be/nl/) [Cee'd](https://en.wikipedia.org/wiki/Kia_Ceed#First_generation_(ED;_2006)) and the [Honda](https://www.nl.honda.be/) [Civic Hybrid](https://en.wikipedia.org/wiki/Honda_Civic#Eighth_generation_(2005)).
+Tomorrow I'll go and have a look at the [Kia](https://www.kia.com/be/nl/) [Cee'd](https://en.wikipedia.org/wiki/Kia_Ceed#First_generation_(ED;_2006)) and the [Honda](https://www.fl.honda.be/) [Civic Hybrid](https://en.wikipedia.org/wiki/Honda_Civic#Eighth_generation_(2005)).
 
 So, what do you (dear reader) think?
 

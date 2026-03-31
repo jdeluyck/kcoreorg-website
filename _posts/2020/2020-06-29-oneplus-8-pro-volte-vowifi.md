@@ -12,7 +12,7 @@ tags:
 
 [Orange](https://www.orange.be/), my ISP, supports [VoLTE (Voice over LTE)](https://en.wikipedia.org/wiki/Voice_over_LTE) and
 [VoWiFi (Voice over WiFi)](https://en.wikipedia.org/wiki/Voice_over_WLAN) on a
-[limited set of devices](https://www.orange.be/nl/zelfstandigen/hulp/technische-ondersteuning/mobiele-telefonie/ik-ondervind-netwerkproblemen-buiten-wat-kan-ik).
+[limited set of devices](https://www.asmobility.be/support/ik-ondervind-netwerkproblemen-buiten-wat-kan-ik-eraan-doen/).
 Unfortunately, OnePlus is not one of the manufacturers.
 
 OnePlus _does_ support VoLTE/VoWiFi, on a lot of their devices. So, having found some [tutorials](https://xdaforums.com/t/working-force-enable-volte-vowifi-on-op7-pro.3934227/)

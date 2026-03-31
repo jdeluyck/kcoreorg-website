@@ -9,7 +9,7 @@ tags:
   - rtc
 ---
 
-Yesterday I had some good old fun trying to replace the backup battery of an [Acer](https://www.acer.com) Travelmate 8?03 laptop.
+Yesterday I had some good old fun trying to replace the backup battery of an [Acer](https://www.acer.com/be-nl/) Travelmate 8?03 laptop.
 
 I thought that since this is a part that should be replaceable by the user, it should be reachable (like the memory, harddisk, you know). Guess again !
 

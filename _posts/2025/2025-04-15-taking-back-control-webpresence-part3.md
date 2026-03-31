@@ -177,7 +177,7 @@ Each LXC container runs a copy of [Debian Stable](https://www.debian.org/release
 
 #### Caddy - web requests
 
-While I'm using Traefik on my homelab, I had heard a lot of good about [Caddy](https://caddy.server) and its ease of use. So why not try it out. I wasn't disapointed!
+While I'm using Traefik on my homelab, I had heard a lot of good about [Caddy](https://caddyserver.com/) and its ease of use. So why not try it out. I wasn't disapointed!
 
 Support for [Let's Encrypt](https://letsencrypt.org/) is automatic, adding configuration sections is super easy.
 Per site I deploy I add a file with the reverse proxy definition to the webhost LXC, and the rest is magic.

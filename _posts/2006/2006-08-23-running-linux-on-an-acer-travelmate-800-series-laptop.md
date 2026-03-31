@@ -375,7 +375,7 @@ Debian users can install the [xfree86-driver-synaptics](https://packages.debian.
 
 ## Links
 
-* Acer: [https://www.acer.com](https://www.acer.com/)
+* Acer: [www.acer.com](https://www.acer.com/be-nl/)
 * Centrino: [http://www.intel.com/home/notebook/centrino/index.htm](http://www.intel.com/home/notebook/centrino/index.htm)
 * CPUFreq CVS patches: [ftp://ftp.linux.org.uk/pub/linux/cpufreq/](ftp://ftp.linux.org.uk/pub/linux/cpufreq/)
 * Kernel: [www.kernel.org](https://www.kernel.org/)

@@ -26,7 +26,7 @@ Some of the things I want to move:
 * DNS hosting (Cloudflare)
 * Reverse tunnels ([Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/))
 * Object storage (Backblaze)
-* Random hosted solutions ([UptimeRobot](https://uptimerobot.com/), [Healthchecks](https://healtchecks.io), ...)
+* Random hosted solutions ([UptimeRobot](https://uptimerobot.com/), [Healthchecks](https://healthchecks.io/), ...)
 
 ## VPS Hosting
 

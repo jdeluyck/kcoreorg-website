@@ -8,7 +8,7 @@ tags:
   - linux
 ---
 
-Sade linked me to this nice ebook by [Neil Gaiman](https://www.neilgaiman.com/), [Neverwhere](https://www.harpercollins.com/products/neverwhere-neil-gaiman?variant=32894986584098). Unfortunately, you need [Adobe](https://www.adobe.com/) [Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions.html) for it, which only exists for Windows and Mac. Since she's a Linux user, that one didn't really fly with her.
+Sade linked me to this nice ebook by [Neil Gaiman](https://www.neilgaiman.com/), [Neverwhere](https://www.harpercollins.com/products/neverwhere-neil-gaiman?variant=32894986584098). Unfortunately, you need [Adobe](https://www.adobe.com/be_nl/) [Digital Editions](https://www.adobe.com/uk/solutions/ebook/digital-editions.html) for it, which only exists for Windows and Mac. Since she's a Linux user, that one didn't really fly with her.
 
 So, to get that thing to work, here's a very low-tech way of doing it:
 

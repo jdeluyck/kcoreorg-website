@@ -14,7 +14,7 @@ Something like this, perhaps...
 ![A picture of a 'smartwatch'](/assets/img/posts/2016/06/smw51sVUgmGgKL._AC_UL320_SR306320_-150x150.jpg){: .left }
 
 Nononono, definitely not. Neither an Apple product. My first foray into [wearables](https://en.wikipedia.org/wiki/Wearable_technology)
-of the [smartwatch](https://en.wikipedia.org/wiki/Smartwatch) type is a [Pebble](https://en.wikipedia.org/wiki/Pebble_(watch)) [Time](https://www.pebble.com/pebble-time-smartwatch-features).
+of the [smartwatch](https://en.wikipedia.org/wiki/Smartwatch) type is a [Pebble](https://en.wikipedia.org/wiki/Pebble_(watch)) [Time](https://en.wikipedia.org/wiki/Pebble_Time#Features).
 
 ![PBTime](/assets/img/posts/2016/06/PBTime-300x169.png "PBTime")
 
@@ -39,7 +39,7 @@ In the beginning of 2016, iBood had a sale of Pebble Time watches, at a pricepoi
 ![mypebble](/assets/img/posts/2016/06/mypebble-300x300.jpg "mypebble")
 
 First thing I did was stick a [bezel](https://www.gadgetwraps.com/products/pebble-time-matte-clear-bezel-skin) and
-[screen](https://www.gadgetwraps.com/products/pebble-time-clear-screen-protector-2-pack) protector from [GadgetWraps](https://www.gadgetwraps.com/) on it, as I had read everywhere that the thing is very easy to damage. (you have _no idea_ how weird it feels to dunk a technologically advanced device in water - check the installation videos). After that I put it on, installed the [Pebble app](https://play.google.com/store/apps/details?id=com.getpebble.android.basalt&hl=en) and started tinkering away...
+[screen](https://www.gadgetwraps.com/products/pebble-time-clear-screen-protector-2-pack) protector from [GadgetWraps](https://www.gadgetwraps.com/) on it, as I had read everywhere that the thing is very easy to damage. (you have _no idea_ how weird it feels to dunk a technologically advanced device in water - check the installation videos). After that I put it on, installed the [Pebble app](http://web.archive.org/web/20160706162004/https://play.google.com/store/apps/details?id=com.getpebble.android.basalt)[^ia2] and started tinkering away...
 
 Things I absolutely love about this watch:
 
@@ -50,8 +50,8 @@ Things I absolutely love about this watch:
 * Waterproof up to 30m. I haven't tried this yet, but I'm not really bothering taking it off all the time I come near a water source.
 * Nearly monthly updates. Every month I've gotten new functionality :)
 * Step counter / fitness stuff (if I didn't have a Fitbit, I'd actually use it). First release was gimmicky, but every app update has been better and better.
-* The plethora of [watchfaces](https://apps.getpebble.com/en_US/watchfaces) and [watchapps](https://apps.getpebble.com/en_US/watchapps) you can find for it
-* ([Actionable](https://help.getpebble.com/customer/portal/articles/1819783-android---actionable-notifications)) notifications! This stops me from pulling out my phone and checking what the notification was for. If it's urgent, I'll get the phone if I can't make due with the canned responses. If it's not urgent, I'll ignore it and reply at a later time.  
+* The plethora of [watchfaces](https://apps.repebble.com/en_US/watchfaces) and [watchapps](https://apps.repebble.com/en_US/watchapps) you can find for it
+* ([Actionable](https://pebble-help-legacy.rebble.io/help.getpebble.com/customer/portal/articles/1819783-android---actionable-notifications.html)) notifications! This stops me from pulling out my phone and checking what the notification was for. If it's urgent, I'll get the phone if I can't make due with the canned responses. If it's not urgent, I'll ignore it and reply at a later time.  
 ![pebble_gmail](/assets/img/posts/2016/06/pebble_gmail-300x169.jpg "pebble_gmail")
 * [Voice dictation](https://web.archive.org/web/20150905212824/http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309)[^ia1]. I'd never thought I'd actually use that, but while driving this is great - you get a notification, check it, quickly with a glance to your wrist, and with two button presses I can send a reply on it's way. It works fairly good, but well, [YMMV](https://www.urbandictionary.com/define.php?term=ymmv).  
 ![pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am](/assets/img/posts/2016/06/pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am-1-300x168.png "pebble-dictation-screen-shot-2015-06-20-at-2-32-28-am")
@@ -85,8 +85,10 @@ WatchFaces:
 * [Swiss Dark](https://apps.repebble.com/en_US/application/56635d294ce70342e400007f)
 * [Thin](https://apps.repebble.com/en_US/application/550ccb556caaed4e0100006d)
 * [Minimalism](https://apps.repebble.com/en_US/application/56f93a5361a01637e5000036)
-* ... and the [Kiezel Watchfaces](https://apps.getpebble.com/en_US/developer/558e3fd4e3975e527b000055/1?native=false&query=kiezel%252520watchfaces)
+* ... and the [Kiezel Watchfaces](https://apps.repebble.com/en_US/search/watchfaces/1?native=false&query=kiezel%20watchfaces)
 
 But there are so many more to explore.
 
 [^ia1]: Internet Archive snapshot. Original URL: http://help.getpebble.com/customer/portal/articles/1952947-voice?b_id=8309 <!-- markdownlint-disable-line MD034 -->
+
+[^ia2]: Internet Archive snapshot. Original URL: https://play.google.com/store/apps/details?id=com.getpebble.android.basalt&hl=en <!-- markdownlint-disable-line MD034 -->

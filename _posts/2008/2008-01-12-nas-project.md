@@ -20,7 +20,7 @@ I "recently" ordered (after doing some research) a [Raidsonic](http://web.archiv
 * quiet
 * ...
 
-The NAS arrived a week ago, and I ordered two [Seagate](https://www.seagate.com) [Barracuda 7200.10 750gb](https://www.seagate.com/support/disc/manuals/sata/100402371a.pdf) disks (model: ST3750640AS) to go in it. I prefer seagate for the 5 years of warranty they give on their disks. They arrived two days ago.
+The NAS arrived a week ago, and I ordered two [Seagate](https://www.seagate.com/be/nl/) [Barracuda 7200.10 750gb](https://www.seagate.com/support/disc/manuals/sata/100402371a.pdf) disks (model: ST3750640AS) to go in it. I prefer seagate for the 5 years of warranty they give on their disks. They arrived two days ago.
 
 Unfortunately, after initial stress tests I got the following [SMART](https://en.wikipedia.org/wiki/Self-Monitoring,_Analysis,_and_Reporting_Technology) errors (using smartctl, part of the wonderful [smartmontools](https://www.smartmontools.org/)) on one of the disks:
 

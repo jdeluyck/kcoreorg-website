@@ -22,7 +22,7 @@ found the majority not to my liking:
 * [Mayan EDMS](https://www.mayan-edms.com/): too complicated
 * [Papermerge](https://www.papermerge.com/): very limited
 * [Paperless](https://github.com/the-paperless-project/paperless): quite outdated interface, not practical to work with
-* [Paperless-ng](https://paperless-ng.readthedocs.io/en/latest/): newer version/fork of Paperless
+* [Paperless-ng](http://web.archive.org/web/20210507224912/https://paperless-ng.readthedocs.io/en/latest/)[^ia1]: newer version/fork of Paperless
 
 In the end and after some testing i settled on paperless-ng, running as a set of docker containers.
 
@@ -39,3 +39,5 @@ $ gs \
 
 and paperless-ng stops complaining about them. Still need to figure out how to integrate this by default into the
 workflow.
+
+[^ia1]: Internet Archive snapshot. Original URL: https://paperless-ng.readthedocs.io/en/latest/ <!-- markdownlint-disable-line MD034 -->

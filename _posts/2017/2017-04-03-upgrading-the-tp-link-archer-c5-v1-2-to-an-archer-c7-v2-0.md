@@ -20,7 +20,7 @@ First, make sure you definitely have an Archer C5 version 1.2, with three antenn
 If it breaks, noone is to blame but you.
 
 You'll need to flash [DD-WRT](https://www.dd-wrt.com/site/index), [OpenWRT](https://openwrt.org/) or
-[LEDE-Project](https://lede-project.org) (check the respective projects for instructions on how to do that) first.
+[LEDE-Project](http://web.archive.org/web/20170402044650/https://lede-project.org/)[^ia3] (check the respective projects for instructions on how to do that) first.
 
 Next, download an Archer C7 firmware from [the TP-Link website](https://www.tp-link.com/en/support/download/archer-c7/v2/).
 I downloaded version 3.14.1 (141110) - which contains the firmware in the file `ArcherC7v2_v3_en_3_14_1_up_boot(141110).bin`
@@ -41,9 +41,11 @@ sysupgrade -F /tmp/tplink_mod.bin
 
 This will flash the firmware, and reboot the router. You'll have to reconnect to it (default IP address is 192.168.0.1) and the web interface should report an Archer C7 :)
 
-Afterwards you can either upgrade to the latest C7 firmware, or whichever 3rd party firmware you want. I reflashed to [LEDE-Project](https://lede-project.org).
+Afterwards you can either upgrade to the latest C7 firmware, or whichever 3rd party firmware you want. I reflashed to [LEDE-Project](http://web.archive.org/web/20170402044650/https://lede-project.org/)[^ia3].
 
 Initial testing showed an improvement in WiFi throughput speeds - so I'm happy with my 'new' C7 :)
 
 [^ia1]: Internet Archive snapshot. Original URL: http://thesen.eu/files/tplink_mod.bin <!-- markdownlint-disable-line MD034 -->
 [^ia2]: Internet Archive snapshot. Original URL: http://www.hagensieker.com/archerc5toc7/index.php <!-- markdownlint-disable-line MD034 -->
+
+[^ia3]: Internet Archive snapshot. Original URL: https://lede-project.org <!-- markdownlint-disable-line MD034 -->
