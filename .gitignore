@@ -24,3 +24,4 @@ package-lock.json
 
 # Misc
 .wayback_cache.json
+.dead_cache.json

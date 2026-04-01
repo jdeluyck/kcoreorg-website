@@ -221,7 +221,7 @@ exclude:
   - ".rumdl_cache"
   - ".rumdl.toml"
   - ".wayback_cache.json"
-  - "tools/*"
+  - ".dead_cache.json"
 
 jekyll-archives:
   enabled: [categories, tags]
