@@ -105,17 +105,21 @@ and check for the latest kernel release, right now that is linux-image-3.8-trunk
 Now, to fix some of the issues I've encountered:
 
 ## Issues
+
 ### Non-functional wifi
+
 On another laptop (or in Windows), download the [firmware-iwlwifi](https://packages.debian.org/search?keywords=firmware-iwlwifi) package.
 Install it - a reboot later you should be able to configure the wireless interface. You might also need [wpasupplicant](https://packages.debian.org/search?keywords=wpasupplicant)
 if you use encryption on your network. (I'm lazy, so I downloaded all the packages needed for [wicd](https://packages.debian.org/search?keywords=wicd) and configured stuff that way.)
 
 ### Laptop wakes from suspend out of the blue
+
 I've encountered a few times that the machine came out of suspend without any trigger from me - highly annoying (and dangerous,
 should this happen while the machine is in a backpack and start to heat up). I've found this [Bug report on Launchpad](https://bugs.launchpad.net/dell-sputnik/+bug/1161962)
 about it. The fix seems to be to disable "Smart Connect" in the BIOS. I've tried it here, seems to work.
 
 ### Touchpad isn't recognized as a touchpad
+
 The patches to support the touchpad are on route to be included in [kernel 3.9](https://www.kernel.org/), but (at the time of writing)
 that one hasn't been released yet. So we need to take the latest kernel available in Debian Experimental (3.8.5) and patch this with the driver.
 Luckely Debian has [The Linux Kernel Handbook](https://kernel-team.pages.debian.net/kernel-handbook/) which explains how to do all this the proper Debian way ;)
@@ -131,6 +135,7 @@ you'll have another shiny kernel in /usr/src, which you can install with `dpkg -
 And [Bob's your uncle](https://en.wikipedia.org/wiki/Bob's_your_uncle).
 
 ### Brightness level doesn't stick after a suspend/resume
+
 For this I made a custom suspend-resume hook for pm-utils. Add the following script as /etc/pm.d/sleep.d/00backlight
 
 ```bash
@@ -165,6 +170,7 @@ This script will read the backlight brightness level upon suspend, and store it 
 The [permanent fix](https://patchwork.kernel.org/patch/2102971/) is also scheduled for kernel 3.9.
 
 ### Unreadable (way too tiny) fonts in applications
+
 This is actually a drawback from having a high-resolution screen: a lot fits on it, but the fonts are tiny.  
 I had the issue mostly in [Opera](https://www.opera.com/), [IceDove](https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project)
 (a rebranded Thunderbird) and [XTerm](https://en.wikipedia.org/wiki/Xterm), my X Terminal of choice.
