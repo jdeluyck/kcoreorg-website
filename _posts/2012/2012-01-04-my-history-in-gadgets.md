@@ -136,13 +136,13 @@ _My first Smartphone_ (damn that sounds cheesy...). Still have it, use it as my 
 
 ### [HTC Hero](https://www.gsmarena.com/htc_hero-2861.php)
 
-![HTC Hero](/assets/img/posts/2012/01/htc-hero-0.jpg "HTC Hero"){: .normal}
+![HTC Hero](/assets/img/posts/2012/01/htc-hero.png "HTC Hero"){: .normal}
 
 My first foray into the Android world, as my E65 was starting to show its age. Perhaps purchased a bit too early. Got me into Android modding and flashing.
 
 ### [HTC Desire](https://www.gsmarena.com/htc_desire-3077.php)
 
-![HTC Desire](/assets/img/posts/2012/01/HTC-Desire-1.jpg "HTC Desire"){: .normal}
+![HTC Desire](/assets/img/posts/2012/01/htc-desire.png "HTC Desire"){: .normal}
 
 This phone is my current phone, works wonders with the 3rd party ROMS you can find for it.
 
