@@ -1,18 +1,16 @@
 ---
 title: 'Managing your digital/paper documents with Paperless-ng'
 date: 2021-05-08
-author: Jan
-layout: single
-categories:
-  - Random
+categories: [Technology & IT, Virtualisation]
 tags:
   - paperless-ng
   - ocr
   - docker
+  - productivity
 ---
 
 Close to when we were moving I decided to do something about my rather huge paper archive (bills, receipts, ...).
-I set about digitizing it all using a flatbed scanner, my cellphone and 
+I set about digitizing it all using a flatbed scanner, my cellphone and
 [Swiftscan](https://play.google.com/store/apps/details?id=net.doo.snap) (formerly known as Scanbot) to turn them all into PDF's.
 
 Life was well, but the resulting mass of PDF's wasn't super practical to search something. I classified them all using
@@ -20,10 +18,11 @@ year, source, some extra naming, but still, not super practical.
 
 I had a look a few times in the past at [document management systems](https://en.wikipedia.org/wiki/Document_management_system) but
 found the majority not to my liking:
+
 * [Mayan EDMS](https://www.mayan-edms.com/): too complicated
 * [Papermerge](https://www.papermerge.com/): very limited
 * [Paperless](https://github.com/the-paperless-project/paperless): quite outdated interface, not practical to work with
-* [Paperless-ng](https://paperless-ng.readthedocs.io/en/latest/): newer version/fork of Paperless
+* [Paperless-ng](http://web.archive.org/web/20210507224912/https://paperless-ng.readthedocs.io/en/latest/)[^ia1]: newer version/fork of Paperless
 
 In the end and after some testing i settled on paperless-ng, running as a set of docker containers.
 
@@ -37,5 +36,8 @@ $ gs \
   -dPDFSETTINGS=/prepress \
    input.pdf
 ```
-and paperless-ng stops complaining about them. Still need to figure out how to integrate this by default into the 
+
+and paperless-ng stops complaining about them. Still need to figure out how to integrate this by default into the
 workflow.
+
+[^ia1]: Internet Archive snapshot. Original URL: https://paperless-ng.readthedocs.io/en/latest/ <!-- markdownlint-disable-line MD034 -->

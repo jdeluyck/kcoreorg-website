@@ -1,15 +1,11 @@
 ---
-id: 48
 title: In Perfect Harmony (Within Temptation)
 date: 2004-07-12T16:44:52+02:00
-author: Jan
-layout: single
-permalink: /2004/07/12/in-perfect-harmony-within-temptation/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - within temptation
 ---
+
 In a world so far away  
 At the end of a closing day  
 A little child was born and raised  
@@ -46,3 +42,5 @@ Made him king of elves and trees
 He was the only human being  
 Who lived in harmony  
 In perfect harmony
+
+{% include embed/youtube.html id='S3DeZuhqK6M' %}

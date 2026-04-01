@@ -1,0 +1,19 @@
+---
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
+title: About me
+---
+
+My name is Jan De Luyck, currently inhabiting a small town near [Lochristi](https://www.lochristi.be/). 
+I'm happily living together with my partner, Diana.
+
+I've studied [Applied Computer Sciences](https://www.hogent.be/toekomstige-student/opleidingen/bachelors/toegepaste-informatica/) at the [Hogeschool Gent](https://www.hogent.be), and as such, I'm pretty much a technical-minded person.
+I'm mostly busy dealing with technology - be it at home, on Linux, Android, cloud, related to some hardware projects, software, or at work.
+
+In 2001, after graduating, I went to work for Tri-enniuM (which no longer exists), as a consultant for Reuters real-time trading environments. 
+I've since moved on, and now work for [KBC](https://www.kbc.com/en), as a systems engineer - where I've been busy with the architecture of our Linux / Unix platforms and providing 3ʳᵈ level support for our in-house customers, and currently working on building our cloud portfolio.
+
+In my spare time I'm also a singer (tenor) at [Kamerkoor Furiant](https://artemusicale.be/ensembles/kamerkoor-furiant/) in Ghent and Koor-u-wel (a small pop choir), an aspiring [crossfitter](https://en.wikipedia.org/wiki/CrossFit) at [Crossfit Endgame](https://www.crossfitendgame.be/) (mostly to keep my sanity :P). I'm also learning the piano, which has been long on my todo-list.
+
+I used to play the bagpipes at the [Flemish Caledonian Pipes & Drums "Clan MacKenzie"](http://www.fcpd.be/) and played a lot of pen-and-paper role-playing games / board games, but both of those activities sort of stopped when covid happened and I haven't taken them back up. There's only so many hours in a week ;)

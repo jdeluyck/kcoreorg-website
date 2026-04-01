@@ -1,16 +1,11 @@
 ---
-id: 335
-title: 'R.E.M. - Find The River'
+title: 'Find The River (R.E.M.)'
 date: 2008-09-30T22:08:58+02:00
-author: Jan
-layout: single
-permalink: /2008/09/30/rem-find-the-river/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - rem
-format: video
 ---
+
 Hey now, little speedyhead,  
 The read on the speedometer says  
 You have to go to task in the city  
@@ -55,3 +50,5 @@ Of river poet search naivete
 Pick up here and chase the ride  
 The river empties to the tide  
 All of this is coming your way
+
+{% include embed/youtube.html id='KIJGlTu5sEI' %}

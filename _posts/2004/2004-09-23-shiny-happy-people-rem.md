@@ -1,16 +1,11 @@
 ---
-id: 46
 title: Shiny Happy People (REM)
 date: 2004-09-23T09:29:21+02:00
-author: Jan
-layout: single
-permalink: /2004/09/23/shiny-happy-people-rem/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - rem
-format: video
 ---
+
 Shiny happy people laughing  
 Meet me in the crowd  
 People people  
@@ -20,10 +15,10 @@ Take it into town
 Happy happy  
 Put it in the ground  
 Where the flowers grow  
-Gold and silver shine 
+Gold and silver shine
 
 Shiny happy people holding hands  
-Shiny happy people laughing 
+Shiny happy people laughing
 
 Everyone around love them, love them  
 Put it in your hands  
@@ -32,7 +27,9 @@ There's no time to cry
 Happy happy  
 Put it in your heart  
 Where tomorrow shines  
-Gold and silver shine 
+Gold and silver shine
 
 Shiny happy people holding hands  
 Shiny happy people laughing
+
+{% include embed/youtube.html id='YYOKMUTTDdA' %}

@@ -1,13 +1,9 @@
 ---
-id: 96
 title: Posts moved
 date: 2007-01-09T13:12:31+02:00
-author: Jan
-layout: single
-permalink: /2007/01/09/posts-moved/
-categories:
-  - Personal
+categories: [Life & Musings, Site Updates]
 ---
+
 Hello!
 
 I've just finished moving all my personal Blog posts from [my site](https://kcore.org/) to this blog, since It didn't make much sense keeping them separate after all. So, from now on, you'll be able to find them here ;)

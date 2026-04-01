@@ -1,13 +1,11 @@
 ---
 title: Proxmox, LXC, and Debian Trixie
 date: 2025-08-08
-author: Jan
-layout: single
-categories:
-  - Linux / Unix
-  - Networking
-  - Virtualisation
+categories: [Technology & IT, Virtualisation]
 tags:
+  - linux
+  - networking
+  - virtualisation
   - proxmox
   - proxmoxVE
   - proxmox virtual environment
@@ -19,7 +17,7 @@ As [Debian Trixie](https://www.debian.org/releases/trixie/) was about to be rele
 
 The errors visible using `journalctl -u networking.service` were:
 
-```
+```text
 systemd[1]: Starting networking.service - Raise network interfaces...
 dhclient[106]: Internet Systems Consortium DHCP Client 4.4.3-P1
 ifup[106]: Internet Systems Consortium DHCP Client 4.4.3-P1
@@ -92,13 +90,14 @@ It looks like it's trying to start up two dhclient processes at once - which sor
 Digging a bit into this it seems that there's something odd going on with the venerable [`isc-dhcp-client`](https://packages.debian.org/trixie/isc-dhcp-client) which is shipped with Debian and used by default on eg. Debian Bookworm LXC templates: it fails to bring up the interface properly on Trixie when using dhcpv6 - there's [debian bug #1088852](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1088852) about this, but that hasn't seen *any* movement.
 
 I also [posted about this issue](https://forum.proxmox.com/threads/debian-13-lxc-networking-service-failed.169430/) on the [Proxmox forum](https://forum.proxmox.com), where they pointed out that using [dhcpcd-base](https://packages.debian.org/trixie/i386/dhcpcd-base) works, with some small tweaks to the system:
-* Modifying the `/etc/network/interfaces` file (and removing the line that reads `iface eth0 inet6 dhcp`)
-* Telling Proxmox not to manage the network configuration by touching `/etc/network/pve-ignore.interfaces`
+
+* Modifying the `/etc/network/interfaces`{: .filepath} file (and removing the line that reads `iface eth0 inet6 dhcp`)
+* Telling Proxmox not to manage the network configuration by touching `/etc/network/pve-ignore.interfaces`{: .filepath}
 
 ```shell
-$ sudo touch /etc/network/.pve-ignore.interfaces
-$ sudo apt install dhcpcd-base
-$ sudo apt remove --purge isc-dhcp-client isc-dhcp-common
+sudo touch /etc/network/.pve-ignore.interfaces
+sudo apt install dhcpcd-base
+sudo apt remove --purge isc-dhcp-client isc-dhcp-common
 ```
 
 Removing the `iface eth0 inet6 dhcp` line is required because otherwise [ifupdown](https://packages.debian.org/trixie/ifupdown) keeps looking for a separate IPv6 DHCP client, and `dhcpcd` handles both.

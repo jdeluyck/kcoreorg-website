@@ -1,17 +1,13 @@
 ---
-id: 212
 title: Insurance!
 date: 2008-02-07T19:32:38+02:00
-author: Jan
-layout: single
-permalink: /2008/02/07/insurance/
-categories:
-  - Cars
+categories: [Life & Musings, Personal]
 tags:
   - cars
   - expensive
   - insurance
 ---
+
 Ok,
 
 After passing by some companies with car insurance, I can now say that I has decided! I've asked for the final papers to be made up so I can sign and get the plates.

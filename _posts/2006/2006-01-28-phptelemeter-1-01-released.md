@@ -1,17 +1,11 @@
 ---
-id: 1343
 title: phptelemeter 1.01 released
 date: 2006-01-28T10:19:22+02:00
-author: Jan
-layout: single
-permalink: /2006/01/28/phptelemeter-1-01-released/
-categories:
-  - phptelemeter
+categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---
-I've just released phptelemeter 1.01. Brown paper bag release!
 
-  * Bugfix: I forgot to change the Telemeter4tools error ID's, fixed.
+I've just released phptelemeter 1.01. Brown paper bag release!
 
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).
+* Bugfix: I forgot to change the Telemeter4tools error ID's, fixed.

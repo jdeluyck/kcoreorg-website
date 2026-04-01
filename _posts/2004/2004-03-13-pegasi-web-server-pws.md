@@ -1,12 +1,7 @@
 ---
-id: 1284
 title: Pegasi Web Server (pws)
 date: 2004-03-13T19:47:02+02:00
-author: Jan
-layout: single
-permalink: /2004/03/13/pegasi-web-server-pws/
-categories:
-  - Random
+categories: [Software, Pegasi Web Server]
 tags:
   - hogent
   - java
@@ -14,6 +9,7 @@ tags:
   - pws
   - web server
 ---
+
 PWS is the Pegasi Web Server, written from scratch in Java.
 
 The project started as a project for the course of Networking at the Hogeschool Gent, by members/founders of the PegasiLUG.
@@ -25,8 +21,8 @@ Everything is documented in the distribution archives. Please check there.
 ## Requirements
 
 * Any 100%-compatible Java Runtime Environment (this _excludes_ the Microsoft VM!).  
-A computer with TCP/IP networking installed. (nearly always the case)
+* A computer with TCP/IP networking installed. (nearly always the case)
 
 ## Latest release
 
-The last release is version 0.2.3, and can be downloaded [here](http://sourceforge.net/project/showfiles.php?group_id=13565&package_id=11629), from [SourceForge](http://www.sourceforge.net/).
+The last release is version 0.2.3, and can be downloaded [on sourceforge](https://sourceforge.net/project/showfiles.php?group_id=13565&package_id=11629), from [SourceForge](https://sourceforge.net/).

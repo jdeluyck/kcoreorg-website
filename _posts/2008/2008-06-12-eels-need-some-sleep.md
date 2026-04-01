@@ -1,27 +1,21 @@
 ---
-id: 250
-title: 'Eels - Need Some Sleep'
+title: 'Need Some Sleep (Eels)'
 date: 2008-06-12T16:52:20+02:00
-author: Jan
-layout: single
-permalink: /2008/06/12/eels-need-some-sleep/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - eels
-format: video
 ---
+
 I need some sleep.  
 I can’t go on like this.  
 I try counting sheep,  
-But there’s one I always miss. 
-  
-Everyone says I’m getting down too low    
+But there’s one I always miss.
+
+Everyone says I’m getting down too low  
 Everyone says: "You just gotta let it go"  
 "You just gotta let it go"  
 I just gotta let it go
-  
-  
+
 I need some sleep  
 time to put the old horse down  
 I’m in too deep  
@@ -31,9 +25,9 @@ Everyone says I’m getting down too low
 Everyone says: "You just gotta let it go"  
 "You just gotta let it go"  
 I just gotta let it go
-  
-  
-You just gotta let it go    
+
+You just gotta let it go  
 You just gotta let it go  
 You just gotta let it go
-  
+
+{% include embed/youtube.html id='B3XAGaMHsmo' %}

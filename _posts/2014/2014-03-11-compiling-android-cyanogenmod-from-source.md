@@ -1,12 +1,7 @@
 ---
-id: 1051
 title: Compiling Android / CyanogenMod from source
 date: 2014-03-11T15:14:27+02:00
-author: Jan
-layout: single
-permalink: /2014/03/11/compiling-android-cyanogenmod-from-source/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - android
   - cm
@@ -14,24 +9,27 @@ tags:
   - cyanogenmod
   - htc desire s
 ---
-On the [HTC Desire S](http://www.gsmarena.com/htc_desire_s-3776.php), I've been using an 
-[unofficial build](http://forum.xda-developers.com/showthread.php?t=2031694) 
-(made by [Flinny](http://forum.xda-developers.com/member.php?u=4350964)) of 
-[CyanogenMod 10](http://cyanogenmod.com/) for a while - happily so.  
 
-Unfortunately the author is/was a bit strapped for time, and development slowed down 
+On the [HTC Desire S](https://www.gsmarena.com/htc_desire_s-3776.php), I've been using an
+[unofficial build](https://xdaforums.com/t/rom-23-03-14-flinny-saga-andromadus-cm11-0-alpha5.2031694/)
+(made by [Flinny](https://xdaforums.com/m/flinny.4350964/)) of
+[CyanogenMod 10](https://en.wikipedia.org/wiki/CyanogenMod) for a while - happily so.  
+
+Unfortunately the author is/was a bit strapped for time, and development slowed down
 significantly at the time. Updates for CM 10.1 and later were not forthcoming.  
-Since I'm enough of a geek, and suffering from [ORD](http://www.xda-developers.com/announcements/do-you-have-obsessive-rom-updating-disorder-ord/),
-I decided to try to 'roll my own': to compile CM from source. As it turned out, it's not 
+Since I'm enough of a geek, and suffering from [ORD](https://www.xda-developers.com/do-you-have-obsessive-rom-updating-disorder-ord/),
+I decided to try to 'roll my own': to compile CM from source. As it turned out, it's not
 quite as hard as you'd think it is.
 
-~~First, you need to~~I was going to write a lengthy tutorial here, but there are plenty of 
-tutorials out there. 
-So instead of inventing the wheel yet again, you can just go look at 
-[this one](http://forum.xda-developers.com/nexus-4/general/guide-cm11-how-to-build-cyanogenmod-11-t2515305), or 
-[here](http://wiki.cyanogenmod.org/w/Development) or 
-[here](http://www.usoftphone.com/t115104.html). 
-Or you can just go and [Google it](http://lmgtfy.com/?q=building+cm+from+source) ;)
+~~First, you need to~~I was going to write a lengthy tutorial here, but there are plenty of
+tutorials out there.
+So instead of inventing the wheel yet again, you can just go look at
+[this one](https://xdaforums.com/t/guide-cm11-how-to-build-your-own-cyanogenmod-11-0-rom-from-sources-for-the-nexus-4.2515305/), or
+[on the cyanogen wiki](http://web.archive.org/web/20140227110305/http://wiki.cyanogenmod.org:80/w/Development)[^ia1] or
+[on the usoftphone site](http://www.usoftphone.com/t115104.html).
+Or you can just go and [Google it](https://letmegooglethat.com/?q=building+cm+from+source) ;)
 
-You can find the thread for [my unofficial builds](http://forum.xda-developers.com/showthread.php?t=2467013) on [XDA Developers](http://www.xda-developers.com/).  
-The [git](https://en.wikipedia.org/wiki/Git_%28software%29) repository with all my sources can be found [here](http://github.com/jdeluyck/), on GitHub.
+You can find the thread for [my unofficial builds](https://xdaforums.com/t/rom-unofficial-nightly-cm11-0-4-4-4_r2-20140716-cm10-2-20131220-for-saga.2467013/) on [XDA Developers](https://www.xda-developers.com/).  
+The [git](https://en.wikipedia.org/wiki/Git_%28software%29) repository with all my sources can be found [on github](https://github.com/jdeluyck/).
+
+[^ia1]: Internet Archive snapshot. Original URL: http://wiki.cyanogenmod.org/w/Development <!-- markdownlint-disable-line MD034 -->

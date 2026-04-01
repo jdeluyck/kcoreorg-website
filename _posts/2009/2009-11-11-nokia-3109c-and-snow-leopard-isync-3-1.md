@@ -1,12 +1,7 @@
 ---
-id: 513
 title: 'Nokia 3109c and Snow Leopard (iSync 3.1)...'
 date: 2009-11-11T13:51:31+02:00
-author: Jan
-layout: single
-permalink: /2009/11/11/nokia-3109c-and-snow-leopard-isync-3-1/
-categories:
-  - Apple / Mac OS
+categories: [Technology & IT, Apple]
 tags:
   - nokia 3109c
   - apple
@@ -14,13 +9,14 @@ tags:
   - mac os x
   - symbian s40
 ---
-As I detailed in my [previous post on how to get this phone working with Leopard](/2008/06/26/nokia-3109c-symbian-s40-and-isync/), upgrading to [Mac OS X 10.6 aka Snow Leopard ](http://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard) broke things again.
+
+As I detailed in my [previous post on how to get this phone working with Leopard](/2008/06/26/nokia-3109c-symbian-s40-and-isync/), upgrading to [Mac OS X 10.6 aka Snow Leopard](https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard) broke things again.
 
 Easy fix though: follow the steps in my previous post, and attached to this post you can find the 'fixed' MetaClasses.plist file.
 
 All I actually did was copy this block in the existing MetaClasses.plist:
 
-```
+```xml
 <key>com.nokia.3109</key>
 <dict>
         <key>Identification</key>
@@ -76,4 +72,4 @@ All I actually did was copy this block in the existing MetaClasses.plist:
 </dict>
 ```
 
-Since WP keeps on braking my indentation, just download it here: [MetaClasses.plist](/assets/files/2009/11/MetaClasses.plist)
+Since WP keeps on breaking my indentation, just download it here: [MetaClasses.plist](/assets/files/2009/11/MetaClasses.plist)

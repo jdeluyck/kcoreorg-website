@@ -1,13 +1,7 @@
 ---
-id: 913
 title: 'Christmas concert Arte Musicale - Praise'
 date: 2012-11-22T20:10:59+02:00
-author: Jan
-layout: single
-permalink: /2012/11/22/christmas-concert-arte-musicale-praise/
-categories:
-  - Chamberchoir Furiant
-  - Music
+categories: [Hobbies & Interests, Chamberchoir Furiant]
 tags:
   - arte musicale
   - chamberchoir
@@ -16,10 +10,10 @@ tags:
   - kamerkoor furiant
   - praise
 ---
+
 On the 26th of december we're giving our annual christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.
 
-[![Arte Musicale Christmasconcert - Priase](/assets/images/2012/11/priase.png "Arte Musicale Christmasconcert - Priase")](/assets/images/2012/11/priase.png)
-
+[![Arte Musicale Christmasconcert - Priase](/assets/img/posts/2012/11/praise.png "Arte Musicale Christmasconcert - Praise")](/assets/img/posts/2012/11/priase.png)
 
 Here's a handy google maps thingy to help you find us :)  
 

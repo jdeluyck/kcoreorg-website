@@ -1,16 +1,12 @@
 ---
-id: 392
-title: 'Poppenkast - Jasperina De Jong'
+title: 'Poppenkast (Jasperina De Jong)'
 date: 2008-12-24T15:58:06+02:00
-author: Jan
-layout: single
-permalink: /2008/12/24/poppenkast-jasperina-de-jong/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - jasperina de jong
 ---
-From the musical "De Engel van Amsterdam". 
+
+From the musical "De Engel van Amsterdam".
 
 It's actually frightfully actual, still, since as much as we think we can make our own decisions, we're usually steered from above without really noticing.
 
@@ -60,3 +56,5 @@ dirigeert het poppenkoor.
 Ja meneer, nee meneer...
 
 Ja meneer, nee meneer...
+
+{% include embed/youtube.html id='fmoOM-8nnnY' %}

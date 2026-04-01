@@ -1,18 +1,14 @@
 ---
-id: 675
 title: 'Debian GNU/Linux 6.0 "Squeeze" gone stable ;)'
 date: 2011-02-06T09:29:10+02:00
-author: Jan
-layout: single
-permalink: /2011/02/06/debian-gnulinux-6-0-squeeze-gone-stable/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - debian
   - stable
 ---
-![Debian](/assets/images/2011/02/debian_logo.png)
 
-[Debian](http://www.debian.org) Squeeze got [released today](http://www.debian.org/News/2011/20110205a). Yay! :)
+![Debian](/assets/img/posts/2013/05/debian-openlogo.svg){: .normal }
 
-And don't keep your breath, because the new [testing](http://www.debian.org/releases/wheezy/) branch is called **Wheezy**.
+[Debian](https://www.debian.org) Squeeze got [released today](https://chronicles.debian.org/www/News/2011/20110205a). Yay! :)
+
+And don't keep your breath, because the new [testing](https://www.debian.org/releases/wheezy/) branch is called **Wheezy**.

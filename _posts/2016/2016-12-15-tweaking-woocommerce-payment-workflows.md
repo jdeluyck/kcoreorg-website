@@ -1,12 +1,7 @@
 ---
-id: 1905
 title: Tweaking WooCommerce payment workflows
 date: 2016-12-15T13:32:49+02:00
-author: Jan
-layout: single
-permalink: /2016/12/15/tweaking-woocommerce-payment-workflows/
-categories:
-  - WordPress
+categories: [Development & Web, Coding]
 tags:
   - BACS
   - email output
@@ -15,20 +10,21 @@ tags:
   - woocommerce
   - wordpress
 ---
-I'm playing part-time webmaster for the [choir](http://artemusicale.be/ensembles/kamerkoor-furiant/) I sing in, and as such, am getting up close and personal with [WooCommerce](https://woocommerce.com/). Quite a nifty shopping cart, but it does require a lot of tweaks to really make it work to your liking - unless you're willing to shell out a lot of cash.
 
-The latest modification was changing the workflow of the payment gateways - more specifically, the [BACS gateway](https://docs.woocommerce.com/document/bacs/) (Bank Account Clearing System - or as we mortals call it, [wire transfer](https://en.wikipedia.org/wiki/Wire_transfer)).
+I'm playing part-time webmaster for the [choir](https://artemusicale.be/ensembles/kamerkoor-furiant/) I sing in, and as such, am getting up close and personal with [WooCommerce](https://woocommerce.com/). Quite a nifty shopping cart, but it does require a lot of tweaks to really make it work to your liking - unless you're willing to shell out a lot of cash.
+
+The latest modification was changing the workflow of the payment gateways - more specifically, the [BACS gateway](https://woocommerce.com/document/bacs/) (Bank Account Clearing System - or as we mortals call it, [wire transfer](https://en.wikipedia.org/wiki/Wire_transfer)).
 
 The default flow for WooCommerce (for this gateway) is:
 
-  1. Order is put in by customer
-  2. Order is automatically flagged as _on-hold_, and a mail is sent out to the customer with the bank info
-  3. Customer (supposedly) pays
-  4. Store manager sees the payment, and flags order as _processing_ - another mail is sent out with the notification that it's being processed
-  5. Store manager (hopefully) ships the product, flags the order as _completed _and another mail is sent out with 'order complete' status.
+1. Order is put in by customer
+2. Order is automatically flagged as _on-hold_, and a mail is sent out to the customer with the bank info
+3. Customer (supposedly) pays
+4. Store manager sees the payment, and flags order as _processing_ - another mail is sent out with the notification that it's being processed
+5. Store manager (hopefully) ships the product, flags the order as _completed _and another mail is sent out with 'order complete' status.
 
-Now, for our uses, the _on-hold_ status is a bit superfluous (and we've had people getting confused by it).  
-We'd rather have it go straight to _processing_, and have that mail contain the bank information (only for BACS payments, ofcourse).
+Now, for our uses, the _on-hold_ status is a bit superfluous (and we've had people getting confused by it).  
+We'd rather have it go straight to _processing_, and have that mail contain the bank information (only for BACS payments, ofcourse).
 
 After some testing, I came up with two solutions: One very hacky, and not maintainable, the other better. Both solutions need to be inserted in your theme's `functions.php` file.
 
@@ -51,12 +47,12 @@ class WC_Gateway_BACS_custom extends WC_Gateway_BACS {
       if ( $this->instructions ) {
         echo wpautop( wptexturize( $this->instructions ) ) . PHP_EOL;
       }
- 
+
      /* dirty hack to get access to bank_details */
      $reflector = new ReflectionObject($this);
      $method = $reflector->getMethod('bank_details');
      $method->setAccessible(true);
- 
+
      $result = $method->invoke($this, $order->id);
     }
   }
@@ -94,7 +90,7 @@ function bacs_order_payment_processing_order_status( $order_id ) {
   }
 
   $order = new WC_Order( $order_id );
- 
+
   if ('bacs' === $order->payment_method && ('on-hold' == $order->status || 'pending' == $order->status)) {
     $order->update_status('processing');
   } else {
@@ -105,15 +101,15 @@ function bacs_order_payment_processing_order_status( $order_id ) {
 function add_order_email_instructions( $order, $sent_to_admin ) {
   if ( ! $sent_to_admin && 'bacs' === $order->payment_method && $order->has_status( 'processing' ) ) {
     $gw = new WC_Gateway_BACS();
- 
+
     $reflector = new ReflectionObject($gw);
     $method = $reflector->getMethod('bank_details');
     $method->setAccessible(true);
- 
+
     $result = $method->invoke($gw, $order->id);
   }
 }
 ```
 
-Still not as clean as I'd like, as we're still invoking an internal function, but atleast we're using the proper hooks 
+Still not as clean as I'd like, as we're still invoking an internal function, but atleast we're using the proper hooks
 to tweak WooCommerce. I'll update if I ever find a better way to get to the bank details.

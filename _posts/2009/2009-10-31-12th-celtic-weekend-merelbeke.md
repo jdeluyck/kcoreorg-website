@@ -1,21 +1,16 @@
 ---
-id: 501
 title: '12th Celtic Weekend - Merelbeke'
 date: 2009-10-31T13:10:50+02:00
-author: Jan
-layout: single
-permalink: /2009/10/31/12th-celtic-weekend-merelbeke/
-categories:
-  - 'Flemish Caledonian Pipes &amp; Drums'
-  - Music
+categories: [Hobbies & Interests, Flemish Caledonian Pipes & Drums "Clan MacKenzie"]
 tags:
   - celtic weekend
   - 'fcp&amp;d'
   - pipeband
 ---
-![12th Celtic Weekend](/assets/images/2009/11/fcpd_12_celtic_weekend-sm.jpg "12th Celtic Weekend")
 
-Shameless advertisement for the upcoming [12th Celtic Weekend](http://www.glengarry.be/fcpd/events.htm) organised by the [Flemish Caledonian Pipes & Drums - Clan MacKenzie](http://www.fcpd.be/), the pipeband where I play.
+![12th Celtic Weekend](/assets/img/posts/2009/11/fcpd_12_celtic_weekend-sm.jpg "12th Celtic Weekend")
+
+Shameless advertisement for the upcoming [12th Celtic Weekend](http://www.glengarry.be/fcpd/events.htm) organised by the [Flemish Caledonian Pipes & Drums - Clan MacKenzie](https://www.fcpd.be/), the pipeband where I play.
 
 **Friday november 6 2009**  
 19:00 Official Opening  

@@ -1,18 +1,14 @@
 ---
-id: 1300
 title: Running Linux on an Apple Macbook 2,1
 date: 2010-05-02T09:13:51+02:00
-author: Jan
-layout: single
-permalink: /2010/05/02/running-linux-on-an-apple-macbook-21/
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - apple
   - debian
   - linux
   - macbook
 ---
+
 This page documents my attempts (and successes!) to get Linux fully working on an Intel-based Apple MacBook, 2007 model.
 
 Note: I no longer have this device.
@@ -20,7 +16,8 @@ Note: I no longer have this device.
 **DISCLAIMER: This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. If you fry your system by using this information that's \_your\_ problem. Not mine. I accept no responsability for what happens with this information whatsoever.**
 
 ## PCI Specs
-```
+
+```text
 00:00.0 Host bridge: Intel Corporation Mobile 945GM/PM/GMS, 943/940GML and 945GT Express Memory Controller Hub (rev 03)
 00:02.0 VGA compatible controller: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller (rev 03)
 00:02.1 Display controller: Intel Corporation Mobile 945GM/GMS/GME, 943/940GML Express Integrated Graphics Controller (rev 03)
@@ -45,6 +42,8 @@ Note: I no longer have this device.
 
 Here's a [detailed pci listing](/assets/files/2010/05/apple-macbook-pcilisting.txt).
 
+## Subsystems
+
 ### Linux 2.6.x kernel
 
 The latest 2.6 kernel is: [2.6.39.4](https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.39.4.tar.gz).  
@@ -56,10 +55,10 @@ Hardware: this is the Intel Corporation 82801G (ICH7 Family) USB chip.
 
 USB worked out of the box by loading the following modules:
 
-  * `usb-uhci` (USB 1.x support)
-  * `ehci-hcd` (USB 2 support)
+* `usb-uhci` (USB 1.x support)
+* `ehci-hcd` (USB 2 support)
 
-It is required to install the [udev](http://packages.debian.org/udev) package.
+It is required to install the [udev](https://packages.debian.org/udev) package.
 
 ### 10/100/1000 MBit ethernet LAN
 
@@ -77,7 +76,7 @@ Works out of the box with the ALSA module called `snd_hda_intel` module.
 
 Hardware: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller
 
-Since the inception of [kernel-mode-setting](http://en.wikipedia.org/wiki/Mode-setting) (KMS), no additional work is needed to get  
+Since the inception of [kernel-mode-setting](https://en.wikipedia.org/wiki/Mode-setting) (KMS), no additional work is needed to get  
 a decent framebuffer console. Load the `i915` module, and you're set.
 
 ### VGA X.Org
@@ -85,7 +84,8 @@ a decent framebuffer console. Load the `i915` module, and you're set.
 Hardware: Intel Corporation Mobile 945GM/GMS, 943/940GML Express Integrated Graphics Controller
 
 To make it working just set your video driver to `intel`:
-```
+
+```text
 Section "Device"
 			Identifier	"Generic Video Card"
 			Driver		"intel"
@@ -106,7 +106,7 @@ Hardeware: Apple, Inc. Bluetooth HCI MacBookPro.
 
 Works perfectly with the `bluetooth` and `btusb` modules.
 
-Debian users might want to install the [bluetooth](http://packages.debian.org/buetooth) package.
+Debian users might want to install the [bluetooth](https://packages.debian.org/buetooth) package.
 
 ### Harddisk
 
@@ -116,9 +116,9 @@ DMA is automagically enabled. I use `hdparm` to set an extra parameter: `hdparm 
 
 Explanation:
 
-  * -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
+* -F: set security-freeze (so that nothing can accidentily lock your disk with a password)
 
-For Debian; check the [hdparm](http://packages.debian.org/hdparm) package.
+For Debian; check the [hdparm](https://packages.debian.org/hdparm) package.
 
 ### Speedstep
 
@@ -126,9 +126,9 @@ You need this if you don't want your CPU to eat your batteries empty. It's inclu
 
 It works perfectly after loading the `acpi_cpufreq` and any of the `cpufreq-` modules.
 
-You can either install the `[cpufreqd](http://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).
+You can either install the `[cpufreqd](https://cpufreqd.sourceforge.net/)` daemon, or use the `cpufreq_ondemand` module (which modulates the speed by requirement).
 
-For Debian, check the [cpufreqd](http://packages.debian.org/cpufreqd) or [powernowd](http://packages.debian.org/powernowd) packages.
+For Debian, check the [cpufreqd](https://packages.debian.org/cpufreqd) or [powernowd](https://packages.debian.org/powernowd) packages.
 
 ### Wireless Lan
 
@@ -144,15 +144,15 @@ This also works pretty much out of the box. The kernel module to use is `ochi_13
 
 ### Infrared
 
-Currently not supported by the linux kernel. Possible patch: [is here](http://www.madingley.org/macmini/kernel/appleir-v1.1.c). Untested
+Currently not supported by the linux kernel. Possible patch: [is here](http://web.archive.org/web/20120308063924/http://www.madingley.org/macmini/kernel/appleir-v1.1.c)[^ia2]. Untested
 
 ### Multimedia Keys
 
 This laptop has several function keys which allow for the changing of the volume, brightness, ...
 
-After installation of [pommed](http://www.technologeek.org/projects/pommed/), these keys work perfectly.
+After installation of [pommed](https://github.com/richo/pommed), these keys work perfectly.
 
-Debian users can install the [pommed](http://packages.debian.org/pommed) and [gpomme(http://packages.debian.org/gpomme) packages.
+Debian users can install the [pommed](https://packages.debian.org/pommed) and [gpomme](https://packages.debian.org/gpomme) packages.
 
 ### (Userspace) Software Suspend
 
@@ -164,7 +164,7 @@ Doesn't work: suspend to disk (s2disk,s2both): causes a full system freeze, need
 
 Works with kernel supplied driver.
 
-You need to extract the firmware first from the Mac OS X driver, use [isight-firmware-tools](http://bersace03.free.fr/ift/). Debian users can use the [isight-firmware-tools](http://packages.debian.org/isight-firmware-tools) package.
+You need to extract the firmware first from the Mac OS X driver, use [isight-firmware-tools](http://bersace03.free.fr/ift/). Debian users can use the [isight-firmware-tools](https://packages.debian.org/isight-firmware-tools) package.
 
 ### Touchpad in console
 
@@ -172,11 +172,11 @@ You can use the touchpad with gpm, using the `exps2` driver.
 
 ### Touchpad in X.Org
 
-This is an AppleTouch touchpad. You can use it with [this driver](http://w1.894.telia.com/~u89404340/touchpad/).
+This is an AppleTouch touchpad. You can use it with [this driver](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia1].
 
-Add the following to the `/etc/X11/xorg.conf` file:
+Add the following to the `/etc/X11/xorg.conf`{: .filepath} file:
 
-```
+```text
 Section "InputDevice"
         Identifier      "AppleTouch"
         Driver          "synaptics"
@@ -209,17 +209,21 @@ Here's my [complete xorg.conf file](/assets/files/2010/05/apple-macbook-xorg.con
 It's advisable to run `syndaemon` after starting X, to prevent accidental taps while you're typing.  
 example: `syndaemon -i 2 -t -d`
 
-Debian users can install the [xserver-xorg-input-synaptics](http://packages.debian.org/xserver-xorg-input-synaptics) package.
+Debian users can install the [xserver-xorg-input-synaptics](https://packages.debian.org/xserver-xorg-input-synaptics) package.
 
 ## Links
 
-  * Apple: [http://www.apple.com](http://www.apple.com/)
-  * Hotkeys program: [http://www.technologeek.org/projects/pommed/](http://www.technologeek.org/projects/pommed/)
-  * Kernel: [http://www.kernel.org](http://www.kernel.org/)
-  * Linux on mobile computers: [http://www.tuxmobil.org/](http://www.tuxmobil.org/)
-  * Linux-on-laptops: [http://www.linux-on-laptops.com](http://www.linux-on-laptops.com/)
-  * Synaptics Touchpad driver for Xorg: [http://w1.894.telia.com/~u89404340/touchpad/](http://w1.894.telia.com/~u89404340/touchpad/)
-  * iSight firmware tools: [http://bersace03.free.fr/ift/](http://bersace03.free.fr/ift/)
-  * Madwifi-project: [http://www.madwifi-project.org](http://www.madwifi-project.org/)
-  * Linux USB Video Class driver for iSight: [http://linux-uvc.berlios.de/](http://www.ideasonboard.org/uvc/)
-  * Userspace VESA framebuffer: [http://dev.gentoo.org/~spock/projects/uvesafb/](http://dev.gentoo.org/~spock/projects/uvesafb/)
+* Apple: [www.apple.com](https://www.apple.com/)
+* Hotkeys program: [github.com](https://github.com/richo/pommed)
+* Kernel: [www.kernel.org](https://www.kernel.org/)
+* Linux on mobile computers: [web.archive.org](https://web.archive.org/web/20090210013601/http://tuxmobil.org:80/)[^ia3]
+* Linux-on-laptops: [https://linux-on-laptops.com](https://linux-on-laptops.com/)
+* Synaptics Touchpad driver for Xorg: [web.archive.org](http://web.archive.org/web/20080516195123/http://w1.894.telia.com/%7Eu89404340/touchpad/)[^ia1]
+* iSight firmware tools: [http://bersace03.free.fr/ift/](http://bersace03.free.fr/ift/)
+* Madwifi-project: [github.com](https://github.com/proski/madwifi)
+* Linux USB Video Class driver for iSight: [http://linux-uvc.berlios.de/](http://www.ideasonboard.org/uvc/)
+* Userspace VESA framebuffer: [docs.kernel.org](https://docs.kernel.org/fb/uvesafb.html)
+
+[^ia2]: Internet Archive snapshot. Original URL: http://www.madingley.org/macmini/kernel/appleir-v1.1.c <!-- markdownlint-disable-line MD034 -->
+[^ia1]: Internet Archive snapshot. Original URL: http://w1.894.telia.com/~u89404340/touchpad/ <!-- markdownlint-disable-line MD034 -->
+[^ia3]: Internet Archive snapshot. Original URL: http://www.tuxmobil.org/ <!-- markdownlint-disable-line MD034 -->

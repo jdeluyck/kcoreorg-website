@@ -1,16 +1,11 @@
 ---
-id: 50
 title: Memories (Within Temptation)
 date: 2005-01-19T13:14:37+02:00
-author: Jan
-layout: single
-permalink: /2005/01/19/memories-within-temptation/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - within temptation
-format: video
 ---
+
 In this world you tried  
 Not leaving me behind.  
 There's no other way.  
@@ -47,3 +42,5 @@ All of my memories keep you near.
 Your silent whispers, silent tears.
 
 All my memories...
+
+{% include embed/youtube.html id='gsQIOgkZt68' %}

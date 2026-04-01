@@ -1,10 +1,7 @@
 ---
 title: 'Chromecast Radio control using a Logitech Harmony Elite (and Home Assistant)'
 date: 2020-10-17
-author: Jan
-layout: single
-categories:
-  - Home Automation
+categories: [Technology & IT, Home Automation]
 tags:
   - logitech harmony remote
   - home assistant
@@ -12,16 +9,19 @@ tags:
   - emulated_roku
   - iptables
 ---
+
 Building further on my [CC Radio](/2020/01/09/cc-radio-ha-nodered/), I wanted to integrate this
-with my [Logitech Harmony Elite (+hub)](https://www.logitech.com/en-gb/product/harmony-elite) remote, so that no
+with my [Logitech Harmony Elite (+hub)](https://support.myharmony.com/en-be/elite) remote, so that no
 interaction is needed with Home Assistant itself to work the radio.
 
 The solution consists of several parts:
+
 * Using a sensor to keep track of what the Harmony Remote is set to
 * allowing channel changing through the Harmony Remote
 * allowing volume changing through the Harmony Remote
 
 ## Sensor configuration
+
 First, you'll need a sensor to keep track of which activity the Harmony Remote is set to.
 
 ```yaml
@@ -38,16 +38,18 @@ Next up, allowing changing the channel. In the LoveLace interface we have a drop
 Channel-Up and Channel-Down buttons on the Harmony Remote...
 
 ### Emulated Roku
-[Emulated Roku](https://www.home-assistant.io/integrations/emulated_roku/) to the rescue! 
 
-This basically fakes a [Roku Media Player](https://www.roku.com/), which you can then use together with the Harmony Remote.  
+[Emulated Roku](https://www.home-assistant.io/integrations/emulated_roku/) to the rescue!
+
+This basically fakes a [Roku Media Player](https://www.roku.com/intl), which you can then use together with the Harmony Remote.  
 
 Configuring the integration in Home Assistant is detailed in the documentation. I did have to do some additional steps,
 since my Home Assistant is on a different network than the Harmony Hub.
 I do have a Linux [VM](https://en.wikipedia.org/wiki/Virtual_machine) on both networks, which functions as a proxy.
 
 ### Proxy config
-After activating the integration through the web interface, you'll need to edit `/config/.storage/core.config_entries`, 
+
+After activating the integration through the web interface, you'll need to edit `/config/.storage/core.config_entries`{: .filepath},
 and add an `advertise_ip` entry under `data` with the IP address of your proxy.
 
 ```json
@@ -71,7 +73,7 @@ and add an `advertise_ip` entry under `data` with the IP address of your proxy.
 }
 ```
 
-After this, you'll also need to do the actual proxying. I didn't want to run any additional software, so I just put a 
+After this, you'll also need to do the actual proxying. I didn't want to run any additional software, so I just put a
 few [iptables](https://en.wikipedia.org/wiki/Iptables) rules.
 NOTE: this is just a subsection of rules in the script, make sure you properly integrate this with your own firewall!
 
@@ -97,7 +99,7 @@ iptables -t nat -A POSTROUTING --protocol tcp -d ${HASSIO}         -o ${LAN_IF} 
 iptables -t nat -A POSTROUTING --protocol udp -d ${HASSIO}         -o ${LAN_IF} -j SNAT --to ${LAN_IP}
 ```
 
-You'll also need to advertise your emulated_roku to let the Harmony Remote find it. 
+You'll also need to advertise your emulated_roku to let the Harmony Remote find it.
 
 ```bash
 python3 advertise_ip.py --api-ip IP.OF.YOUR.PROXY --api-port 8060
@@ -119,7 +121,7 @@ drop-down [input_select](https://www.home-assistant.io/integrations/input_select
 
 #### Flow
 
-![Node-RED flow](/assets/images/2020/10/harmony_cc_radio_nodered_v2.png "Harmony CC Radio NodeRed v2 flow")
+![Node-RED flow](/assets/img/posts/2020/10/harmony_cc_radio_nodered_v2.png "Harmony CC Radio NodeRed v2 flow")
 
 #### Json export
 

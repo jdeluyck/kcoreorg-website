@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<defs>
+  <linearGradient id="chrome" x1="0%" y1="0%" x2="80%" y2="100%">
+    <stop offset="0%"   stop-color="#ffffff"/>
+    <stop offset="12%"  stop-color="#dcdcdc"/>
+    <stop offset="25%"  stop-color="#ffffff"/>
+    <stop offset="38%"  stop-color="#a0a0a0"/>
+    <stop offset="50%"  stop-color="#f0f0f0"/>
+    <stop offset="62%"  stop-color="#6e6e6e"/>
+    <stop offset="75%"  stop-color="#d2d2d2"/>
+    <stop offset="88%"  stop-color="#828282"/>
+    <stop offset="100%" stop-color="#bebebe"/>
+  </linearGradient>
+  <linearGradient id="highlight" x1="0%" y1="0%" x2="30%" y2="100%">
+    <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.9"/>
+    <stop offset="40%"  stop-color="#ffffff" stop-opacity="0.0"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+  </linearGradient>
+  <filter id="bevel" color-interpolation-filters="sRGB">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+    <feSpecularLighting in="blur" surfaceScale="8" specularConstant="2.5" specularExponent="30" result="spec" lighting-color="white">
+      <fePointLight x="80" y="40" z="150"/>
+    </feSpecularLighting>
+    <feComposite in="spec" in2="SourceAlpha" operator="in" result="specClip"/>
+    <feBlend in="SourceGraphic" in2="specClip" mode="screen" result="blended"/>
+    <feComposite in="blended" in2="SourceAlpha" operator="in"/>
+  </filter>
+  <filter id="shadow">
+    <feDropShadow dx="4" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.3"/>
+  </filter>
+</defs>
+
+<text x="250" y="468"
+  font-family="'Courier New', Courier, monospace"
+  font-size="760" font-weight="400" text-anchor="middle"
+  fill="#a0a0a0" stroke="#a0a0a0" stroke-width="4"
+  filter="url(#shadow)">k</text>
+
+<text x="250" y="468"
+  font-family="'Courier New', Courier, monospace"
+  font-size="760" font-weight="400" text-anchor="middle"
+  fill="url(#chrome)"
+  filter="url(#bevel)">k</text>
+
+<text x="250" y="468"
+  font-family="'Courier New', Courier, monospace"
+  font-size="760" font-weight="400" text-anchor="middle"
+  fill="url(#highlight)">k</text>
+</svg>

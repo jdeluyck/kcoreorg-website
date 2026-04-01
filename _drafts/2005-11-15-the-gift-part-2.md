@@ -1,0 +1,13 @@
+---
+title: 'The Gift - part 2'
+date: 2005-11-15T20:25:18+02:00
+categories: [Personal]
+tags:
+  - gift
+  - mju mini
+---
+Well, I've been to Spain, came back in the meanwhile... (unfortunately.. I wanna stay there longer...)
+
+I gave her my presents, which ended (when assembled) in this:
+
+<img SRC="/assets/img/posts/2005/11/mju_mini_diana.jpg" /> and [she's](http://sade.sadevil.org/blog/?p=18) very happy with it :P \*phew\* \*g\*

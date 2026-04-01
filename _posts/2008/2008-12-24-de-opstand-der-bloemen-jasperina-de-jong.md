@@ -1,15 +1,11 @@
 ---
-id: 390
-title: 'De Opstand Der Bloemen - Jasperina De Jong'
+title: 'De Opstand Der Bloemen (Jasperina De Jong)'
 date: 2008-12-24T15:26:52+02:00
-author: Jan
-layout: single
-permalink: /2008/12/24/de-opstand-der-bloemen-jasperina-de-jong/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - jasperina de jong
 ---
+
 Wij zijn de tuin van het echtpaar de Bondt  
 Aardige lui dat gaat best  
 Wij staan in redelijk vruchtbare grond  
@@ -60,3 +56,5 @@ Ons welzijn benadeelt ons leefklimaat schaadt
 Enkel natuurlijk mest is gezond  
 Mest van de koe of desnoods uit uw kont  
 Mijnheer de Bondt, mevrouw de Bondt
+
+{% include embed/youtube.html id='Mtq4h1fMhHE' %}

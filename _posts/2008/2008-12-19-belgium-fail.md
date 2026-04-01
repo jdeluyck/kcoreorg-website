@@ -1,20 +1,16 @@
 ---
-id: 380
 title: 'Belgium: FAIL!'
 date: 2008-12-19T20:55:55+02:00
-author: Jan
-layout: single
-permalink: /2008/12/19/belgium-fail/
-categories:
-  - Politics
-  - Rants
+categories: [Life & Musings, Personal]
 tags:
+  - rants
   - crap
   - politics
 ---
+
 Once again, Belgium is the laughing stock of the EU.
 
-Once again, we're without a government, due to their [own inability to follow the constitutional division between the powers in the country](http://edition.cnn.com/2008/WORLD/europe/12/19/belgium.government.resignation/index.html#cnnSTCText) (justice/political).
+Once again, we're without a government, due to their [own inability to follow the constitutional division between the powers in the country](https://edition.cnn.com/2008/WORLD/europe/12/19/belgium.government.resignation/index.html) (justice/political).
 
 Great.
 

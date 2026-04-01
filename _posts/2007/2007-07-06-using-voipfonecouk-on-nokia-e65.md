@@ -1,21 +1,17 @@
 ---
-id: 128
 title: Using Voipfone.co.uk on Nokia E65
 date: 2007-07-06T21:11:42+02:00
-author: Jan
-layout: single
-permalink: /2007/07/06/using-voipfonecouk-on-nokia-e65/
-categories:
-  - Symbian
+categories: [Mobile & Gadgets, Symbian]
 tags:
   - nokia e65
   - sip
   - voip
   - voipfone.co.uk
 ---
-I recently bought a [Nokia E65](http://europe.nokia.com/A4344227), a very classy, handy, and feature-packed phone. One of the reasons I went with this one is because it has WiFi, which I want to use for making internet-calls. The [SIP](http://en.wikipedia.org/wiki/Session_Initiation_Protocol) client is a bit of [pita](http://www.auditmypc.com/acronym/PITA.asp) though to configure, but I finally managed to get it working.
 
-How to configure the [voipfone.co.uk](http://www.voipfone.co.uk) voip service:
+I recently bought a [Nokia E65](https://en.wikipedia.org/wiki/Nokia_E65), a very classy, handy, and feature-packed phone. One of the reasons I went with this one is because it has WiFi, which I want to use for making internet-calls. The [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) client is a bit of [pita](https://www.urbandictionary.com/define.php?term=PITA) though to configure, but I finally managed to get it working.
+
+How to configure the [voipfone.co.uk](https://www.voipfone.co.uk/) voip service:
 
 > **General info:**  
 > Profile Name: Voipfone  

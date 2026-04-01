@@ -1,15 +1,11 @@
 ---
-id: 363
-title: 'Willem Vermandere - Bric A brac'
+title: 'Bric A brac - Willem Vermandere'
 date: 2008-11-14T20:26:19+02:00
-author: Jan
-layout: single
-permalink: /2008/11/14/willem-vermandere-bric-a-brac/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - willem vermandere
 ---
+
 ‘t is niet den auto, ‘t is de reis  
 niet de tafel, ‘t is de spijs  
 niet den oven, ‘t is de koek  
@@ -63,3 +59,5 @@ dit is geen verhaal, ‘t is bric à brac
 niet het scheiden, ‘t is ‘t vaarwel  
 niet van buiten, ‘t is intern  
 niet de voorkant, ‘t is de kern...
+
+{% include embed/youtube.html id='nKvFNuJUw9s' %}

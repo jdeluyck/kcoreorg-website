@@ -1,19 +1,16 @@
 ---
 title: Additional powersaving using udev rules
 date: 2023-04-16
-author: Jan
-layout: single
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - lenovo thinkpad t14s gen3 amd
 ---
 
 Some additional powertweaks - courtesey of [syrjala on Phoronix](https://www.phoronix.com/forums/forum/software/mobile-linux/1309090-benchmarks-is-powertop-tuning-worthwhile-for-modern-amd-linux-laptops?p=1309138#post1309138) - for my [Lenovo Thinkpad T14s Gen3 (AMD)](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadt/thinkpad-t14s-gen-3-(14-inch-amd)/len101t0015):
 
-Add this to eg. `/etc/udev/rules.d/99-custom-powersaving.rules`
+Add this to eg. `/etc/udev/rules.d/99-custom-powersaving.rules`{: .filepath}
 
-```
+```txt
 ACTION=="add|change", SUBSYSTEM=="pci|usb", TEST=="power/control", ATTR{power/control}="auto"
 ACTION=="add|change", SUBSYSTEM=="pci|usb", TEST=="power/wakeup", ATTR{power/wakeup}="disabled"
 ACTION=="add|change", SUBSYSTEM=="usb", TEST=="product", TEST=="power/autosuspend_delay_ms", ATTR{product}=="*[kK]eyboard*", ATTR{power/autosuspend_delay_ms}="30000"

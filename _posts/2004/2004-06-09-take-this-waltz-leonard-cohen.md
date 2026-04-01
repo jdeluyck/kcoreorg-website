@@ -1,16 +1,11 @@
 ---
-id: 63
 title: Take This Waltz (Leonard Cohen)
 date: 2004-06-09T21:53:51+02:00
-author: Jan
-layout: single
-permalink: /2004/06/09/take-this-waltz-leonard-cohen/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - leonard cohen
-format: video
 ---
+
 Now in Vienna there's ten pretty women  
 There's a shoulder where Death comes to cry  
 There's a lobby with nine hundred windows  
@@ -70,3 +65,5 @@ To the pools that you lift on your wrist
 Oh my love, Oh my love  
 Take this waltz, take this waltz  
 It's yours now. It's all that there is.
+
+{% include embed/youtube.html id='wfNOogGqSLA' %}

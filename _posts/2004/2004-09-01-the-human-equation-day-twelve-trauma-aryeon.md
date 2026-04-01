@@ -1,16 +1,11 @@
 ---
-id: 49
 title: 'The Human Equation - Day Twelve: Trauma (Aryeon)'
 date: 2004-09-01T16:05:33+02:00
-author: Jan
-layout: single
-permalink: /2004/09/01/the-human-equation-day-twelve-trauma-aryeon/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - ayreon
-format: video
 ---
+
 [Reason]  
 Think hard, you are lying here in a hospital bed  
 Disregard the emotions inside your head  
@@ -54,11 +49,13 @@ You must fight hard to break this spell
 But it hurts....
 
 [Fear] You hear her voice, from beyond her grave  
+
 - Where were you son, when I needed you  
 Is this your thanks for all the warmth I gave  
 - Did you forget what I been through?
 
 You hear his voice, cold and merciless  
+
 - You worthless fool, you let her die!  
 And deep within yourself, you must confess  
 Your ways cannot be justified
@@ -79,3 +76,5 @@ It's your life!
 [Fear] Your ways cannot be justified
 
 (Chorus 2 - Pride)
+
+{% include embed/youtube.html id='TSKtHnt8lKI' %}

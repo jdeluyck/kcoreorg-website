@@ -1,18 +1,14 @@
 ---
-id: 894
 title: Reset android lockscreen to slide
 date: 2012-09-22T10:48:27+02:00
-author: Jan
-layout: single
-permalink: /2012/09/22/reset-android-lockscreen-to-slide/
-categories:
-  - Android
+categories: [Mobile & Gadgets, Android]
 tags:
   - adb
   - android
   - lockscreen
   - pin
 ---
+
 You've just reconfigured the security lockscreen settings on your (rooted) android phone, and then forgotten eg. the PIN code to unlock it? It happened to me yesterday.
 
 Luckely(?) there's an easy way around it, if you have adb activated:

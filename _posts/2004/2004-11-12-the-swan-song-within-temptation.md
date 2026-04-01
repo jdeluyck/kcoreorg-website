@@ -1,16 +1,11 @@
 ---
-id: 62
 title: The Swan Song (Within Temptation)
 date: 2004-11-12T20:29:29+02:00
-author: Jan
-layout: single
-permalink: /2004/11/12/the-swan-song-within-temptation/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - within temptation
-format: video
 ---
+
 Winter has come for me, can't carry on.  
 The chains to my life are strong but soon they'll be gone.  
 I'll spread my wings one more time.
@@ -37,3 +32,5 @@ Is it a dream?
 All the ones I have loved calling out my name.  
 The sun warms my face.  
 All the days of my life, I see them passing me by.
+
+{% include embed/youtube.html id='RzoinK83vrE' %}

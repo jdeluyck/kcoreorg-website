@@ -1,0 +1,9 @@
+---
+title: There and back again
+date: 2005-11-15T19:48:27+02:00
+categories:
+  - Travels
+---
+I went, had fun, came back (unfortunately)... It's all on [Diana's blog!](http://sade.sadevil.org/blog/?p=18)
+
+Oh, she'll be here sooooooooooooooooooooon! The beginning of december!

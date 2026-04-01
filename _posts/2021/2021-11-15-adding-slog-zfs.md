@@ -1,10 +1,7 @@
 ---
 title: 'Adding a SLOG to ZFS'
 date: 2021-11-15
-author: Jan
-layout: single
-categories:
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
   - zfs
   - proxmox
@@ -13,6 +10,7 @@ tags:
 ---
 
 I've noticed that quite a few of my VM workloads and NFS workloads are rather slow on my [Proxmox box](/2020/05/07/enter-zfs/), due to the facts that
+
 1. it's sitting on spinning rust (also known as hard disk drives)
 2. a lot of those are synchronous writes
 
@@ -24,15 +22,18 @@ To solve the problem of slow sync writes, you can implement what is known as a S
 
 ZFS writes without SLOG:
 
-![sync write without slog](/assets/images/2021/12/zfs-sync-write-no-slog.png)
+![sync write without slog](/assets/img/posts/2021/12/zfs-sync-write-no-slog.png){: .light }
+![sync write without slog](/assets/img/posts/2021/12/zfs-sync-write-no-slog-dark.png){: .dark }
 
 ZFS writes with SLOG:
 
-![sync write without slog](/assets/images/2021/12/zfs-sync-write-slog.png)
+![sync write with slog](/assets/img/posts/2021/12/zfs-sync-write-slog.png){: .light }
+![sync write with slog](/assets/img/posts/2021/12/zfs-sync-write-slog-dark.png){: .dark }
 
-Typically (always?) a SLOG device will be some sort of [flash memory](https://en.wikipedia.org/wiki/Flash_memory), or [Intel Optane](https://en.wikipedia.org/wiki/3D_XPoint). 
+Typically (always?) a SLOG device will be some sort of [flash memory](https://en.wikipedia.org/wiki/Flash_memory), or [Intel Optane](https://en.wikipedia.org/wiki/3D_XPoint).
 
 This SLOG device needs to tick quite a few boxes:
+
 * needs to be FAST. Faster than your other media
 * needs to have a high write endurance. A lot of writes will happen to it. Consumer SSD's will be worn really quick
 * needs to be able to deal with a power outage. If power goes out before it's had a chance to flush it's buffers, you're still hosed. This is usually called Power Loss Protection, or PLP
@@ -44,17 +45,18 @@ As Intel Optane is really out of my budget, I settled on two secondhand Dell
 
 These two SSD's are added to my ZFS pool in a mirror, so that should one of them die, there's still the other one in place, and my writes are safe.
 
-Now, you have those fancy SSD's installed, how do you add a SLOG? 
+Now, you have those fancy SSD's installed, how do you add a SLOG?
 I partitioned my SSD's so that I had an 8GB partition on both, and added them to the pool:
 
 ```sh
-# zpool add datapool log mirror /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_SSD1100FGN-part1 /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_SSD2100FGN-part1 
+zpool add datapool log mirror /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_SSD1100FGN-part1 /dev/disk/by-id/ata-INTEL_SSDSC2BA100G3R_SSD2100FGN-part1 
 ``` 
 
 This command should return quickly. You can check the status of the SLOG using `zpool status -v`:
 
 ```sh
-# zpool status -v
+zpool status -v
+
   pool: datapool
  state: ONLINE
 config:
@@ -73,7 +75,8 @@ errors: No known data errors
 And you can mirror the usage with `zpool iostat -v 1`
 
 ```sh
-# zpool iostat -v 1
+zpool iostat -v 1
+
                                                          capacity     operations     bandwidth 
 pool                                                   alloc   free   read  write   read  write
 -----------------------------------------------------  -----  -----  -----  -----  -----  -----
@@ -86,4 +89,3 @@ logs                                                       -      -      -      
 -----------------------------------------------------  -----  -----  -----  -----  -----  -----
 
 ```
-

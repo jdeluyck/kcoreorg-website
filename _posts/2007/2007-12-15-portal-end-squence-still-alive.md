@@ -1,27 +1,22 @@
 ---
-id: 189
 title: 'Portal end squence... Still Alive!'
 date: 2007-12-15T21:56:21+02:00
-author: Jan
-layout: single
-permalink: /2007/12/15/portal-end-squence-still-alive/
-categories:
-  - Videos
+categories: [Life & Musings, Gaming]
 tags:
   - halflife
   - portal
   - valvesoftware
-format: video
 ---
-I recently bought [Portal](http://orange.half-life2.com/portal.html) - a puzzle game (based on the [Source engine](http://www.valvesoftware.com/sourcelicense/default.htm)) by [Valve](http://www.valvesoftware.com/). The game in itself is fun, but even more fun was the end sequence!
+
+I recently bought [Portal](https://store.steampowered.com/sub/469/) - a puzzle game (based on the [Source engine](https://en.wikipedia.org/wiki/Source_%28game_engine%29)) by [Valve](https://www.valvesoftware.com/). The game in itself is fun, but even more fun was the end sequence!
 
 (warning - spoilers ahead - so finish the game first before watching this!)
 
-Read [this wonderful Ars Technica article](http://arstechnica.com/journals/thumbs.ars/2007/10/11/portal-has-the-best-song-in-modern-gaming-here-is-how-you-get-it-from-your-install) if you want to extract it from your Portal installation ;)
+Read [this wonderful Ars Technica article](https://arstechnica.com/gaming/2007/10/portal-has-the-best-song-in-modern-gaming-here-is-how-you-get-it-from-your-install/) if you want to extract it from your Portal installation ;)
 
 You can find the lyrics below:
 
-**Still Alive by [Jonathan Coulton](http://www.jonathancoulton.com/)**  
+**Still Alive by [Jonathan Coulton](https://www.jonathancoulton.com/)**  
 This was a triumph  
 I'm making a note here  
 HUGE SUCCESS  
@@ -63,3 +58,5 @@ I feel FANTASTIC and I'm still alive
 While you are dying I'll be still alive  
 and when you're dead I'll be still alive  
 STILL ALIVE, still alive
+
+{% include embed/youtube.html id='Y6ljFaKRTrI' %}

@@ -1,12 +1,9 @@
 ---
 title: 'Learning the piano, and playing with MIDI & PulseAudio on Linux'
 date: 2021-01-16
-author: Jan
-layout: single
-categories:
-  - Music
-  - Linux / Unix
+categories: [Technology & IT, Linux]
 tags:
+  - music
   - midi
   - linux
   - roland rd-700gx
@@ -22,40 +19,42 @@ I've always wanted to learn the piano. Finally, in 2021, I'm following up on it 
 
 I got to loan a [Roland RD-700GX](https://www.roland.com/global/products/rd-700gx/) [Digital Piano](https://en.wikipedia.org/wiki/Digital_piano) (not a synth!)
 from some friends (Thank you!) to learn on. This thing has no speakers, as it's actually a stage piano, but does have
-Line out, Headphones out, [MIDI](https://en.wikipedia.org/wiki/MIDI) in/out, USB (with MIDI), ... 
+Line out, Headphones out, [MIDI](https://en.wikipedia.org/wiki/MIDI) in/out, USB (with MIDI), ...
 For playing at home I either use headphones, or a small speaker I plug in the headphones jack.
 
 Now, to learn - you can learn on your own, but I do believe that a lot of practical information can only properly be gotten
 from a teacher. Unfortunately, in these COVID-19 times, in-person classes are not taught.
-My local music school does still teach, but using video conferencing. Not ideal, but it does work. 
+My local music school does still teach, but using video conferencing. Not ideal, but it does work.
 
-As my playing is still in its infantile stage, I don't want to put my partner through it :P so I looked for a way to 
+As my playing is still in its infantile stage, I don't want to put my partner through it :P so I looked for a way to
 put the keyboard sound and my voice over the video conferencing, without making the piano sound in the room.
 Most video conferencing software only takes one input, and a microphone input at that - so I'd have to mix the two into
 one stream that's recognized as a virtual mic.
 
-A lot of tutorials on using MIDI on Linux write about using [jack audio](https://jackaudio.org/), instead of 
-feeding straight into [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/). Jack makes sense  if you really
+A lot of tutorials on using MIDI on Linux write about using [jack audio](https://jackaudio.org/), instead of
+feeding straight into [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/). Jack makes sense if you really
 need low latency audio, but in my case it does not really matter that much.
 
 To get the MIDI signal from the digital piano to my laptop for mixing, I used [fluidsynth](https://www.fluidsynth.org/),
-a real-time software synthesizer. 
+a real-time software synthesizer.
 
 ## Installing fluidsynth
 
-Installing fluidsynth is as easy as ```apt install fluidsynth``` and adding the line  
-```
+Installing fluidsynth is as easy as `apt install fluidsynth` and adding the line  
+
+```ini
 OTHER_OPTS='-a pulseaudio -m alsa_seq -g 10 -r 48000'
 ```
-to ```/etc/defaults/fluidsynth```
+
+to `/etc/defaults/fluidsynth`{: .filepath}
 
 This will make fluidsynth use pulseaudio as the audio driver versus it's default of jackd.
 
-Fluidsynth can be started using ```systemctl --user start fluidsynth```. To start it every time, use ```systemctl --user enable fluidsynth```
+Fluidsynth can be started using `systemctl --user start fluidsynth`. To start it every time, use `systemctl --user enable fluidsynth`
 
-After plugging in the digital piano, it's visible to [ALSA (Advanced Linux Sound Architecture)](https://www.alsa-project.org/wiki/Main_Page).   
-Managing the connections between the input (digital piano) and output (fluidsynth) is done using 
-```aconnect``` or the ```aconnectgui``` GUI.
+After plugging in the digital piano, it's visible to [ALSA (Advanced Linux Sound Architecture)](https://www.alsa-project.org/wiki/Main_Page).
+Managing the connections between the input (digital piano) and output (fluidsynth) is done using
+`aconnect` or the `aconnectgui` GUI.
 
 ```bash
 $ aconnect -i
@@ -78,19 +77,22 @@ client 128: 'FLUID Synth (21896)' [type=user,pid=21896]
     0 'Synth input port (21896:0)'
 ```
 
-![aconnectgui before linking](/assets/images/2021/01/aconnectgui-before.png "aconnectgui before linking")
+![aconnectgui before linking](/assets/img/posts/2021/01/aconnectgui-before.png "aconnectgui before linking")
 
 You can connect the two using
+
 ```bash
-$ aconnect 24:0 128:0
+aconnect 24:0 128:0
 ```
-![aconnectgui after linking](/assets/images/2021/01/aconnectgui-after.png "aconnectgui after linking")
+
+![aconnectgui after linking](/assets/img/posts/2021/01/aconnectgui-after.png "aconnectgui after linking")
 
 If you hit a key on the piano it will sound through the default audio output :)
 
 ## PulseAudio configuration
 
 Once you hit any key on the piano, fluidsynth will show up as a client for PulseAudio:
+
 ```bash
 $ pacmd list-clients
 ...
@@ -114,13 +116,15 @@ $ pacmd list-clients
 ```
 
 It'll be visible in [pavucontrol](https://freedesktop.org/software/pulseaudio/pavucontrol/):
-![pavucontrol](/assets/images/2021/01/pulseaudio-fluidsynth-defaultout.png "apavucontrol")
+![pavucontrol](/assets/img/posts/2021/01/pulseaudio-fluidsynth-defaultout.png "apavucontrol")
 There you can also change which device it needs to output to.
 
 ### Headset configuration
+
 I'm using a Plantronics C3200 headset. After plugging this in, it shows up in PulseAudio and (probably) will become the default input and output.
 
 Input (source):
+
 ```bash
 $ pacmd list-sources 
 ...
@@ -229,6 +233,7 @@ $ pacmd list-sources
 ```
 
 Output (sink):
+
 ```bash
 $ pacmd list-sinks
 ...
@@ -297,30 +302,35 @@ $ pacmd list-sinks
 ```
 
 ### Output mapping
+
 For mapping the outputs to the right inputs, I based myself off of the information found on [this Stackexchange post](https://unix.stackexchange.com/questions/576785/redirecting-pulseaudio-sink-to-a-virtual-source)
 
 First we create a ```null-sink``` which will be used to mix the output from fluidsynth ahd the microphone:
+
 ```bash
-$ pacmd load-module module-null-sink sink_name=mix-for-virtual-mic sink_properties=device.description=Mix-for-Virtual-Microphone
+pacmd load-module module-null-sink sink_name=mix-for-virtual-mic sink_properties=device.description=Mix-for-Virtual-Microphone
 ```
 
 Since we do want to be able to hear the piano ourselves too, we create a ```combine-sink```: this will output whatever lands
 on it to the slaves: the above ```null-sink``` and the headset.
+
 ```bash
-$ HEADSET="alsa_output.usb-Plantronics_Plantronics_Blackwire_3225_Series_1129BBD004004FF4BD2E6F2248C0D73E-00.analog-stereo"
-$ pacmd load-module module-combine-sink sink_name=virtual-microphone-and-speakers slaves=mix-for-virtual-mic,$HEADSET
+HEADSET="alsa_output.usb-Plantronics_Plantronics_Blackwire_3225_Series_1129BBD004004FF4BD2E6F2248C0D73E-00.analog-stereo"
+pacmd load-module module-combine-sink sink_name=virtual-microphone-and-speakers slaves=mix-for-virtual-mic,$HEADSET
 ```
 
 We also need to redirect the input of the headset microphone to the virtual microphone.
+
 ```bash
-$ MIC="alsa_input.usb-Plantronics_Plantronics_Blackwire_3225_Series_1129BBD004004FF4BD2E6F2248C0D73E-00.analog-stereo"
-$ pacmd load-module module-loopback latency_msec=20 sink=mix-for-virtual-mic source=$MIC
+MIC="alsa_input.usb-Plantronics_Plantronics_Blackwire_3225_Series_1129BBD004004FF4BD2E6F2248C0D73E-00.analog-stereo"
+pacmd load-module module-loopback latency_msec=20 sink=mix-for-virtual-mic source=$MIC
 ```
 
 To make video conferencing apps pick it up, a echo-cancel sink is required:
+
 ```bash
-$ pacmd load-module module-null-sink sink_name=silence sink_properties=device.description=silent-sink-for-echo-cancel
-$ pacmd load-module module-echo-cancel sink_name=virtual-microphone source_name=virtual-microphone source_master=mix-for-virtual-mic.monitor sink_master=silence aec_method=null source_properties=device.description=Virtual-Microphone sink_properties=device.description=Virtual-Microphone
+pacmd load-module module-null-sink sink_name=silence sink_properties=device.description=silent-sink-for-echo-cancel
+pacmd load-module module-echo-cancel sink_name=virtual-microphone source_name=virtual-microphone source_master=mix-for-virtual-mic.monitor sink_master=silence aec_method=null source_properties=device.description=Virtual-Microphone sink_properties=device.description=Virtual-Microphone
 ```
 
 and you should now have a Virtual Microphone to use in video conferencing :)

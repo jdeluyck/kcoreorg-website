@@ -1,16 +1,11 @@
 ---
-id: 47
 title: The Queen and The Soldier (Susanne Vega)
 date: 2004-10-07T23:48:17+02:00
-author: Jan
-layout: single
-permalink: /2004/10/07/the-queen-and-the-soldier-susanne-vega/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - susanne vega
-format: video
 ---
+
 The soldier came knocking upon the queen's door  
 He said, "I am not fighting for you any more"  
 The queen knew she'd seen his face someplace before  
@@ -65,3 +60,5 @@ Out in the distance her order was heard
 And the soldier was killed, still waiting for her word  
 And while the queen went on strangeling in the solitude she preferred  
 The battle continued on...
+
+{% include embed/youtube.html id='pcFa9VZxkBc' %}

@@ -1,17 +1,13 @@
 ---
-id: 278
 title: Cloning woes
 date: 2008-08-30T19:49:28+02:00
-author: Jan
-layout: single
-permalink: /2008/08/30/cloning-woes/
-categories:
-  - Apple / Mac OS
+categories: [Technology & IT, Apple]
 tags:
   - carbon copy cloner
   - mac os x
   - permission problem
 ---
+
 After yesterday's [clone](/2008/08/29/bigger-disk/) I noticed some applications behaved erraticly, amongst which Preview, Thunderbird, Appfresh... rather irritating.
 
 After some searching I found the fix on this [CCC Forum thread](http://forums.bombich.com/viewtopic.php?p=42055#42055):

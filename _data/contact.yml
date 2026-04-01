@@ -1,0 +1,44 @@
+#  The contact options.
+
+- type: mastodon
+  icon: "fab fa-mastodon" # icons powered by <https://fontawesome.com/>
+  url: "https://fedi.kcore.org/@jan" # Fill with your Mastodon account page, rel="me" will be applied for verification
+
+- type: codeberg
+  icon: "icon-codeberg"
+  url: "https://codeberg.org/jdeluyck"
+
+- type: github
+  icon: "fab fa-github"
+
+- type: email
+  icon: "fas fa-envelope"
+  noblank: false # open link in current tab
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: false
+
+- type: facebook
+  icon: "fab fa-fw fa-facebook-square"
+  url: https://facebook.com/jan.deluyck
+
+- type: linkedin
+  icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
+  url: "https://linkedin.com/in/jandeluyck" # Fill with your Linkedin homepage
+#
+# - type: stack-overflow
+#   icon: 'fab fa-stack-overflow'
+#   url:  ''                  # Fill with your stackoverflow homepage
+#
+# - type: bluesky
+#   icon: 'fa-brands fa-bluesky'
+#   url: ''                   # Fill with your Bluesky profile link
+#
+# - type: reddit
+#   icon: 'fa-brands fa-reddit'
+#   url: ''                   # Fill with your Reddit profile link
+#
+# - type: threads
+#   icon: 'fa-brands fa-threads'
+#   url: ''                   # Fill with your Threads profile link

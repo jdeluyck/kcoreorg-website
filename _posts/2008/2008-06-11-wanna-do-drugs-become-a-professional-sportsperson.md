@@ -1,23 +1,20 @@
 ---
-id: 246
 title: Wanna do drugs? Become a professional sportsperson!
 date: 2008-06-11T18:26:12+02:00
-author: Jan
-layout: single
-permalink: /2008/06/11/wanna-do-drugs-become-a-professional-sportsperson/
-categories:
-  - Politics
-  - Rants
+categories: [Life & Musings, Personal]
 tags:
+  - rants
+  - politics
   - cocaine
   - drugs
   - rant
   - stupid belgian government
   - tom boonen
 ---
+
 I can get so goddamn annoyed at our local sport-crazy people...
 
-The latest idiocy: [Tom Boonen](http://en.wikipedia.org/wiki/Tom_Boonen), a professional cyclist, has been caught (outside of a sports event) using [cocaine](http://en.wikipedia.org/wiki/Cocaine). Using this drug is an offence, punishable by law.
+The latest idiocy: [Tom Boonen](https://en.wikipedia.org/wiki/Tom_Boonen), a professional cyclist, has been caught (outside of a sports event) using [cocaine](https://en.wikipedia.org/wiki/Cocaine). Using this drug is an offence, punishable by law.
 
 What does our wonderful country do? "Oh, my, poor guy, he probably took it because he was so lonely... bad drugs! bad drugs! good Tom! Let's make a martyr and a hero out of him, but most of all, let's definitly not punish him!"
 

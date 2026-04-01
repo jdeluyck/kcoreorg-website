@@ -1,16 +1,11 @@
 ---
-id: 1077
 title: Happy Xmess!
 date: 2014-12-24T10:55:39+02:00
-author: Jan
-layout: single
-permalink: /2014/12/24/happy-xmess/
-categories:
-  - Personal
+categories: [Life & Musings, Personal]
 tags:
   - xmas
-format: image
 ---
+
 In yearly tradition..
 
-[![MerryXmas2014](/assets/images/2014/12/MerryXmas2014-1024x665.png "MerryXmas2014")](/assets/images/2014/12/MerryXmas2014.png)
+[![MerryXmas2014](/assets/img/posts/2014/12/MerryXmas2014 "MerryXmas2014")](/assets/img/posts/2014/12/MerryXmas2014.png)

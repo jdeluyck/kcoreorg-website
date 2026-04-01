@@ -1,24 +1,19 @@
 ---
-id: 697
 title: Christmasconcert Arte Musicale
 date: 2011-11-19T10:07:09+02:00
-author: Jan
-layout: single
-permalink: /2011/11/19/christmasconcert-arte-musicale/
-categories:
-  - Chamberchoir Furiant
-  - Music
+categories: [Hobbies & Interests, Chamberchoir Furiant]
 tags:
   - arte musicale
   - chamberchoir furiant
   - christmas
   - kamerkoor furiant
 ---
-As some of you might (not) know, I've recently joined a choir, called [Furiant](http://www.furiant.be/), which is part of the [Arte Musicale](http://www.artemusicale.be) group. (I already play in a pipe band (the [Flemish Caledonian Pipes & Drums](http://www.fcpd.be)))
+
+As some of you might (not) know, I've recently joined a choir, called [Furiant](https://artemusicale.be/ensembles/kamerkoor-furiant/), which is part of the [Arte Musicale](https://artemusicale.be/) group. (I already play in a pipe band (the [Flemish Caledonian Pipes & Drums](https://www.fcpd.be)))
 
 On the 26th of december, we're giving a christmas concert in the OLV Sint Pieterschurch on the Sint Pietersplein in Ghent.
 
-![Christmas Concert Arte Musicale 2011](/assets/images/2012/03/Affiche-AM-Kerstconcert-1.jpg "Christmas Concert Arte Musicale 2011")
+![Christmas Concert Arte Musicale 2011](/assets/img/posts/2012/03/Affiche-AM-Kerstconcert-1.jpg "Christmas Concert Arte Musicale 2011")
 
 Here's a handy google maps thingy to help you find us :)  
 

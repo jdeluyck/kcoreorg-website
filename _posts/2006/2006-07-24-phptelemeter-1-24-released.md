@@ -1,18 +1,12 @@
 ---
-id: 1364
 title: phptelemeter 1.24 released
 date: 2006-07-24T10:30:51+02:00
-author: Jan
-layout: single
-permalink: /2006/07/24/phptelemeter-1-24-released/
-categories:
-  - phptelemeter
+categories: [Software, phpTelemeter]
 tags:
   - phptelemeter
 ---
-I've just released phptelemeter 1.24. This release includes the following changes:
 
-  * Added detection of overusage on Dommel parser
-  * Added detection of 'Access Denied' errors on Skynet parser
+I've just released phptelemeter 1.24. This release includes the following changes:
 
-As per usual, you can download it from [SourceForge](http://sourceforge.net/projects/phptelemeter).
+* Added detection of overusage on Dommel parser
+* Added detection of 'Access Denied' errors on Skynet parser

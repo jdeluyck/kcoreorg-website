@@ -1,25 +1,27 @@
 ---
 title: 'Telenet and Unifi'
 date: 2019-12-27
-author: Jan
-layout: single
-categories:
-  - Networking
+categories: [Technology & IT, Networking]
 tags:
   - unifi
   - telenet
+  - networking
 ---
-Some months back a friend of mine wanted to switch over to the [Unifi](https://unifi-network.ui.com/) platform (which I've been using now for about a year), and get it to play nice with his [Telenet ISP](https://telenet.be) setup aswell.
 
-![Network diagram](/assets/images/2019/12/unifi-telenet-diagram.png)
+Some months back a friend of mine wanted to switch over to the [Unifi](https://ui.com/) platform (which I've been using now for about a year), and get it to play nice with his [Telenet ISP](https://telenet.be) setup aswell.
+
+![Network diagram](/assets/img/posts/2019/12/unifi-telenet-diagram.png){: .light }
+![Network diagram](/assets/img/posts/2019/12/unifi-telenet-diagram-dark.png){: .dark }
 
 This means:
-* Getting WAN IP addresses to the [Telenet Digicorders](https://www2.telenet.be/nl/klantenservice/de-telenet-decoders-overzicht-technische-specificaties/)
-* Getting a WAN IP to his [Unifi Secure Gateway](https://www.ui.com/unifi-routing/usg/)
+
+* Getting WAN IP addresses to the [Telenet Digicorders](https://www2.telenet.be/residential/nl/klantenservice/tv-en-entertainment/kijken-via-decoder-of-kaartje/telenet-decoders:-technische-specificaties)
+* Getting a WAN IP to his [Unifi Secure Gateway](https://dl.ubnt.com/datasheets/unifi/UniFi_Security_Gateway_DS.pdf)
 * Making the USG the DHCP server (and everything else) for the rest of the network
 * Making sure all the traffic from the LAN remains isolated from the WAN
 
 With Unifi, this is fairly easily to solve. The following assumes you'll be using a Unifi controller version 5.12 (or higher), as the menu structure changed drastically between 5.11 and 5.12.
+
 * Create a new network:  
 Settings &rarr; Networks &rarr; Local Networks  
 Create a new Advanced Network of the type VLAN. Set the VLAN ID to something that you haven't used before. We'll call this "Telenet WAN"

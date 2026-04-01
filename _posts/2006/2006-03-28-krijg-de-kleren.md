@@ -1,18 +1,14 @@
 ---
-id: 44
-title: 'Krijg de kleren...'
+title: 'Krijg de kleren (Jasperina De Jong)'
 date: 2006-03-28T17:49:32+02:00
-author: Jan
-layout: single
-permalink: /2006/03/28/krijg-de-kleren/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - jasperina de jong
 ---
-Thanks to my [mum](http://foefel.kcore.org/blog) I discovered and can appreciate [Jasperina De Jong](http://www.jasperina.net) (a dutch cabaretier, who no longer performs unfortunately) a lot.
 
-One of the very good ones from her musical [De Engel Van Amsterdam](http://www.boudewijndegroot.nl/bdgtea.htm) (The Angel from Amsterdam) is this song, Krijg De Kleren.
+Thanks to my [mum](https://foefel.kcore.org/blog/) I discovered and can appreciate [Jasperina De Jong](http://web.archive.org/web/20050802080302/http://www.jasperina.net:80/)[^ia-1](a dutch cabaretier, who no longer performs unfortunately) a lot.
+
+One of the very good ones from her musical [De Engel Van Amsterdam](https://web.archive.org/web/20060624164850/https://www.boudewijndegroot.nl/bdgtea.htm)[^ia-2] (The Angel from Amsterdam) is this song, Krijg De Kleren.
 
 All the lyrics can be found at the url above.
 
@@ -79,3 +75,6 @@ All the lyrics can be found at the url above.
 > Krijg de kleren van het jaar.  
 > Krijg de kleren, krijg de kleren,  
 > krijg de kleren van het jaar.
+
+[^ia-1]: Internet Archive snapshot. Original URL: http://www.jasperina.net/ <!-- markdownlint-disable-line MD034 -->
+[^ia-2]: Internet Archive snapshot. Original URL: http://www.boudewijndegroot.nl/bdgtea.htm <!-- markdownlint-disable-line MD034 -->

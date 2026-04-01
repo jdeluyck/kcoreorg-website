@@ -1,20 +1,18 @@
 ---
-id: 125
 title: 'Work-event: Karting!'
 date: 2007-05-26T22:06:00+02:00
-author: Jan
-layout: single
-permalink: /2007/05/26/work-event-karting/
-categories:
-  - Work
+categories: [Life & Musings, Personal]
 tags:
   - karting
   - work
 ---
-Today we went Karting with [work](http://www.triennium.com/) in [Brussels Kart](http://www.brusselskart.be), a karting / expo / restaurant thing in Groot-bijgaarden (just outside of Brussels).
 
-It was a fun event, though I couldn't participate in the karting itself (bad stomach aches / sickness for a few days, and I doubt they wanted to redecorate their karting track). In the end, the oldest guys from [the team](/assets/images/2007/05/IMG_3400-me.jpg) won :p
+Today we went Karting with [work](https://web.archive.org/web/20060101043441/http://www.triennium.com:80/)[^ia1] in [Brussels Kart](http://www.brusselskart.be), a karting / expo / restaurant thing in Groot-bijgaarden (just outside of Brussels).
 
-Afterwards we had a nice dinner there too. I hadn't expected the restaurant to be so classy (including penguin-style personal table waiter), and the food was deliceous. I opted for \_the\_ veggy dish of the restaurant, which was [veggies with tofu](/assets/images/2007/05/IMG_3406-me.jpg).
+It was a fun event, though I couldn't participate in the karting itself (bad stomach aches / sickness for a few days, and I doubt they wanted to redecorate their karting track). In the end, the oldest guys from [the team](/assets/img/posts/2007/05/IMG_3400-me.jpg) won :p
 
-All the incriminating evidence can be found [here](http://sadevil.org/piwigo/index.php/category/79-carting).
+Afterwards we had a nice dinner there too. I hadn't expected the restaurant to be so classy (including penguin-style personal table waiter), and the food was deliceous. I opted for \_the\_ veggy dish of the restaurant, which was [veggies with tofu](/assets/img/posts/2007/05/IMG_3406-me.jpg).
+
+All the incriminating evidence can be found [on this page](http://sadevil.org/piwigo/index.php/category/79-carting).
+
+[^ia1]: Internet Archive snapshot. Original URL: http://www.triennium.com/ <!-- markdownlint-disable-line MD034 -->

@@ -1,17 +1,10 @@
 ---
-id: 258
-title: 'Fixkes - Lievelingsdier'
+title: 'Lievelingsdier (Fixkes)'
 date: 2008-07-10T18:03:48+02:00
-author: Jan
-layout: single
-permalink: /2008/07/10/fixkes-lievelingsdier/
-categories:
-  - Music
+categories: [Hobbies & Interests, Music]
 tags:
   - fixkes
-format: video
 ---
-**Fixkes - Lievelingsdier**
 
 Een zebra, daar gad'is over  
 Ne gorilla zal wel willen  
@@ -65,3 +58,5 @@ Gij zé m'n lievelingsdier
 Ik zet u in een kooike  
 Ik zet u in een kooike  
 Gij zé m'n lievelingsdier
+
+{% include embed/youtube.html id='n04M7XXItwA' %}
