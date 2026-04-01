@@ -2,7 +2,6 @@
 title: A new theme
 date: 2026-04-01
 categories: [Life & Musings, Site Updates]
-published: false
 tags:
   - blog
   - kcore.org
