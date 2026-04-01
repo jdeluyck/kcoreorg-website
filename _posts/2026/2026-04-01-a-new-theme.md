@@ -1,7 +1,8 @@
 ---
 title: A new theme
-date: 2026-03-15
+date: 2026-04-01
 categories: [Life & Musings, Site Updates]
+published: false
 tags:
   - blog
   - kcore.org
@@ -26,6 +27,7 @@ In the end it was more work than I had anticipated:
 * Linted everything using [rumdl](https://rumdl.dev)
 * Implemented some quality of viewing things of Chirpy
 * Replaced a bunch of dead links with links to the [Internet Archive](https://archive.org) [Wayback Machine](https://web.archive.org/)
+* Adjusted a bunch of images to be usable in a dark-theme environment
 * Probably some other stuff that I forgot about
 
 I'm happy with the end result. If you're reading this via RSS, you shouldn't notice much ;)
