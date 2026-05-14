@@ -9,3 +9,12 @@
 ';
 
 /* append your custom style below */
+/* Make code boxes scrollable by default if they exceed 15 lines
+ * https://github.com/cotes2020/jekyll-theme-chirpy/discussions/1319
+ */
+$max-lines: 20; // max lines of code to be scrolled
+
+.highlight {
+    overflow-y: auto;
+    max-height: $max-lines * 1em;
+}
