@@ -38,6 +38,7 @@ The deCONZ integration uses a [python library for deconz](https://github.com/Kan
 I came across [this blog post by OyWin](https://oywin.notion.site/oywin/How-to-control-the-IKEA-STARKVIND-AirPurifier-via-REST-API-01bd799d848141d295256368f3ec478f), detailing how they used the [REST sensors](https://www.home-assistant.io/integrations/sensor.rest) to add their Starkvind into Home Assistant. While the approach was definitely the right way to go, I was not a fan of doing so many individual REST calls (one per sensor) as it's not needed - Home Assistant can handle it in 1 call per REST-API target.
 
 ## deCONZ REST-API
+
 Checking the [deCONZ REST-API documentation for the Starkvind](https://dresden-elektronik.github.io/deconz-rest-doc/devices/ikea/starkvind_air_purifier/), there are a lot more attributes available, published under different devices: ZHAAirPurifier and ZHAParticulateMatter
 
 The ones I wanted were:
@@ -87,11 +88,11 @@ _Phoscon API Information for the Starkvind Air Purifier_
 
 Once you click on one of the sensors, you will get a dump of what the API returns, and on top of that window, the API endpoint URL. In my example this reads:
 
-`//home-assistant.internal:8123/api/hassio_ingress/juXMtc1g4Z85iNwXSis58q2z7Kw7XO0Lz5k2X6cBsZ0/api/792DA42905/sensors/93`. The converted direct unauthenticated URL becomes `http://home-assistant.internal:40850/api/792DA42905/sensors/93`. 
+`//home-assistant.internal:8123/api/hassio_ingress/juXMtc1g4Z85iNwXSis58q2z7Kw7XO0Lz5k2X6cBsZ0/api/792DA42905/sensors/93`. The converted direct unauthenticated URL becomes `http://home-assistant.internal:40850/api/792DA42905/sensors/93`.
 ![Phoscon API Information - Starkvind ZHAAirPurifier](/assets/img/posts/2026/05/phoscon_api_information_zhaairpurifier.png){: .align-center}
 _Phoscon API information for the ZHAAirPurifier entity of the Starkvind Air Purifier_
 
-`792DA42905` is your own API key, and `93` is the internal numbering of deCONZ for your sensor. 
+`792DA42905` is your own API key, and `93` is the internal numbering of deCONZ for your sensor.
 
 Now, this URL allows you to query the API from the _outside_. I did not need this as I wanted to run the queries from inside Home Assistant. You can find the internal url by going to Home Assistant &rarr; Settings &rarr; Devices & services, selecting the deCONZ integration and picking the Conbee2. In the Service Info there is a "Visit" link, which shows you the internal hostname to use.
 ![deCONZ Conbee2 Service Info screenshot](/assets/img/posts/2026/05/deconz_service_info_dark.png){: .align-center .dark}
@@ -103,6 +104,7 @@ This will usually be `core-deconz`, so the URL becomes `http://core-deconz:40850
 ## Home Assistant Configuration
 
 ### Creating the REST sensors
+
 Using the URL assembled above I added the [sensor](https://www.home-assistant.io/integrations/sensor.rest) and [binary_sensor](https://www.home-assistant.io/integrations/binary_sensor.rest) entities to Home Assistant.
 
 ```yaml
@@ -113,47 +115,47 @@ Using the URL assembled above I added the [sensor](https://www.home-assistant.io
       - name: Ikea Starkvind Led Indication
         value_template: "{{ value_json.config.ledindication }}"
         unique_id: ikea_starkvind_led_indication
-  
+
       - name: Ikea Starkvind Locked
         value_template: "{{ value_json.config.locked }}"
         unique_id: ikea_starkvind_locked
-  
+
       - name: Ikea Starkvind Sensor On
         value_template: "{{ value_json.config.on }}"
         unique_id: ikea_starkvind_sensor_on
-  
+
       - name: Ikea Starkvind Replace Filter
         value_template: "{{ value_json.state.replacefilter }}"
         unique_id: ikea_starkvind_replace_filter
-  
+
     sensor:
       - name: Ikea Starkvind Filter Runtime
         value_template: "{{ value_json.state.filterruntime }}"
         unique_id: ikea_starkvind_filter_runtime
         device_class: duration
         unit_of_measurement: min
-  
+
       - name: Ikea Starkvind Device Runtime
         value_template: "{{ value_json.state.deviceruntime }}"
         unique_id: ikea_starkvind_device_runtime
         device_class: duration
         unit_of_measurement: min
-  
+
       - name: Ikea Starkvind Filter Lifetime
         value_template: "{{ value_json.config.filterlifetime }}"
         unique_id: ikea_starkvind_filter_lifetime
         device_class: duration
         unit_of_measurement: min
-  
+
       - name: Ikea Starkvind Mode
         value_template: "{{ value_json.config.mode }}"
         unique_id: ikea_starkvind_mode
-  
+
       - name: Ikea Starkvind Fan Speed
         value_template: "{{ value_json.state.speed }}"
         unique_id: ikea_starkvind_fan_speed
         state_class: measurement
-  
+
       - name: Ikea Starkvind Last Updated
         value_template: "{{ value_json.state.lastupdated + 'Z' }}"
         unique_id: ikea_starkvind_lastupdated
@@ -162,7 +164,9 @@ Using the URL assembled above I added the [sensor](https://www.home-assistant.io
 ```
 
 ### Enabling setting the led indicator
+
 To be able to update the `ledindication`, I added a [binary helper](https://www.home-assistant.io/integrations/input_boolean/) called `ikea_starkvind_ledindication` as a toggle, a [rest_command](https://www.home-assistant.io/integrations/rest_command/) to set it, and an automation to bind the two together:
+
 ```yaml
 {% raw %}
 rest_command:
@@ -190,6 +194,7 @@ mode: single
 ### Additional sensors
 
 I also added a [template](https://www.home-assistant.io/integrations/template/#sensor) sensor to calculate the lifetime left of the filter:
+
 ```yaml
 {% raw %}
 template:
@@ -203,6 +208,7 @@ template:
 ```
 
 ### Creating a Fan entity
+
 To use the premade cards I needed a fan entity. This can be created as a template, based off of the previously created entities:
 
 ```yaml
@@ -258,9 +264,11 @@ To use the premade cards I needed a fan entity. This can be created as a templat
 ```
 
 ## Home Assistant Cards
-I tried out a few cards to see what I liked. 
+
+I tried out a few cards to see what I liked.
 
 ### Custom Purifier Card
+
 My first try was the custom [air purifier card](https://github.com/denysdovhan/purifier-card) with this configuration:
 
 ```yaml
@@ -304,6 +312,7 @@ It ended up looking like this, which did not thrill me.
 _Air Purifier Card_
 
 ### Custom cards
+
 I cobbled something together based on the [mushroom-fan-card](https://github.com/piitaya/lovelace-mushroom/blob/main/docs/cards/fan.md), the [button-card](https://github.com/custom-cards/button-card), the [template-entity-row](https://github.com/thomasloven/lovelace-template-entity-row) and the [lovelace-expander-card](https://github.com/MelleD/lovelace-expander-card).
 
 ```yaml
