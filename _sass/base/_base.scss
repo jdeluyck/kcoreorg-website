@@ -6,9 +6,6 @@
 @use '../themes/light';
 @use '../themes/dark';
 
-:root {
-  font-size: 18px;
-
 $enable-dual: not list.index(v.$theme-options, v.$theme);
 $enable-light: v.$theme == light or $enable-dual;
 $enable-dark: v.$theme == dark or $enable-dual;
