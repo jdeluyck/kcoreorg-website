@@ -14,7 +14,7 @@ tags:
 description: Code, and where to store it
 ---
 
-*This is the sixth installment of a series of posts about taking back control of my web presence. [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) is about hosting, [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) talks about DNS, in [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox, in [Part 4](/2025/04/30/taking-back-control-webpresence-part4/) I move Mastodon around while in [Part 5](/2025/05/15/taking-back-control-webpresence-part5/) I Tunnel All The Things with Pangolin.*
+*This is the sixth installment of a series of posts about taking back control of my web presence. In [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) I ramble about VPS providers and containers while in [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) I do DNS things. In [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox while in [Part 4](/2025/04/30/taking-back-control-webpresence-part4/) I move Mastodon around. In [Part 5](/2025/05/15/taking-back-control-webpresence-part5/) I Tunnel All The Things with Pangolin.*
 
 The code I have hosted publicly is on [GitHub](https://github.com) - a freemium [software forge](https://en.wikipedia.org/wiki/Forge_%28software%29), which uses [git](https://en.wikipedia.org/wiki/Git) for sharing code. It's owned by Microsoft, and one of the biggest in the field (if not *the* biggest).
 I also have some private repositories on GitHub, with code that's really just for me.

@@ -16,7 +16,7 @@ tags:
 description: Ground control to Mastodon... Ground control to Mastodon...
 ---
 
-*This is the fourth installment of a series of posts about taking back control of my web presence. [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) is about hosting, [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) talks about DNS and in [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox.*
+*This is the fourth installment of a series of posts about taking back control of my web presence. In [Part 1](/2025/03/15/taking-back-control-webpresence-part1/) I ramble about VPS providers and containers while in [Part 2](/2025/03/30/taking-back-control-webpresence-part2/) I do DNS things and in [Part 3](/2025/04/15/taking-back-control-webpresence-part3/) I rediscover Proxmox.*
 
 I was [running](/2022/11/05/mastodon-on-oracle-cloud/) my [Mastodon](https://joinmastodon.org/) instance on the [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/), but as detailed in part 1, it was time to move away and close down my Oracle account.
 
