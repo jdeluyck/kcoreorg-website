@@ -14,13 +14,13 @@ description: ACME SSL Certificates, made in Italy
 
 As I detailed in my previous posts, I used [Let's Encrypt](https://letsencrypt.org/). But, as the astute reader can see, I've been wanting to reduce my dependency on non-European companies.
 
-Let's Encrypt was not high on the list of things to replace - it's free, it works and it is a force for good. It being under US jurisdiction felt _mildly_ annoying. 
+Let's Encrypt was not high on the list of things to replace - it's free, it works and it is a force for good. It being under US jurisdiction felt *mildly* annoying.
 
 I recently came across [Actalis](https://actalis.com), a company based in Italy that offers a [free plan](https://www.actalis.com/subscription) where you can get unlimited SSL certificates for domain validation via [ACME](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment).
 
 Switching my stack over was as simple as registering an account and adding this to my [Caddy](https://caddyserver.com) configuration:
 
-```
+```text
 email my-email-address@domain.tld
 acme_ca https://acme-api.actalis.com/acme/directory
 acme_eab {
@@ -28,6 +28,7 @@ acme_eab {
   mac_key yyyyyyyyKPXMgkkxxxxxxLQaIuGhHQbbbbbb
 }
 ```
+
 (You'll find both values in the [Actalis console](https://www.actalis.com/manage-with-acme).)
 ![The Actalis console listing the credentials for ACME](/assets/img/posts/2026/07/actalis_console.png){: .align-center}
 
