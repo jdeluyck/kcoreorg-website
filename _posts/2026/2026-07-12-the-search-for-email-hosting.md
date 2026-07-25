@@ -125,7 +125,9 @@ Proton is hosted (for now) in Switzerland, Tuta in Germany.
 
 These two providers are end-to-end encrypted and have (in my view) a lock-in problem: it's not easy to get your data in or out. They both have a means for importing and exporting, but it's a far cry from using an IMAP copy between mailboxes. The main reason I don't want to use them.
 
-For a long time neither of them had the option to share calendar links to 3rd parties outside of their ecosystem, which also negated them for me.
+For a long time neither of them had the option to share calendar links to 3rd parties outside of their ecosystem, which also negated them for me. This seems to be possible now.
+
+Additionaly, Proton has no support for dark mail content, and while Tuta does have that, it's half baked.
 
 My [threat model](https://en.wikipedia.org/wiki/Threat_model) also does not require end-to-end encryption.
 
@@ -149,7 +151,7 @@ I contacted support about this. After a really long round-trip (nearly a week), 
 
 ### [Infomaniak](https://www.infomaniak.com/)
 
-Hosted in Switzerland. No dark-themed emails, and the interface is confusing. They have so many things that I don't need or want in the [K-Suite](https://www.infomaniak.com/en/ksuite) that it's off-putting to use.
+Hosted in Switzerland. No dark-themed emails, and the interface is confusing. They have so many things that I don't need or want in the [K-Suite](https://www.infomaniak.com/en/ksuite) that it's off-putting to use. Also, no dark mode for mail content.
 
 ### [Migadu](https://migadu.com/)
 
