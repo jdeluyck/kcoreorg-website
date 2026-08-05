@@ -1,7 +1,7 @@
 ---
 title: The search for email hosting (and why I'm currently staying put)
 date: 2026-07-12
-last_modified_at: 2026-07-17
+last_modified_at: 2026-08-05
 categories: [Technology & IT, Networking]
 tags:
   - mail hosting
@@ -23,6 +23,7 @@ tags:
   - posteo
   - eclipso
   - runbox
+  - grommunio
 ---
 
 I've been weighing whether to move away from Fastmail, for reasons that are more about jurisdiction than the service itself. The short version: I'm staying put for now, keeping my eyes open for how things evolve. If I ever do decide to move, it should be painless - one of the beautiful things about having your own domain linked to an email provider that uses open standards is that it's easy to pack up and leave.
@@ -43,7 +44,7 @@ In 2005 I moved to [Lunar Pages](https://web.archive.org/web/20060618093204/http
 
 In 2008 I moved my mail to [Google Apps for My Domain](https://en.wikipedia.org/wiki/Google_Workspace), which had a free plan at the time. I also moved my calendar and contacts there, removing them from the free Google services that I had been using up to then.
 
-With Google Apps for My Domain (now known as Google Workspace) you could use your own domain. The Google interfaces were amongst the best that I had come across; it was free, and Google did not put ads in the Google Apps variants (since they were geared towards paying customers).
+With Google Apps for My Domain (now known as Google Workspace), you could use your own domain. The Google interfaces were amongst the best that I had come across; the service was free, and Google did not put ads in the Google Apps variants (since they were geared towards paying customers).
 
 ### Fastmail (2016)
 
@@ -91,7 +92,7 @@ And it was fixed. At that time I wasn't even aware who Bron was - he's the [CEO 
 
 ## So why consider moving?
 
-My current subscription ends in October, so this is a good moment to weigh things up. To be frank: I'd prefer staying with Fastmail - it works, and it works well - but here's why:
+My current subscription ends in October, so this is a good moment to weigh things up. I would prefer staying with Fastmail - it works, and it works well, but there's one thing that keeps nagging at me:
 
 >I am not a lawyer. This is my own interpretation. Make of it what you will.
 {: .prompt-warning }
@@ -100,7 +101,7 @@ Fastmail is an Australian company, but their servers are exclusively hosted in t
 
 Fastmail has [addressed this concern back in 2013](https://www.fastmail.com/blog/fastmails-servers-are-in-the-us-what-this-means-for-you/), arguing that as an Australian company with no US incorporation or staff, they aren't directly bound by US court orders. This post predates the CLOUD Act by five years - a law written specifically to reach providers with "sufficient contacts" to the US, including serving US customers, regardless of where they're incorporated.
 
-None of this is specifically about Fastmail. My feelings about the US jurisdiction have shifted in recent years, for [obvious reasons](https://en.wikipedia.org/wiki/Anti-Americanism#Second_Trump_administration). I know [international intelligence sharing agreements](https://en.wikipedia.org/wiki/Five_Eyes) exist and that this concern doesn't disappear by moving to European servers - but it still feels like a meaningful distinction to me.
+None of this is specifically about Fastmail. My feelings about US jurisdiction have shifted in recent years, for [obvious reasons](https://en.wikipedia.org/wiki/Anti-Americanism#Second_Trump_administration). I know [international intelligence sharing agreements](https://en.wikipedia.org/wiki/Five_Eyes) exist and that this concern doesn't disappear by moving to European servers - but it still feels like a meaningful distinction to me.
 
 ## Requirements
 
@@ -127,7 +128,7 @@ These two providers are end-to-end encrypted and have (in my view) a lock-in pro
 
 For a long time neither of them had the option to share calendar links to 3rd parties outside of their ecosystem, which also negated them for me. This seems to be possible now.
 
-Additionaly, Proton has no support for dark mail content, and while Tuta does have that, it's half baked.
+Additionally, Proton has no support for dark-themed mail content, and while Tuta does have that, it's half baked.
 
 My [threat model](https://en.wikipedia.org/wiki/Threat_model) also does not require end-to-end encryption.
 
@@ -137,7 +138,7 @@ Hosted in Germany. The web interface is clean, but unfortunately no dark mode to
 
 ### [Runbox](https://runbox.com)
 
-Hosted in Norway. The interface feels of a mishmash between an older version and the latest iteration, and it's not what I'd call snappy. No dark mode support.
+Hosted in Norway. The interface is better than the older version, but often it switches back and forth between versions. No dark mode support, and also no way to share or subscribe to calendars.
 
 ### [Posteo](https://posteo.de)
 
@@ -151,11 +152,11 @@ I contacted support about this. After a really long round-trip (nearly a week), 
 
 ### [Infomaniak](https://www.infomaniak.com/)
 
-Hosted in Switzerland. No dark-themed emails, and the interface is confusing. They have so many things that I don't need or want in the [K-Suite](https://www.infomaniak.com/en/ksuite) that it's off-putting to use. Also, no dark mode for mail content.
+Hosted in Switzerland. No dark-themed emails, and the interface is confusing. They have so many things that I don't need or want in the [K-Suite](https://www.infomaniak.com/en/ksuite) that it's off-putting to use.
 
 ### [Migadu](https://migadu.com/)
 
-Also hosted in Switzerland. Only mail, which is too limited.
+Also hosted in Switzerland. Mail and very limited calendaring support (only through CalDAV).
 
 ### [Startmail](https://www.startmail.com/)
 
@@ -163,15 +164,22 @@ Hosted in The Netherlands. No calendar support, which I do require.
 
 ### [Mailfence](https://mailfence.com/)
 
-Hosted in Belgium. Supports mail, contacts, calendars. No dark themed emails, unfortunately. The interface needs to be improved to be really something I'd love to use on a daily basis.
+Hosted in Belgium. Supports mail, contacts, calendars. No dark-themed emails, unfortunately. The interface needs to be improved to be really something I'd love to use on a daily basis.
 
 ### [Soverin](https://soverin.com/)
 
-Hosted in The Netherlands. While they have all the parts, the interface feels old and not pleasant to use.
+Hosted in The Netherlands. While they have all the parts, the interface feels old and not pleasant to use. Dark mode is wishy-washy, both for mails and the UI.
 
-> Update 2026/07/17: Fastmail will be [adding email hosting in Amsterdam](https://www.businesswire.com/news/home/20260713988425/en/Fastmail-Launches-EU-Hosted-Email-Infrastructure-Giving-Customers-Control-Over-Where-Their-Data-Lives).
+### [Grommunio](https://grommunio.com/)
+
+This is actually an Exchange replacement. I asked for a demo account on Grommunio to test it (since they don't sell it themselves, only through partners). Dark mode works well (mail and UI), but there is no way to subscribe to calendars from outside Grommunio without relying on scripts.
+Finding a reseller that will deal with a customer (vs a business) might also be a challenge.
+
+> Update 2026/07/17: Businesswire: Fastmail will be [adding email hosting in Amsterdam](https://www.businesswire.com/news/home/20260713988425/en/Fastmail-Launches-EU-Hosted-Email-Infrastructure-Giving-Customers-Control-Over-Where-Their-Data-Lives).
+{: .prompt-info }
+> Update 2026/08/03: Fastmail blog: [Fastmail offers EU data region](https://www.fastmail.com/blog/fastmail-offers-eu-data-region/)
 {: .prompt-info }
 
-In a first phase, data will still be copied to the US as a backup — which, legally, changes very little. It does open up the possibility that in a future phase data won't be sent to the US anymore, which would resolve my main issue.
+In a first phase, the secondary copy of the data still lives in the US as a backup — which, legally, changes very little. The blog post does open up the possibility that in a future phase data won't be sent to the US anymore, which would resolve my main issue.
 
 Being realistic: [international data sharing agreements](https://en.wikipedia.org/wiki/Five_Eyes) exist, and Fastmail's Australian incorporation means [Australian law applies](https://en.wikipedia.org/wiki/Assistance_and_Access_Act_2018) to the company regardless of where the data is hosted. But it would be a step in the right direction. Bron answered some questions in this [Reddit thread](https://www.reddit.com/r/fastmail/comments/1uvbp83/fastmail_will_add_eu_hosting/) - we'll need to wait and see what happens.
