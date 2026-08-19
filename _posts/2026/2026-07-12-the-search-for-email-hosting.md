@@ -1,5 +1,5 @@
 ---
-title: The search for email hosting (and why I'm currently staying put)
+title: The search for email hosting
 date: 2026-07-12
 last_modified_at: 2026-08-05
 categories: [Technology & IT, Networking]
@@ -97,11 +97,13 @@ My current subscription ends in October, so this is a good moment to weigh thing
 >I am not a lawyer. This is my own interpretation. Make of it what you will.
 {: .prompt-warning }
 
-Fastmail is an Australian company, but their servers are exclusively hosted in the US - and data physically on US soil falls under US jurisdiction regardless of where the company is incorporated. [FISA Section 702](https://en.wikipedia.org/wiki/FISA_Amendments_Act_of_2008) allows US intelligence agencies to collect communications of non-US persons from US-based servers without a warrant, and the [CLOUD Act](https://en.wikipedia.org/wiki/CLOUD_Act) allows law enforcement to compel access through standard legal process.
+Fastmail is an Australian company which hosts its servers in the US. Data that is physically there falls under US jurisdiction regardless of where the company is incorporated. [FISA Section 702](https://en.wikipedia.org/wiki/FISA_Amendments_Act_of_2008) gives US intelligence agencies the ability to collect communications of non-US persons from US-based servers without a warrant, and the [CLOUD Act](https://en.wikipedia.org/wiki/CLOUD_Act) allows them to compel access through standard legal process.
 
-Fastmail has [addressed this concern back in 2013](https://www.fastmail.com/blog/fastmails-servers-are-in-the-us-what-this-means-for-you/), arguing that as an Australian company with no US incorporation or staff, they aren't directly bound by US court orders. This post predates the CLOUD Act by five years - a law written specifically to reach providers with "sufficient contacts" to the US, including serving US customers, regardless of where they're incorporated.
+Fastmail [addressed this concern back in 2013](https://www.fastmail.com/blog/fastmails-servers-are-in-the-us-what-this-means-for-you/) in which they stated that as an Australian company with no US incorporation or staff, they are not directly bound by US court orders. The CLOUD Act which has been passed since mitigates this though.
 
-None of this is specifically about Fastmail. My feelings about US jurisdiction have shifted in recent years, for [obvious reasons](https://en.wikipedia.org/wiki/Anti-Americanism#Second_Trump_administration). I know [international intelligence sharing agreements](https://en.wikipedia.org/wiki/Five_Eyes) exist and that this concern doesn't disappear by moving to European servers - but it still feels like a meaningful distinction to me.
+The above concerns are not specifically tied to Fastmail, but more to do with how I feel about US jurisdiction. They've behaved less like a trusted partner and more like an [abusive spouse](https://en.wikipedia.org/wiki/Anti-Americanism#Second_Trump_administration).
+
+I know that there are [international intelligence sharing agreements](https://en.wikipedia.org/wiki/Five_Eyes), so even moving to a purely European hosting service would not mitigate this.
 
 ## Requirements
 
@@ -118,7 +120,7 @@ None of this is specifically about Fastmail. My feelings about US jurisdiction h
 
 ## Hosting providers
 
-I had a look at a bunch of alternative hosting providers.
+I had a look at a bunch of alternative hosting providers, in no particular order.
 
 ### [Proton](https://proton.me/mail) & [Tuta](https://tuta.com/)
 
@@ -180,6 +182,7 @@ Finding a reseller that will deal with a customer (vs a business) might also be 
 > Update 2026/08/03: Fastmail blog: [Fastmail offers EU data region](https://www.fastmail.com/blog/fastmail-offers-eu-data-region/)
 {: .prompt-info }
 
-In a first phase, the secondary copy of the data still lives in the US as a backup — which, legally, changes very little. The blog post does open up the possibility that in a future phase data won't be sent to the US anymore, which would resolve my main issue.
+In a first phase, the secondary copy of the data (for resiliency in case the EU servers go down) will still live in the US. The blog post does open up the possibility that in a future phase data won't be sent to the US anymore.
 
-Being realistic: [international data sharing agreements](https://en.wikipedia.org/wiki/Five_Eyes) exist, and Fastmail's Australian incorporation means [Australian law applies](https://en.wikipedia.org/wiki/Assistance_and_Access_Act_2018) to the company regardless of where the data is hosted. But it would be a step in the right direction. Bron answered some questions in this [Reddit thread](https://www.reddit.com/r/fastmail/comments/1uvbp83/fastmail_will_add_eu_hosting/) - we'll need to wait and see what happens.
+Fastmail is an Australian company and as such it is [bound by Australian law](https://en.wikipedia.org/wiki/Assistance_and_Access_Act_2018). This, combined with [international data sharing agreements](https://en.wikipedia.org/wiki/Five_Eyes), means that data can be subpoenaed regardless of where it is hosted.
+For me personally it feels like a step in the right direction though. Bron answered some questions in this [Reddit thread](https://www.reddit.com/r/fastmail/comments/1uvbp83/fastmail_will_add_eu_hosting/) - we'll need to wait and see what happens.
