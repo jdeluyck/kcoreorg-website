@@ -1,7 +1,7 @@
 ---
 title: The search for email hosting
 date: 2026-07-12
-last_modified_at: 2026-08-05
+last_modified_at: 2026-08-20
 categories: [Technology & IT, Networking]
 tags:
   - mail hosting
@@ -26,7 +26,7 @@ tags:
   - grommunio
 ---
 
-I've been weighing whether to move away from Fastmail, for reasons that are more about jurisdiction than the service itself. The short version: I'm staying put for now, keeping my eyes open for how things evolve. If I ever do decide to move, it should be painless - one of the beautiful things about having your own domain linked to an email provider that uses open standards is that it's easy to pack up and leave.
+I've been pondering whether to move away from Fastmail - not because it's a bad service, but because of where the servers are hosted. I've weighed a bunch, but for now I'm staying with Fastmail. The beauty of email is that it's based on open standards, and you can just move whenever you feel like it.
 
 ## Mail-hosting history
 
