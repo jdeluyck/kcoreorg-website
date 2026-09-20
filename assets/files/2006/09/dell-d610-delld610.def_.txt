@@ -11,7 +11,7 @@
 		<userdef      keycode="135" command="/usr/local/bin/kdialog_acpi_batt_status">Battery Status</userdef>
 	</config>
 	<contributor>
-		<name>Jan De Luyck</name>
+		<name>Jan</name>
 		<email>jan@kcore.org</email>
 	</contributor>
 </definition>
