@@ -54,9 +54,9 @@ sudo chmod -R 0700 /var/lib/containers/user/podman
 sudo chown -R podman:podman /var/lib/containers/user/podman
 ```
 
-### SeLinux
+### SELinux
 
-Since this is a linux distribution which has its origins with Red Hat, it has [SeLinux](https://github.com/SELinuxProject) enabled. And since SeLinux gives all kinds of nice additional protections, we want to keep that enabled.
+Since this is a linux distribution which has its origins with Red Hat, it has [SELinux](https://github.com/SELinuxProject) enabled. And since SELinux gives all kinds of nice additional protections, we want to keep that enabled.
 
 Checking `/etc/selinux/targeted/contexts/files/file_contexts`{: .filepath}, I found out which additional selinux contexts I had to add to the newly created directories:
 
@@ -205,7 +205,7 @@ TZ=Europe/Brussels
 
 which is part of the Traefik container environment.
 
-### More SeLinux
+### More SELinux
 
 The attentive reader might have spotted the line `SecurityLabelType=traefik.process` in my Traefik podman unit file above.
 
@@ -265,7 +265,7 @@ This policy needs to be loaded using the command
 sudo semodule -i traefik.cil /usr/share/udica/templates/base_container.cil
 ```
 
-after which Traefik gets allowed through by SeLinux.
+after which Traefik gets allowed through by SELinux.
 
 ## Using NFS with Podman
 

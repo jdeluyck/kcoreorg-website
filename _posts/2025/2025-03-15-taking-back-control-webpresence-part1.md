@@ -170,7 +170,7 @@ Another thing I wanted - which is common in the shared webhosting space - is a w
 
 Enter [sshpiper](https://github.com/tg123/sshpiper) - an SSH reverse proxy. You SSH into sshpiper, with a username and key, and it'll proxy the connection towards a pre-configured backend sshd with its own key.
 
-Since this runs on a separate port (I picked tcp/2222), I needed to add this to the SeLinux managed ports, and then write a custom policy for it.
+Since this runs on a separate port (I picked tcp/2222), I needed to add this to the SELinux managed ports, and then write a custom policy for it.
 
 ```shell
 sudo semanage port -a -t ssh_port_t -p tcp 2222
