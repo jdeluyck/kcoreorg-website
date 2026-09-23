@@ -105,15 +105,15 @@ WorkingDirectory=%h/containers/%i
 Environment="DOCKER_HOST=unix:%t/podman/podman.sock"
 Type=oneshot
 ExecStart=/bin/bash -c '\
-  BEFORE=$$(/usr/bin/podman compose images -q); \
+  BEFORE=$$(/usr/bin/podman compose images -q | sort -u); \
   /usr/bin/podman compose pull; \
-  AFTER=$$(/usr/bin/podman compose images -q); \
+  AFTER=$$(/usr/bin/podman compose images -q | sort -u); \
   if [ "$$BEFORE" != "$$AFTER" ]; then \
-    echo "New image layer downloaded. Recreating containers for %i..."; \
-    /usr/bin/podman compose up -d; \
+    echo "New image downloaded for %i. Recreating containers..."; \
+    /usr/bin/podman compose up -d --force-recreate; \
     /usr/bin/podman image prune -f; \
   else \
-    echo "Images for %i are up to date. Skipping restart."; \
+    echo "Images for %i are unchanged. Skipping restart."; \
   fi'
 
 [Install]
