@@ -1,6 +1,7 @@
 ---
 title: Switching from Podman Quadlets to Podman Compose
 date: 2026-09-09
+last_modified_at: 2026-09-23
 categories: [Technology & IT, Virtualisation]
 tags:
   - containers
@@ -103,9 +104,17 @@ After=network-online.target
 WorkingDirectory=%h/containers/%i
 Environment="DOCKER_HOST=unix:%t/podman/podman.sock"
 Type=oneshot
-ExecStart=/usr/bin/podman compose pull
-ExecStartPost=/usr/bin/podman compose up -d
-ExecStartPost=/usr/bin/podman image prune -f
+ExecStart=/bin/bash -c '\
+  BEFORE=$$(/usr/bin/podman compose images -q); \
+  /usr/bin/podman compose pull; \
+  AFTER=$$(/usr/bin/podman compose images -q); \
+  if [ "$$BEFORE" != "$$AFTER" ]; then \
+    echo "New image layer downloaded. Recreating containers for %i..."; \
+    /usr/bin/podman compose up -d; \
+    /usr/bin/podman image prune -f; \
+  else \
+    echo "Images for %i are up to date. Skipping restart."; \
+  fi'
 
 [Install]
 WantedBy=default.target
