@@ -101,9 +101,12 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
+Type=oneshot
 WorkingDirectory=%h/containers/%i
 Environment="DOCKER_HOST=unix:%t/podman/podman.sock"
-Type=oneshot
+KillMode=process
+RemainAfterExit=no
+
 ExecStart=/bin/bash -c '\
   BEFORE=$$(/usr/bin/podman compose images -q | sort -u); \
   /usr/bin/podman compose pull; \
